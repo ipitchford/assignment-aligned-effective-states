@@ -1,0 +1,775 @@
+{
+  "all_34_unit_assignment_competition": {
+    "distinct_best_assignments": 29,
+    "non_singleton_source_units_best_matched_to_one_assignment": 17,
+    "score": "post-ReLU two-sided AUROC on all 7,252 bank rows",
+    "units": [
+      {
+        "best_assignment": 16,
+        "best_assignment_name": "TFFFF",
+        "best_auc": 0.9953909311551123,
+        "margin": 0.22260932585204307,
+        "runner_up_assignment": 20,
+        "runner_up_assignment_name": "TFTFF",
+        "runner_up_auc": 0.7727816053030693,
+        "source_singleton_unit": true,
+        "unit": 10
+      },
+      {
+        "best_assignment": 12,
+        "best_assignment_name": "FTTFF",
+        "best_auc": 0.9963912122872072,
+        "margin": 0.27368443118014596,
+        "runner_up_assignment": 13,
+        "runner_up_assignment_name": "FTTFT",
+        "runner_up_auc": 0.7227067811070612,
+        "source_singleton_unit": false,
+        "unit": 29
+      },
+      {
+        "best_assignment": 24,
+        "best_assignment_name": "TTFFF",
+        "best_auc": 0.9935957377881677,
+        "margin": 0.37522721038190965,
+        "runner_up_assignment": 28,
+        "runner_up_assignment_name": "TTTFF",
+        "runner_up_auc": 0.618368527406258,
+        "source_singleton_unit": false,
+        "unit": 36
+      },
+      {
+        "best_assignment": 0,
+        "best_assignment_name": "FFFFF",
+        "best_auc": 0.987834669907561,
+        "margin": 0.21363103943445605,
+        "runner_up_assignment": 8,
+        "runner_up_assignment_name": "FTFFF",
+        "runner_up_auc": 0.7742036304731049,
+        "source_singleton_unit": true,
+        "unit": 41
+      },
+      {
+        "best_assignment": 12,
+        "best_assignment_name": "FTTFF",
+        "best_auc": 0.9458494859261757,
+        "margin": 0.042969644104268956,
+        "runner_up_assignment": 8,
+        "runner_up_assignment_name": "FTFFF",
+        "runner_up_auc": 0.9028798418219067,
+        "source_singleton_unit": false,
+        "unit": 48
+      },
+      {
+        "best_assignment": 28,
+        "best_assignment_name": "TTTFF",
+        "best_auc": 0.977393809089521,
+        "margin": 0.13125871903451913,
+        "runner_up_assignment": 29,
+        "runner_up_assignment_name": "TTTFT",
+        "runner_up_auc": 0.8461350900550019,
+        "source_singleton_unit": true,
+        "unit": 55
+      },
+      {
+        "best_assignment": 7,
+        "best_assignment_name": "FFTTT",
+        "best_auc": 0.9938077386530995,
+        "margin": 0.2070207601550067,
+        "runner_up_assignment": 6,
+        "runner_up_assignment_name": "FFTTF",
+        "runner_up_auc": 0.7867869784980928,
+        "source_singleton_unit": true,
+        "unit": 77
+      },
+      {
+        "best_assignment": 14,
+        "best_assignment_name": "FTTTF",
+        "best_auc": 0.9693394761654726,
+        "margin": 0.0789921914981272,
+        "runner_up_assignment": 15,
+        "runner_up_assignment_name": "FTTTT",
+        "runner_up_auc": 0.8903472846673454,
+        "source_singleton_unit": true,
+        "unit": 81
+      },
+      {
+        "best_assignment": 22,
+        "best_assignment_name": "TFTTF",
+        "best_auc": 0.9954525398408648,
+        "margin": 0.33856299643959986,
+        "runner_up_assignment": 30,
+        "runner_up_assignment_name": "TTTTF",
+        "runner_up_auc": 0.6568895434012649,
+        "source_singleton_unit": false,
+        "unit": 96
+      },
+      {
+        "best_assignment": 10,
+        "best_assignment_name": "FTFTF",
+        "best_auc": 0.9947336594102856,
+        "margin": 0.37427409974287085,
+        "runner_up_assignment": 11,
+        "runner_up_assignment_name": "FTFTT",
+        "runner_up_auc": 0.6204595596674147,
+        "source_singleton_unit": false,
+        "unit": 150
+      },
+      {
+        "best_assignment": 3,
+        "best_assignment_name": "FFFTT",
+        "best_auc": 1.0,
+        "margin": 0.38156900551158346,
+        "runner_up_assignment": 11,
+        "runner_up_assignment_name": "FTFTT",
+        "runner_up_auc": 0.6184309944884165,
+        "source_singleton_unit": true,
+        "unit": 185
+      },
+      {
+        "best_assignment": 15,
+        "best_assignment_name": "FTTTT",
+        "best_auc": 0.9997909671086285,
+        "margin": 0.36668798069990716,
+        "runner_up_assignment": 11,
+        "runner_up_assignment_name": "FTFTT",
+        "runner_up_auc": 0.6331029864087213,
+        "source_singleton_unit": false,
+        "unit": 189
+      },
+      {
+        "best_assignment": 18,
+        "best_assignment_name": "TFFTF",
+        "best_auc": 0.9889520034238553,
+        "margin": 0.29163216366314326,
+        "runner_up_assignment": 22,
+        "runner_up_assignment_name": "TFTTF",
+        "runner_up_auc": 0.697319839760712,
+        "source_singleton_unit": false,
+        "unit": 195
+      },
+      {
+        "best_assignment": 25,
+        "best_assignment_name": "TTFFT",
+        "best_auc": 0.9919268728128813,
+        "margin": 0.350940680455311,
+        "runner_up_assignment": 29,
+        "runner_up_assignment_name": "TTTFT",
+        "runner_up_auc": 0.6409861923575703,
+        "source_singleton_unit": false,
+        "unit": 201
+      },
+      {
+        "best_assignment": 1,
+        "best_assignment_name": "FFFFT",
+        "best_auc": 0.9999886937812404,
+        "margin": 0.3832789076579419,
+        "runner_up_assignment": 5,
+        "runner_up_assignment_name": "FFTFT",
+        "runner_up_auc": 0.6167097861232985,
+        "source_singleton_unit": true,
+        "unit": 224
+      },
+      {
+        "best_assignment": 11,
+        "best_assignment_name": "FTFTT",
+        "best_auc": 0.9880878504824323,
+        "margin": 0.2463070099584136,
+        "runner_up_assignment": 15,
+        "runner_up_assignment_name": "FTTTT",
+        "runner_up_auc": 0.7417808405240187,
+        "source_singleton_unit": false,
+        "unit": 231
+      },
+      {
+        "best_assignment": 9,
+        "best_assignment_name": "FTFFT",
+        "best_auc": 0.9950503121335896,
+        "margin": 0.23420367818247234,
+        "runner_up_assignment": 8,
+        "runner_up_assignment_name": "FTFFF",
+        "runner_up_auc": 0.7608466339511173,
+        "source_singleton_unit": true,
+        "unit": 245
+      },
+      {
+        "best_assignment": 27,
+        "best_assignment_name": "TTFTT",
+        "best_auc": 0.9901741824591367,
+        "margin": 0.236749496564438,
+        "runner_up_assignment": 31,
+        "runner_up_assignment_name": "TTTTT",
+        "runner_up_auc": 0.7534246858946987,
+        "source_singleton_unit": true,
+        "unit": 261
+      },
+      {
+        "best_assignment": 23,
+        "best_assignment_name": "TFTTT",
+        "best_auc": 0.9945425327687815,
+        "margin": 0.271680457519741,
+        "runner_up_assignment": 22,
+        "runner_up_assignment_name": "TFTTF",
+        "runner_up_auc": 0.7228620752490404,
+        "source_singleton_unit": true,
+        "unit": 291
+      },
+      {
+        "best_assignment": 6,
+        "best_assignment_name": "FFTTF",
+        "best_auc": 0.9804178650942381,
+        "margin": 0.34989073390436765,
+        "runner_up_assignment": 7,
+        "runner_up_assignment_name": "FFTTT",
+        "runner_up_auc": 0.6305271311898705,
+        "source_singleton_unit": false,
+        "unit": 304
+      },
+      {
+        "best_assignment": 17,
+        "best_assignment_name": "TFFFT",
+        "best_auc": 0.9999988713557134,
+        "margin": 0.3362797448037861,
+        "runner_up_assignment": 21,
+        "runner_up_assignment_name": "TFTFT",
+        "runner_up_auc": 0.6637191265519273,
+        "source_singleton_unit": true,
+        "unit": 317
+      },
+      {
+        "best_assignment": 30,
+        "best_assignment_name": "TTTTF",
+        "best_auc": 0.9943823495446038,
+        "margin": 0.25058694822736716,
+        "runner_up_assignment": 31,
+        "runner_up_assignment_name": "TTTTT",
+        "runner_up_auc": 0.7437954013172366,
+        "source_singleton_unit": true,
+        "unit": 326
+      },
+      {
+        "best_assignment": 14,
+        "best_assignment_name": "FTTTF",
+        "best_auc": 0.9975204714021428,
+        "margin": 0.2827042415782156,
+        "runner_up_assignment": 10,
+        "runner_up_assignment_name": "FTFTF",
+        "runner_up_auc": 0.7148162298239272,
+        "source_singleton_unit": false,
+        "unit": 334
+      },
+      {
+        "best_assignment": 27,
+        "best_assignment_name": "TTFTT",
+        "best_auc": 0.993379509505893,
+        "margin": 0.3101210739814815,
+        "runner_up_assignment": 26,
+        "runner_up_assignment_name": "TTFTF",
+        "runner_up_auc": 0.6832584355244116,
+        "source_singleton_unit": false,
+        "unit": 374
+      },
+      {
+        "best_assignment": 19,
+        "best_assignment_name": "TFFTT",
+        "best_auc": 0.9999641962047977,
+        "margin": 0.36973592461202387,
+        "runner_up_assignment": 27,
+        "runner_up_assignment_name": "TTFTT",
+        "runner_up_auc": 0.6302282715927738,
+        "source_singleton_unit": true,
+        "unit": 380
+      },
+      {
+        "best_assignment": 25,
+        "best_assignment_name": "TTFFT",
+        "best_auc": 0.9754897417804405,
+        "margin": 0.08142126674920658,
+        "runner_up_assignment": 29,
+        "runner_up_assignment_name": "TTTFT",
+        "runner_up_auc": 0.8940684750312339,
+        "source_singleton_unit": true,
+        "unit": 411
+      },
+      {
+        "best_assignment": 28,
+        "best_assignment_name": "TTTFF",
+        "best_auc": 0.976683152926741,
+        "margin": 0.09583169302901395,
+        "runner_up_assignment": 20,
+        "runner_up_assignment_name": "TFTFF",
+        "runner_up_auc": 0.8808514598977271,
+        "source_singleton_unit": true,
+        "unit": 416
+      },
+      {
+        "best_assignment": 26,
+        "best_assignment_name": "TTFTF",
+        "best_auc": 0.9984980238826686,
+        "margin": 0.3876840289503698,
+        "runner_up_assignment": 27,
+        "runner_up_assignment_name": "TTFTT",
+        "runner_up_auc": 0.6108139949322988,
+        "source_singleton_unit": false,
+        "unit": 435
+      },
+      {
+        "best_assignment": 5,
+        "best_assignment_name": "FFTFT",
+        "best_auc": 0.9968861667327622,
+        "margin": 0.27374023959582683,
+        "runner_up_assignment": 13,
+        "runner_up_assignment_name": "FTTFT",
+        "runner_up_auc": 0.7231459271369354,
+        "source_singleton_unit": false,
+        "unit": 450
+      },
+      {
+        "best_assignment": 31,
+        "best_assignment_name": "TTTTT",
+        "best_auc": 0.9761145400670264,
+        "margin": 0.3590555000178043,
+        "runner_up_assignment": 30,
+        "runner_up_assignment_name": "TTTTF",
+        "runner_up_auc": 0.6170590400492221,
+        "source_singleton_unit": false,
+        "unit": 482
+      },
+      {
+        "best_assignment": 13,
+        "best_assignment_name": "FTTFT",
+        "best_auc": 0.9998900041094911,
+        "margin": 0.32948743584722917,
+        "runner_up_assignment": 12,
+        "runner_up_assignment_name": "FTTFF",
+        "runner_up_auc": 0.670402568262262,
+        "source_singleton_unit": false,
+        "unit": 490
+      },
+      {
+        "best_assignment": 21,
+        "best_assignment_name": "TFTFT",
+        "best_auc": 0.9946301663178428,
+        "margin": 0.2085663561293195,
+        "runner_up_assignment": 20,
+        "runner_up_assignment_name": "TFTFF",
+        "runner_up_auc": 0.7860638101885233,
+        "source_singleton_unit": true,
+        "unit": 492
+      },
+      {
+        "best_assignment": 2,
+        "best_assignment_name": "FFFTF",
+        "best_auc": 0.9949916566671666,
+        "margin": 0.27930901630527005,
+        "runner_up_assignment": 6,
+        "runner_up_assignment_name": "FFTTF",
+        "runner_up_auc": 0.7156826403618965,
+        "source_singleton_unit": true,
+        "unit": 495
+      },
+      {
+        "best_assignment": 4,
+        "best_assignment_name": "FFTFF",
+        "best_auc": 0.9980519562371105,
+        "margin": 0.3756752602148621,
+        "runner_up_assignment": 12,
+        "runner_up_assignment_name": "FTTFF",
+        "runner_up_auc": 0.6223766960222484,
+        "source_singleton_unit": false,
+        "unit": 499
+      }
+    ]
+  },
+  "inputs": {
+    "checkpoint_sha256": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d",
+    "native_outputs_sha256": "94a27ab24bd57baabf2ae42c8b388842df94e97c41420d1a2822e2a1ba7958f6",
+    "selected_bank_sha256": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e"
+  },
+  "limitations": [
+    "one checkpoint and one engineered bank",
+    "threshold substitution is a cross-validated diagnostic, not a trained causal abstraction",
+    "standardised rotations are constructed references, not a generative null",
+    "weight norms establish parameter decay but do not explain its developmental cause"
+  ],
+  "scope": "retrospective zero-forward analysis; protected results unchanged",
+  "standardised_in_span_references": {
+    "comparison": {
+      "matching_32_mean": {
+        "native": 0.984233283891111,
+        "native_minus_reference_max": 0.06991004980787086,
+        "reference_exceedance_count": 0,
+        "reference_max": 0.9143232340832401,
+        "reference_mean": 0.9026590544586955,
+        "reference_min": 0.8911090672380741
+      },
+      "matching_32_minimum": {
+        "native": 0.8808514598977271,
+        "native_minus_reference_max": 0.031779706923597884,
+        "reference_exceedance_count": 0,
+        "reference_max": 0.8490717529741292,
+        "reference_mean": 0.8166323448839937,
+        "reference_min": 0.78428796316016
+      },
+      "matching_uncovered16_mean": {
+        "native": 0.9740413939509753,
+        "native_minus_reference_max": 0.041243308953186064,
+        "reference_exceedance_count": 0,
+        "reference_max": 0.9327980849977893,
+        "reference_mean": 0.9159591069989345,
+        "reference_min": 0.9018928395196069
+      },
+      "matching_uncovered16_minimum": {
+        "native": 0.8808514598977271,
+        "native_minus_reference_max": -0.0034187195039172558,
+        "reference_exceedance_count": 1,
+        "reference_max": 0.8842701794016443,
+        "reference_mean": 0.8436019219330233,
+        "reference_min": 0.8033294565196283
+      }
+    },
+    "method": "column-centre and scale to unit variance, then apply fixed-seed 34-dimensional Haar rotations",
+    "references": 63,
+    "status": "retrospective descriptive sensitivity, not an exchangeability null"
+  },
+  "status": "PASS",
+  "supersedes": {
+    "path": "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/next_phase/sat_full_layer_basis_v7_20261018/effective_state_followup_v3.json",
+    "reason": "v4 adds unit identities and component norms for the largest non-report weight outliers; all v3 calculations are unchanged",
+    "sha256": "8dba879bb3716a19f4d80ac869b47eda23c99921747b8e82d47fa93576392831"
+  },
+  "task_error_localisation": {
+    "errors_on_three_weak_single_axis_assignments": 9,
+    "per_assignment": [
+      {
+        "assignment": 0,
+        "assignment_name": "FFFFF",
+        "errors": 3,
+        "sole_rows": 143
+      },
+      {
+        "assignment": 1,
+        "assignment_name": "FFFFT",
+        "errors": 0,
+        "sole_rows": 141
+      },
+      {
+        "assignment": 2,
+        "assignment_name": "FFFTF",
+        "errors": 2,
+        "sole_rows": 148
+      },
+      {
+        "assignment": 3,
+        "assignment_name": "FFFTT",
+        "errors": 0,
+        "sole_rows": 126
+      },
+      {
+        "assignment": 4,
+        "assignment_name": "FFTFF",
+        "errors": 0,
+        "sole_rows": 28
+      },
+      {
+        "assignment": 5,
+        "assignment_name": "FFTFT",
+        "errors": 0,
+        "sole_rows": 52
+      },
+      {
+        "assignment": 6,
+        "assignment_name": "FFTTF",
+        "errors": 0,
+        "sole_rows": 43
+      },
+      {
+        "assignment": 7,
+        "assignment_name": "FFTTT",
+        "errors": 1,
+        "sole_rows": 127
+      },
+      {
+        "assignment": 8,
+        "assignment_name": "FTFFF",
+        "errors": 5,
+        "sole_rows": 57
+      },
+      {
+        "assignment": 9,
+        "assignment_name": "FTFFT",
+        "errors": 2,
+        "sole_rows": 121
+      },
+      {
+        "assignment": 10,
+        "assignment_name": "FTFTF",
+        "errors": 0,
+        "sole_rows": 40
+      },
+      {
+        "assignment": 11,
+        "assignment_name": "FTFTT",
+        "errors": 0,
+        "sole_rows": 43
+      },
+      {
+        "assignment": 12,
+        "assignment_name": "FTTFF",
+        "errors": 4,
+        "sole_rows": 45
+      },
+      {
+        "assignment": 13,
+        "assignment_name": "FTTFT",
+        "errors": 0,
+        "sole_rows": 35
+      },
+      {
+        "assignment": 14,
+        "assignment_name": "FTTTF",
+        "errors": 0,
+        "sole_rows": 127
+      },
+      {
+        "assignment": 15,
+        "assignment_name": "FTTTT",
+        "errors": 0,
+        "sole_rows": 69
+      },
+      {
+        "assignment": 16,
+        "assignment_name": "TFFFF",
+        "errors": 4,
+        "sole_rows": 134
+      },
+      {
+        "assignment": 17,
+        "assignment_name": "TFFFT",
+        "errors": 0,
+        "sole_rows": 143
+      },
+      {
+        "assignment": 18,
+        "assignment_name": "TFFTF",
+        "errors": 0,
+        "sole_rows": 51
+      },
+      {
+        "assignment": 19,
+        "assignment_name": "TFFTT",
+        "errors": 0,
+        "sole_rows": 130
+      },
+      {
+        "assignment": 20,
+        "assignment_name": "TFTFF",
+        "errors": 2,
+        "sole_rows": 35
+      },
+      {
+        "assignment": 21,
+        "assignment_name": "TFTFT",
+        "errors": 0,
+        "sole_rows": 129
+      },
+      {
+        "assignment": 22,
+        "assignment_name": "TFTTF",
+        "errors": 0,
+        "sole_rows": 53
+      },
+      {
+        "assignment": 23,
+        "assignment_name": "TFTTT",
+        "errors": 1,
+        "sole_rows": 142
+      },
+      {
+        "assignment": 24,
+        "assignment_name": "TTFFF",
+        "errors": 0,
+        "sole_rows": 48
+      },
+      {
+        "assignment": 25,
+        "assignment_name": "TTFFT",
+        "errors": 1,
+        "sole_rows": 135
+      },
+      {
+        "assignment": 26,
+        "assignment_name": "TTFTF",
+        "errors": 0,
+        "sole_rows": 44
+      },
+      {
+        "assignment": 27,
+        "assignment_name": "TTFTT",
+        "errors": 2,
+        "sole_rows": 137
+      },
+      {
+        "assignment": 28,
+        "assignment_name": "TTTFF",
+        "errors": 3,
+        "sole_rows": 136
+      },
+      {
+        "assignment": 29,
+        "assignment_name": "TTTFT",
+        "errors": 2,
+        "sole_rows": 55
+      },
+      {
+        "assignment": 30,
+        "assignment_name": "TTTTF",
+        "errors": 3,
+        "sole_rows": 154
+      },
+      {
+        "assignment": 31,
+        "assignment_name": "TTTTT",
+        "errors": 0,
+        "sole_rows": 29
+      }
+    ],
+    "three_weak_single_axis_assignments": [
+      "FTFFF",
+      "TFTFF",
+      "TTTFT"
+    ],
+    "total_sole_errors": 35
+  },
+  "threshold_bit_substitution": {
+    "by_stratum": {
+      "all": {
+        "argmax_agreement_with_native": 0.9838665195808053,
+        "native_task_accuracy": 0.9948979591836735,
+        "rows": 7252,
+        "task_accuracy": 0.9815223386651958
+      },
+      "multi_solution": {
+        "argmax_agreement_with_native": 0.9986202138668506,
+        "native_task_accuracy": 1.0,
+        "rows": 2899,
+        "task_accuracy": 0.9986202138668506
+      },
+      "sole_solution": {
+        "argmax_agreement_with_native": 0.9617241379310345,
+        "native_task_accuracy": 0.9879310344827587,
+        "rows": 2900,
+        "task_accuracy": 0.9551724137931035
+      },
+      "unsat": {
+        "argmax_agreement_with_native": 0.9986235375086029,
+        "native_task_accuracy": 0.9986235375086029,
+        "rows": 1453,
+        "task_accuracy": 1.0
+      }
+    },
+    "folds": 5,
+    "kappa_maximum": 1.4679185152053833,
+    "kappa_minimum": 0.7312102913856506,
+    "method": "five-fold orbit-grouped, per-unit median supra-threshold activation fitted outside each fold",
+    "native_task_accuracy": 0.9948979591836735,
+    "overall_argmax_agreement_with_native": 0.9838665195808053,
+    "overall_task_accuracy": 0.9815223386651958,
+    "threshold": 0.5
+  },
+  "weight_level_effective_width": {
+    "definition": "per-unit maximum of input-column norm, absolute input bias, and output-column norm",
+    "largest_outside_units": [
+      {
+        "W_in_row_norm": 0.054400499910116196,
+        "W_out_column_norm": 0.08477695286273956,
+        "abs_b_in": 0.0031653568148612976,
+        "maximum_component_norm": 0.08477695286273956,
+        "unit": 386
+      },
+      {
+        "W_in_row_norm": 9.033467875639578e-13,
+        "W_out_column_norm": 3.740513541267143e-12,
+        "abs_b_in": 7.490221550637832e-14,
+        "maximum_component_norm": 3.740513541267143e-12,
+        "unit": 78
+      },
+      {
+        "W_in_row_norm": 2.3848842822457583e-14,
+        "W_out_column_norm": 7.400810107978384e-14,
+        "abs_b_in": 1.4442029276507252e-15,
+        "maximum_component_norm": 7.400810107978384e-14,
+        "unit": 466
+      },
+      {
+        "W_in_row_norm": 4.991436409161609e-15,
+        "W_out_column_norm": 1.2491280899942873e-16,
+        "abs_b_in": 3.9431797738587356e-16,
+        "maximum_component_norm": 4.991436409161609e-15,
+        "unit": 401
+      },
+      {
+        "W_in_row_norm": 1.7061533943269586e-20,
+        "W_out_column_norm": 3.533690939122742e-21,
+        "abs_b_in": 1.4511842803283468e-21,
+        "maximum_component_norm": 1.7061533943269586e-20,
+        "unit": 72
+      },
+      {
+        "W_in_row_norm": 6.128197153538495e-22,
+        "W_out_column_norm": 2.1543214254056445e-21,
+        "abs_b_in": 5.297379576668036e-23,
+        "maximum_component_norm": 2.1543214254056445e-21,
+        "unit": 414
+      },
+      {
+        "W_in_row_norm": 0.0,
+        "W_out_column_norm": 1.9105973835092615e-21,
+        "abs_b_in": 5.175809879172327e-24,
+        "maximum_component_norm": 1.9105973835092615e-21,
+        "unit": 54
+      },
+      {
+        "W_in_row_norm": 4.705370769300386e-22,
+        "W_out_column_norm": 1.835025871940733e-21,
+        "abs_b_in": 4.1837929150549335e-23,
+        "maximum_component_norm": 1.835025871940733e-21,
+        "unit": 204
+      },
+      {
+        "W_in_row_norm": 4.333289440332388e-22,
+        "W_out_column_norm": 3.6868137633181893e-22,
+        "abs_b_in": 3.168981420650726e-23,
+        "maximum_component_norm": 4.333289440332388e-22,
+        "unit": 300
+      },
+      {
+        "W_in_row_norm": 0.0,
+        "W_out_column_norm": 2.307581978404256e-22,
+        "abs_b_in": 1.0986447338085565e-25,
+        "maximum_component_norm": 2.307581978404256e-22,
+        "unit": 130
+      }
+    ],
+    "outside_above_1e_minus_12": 2,
+    "outside_above_1e_minus_8": 1,
+    "outside_maximum": 0.08477695286273956,
+    "outside_median": 5.608190169727626e-37,
+    "per_component": {
+      "W_in_column_norm": {
+        "outside_maximum": 0.054400499910116196,
+        "source_minimum": 0.3926992416381836
+      },
+      "W_out_column_norm": {
+        "outside_maximum": 0.08477695286273956,
+        "source_minimum": 1.947616457939148
+      },
+      "abs_b_in": {
+        "outside_maximum": 0.0031653568148612976,
+        "source_minimum": 9.072152897715569e-05
+      }
+    },
+    "ratio_outside_max_to_source_min": 0.043528567999601364,
+    "source_maximum": 4.005861759185791,
+    "source_minimum": 1.947616457939148
+  }
+}

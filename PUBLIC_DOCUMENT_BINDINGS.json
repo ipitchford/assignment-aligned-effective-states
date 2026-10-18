@@ -1,0 +1,12 @@
+{
+  "scope": "Current public manuscript identities; historical scientific claim-map artifact hashes are unchanged and not relabelled as manuscript hashes.",
+  "version": "4.8.0",
+  "sha256": {
+    "paper.md": "cc6c67c6d6db6fa2e22db16ebd5ec474ac6b92fb23974092a74af726a8506184",
+    "paper.tex": "745b047e149ee1fe05266996074feb35f470fe2493f39d74e9bbc2bfb88823e4",
+    "paper.pdf": "c4d02b24645e38318fe545f17a1aecfd9c71e035114e141132a2f3df30a10d68",
+    "supplement.md": "02d482362247eb3e1fce4a106c0faa15826314872af1e0733e74da64ead703ed",
+    "supplement.tex": "7c7718a20c98fb67fcf23771644645f0979234dddca1e570a8596af472bd8949",
+    "supplement.pdf": "be6739e1e4c7220263979f66423bac77cc1164ad2c3cb74156494c00d6ab3685"
+  }
+}

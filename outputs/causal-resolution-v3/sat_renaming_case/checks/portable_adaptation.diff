@@ -1,0 +1,73 @@
+--- archived_independent_audit/recompute.py
++++ checks/recompute_saved.py
+@@ -1,9 +1,9 @@
+ """Independent saved-array audit. No study code import, model or new formulas.
+ 
+-The Boolean bank is checked separately by the pre-frozen independent verifier.
+-This script reimplements event/mapping/task arithmetic from the contract with
+-explicit loops. It reuses all saved bootstrap indices and independently replays
+-the declared RNG once solely to verify them, never to replace study draws.
++Portable adaptation of the archived independent checker. The Boolean bank is
++checked separately by the unchanged pre-frozen verifier. All event, mapping,
++task, saved-resampling and quantile comparisons are retained. The declared RNG
++is NOT regenerated: only the saved bootstrap indices are read. No new draws.
+ """
+ from pathlib import Path
+ from collections import Counter
+@@ -20,8 +20,15 @@
+ os.environ.setdefault("VECLIB_MAXIMUM_THREADS", "1")
+ import numpy as np
+ 
+-OUT = Path(__file__).resolve().parent
+-WORK = OUT.parent
++import argparse
++parser = argparse.ArgumentParser(description=__doc__)
++parser.add_argument("--work-root", type=Path, required=True)
++parser.add_argument("--output-dir", type=Path, required=True)
++args = parser.parse_args()
++OUT = args.output_dir.resolve()
++WORK = args.work_root.resolve()
++if not OUT.is_dir() or not (OUT / "bank_replay.json").is_file():
++    raise SystemExit("Run the portable replay wrapper into a fresh output directory first.")
+ STUDY = WORK / "sat_renaming_launch_recovery"
+ ORIGINAL = WORK / "sat_renaming"
+ CONTRACT_SHA = "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c"
+@@ -262,9 +269,8 @@
+     equal("all point metrics",point_triple,saved["point_rates"],1e-14)
+     indices=arrays(STUDY/"bootstrap_indices.npz")["indices"]
+     check("saved 2000 stratified draws shape/range",indices.shape==(2000,2,32) and indices.dtype==np.int16 and np.all((0<=indices)&(indices<32)))
+-    # Explicit computational replay, not additional study resampling.
+-    replay=np.random.Generator(np.random.PCG64(2026101605)).integers(0,32,size=(2000,2,32),dtype=np.int16)
+-    equal("predeclared bootstrap index computational replay",indices,replay)
++    # Portable replay reuses frozen indices; it generates no RNG values.
++    # The archived independent audit separately checked the exact RNG stream.
+     boot=np.empty((2000,3,47))
+     for draw in range(2000):
+         for p in range(2):
+@@ -322,7 +328,7 @@
+     with (OUT/"recomputed_summaries.npz").open("xb") as handle:
+         np.savez_compressed(handle,metric_names=np.array(names),block_values=values,point_rates=point_triple,interval_quantiles=intervals)
+     return {"failed_criteria":failed,"directional_counts":directions,"pooled_mapping_advantage_interval":intervals[:,2,names.index("edited_advantage_identity"),0].tolist(),
+-            "study_draws_reused":2000,"computational_index_replay_draws":2000,"additional_scientific_draws":0}
++            "study_draws_reused":2000,"computational_index_replay_draws":0,"additional_scientific_draws":0}
+ 
+ 
+ def affine(native,bank,possible):
+@@ -421,13 +427,14 @@
+     task_counts={"correct":int((pred==bank["labels"]).sum()),"total":512,
+                  "SAT_correct":int(((pred==bank["labels"])&(bank["labels"]==13)).sum()),"SAT_total":128,
+                  "UNSAT_correct":int(((pred==bank["labels"])&(bank["labels"]==14)).sum()),"UNSAT_total":384}
+-    receipt={"status":"PASS","scope":"Independent saved-array arithmetic audit; no new neural execution or study draws",
++    receipt={"status":"PASS","scope":"Portable saved-array replay of the independent audit; no RNG regeneration, neural execution or new study draws",
+              "contract_sha256":CONTRACT_SHA,"inputs":inputs,"checks":checks,"checks_passed":len(checks),
+              "maximum_differences":differences,"native_journal_counts":counts,"native_replay_differences":replay_diffs,
+              "bootstrap_replay":bootstrap,"secondary_affine":secondary,"task_counts":task_counts,"unit_event_errors":len(error_rows),
+              "new_formulas":0,"new_neural_forwards":0,"fits":0,"additional_scientific_bootstrap_draws":0,
+-             "computational_bootstrap_index_replay_draws":2000,"numpy":np.__version__,"elapsed_seconds":time.monotonic()-started,
+-             "limitations":["Model-generated audit, same model family; oracle authored by this reviewer before construction",
++             "computational_bootstrap_index_replay_draws":0,"numpy":np.__version__,"elapsed_seconds":time.monotonic()-started,
++             "limitations":["Exact RNG stream identity is not rerun here; the archived independent receipt records that check",
++                            "Model-generated audit, same model family; oracle authored by this reviewer before construction",
+                             "No neural/checkpoint execution or independently generated training/test cohort",
+                             "No independent regeneration of proposal pool or selection ordering",
+                             "Current bit/class intervals are singleton; unobserved ambiguous branches are not empirically validated",

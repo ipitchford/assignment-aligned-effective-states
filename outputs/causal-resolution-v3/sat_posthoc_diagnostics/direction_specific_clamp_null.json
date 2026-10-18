@@ -1,0 +1,258 @@
+{
+  "directions": {
+    "pair_0_original": {
+      "active_source_unit": 261,
+      "active_source_unit_ranks": {
+        "class_changes": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 29.0
+        },
+        "correct_to_wrong": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 29.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 8.04579122315799
+        }
+      },
+      "best_non_source_single_by_correct_to_wrong": {
+        "index": 374,
+        "label": "374",
+        "value": 1.0
+      },
+      "best_pair_excluding_both_source_units_by_correct_to_wrong": {
+        "index": 77703,
+        "label": "185+374",
+        "value": 2.0
+      },
+      "direction": "original",
+      "endpoints": 32,
+      "initially_correct": 32,
+      "other_source_unit_correct_to_wrong": 0,
+      "source_pair": [
+        261,
+        291
+      ],
+      "source_pair_ranks": {
+        "class_changes": {
+          "population": 130816,
+          "rank_best_is_one": 2,
+          "tied_at_value": 510,
+          "value": 29.0
+        },
+        "correct_to_wrong": {
+          "population": 130816,
+          "rank_best_is_one": 2,
+          "tied_at_value": 510,
+          "value": 29.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 130816,
+          "rank_best_is_one": 10,
+          "tied_at_value": 501,
+          "value": 8.04579122315799
+        }
+      }
+    },
+    "pair_0_renamed": {
+      "active_source_unit": 291,
+      "active_source_unit_ranks": {
+        "class_changes": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 32.0
+        },
+        "correct_to_wrong": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 32.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 10.28268719124924
+        }
+      },
+      "best_non_source_single_by_correct_to_wrong": {
+        "index": 0,
+        "label": "0",
+        "value": 0.0
+      },
+      "best_pair_excluding_both_source_units_by_correct_to_wrong": {
+        "index": 0,
+        "label": "0+1",
+        "value": 0.0
+      },
+      "direction": "renamed",
+      "endpoints": 32,
+      "initially_correct": 32,
+      "other_source_unit_correct_to_wrong": 0,
+      "source_pair": [
+        261,
+        291
+      ],
+      "source_pair_ranks": {
+        "class_changes": {
+          "population": 130816,
+          "rank_best_is_one": 1,
+          "tied_at_value": 511,
+          "value": 32.0
+        },
+        "correct_to_wrong": {
+          "population": 130816,
+          "rank_best_is_one": 1,
+          "tied_at_value": 511,
+          "value": 32.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 130816,
+          "rank_best_is_one": 6,
+          "tied_at_value": 500,
+          "value": 10.28268719124924
+        }
+      }
+    },
+    "pair_1_original": {
+      "active_source_unit": 411,
+      "active_source_unit_ranks": {
+        "class_changes": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 22.0
+        },
+        "correct_to_wrong": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 22.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 5.664258793602769
+        }
+      },
+      "best_non_source_single_by_correct_to_wrong": {
+        "index": 201,
+        "label": "201",
+        "value": 10.0
+      },
+      "best_pair_excluding_both_source_units_by_correct_to_wrong": {
+        "index": 17930,
+        "label": "36+201",
+        "value": 13.0
+      },
+      "direction": "original",
+      "endpoints": 32,
+      "initially_correct": 30,
+      "other_source_unit_correct_to_wrong": 0,
+      "source_pair": [
+        411,
+        492
+      ],
+      "source_pair_ranks": {
+        "class_changes": {
+          "population": 130816,
+          "rank_best_is_one": 3,
+          "tied_at_value": 507,
+          "value": 22.0
+        },
+        "correct_to_wrong": {
+          "population": 130816,
+          "rank_best_is_one": 3,
+          "tied_at_value": 507,
+          "value": 22.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 130816,
+          "rank_best_is_one": 9,
+          "tied_at_value": 495,
+          "value": 5.664258793602769
+        }
+      }
+    },
+    "pair_1_renamed": {
+      "active_source_unit": 492,
+      "active_source_unit_ranks": {
+        "class_changes": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 32.0
+        },
+        "correct_to_wrong": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 32.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 512,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "value": 10.974562983086521
+        }
+      },
+      "best_non_source_single_by_correct_to_wrong": {
+        "index": 0,
+        "label": "0",
+        "value": 0.0
+      },
+      "best_pair_excluding_both_source_units_by_correct_to_wrong": {
+        "index": 0,
+        "label": "0+1",
+        "value": 0.0
+      },
+      "direction": "renamed",
+      "endpoints": 32,
+      "initially_correct": 32,
+      "other_source_unit_correct_to_wrong": 0,
+      "source_pair": [
+        411,
+        492
+      ],
+      "source_pair_ranks": {
+        "class_changes": {
+          "population": 130816,
+          "rank_best_is_one": 1,
+          "tied_at_value": 511,
+          "value": 32.0
+        },
+        "correct_to_wrong": {
+          "population": 130816,
+          "rank_best_is_one": 1,
+          "tied_at_value": 511,
+          "value": 32.0
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "population": 130816,
+          "rank_best_is_one": 5,
+          "tied_at_value": 499,
+          "value": 10.974562983086521
+        }
+      }
+    }
+  },
+  "inputs": {
+    "inputs/readout_weights.npz": "b749b6a7371a0fb8b9c7ee2093a051bc27b478ba712eeceab2723aa999e71204",
+    "inputs/renaming_native_outputs.npz": "cf0f69826a5fc788415809af3382eff01d40ce891c411d80e99ec886e05316b2",
+    "inputs/renaming_selected_bank.npz": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a"
+  },
+  "interpretation_boundary": "The construction selected the source units before this post hoc null. Rankings are descriptive. Origin restoration is an off-manifold intervention at the final MLP cut and does not establish upstream mediation, sufficiency, or unique causal routing.",
+  "new_fits": 0,
+  "new_neural_forwards": 0,
+  "scope": "post hoc direction-specific direct-logit origin-restoration null on saved arrays",
+  "status": "PASS"
+}

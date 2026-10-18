@@ -1,0 +1,95 @@
+{
+  "scope": "Recorded identities only; bytes not distributed or revalidated by public replay. Numerical arrays are retained.",
+  "files": [
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_010.pkl",
+      "sha256": "99dec28cdb30e11ab589174925f80caab2da53b3b3d9345863cf7efef1104f2d",
+      "bytes": 133299
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_041.pkl",
+      "sha256": "92272aec23b420a6c670d24b60a8f8b483f215f6caa2269472c23507ba2aa2c3",
+      "bytes": 139819
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_055.pkl",
+      "sha256": "c46d002e3a987eeb6cb54c1e88b1583211859ced6d1760c546dac12efffd393e",
+      "bytes": 122570
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_077.pkl",
+      "sha256": "3808a13957343db399e2d99a2503ae4145519799935dde9cfc20f16dcb0dafdc",
+      "bytes": 123322
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_081.pkl",
+      "sha256": "c4b67f6e1ec6fb44e13a90aa7724ebc5622fe5ffe3ebfba548ea1d4739804149",
+      "bytes": 124138
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_185.pkl",
+      "sha256": "d318613d69aaaa249fb4a9d1ca6a4574b24aba94424950cc1bb3ad4d406a9ca7",
+      "bytes": 131371
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_224.pkl",
+      "sha256": "a6d72813e16ea566899596e7f1e16c373c912f85548711c57ade7810d8c32c84",
+      "bytes": 117922
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_245.pkl",
+      "sha256": "076d55f621c8fbaffa2a50bcdc77776df1b8d05af640d32e928071756f8ed039",
+      "bytes": 125986
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_261.pkl",
+      "sha256": "6d7cf4ad7ba4ccf43160d103682308d883ed196e5e8cddbc43aa41d4810b021b",
+      "bytes": 131339
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_291.pkl",
+      "sha256": "5b7300777a45b8dba677791a7d732f3f1d7e59bd7b544b99760f957f3f9b30d7",
+      "bytes": 152955
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_317.pkl",
+      "sha256": "2051205f5c268eaf2b54fe07be7fe5ddcfe88ebba5988f4feb8bbd5773f52d6b",
+      "bytes": 115218
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_326.pkl",
+      "sha256": "6be4b4e0ca076022a8a5e0bdd23f23aa849e2805e0da5f4ef0d8e5906a736bfc",
+      "bytes": 124114
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_380.pkl",
+      "sha256": "93d640cd8f13116d1942487c9c8f2374b1e8962797faf7e96c26761301b7e7f3",
+      "bytes": 131482
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_411.pkl",
+      "sha256": "91f1f59aef5fd8a7b223476021aca850641da9ddc9470443b45cce1190a15a16",
+      "bytes": 122578
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_416.pkl",
+      "sha256": "98f4601fbdda6eaff3161b772a730f7ec3819e9d3715827dff5e3ece9ac6b161",
+      "bytes": 131178
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_492.pkl",
+      "sha256": "94752504cbcd67aaf101147b9a67d8adcb23476418ff1445158bd50fea081a37",
+      "bytes": 132371
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/models/unit_495.pkl",
+      "sha256": "40f280e88704e1e867370c8d930d88f95bc34bd41d607344c62608a5888fb6d1",
+      "bytes": 123042
+    },
+    {
+      "path": "work/task_policy_augmentation/run/models.pkl",
+      "sha256": "fec5ebe3af9bb34fbdb39928ab8ad2248a6a4cd984948b807ed22f020e3a8f0c",
+      "bytes": 1262632
+    }
+  ]
+}

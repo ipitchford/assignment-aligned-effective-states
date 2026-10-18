@@ -1,0 +1,23 @@
+{
+  "analysis_sha256": "d81470a4b98a0b04e5dddf0bff7d5b445955ff86346639b917ce9514d99ac2bd",
+  "native_outputs_sha256": "20c3a3dbb0c5a161d5a53e12542e3ae2da88f55ca5df78d15305fa2de3a39fc6",
+  "panel_denominators": {
+    "base_strata": {
+      "UNSAT -": 544,
+      "far -": 544,
+      "multi +": 544,
+      "near -": 544,
+      "sole +": 544
+    },
+    "within_q1": {
+      "UNSAT": 122,
+      "far": 44,
+      "near, 1 nbr": 237,
+      "near, 2 nbrs": 22
+    }
+  },
+  "posthoc_diagnostics_v3_sha256": "191cf677d6a66e0e575c094a9f8ddb4386e91bf47ee853d619ea6f7262850300",
+  "scope": "post hoc zero-forward visualisation of one checkpoint and engineered dependent cohorts",
+  "selected_bank_sha256": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+  "status": "PASS"
+}

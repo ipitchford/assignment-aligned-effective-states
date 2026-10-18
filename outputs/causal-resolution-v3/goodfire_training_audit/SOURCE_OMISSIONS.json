@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "bytes": 5541,
+      "path": "inputs/RESULTS.md",
+      "sha256": "c0f8db30e54a9fab997fda7cc2dbd9833a569b3bfb579d55ff78a15c40acea72",
+      "url": "https://already-clean.goodfire.com/assets/early-training/RESULTS.md"
+    },
+    {
+      "bytes": 5606,
+      "path": "inputs/PROTOCOL.md",
+      "sha256": "b1b9bc2c4583111d54430dc284537b2328baf715605fbcf2585fd7d60d0bc037",
+      "url": "https://already-clean.goodfire.com/assets/early-training/PROTOCOL.md"
+    }
+  ],
+  "no_network_access_during_packaging_or_default_replay": true,
+  "original_manifests_preserved": true,
+  "reason": "Do not redistribute complete newly retrieved copyrighted source report/protocol prose",
+  "scope_boundary": "Numerical replay excludes report/protocol prose identity and independent comparison against their full text until the exact bytes are recovered"
+}

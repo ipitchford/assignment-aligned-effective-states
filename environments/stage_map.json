@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    "all17_bank",
+    "all17_analysis",
+    "full_layer_analysis",
+    "all17_posthoc_v2",
+    "all17_posthoc_v3",
+    "full_layer_posthoc",
+    "live_state",
+    "collision_sensitivity",
+    "renaming_saved",
+    "margin_audit",
+    "goodfire_exports",
+    "negative_score_screen"
+  ],
+  "native": [
+    "all7252_native",
+    "readout_accounting"
+  ],
+  "scientific": [
+    "corrected_diagnostics",
+    "edit_information",
+    "nmf_attribution",
+    "calibrations",
+    "inception_saved",
+    "construct_validity",
+    "geometry_failure",
+    "geometry_bisection",
+    "fixed_seam_saved"
+  ]
+}

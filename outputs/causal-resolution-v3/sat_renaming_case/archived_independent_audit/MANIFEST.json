@@ -1,0 +1,35 @@
+{
+  "scope": "Independent saved-data audit only; study files unchanged",
+  "files": [
+    {
+      "path": "work/sat_renaming_independent_audit/bank_replay.json",
+      "bytes": 7736,
+      "sha256": "4a413939c642d5a8d4797446e13dafac8d03ba873968ff47745abe83f1528b38"
+    },
+    {
+      "path": "work/sat_renaming_independent_audit/receipt.json",
+      "bytes": 791528,
+      "sha256": "fd281975839f8f059b5457faeec15c5bb10f8bbdcdeceae91a6334ed670d4ff0"
+    },
+    {
+      "path": "work/sat_renaming_independent_audit/recompute.py",
+      "bytes": 30986,
+      "sha256": "1cc39749307d49d80a1ccc31c4a99c187c5551e1f043f8a87eb689881fb7c90e"
+    },
+    {
+      "path": "work/sat_renaming_independent_audit/recomputed_summaries.npz",
+      "bytes": 3073,
+      "sha256": "38159cee33a5ee03ae85de817e3adccb3035c44f45b3a097b439e9b802cc43a7"
+    },
+    {
+      "path": "work/sat_renaming_independent_audit/unit_event_errors.json",
+      "bytes": 1729,
+      "sha256": "0f43f52901aa17d2e94fc791c744447119af4a261aaa4fa480421571d6846ca0"
+    }
+  ],
+  "report": {
+    "path": "work/next_phase/sat_renaming_independent_audit.md",
+    "bytes": 11894,
+    "sha256": "6dcc541c4c80cf48e4d7018660e2e3e0bc9016b48c3be5bb89b7d2409bf30599"
+  }
+}

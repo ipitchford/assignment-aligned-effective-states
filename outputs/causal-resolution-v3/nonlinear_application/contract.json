@@ -1,0 +1,159 @@
+{
+  "activation": "ReLU at both hidden layers",
+  "all_candidate_counts": 32,
+  "architecture": [
+    64,
+    32,
+    16,
+    10
+  ],
+  "created_utc": "2026-10-15T21:28:43Z",
+  "cut": "first 32-unit hidden layer",
+  "decoder": "shared B[T(hprime)\u2212T(h)], no intercept or context,10B coefficients",
+  "dependency_sha256": "f9e19ef216d1da26fd688bbc2d7b5c7467a76c9659d9553bae79e387b09138a8",
+  "discovery_strengths": [
+    0.5,
+    1.0
+  ],
+  "files": {
+    "discovery_fit.npz": "5b264ba73ca53efdb372070b5bb12621596f0ab16fb79e5d0170a8c532edd388",
+    "discovery_validation.npz": "81a22d1823b18d657ae09676a39c4c4f154d7ab34fa2338837ca09de774c855b",
+    "test.npz": "412c7adb8c4464a08c57f61be923e65ceba1db6d4851e9c084ecbacddbe012ea",
+    "train.npz": "566fe156676903ff9935ebe06416f914f20e36fa24966073168956ea93680238"
+  },
+  "groups": [
+    [
+      7,
+      31,
+      27,
+      4,
+      6,
+      20,
+      3,
+      12
+    ],
+    [
+      5,
+      22,
+      21,
+      25,
+      30,
+      19,
+      17,
+      16
+    ],
+    [
+      2,
+      11,
+      15,
+      9,
+      24,
+      28,
+      0,
+      8
+    ],
+    [
+      23,
+      13,
+      14,
+      29,
+      1,
+      26,
+      10,
+      18
+    ]
+  ],
+  "precision_supplement": "native coordinate bins, weight-only greedy bits, absolute-weight product bound through ReLU, epsilon1; original nonlinear downstream computation of midpoint states,698 weights/biases charged",
+  "primary_epsilon": 1.0,
+  "prior_outcomes": "shallow-model test outcomes motivated architecture extension and are already known; this is not a new pristine dataset holdout",
+  "purpose": "test whether report and decoder diagnoses persist at a cut with nonlinear downstream computation",
+  "random_projection": "32 Gaussian rows normalized to unit norm, seed model_seed+5671, rounded at scale4096; training-median thresholds",
+  "reports": {
+    "native": [
+      8,
+      12
+    ],
+    "pca": [
+      8
+    ],
+    "random": [
+      8
+    ]
+  },
+  "response": "exact centered-logit difference numerator / 43980465111040; Python arbitrary-precision endpoint arithmetic before checked int64 storage",
+  "ridge_grid": [
+    1e-06,
+    0.0001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "seeds": [
+    117,
+    129,
+    143
+  ],
+  "selection": "same discovery-fit greedy response MSE with selection ridge0.01; candidate median thresholds and PCA from training only; decoder ridge selected on separate discovery validation",
+  "sensitivity_epsilons": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "source_code_sha256": "143d4650718e2dbdd0dbffd8c8dd9e86d7e1fffa598359dd3a7bb175735c634e",
+  "split": {
+    "counts": {
+      "discovery_fit": 238,
+      "discovery_validation": 121,
+      "test": 364,
+      "train": 1074
+    },
+    "discovery_fit_fraction": 0.6666666666666666,
+    "files": {
+      "discovery_fit": "5b264ba73ca53efdb372070b5bb12621596f0ab16fb79e5d0170a8c532edd388",
+      "discovery_validation": "81a22d1823b18d657ae09676a39c4c4f154d7ab34fa2338837ca09de774c855b",
+      "test": "412c7adb8c4464a08c57f61be923e65ceba1db6d4851e9c084ecbacddbe012ea",
+      "train": "566fe156676903ff9935ebe06416f914f20e36fa24966073168956ea93680238"
+    },
+    "fractions": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "independent_units": "three model initialisations and held-out images; interventions of an image are dependent",
+    "seed": 20261015
+  },
+  "status": "exploratory post-test architecture extension; same image split already inspected in shallow-model study; all extension choices frozen before evaluating these new models on test",
+  "test_banks": {
+    "seen_strength": [
+      0.5,
+      1.0
+    ],
+    "unseen_strength": [
+      0.25,
+      0.75
+    ]
+  },
+  "training": {
+    "activation": "ReLU",
+    "adam_lr_first_150": 0.003,
+    "adam_lr_last_50": 0.001,
+    "architecture": [
+      64,
+      32,
+      16,
+      10
+    ],
+    "batch_size": 128,
+    "early_stopping": false,
+    "epochs": 200,
+    "export": "weights and biases rounded to integer / 4096; exact integer ReLU and centered-logit target",
+    "seeds": [
+      117,
+      129,
+      143
+    ],
+    "weight_decay": 0.0001
+  }
+}

@@ -1,0 +1,888 @@
+{
+ "neurons": [
+  {
+   "id": 0,
+   "title": "Fa\u00e7ades & dogs",
+   "positiveLabel": "Fa\u00e7ades / flat-faced dogs",
+   "negativeLabel": "Hares / sheep",
+   "description": "The positive extremes mix cinema fronts with Pekinese and Japanese spaniels; the negative extremes contain hares and horned sheep. Deletion particularly harms several spotted or patterned animals and jack-o\u2019-lanterns. No single shared visual mechanism has yet been established.",
+   "deletion": -1.094000000000006,
+   "positive": [
+    {
+     "source_index": 641406,
+     "label": 498,
+     "class_name": "cinema",
+     "strength": 8.54667854309082,
+     "position": 37
+    },
+    {
+     "source_index": 653946,
+     "label": 152,
+     "class_name": "Japanese spaniel",
+     "strength": 8.476838111877441,
+     "position": 46
+    },
+    {
+     "source_index": 199836,
+     "label": 154,
+     "class_name": "Pekinese",
+     "strength": 8.030049324035645,
+     "position": 32
+    },
+    {
+     "source_index": 759209,
+     "label": 154,
+     "class_name": "Pekinese",
+     "strength": 7.982585430145264,
+     "position": 25
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 320950,
+     "label": 331,
+     "class_name": "hare",
+     "strength": 7.284811973571777,
+     "position": 1
+    },
+    {
+     "source_index": 831175,
+     "label": 349,
+     "class_name": "bighorn",
+     "strength": 7.155927658081055,
+     "position": 2
+    },
+    {
+     "source_index": 1018088,
+     "label": 348,
+     "class_name": "ram",
+     "strength": 6.970531463623047,
+     "position": 11
+    },
+    {
+     "source_index": 19826,
+     "label": 331,
+     "class_name": "hare",
+     "strength": 6.764198303222656,
+     "position": 23
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "title": "Cars",
+   "positiveLabel": "Cars",
+   "negativeLabel": "Small terriers",
+   "description": "Taxis and limousines dominate the positive extremes, with Norfolk and Norwich terriers at the negative pole. Deletion harms multiple car classes, but also black widows and wolf spiders; \u201ccar detector\u201d is therefore an incomplete account of its role.",
+   "deletion": -2.198,
+   "positive": [
+    {
+     "source_index": 775109,
+     "label": 468,
+     "class_name": "cab",
+     "strength": 8.892755508422852,
+     "position": 32
+    },
+    {
+     "source_index": 818384,
+     "label": 627,
+     "class_name": "limousine",
+     "strength": 8.381152153015137,
+     "position": 24
+    },
+    {
+     "source_index": 825634,
+     "label": 468,
+     "class_name": "cab",
+     "strength": 8.274192810058594,
+     "position": 24
+    },
+    {
+     "source_index": 441361,
+     "label": 468,
+     "class_name": "cab",
+     "strength": 8.006561279296875,
+     "position": 32
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 439074,
+     "label": 185,
+     "class_name": "Norfolk terrier",
+     "strength": 17.85502815246582,
+     "position": 17
+    },
+    {
+     "source_index": 848936,
+     "label": 186,
+     "class_name": "Norwich terrier",
+     "strength": 17.69955825805664,
+     "position": 25
+    },
+    {
+     "source_index": 598478,
+     "label": 186,
+     "class_name": "Norwich terrier",
+     "strength": 17.61639976501465,
+     "position": 17
+    },
+    {
+     "source_index": 354607,
+     "label": 186,
+     "class_name": "Norwich terrier",
+     "strength": 17.537023544311523,
+     "position": 19
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Signs & displays",
+   "positiveLabel": "Signs / displays",
+   "negativeLabel": "Small furry mammals",
+   "description": "Street signs, vending machines and scoreboards appear at one extreme; mink, weasels and ferrets at the other. Deletion harms books, menus and shops. This suggests a role in text-bearing or structured surfaces, but that hypothesis needs targeted tests.",
+   "deletion": -2.0140000000000047,
+   "positive": [
+    {
+     "source_index": 516376,
+     "label": 919,
+     "class_name": "street sign",
+     "strength": 6.9201860427856445,
+     "position": 25
+    },
+    {
+     "source_index": 934594,
+     "label": 919,
+     "class_name": "street sign",
+     "strength": 6.752347946166992,
+     "position": 25
+    },
+    {
+     "source_index": 271786,
+     "label": 886,
+     "class_name": "vending machine",
+     "strength": 6.7396240234375,
+     "position": 25
+    },
+    {
+     "source_index": 262186,
+     "label": 781,
+     "class_name": "scoreboard",
+     "strength": 6.656799793243408,
+     "position": 37
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 93761,
+     "label": 357,
+     "class_name": "mink",
+     "strength": 16.826215744018555,
+     "position": 10
+    },
+    {
+     "source_index": 991882,
+     "label": 356,
+     "class_name": "weasel",
+     "strength": 16.559375762939453,
+     "position": 19
+    },
+    {
+     "source_index": 661985,
+     "label": 359,
+     "class_name": "black-footed ferret",
+     "strength": 16.482540130615234,
+     "position": 3
+    },
+    {
+     "source_index": 201452,
+     "label": 357,
+     "class_name": "mink",
+     "strength": 16.42386245727539,
+     "position": 19
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Transit & small mammals",
+   "positiveLabel": "Transit / small mammals",
+   "negativeLabel": "Scotch terriers",
+   "description": "Trolleybuses and locomotives share the positive extreme with a few small mammals. Scotch terriers dominate the negative extreme. Effects on streetcars, mailbags and backpacks show that the strongest images do not exhaust its function.",
+   "deletion": -1.1099999999999999,
+   "positive": [
+    {
+     "source_index": 951492,
+     "label": 874,
+     "class_name": "trolleybus",
+     "strength": 7.970318794250488,
+     "position": 2
+    },
+    {
+     "source_index": 630875,
+     "label": 547,
+     "class_name": "electric locomotive",
+     "strength": 7.790025234222412,
+     "position": 16
+    },
+    {
+     "source_index": 603913,
+     "label": 194,
+     "class_name": "Dandie Dinmont",
+     "strength": 7.569739818572998,
+     "position": 9
+    },
+    {
+     "source_index": 828603,
+     "label": 734,
+     "class_name": "police van",
+     "strength": 7.534745693206787,
+     "position": 17
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 462154,
+     "label": 199,
+     "class_name": "Scotch terrier",
+     "strength": 11.45119857788086,
+     "position": 40
+    },
+    {
+     "source_index": 189529,
+     "label": 199,
+     "class_name": "Scotch terrier",
+     "strength": 8.788519859313965,
+     "position": 40
+    },
+    {
+     "source_index": 410525,
+     "label": 199,
+     "class_name": "Scotch terrier",
+     "strength": 8.728216171264648,
+     "position": 33
+    },
+    {
+     "source_index": 923354,
+     "label": 199,
+     "class_name": "Scotch terrier",
+     "strength": 8.664985656738281,
+     "position": 40
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Instrument dials",
+   "positiveLabel": "Instrument dials",
+   "negativeLabel": "Spaniels / sheepdogs",
+   "description": "All eight displayed positive extremes are odometers or speedometers; many negative examples are spaniels. Yet its largest deletion effects include wrecks, docks, sandbars and scuba divers. A dial-only label would miss much of its computational role.",
+   "deletion": -1.6220000000000012,
+   "positive": [
+    {
+     "source_index": 1230745,
+     "label": 685,
+     "class_name": "odometer",
+     "strength": 6.6554975509643555,
+     "position": 25
+    },
+    {
+     "source_index": 108721,
+     "label": 685,
+     "class_name": "odometer",
+     "strength": 6.570021629333496,
+     "position": 37
+    },
+    {
+     "source_index": 111358,
+     "label": 685,
+     "class_name": "odometer",
+     "strength": 6.555360794067383,
+     "position": 38
+    },
+    {
+     "source_index": 503983,
+     "label": 685,
+     "class_name": "odometer",
+     "strength": 6.532339096069336,
+     "position": 23
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 16218,
+     "label": 230,
+     "class_name": "Shetland sheepdog",
+     "strength": 14.51335334777832,
+     "position": 24
+    },
+    {
+     "source_index": 829339,
+     "label": 218,
+     "class_name": "Welsh springer spaniel",
+     "strength": 14.007339477539062,
+     "position": 19
+    },
+    {
+     "source_index": 100975,
+     "label": 215,
+     "class_name": "Brittany spaniel",
+     "strength": 13.980813026428223,
+     "position": 12
+    },
+    {
+     "source_index": 115863,
+     "label": 215,
+     "class_name": "Brittany spaniel",
+     "strength": 13.9013090133667,
+     "position": 30
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Beetles",
+   "positiveLabel": "Beetles",
+   "negativeLabel": "Llamas",
+   "description": "The displayed extremes are unusually consistent: beetles and ladybugs at the positive pole, llamas at the negative pole. Deletion lowers ladybug accuracy by 88 percentage points and ground-beetle accuracy by 58 points, but also affects gymnastics apparatus. High spatial-mean responses include a beetle and a painted freight car.",
+   "deletion": -2.0020000000000038,
+   "positive": [
+    {
+     "source_index": 1277285,
+     "label": 304,
+     "class_name": "leaf beetle",
+     "strength": 10.57297134399414,
+     "position": 24
+    },
+    {
+     "source_index": 244100,
+     "label": 302,
+     "class_name": "ground beetle",
+     "strength": 10.218099594116211,
+     "position": 31
+    },
+    {
+     "source_index": 39574,
+     "label": 301,
+     "class_name": "ladybug",
+     "strength": 9.416764259338379,
+     "position": 30
+    },
+    {
+     "source_index": 616389,
+     "label": 301,
+     "class_name": "ladybug",
+     "strength": 9.225297927856445,
+     "position": 30
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 501602,
+     "label": 355,
+     "class_name": "llama",
+     "strength": 11.502359390258789,
+     "position": 25
+    },
+    {
+     "source_index": 336125,
+     "label": 355,
+     "class_name": "llama",
+     "strength": 10.5721435546875,
+     "position": 29
+    },
+    {
+     "source_index": 6142,
+     "label": 355,
+     "class_name": "llama",
+     "strength": 10.517317771911621,
+     "position": 38
+    },
+    {
+     "source_index": 787821,
+     "label": 355,
+     "class_name": "llama",
+     "strength": 10.400232315063477,
+     "position": 25
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Payphones & meters",
+   "positiveLabel": "Payphones / electronics",
+   "negativeLabel": "Llamas / other furry animals",
+   "description": "Payphones dominate the positive extremes, with llamas, sheep and other large furry animals at the negative pole. Deletion strongly harms bison, bighorn sheep and ibex, along with thatched structures. These are measured associations, not a complete explanation of the shared mechanism.",
+   "deletion": -2.302000000000004,
+   "positive": [
+    {
+     "source_index": 928463,
+     "label": 707,
+     "class_name": "pay-phone",
+     "strength": 9.229777336120605,
+     "position": 0
+    },
+    {
+     "source_index": 1104209,
+     "label": 485,
+     "class_name": "CD player",
+     "strength": 8.543914794921875,
+     "position": 22
+    },
+    {
+     "source_index": 1192601,
+     "label": 707,
+     "class_name": "pay-phone",
+     "strength": 8.344521522521973,
+     "position": 16
+    },
+    {
+     "source_index": 389714,
+     "label": 704,
+     "class_name": "parking meter",
+     "strength": 8.191475868225098,
+     "position": 19
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 152161,
+     "label": 355,
+     "class_name": "llama",
+     "strength": 11.155536651611328,
+     "position": 9
+    },
+    {
+     "source_index": 336125,
+     "label": 355,
+     "class_name": "llama",
+     "strength": 10.49339771270752,
+     "position": 15
+    },
+    {
+     "source_index": 807012,
+     "label": 355,
+     "class_name": "llama",
+     "strength": 9.417990684509277,
+     "position": 17
+    },
+    {
+     "source_index": 890720,
+     "label": 222,
+     "class_name": "kuvasz",
+     "strength": 9.333702087402344,
+     "position": 8
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Beetles & vehicles",
+   "positiveLabel": "Beetles / vehicles",
+   "negativeLabel": "Shaggy dogs",
+   "description": "Both insects and vehicles occupy the positive extreme; shaggy terriers appear at the negative pole. Deletion strongly harms fountain pens, tool kits and dragonflies. This is a clear case where a short list of top-image classes is insufficient.",
+   "deletion": -1.961999999999997,
+   "positive": [
+    {
+     "source_index": 485498,
+     "label": 303,
+     "class_name": "long-horned beetle",
+     "strength": 6.687312126159668,
+     "position": 32
+    },
+    {
+     "source_index": 683707,
+     "label": 302,
+     "class_name": "ground beetle",
+     "strength": 6.61344575881958,
+     "position": 39
+    },
+    {
+     "source_index": 441361,
+     "label": 468,
+     "class_name": "cab",
+     "strength": 6.568403244018555,
+     "position": 41
+    },
+    {
+     "source_index": 1113828,
+     "label": 300,
+     "class_name": "tiger beetle",
+     "strength": 6.487851142883301,
+     "position": 39
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 131266,
+     "label": 676,
+     "class_name": "muzzle",
+     "strength": 11.72598648071289,
+     "position": 39
+    },
+    {
+     "source_index": 1065667,
+     "label": 182,
+     "class_name": "Border terrier",
+     "strength": 11.046711921691895,
+     "position": 25
+    },
+    {
+     "source_index": 45583,
+     "label": 184,
+     "class_name": "Irish terrier",
+     "strength": 10.865717887878418,
+     "position": 31
+    },
+    {
+     "source_index": 46562,
+     "label": 175,
+     "class_name": "otterhound",
+     "strength": 10.744108200073242,
+     "position": 26
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Space shuttles",
+   "positiveLabel": "Space shuttles",
+   "negativeLabel": "Spaniels / setters",
+   "description": "Space-shuttle scenes dominate the local positive peaks. Images near the 99th percentile of the spatial average include a camera and radio equipment. Deletion harms keyboards and notebooks, as well as black swans: the peak gallery is much narrower than the measured role.",
+   "deletion": -2.2220000000000018,
+   "positive": [
+    {
+     "source_index": 422129,
+     "label": 812,
+     "class_name": "space shuttle",
+     "strength": 9.920010566711426,
+     "position": 24
+    },
+    {
+     "source_index": 374862,
+     "label": 812,
+     "class_name": "space shuttle",
+     "strength": 9.638928413391113,
+     "position": 39
+    },
+    {
+     "source_index": 750478,
+     "label": 812,
+     "class_name": "space shuttle",
+     "strength": 9.485665321350098,
+     "position": 25
+    },
+    {
+     "source_index": 867514,
+     "label": 812,
+     "class_name": "space shuttle",
+     "strength": 9.302556037902832,
+     "position": 30
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 1198079,
+     "label": 219,
+     "class_name": "cocker spaniel",
+     "strength": 12.603459358215332,
+     "position": 37
+    },
+    {
+     "source_index": 1050553,
+     "label": 212,
+     "class_name": "English setter",
+     "strength": 12.326410293579102,
+     "position": 25
+    },
+    {
+     "source_index": 793346,
+     "label": 219,
+     "class_name": "cocker spaniel",
+     "strength": 11.902552604675293,
+     "position": 30
+    },
+    {
+     "source_index": 179966,
+     "label": 219,
+     "class_name": "cocker spaniel",
+     "strength": 11.76932144165039,
+     "position": 37
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "Digital clocks",
+   "positiveLabel": "Digital clocks",
+   "negativeLabel": "Dogs",
+   "description": "Every displayed positive extreme is a digital clock. Deleting the neuron lowers digital-clock accuracy by 56 percentage points, but also canoe accuracy by 96 points and sea-urchin accuracy by 74 points. The underlying shared mechanism remains unresolved.",
+   "deletion": -2.1500000000000075,
+   "positive": [
+    {
+     "source_index": 1228122,
+     "label": 530,
+     "class_name": "digital clock",
+     "strength": 12.773026466369629,
+     "position": 32
+    },
+    {
+     "source_index": 610576,
+     "label": 530,
+     "class_name": "digital clock",
+     "strength": 12.466930389404297,
+     "position": 41
+    },
+    {
+     "source_index": 907415,
+     "label": 530,
+     "class_name": "digital clock",
+     "strength": 12.188705444335938,
+     "position": 25
+    },
+    {
+     "source_index": 46015,
+     "label": 530,
+     "class_name": "digital clock",
+     "strength": 12.167997360229492,
+     "position": 46
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 510007,
+     "label": 218,
+     "class_name": "Welsh springer spaniel",
+     "strength": 9.941676139831543,
+     "position": 46
+    },
+    {
+     "source_index": 92197,
+     "label": 253,
+     "class_name": "basenji",
+     "strength": 9.833271980285645,
+     "position": 32
+    },
+    {
+     "source_index": 1124032,
+     "label": 264,
+     "class_name": "Cardigan",
+     "strength": 9.64427375793457,
+     "position": 40
+    },
+    {
+     "source_index": 1264220,
+     "label": 180,
+     "class_name": "American Staffordshire terrier",
+     "strength": 9.623590469360352,
+     "position": 32
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title": "Pomeranians",
+   "positiveLabel": "Pomeranians",
+   "negativeLabel": "Rotary phones / coucals",
+   "description": "Pomeranians dominate the positive extreme; rotary telephones and coucals appear at the negative pole. Deletion lowers Pomeranian accuracy by 98 percentage points, while also strongly harming tractors. The two signed ends are only part of its function.",
+   "deletion": -1.9140000000000046,
+   "positive": [
+    {
+     "source_index": 988126,
+     "label": 259,
+     "class_name": "Pomeranian",
+     "strength": 11.313496589660645,
+     "position": 25
+    },
+    {
+     "source_index": 591512,
+     "label": 259,
+     "class_name": "Pomeranian",
+     "strength": 10.718771934509277,
+     "position": 33
+    },
+    {
+     "source_index": 194408,
+     "label": 259,
+     "class_name": "Pomeranian",
+     "strength": 9.503606796264648,
+     "position": 33
+    },
+    {
+     "source_index": 11397,
+     "label": 259,
+     "class_name": "Pomeranian",
+     "strength": 9.47732925415039,
+     "position": 36
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 800027,
+     "label": 528,
+     "class_name": "dial telephone",
+     "strength": 6.651801109313965,
+     "position": 32
+    },
+    {
+     "source_index": 1092840,
+     "label": 528,
+     "class_name": "dial telephone",
+     "strength": 5.9484477043151855,
+     "position": 33
+    },
+    {
+     "source_index": 62701,
+     "label": 528,
+     "class_name": "dial telephone",
+     "strength": 5.496617317199707,
+     "position": 40
+    },
+    {
+     "source_index": 1074625,
+     "label": 91,
+     "class_name": "coucal",
+     "strength": 5.452995777130127,
+     "position": 39
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "title": "Dogs",
+   "positiveLabel": "Dogs",
+   "negativeLabel": "Viaducts / parking meter",
+   "description": "Setters and terriers dominate the positive local peaks, while viaducts dominate the negative peaks. The lower end of the spatial-mean spectrum also contains birds. Deletion harms viaducts and suspension bridges, alongside lab coats and wigs.",
+   "deletion": -1.7040000000000055,
+   "positive": [
+    {
+     "source_index": 1065093,
+     "label": 213,
+     "class_name": "Irish setter",
+     "strength": 9.468589782714844,
+     "position": 37
+    },
+    {
+     "source_index": 70477,
+     "label": 200,
+     "class_name": "Tibetan terrier",
+     "strength": 9.384769439697266,
+     "position": 39
+    },
+    {
+     "source_index": 111208,
+     "label": 186,
+     "class_name": "Norwich terrier",
+     "strength": 9.272133827209473,
+     "position": 46
+    },
+    {
+     "source_index": 960777,
+     "label": 219,
+     "class_name": "cocker spaniel",
+     "strength": 8.767558097839355,
+     "position": 39
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 724302,
+     "label": 888,
+     "class_name": "viaduct",
+     "strength": 7.517033576965332,
+     "position": 10
+    },
+    {
+     "source_index": 378002,
+     "label": 704,
+     "class_name": "parking meter",
+     "strength": 7.304548263549805,
+     "position": 5
+    },
+    {
+     "source_index": 852229,
+     "label": 888,
+     "class_name": "viaduct",
+     "strength": 7.095534324645996,
+     "position": 17
+    },
+    {
+     "source_index": 157430,
+     "label": 888,
+     "class_name": "viaduct",
+     "strength": 7.050314903259277,
+     "position": 17
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "title": "Schnauzers & terriers",
+   "positiveLabel": "Schnauzers / terriers",
+   "negativeLabel": "Televisions / furnished rooms",
+   "description": "Schnauzers and a few birds occur at the positive extreme; home theaters and entertainment centers dominate the negative extreme. Deletion has its strongest class effects on ruddy turnstones and albatrosses. A dog-versus-interior description captures the gallery but not the full role.",
+   "deletion": -1.4460000000000028,
+   "positive": [
+    {
+     "source_index": 1186938,
+     "label": 198,
+     "class_name": "standard schnauzer",
+     "strength": 8.031183242797852,
+     "position": 32
+    },
+    {
+     "source_index": 1271312,
+     "label": 196,
+     "class_name": "miniature schnauzer",
+     "strength": 7.9630351066589355,
+     "position": 36
+    },
+    {
+     "source_index": 485908,
+     "label": 183,
+     "class_name": "Kerry blue terrier",
+     "strength": 7.049177169799805,
+     "position": 23
+    },
+    {
+     "source_index": 391575,
+     "label": 198,
+     "class_name": "standard schnauzer",
+     "strength": 7.041166305541992,
+     "position": 23
+    }
+   ],
+   "negative": [
+    {
+     "source_index": 355810,
+     "label": 548,
+     "class_name": "entertainment center",
+     "strength": 10.986266136169434,
+     "position": 5
+    },
+    {
+     "source_index": 722017,
+     "label": 548,
+     "class_name": "entertainment center",
+     "strength": 10.735958099365234,
+     "position": 11
+    },
+    {
+     "source_index": 24023,
+     "label": 548,
+     "class_name": "entertainment center",
+     "strength": 10.686808586120605,
+     "position": 9
+    },
+    {
+     "source_index": 1225581,
+     "label": 548,
+     "class_name": "entertainment center",
+     "strength": 10.589871406555176,
+     "position": 12
+    }
+   ]
+  }
+ ]
+}

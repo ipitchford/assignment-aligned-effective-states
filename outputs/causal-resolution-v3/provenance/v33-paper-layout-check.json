@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "PDF rendering and visual layout only; not a scientific or editorial assessment",
+  "pdf_sha256": "2b99d494b7877690ee24c3a27f00f1ae72f4897faade7036969d5947cff5c198",
+  "pages": 37,
+  "text_spans_outside_page": 0,
+  "render_receipt_sha256": "cd634b148432f3ff9bc443e570cb26e667ff549cf65af7dd66e3b0b0ed8e9d22",
+  "prior_render_receipt_sha256": "683e990557407efdbeaafad350bc9460a8f136a83a3b00565c290245115391e3",
+  "raster_pages_changed_since_prior_visual_check": [10],
+  "final_changed_page_inspection": {
+    "page": 10,
+    "result": "PASS",
+    "observations": "The added 202/224 negative-direction threshold is readable. The results table and paragraphs fit within the margins; no clipping or overlap was observed."
+  },
+  "prior_review_scope": "All 37 pages were viewed at contact-sheet scale across the earlier render checks, with pages 10 and 11 also inspected at full-page scale. The other 36 final page rasters are byte-identical to the preceding checked render.",
+  "compiler_note": "Three repeated 0.11604-point overfull-box warnings were retained in the build logs; no visible clipping was observed."
+}

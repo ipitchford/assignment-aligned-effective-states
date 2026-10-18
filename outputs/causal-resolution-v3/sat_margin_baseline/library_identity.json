@@ -1,0 +1,188 @@
+{
+  "estimator_parameters": {
+    "categorical_features": null,
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": 3,
+    "max_features": 1.0,
+    "max_iter": 200,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 5,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2026101522,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "fits_performed": 0,
+  "modules": [
+    {
+      "archived": "library_source/__init__.py",
+      "bytes": 246,
+      "name": "__init__.py",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/__init__.py",
+      "sha256": "0a37e830728977987104b5806ed5be94de16028023856a70f11c2d7169ae5feb"
+    },
+    {
+      "bytes": 96480,
+      "name": "_binning.cpython-311-darwin.so",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/_binning.cpython-311-darwin.so",
+      "sha256": "632d4e1c6ede821590c39f5007af8e802887cb526de2897f9de012de4b6496c2"
+    },
+    {
+      "archived": "library_source/_binning.pyx",
+      "bytes": 2831,
+      "name": "_binning.pyx",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/_binning.pyx",
+      "sha256": "6adcb511310ea4e36b3a6f21ce492da7d44b59a0ecd81054c66827bc4ef245de"
+    },
+    {
+      "bytes": 113888,
+      "name": "_gradient_boosting.cpython-311-darwin.so",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/_gradient_boosting.cpython-311-darwin.so",
+      "sha256": "773b66c239a2ca772cba017d9da8537ff33de56e3d71c3f0411f56fcae3bcbe5"
+    },
+    {
+      "archived": "library_source/_gradient_boosting.pyx",
+      "bytes": 2070,
+      "name": "_gradient_boosting.pyx",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/_gradient_boosting.pyx",
+      "sha256": "ee0cce472df356f461514756808a2189aeeba23a6e4af3065652382ee45777b0"
+    },
+    {
+      "bytes": 116016,
+      "name": "_predictor.cpython-311-darwin.so",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/_predictor.cpython-311-darwin.so",
+      "sha256": "a68e567089d3a49b9184ccaffcf89f2ac14706569258868d3427883a117901b5"
+    },
+    {
+      "archived": "library_source/_predictor.pyx",
+      "bytes": 9773,
+      "name": "_predictor.pyx",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/_predictor.pyx",
+      "sha256": "8c8e3e6408e42d47a908eeff413b1a2d1d827c8ac4e0676e9dd95f861d08274b"
+    },
+    {
+      "archived": "library_source/binning.py",
+      "bytes": 16216,
+      "name": "binning.py",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/binning.py",
+      "sha256": "7a7d2557967e885bb9c9e4ecaf3ded585f9c874f51ebf18e8a659e303d757342"
+    },
+    {
+      "bytes": 73824,
+      "name": "common.cpython-311-darwin.so",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/common.cpython-311-darwin.so",
+      "sha256": "f91eaaf31302393b6cf7b96029d8fc5c8d69b2520e02192ed09bb976e01638bf"
+    },
+    {
+      "archived": "library_source/common.pxd",
+      "bytes": 1310,
+      "name": "common.pxd",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/common.pxd",
+      "sha256": "29852a5e08fced413c552e289d6c8c910cf17bfd4a015f60932c6b8d8d6ca5ec"
+    },
+    {
+      "archived": "library_source/common.pyx",
+      "bytes": 1827,
+      "name": "common.pyx",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/common.pyx",
+      "sha256": "284162efba562cd2fc9e161012759b8f41e75f48430baf1a6b0b1af62504c95a"
+    },
+    {
+      "archived": "library_source/gradient_boosting.py",
+      "bytes": 92859,
+      "name": "gradient_boosting.py",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py",
+      "sha256": "82619e3ae89af1625dea1d4245d0d4a9e2eb85e0d034790fbd89a1bb51d7e996"
+    },
+    {
+      "archived": "library_source/grower.py",
+      "bytes": 32849,
+      "name": "grower.py",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/grower.py",
+      "sha256": "18d8e0ec14d9f93329652b59ade6795e34ea14f93be7a98573eea5f55efcf263"
+    },
+    {
+      "bytes": 173232,
+      "name": "histogram.cpython-311-darwin.so",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/histogram.cpython-311-darwin.so",
+      "sha256": "39381609ea350ec67e9e80c22ef997d25c545a7a85de257bd94e9059bb0eca64"
+    },
+    {
+      "archived": "library_source/histogram.pyx",
+      "bytes": 20816,
+      "name": "histogram.pyx",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/histogram.pyx",
+      "sha256": "f3b68c5c966e96f1da841dd4d976b45d7c6a2af0efa75dc2c3c702824431033b"
+    },
+    {
+      "archived": "library_source/predictor.py",
+      "bytes": 5122,
+      "name": "predictor.py",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/predictor.py",
+      "sha256": "cb94508d0e7da6ef07a481cce99e5b35f720ef58a0b0d604be4cca5bdc587da9"
+    },
+    {
+      "bytes": 207184,
+      "name": "splitting.cpython-311-darwin.so",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/splitting.cpython-311-darwin.so",
+      "sha256": "56c39da3c48b35f7915b3214bb02253a16d16e7307928bb31f1a2be13c6141a5"
+    },
+    {
+      "archived": "library_source/splitting.pyx",
+      "bytes": 52417,
+      "name": "splitting.pyx",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/splitting.pyx",
+      "sha256": "dc237c4c7ce36e5c6663d3d587e2d199c49781f5cefcc494644171ec0e71da48"
+    },
+    {
+      "archived": "library_source/utils.py",
+      "bytes": 5571,
+      "name": "utils.py",
+      "path": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/ensemble/_hist_gradient_boosting/utils.py",
+      "sha256": "b51fc5fdb44c450a554a1ec43108c3ca750928f2a428e14c7a1d66e744e976fe"
+    }
+  ],
+  "neural_imports": false,
+  "runtime": {
+    "executable": "/Users/admin/.venvs/gaia-tess-microlensing/bin/python",
+    "numpy": "2.4.6",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python": "3.11.14",
+    "python_full": "3.11.14 (main, Feb 12 2026, 00:41:29) [Clang 21.1.4 ]",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  },
+  "thread_settings": {
+    "environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "limit": 1,
+    "mechanism": "threadpoolctl.threadpool_limits(1)",
+    "observed_pools": [
+      {
+        "filepath": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ],
+    "threadpoolctl_version": "3.6.0"
+  }
+}

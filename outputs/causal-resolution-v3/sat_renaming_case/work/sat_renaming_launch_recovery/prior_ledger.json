@@ -1,0 +1,80 @@
+{
+  "encoder": {
+    "path": "sat_case/pilot_common.py",
+    "sha256": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61"
+  },
+  "historical_smoke": "One invalid-grammar 41-zero shape-smoke row is excluded; it cannot equal a valid formula.",
+  "identity_encoding": "41 raw uint8 token bytes, lexicographic sorted deduplicated rows",
+  "ledger_sha256": "8fb9d138443bb4d72a0265196343199ccb665c08b34a81737d75e0eb02ee29eb",
+  "raw_rows": 9446,
+  "schema_version": 1,
+  "sources": [
+    {
+      "key": "tokens",
+      "kind": "tokens",
+      "original_shape": [
+        4096,
+        41
+      ],
+      "path": "sat_case/pilot_bank.npz",
+      "row_count": 4096,
+      "sha256": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b"
+    },
+    {
+      "key": "unique_tokens",
+      "kind": "tokens",
+      "original_shape": [
+        4322,
+        41
+      ],
+      "path": "sat_mechanism/query_tokens.npz",
+      "row_count": 4322,
+      "sha256": "208fe4a7e5ead1c007fdff57424ac7c5838c2f0c5be4272f95c8b49ad2686b62"
+    },
+    {
+      "key": "edited_clauses",
+      "kind": "clause_ids",
+      "original_shape": [
+        256,
+        10
+      ],
+      "path": "sat_case/candidate_logits.npz",
+      "row_count": 256,
+      "sha256": "adad7106407676edc221165f1039c0477aca65ae1cd082c3bff08fb281da149d"
+    },
+    {
+      "key": "edited_clauses",
+      "kind": "clause_ids",
+      "original_shape": [
+        768,
+        10
+      ],
+      "path": "sat_case/selected_decision_check.npz",
+      "row_count": 768,
+      "sha256": "7b00b522827574de5e604e6e650ad0ef8edf81e42b32a5ca7115c297edd9b942"
+    },
+    {
+      "key": "original_tokens",
+      "kind": "tokens",
+      "original_shape": [
+        2,
+        41
+      ],
+      "path": "sat_case/primary_witness.npz",
+      "row_count": 2,
+      "sha256": "cdc4ed22391542e406edb7fbe99f58da207cba3b69701b32804658753d83a152"
+    },
+    {
+      "key": "edited_tokens",
+      "kind": "tokens",
+      "original_shape": [
+        2,
+        41
+      ],
+      "path": "sat_case/primary_witness.npz",
+      "row_count": 2,
+      "sha256": "cdc4ed22391542e406edb7fbe99f58da207cba3b69701b32804658753d83a152"
+    }
+  ],
+  "unique_rows": 8957
+}

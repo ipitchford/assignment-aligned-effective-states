@@ -1,0 +1,71 @@
+{
+  "actions": {
+    "context_bits": 4,
+    "definition": "one of four group indices and one of four declared strengths",
+    "discovery_strengths": [
+      0.5,
+      1.0
+    ],
+    "evaluation_strengths": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "groups": [
+      [
+        7,
+        31,
+        27,
+        4,
+        6,
+        20,
+        3,
+        12
+      ],
+      [
+        5,
+        22,
+        21,
+        25,
+        30,
+        19,
+        17,
+        16
+      ],
+      [
+        2,
+        11,
+        15,
+        9,
+        24,
+        28,
+        0,
+        8
+      ],
+      [
+        23,
+        13,
+        14,
+        29,
+        1,
+        26,
+        10,
+        18
+      ]
+    ]
+  },
+  "created_utc": "2026-10-15T21:42:33Z",
+  "decoder": "one shared polynomial-strength action-conditioned affine model: s B_g[1,standardized_code]+s(1\u2212s) G_g[1,standardized_code]",
+  "decoder_coefficients": "80*(number of code coordinates+1); 4groups*2strength terms*10outputs",
+  "encoders": "reuse original native8/native12/PCA8 and nonlinear random8; shallow random8 uses32 fixed Gaussian candidates with original retrospective discovery selection, explicitly a new exploratory baseline; current-output box quantizer uses width/2^b<=1",
+  "fitting": "discovery-fit only; standardization on discovery-fit codes; ridge grid1e-6,1e-4,.01,.1,1 chosen on original separate discovery-validation; no selection from current test outcomes",
+  "inference": "no population/pristine holdout claim, no semantic or generality claim",
+  "models": "reuse shallow17/29/43 and nonlinear117/129/143; no neural retraining",
+  "policy": "at strength3/4 choose group maximizing drop in original top-vs-runner-up margin; ordered top/runner labels provided as7extra context bits; no exact baseline margin supplied; descriptive same-code and same-class-pair witness search",
+  "precision_control": "reuse previously selected native-coordinate bit allocation; simulate action only on midpoint reconstruction, never on unavailable true state; fixed original downstream computation charged",
+  "projection_warning": "current-output quantizer already computes nominated current readout; its cost and inability to see future state are explicit",
+  "report_timing": "T(h) computed from original state once; T(hprime) never provided",
+  "source_code_sha256": "eab27e6960df8c38cab32c2124b1c4ddf6c975f429bcee2f77fa156ad3b27b4b",
+  "status": "post-test exploratory reuse; prospective means prediction before the action, not preregistration; existing test images and previous outcomes already inspected"
+}

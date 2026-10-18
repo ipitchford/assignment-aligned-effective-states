@@ -1,0 +1,51 @@
+{
+  "attempted_fits": 7,
+  "completed_fits": 7,
+  "decision": "STOP_DEVELOPMENT_GATE_FAILED",
+  "manifest_sha256": "b07c8cbd181ebd2a7a4c1f299796f6383bbffbbbb42a6fc6402699392bb60c93",
+  "model_sizes": {
+    "context_only": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "continuous_post34": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "continuous_pre34": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "negative_bin68": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "post_fourbin68": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "pre_fourbin68": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "published_bits34": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    }
+  },
+  "native_forwards": 0,
+  "resource_usage": {
+    "elapsed_seconds": 27.286173874977976,
+    "leaves": 10500,
+    "peak_rss_bytes": 387907584,
+    "trees": 700
+  },
+  "status": "COMPLETE"
+}

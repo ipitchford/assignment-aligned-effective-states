@@ -1,0 +1,9 @@
+{
+  "arithmetic": "independent Python-integer forward evaluation and exact rational decision enumeration",
+  "checks": 297,
+  "predictor_input_check": "all fitted predictions independently rebuilt from pre-action code and action only; no target or post-action state supplied",
+  "response_rows_replayed": 34944,
+  "scope": "same-team arithmetic verification; retrospective exploratory study, not independent scientific replication",
+  "script_sha256": "89e5164cdfcff5415bee20044e224bdccfc4ecde33091b889a00678ce7fcf822",
+  "status": "passed"
+}

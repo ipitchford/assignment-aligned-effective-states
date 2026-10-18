@@ -1,0 +1,1520 @@
+{
+  "architecture": "linear",
+  "banks": {
+    "seen_strength": {
+      "results": {
+        "action-only": {
+          "prediction": {
+            "max_abs": 13.288724664405263,
+            "mean_target_squared_norm": 68.18570351201029,
+            "median_max_abs": 2.526332859020741,
+            "mse_sum_outputs": 30.956004613396836,
+            "n": 2912,
+            "p95_max_abs": 6.1729862215249245,
+            "rmse_per_output": 1.7594318575437025,
+            "within_epsilon": {
+              "0.25": 0.00034340659340659343,
+              "0.5": 0.004807692307692308,
+              "1.0": 0.061126373626373624,
+              "2.0": 0.3334478021978022,
+              "4.0": 0.7633928571428571
+            }
+          },
+          "state_response_oracles": {
+            "2": {
+              "empirical_oracle_mse_per_action": 12.35822520538291,
+              "exact_minimax_error": 5.63635331094265,
+              "primary_incompatible_fibres": 1,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 1,
+              "witness": {
+                "code": [],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -71552315692,
+                  49487450004
+                ],
+                "rows": [
+                  291,
+                  114
+                ]
+              },
+              "worst_range_numerator": 121039765696
+            },
+            "4": {
+              "empirical_oracle_mse_per_action": 49.43290082153164,
+              "exact_minimax_error": 11.2727066218853,
+              "primary_incompatible_fibres": 1,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 1,
+              "witness": {
+                "code": [],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -143104631384,
+                  98974900008
+                ],
+                "rows": [
+                  291,
+                  114
+                ]
+              },
+              "worst_range_numerator": 242079531392
+            }
+          }
+        },
+        "current-output": {
+          "prediction": {
+            "max_abs": 2.127315807964396,
+            "mean_target_squared_norm": 68.18570351201029,
+            "median_max_abs": 0.5080019709489034,
+            "mse_sum_outputs": 1.1386570659973498,
+            "n": 2912,
+            "p95_max_abs": 1.2297674263844307,
+            "rmse_per_output": 0.3374399303575896,
+            "within_epsilon": {
+              "0.25": 0.10989010989010989,
+              "0.5": 0.4886675824175824,
+              "1.0": 0.8849587912087912,
+              "2.0": 0.9993131868131868,
+              "4.0": 1.0
+            }
+          },
+          "state_response_oracles": {
+            "2": {
+              "empirical_oracle_mse_per_action": 0.0,
+              "exact_minimax_error": 0.0,
+              "primary_incompatible_fibres": 0,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 364,
+              "witness": {
+                "code": [
+                  105,
+                  124,
+                  133,
+                  164,
+                  94,
+                  57,
+                  53,
+                  59,
+                  162,
+                  145
+                ],
+                "coordinate": 0,
+                "group": 0,
+                "numerators": [
+                  45527388340,
+                  45527388340
+                ],
+                "rows": [
+                  24,
+                  24
+                ]
+              },
+              "worst_range_numerator": 0
+            },
+            "4": {
+              "empirical_oracle_mse_per_action": 0.0,
+              "exact_minimax_error": 0.0,
+              "primary_incompatible_fibres": 0,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 364,
+              "witness": {
+                "code": [
+                  105,
+                  124,
+                  133,
+                  164,
+                  94,
+                  57,
+                  53,
+                  59,
+                  162,
+                  145
+                ],
+                "coordinate": 0,
+                "group": 0,
+                "numerators": [
+                  91054776680,
+                  91054776680
+                ],
+                "rows": [
+                  24,
+                  24
+                ]
+              },
+              "worst_range_numerator": 0
+            }
+          }
+        },
+        "native-12": {
+          "prediction": {
+            "max_abs": 6.889833839067229,
+            "mean_target_squared_norm": 68.18570351201029,
+            "median_max_abs": 1.330063890818593,
+            "mse_sum_outputs": 8.592003909958501,
+            "n": 2912,
+            "p95_max_abs": 3.1326616222928734,
+            "rmse_per_output": 0.9269306290094476,
+            "within_epsilon": {
+              "0.25": 0.0020604395604395605,
+              "0.5": 0.03949175824175824,
+              "1.0": 0.30528846153846156,
+              "2.0": 0.7554945054945055,
+              "4.0": 0.9876373626373627
+            }
+          },
+          "state_response_oracles": {
+            "2": {
+              "empirical_oracle_mse_per_action": 0.7492724510363701,
+              "exact_minimax_error": 1.8972379791550338,
+              "primary_incompatible_fibres": 23,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 210,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -60211226228,
+                  -19468350862
+                ],
+                "rows": [
+                  28,
+                  254
+                ]
+              },
+              "worst_range_numerator": 40742875366
+            },
+            "4": {
+              "empirical_oracle_mse_per_action": 2.9970898041454803,
+              "exact_minimax_error": 3.7944759583100676,
+              "primary_incompatible_fibres": 62,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 210,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -120422452456,
+                  -38936701724
+                ],
+                "rows": [
+                  28,
+                  254
+                ]
+              },
+              "worst_range_numerator": 81485750732
+            }
+          }
+        },
+        "native-8": {
+          "prediction": {
+            "max_abs": 9.576255184491783,
+            "mean_target_squared_norm": 68.18570351201029,
+            "median_max_abs": 1.5069111963968527,
+            "mse_sum_outputs": 11.763170371216882,
+            "n": 2912,
+            "p95_max_abs": 3.963996731043706,
+            "rmse_per_output": 1.084581503217572,
+            "within_epsilon": {
+              "0.25": 0.0013736263736263737,
+              "0.5": 0.03021978021978022,
+              "1.0": 0.24210164835164835,
+              "2.0": 0.6675824175824175,
+              "4.0": 0.9515796703296703
+            }
+          },
+          "state_response_oracles": {
+            "2": {
+              "empirical_oracle_mse_per_action": 2.08264799329716,
+              "exact_minimax_error": 2.974842353258282,
+              "primary_incompatible_fibres": 44,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 110,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -44982320250,
+                  18901932840
+                ],
+                "rows": [
+                  284,
+                  267
+                ]
+              },
+              "worst_range_numerator": 63884253090
+            },
+            "4": {
+              "empirical_oracle_mse_per_action": 8.33059197318864,
+              "exact_minimax_error": 5.949684706516564,
+              "primary_incompatible_fibres": 60,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 110,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -89964640500,
+                  37803865680
+                ],
+                "rows": [
+                  284,
+                  267
+                ]
+              },
+              "worst_range_numerator": 127768506180
+            }
+          }
+        },
+        "native-precision": {
+          "decoder_coefficients": 320,
+          "exact_epsilon1_pass": true,
+          "exact_max_error_numerator": 885819126592,
+          "exact_prediction_denominator": 5497558138880,
+          "no_true_postaction_state_used_by_predictor": true,
+          "prediction": {
+            "max_abs": 0.16112956047290972,
+            "mean_target_squared_norm": 68.18570351201029,
+            "median_max_abs": 0.04445728262071488,
+            "mse_sum_outputs": 0.008163153758716624,
+            "n": 2912,
+            "p95_max_abs": 0.09528628419095174,
+            "rmse_per_output": 0.028571233362801512,
+            "within_epsilon": {
+              "0.25": 1.0,
+              "0.5": 1.0,
+              "1.0": 1.0,
+              "2.0": 1.0,
+              "4.0": 1.0
+            }
+          },
+          "state_bits": 212
+        },
+        "pca-8": {
+          "prediction": {
+            "max_abs": 12.30011305252259,
+            "mean_target_squared_norm": 68.18570351201029,
+            "median_max_abs": 2.4614925517772637,
+            "mse_sum_outputs": 28.898664344785086,
+            "n": 2912,
+            "p95_max_abs": 5.7782344332374045,
+            "rmse_per_output": 1.6999607155691887,
+            "within_epsilon": {
+              "0.25": 0.0006868131868131869,
+              "0.5": 0.005837912087912088,
+              "1.0": 0.06353021978021978,
+              "2.0": 0.36092032967032966,
+              "4.0": 0.7901785714285714
+            }
+          },
+          "state_response_oracles": {
+            "2": {
+              "empirical_oracle_mse_per_action": 4.7713017272061915,
+              "exact_minimax_error": 4.650411200150847,
+              "primary_incompatible_fibres": 90,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 177,
+              "witness": {
+                "code": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -50379370084,
+                  49487450004
+                ],
+                "rows": [
+                  296,
+                  114
+                ]
+              },
+              "worst_range_numerator": 99866820088
+            },
+            "4": {
+              "empirical_oracle_mse_per_action": 19.085206908824766,
+              "exact_minimax_error": 9.300822400301694,
+              "primary_incompatible_fibres": 109,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 177,
+              "witness": {
+                "code": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -100758740168,
+                  98974900008
+                ],
+                "rows": [
+                  296,
+                  114
+                ]
+              },
+              "worst_range_numerator": 199733640176
+            }
+          }
+        },
+        "random-8": {
+          "prediction": {
+            "max_abs": 10.318306611772426,
+            "mean_target_squared_norm": 68.18570351201029,
+            "median_max_abs": 1.7211379932516917,
+            "mse_sum_outputs": 14.964706593543164,
+            "n": 2912,
+            "p95_max_abs": 4.450403484981795,
+            "rmse_per_output": 1.2233031755678214,
+            "within_epsilon": {
+              "0.25": 0.0030906593406593405,
+              "0.5": 0.027815934065934064,
+              "1.0": 0.1933379120879121,
+              "2.0": 0.595467032967033,
+              "4.0": 0.9234203296703297
+            }
+          },
+          "state_response_oracles": {
+            "2": {
+              "empirical_oracle_mse_per_action": 3.08196396579402,
+              "exact_minimax_error": 4.178171525429934,
+              "primary_incompatible_fibres": 48,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 109,
+              "witness": {
+                "code": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -59083990736,
+                  30641559558
+                ],
+                "rows": [
+                  168,
+                  299
+                ]
+              },
+              "worst_range_numerator": 89725550294
+            },
+            "4": {
+              "empirical_oracle_mse_per_action": 12.32785586317608,
+              "exact_minimax_error": 8.356343050859868,
+              "primary_incompatible_fibres": 62,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 109,
+              "witness": {
+                "code": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -118167981472,
+                  61283119116
+                ],
+                "rows": [
+                  168,
+                  299
+                ]
+              },
+              "worst_range_numerator": 179451100588
+            }
+          }
+        }
+      },
+      "rows": 2912
+    },
+    "unseen_strength": {
+      "results": {
+        "action-only": {
+          "policy": {
+            "best_group_accuracy": 0.5824175824175825,
+            "extra_policy_context_bits": 7,
+            "fraction_response_margin_change_sign_errors": 0.20673076923076922,
+            "max_action_regret": 8.094334906898439,
+            "mean_action_regret": 0.7973672967445065,
+            "p95_action_regret": 4.298654140345751,
+            "query": "choose group that most decreases baseline top-class versus runner-up margin at strength3/4",
+            "same_code_same_class_pair_different_action_witness": {
+              "all_true_margin_drops": [
+                [
+                  -1.1970533626154065,
+                  -3.8724852567538623,
+                  6.041181240230799,
+                  2.6655922941863537
+                ],
+                [
+                  -1.8843085002154112,
+                  -2.657704593613744,
+                  2.0610916977748275,
+                  5.634063315577805
+                ]
+              ],
+              "best_groups": [
+                2,
+                3
+              ],
+              "cross_preferred_action_regret_min": 3.375588946044445,
+              "digit_labels": [
+                8,
+                8
+              ],
+              "input_ids": [
+                1305,
+                253
+              ],
+              "rows": [
+                90,
+                307
+              ],
+              "same_runner_class": 1,
+              "same_state_code": [],
+              "same_top_class": 8
+            },
+            "top_runner_context_supplied_as_labels_only": true
+          },
+          "prediction": {
+            "max_abs": 9.966532002425131,
+            "mean_target_squared_norm": 34.092851756005146,
+            "median_max_abs": 1.4992646011104684,
+            "mse_sum_outputs": 15.477946642789442,
+            "n": 2912,
+            "p95_max_abs": 4.619251159329259,
+            "rmse_per_output": 1.2441039603983843,
+            "within_epsilon": {
+              "0.25": 0.004807692307692308,
+              "0.5": 0.057692307692307696,
+              "1.0": 0.2867445054945055,
+              "2.0": 0.6109203296703297,
+              "4.0": 0.9117445054945055
+            }
+          },
+          "state_response_oracles": {
+            "1": {
+              "empirical_oracle_mse_per_action": 3.0895563013457275,
+              "exact_minimax_error": 2.818176655471325,
+              "primary_incompatible_fibres": 1,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 1,
+              "witness": {
+                "code": [],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -35776157846,
+                  24743725002
+                ],
+                "rows": [
+                  291,
+                  114
+                ]
+              },
+              "worst_range_numerator": 60519882848
+            },
+            "3": {
+              "empirical_oracle_mse_per_action": 27.80600671211155,
+              "exact_minimax_error": 8.454529966413975,
+              "primary_incompatible_fibres": 1,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 1,
+              "witness": {
+                "code": [],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -107328473538,
+                  74231175006
+                ],
+                "rows": [
+                  291,
+                  114
+                ]
+              },
+              "worst_range_numerator": 181559648544
+            }
+          }
+        },
+        "current-output": {
+          "policy": {
+            "best_group_accuracy": 0.9065934065934066,
+            "extra_policy_context_bits": 7,
+            "fraction_response_margin_change_sign_errors": 0.054945054945054944,
+            "max_action_regret": 1.3019435349851847,
+            "mean_action_regret": 0.04737464219311273,
+            "p95_action_regret": 0.3454897907562546,
+            "query": "choose group that most decreases baseline top-class versus runner-up margin at strength3/4",
+            "same_code_same_class_pair_different_action_witness": null,
+            "top_runner_context_supplied_as_labels_only": true
+          },
+          "prediction": {
+            "max_abs": 1.6006474545049452,
+            "mean_target_squared_norm": 34.092851756005146,
+            "median_max_abs": 0.3051141255691441,
+            "mse_sum_outputs": 0.5693335047522329,
+            "n": 2912,
+            "p95_max_abs": 0.919627518769879,
+            "rmse_per_output": 0.23860710482972483,
+            "within_epsilon": {
+              "0.25": 0.4107142857142857,
+              "0.5": 0.7108516483516484,
+              "1.0": 0.9684065934065934,
+              "2.0": 1.0,
+              "4.0": 1.0
+            }
+          },
+          "state_response_oracles": {
+            "1": {
+              "empirical_oracle_mse_per_action": 0.0,
+              "exact_minimax_error": 0.0,
+              "primary_incompatible_fibres": 0,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 364,
+              "witness": {
+                "code": [
+                  105,
+                  124,
+                  133,
+                  164,
+                  94,
+                  57,
+                  53,
+                  59,
+                  162,
+                  145
+                ],
+                "coordinate": 0,
+                "group": 0,
+                "numerators": [
+                  22763694170,
+                  22763694170
+                ],
+                "rows": [
+                  24,
+                  24
+                ]
+              },
+              "worst_range_numerator": 0
+            },
+            "3": {
+              "empirical_oracle_mse_per_action": 0.0,
+              "exact_minimax_error": 0.0,
+              "primary_incompatible_fibres": 0,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 364,
+              "witness": {
+                "code": [
+                  105,
+                  124,
+                  133,
+                  164,
+                  94,
+                  57,
+                  53,
+                  59,
+                  162,
+                  145
+                ],
+                "coordinate": 0,
+                "group": 0,
+                "numerators": [
+                  68291082510,
+                  68291082510
+                ],
+                "rows": [
+                  24,
+                  24
+                ]
+              },
+              "worst_range_numerator": 0
+            }
+          }
+        },
+        "native-12": {
+          "policy": {
+            "best_group_accuracy": 0.7445054945054945,
+            "extra_policy_context_bits": 7,
+            "fraction_response_margin_change_sign_errors": 0.12568681318681318,
+            "max_action_regret": 3.37091226875782,
+            "mean_action_regret": 0.21182953418171094,
+            "p95_action_regret": 1.2594118750188488,
+            "query": "choose group that most decreases baseline top-class versus runner-up margin at strength3/4",
+            "same_code_same_class_pair_different_action_witness": {
+              "all_true_margin_drops": [
+                [
+                  0.8473267536610365,
+                  1.0115419691428542,
+                  2.2794218184426422,
+                  1.7043304620310666
+                ],
+                [
+                  0.21472799498587847,
+                  2.760884086601436,
+                  1.116569286212325,
+                  1.385692259296775
+                ]
+              ],
+              "best_groups": [
+                2,
+                1
+              ],
+              "cross_preferred_action_regret_min": 1.267879849299788,
+              "digit_labels": [
+                9,
+                9
+              ],
+              "input_ids": [
+                1686,
+                1698
+              ],
+              "rows": [
+                221,
+                312
+              ],
+              "same_runner_class": 5,
+              "same_state_code": [
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "same_top_class": 9
+            },
+            "top_runner_context_supplied_as_labels_only": true
+          },
+          "prediction": {
+            "max_abs": 5.166137879028468,
+            "mean_target_squared_norm": 34.092851756005146,
+            "median_max_abs": 0.7936081013623361,
+            "mse_sum_outputs": 4.296038368427843,
+            "n": 2912,
+            "p95_max_abs": 2.3476901681483957,
+            "rmse_per_output": 0.6554417112472963,
+            "within_epsilon": {
+              "0.25": 0.03777472527472527,
+              "0.5": 0.2764423076923077,
+              "1.0": 0.5889423076923077,
+              "2.0": 0.8997252747252747,
+              "4.0": 0.9989697802197802
+            }
+          },
+          "state_response_oracles": {
+            "1": {
+              "empirical_oracle_mse_per_action": 0.18731811275909252,
+              "exact_minimax_error": 0.9486189895775169,
+              "primary_incompatible_fibres": 0,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 210,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -30105613114,
+                  -9734175431
+                ],
+                "rows": [
+                  28,
+                  254
+                ]
+              },
+              "worst_range_numerator": 20371437683
+            },
+            "3": {
+              "empirical_oracle_mse_per_action": 1.6858630148318325,
+              "exact_minimax_error": 2.8458569687325506,
+              "primary_incompatible_fibres": 49,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 210,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -90316839342,
+                  -29202526293
+                ],
+                "rows": [
+                  28,
+                  254
+                ]
+              },
+              "worst_range_numerator": 61114313049
+            }
+          }
+        },
+        "native-8": {
+          "policy": {
+            "best_group_accuracy": 0.6648351648351648,
+            "extra_policy_context_bits": 7,
+            "fraction_response_margin_change_sign_errors": 0.14285714285714285,
+            "max_action_regret": 6.774242573417723,
+            "mean_action_regret": 0.40748194794446885,
+            "p95_action_regret": 2.382880041701709,
+            "query": "choose group that most decreases baseline top-class versus runner-up margin at strength3/4",
+            "same_code_same_class_pair_different_action_witness": {
+              "all_true_margin_drops": [
+                [
+                  -1.1970533626154065,
+                  -3.8724852567538623,
+                  6.041181240230799,
+                  2.6655922941863537
+                ],
+                [
+                  -1.8843085002154112,
+                  -2.657704593613744,
+                  2.0610916977748275,
+                  5.634063315577805
+                ]
+              ],
+              "best_groups": [
+                2,
+                3
+              ],
+              "cross_preferred_action_regret_min": 3.375588946044445,
+              "digit_labels": [
+                8,
+                8
+              ],
+              "input_ids": [
+                1305,
+                253
+              ],
+              "rows": [
+                90,
+                307
+              ],
+              "same_runner_class": 1,
+              "same_state_code": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "same_top_class": 8
+            },
+            "top_runner_context_supplied_as_labels_only": true
+          },
+          "prediction": {
+            "max_abs": 7.180693769779549,
+            "mean_target_squared_norm": 34.092851756005146,
+            "median_max_abs": 0.9277830057966155,
+            "mse_sum_outputs": 5.881510220006982,
+            "n": 2912,
+            "p95_max_abs": 2.9314339911817684,
+            "rmse_per_output": 0.7669100481808138,
+            "within_epsilon": {
+              "0.25": 0.028846153846153848,
+              "0.5": 0.21737637362637363,
+              "1.0": 0.5267857142857143,
+              "2.0": 0.8440934065934066,
+              "4.0": 0.9869505494505495
+            }
+          },
+          "state_response_oracles": {
+            "1": {
+              "empirical_oracle_mse_per_action": 0.52066199832429,
+              "exact_minimax_error": 1.487421176629141,
+              "primary_incompatible_fibres": 10,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 110,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -22491160125,
+                  9450966420
+                ],
+                "rows": [
+                  284,
+                  267
+                ]
+              },
+              "worst_range_numerator": 31942126545
+            },
+            "3": {
+              "empirical_oracle_mse_per_action": 4.685957984918609,
+              "exact_minimax_error": 4.462263529887423,
+              "primary_incompatible_fibres": 53,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 110,
+              "witness": {
+                "code": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -67473480375,
+                  28352899260
+                ],
+                "rows": [
+                  284,
+                  267
+                ]
+              },
+              "worst_range_numerator": 95826379635
+            }
+          }
+        },
+        "native-precision": {
+          "decoder_coefficients": 320,
+          "exact_epsilon1_pass": true,
+          "exact_max_error_numerator": 664364344944,
+          "exact_prediction_denominator": 5497558138880,
+          "no_true_postaction_state_used_by_predictor": true,
+          "policy": {
+            "best_group_accuracy": 0.9917582417582418,
+            "extra_policy_context_bits": 7,
+            "fraction_response_margin_change_sign_errors": 0.006181318681318681,
+            "max_action_regret": 0.03900670073926449,
+            "mean_action_regret": 0.00017454663219933325,
+            "p95_action_regret": 0.0,
+            "query": "choose group that most decreases baseline top-class versus runner-up margin at strength3/4",
+            "same_code_same_class_pair_different_action_witness": null,
+            "top_runner_context_supplied_as_labels_only": true
+          },
+          "prediction": {
+            "max_abs": 0.12084717035468273,
+            "mean_target_squared_norm": 34.092851756005146,
+            "median_max_abs": 0.02643357040942651,
+            "mse_sum_outputs": 0.004081576879358313,
+            "n": 2912,
+            "p95_max_abs": 0.07146471314321394,
+            "rmse_per_output": 0.02020291285770028,
+            "within_epsilon": {
+              "0.25": 1.0,
+              "0.5": 1.0,
+              "1.0": 1.0,
+              "2.0": 1.0,
+              "4.0": 1.0
+            }
+          },
+          "state_bits": 212
+        },
+        "pca-8": {
+          "policy": {
+            "best_group_accuracy": 0.6456043956043956,
+            "extra_policy_context_bits": 7,
+            "fraction_response_margin_change_sign_errors": 0.18337912087912087,
+            "max_action_regret": 8.094334906898439,
+            "mean_action_regret": 0.5177877825214067,
+            "p95_action_regret": 3.0227585907094134,
+            "query": "choose group that most decreases baseline top-class versus runner-up margin at strength3/4",
+            "same_code_same_class_pair_different_action_witness": {
+              "all_true_margin_drops": [
+                [
+                  -0.8557863961905241,
+                  -0.7380869379267097,
+                  2.2362784780561924,
+                  1.0961402636021376
+                ],
+                [
+                  1.5588807379826903,
+                  -1.3963420623913407,
+                  0.3198937810957432,
+                  -0.6076992899179459
+                ]
+              ],
+              "best_groups": [
+                2,
+                0
+              ],
+              "cross_preferred_action_regret_min": 1.2389869568869472,
+              "digit_labels": [
+                7,
+                7
+              ],
+              "input_ids": [
+                211,
+                1635
+              ],
+              "rows": [
+                167,
+                235
+              ],
+              "same_runner_class": 9,
+              "same_state_code": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "same_top_class": 7
+            },
+            "top_runner_context_supplied_as_labels_only": true
+          },
+          "prediction": {
+            "max_abs": 9.224744507217075,
+            "mean_target_squared_norm": 34.092851756005146,
+            "median_max_abs": 1.4403792895577343,
+            "mse_sum_outputs": 14.449431727253993,
+            "n": 2912,
+            "p95_max_abs": 4.322404034529849,
+            "rmse_per_output": 1.2020578907546005,
+            "within_epsilon": {
+              "0.25": 0.005494505494505495,
+              "0.5": 0.059065934065934064,
+              "1.0": 0.3173076923076923,
+              "2.0": 0.625,
+              "4.0": 0.9237637362637363
+            }
+          },
+          "state_response_oracles": {
+            "1": {
+              "empirical_oracle_mse_per_action": 1.1928254318015479,
+              "exact_minimax_error": 2.3252056000754235,
+              "primary_incompatible_fibres": 48,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 177,
+              "witness": {
+                "code": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -25189685042,
+                  24743725002
+                ],
+                "rows": [
+                  296,
+                  114
+                ]
+              },
+              "worst_range_numerator": 49933410044
+            },
+            "3": {
+              "empirical_oracle_mse_per_action": 10.735428886213933,
+              "exact_minimax_error": 6.9756168002262715,
+              "primary_incompatible_fibres": 100,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 177,
+              "witness": {
+                "code": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -75569055126,
+                  74231175006
+                ],
+                "rows": [
+                  296,
+                  114
+                ]
+              },
+              "worst_range_numerator": 149800230132
+            }
+          }
+        },
+        "random-8": {
+          "policy": {
+            "best_group_accuracy": 0.717032967032967,
+            "extra_policy_context_bits": 7,
+            "fraction_response_margin_change_sign_errors": 0.18063186813186813,
+            "max_action_regret": 5.767726111225784,
+            "mean_action_regret": 0.3954417850095574,
+            "p95_action_regret": 2.4628720936831083,
+            "query": "choose group that most decreases baseline top-class versus runner-up margin at strength3/4",
+            "same_code_same_class_pair_different_action_witness": {
+              "all_true_margin_drops": [
+                [
+                  0.8473267536610365,
+                  1.0115419691428542,
+                  2.2794218184426422,
+                  1.7043304620310666
+                ],
+                [
+                  0.12367531377822161,
+                  2.504243622533977,
+                  1.002155545167625,
+                  1.8924423884600403
+                ]
+              ],
+              "best_groups": [
+                2,
+                1
+              ],
+              "cross_preferred_action_regret_min": 1.267879849299788,
+              "digit_labels": [
+                9,
+                9
+              ],
+              "input_ids": [
+                1686,
+                1226
+              ],
+              "rows": [
+                221,
+                268
+              ],
+              "same_runner_class": 5,
+              "same_state_code": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+              ],
+              "same_top_class": 9
+            },
+            "top_runner_context_supplied_as_labels_only": true
+          },
+          "prediction": {
+            "max_abs": 7.738318120806519,
+            "mean_target_squared_norm": 34.092851756005146,
+            "median_max_abs": 1.0339827151993508,
+            "mse_sum_outputs": 7.4823252208030935,
+            "n": 2912,
+            "p95_max_abs": 3.32435263897982,
+            "rmse_per_output": 0.8650043480123722,
+            "within_epsilon": {
+              "0.25": 0.025412087912087912,
+              "0.5": 0.17582417582417584,
+              "1.0": 0.4852335164835165,
+              "2.0": 0.7853708791208791,
+              "4.0": 0.9773351648351648
+            }
+          },
+          "state_response_oracles": {
+            "1": {
+              "empirical_oracle_mse_per_action": 0.770490991448505,
+              "exact_minimax_error": 2.089085762714967,
+              "primary_incompatible_fibres": 25,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 109,
+              "witness": {
+                "code": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -29541995368,
+                  15320779779
+                ],
+                "rows": [
+                  168,
+                  299
+                ]
+              },
+              "worst_range_numerator": 44862775147
+            },
+            "3": {
+              "empirical_oracle_mse_per_action": 6.934418923036545,
+              "exact_minimax_error": 6.267257288144902,
+              "primary_incompatible_fibres": 58,
+              "response_denominator": 10737418240,
+              "states": 364,
+              "unique_state_reports": 109,
+              "witness": {
+                "code": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "coordinate": 2,
+                "group": 2,
+                "numerators": [
+                  -88625986104,
+                  45962339337
+                ],
+                "rows": [
+                  168,
+                  299
+                ]
+              },
+              "worst_range_numerator": 134588325441
+            }
+          }
+        }
+      },
+      "rows": 2912
+    }
+  },
+  "current_output_encoder_cost": 320,
+  "current_output_state_bits": 77,
+  "methods": {
+    "action-only": {
+      "action_query_bits": 4,
+      "code_coordinates": 0,
+      "decoder_coefficients": 80,
+      "fit_mse": 30.935657607946474,
+      "lambda": 0.0001,
+      "state_bits": 0,
+      "total_query_bits": 4,
+      "validation_grid": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 29.049920883481846
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 29.04961294179529
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 29.15598222944586
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 34.4126047470097
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 56.14395505937027
+        }
+      ]
+    },
+    "current-output": {
+      "action_query_bits": 4,
+      "code_coordinates": 10,
+      "decoder_coefficients": 880,
+      "fit_mse": 0.9970729336621557,
+      "lambda": 0.0001,
+      "state_bits": 77,
+      "total_query_bits": 81,
+      "validation_grid": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 1.1617841058958835
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 1.1580146952959953
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 1.646445631707325
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 10.124879529831604
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 44.892560439831236
+        }
+      ]
+    },
+    "native-12": {
+      "action_query_bits": 4,
+      "code_coordinates": 12,
+      "decoder_coefficients": 1040,
+      "fit_mse": 8.279403042834726,
+      "lambda": 0.0001,
+      "state_bits": 12,
+      "total_query_bits": 16,
+      "validation_grid": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 8.35699831961301
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 8.35520436127302
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 8.38979655794473
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 15.003792123652588
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 47.053327069326336
+        }
+      ]
+    },
+    "native-8": {
+      "action_query_bits": 4,
+      "code_coordinates": 8,
+      "decoder_coefficients": 720,
+      "fit_mse": 11.907657624724953,
+      "lambda": 0.0001,
+      "state_bits": 8,
+      "total_query_bits": 12,
+      "validation_grid": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 11.45811299701977
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 11.456842475948713
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 11.54837940506094
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 18.585501098981705
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 49.64907108125055
+        }
+      ]
+    },
+    "pca-8": {
+      "action_query_bits": 4,
+      "code_coordinates": 8,
+      "decoder_coefficients": 720,
+      "fit_mse": 27.603555083395285,
+      "lambda": 0.0001,
+      "state_bits": 8,
+      "total_query_bits": 12,
+      "validation_grid": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 27.67585334289909
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 27.674370181919794
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 27.68490457971082
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 32.84406190105062
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 55.59174104868843
+        }
+      ]
+    },
+    "random-8": {
+      "action_query_bits": 4,
+      "code_coordinates": 8,
+      "decoder_coefficients": 720,
+      "fit_mse": 14.656996539224567,
+      "lambda": 0.0001,
+      "state_bits": 8,
+      "total_query_bits": 12,
+      "validation_grid": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 14.482304114372308
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 14.481147420225362
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 14.558714287959454
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 21.072958655903573
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 50.49102933478638
+        }
+      ]
+    }
+  },
+  "model_sha256": "9da36ea09b4866b2ecc95732f26855e8707586fd53061e0243660afb76613ebb",
+  "seed": 43,
+  "target_denominator": 10737418240
+}

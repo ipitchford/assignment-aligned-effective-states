@@ -1,0 +1,340 @@
+{
+  "candidate_unit_pairs": 130816,
+  "combined_nominated_correct_to_wrong": 115,
+  "combined_nominated_initially_correct": 126,
+  "inputs": {
+    "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming_launch_recovery/affine_accounting.json": "f160b2e4ae08f82a667088a849c8e79afe49d8a451b88bfee4c14578b06e38f2",
+    "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming_launch_recovery/native_outputs.npz": "cf0f69826a5fc788415809af3382eff01d40ce891c411d80e99ec886e05316b2",
+    "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming_launch_recovery/readout_weights.npz": "b749b6a7371a0fb8b9c7ee2093a051bc27b478ba712eeceab2723aa999e71204",
+    "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming_launch_recovery/selected_bank.npz": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a"
+  },
+  "interpretation_boundary": "Ranks are descriptive and post hoc. The source pair changes were selected by the source interpretation, whereas each null pair is constant on the same endpoints. This is direct-logit attribution under an off-manifold clamp, not upstream mediation, unique necessity, or a protected unit-selection test.",
+  "new_fits": 0,
+  "new_neural_forwards": 0,
+  "pairs": {
+    "pair_0": {
+      "activity_matched_within_factor_1_5": {
+        "definition": "unit pairs whose activation-change RMS is between source_RMS/1.5 and source_RMS*1.5",
+        "metrics": {
+          "class_changes": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 61.0
+          },
+          "correct_to_wrong": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 61.0
+          },
+          "mean_absolute_sat_minus_unsat_contribution": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 9.164239207203615
+          },
+          "mean_signed_sat_minus_unsat_contribution": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 9.164239207203615
+          }
+        },
+        "pair_count": 512,
+        "source_activation_change_rms": 0.9814639575941873
+      },
+      "full_pair_null": {
+        "activation_change_rms": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 0.9814639575941873
+        },
+        "class_changes": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 61.0
+        },
+        "correct_to_wrong": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 61.0
+        },
+        "mean_absolute_sat_minus_unsat_contribution": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 9.164239207203615
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 9.164239207203615
+        }
+      },
+      "initially_correct_endpoints": 64,
+      "null_quantiles": {
+        "activation_change_rms": {
+          "maximum": 0.9814639575941873,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.006418836768716574,
+          "q99": 0.5071423117336549
+        },
+        "class_changes": {
+          "maximum": 61.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.0,
+          "q99": 1.0
+        },
+        "correct_to_wrong": {
+          "maximum": 61.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.0,
+          "q99": 1.0
+        },
+        "mean_absolute_sat_minus_unsat_contribution": {
+          "maximum": 9.164239207203615,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.007360135184345683,
+          "q99": 2.0550873792261637
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "maximum": 9.164239207203615,
+          "median": 0.0,
+          "minimum": -0.021926654967379666,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.0,
+          "q99": 2.0550873792261637
+        }
+      },
+      "positive_edited_endpoints": 64,
+      "selected_blocks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62
+      ],
+      "source_units": [
+        261,
+        291
+      ]
+    },
+    "pair_1": {
+      "activity_matched_within_factor_1_5": {
+        "definition": "unit pairs whose activation-change RMS is between source_RMS/1.5 and source_RMS*1.5",
+        "metrics": {
+          "class_changes": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 54.0
+          },
+          "correct_to_wrong": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 54.0
+          },
+          "mean_absolute_sat_minus_unsat_contribution": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 8.319410888344647
+          },
+          "mean_signed_sat_minus_unsat_contribution": {
+            "percentile_fraction_at_or_below": 1.0,
+            "rank_best_is_one": 1,
+            "tied_at_value": 1,
+            "total_pairs": 512,
+            "value": 8.319410888344647
+          }
+        },
+        "pair_count": 512,
+        "source_activation_change_rms": 0.9366089563700298
+      },
+      "full_pair_null": {
+        "activation_change_rms": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 0.9366089563700298
+        },
+        "class_changes": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 54.0
+        },
+        "correct_to_wrong": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 54.0
+        },
+        "mean_absolute_sat_minus_unsat_contribution": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 8.319410888344647
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "percentile_fraction_at_or_below": 1.0,
+          "rank_best_is_one": 1,
+          "tied_at_value": 1,
+          "total_pairs": 130816,
+          "value": 8.319410888344647
+        }
+      },
+      "initially_correct_endpoints": 62,
+      "null_quantiles": {
+        "activation_change_rms": {
+          "maximum": 0.9366089563700298,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.017968906089663506,
+          "q99": 0.43851078783358105
+        },
+        "class_changes": {
+          "maximum": 54.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.0,
+          "q99": 10.0
+        },
+        "correct_to_wrong": {
+          "maximum": 54.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.0,
+          "q99": 10.0
+        },
+        "mean_absolute_sat_minus_unsat_contribution": {
+          "maximum": 8.319410888344647,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.025473697276030056,
+          "q99": 2.1627497753946776
+        },
+        "mean_signed_sat_minus_unsat_contribution": {
+          "maximum": 8.319410888344647,
+          "median": 0.0,
+          "minimum": -0.11641966410796045,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.0,
+          "q99": 2.1627497753946776
+        }
+      },
+      "positive_edited_endpoints": 64,
+      "selected_blocks": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63
+      ],
+      "source_units": [
+        411,
+        492
+      ]
+    }
+  },
+  "scope": "post-review exploratory all-pair direct-logit calculation on saved arrays",
+  "status": "PASS"
+}

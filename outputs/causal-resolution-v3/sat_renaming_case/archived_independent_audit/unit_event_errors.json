@@ -1,0 +1,101 @@
+[
+  {
+    "block": 7,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": true,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.31864726543426514,
+    "state": 1,
+    "unit": 411
+  },
+  {
+    "block": 10,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": true,
+    "observed": 0,
+    "pair": 1,
+    "post": 0.4351969063282013,
+    "state": 1,
+    "unit": 261
+  },
+  {
+    "block": 15,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": true,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.3924393951892853,
+    "state": 1,
+    "unit": 411
+  },
+  {
+    "block": 17,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": true,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.4586062431335449,
+    "state": 1,
+    "unit": 411
+  },
+  {
+    "block": 29,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": true,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.48722267150878906,
+    "state": 1,
+    "unit": 411
+  },
+  {
+    "block": 43,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": false,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.3245624899864197,
+    "state": 1,
+    "unit": 411
+  },
+  {
+    "block": 51,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": false,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.3044152557849884,
+    "state": 1,
+    "unit": 411
+  },
+  {
+    "block": 53,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": true,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.45202651619911194,
+    "state": 1,
+    "unit": 411
+  },
+  {
+    "block": 55,
+    "cohort": 0,
+    "expected": 1,
+    "native_task_correct": true,
+    "observed": 0,
+    "pair": 2,
+    "post": 0.0,
+    "state": 1,
+    "unit": 411
+  }
+]

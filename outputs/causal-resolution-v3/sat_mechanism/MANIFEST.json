@@ -1,0 +1,175 @@
+{
+  "created_utc": "2026-10-15T22:38:59.857554+00:00",
+  "files": {
+    "README.md": {
+      "bytes": 4208,
+      "sha256": "985e006a53ad1ae3313162ebfd425c38ea01190bcffb521b50e5e9b875854570"
+    },
+    "REPORT.md": {
+      "bytes": 2430,
+      "sha256": "57a119b1272de6854acd7cf2bd6f4edf66b4096e829df4a98e161542a660a59d"
+    },
+    "_selfcheck/bootstrap_raw.npz": {
+      "bytes": 19326,
+      "sha256": "35fe2ab77c5b8d736221c70cf1bff4bd0aa13430aa7de224d291a4649697f24a"
+    },
+    "analyze.py": {
+      "bytes": 21523,
+      "sha256": "da30e74f6da41bed82ab389df9030f42b434fcd979334b6a8880dcff5a384459"
+    },
+    "analyze_a.log": {
+      "bytes": 260,
+      "sha256": "626dffceb678a34f7ce4c21324b7180e6a724afb6e03f7cf2a085e9164aeab10"
+    },
+    "analyze_b.log": {
+      "bytes": 731,
+      "sha256": "c45c96cbb7488f91d48ac28d66213afb8e8e478afe306e1312e27b6bbaeacdeb"
+    },
+    "analyze_finalize.log": {
+      "bytes": 2989,
+      "sha256": "d5e93b073f89e47ccaa2d040270d5441169c5b2b75278abd7fde2f6da143134e"
+    },
+    "bootstrap_raw.npz": {
+      "bytes": 2548423,
+      "sha256": "9a209a05ffe419b2cde0edf982a94b54e825b69fab61db69050d80f82254a88c"
+    },
+    "bootstrap_summary.csv": {
+      "bytes": 780,
+      "sha256": "f5f8df2961cc55ea8cb011254af1b4abcb7006f48bc60516326a926f5967baa1"
+    },
+    "clerical_finalization.log": {
+      "bytes": 3051,
+      "sha256": "1689c150b449c15b15c6e8375c2966cec665438d72a4e1e60aa0388ffbee7067"
+    },
+    "contract.md": {
+      "bytes": 15477,
+      "sha256": "9f25cb332a06c10dacb1315c8b5f7b7f7bbb9ef8a082c3cd2802f219902d3176"
+    },
+    "cost_ledger.json": {
+      "bytes": 1734,
+      "sha256": "13106c20d62faa58b71ca47b65d62029e5ddd31d503a76f19994e56efb21dc54"
+    },
+    "edited_extraction.json": {
+      "bytes": 2262,
+      "sha256": "aa59345b31c8c1bbddc520f2ea3b7cb587a5b3d0b261b9ee6a8327b79f1d1a5d"
+    },
+    "edited_native.npz": {
+      "bytes": 1361737,
+      "sha256": "e8d6326d4190d71f3355018deb972b2524199e59ba673459a37f69a2a0cf22d1"
+    },
+    "execution.json": {
+      "bytes": 2675,
+      "sha256": "2573688ffc3eac58b5cfb43c4cca9643f89abb10abc5d50f3ad195417b237495"
+    },
+    "finalization_receipt.json": {
+      "bytes": 2014,
+      "sha256": "690e01890ade823bf82ea67b1bdf5918c988c857c1e6d7377238ffd29ebdcf0f"
+    },
+    "finalize_receipts.py": {
+      "bytes": 5419,
+      "sha256": "4a3232b197a746d0746fd81e8521dd9077806ccbcb4c10a59148a1d0c0419b61"
+    },
+    "freeze.json": {
+      "bytes": 2136,
+      "sha256": "3e1bd6c210b557924704aab277be8c0719d83495e3791d213e8b4d364bdea85d"
+    },
+    "implementation_notes.md": {
+      "bytes": 3394,
+      "sha256": "8dd377ae41bfc519cf5e63b9473eeaccf41e3b1063f9098a5ed3f18f0844849c"
+    },
+    "native.py": {
+      "bytes": 4872,
+      "sha256": "b1c17cbe97b6ba7a707d4e8968a48a8df7369240662ee5b6ad2e3ae3acc36080"
+    },
+    "native_edited.log": {
+      "bytes": 618,
+      "sha256": "7914041b3d0a76000159ebbb5f0209d51174bc5bc2b0c6bcaa6b4a8af5eccee7"
+    },
+    "native_original.log": {
+      "bytes": 676,
+      "sha256": "1b310af4619bacf9b8193f0d13f5366b88b3f4eea4353042da9f4ab7126d38cc"
+    },
+    "native_replay.log": {
+      "bytes": 868,
+      "sha256": "915f55d0ed1543a30c66db3a23924bb352e6dbda40985baf49a906e584e59730"
+    },
+    "original_extraction.json": {
+      "bytes": 2329,
+      "sha256": "546281bb0fc3073ae3706b7af1374b6da12f023f6d65c62b2720f2fc37e548fd"
+    },
+    "original_native.npz": {
+      "bytes": 1288697,
+      "sha256": "54f86e7c03c2366345662ce65a90e62201d71869a60f88e5544a267b49e941c2"
+    },
+    "prepare_freeze.py": {
+      "bytes": 5393,
+      "sha256": "8b5cc4aa14d46fb2ff7be50076441468b9a025096996ac038175f355ed0bcfcc"
+    },
+    "protocol.py": {
+      "bytes": 6336,
+      "sha256": "4d6975916d733180b7f28e22ca677ae28d86717a032a97547749c889a2f57577"
+    },
+    "query_tokens.npz": {
+      "bytes": 116494,
+      "sha256": "208fe4a7e5ead1c007fdff57424ac7c5838c2f0c5be4272f95c8b49ad2686b62"
+    },
+    "readiness.npz": {
+      "bytes": 262439,
+      "sha256": "9e9f14465fd4739a647b0049609e24f9914b0d310e17ba856954ac69448216a8"
+    },
+    "replay.json": {
+      "bytes": 2195,
+      "sha256": "fdcc0065a1ce4352e0a18a7a6a529b6d54f026d17c28c1de22ed20790821a406"
+    },
+    "replay_raw.npz": {
+      "bytes": 4306,
+      "sha256": "88c088caab48f87b501598a682ed78e459028ec9bcb327224989abf9e960764d"
+    },
+    "run.log": {
+      "bytes": 911,
+      "sha256": "8b6c8b267b4e9f8dfeeec5f7b5608c250d28be5768d40d93a21237bd720a6f0c"
+    },
+    "run_study.py": {
+      "bytes": 2004,
+      "sha256": "960bef0dbf62b38ec26065b982725a09c84cd992f54babd138d60e89d61e8228"
+    },
+    "selected_queries.json": {
+      "bytes": 1424451,
+      "sha256": "afd5e553254698bfb89d79f97bc40c21b56692c92b5f683252cb6a1974bea255"
+    },
+    "selfcheck.json": {
+      "bytes": 313,
+      "sha256": "7bc510973a9721078f873575556ccac9bd8d72f347a0b56d1b34c3a4ddbc9d51"
+    },
+    "selfcheck.py": {
+      "bytes": 3215,
+      "sha256": "8ea71d63fd31169692e2f89cfc0f22d74ce31dd5f63b8d79eb8b5d569bdf4061"
+    },
+    "source_mapping.json": {
+      "bytes": 34195,
+      "sha256": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d"
+    },
+    "stage_a.json": {
+      "bytes": 128086,
+      "sha256": "c0e01aabe7fd6548f039a1ab7a0621a1b420b41fc2e3b3dc539ce7faf401969a"
+    },
+    "stage_b.json": {
+      "bytes": 286968,
+      "sha256": "6aceb517d8f87e90bbcd716595a07b1b2338596b819c05ff6ce535abdd6640f0"
+    },
+    "stage_b_raw.npz": {
+      "bytes": 230379,
+      "sha256": "2167186a9824c51141ed63810a9753dcb563f968de6d0e433b36af876034c7c2"
+    },
+    "summary.json": {
+      "bytes": 3288,
+      "sha256": "97c8ef7f3407fb253dd53dd950556eb2bc4c458b519569b6df3a3c05ee91466e"
+    },
+    "unit_summary.csv": {
+      "bytes": 4385,
+      "sha256": "364ecb22d6f4e82c9e9edb3cc906192ece928b7071b754739e9624d3485fced0"
+    }
+  },
+  "pre_extraction_freeze_sha256": "3e1bd6c210b557924704aab277be8c0719d83495e3791d213e8b4d364bdea85d",
+  "status": "frozen completed development study; experiment stopped; original driver clerical failure retained"
+}

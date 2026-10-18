@@ -1,0 +1,41 @@
+{
+  "action_fixed_bits": 16,
+  "action_packed_bits": 14,
+  "ceiling": 8464,
+  "checkpoint_bytes": 1635210,
+  "clause_truth_lookup_static_bits": 1280,
+  "context_execution": "90-dimensional one-hot action design and fitted logistic dot product/intercept per nonconstant control",
+  "context_probe_capacity_upper_parameters": 1547,
+  "context_probe_float64_parameter_bits": 99008,
+  "context_probe_parameter_count": 1547,
+  "context_probe_parameters_charged_separately": true,
+  "each_float32_34_value_report_bits": 1088,
+  "edited_forwards": 4322,
+  "extraction_execution": "unchanged two-block native checkpoint, CPU float32, two threads",
+  "original_forwards": 4096,
+  "original_model_parameters": 403840,
+  "post_control_threshold_static_float32_bits": 544,
+  "pre_and_post_archive_bits_per_origin": 2176,
+  "pre_threshold_static_float32_bits": 544,
+  "published_unit_id_list_static_bits": 306,
+  "replay_forwards": 16,
+  "selected_edit_rows_before_dedup": 4352,
+  "semantic_comparators": {
+    "capped_counts_fixed_bits": 64,
+    "capped_counts_packed_bits": 51,
+    "clause_multiset_packed_bits": 33,
+    "computation": "unranking/clause evaluation/SAT computation must be charged; sequence-sensitive native outputs not preserved",
+    "ordered_clauses_fixed_bits": 60,
+    "ordered_clauses_packed_bits": 54
+  },
+  "source_unit_assignment_pairs_static_bits": 238,
+  "state_bits": 51,
+  "state_components": {
+    "published_bits": 34,
+    "readiness_bits": 17
+  },
+  "state_plus_action_fixed_bits": 67,
+  "structured_execution": "one frozen comparison bit, two clause-falsification lookups, one action-effect equality and Boolean AND per nominated unit",
+  "threshold_rule_tag_bits_per_rule": 2,
+  "total_native_forwards": 8434
+}

@@ -1,0 +1,9 @@
+{
+  "status": "frozen-weight-free-semantic-analysis",
+  "neural_outcomes_read": false,
+  "files": {
+    "work/next_phase/sat_semantic_theory.md": "e9c4f571ada0a9568b5fd0e455f2f2696869ce97739e20d058420dd3b1400566",
+    "work/sat_semantic_theory/check.py": "5a6a003fa403dd299b5162b34966f47c5ffda00ec7a8a794c385a4b40cc2f5a7",
+    "work/sat_semantic_theory/results.json": "3ef81aed8e45ad41bee5334eea0c5e19a5d89ae7cd0f25d357f63128d740ac7f"
+  }
+}

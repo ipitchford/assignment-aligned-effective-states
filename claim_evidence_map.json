@@ -1,0 +1,2625 @@
+{
+  "scope": "Machine-readable linkage for reviewer-requested numerical claims; remaining headline claims mapped in EVIDENCE_GUIDE.md",
+  "claims": [
+    {
+      "claim": "Truth-table refinement removes errors at 128 origins",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/128/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 3
+    },
+    {
+      "claim": "Truth-table refinement removes errors at 256 origins",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/256/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 55
+    },
+    {
+      "claim": "Truth-table refinement removes errors at 512 origins",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/512/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 172
+    },
+    {
+      "claim": "Truth-table refinement removes errors at 1024 origins",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/1024/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 1000
+    },
+    {
+      "claim": "Errors removed at activity 0",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/1024/activity_strata/0/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 272
+    },
+    {
+      "claim": "Errors removed at activity 1",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/1024/activity_strata/1/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 444
+    },
+    {
+      "claim": "Errors removed at activity 2",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/1024/activity_strata/2/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 227
+    },
+    {
+      "claim": "Errors removed at activity 3",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/1024/activity_strata/3/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 56
+    },
+    {
+      "claim": "Errors removed at activity 4",
+      "file": "work/next_phase/sat_review_repairs_20261018/report_collision_sensitivity.json",
+      "json_pointer": "/sizes/1024/activity_strata/4/report_specific_errors_removed_by_truth_refinement",
+      "replay_stage": "collision_sensitivity",
+      "artifact_sha256": "de23d374f46ce0df749614f16cfbe8ab3943617d2aa1bf5fcad6e55d3fb251b2",
+      "value": 1
+    },
+    {
+      "claim": "81/334 ablation: first_argmax_changes",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/readout_structure/pair_overlap/81_334/first_argmax_changes",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": 17
+    },
+    {
+      "claim": "81/334 ablation: second_argmax_changes",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/readout_structure/pair_overlap/81_334/second_argmax_changes",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": 69
+    },
+    {
+      "claim": "81/334 ablation: union_of_individual_change_rows",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/readout_structure/pair_overlap/81_334/union_of_individual_change_rows",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": 78
+    },
+    {
+      "claim": "81/334 ablation: pair/argmax_changes",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/readout_structure/pair_overlap/81_334/pair/argmax_changes",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": 140
+    },
+    {
+      "claim": "Published seventeen ablations: unique_rows_changed_by_any_individual_ablation",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/readout_structure/unique_rows_changed_by_any_individual_ablation",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": 2071
+    },
+    {
+      "claim": "Published seventeen ablations: sum_of_individual_argmax_change_counts",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/readout_structure/sum_of_individual_argmax_change_counts",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": 2131
+    },
+    {
+      "claim": "Published seventeen ablations: joint_argmax_changes",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/readout_structure/joint_argmax_changes",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": 2771
+    },
+    {
+      "claim": "Source-rule linkage: source_rule_match_rows",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/source_nomination_inventory/source_rule_match_rows",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": [
+        {
+          "assignment": 0,
+          "assignment_name": "FFFFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 41,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.987834669907561,
+          "source_rules": [
+            "FFFFF",
+            "FTFFF"
+          ]
+        },
+        {
+          "assignment": 1,
+          "assignment_name": "FFFFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 224,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9999886937812404,
+          "source_rules": [
+            "FFFFT"
+          ]
+        },
+        {
+          "assignment": 2,
+          "assignment_name": "FFFTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 495,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9949916566671666,
+          "source_rules": [
+            "FFFTF"
+          ]
+        },
+        {
+          "assignment": 3,
+          "assignment_name": "FFFTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 185,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 1.0,
+          "source_rules": [
+            "FFFTT"
+          ]
+        },
+        {
+          "assignment": 4,
+          "assignment_name": "FFTFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 499,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9980519562371105,
+          "source_rules": [
+            "FFTFF"
+          ]
+        },
+        {
+          "assignment": 5,
+          "assignment_name": "FFTFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 450,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9968861667327622,
+          "source_rules": [
+            "FFTFF",
+            "FFTFT",
+            "FTTFT"
+          ]
+        },
+        {
+          "assignment": 6,
+          "assignment_name": "FFTTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 304,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9804178650942381,
+          "source_rules": [
+            "FFTTF"
+          ]
+        },
+        {
+          "assignment": 7,
+          "assignment_name": "FFTTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 77,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9938077386530995,
+          "source_rules": [
+            "FFTTF",
+            "FFTTT",
+            "FTTTT"
+          ]
+        },
+        {
+          "assignment": 8,
+          "assignment_name": "FTFFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 48,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9028798418219067,
+          "source_rules": [
+            "FTFFF",
+            "FTTFF"
+          ]
+        },
+        {
+          "assignment": 9,
+          "assignment_name": "FTFFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 245,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9950503121335896,
+          "source_rules": [
+            "FTFFF",
+            "FTFFT",
+            "FTTFT"
+          ]
+        },
+        {
+          "assignment": 10,
+          "assignment_name": "FTFTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 150,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9947336594102856,
+          "source_rules": [
+            "FTFTF"
+          ]
+        },
+        {
+          "assignment": 11,
+          "assignment_name": "FTFTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 231,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9880878504824323,
+          "source_rules": [
+            "FTFTT",
+            "FTTTT"
+          ]
+        },
+        {
+          "assignment": 12,
+          "assignment_name": "FTTFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 29,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9963912122872072,
+          "source_rules": [
+            "FTTFF"
+          ]
+        },
+        {
+          "assignment": 13,
+          "assignment_name": "FTTFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 490,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9998900041094911,
+          "source_rules": [
+            "FTTFT"
+          ]
+        },
+        {
+          "assignment": 14,
+          "assignment_name": "FTTTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 334,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9975204714021428,
+          "source_rules": [
+            "FTTTF"
+          ]
+        },
+        {
+          "assignment": 15,
+          "assignment_name": "FTTTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 189,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9997909671086285,
+          "source_rules": [
+            "FTTTT"
+          ]
+        },
+        {
+          "assignment": 16,
+          "assignment_name": "TFFFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 10,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9953909311551123,
+          "source_rules": [
+            "TFFFF",
+            "TFTFF",
+            "TTFFF"
+          ]
+        },
+        {
+          "assignment": 17,
+          "assignment_name": "TFFFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 317,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9999988713557134,
+          "source_rules": [
+            "TFFFT"
+          ]
+        },
+        {
+          "assignment": 18,
+          "assignment_name": "TFFTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 195,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9889520034238553,
+          "source_rules": [
+            "TFFTF",
+            "TFTTF",
+            "TTFTF"
+          ]
+        },
+        {
+          "assignment": 19,
+          "assignment_name": "TFFTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 380,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9999641962047977,
+          "source_rules": [
+            "TFFTT"
+          ]
+        },
+        {
+          "assignment": 20,
+          "assignment_name": "TFTFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 416,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.8808514598977271,
+          "source_rules": [
+            "TFTFF",
+            "TTTFF"
+          ]
+        },
+        {
+          "assignment": 21,
+          "assignment_name": "TFTFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 492,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9946301663178428,
+          "source_rules": [
+            "TFTFF",
+            "TFTFT",
+            "TTTFT"
+          ]
+        },
+        {
+          "assignment": 22,
+          "assignment_name": "TFTTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 96,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9954525398408648,
+          "source_rules": [
+            "TFTTF"
+          ]
+        },
+        {
+          "assignment": 23,
+          "assignment_name": "TFTTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 291,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9945425327687815,
+          "source_rules": [
+            "TFTTF",
+            "TFTTT",
+            "TTTTT"
+          ]
+        },
+        {
+          "assignment": 24,
+          "assignment_name": "TTFFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 36,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9935957377881677,
+          "source_rules": [
+            "TTFFF"
+          ]
+        },
+        {
+          "assignment": 25,
+          "assignment_name": "TTFFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 201,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9919268728128813,
+          "source_rules": [
+            "TTFFT"
+          ]
+        },
+        {
+          "assignment": 26,
+          "assignment_name": "TTFTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 435,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9984980238826686,
+          "source_rules": [
+            "TTFTF"
+          ]
+        },
+        {
+          "assignment": 27,
+          "assignment_name": "TTFTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 374,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.993379509505893,
+          "source_rules": [
+            "TTFTT"
+          ]
+        },
+        {
+          "assignment": 28,
+          "assignment_name": "TTTFF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 55,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.977393809089521,
+          "source_rules": [
+            "TTTFF",
+            "TTTFT"
+          ]
+        },
+        {
+          "assignment": 29,
+          "assignment_name": "TTTFT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 411,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.8940684750312339,
+          "source_rules": [
+            "TTFFT",
+            "TTTFT"
+          ]
+        },
+        {
+          "assignment": 30,
+          "assignment_name": "TTTTF",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 326,
+          "matched_axis_in_singleton_set": true,
+          "matching_auc": 0.9943823495446038,
+          "source_rules": [
+            "TTFTF",
+            "TTTTF",
+            "TTTTT"
+          ]
+        },
+        {
+          "assignment": 31,
+          "assignment_name": "TTTTT",
+          "matched_assignment_in_source_rules": true,
+          "matched_axis": 482,
+          "matched_axis_in_singleton_set": false,
+          "matching_auc": 0.9761145400670264,
+          "source_rules": [
+            "TTTTT"
+          ]
+        }
+      ]
+    },
+    {
+      "claim": "Source-rule linkage: source_two_leaf_tree_uncovered_assignment_names",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/source_nomination_inventory/source_two_leaf_tree_uncovered_assignment_names",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": [
+        "FTFFF",
+        "TFTFF",
+        "TTTFT"
+      ]
+    },
+    {
+      "claim": "Source-rule linkage: all_32_matches_agree_with_source_rule_inventory",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/source_nomination_inventory/all_32_matches_agree_with_source_rule_inventory",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": true
+    },
+    {
+      "claim": "Uncovered matching after excluding published seventeen",
+      "file": "work/next_phase/sat_full_layer_basis_v7_20261018/posthoc_diagnostics_v2.json",
+      "json_pointer": "/matching_sensitivity/full_7252/exclude_17_singleton_units/uncovered_16",
+      "replay_stage": "full_layer_posthoc",
+      "artifact_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+      "value": {
+        "assignment_names": [
+          "FFTFF",
+          "FFTFT",
+          "FFTTF",
+          "FTFFF",
+          "FTFTF",
+          "FTFTT",
+          "FTTFF",
+          "FTTFT",
+          "FTTTT",
+          "TFFTF",
+          "TFTFF",
+          "TFTTF",
+          "TTFFF",
+          "TTFTF",
+          "TTTFT",
+          "TTTTT"
+        ],
+        "assignments": [
+          4,
+          5,
+          6,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          18,
+          20,
+          22,
+          24,
+          26,
+          29,
+          31
+        ],
+        "axes": [
+          499,
+          450,
+          304,
+          48,
+          150,
+          231,
+          29,
+          490,
+          189,
+          195,
+          374,
+          96,
+          36,
+          435,
+          201,
+          482
+        ],
+        "axes_in_singleton_set": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "axes_in_source_report": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "mean": 0.9370462783853318,
+        "minimum": 0.5420118935210951,
+        "scores": [
+          0.9980519562371105,
+          0.9968861667327622,
+          0.9804178650942381,
+          0.9028798418219067,
+          0.9947336594102856,
+          0.9880878504824323,
+          0.9963912122872072,
+          0.9998900041094911,
+          0.9997909671086285,
+          0.9889520034238553,
+          0.5420118935210951,
+          0.9954525398408648,
+          0.9935957377881677,
+          0.9984980238826686,
+          0.6409861923575703,
+          0.9761145400670264
+        ]
+      }
+    },
+    {
+      "claim": "NMF attribution: identity_factorization_relative_error",
+      "file": "nmf_revision_diagnostic.json",
+      "json_pointer": "/identity_factorization_relative_error",
+      "replay_stage": "nmf_attribution",
+      "artifact_sha256": "629159f26c414352afc69d7bd77a71ffd22c0daeddbf7df106058ec564d6c3e3",
+      "value": 0.0
+    },
+    {
+      "claim": "NMF attribution: single_active_rows",
+      "file": "nmf_revision_diagnostic.json",
+      "json_pointer": "/single_active_rows",
+      "replay_stage": "nmf_attribution",
+      "artifact_sha256": "629159f26c414352afc69d7bd77a71ffd22c0daeddbf7df106058ec564d6c3e3",
+      "value": 1325
+    },
+    {
+      "claim": "NMF attribution: units_with_single_active_examples",
+      "file": "nmf_revision_diagnostic.json",
+      "json_pointer": "/units_with_single_active_examples",
+      "replay_stage": "nmf_attribution",
+      "artifact_sha256": "629159f26c414352afc69d7bd77a71ffd22c0daeddbf7df106058ec564d6c3e3",
+      "value": 34
+    },
+    {
+      "claim": "NMF attribution: per_unit_anchor_rows",
+      "file": "nmf_revision_diagnostic.json",
+      "json_pointer": "/per_unit_anchor_rows",
+      "replay_stage": "nmf_attribution",
+      "artifact_sha256": "629159f26c414352afc69d7bd77a71ffd22c0daeddbf7df106058ec564d6c3e3",
+      "value": [
+        {
+          "active_rows": 830,
+          "fraction_all_rows": 0.01447876447876448,
+          "fraction_unit_active_rows": 0.12650602409638553,
+          "single_active_rows": 105,
+          "unit": 10
+        },
+        {
+          "active_rows": 468,
+          "fraction_all_rows": 0.0006894649751792609,
+          "fraction_unit_active_rows": 0.010683760683760684,
+          "single_active_rows": 5,
+          "unit": 29
+        },
+        {
+          "active_rows": 475,
+          "fraction_all_rows": 0.0026199669056811915,
+          "fraction_unit_active_rows": 0.04,
+          "single_active_rows": 19,
+          "unit": 36
+        },
+        {
+          "active_rows": 699,
+          "fraction_all_rows": 0.014754550468836183,
+          "fraction_unit_active_rows": 0.1530758226037196,
+          "single_active_rows": 107,
+          "unit": 41
+        },
+        {
+          "active_rows": 534,
+          "fraction_all_rows": 0.0027578599007170436,
+          "fraction_unit_active_rows": 0.03745318352059925,
+          "single_active_rows": 20,
+          "unit": 48
+        },
+        {
+          "active_rows": 699,
+          "fraction_all_rows": 0.0009652509652509653,
+          "fraction_unit_active_rows": 0.010014306151645207,
+          "single_active_rows": 7,
+          "unit": 55
+        },
+        {
+          "active_rows": 858,
+          "fraction_all_rows": 0.014340871483728626,
+          "fraction_unit_active_rows": 0.12121212121212122,
+          "single_active_rows": 104,
+          "unit": 77
+        },
+        {
+          "active_rows": 712,
+          "fraction_all_rows": 0.002344180915609487,
+          "fraction_unit_active_rows": 0.023876404494382022,
+          "single_active_rows": 17,
+          "unit": 81
+        },
+        {
+          "active_rows": 448,
+          "fraction_all_rows": 0.001654715940430226,
+          "fraction_unit_active_rows": 0.026785714285714284,
+          "single_active_rows": 12,
+          "unit": 96
+        },
+        {
+          "active_rows": 359,
+          "fraction_all_rows": 0.0012410369553226695,
+          "fraction_unit_active_rows": 0.025069637883008356,
+          "single_active_rows": 9,
+          "unit": 150
+        },
+        {
+          "active_rows": 514,
+          "fraction_all_rows": 0.003861003861003861,
+          "fraction_unit_active_rows": 0.054474708171206226,
+          "single_active_rows": 28,
+          "unit": 185
+        },
+        {
+          "active_rows": 447,
+          "fraction_all_rows": 0.0013789299503585218,
+          "fraction_unit_active_rows": 0.02237136465324385,
+          "single_active_rows": 10,
+          "unit": 189
+        },
+        {
+          "active_rows": 597,
+          "fraction_all_rows": 0.005653612796469939,
+          "fraction_unit_active_rows": 0.06867671691792294,
+          "single_active_rows": 41,
+          "unit": 195
+        },
+        {
+          "active_rows": 624,
+          "fraction_all_rows": 0.0006894649751792609,
+          "fraction_unit_active_rows": 0.008012820512820512,
+          "single_active_rows": 5,
+          "unit": 201
+        },
+        {
+          "active_rows": 563,
+          "fraction_all_rows": 0.00813568670711528,
+          "fraction_unit_active_rows": 0.10479573712255773,
+          "single_active_rows": 59,
+          "unit": 224
+        },
+        {
+          "active_rows": 577,
+          "fraction_all_rows": 0.005377826806398235,
+          "fraction_unit_active_rows": 0.06759098786828423,
+          "single_active_rows": 39,
+          "unit": 231
+        },
+        {
+          "active_rows": 655,
+          "fraction_all_rows": 0.01020408163265306,
+          "fraction_unit_active_rows": 0.11297709923664122,
+          "single_active_rows": 74,
+          "unit": 245
+        },
+        {
+          "active_rows": 703,
+          "fraction_all_rows": 0.0009652509652509653,
+          "fraction_unit_active_rows": 0.00995732574679943,
+          "single_active_rows": 7,
+          "unit": 261
+        },
+        {
+          "active_rows": 755,
+          "fraction_all_rows": 0.01461665747380033,
+          "fraction_unit_active_rows": 0.1403973509933775,
+          "single_active_rows": 106,
+          "unit": 291
+        },
+        {
+          "active_rows": 440,
+          "fraction_all_rows": 0.0013789299503585218,
+          "fraction_unit_active_rows": 0.022727272727272728,
+          "single_active_rows": 10,
+          "unit": 304
+        },
+        {
+          "active_rows": 633,
+          "fraction_all_rows": 0.004136789851075565,
+          "fraction_unit_active_rows": 0.04739336492890995,
+          "single_active_rows": 30,
+          "unit": 317
+        },
+        {
+          "active_rows": 706,
+          "fraction_all_rows": 0.012961941533370104,
+          "fraction_unit_active_rows": 0.13314447592067988,
+          "single_active_rows": 94,
+          "unit": 326
+        },
+        {
+          "active_rows": 690,
+          "fraction_all_rows": 0.0026199669056811915,
+          "fraction_unit_active_rows": 0.02753623188405797,
+          "single_active_rows": 19,
+          "unit": 334
+        },
+        {
+          "active_rows": 653,
+          "fraction_all_rows": 0.0013789299503585218,
+          "fraction_unit_active_rows": 0.015313935681470138,
+          "single_active_rows": 10,
+          "unit": 374
+        },
+        {
+          "active_rows": 586,
+          "fraction_all_rows": 0.00758411472697187,
+          "fraction_unit_active_rows": 0.09385665529010238,
+          "single_active_rows": 55,
+          "unit": 380
+        },
+        {
+          "active_rows": 798,
+          "fraction_all_rows": 0.002344180915609487,
+          "fraction_unit_active_rows": 0.021303258145363407,
+          "single_active_rows": 17,
+          "unit": 411
+        },
+        {
+          "active_rows": 712,
+          "fraction_all_rows": 0.0019305019305019305,
+          "fraction_unit_active_rows": 0.019662921348314606,
+          "single_active_rows": 14,
+          "unit": 416
+        },
+        {
+          "active_rows": 392,
+          "fraction_all_rows": 0.0012410369553226695,
+          "fraction_unit_active_rows": 0.02295918367346939,
+          "single_active_rows": 9,
+          "unit": 435
+        },
+        {
+          "active_rows": 625,
+          "fraction_all_rows": 0.005929398786541644,
+          "fraction_unit_active_rows": 0.0688,
+          "single_active_rows": 43,
+          "unit": 450
+        },
+        {
+          "active_rows": 374,
+          "fraction_all_rows": 0.0002757859900717044,
+          "fraction_unit_active_rows": 0.0053475935828877,
+          "single_active_rows": 2,
+          "unit": 482
+        },
+        {
+          "active_rows": 382,
+          "fraction_all_rows": 0.001654715940430226,
+          "fraction_unit_active_rows": 0.031413612565445025,
+          "single_active_rows": 12,
+          "unit": 490
+        },
+        {
+          "active_rows": 865,
+          "fraction_all_rows": 0.014892443463872035,
+          "fraction_unit_active_rows": 0.12485549132947976,
+          "single_active_rows": 108,
+          "unit": 492
+        },
+        {
+          "active_rows": 752,
+          "fraction_all_rows": 0.01709873138444567,
+          "fraction_unit_active_rows": 0.16489361702127658,
+          "single_active_rows": 124,
+          "unit": 495
+        },
+        {
+          "active_rows": 300,
+          "fraction_all_rows": 0.0005515719801434088,
+          "fraction_unit_active_rows": 0.013333333333333334,
+          "single_active_rows": 4,
+          "unit": 499
+        }
+      ]
+    },
+    {
+      "claim": "NMF attribution: runs",
+      "file": "nmf_revision_diagnostic.json",
+      "json_pointer": "/runs",
+      "replay_stage": "nmf_attribution",
+      "artifact_sha256": "629159f26c414352afc69d7bd77a71ffd22c0daeddbf7df106058ec564d6c3e3",
+      "value": [
+        {
+          "components_at_least_0_99": 32,
+          "convergence_warnings": [],
+          "gain_from_components_at_least_0_99": 0.002191644698180669,
+          "gain_from_components_below_0_99": -2.5017858902354195e-05,
+          "iterations": 194,
+          "matching_mean": 0.9863999107303894,
+          "mean_gain": 0.002166626839278315,
+          "minimum_matched_cosine": 0.0,
+          "per_assignment": [
+            {
+              "assignment": "FFFFF",
+              "component_axis_cosine": 0.999999999999794,
+              "delta": 0.004830544554074279,
+              "native_auc": 0.987834669907561,
+              "native_unit": 41,
+              "nmf_auc": 0.9926652144616352,
+              "nmf_component": 6,
+              "nmf_matched_native_unit": 41
+            },
+            {
+              "assignment": "FFFFT",
+              "component_axis_cosine": 0.9999999863253596,
+              "delta": 0.0,
+              "native_auc": 0.9999886937812404,
+              "native_unit": 224,
+              "nmf_auc": 0.9999886937812404,
+              "nmf_component": 19,
+              "nmf_matched_native_unit": 224
+            },
+            {
+              "assignment": "FFFTF",
+              "component_axis_cosine": 0.9999999997067897,
+              "delta": 0.0008501137443128748,
+              "native_auc": 0.9949916566671666,
+              "native_unit": 495,
+              "nmf_auc": 0.9958417704114795,
+              "nmf_component": 13,
+              "nmf_matched_native_unit": 495
+            },
+            {
+              "assignment": "FFFTT",
+              "component_axis_cosine": 0.9999999994219213,
+              "delta": 0.0,
+              "native_auc": 1.0,
+              "native_unit": 185,
+              "nmf_auc": 1.0,
+              "nmf_component": 14,
+              "nmf_matched_native_unit": 185
+            },
+            {
+              "assignment": "FFTFF",
+              "component_axis_cosine": 0.9999977453687336,
+              "delta": -0.00019839410385869005,
+              "native_auc": 0.9980519562371105,
+              "native_unit": 499,
+              "nmf_auc": 0.9978535621332518,
+              "nmf_component": 26,
+              "nmf_matched_native_unit": 499
+            },
+            {
+              "assignment": "FFTFT",
+              "component_axis_cosine": 0.9999999999847352,
+              "delta": -0.0002574577775539266,
+              "native_auc": 0.9968861667327622,
+              "native_unit": 450,
+              "nmf_auc": 0.9966287089552083,
+              "nmf_component": 9,
+              "nmf_matched_native_unit": 450
+            },
+            {
+              "assignment": "FFTTF",
+              "component_axis_cosine": 0.9999999999999972,
+              "delta": 0.0036212534122294082,
+              "native_auc": 0.9804178650942381,
+              "native_unit": 304,
+              "nmf_auc": 0.9840391185064675,
+              "nmf_component": 17,
+              "nmf_matched_native_unit": 304
+            },
+            {
+              "assignment": "FFTTT",
+              "component_axis_cosine": 0.999999983278293,
+              "delta": -0.00011922294691069091,
+              "native_auc": 0.9938077386530995,
+              "native_unit": 77,
+              "nmf_auc": 0.9936885157061888,
+              "nmf_component": 1,
+              "nmf_matched_native_unit": 77
+            },
+            {
+              "assignment": "FTFFF",
+              "component_axis_cosine": 0.9999999999001183,
+              "delta": 0.043448473009671695,
+              "native_auc": 0.9028798418219067,
+              "native_unit": 48,
+              "nmf_auc": 0.9463283148315784,
+              "nmf_component": 11,
+              "nmf_matched_native_unit": 48
+            },
+            {
+              "assignment": "FTFFT",
+              "component_axis_cosine": 0.9999913091175323,
+              "delta": -0.00029425337015309694,
+              "native_auc": 0.9950503121335896,
+              "native_unit": 245,
+              "nmf_auc": 0.9947560587634365,
+              "nmf_component": 4,
+              "nmf_matched_native_unit": 245
+            },
+            {
+              "assignment": "FTFTF",
+              "component_axis_cosine": 0.9999999822044314,
+              "delta": 0.00296936665118519,
+              "native_auc": 0.9947336594102856,
+              "native_unit": 150,
+              "nmf_auc": 0.9977030260614708,
+              "nmf_component": 20,
+              "nmf_matched_native_unit": 150
+            },
+            {
+              "assignment": "FTFTT",
+              "component_axis_cosine": 0.9991291102280805,
+              "delta": 0.006983319426104084,
+              "native_auc": 0.9880878504824323,
+              "native_unit": 231,
+              "nmf_auc": 0.9950711699085364,
+              "nmf_component": 12,
+              "nmf_matched_native_unit": 231
+            },
+            {
+              "assignment": "FTTFF",
+              "component_axis_cosine": 0.9999999999999928,
+              "delta": -0.00033630751727631303,
+              "native_auc": 0.9963912122872072,
+              "native_unit": 29,
+              "nmf_auc": 0.9960549047699309,
+              "nmf_component": 30,
+              "nmf_matched_native_unit": 29
+            },
+            {
+              "assignment": "FTTFT",
+              "component_axis_cosine": 0.9999999987882784,
+              "delta": -0.00016471465837619714,
+              "native_auc": 0.9998900041094911,
+              "native_unit": 490,
+              "nmf_auc": 0.9997252894511149,
+              "nmf_component": 23,
+              "nmf_matched_native_unit": 490
+            },
+            {
+              "assignment": "FTTTF",
+              "component_axis_cosine": 0.999999990695688,
+              "delta": -6.172944061455521e-05,
+              "native_auc": 0.9975204714021428,
+              "native_unit": 334,
+              "nmf_auc": 0.9974587419615283,
+              "nmf_component": 10,
+              "nmf_matched_native_unit": 334
+            },
+            {
+              "assignment": "FTTTT",
+              "component_axis_cosine": 0.999998534666497,
+              "delta": 0.0,
+              "native_auc": 0.9997909671086285,
+              "native_unit": 189,
+              "nmf_auc": 0.9997909671086285,
+              "nmf_component": 32,
+              "nmf_matched_native_unit": 189
+            },
+            {
+              "assignment": "TFFFF",
+              "component_axis_cosine": 0.9999999999999813,
+              "delta": 0.0009505517296848343,
+              "native_auc": 0.9953909311551123,
+              "native_unit": 10,
+              "nmf_auc": 0.9963414828847972,
+              "nmf_component": 3,
+              "nmf_matched_native_unit": 10
+            },
+            {
+              "assignment": "TFFFT",
+              "component_axis_cosine": 0.9999738523191912,
+              "delta": 0.0,
+              "native_auc": 0.9999988713557134,
+              "native_unit": 317,
+              "nmf_auc": 0.9999988713557134,
+              "nmf_component": 15,
+              "nmf_matched_native_unit": 317
+            },
+            {
+              "assignment": "TFFTF",
+              "component_axis_cosine": 0.9999999956744418,
+              "delta": -0.0012140590678026975,
+              "native_auc": 0.9889520034238553,
+              "native_unit": 195,
+              "nmf_auc": 0.9877379443560526,
+              "nmf_component": 8,
+              "nmf_matched_native_unit": 195
+            },
+            {
+              "assignment": "TFFTT",
+              "component_axis_cosine": 0.9999566757753234,
+              "delta": -5.594342999959423e-07,
+              "native_auc": 0.9999641962047977,
+              "native_unit": 380,
+              "nmf_auc": 0.9999636367704977,
+              "nmf_component": 5,
+              "nmf_matched_native_unit": 380
+            },
+            {
+              "assignment": "TFTFF",
+              "component_axis_cosine": 0.9999999999999328,
+              "delta": 0.005590811117358929,
+              "native_auc": 0.8808514598977271,
+              "native_unit": 416,
+              "nmf_auc": 0.886442271015086,
+              "nmf_component": 29,
+              "nmf_matched_native_unit": 416
+            },
+            {
+              "assignment": "TFTFT",
+              "component_axis_cosine": 1.0,
+              "delta": -8.508930567130424e-05,
+              "native_auc": 0.9946301663178428,
+              "native_unit": 492,
+              "nmf_auc": 0.9945450770121715,
+              "nmf_component": 0,
+              "nmf_matched_native_unit": 492
+            },
+            {
+              "assignment": "TFTTF",
+              "component_axis_cosine": 0.9999999090085445,
+              "delta": -0.0002963704580914994,
+              "native_auc": 0.9954525398408648,
+              "native_unit": 96,
+              "nmf_auc": 0.9951561693827733,
+              "nmf_component": 21,
+              "nmf_matched_native_unit": 96
+            },
+            {
+              "assignment": "TFTTT",
+              "component_axis_cosine": 1.0,
+              "delta": 0.0,
+              "native_auc": 0.9945425327687815,
+              "native_unit": 291,
+              "nmf_auc": 0.9945425327687815,
+              "nmf_component": 7,
+              "nmf_matched_native_unit": 291
+            },
+            {
+              "assignment": "TTFFF",
+              "component_axis_cosine": 0.999993109712576,
+              "delta": -0.0005402187141568815,
+              "native_auc": 0.9935957377881677,
+              "native_unit": 36,
+              "nmf_auc": 0.9930555190740108,
+              "nmf_component": 22,
+              "nmf_matched_native_unit": 36
+            },
+            {
+              "assignment": "TTFFT",
+              "component_axis_cosine": 0.9998906767997258,
+              "delta": -0.0005149220337385962,
+              "native_auc": 0.9919268728128813,
+              "native_unit": 201,
+              "nmf_auc": 0.9914119507791427,
+              "nmf_component": 31,
+              "nmf_matched_native_unit": 201
+            },
+            {
+              "assignment": "TTFTF",
+              "component_axis_cosine": 0.999945981555013,
+              "delta": -0.00017539628134499718,
+              "native_auc": 0.9984980238826686,
+              "native_unit": 435,
+              "nmf_auc": 0.9983226276013236,
+              "nmf_component": 27,
+              "nmf_matched_native_unit": 435
+            },
+            {
+              "assignment": "TTFTT",
+              "component_axis_cosine": 0.7370609236780397,
+              "delta": -0.0008005714848753342,
+              "native_auc": 0.993379509505893,
+              "native_unit": 374,
+              "nmf_auc": 0.9925789380210177,
+              "nmf_component": 33,
+              "nmf_matched_native_unit": 261
+            },
+            {
+              "assignment": "TTTFF",
+              "component_axis_cosine": 0.9999999708378533,
+              "delta": -0.0003755318314810907,
+              "native_auc": 0.977393809089521,
+              "native_unit": 55,
+              "nmf_auc": 0.9770182772580399,
+              "nmf_component": 16,
+              "nmf_matched_native_unit": 55
+            },
+            {
+              "assignment": "TTTFT",
+              "component_axis_cosine": 0.9999991757594017,
+              "delta": 0.00015449713986093183,
+              "native_auc": 0.8940684750312339,
+              "native_unit": 411,
+              "nmf_auc": 0.8942229721710948,
+              "nmf_component": 18,
+              "nmf_matched_native_unit": 411
+            },
+            {
+              "assignment": "TTTTF",
+              "component_axis_cosine": 0.9999997516635849,
+              "delta": -5.344689526032287e-05,
+              "native_auc": 0.9943823495446038,
+              "native_unit": 326,
+              "nmf_auc": 0.9943289026493435,
+              "nmf_component": 2,
+              "nmf_matched_native_unit": 326
+            },
+            {
+              "assignment": "TTTTT",
+              "component_axis_cosine": 0.9914677640670619,
+              "delta": 0.005421373393890039,
+              "native_auc": 0.9761145400670264,
+              "native_unit": 482,
+              "nmf_auc": 0.9815359134609164,
+              "nmf_component": 25,
+              "nmf_matched_native_unit": 482
+            }
+          ],
+          "relative_frobenius_error": 0.03145023366867513,
+          "seed": 0,
+          "unrecovered_native_axes": [
+            374,
+            261
+          ]
+        },
+        {
+          "components_at_least_0_99": 32,
+          "convergence_warnings": [],
+          "gain_from_components_at_least_0_99": 0.002104735655917459,
+          "gain_from_components_below_0_99": -2.5017858902354195e-05,
+          "iterations": 193,
+          "matching_mean": 0.9863130016881261,
+          "mean_gain": 0.002079717797015105,
+          "minimum_matched_cosine": 0.0,
+          "per_assignment": [
+            {
+              "assignment": "FFFFF",
+              "component_axis_cosine": 0.9999999999997932,
+              "delta": 0.004829831663791806,
+              "native_auc": 0.987834669907561,
+              "native_unit": 41,
+              "nmf_auc": 0.9926645015713528,
+              "nmf_component": 6,
+              "nmf_matched_native_unit": 41
+            },
+            {
+              "assignment": "FFFFT",
+              "component_axis_cosine": 0.9999999863253594,
+              "delta": 0.0,
+              "native_auc": 0.9999886937812404,
+              "native_unit": 224,
+              "nmf_auc": 0.9999886937812404,
+              "nmf_component": 19,
+              "nmf_matched_native_unit": 224
+            },
+            {
+              "assignment": "FFFTF",
+              "component_axis_cosine": 0.9999999997067898,
+              "delta": 0.0008501137443128748,
+              "native_auc": 0.9949916566671666,
+              "native_unit": 495,
+              "nmf_auc": 0.9958417704114795,
+              "nmf_component": 13,
+              "nmf_matched_native_unit": 495
+            },
+            {
+              "assignment": "FFFTT",
+              "component_axis_cosine": 0.9999999994219323,
+              "delta": 0.0,
+              "native_auc": 1.0,
+              "native_unit": 185,
+              "nmf_auc": 1.0,
+              "nmf_component": 14,
+              "nmf_matched_native_unit": 185
+            },
+            {
+              "assignment": "FFTFF",
+              "component_axis_cosine": 0.9999977453687107,
+              "delta": -0.00019729800383738727,
+              "native_auc": 0.9980519562371105,
+              "native_unit": 499,
+              "nmf_auc": 0.9978546582332731,
+              "nmf_component": 26,
+              "nmf_matched_native_unit": 499
+            },
+            {
+              "assignment": "FFTFT",
+              "component_axis_cosine": 0.999999999984788,
+              "delta": -0.00023941265215088325,
+              "native_auc": 0.9968861667327622,
+              "native_unit": 450,
+              "nmf_auc": 0.9966467540806113,
+              "nmf_component": 9,
+              "nmf_matched_native_unit": 450
+            },
+            {
+              "assignment": "FFTTF",
+              "component_axis_cosine": 0.9999999999999972,
+              "delta": 0.0038091119394276785,
+              "native_auc": 0.9804178650942381,
+              "native_unit": 304,
+              "nmf_auc": 0.9842269770336658,
+              "nmf_component": 17,
+              "nmf_matched_native_unit": 304
+            },
+            {
+              "assignment": "FFTTT",
+              "component_axis_cosine": 0.9999999832782938,
+              "delta": -0.00011922294691069091,
+              "native_auc": 0.9938077386530995,
+              "native_unit": 77,
+              "nmf_auc": 0.9936885157061888,
+              "nmf_component": 1,
+              "nmf_matched_native_unit": 77
+            },
+            {
+              "assignment": "FTFFF",
+              "component_axis_cosine": 0.9999999999002324,
+              "delta": 0.04389918528753156,
+              "native_auc": 0.9028798418219067,
+              "native_unit": 48,
+              "nmf_auc": 0.9467790271094383,
+              "nmf_component": 11,
+              "nmf_matched_native_unit": 48
+            },
+            {
+              "assignment": "FTFFT",
+              "component_axis_cosine": 0.9999913091161466,
+              "delta": -0.00029425337015309694,
+              "native_auc": 0.9950503121335896,
+              "native_unit": 245,
+              "nmf_auc": 0.9947560587634365,
+              "nmf_component": 4,
+              "nmf_matched_native_unit": 245
+            },
+            {
+              "assignment": "FTFTF",
+              "component_axis_cosine": 0.999999982204547,
+              "delta": 0.0029963408300298644,
+              "native_auc": 0.9947336594102856,
+              "native_unit": 150,
+              "nmf_auc": 0.9977300002403154,
+              "nmf_component": 20,
+              "nmf_matched_native_unit": 150
+            },
+            {
+              "assignment": "FTFTT",
+              "component_axis_cosine": 0.9991291102284554,
+              "delta": 0.007011944014625571,
+              "native_auc": 0.9880878504824323,
+              "native_unit": 231,
+              "nmf_auc": 0.9950997944970579,
+              "nmf_component": 12,
+              "nmf_matched_native_unit": 231
+            },
+            {
+              "assignment": "FTTFF",
+              "component_axis_cosine": 0.9999999999999928,
+              "delta": -0.00033630751727631303,
+              "native_auc": 0.9963912122872072,
+              "native_unit": 29,
+              "nmf_auc": 0.9960549047699309,
+              "nmf_component": 30,
+              "nmf_matched_native_unit": 29
+            },
+            {
+              "assignment": "FTTFT",
+              "component_axis_cosine": 0.9999999987831638,
+              "delta": -0.00016415630360200328,
+              "native_auc": 0.9998900041094911,
+              "native_unit": 490,
+              "nmf_auc": 0.9997258478058891,
+              "nmf_component": 23,
+              "nmf_matched_native_unit": 490
+            },
+            {
+              "assignment": "FTTTF",
+              "component_axis_cosine": 0.9999999898794258,
+              "delta": -3.406411204642801e-05,
+              "native_auc": 0.9975204714021428,
+              "native_unit": 334,
+              "nmf_auc": 0.9974864072900964,
+              "nmf_component": 10,
+              "nmf_matched_native_unit": 334
+            },
+            {
+              "assignment": "FTTTT",
+              "component_axis_cosine": 0.9999985346665126,
+              "delta": 0.0,
+              "native_auc": 0.9997909671086285,
+              "native_unit": 189,
+              "nmf_auc": 0.9997909671086285,
+              "nmf_component": 32,
+              "nmf_matched_native_unit": 189
+            },
+            {
+              "assignment": "TFFFF",
+              "component_axis_cosine": 0.9999999999999813,
+              "delta": 0.0009505517296848343,
+              "native_auc": 0.9953909311551123,
+              "native_unit": 10,
+              "nmf_auc": 0.9963414828847972,
+              "nmf_component": 3,
+              "nmf_matched_native_unit": 10
+            },
+            {
+              "assignment": "TFFFT",
+              "component_axis_cosine": 0.999973852317617,
+              "delta": 0.0,
+              "native_auc": 0.9999988713557134,
+              "native_unit": 317,
+              "nmf_auc": 0.9999988713557134,
+              "nmf_component": 15,
+              "nmf_matched_native_unit": 317
+            },
+            {
+              "assignment": "TFFTF",
+              "component_axis_cosine": 0.9999999956744405,
+              "delta": -0.0012140590678026975,
+              "native_auc": 0.9889520034238553,
+              "native_unit": 195,
+              "nmf_auc": 0.9877379443560526,
+              "nmf_component": 8,
+              "nmf_matched_native_unit": 195
+            },
+            {
+              "assignment": "TFFTT",
+              "component_axis_cosine": 0.9999566757750505,
+              "delta": -5.594342999959423e-07,
+              "native_auc": 0.9999641962047977,
+              "native_unit": 380,
+              "nmf_auc": 0.9999636367704977,
+              "nmf_component": 5,
+              "nmf_matched_native_unit": 380
+            },
+            {
+              "assignment": "TFTFF",
+              "component_axis_cosine": 0.9999999999999328,
+              "delta": -0.00010967090551128322,
+              "native_auc": 0.8808514598977271,
+              "native_unit": 416,
+              "nmf_auc": 0.8807417889922158,
+              "nmf_component": 29,
+              "nmf_matched_native_unit": 416
+            },
+            {
+              "assignment": "TFTFT",
+              "component_axis_cosine": 1.0,
+              "delta": -9.87416942678232e-05,
+              "native_auc": 0.9946301663178428,
+              "native_unit": 492,
+              "nmf_auc": 0.994531424623575,
+              "nmf_component": 0,
+              "nmf_matched_native_unit": 492
+            },
+            {
+              "assignment": "TFTTF",
+              "component_axis_cosine": 0.9999999090085567,
+              "delta": -0.0002546544482341373,
+              "native_auc": 0.9954525398408648,
+              "native_unit": 96,
+              "nmf_auc": 0.9951978853926307,
+              "nmf_component": 21,
+              "nmf_matched_native_unit": 96
+            },
+            {
+              "assignment": "TFTTT",
+              "component_axis_cosine": 1.0,
+              "delta": -0.00020850491550339356,
+              "native_auc": 0.9945425327687815,
+              "native_unit": 291,
+              "nmf_auc": 0.9943340278532781,
+              "nmf_component": 7,
+              "nmf_matched_native_unit": 291
+            },
+            {
+              "assignment": "TTFFF",
+              "component_axis_cosine": 0.9999931097128797,
+              "delta": -0.00044828522147211114,
+              "native_auc": 0.9935957377881677,
+              "native_unit": 36,
+              "nmf_auc": 0.9931474525666956,
+              "nmf_component": 22,
+              "nmf_matched_native_unit": 36
+            },
+            {
+              "assignment": "TTFFT",
+              "component_axis_cosine": 0.9998905396755298,
+              "delta": -0.0005170630816959676,
+              "native_auc": 0.9919268728128813,
+              "native_unit": 201,
+              "nmf_auc": 0.9914098097311853,
+              "nmf_component": 31,
+              "nmf_matched_native_unit": 201
+            },
+            {
+              "assignment": "TTFTF",
+              "component_axis_cosine": 0.9999459815471707,
+              "delta": -0.00017560785707637638,
+              "native_auc": 0.9984980238826686,
+              "native_unit": 435,
+              "nmf_auc": 0.9983224160255922,
+              "nmf_component": 27,
+              "nmf_matched_native_unit": 435
+            },
+            {
+              "assignment": "TTFTT",
+              "component_axis_cosine": 0.7370609235759271,
+              "delta": -0.0008005714848753342,
+              "native_auc": 0.993379509505893,
+              "native_unit": 374,
+              "nmf_auc": 0.9925789380210177,
+              "nmf_component": 33,
+              "nmf_matched_native_unit": 261
+            },
+            {
+              "assignment": "TTTFF",
+              "component_axis_cosine": 0.9999999708378529,
+              "delta": -0.0003693417463468407,
+              "native_auc": 0.977393809089521,
+              "native_unit": 55,
+              "nmf_auc": 0.9770244673431742,
+              "nmf_component": 16,
+              "nmf_matched_native_unit": 55
+            },
+            {
+              "assignment": "TTTFT",
+              "component_axis_cosine": 0.9999991757630845,
+              "delta": 0.002087006056892049,
+              "native_auc": 0.8940684750312339,
+              "native_unit": 411,
+              "nmf_auc": 0.8961554810881259,
+              "nmf_component": 18,
+              "nmf_matched_native_unit": 411
+            },
+            {
+              "assignment": "TTTTF",
+              "component_axis_cosine": 0.999999751663557,
+              "delta": -5.344689526032287e-05,
+              "native_auc": 0.9943823495446038,
+              "native_unit": 326,
+              "nmf_auc": 0.9943289026493435,
+              "nmf_component": 2,
+              "nmf_matched_native_unit": 326
+            },
+            {
+              "assignment": "TTTTT",
+              "component_axis_cosine": 0.9914677640645634,
+              "delta": 0.005752105896510207,
+              "native_auc": 0.9761145400670264,
+              "native_unit": 482,
+              "nmf_auc": 0.9818666459635366,
+              "nmf_component": 25,
+              "nmf_matched_native_unit": 482
+            }
+          ],
+          "relative_frobenius_error": 0.03145023609697476,
+          "seed": 1,
+          "unrecovered_native_axes": [
+            374,
+            261
+          ]
+        },
+        {
+          "components_at_least_0_99": 32,
+          "convergence_warnings": [],
+          "gain_from_components_at_least_0_99": 0.0020102496485035273,
+          "gain_from_components_below_0_99": -2.5017858902354195e-05,
+          "iterations": 193,
+          "matching_mean": 0.9862185156807122,
+          "mean_gain": 0.001985231789601173,
+          "minimum_matched_cosine": 0.0,
+          "per_assignment": [
+            {
+              "assignment": "FFFFF",
+              "component_axis_cosine": 0.9999999999997922,
+              "delta": 0.004831257444356751,
+              "native_auc": 0.987834669907561,
+              "native_unit": 41,
+              "nmf_auc": 0.9926659273519177,
+              "nmf_component": 6,
+              "nmf_matched_native_unit": 41
+            },
+            {
+              "assignment": "FFFFT",
+              "component_axis_cosine": 0.9999999863253638,
+              "delta": 0.0,
+              "native_auc": 0.9999886937812404,
+              "native_unit": 224,
+              "nmf_auc": 0.9999886937812404,
+              "nmf_component": 19,
+              "nmf_matched_native_unit": 224
+            },
+            {
+              "assignment": "FFFTF",
+              "component_axis_cosine": 0.9999999997067899,
+              "delta": 0.0008501137443128748,
+              "native_auc": 0.9949916566671666,
+              "native_unit": 495,
+              "nmf_auc": 0.9958417704114795,
+              "nmf_component": 13,
+              "nmf_matched_native_unit": 495
+            },
+            {
+              "assignment": "FFFTT",
+              "component_axis_cosine": 0.9999999994219316,
+              "delta": 0.0,
+              "native_auc": 1.0,
+              "native_unit": 185,
+              "nmf_auc": 1.0,
+              "nmf_component": 14,
+              "nmf_matched_native_unit": 185
+            },
+            {
+              "assignment": "FFTFF",
+              "component_axis_cosine": 0.9999977453686953,
+              "delta": -0.0001992161788747504,
+              "native_auc": 0.9980519562371105,
+              "native_unit": 499,
+              "nmf_auc": 0.9978527400582358,
+              "nmf_component": 26,
+              "nmf_matched_native_unit": 499
+            },
+            {
+              "assignment": "FFTFT",
+              "component_axis_cosine": 0.9999999999847922,
+              "delta": -0.00027508324887792757,
+              "native_auc": 0.9968861667327622,
+              "native_unit": 450,
+              "nmf_auc": 0.9966110834838843,
+              "nmf_component": 9,
+              "nmf_matched_native_unit": 450
+            },
+            {
+              "assignment": "FFTTF",
+              "component_axis_cosine": 0.9999999999999972,
+              "delta": 0.003813230640389409,
+              "native_auc": 0.9804178650942381,
+              "native_unit": 304,
+              "nmf_auc": 0.9842310957346275,
+              "nmf_component": 17,
+              "nmf_matched_native_unit": 304
+            },
+            {
+              "assignment": "FFTTT",
+              "component_axis_cosine": 0.9999999832782939,
+              "delta": -0.00020401787706647578,
+              "native_auc": 0.9938077386530995,
+              "native_unit": 77,
+              "nmf_auc": 0.993603720776033,
+              "nmf_component": 1,
+              "nmf_matched_native_unit": 77
+            },
+            {
+              "assignment": "FTFFF",
+              "component_axis_cosine": 0.999999999900365,
+              "delta": 0.04343370336843111,
+              "native_auc": 0.9028798418219067,
+              "native_unit": 48,
+              "nmf_auc": 0.9463135451903378,
+              "nmf_component": 11,
+              "nmf_matched_native_unit": 48
+            },
+            {
+              "assignment": "FTFFT",
+              "component_axis_cosine": 0.9999913091150953,
+              "delta": -0.00029425337015309694,
+              "native_auc": 0.9950503121335896,
+              "native_unit": 245,
+              "nmf_auc": 0.9947560587634365,
+              "nmf_component": 4,
+              "nmf_matched_native_unit": 245
+            },
+            {
+              "assignment": "FTFTF",
+              "component_axis_cosine": 0.9999999822045637,
+              "delta": 0.0029963408300298644,
+              "native_auc": 0.9947336594102856,
+              "native_unit": 150,
+              "nmf_auc": 0.9977300002403154,
+              "nmf_component": 20,
+              "nmf_matched_native_unit": 150
+            },
+            {
+              "assignment": "FTFTT",
+              "component_axis_cosine": 0.9991291102292993,
+              "delta": 0.007011944014625571,
+              "native_auc": 0.9880878504824323,
+              "native_unit": 231,
+              "nmf_auc": 0.9950997944970579,
+              "nmf_component": 12,
+              "nmf_matched_native_unit": 231
+            },
+            {
+              "assignment": "FTTFF",
+              "component_axis_cosine": 0.9999999999999928,
+              "delta": -0.00033630751727631303,
+              "native_auc": 0.9963912122872072,
+              "native_unit": 29,
+              "nmf_auc": 0.9960549047699309,
+              "nmf_component": 30,
+              "nmf_matched_native_unit": 29
+            },
+            {
+              "assignment": "FTTFT",
+              "component_axis_cosine": 0.9999999987744527,
+              "delta": -0.00016471465837619714,
+              "native_auc": 0.9998900041094911,
+              "native_unit": 490,
+              "nmf_auc": 0.9997252894511149,
+              "nmf_component": 23,
+              "nmf_matched_native_unit": 490
+            },
+            {
+              "assignment": "FTTTF",
+              "component_axis_cosine": 0.9999999899175537,
+              "delta": -3.387591253234401e-05,
+              "native_auc": 0.9975204714021428,
+              "native_unit": 334,
+              "nmf_auc": 0.9974865954896105,
+              "nmf_component": 10,
+              "nmf_matched_native_unit": 334
+            },
+            {
+              "assignment": "FTTTT",
+              "component_axis_cosine": 0.9999985346665183,
+              "delta": 0.0,
+              "native_auc": 0.9997909671086285,
+              "native_unit": 189,
+              "nmf_auc": 0.9997909671086285,
+              "nmf_component": 32,
+              "nmf_matched_native_unit": 189
+            },
+            {
+              "assignment": "TFFFF",
+              "component_axis_cosine": 0.9999999999999813,
+              "delta": 0.0009505517296848343,
+              "native_auc": 0.9953909311551123,
+              "native_unit": 10,
+              "nmf_auc": 0.9963414828847972,
+              "nmf_component": 3,
+              "nmf_matched_native_unit": 10
+            },
+            {
+              "assignment": "TFFFT",
+              "component_axis_cosine": 0.9999738523175866,
+              "delta": 0.0,
+              "native_auc": 0.9999988713557134,
+              "native_unit": 317,
+              "nmf_auc": 0.9999988713557134,
+              "nmf_component": 15,
+              "nmf_matched_native_unit": 317
+            },
+            {
+              "assignment": "TFFTF",
+              "component_axis_cosine": 0.9999999956744408,
+              "delta": -0.0012140590678026975,
+              "native_auc": 0.9889520034238553,
+              "native_unit": 195,
+              "nmf_auc": 0.9877379443560526,
+              "nmf_component": 8,
+              "nmf_matched_native_unit": 195
+            },
+            {
+              "assignment": "TFFTT",
+              "component_axis_cosine": 0.9999566757751029,
+              "delta": -5.594342999959423e-07,
+              "native_auc": 0.9999641962047977,
+              "native_unit": 380,
+              "nmf_auc": 0.9999636367704977,
+              "nmf_component": 5,
+              "nmf_matched_native_unit": 380
+            },
+            {
+              "assignment": "TFTFF",
+              "component_axis_cosine": 0.9999999999999329,
+              "delta": -8.225317913346242e-05,
+              "native_auc": 0.8808514598977271,
+              "native_unit": 416,
+              "nmf_auc": 0.8807692067185936,
+              "nmf_component": 29,
+              "nmf_matched_native_unit": 416
+            },
+            {
+              "assignment": "TFTFT",
+              "component_axis_cosine": 1.0,
+              "delta": -9.588421758477406e-05,
+              "native_auc": 0.9946301663178428,
+              "native_unit": 492,
+              "nmf_auc": 0.9945342821002581,
+              "nmf_component": 0,
+              "nmf_matched_native_unit": 492
+            },
+            {
+              "assignment": "TFTTF",
+              "component_axis_cosine": 0.999999909008554,
+              "delta": -0.0003337280788594521,
+              "native_auc": 0.9954525398408648,
+              "native_unit": 96,
+              "nmf_auc": 0.9951188117620053,
+              "nmf_component": 21,
+              "nmf_matched_native_unit": 96
+            },
+            {
+              "assignment": "TFTTT",
+              "component_axis_cosine": 1.0,
+              "delta": 0.0,
+              "native_auc": 0.9945425327687815,
+              "native_unit": 291,
+              "nmf_auc": 0.9945425327687815,
+              "nmf_component": 7,
+              "nmf_matched_native_unit": 291
+            },
+            {
+              "assignment": "TTFFF",
+              "component_axis_cosine": 0.9999931097128173,
+              "delta": -0.00044828522147211114,
+              "native_auc": 0.9935957377881677,
+              "native_unit": 36,
+              "nmf_auc": 0.9931474525666956,
+              "nmf_component": 22,
+              "nmf_matched_native_unit": 36
+            },
+            {
+              "assignment": "TTFFT",
+              "component_axis_cosine": 0.9998905361596762,
+              "delta": -0.0005149220337385962,
+              "native_auc": 0.9919268728128813,
+              "native_unit": 201,
+              "nmf_auc": 0.9914119507791427,
+              "nmf_component": 31,
+              "nmf_matched_native_unit": 201
+            },
+            {
+              "assignment": "TTFTF",
+              "component_axis_cosine": 0.9999459815489835,
+              "delta": -0.00017560785707637638,
+              "native_auc": 0.9984980238826686,
+              "native_unit": 435,
+              "nmf_auc": 0.9983224160255922,
+              "nmf_component": 27,
+              "nmf_matched_native_unit": 435
+            },
+            {
+              "assignment": "TTFTT",
+              "component_axis_cosine": 0.7370609235888483,
+              "delta": -0.0008005714848753342,
+              "native_auc": 0.993379509505893,
+              "native_unit": 374,
+              "nmf_auc": 0.9925789380210177,
+              "nmf_component": 33,
+              "nmf_matched_native_unit": 261
+            },
+            {
+              "assignment": "TTTFF",
+              "component_axis_cosine": 0.9999999708378525,
+              "delta": -0.0004663197467842384,
+              "native_auc": 0.977393809089521,
+              "native_unit": 55,
+              "nmf_auc": 0.9769274893427368,
+              "nmf_component": 16,
+              "nmf_matched_native_unit": 55
+            },
+            {
+              "assignment": "TTTFT",
+              "component_axis_cosine": 0.9999991757631869,
+              "delta": -6.473343848956148e-06,
+              "native_auc": 0.8940684750312339,
+              "native_unit": 411,
+              "nmf_auc": 0.8940620016873849,
+              "nmf_component": 18,
+              "nmf_matched_native_unit": 411
+            },
+            {
+              "assignment": "TTTTF",
+              "component_axis_cosine": 0.9999997516635589,
+              "delta": -5.344689526032287e-05,
+              "native_auc": 0.9943823495446038,
+              "native_unit": 326,
+              "nmf_auc": 0.9943289026493435,
+              "nmf_component": 2,
+              "nmf_matched_native_unit": 326
+            },
+            {
+              "assignment": "TTTTT",
+              "component_axis_cosine": 0.9914677640648044,
+              "delta": 0.005339854819300549,
+              "native_auc": 0.9761145400670264,
+              "native_unit": 482,
+              "nmf_auc": 0.9814543948863269,
+              "nmf_component": 25,
+              "nmf_matched_native_unit": 482
+            }
+          ],
+          "relative_frobenius_error": 0.031450236157117895,
+          "seed": 2,
+          "unrecovered_native_axes": [
+            374,
+            261
+          ]
+        },
+        {
+          "components_at_least_0_99": 32,
+          "convergence_warnings": [],
+          "gain_from_components_at_least_0_99": 0.002248630743595513,
+          "gain_from_components_below_0_99": -2.786889695390385e-05,
+          "iterations": 193,
+          "matching_mean": 0.9864540457377526,
+          "mean_gain": 0.002220761846641609,
+          "minimum_matched_cosine": 0.0,
+          "per_assignment": [
+            {
+              "assignment": "FFFFF",
+              "component_axis_cosine": 0.9999999999997936,
+              "delta": 0.004828405883226861,
+              "native_auc": 0.987834669907561,
+              "native_unit": 41,
+              "nmf_auc": 0.9926630757907878,
+              "nmf_component": 6,
+              "nmf_matched_native_unit": 41
+            },
+            {
+              "assignment": "FFFFT",
+              "component_axis_cosine": 0.9999999863253577,
+              "delta": 0.0,
+              "native_auc": 0.9999886937812404,
+              "native_unit": 224,
+              "nmf_auc": 0.9999886937812404,
+              "nmf_component": 19,
+              "nmf_matched_native_unit": 224
+            },
+            {
+              "assignment": "FFFTF",
+              "component_axis_cosine": 0.9999999997067898,
+              "delta": 0.0008498012599370552,
+              "native_auc": 0.9949916566671666,
+              "native_unit": 495,
+              "nmf_auc": 0.9958414579271037,
+              "nmf_component": 13,
+              "nmf_matched_native_unit": 495
+            },
+            {
+              "assignment": "FFFTT",
+              "component_axis_cosine": 0.9999999994219232,
+              "delta": 0.0,
+              "native_auc": 1.0,
+              "native_unit": 185,
+              "nmf_auc": 1.0,
+              "nmf_component": 14,
+              "nmf_matched_native_unit": 185
+            },
+            {
+              "assignment": "FFTFF",
+              "component_axis_cosine": 0.9999977453687132,
+              "delta": -0.00019812007885344762,
+              "native_auc": 0.9980519562371105,
+              "native_unit": 499,
+              "nmf_auc": 0.9978538361582571,
+              "nmf_component": 26,
+              "nmf_matched_native_unit": 499
+            },
+            {
+              "assignment": "FFTFT",
+              "component_axis_cosine": 0.9999999999847516,
+              "delta": -0.00027235549736359665,
+              "native_auc": 0.9968861667327622,
+              "native_unit": 450,
+              "nmf_auc": 0.9966138112353986,
+              "nmf_component": 9,
+              "nmf_matched_native_unit": 450
+            },
+            {
+              "assignment": "FFTTF",
+              "component_axis_cosine": 0.9999999999999972,
+              "delta": 0.0038107136564683453,
+              "native_auc": 0.9804178650942381,
+              "native_unit": 304,
+              "nmf_auc": 0.9842285787507065,
+              "nmf_component": 17,
+              "nmf_matched_native_unit": 304
+            },
+            {
+              "assignment": "FFTTT",
+              "component_axis_cosine": 0.9999999832782939,
+              "delta": -0.00011922294691069091,
+              "native_auc": 0.9938077386530995,
+              "native_unit": 77,
+              "nmf_auc": 0.9936885157061888,
+              "nmf_component": 1,
+              "nmf_matched_native_unit": 77
+            },
+            {
+              "assignment": "FTFFF",
+              "component_axis_cosine": 0.9999999999001701,
+              "delta": 0.04344585258945155,
+              "native_auc": 0.9028798418219067,
+              "native_unit": 48,
+              "nmf_auc": 0.9463256944113583,
+              "nmf_component": 11,
+              "nmf_matched_native_unit": 48
+            },
+            {
+              "assignment": "FTFFT",
+              "component_axis_cosine": 0.9999913091165507,
+              "delta": -0.00029425337015309694,
+              "native_auc": 0.9950503121335896,
+              "native_unit": 245,
+              "nmf_auc": 0.9947560587634365,
+              "nmf_component": 4,
+              "nmf_matched_native_unit": 245
+            },
+            {
+              "assignment": "FTFTF",
+              "component_axis_cosine": 0.9999999822045005,
+              "delta": 0.0029963408300298644,
+              "native_auc": 0.9947336594102856,
+              "native_unit": 150,
+              "nmf_auc": 0.9977300002403154,
+              "nmf_component": 20,
+              "nmf_matched_native_unit": 150
+            },
+            {
+              "assignment": "FTFTT",
+              "component_axis_cosine": 0.9991291102272588,
+              "delta": 0.007011944014625571,
+              "native_auc": 0.9880878504824323,
+              "native_unit": 231,
+              "nmf_auc": 0.9950997944970579,
+              "nmf_component": 12,
+              "nmf_matched_native_unit": 231
+            },
+            {
+              "assignment": "FTTFF",
+              "component_axis_cosine": 0.9999999999999928,
+              "delta": -0.0003365708747682383,
+              "native_auc": 0.9963912122872072,
+              "native_unit": 29,
+              "nmf_auc": 0.9960546414124389,
+              "nmf_component": 30,
+              "nmf_matched_native_unit": 29
+            },
+            {
+              "assignment": "FTTFT",
+              "component_axis_cosine": 0.9999999987857363,
+              "delta": -0.00016471465837619714,
+              "native_auc": 0.9998900041094911,
+              "native_unit": 490,
+              "nmf_auc": 0.9997252894511149,
+              "nmf_component": 23,
+              "nmf_matched_native_unit": 490
+            },
+            {
+              "assignment": "FTTTF",
+              "component_axis_cosine": 0.9999999898714305,
+              "delta": -3.387591253234401e-05,
+              "native_auc": 0.9975204714021428,
+              "native_unit": 334,
+              "nmf_auc": 0.9974865954896105,
+              "nmf_component": 10,
+              "nmf_matched_native_unit": 334
+            },
+            {
+              "assignment": "FTTTT",
+              "component_axis_cosine": 0.9999985346665087,
+              "delta": 0.0,
+              "native_auc": 0.9997909671086285,
+              "native_unit": 189,
+              "nmf_auc": 0.9997909671086285,
+              "nmf_component": 32,
+              "nmf_matched_native_unit": 189
+            },
+            {
+              "assignment": "TFFFF",
+              "component_axis_cosine": 0.9999999999999813,
+              "delta": 0.0009505517296848343,
+              "native_auc": 0.9953909311551123,
+              "native_unit": 10,
+              "nmf_auc": 0.9963414828847972,
+              "nmf_component": 3,
+              "nmf_matched_native_unit": 10
+            },
+            {
+              "assignment": "TFFFT",
+              "component_axis_cosine": 0.9999738523175242,
+              "delta": 0.0,
+              "native_auc": 0.9999988713557134,
+              "native_unit": 317,
+              "nmf_auc": 0.9999988713557134,
+              "nmf_component": 15,
+              "nmf_matched_native_unit": 317
+            },
+            {
+              "assignment": "TFFTF",
+              "component_axis_cosine": 0.9999999956744414,
+              "delta": -0.0012140590678026975,
+              "native_auc": 0.9889520034238553,
+              "native_unit": 195,
+              "nmf_auc": 0.9877379443560526,
+              "nmf_component": 8,
+              "nmf_matched_native_unit": 195
+            },
+            {
+              "assignment": "TFFTT",
+              "component_axis_cosine": 0.9999566757754341,
+              "delta": -5.594342999959423e-07,
+              "native_auc": 0.9999641962047977,
+              "native_unit": 380,
+              "nmf_auc": 0.9999636367704977,
+              "nmf_component": 5,
+              "nmf_matched_native_unit": 380
+            },
+            {
+              "assignment": "TFTFF",
+              "component_axis_cosine": 0.9999999999999329,
+              "delta": 0.0070913303706154895,
+              "native_auc": 0.8808514598977271,
+              "native_unit": 416,
+              "nmf_auc": 0.8879427902683426,
+              "nmf_component": 29,
+              "nmf_matched_native_unit": 416
+            },
+            {
+              "assignment": "TFTFT",
+              "component_axis_cosine": 1.0,
+              "delta": -8.350181862515349e-05,
+              "native_auc": 0.9946301663178428,
+              "native_unit": 492,
+              "nmf_auc": 0.9945466644992177,
+              "nmf_component": 0,
+              "nmf_matched_native_unit": 492
+            },
+            {
+              "assignment": "TFTTF",
+              "component_axis_cosine": 0.9999999090085542,
+              "delta": -0.0002870310528996223,
+              "native_auc": 0.9954525398408648,
+              "native_unit": 96,
+              "nmf_auc": 0.9951655087879652,
+              "nmf_component": 21,
+              "nmf_matched_native_unit": 96
+            },
+            {
+              "assignment": "TFTTT",
+              "component_axis_cosine": 1.0,
+              "delta": 0.0,
+              "native_auc": 0.9945425327687815,
+              "native_unit": 291,
+              "nmf_auc": 0.9945425327687815,
+              "nmf_component": 7,
+              "nmf_matched_native_unit": 291
+            },
+            {
+              "assignment": "TTFFF",
+              "component_axis_cosine": 0.9999931097126908,
+              "delta": -0.00044828522147211114,
+              "native_auc": 0.9935957377881677,
+              "native_unit": 36,
+              "nmf_auc": 0.9931474525666956,
+              "nmf_component": 22,
+              "nmf_matched_native_unit": 36
+            },
+            {
+              "assignment": "TTFFT",
+              "component_axis_cosine": 0.9998905355703702,
+              "delta": -0.0005149220337385962,
+              "native_auc": 0.9919268728128813,
+              "native_unit": 201,
+              "nmf_auc": 0.9914119507791427,
+              "nmf_component": 31,
+              "nmf_matched_native_unit": 201
+            },
+            {
+              "assignment": "TTFTF",
+              "component_axis_cosine": 0.9999459815519033,
+              "delta": -0.00017560785707637638,
+              "native_auc": 0.9984980238826686,
+              "native_unit": 435,
+              "nmf_auc": 0.9983224160255922,
+              "nmf_component": 27,
+              "nmf_matched_native_unit": 435
+            },
+            {
+              "assignment": "TTFTT",
+              "component_axis_cosine": 0.7370609236248301,
+              "delta": -0.0008918047025249232,
+              "native_auc": 0.993379509505893,
+              "native_unit": 374,
+              "nmf_auc": 0.9924877048033681,
+              "nmf_component": 33,
+              "nmf_matched_native_unit": 261
+            },
+            {
+              "assignment": "TTTFF",
+              "component_axis_cosine": 0.9999999708378523,
+              "delta": -0.0006128184282960802,
+              "native_auc": 0.977393809089521,
+              "native_unit": 55,
+              "nmf_auc": 0.9767809906612249,
+              "nmf_component": 16,
+              "nmf_matched_native_unit": 55
+            },
+            {
+              "assignment": "TTTFT",
+              "component_axis_cosine": 0.9999991757631875,
+              "delta": 2.848271293520721e-05,
+              "native_auc": 0.8940684750312339,
+              "native_unit": 411,
+              "nmf_auc": 0.8940969577441691,
+              "nmf_component": 18,
+              "nmf_matched_native_unit": 411
+            },
+            {
+              "assignment": "TTTTF",
+              "component_axis_cosine": 0.999999751663559,
+              "delta": -5.344689526032287e-05,
+              "native_auc": 0.9943823495446038,
+              "native_unit": 326,
+              "nmf_auc": 0.9943289026493435,
+              "nmf_component": 2,
+              "nmf_matched_native_unit": 326
+            },
+            {
+              "assignment": "TTTTT",
+              "component_axis_cosine": 0.9914677640645948,
+              "delta": 0.005752105896510207,
+              "native_auc": 0.9761145400670264,
+              "native_unit": 482,
+              "nmf_auc": 0.9818666459635366,
+              "nmf_component": 25,
+              "nmf_matched_native_unit": 482
+            }
+          ],
+          "relative_frobenius_error": 0.03145023616994431,
+          "seed": 3,
+          "unrecovered_native_axes": [
+            374,
+            261
+          ]
+        },
+        {
+          "components_at_least_0_99": 32,
+          "convergence_warnings": [],
+          "gain_from_components_at_least_0_99": 0.0020363000332420493,
+          "gain_from_components_below_0_99": -2.5017858902354195e-05,
+          "iterations": 193,
+          "matching_mean": 0.9862445660654507,
+          "mean_gain": 0.002011282174339695,
+          "minimum_matched_cosine": 0.0,
+          "per_assignment": [
+            {
+              "assignment": "FFFFF",
+              "component_axis_cosine": 0.9999999999997922,
+              "delta": 0.004831257444356751,
+              "native_auc": 0.987834669907561,
+              "native_unit": 41,
+              "nmf_auc": 0.9926659273519177,
+              "nmf_component": 6,
+              "nmf_matched_native_unit": 41
+            },
+            {
+              "assignment": "FFFFT",
+              "component_axis_cosine": 0.9999999863253628,
+              "delta": 0.0,
+              "native_auc": 0.9999886937812404,
+              "native_unit": 224,
+              "nmf_auc": 0.9999886937812404,
+              "nmf_component": 19,
+              "nmf_matched_native_unit": 224
+            },
+            {
+              "assignment": "FFFTF",
+              "component_axis_cosine": 0.9999999997067898,
+              "delta": 0.0008501137443128748,
+              "native_auc": 0.9949916566671666,
+              "native_unit": 495,
+              "nmf_auc": 0.9958417704114795,
+              "nmf_component": 13,
+              "nmf_matched_native_unit": 495
+            },
+            {
+              "assignment": "FFFTT",
+              "component_axis_cosine": 0.9999999994219294,
+              "delta": 0.0,
+              "native_auc": 1.0,
+              "native_unit": 185,
+              "nmf_auc": 1.0,
+              "nmf_component": 14,
+              "nmf_matched_native_unit": 185
+            },
+            {
+              "assignment": "FFTFF",
+              "component_axis_cosine": 0.9999977453686959,
+              "delta": -0.00020360057895996153,
+              "native_auc": 0.9980519562371105,
+              "native_unit": 499,
+              "nmf_auc": 0.9978483556581506,
+              "nmf_component": 26,
+              "nmf_matched_native_unit": 499
+            },
+            {
+              "assignment": "FFTFT",
+              "component_axis_cosine": 0.9999999999847295,
+              "delta": -0.00023941265215088325,
+              "native_auc": 0.9968861667327622,
+              "native_unit": 450,
+              "nmf_auc": 0.9966467540806113,
+              "nmf_component": 9,
+              "nmf_matched_native_unit": 450
+            },
+            {
+              "assignment": "FFTTF",
+              "component_axis_cosine": 0.9999999999999972,
+              "delta": 0.003813230640389409,
+              "native_auc": 0.9804178650942381,
+              "native_unit": 304,
+              "nmf_auc": 0.9842310957346275,
+              "nmf_component": 17,
+              "nmf_matched_native_unit": 304
+            },
+            {
+              "assignment": "FFTTT",
+              "component_axis_cosine": 0.9999999832782939,
+              "delta": -0.00011922294691069091,
+              "native_auc": 0.9938077386530995,
+              "native_unit": 77,
+              "nmf_auc": 0.9936885157061888,
+              "nmf_component": 1,
+              "nmf_matched_native_unit": 77
+            },
+            {
+              "assignment": "FTFFF",
+              "component_axis_cosine": 0.9999999999003766,
+              "delta": 0.04379460669874691,
+              "native_auc": 0.9028798418219067,
+              "native_unit": 48,
+              "nmf_auc": 0.9466744485206536,
+              "nmf_component": 11,
+              "nmf_matched_native_unit": 48
+            },
+            {
+              "assignment": "FTFFT",
+              "component_axis_cosine": 0.9999913091149139,
+              "delta": -0.00029425337015309694,
+              "native_auc": 0.9950503121335896,
+              "native_unit": 245,
+              "nmf_auc": 0.9947560587634365,
+              "nmf_component": 4,
+              "nmf_matched_native_unit": 245
+            },
+            {
+              "assignment": "FTFTF",
+              "component_axis_cosine": 0.9999999822046518,
+              "delta": 0.0029963408300298644,
+              "native_auc": 0.9947336594102856,
+              "native_unit": 150,
+              "nmf_auc": 0.9977300002403154,
+              "nmf_component": 20,
+              "nmf_matched_native_unit": 150
+            },
+            {
+              "assignment": "FTFTT",
+              "component_axis_cosine": 0.9991291102285249,
+              "delta": 0.007011944014625571,
+              "native_auc": 0.9880878504824323,
+              "native_unit": 231,
+              "nmf_auc": 0.9950997944970579,
+              "nmf_component": 12,
+              "nmf_matched_native_unit": 231
+            },
+            {
+              "assignment": "FTTFF",
+              "component_axis_cosine": 0.9999999999999929,
+              "delta": -0.0003355174448003151,
+              "native_auc": 0.9963912122872072,
+              "native_unit": 29,
+              "nmf_auc": 0.9960556948424069,
+              "nmf_component": 30,
+              "nmf_matched_native_unit": 29
+            },
+            {
+              "assignment": "FTTFT",
+              "component_axis_cosine": 0.9999999987725072,
+              "delta": -0.0001663897226986677,
+              "native_auc": 0.9998900041094911,
+              "native_unit": 490,
+              "nmf_auc": 0.9997236143867925,
+              "nmf_component": 23,
+              "nmf_matched_native_unit": 490
+            },
+            {
+              "assignment": "FTTTF",
+              "component_axis_cosine": 0.9999999898619092,
+              "delta": -3.387591253234401e-05,
+              "native_auc": 0.9975204714021428,
+              "native_unit": 334,
+              "nmf_auc": 0.9974865954896105,
+              "nmf_component": 10,
+              "nmf_matched_native_unit": 334
+            },
+            {
+              "assignment": "FTTTT",
+              "component_axis_cosine": 0.9999985346665191,
+              "delta": 0.0,
+              "native_auc": 0.9997909671086285,
+              "native_unit": 189,
+              "nmf_auc": 0.9997909671086285,
+              "nmf_component": 32,
+              "nmf_matched_native_unit": 189
+            },
+            {
+              "assignment": "TFFFF",
+              "component_axis_cosine": 0.9999999999999813,
+              "delta": 0.0009505517296848343,
+              "native_auc": 0.9953909311551123,
+              "native_unit": 10,
+              "nmf_auc": 0.9963414828847972,
+              "nmf_component": 3,
+              "nmf_matched_native_unit": 10
+            },
+            {
+              "assignment": "TFFFT",
+              "component_axis_cosine": 0.9999738523175973,
+              "delta": 0.0,
+              "native_auc": 0.9999988713557134,
+              "native_unit": 317,
+              "nmf_auc": 0.9999988713557134,
+              "nmf_component": 15,
+              "nmf_matched_native_unit": 317
+            },
+            {
+              "assignment": "TFFTF",
+              "component_axis_cosine": 0.9999999956744429,
+              "delta": -0.0012140590678026975,
+              "native_auc": 0.9889520034238553,
+              "native_unit": 195,
+              "nmf_auc": 0.9877379443560526,
+              "nmf_component": 8,
+              "nmf_matched_native_unit": 195
+            },
+            {
+              "assignment": "TFFTT",
+              "component_axis_cosine": 0.9999566757751028,
+              "delta": -5.594342999959423e-07,
+              "native_auc": 0.9999641962047977,
+              "native_unit": 380,
+              "nmf_auc": 0.9999636367704977,
+              "nmf_component": 5,
+              "nmf_matched_native_unit": 380
+            },
+            {
+              "assignment": "TFTFF",
+              "component_axis_cosine": 0.9999999999999328,
+              "delta": -8.225317913346242e-05,
+              "native_auc": 0.8808514598977271,
+              "native_unit": 416,
+              "nmf_auc": 0.8807692067185936,
+              "nmf_component": 29,
+              "nmf_matched_native_unit": 416
+            },
+            {
+              "assignment": "TFTFT",
+              "component_axis_cosine": 1.0,
+              "delta": 0.0,
+              "native_auc": 0.9946301663178428,
+              "native_unit": 492,
+              "nmf_auc": 0.9946301663178428,
+              "nmf_component": 0,
+              "nmf_matched_native_unit": 492
+            },
+            {
+              "assignment": "TFTTF",
+              "component_axis_cosine": 0.9999999090085523,
+              "delta": -0.00031504926847547576,
+              "native_auc": 0.9954525398408648,
+              "native_unit": 96,
+              "nmf_auc": 0.9951374905723893,
+              "nmf_component": 21,
+              "nmf_matched_native_unit": 96
+            },
+            {
+              "assignment": "TFTTT",
+              "component_axis_cosine": 1.0,
+              "delta": 0.0,
+              "native_auc": 0.9945425327687815,
+              "native_unit": 291,
+              "nmf_auc": 0.9945425327687815,
+              "nmf_component": 7,
+              "nmf_matched_native_unit": 291
+            },
+            {
+              "assignment": "TTFFF",
+              "component_axis_cosine": 0.9999931097123455,
+              "delta": -0.00044828522147211114,
+              "native_auc": 0.9935957377881677,
+              "native_unit": 36,
+              "nmf_auc": 0.9931474525666956,
+              "nmf_component": 22,
+              "nmf_matched_native_unit": 36
+            },
+            {
+              "assignment": "TTFFT",
+              "component_axis_cosine": 0.9998905347137589,
+              "delta": -0.0005149220337385962,
+              "native_auc": 0.9919268728128813,
+              "native_unit": 201,
+              "nmf_auc": 0.9914119507791427,
+              "nmf_component": 31,
+              "nmf_matched_native_unit": 201
+            },
+            {
+              "assignment": "TTFTF",
+              "component_axis_cosine": 0.9999459815603711,
+              "delta": -0.00017560785707637638,
+              "native_auc": 0.9984980238826686,
+              "native_unit": 435,
+              "nmf_auc": 0.9983224160255922,
+              "nmf_component": 27,
+              "nmf_matched_native_unit": 435
+            },
+            {
+              "assignment": "TTFTT",
+              "component_axis_cosine": 0.737060923692743,
+              "delta": -0.0008005714848753342,
+              "native_auc": 0.993379509505893,
+              "native_unit": 374,
+              "nmf_auc": 0.9925789380210177,
+              "nmf_component": 33,
+              "nmf_matched_native_unit": 261
+            },
+            {
+              "assignment": "TTTFF",
+              "component_axis_cosine": 0.9999999708378519,
+              "delta": -0.0005983748963160895,
+              "native_auc": 0.977393809089521,
+              "native_unit": 55,
+              "nmf_auc": 0.9767954341932049,
+              "nmf_component": 16,
+              "nmf_matched_native_unit": 55
+            },
+            {
+              "assignment": "TTTFT",
+              "component_axis_cosine": 0.9999991757632218,
+              "delta": 2.848271293520721e-05,
+              "native_auc": 0.8940684750312339,
+              "native_unit": 411,
+              "nmf_auc": 0.8940969577441691,
+              "nmf_component": 18,
+              "nmf_matched_native_unit": 411
+            },
+            {
+              "assignment": "TTTTF",
+              "component_axis_cosine": 0.9999997516635633,
+              "delta": -5.344689526032287e-05,
+              "native_auc": 0.9943823495446038,
+              "native_unit": 326,
+              "nmf_auc": 0.9943289026493435,
+              "nmf_component": 2,
+              "nmf_matched_native_unit": 326
+            },
+            {
+              "assignment": "TTTTT",
+              "component_axis_cosine": 0.9914677640650442,
+              "delta": 0.005679903730445246,
+              "native_auc": 0.9761145400670264,
+              "native_unit": 482,
+              "nmf_auc": 0.9817944437974716,
+              "nmf_component": 25,
+              "nmf_matched_native_unit": 482
+            }
+          ],
+          "relative_frobenius_error": 0.03145023618558028,
+          "seed": 4,
+          "unrecovered_native_axes": [
+            374,
+            261
+          ]
+        }
+      ]
+    }
+  ]
+}

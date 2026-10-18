@@ -1,0 +1,28 @@
+{
+  "input_sha256": "28fe7436ec4aea45e930281390d8a9fa542c04be13fbde8c597da2e9210b41bb",
+  "original_positive_counts": [
+    31.0,
+    24.0
+  ],
+  "renamed_positive_counts": [
+    32.0,
+    32.0
+  ],
+  "directional_positive_denominator": 32,
+  "directional_cutoff": 29,
+  "nominated_correct_to_wrong": [
+    115,
+    0
+  ],
+  "other_pair_correct_to_wrong": [
+    0,
+    0
+  ],
+  "clamp_denominator": 128,
+  "scope": "Visualization of precomputed frozen summaries, no new observations, fitting or resampling.",
+  "files": {
+    "sat-renaming.pdf": "4ad43f16c9f7e5190a36d49dca8d27d6fe0026c64c83fc8da6b3176a91c9cf13",
+    "sat-renaming.png": "ef3cfcd0d0ea87b19a4eb5f22167cc5296cdac2141daefc6504aec7aaa437bec",
+    "sat-renaming.svg": "901ada8862846963365082843ec69b6d535015d0ae13011fc10d3668209f8e28"
+  }
+}

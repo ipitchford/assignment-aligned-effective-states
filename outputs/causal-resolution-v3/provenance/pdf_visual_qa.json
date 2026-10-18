@@ -1,0 +1,10 @@
+{
+  "paper_sha256": "a13132dd213f99a9a0421c8144b52a8755dc87522d434f38ca398001596b5872",
+  "pdf_sha256": "3ec1d0e22892477bf151676073e51955c5c085bdfc99c45e008b30526b3bd52e",
+  "page_count": 25,
+  "inspection": "All 25 pages visually inspected as a contact sheet; new contract table inspected separately at full size.",
+  "automated_layout_check": "No content blocks outside the 35-point page-edge boundary; centered page-number footers are excluded.",
+  "compiler_status": "success",
+  "limitations": "One 0.11604-point table overfull warning and an isolated floating figure with whitespace; no visible clipping or unreadable figures observed. This is layout QA, not scientific review.",
+  "word_count": 11508
+}

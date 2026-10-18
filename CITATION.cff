@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the archived version after verifying DOI availability."
+title: "Assignment-Aligned Effective States in a 2-SAT Transformer"
+authors:
+  - name: "Anonymous"
+version: 4.8.0
+date-released: 2026-10-18
+doi: 10.5281/zenodo.23454637
+url: https://github.com/ipitchford/assignment-aligned-effective-states

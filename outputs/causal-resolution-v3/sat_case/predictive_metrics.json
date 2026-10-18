@@ -1,0 +1,273 @@
+{
+  "assessment_rows": 399360,
+  "assessment_sat_fraction": 0.8944661458333333,
+  "bank_sha256": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b",
+  "code_sha256": {
+    "fit_pilot.py": "9884ed49f596d4ca257c38ec160cc8a8faab7633eb6fc6935caa39ef64e56f78",
+    "pilot_common.py": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61"
+  },
+  "contract_sha256": "36a8f2763d4e299d19620db4e58a30e19788ae404f56939225f73cf95c489104",
+  "elapsed_seconds": 25.82780583295971,
+  "exact_count_oracle": {
+    "errors": 0,
+    "reason": "32-valuation violated-clause count update; independently checked in generation",
+    "total_rows": 399360
+  },
+  "fit_rows": 61440,
+  "fit_sat_fraction": 0.8962565104166667,
+  "models": {
+    "context_only": {
+      "decision": {
+        "coverage_at_half": 0.0,
+        "reachable_menus": 8433,
+        "success_all_menus": 0.11494140625,
+        "success_among_accepted": null,
+        "success_when_reachable": 0.13957073402110756,
+        "successful_accepted_menus": 0,
+        "total_menus": 10240
+      },
+      "elapsed_seconds": 3.7968603749759495,
+      "finite_bank_information_bound": {
+        "conflicting_report_action_groups": 15598,
+        "min_empirical_error": 0.10446276542467949,
+        "scope": "finite entire development bank only; no distributional lower-bound claim",
+        "total_report_action_groups": 15600,
+        "total_rows": 1597440,
+        "unavoidable_errors": 166873
+      },
+      "input_report_dimensions": 0,
+      "response": {
+        "accuracy": 0.8944661458333333,
+        "auroc": 0.5106016171428223,
+        "balanced_accuracy": 0.5,
+        "confusion_unsat_sat": [
+          [
+            0,
+            42146
+          ],
+          [
+            0,
+            357214
+          ]
+        ],
+        "log_loss": 0.33749052820193215
+      }
+    },
+    "published_bits34": {
+      "decision": {
+        "coverage_at_half": 0.0009765625,
+        "reachable_menus": 8433,
+        "success_all_menus": 0.62451171875,
+        "success_among_accepted": 0.0,
+        "success_when_reachable": 0.7583303687892802,
+        "successful_accepted_menus": 0,
+        "total_menus": 10240
+      },
+      "elapsed_seconds": 3.385276834014803,
+      "finite_bank_information_bound": {
+        "conflicting_report_action_groups": 23831,
+        "min_empirical_error": 0.015767728365384617,
+        "scope": "finite entire development bank only; no distributional lower-bound claim",
+        "total_report_action_groups": 1291758,
+        "total_rows": 1597440,
+        "unavoidable_errors": 25188
+      },
+      "input_report_dimensions": 34,
+      "response": {
+        "accuracy": 0.8944411057692307,
+        "auroc": 0.9456711636414589,
+        "balanced_accuracy": 0.49998600278824457,
+        "confusion_unsat_sat": [
+          [
+            0,
+            42146
+          ],
+          [
+            10,
+            357204
+          ]
+        ],
+        "log_loss": 0.25741747099093676
+      }
+    },
+    "published_float34": {
+      "decision": {
+        "coverage_at_half": 0.005859375,
+        "reachable_menus": 8433,
+        "success_all_menus": 0.62265625,
+        "success_among_accepted": 0.7166666666666667,
+        "success_when_reachable": 0.7560773153089055,
+        "successful_accepted_menus": 43,
+        "total_menus": 10240
+      },
+      "elapsed_seconds": 3.5062936670146883,
+      "input_report_dimensions": 34,
+      "response": {
+        "accuracy": 0.89453125,
+        "auroc": 0.9404714211925994,
+        "balanced_accuracy": 0.50048633618784,
+        "confusion_unsat_sat": [
+          [
+            43,
+            42103
+          ],
+          [
+            17,
+            357197
+          ]
+        ],
+        "log_loss": 0.25606338376187654
+      }
+    },
+    "random_bits34": {
+      "decision": {
+        "coverage_at_half": 0.0,
+        "reachable_menus": 8433,
+        "success_all_menus": 0.11494140625,
+        "success_among_accepted": null,
+        "success_when_reachable": 0.13957073402110756,
+        "successful_accepted_menus": 0,
+        "total_menus": 10240
+      },
+      "elapsed_seconds": 4.56588087498676,
+      "finite_bank_information_bound": {
+        "conflicting_report_action_groups": 15598,
+        "min_empirical_error": 0.10446276542467949,
+        "scope": "finite entire development bank only; no distributional lower-bound claim",
+        "total_report_action_groups": 15600,
+        "total_rows": 1597440,
+        "unavoidable_errors": 166873
+      },
+      "input_report_dimensions": 34,
+      "response": {
+        "accuracy": 0.8944661458333333,
+        "auroc": 0.5106016171428223,
+        "balanced_accuracy": 0.5,
+        "confusion_unsat_sat": [
+          [
+            0,
+            42146
+          ],
+          [
+            0,
+            357214
+          ]
+        ],
+        "log_loss": 0.33749052820193215
+      }
+    },
+    "random_float34": {
+      "decision": {
+        "coverage_at_half": 0.0,
+        "reachable_menus": 8433,
+        "success_all_menus": 0.11865234375,
+        "success_among_accepted": null,
+        "success_when_reachable": 0.144076840981857,
+        "successful_accepted_menus": 0,
+        "total_menus": 10240
+      },
+      "elapsed_seconds": 4.821190583053976,
+      "input_report_dimensions": 34,
+      "response": {
+        "accuracy": 0.8944661458333333,
+        "auroc": 0.5108335606326511,
+        "balanced_accuracy": 0.5,
+        "confusion_unsat_sat": [
+          [
+            0,
+            42146
+          ],
+          [
+            0,
+            357214
+          ]
+        ],
+        "log_loss": 0.3374909129628147
+      }
+    },
+    "truth_table32": {
+      "decision": {
+        "coverage_at_half": 0.0068359375,
+        "reachable_menus": 8433,
+        "success_all_menus": 0.66962890625,
+        "success_among_accepted": 0.6857142857142857,
+        "success_when_reachable": 0.8131151428910234,
+        "successful_accepted_menus": 48,
+        "total_menus": 10240
+      },
+      "elapsed_seconds": 5.063455625087954,
+      "finite_bank_information_bound": {
+        "conflicting_report_action_groups": 21170,
+        "min_empirical_error": 0.014092548076923077,
+        "scope": "finite entire development bank only; no distributional lower-bound claim",
+        "total_report_action_groups": 1257867,
+        "total_rows": 1597440,
+        "unavoidable_errors": 22512
+      },
+      "input_report_dimensions": 32,
+      "response": {
+        "accuracy": 0.89453125,
+        "auroc": 0.9630119595044033,
+        "balanced_accuracy": 0.5005386551921744,
+        "confusion_unsat_sat": [
+          [
+            48,
+            42098
+          ],
+          [
+            22,
+            357192
+          ]
+        ],
+        "log_loss": 0.2517157744160864
+      }
+    }
+  },
+  "paired_origin_differences": {
+    "published_bits34_minus_random_bits34": {
+      "mean_decision_success_gain": 0.5095703125,
+      "mean_response_accuracy_gain": -2.5040064102564102e-05,
+      "origin_error_equal": 1023,
+      "origin_error_improved": 0,
+      "origin_error_worsened": 1
+    },
+    "published_float34_minus_published_bits34": {
+      "mean_decision_success_gain": -0.0018554687499999984,
+      "mean_response_accuracy_gain": 9.014423076923077e-05,
+      "origin_error_equal": 1017,
+      "origin_error_improved": 6,
+      "origin_error_worsened": 1
+    },
+    "published_float34_minus_random_float34": {
+      "mean_decision_success_gain": 0.50400390625,
+      "mean_response_accuracy_gain": 6.510416666666668e-05,
+      "origin_error_equal": 1018,
+      "origin_error_improved": 5,
+      "origin_error_worsened": 1
+    },
+    "published_float34_minus_truth_table32": {
+      "mean_decision_success_gain": -0.046972656249999994,
+      "mean_response_accuracy_gain": 6.776263578034403e-21,
+      "origin_error_equal": 1014,
+      "origin_error_improved": 4,
+      "origin_error_worsened": 6
+    }
+  },
+  "scope": "development-only; no protected final evaluation",
+  "settings": {
+    "early_stopping": false,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.08,
+    "max_bins": 63,
+    "max_iter": 100,
+    "max_leaf_nodes": 15,
+    "random_state": 2026101514
+  },
+  "status": "PASS",
+  "versions": {
+    "numpy": "2.4.6",
+    "python": "3.11.14",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  }
+}

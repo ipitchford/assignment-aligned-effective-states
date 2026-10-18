@@ -1,0 +1,1321 @@
+{
+  "copy_method": "Byte copies checked against source before and after copying",
+  "files": [
+    {
+      "bytes": 5154,
+      "package_path": "work/sat_renaming/MANIFEST.json",
+      "role": "Original failed launch",
+      "sha256": "38031366e7677c14c5885bef7ecc4bb0ffb59d7d8d3bdc9098f3d7cc8cccaca4",
+      "source_workspace_path": "work/sat_renaming/MANIFEST.json"
+    },
+    {
+      "bytes": 6415,
+      "package_path": "work/sat_renaming/README.md",
+      "role": "Original failed launch",
+      "sha256": "cdd6cd5a26e437d5b8cab5748497dc1cc832d50ba01e8a8f6b3ee417e9044d0f",
+      "source_workspace_path": "work/sat_renaming/README.md"
+    },
+    {
+      "bytes": 304,
+      "package_path": "work/sat_renaming/REPORT.md",
+      "role": "Original failed launch",
+      "sha256": "ef5a0a0e0cd212bcab10b395f58ebe4be2e246645d0d90fcfae76362b577a125",
+      "source_workspace_path": "work/sat_renaming/REPORT.md"
+    },
+    {
+      "bytes": 26014,
+      "package_path": "work/sat_renaming/analyze.py",
+      "role": "Original failed launch",
+      "sha256": "32eb8d671b735ead29e9aa2f6bc95917617ab09d3e265cf03e1c06639b663df5",
+      "source_workspace_path": "work/sat_renaming/analyze.py"
+    },
+    {
+      "bytes": 7641,
+      "package_path": "work/sat_renaming/bank_verification.json",
+      "role": "Original failed launch",
+      "sha256": "beb3507ce95a37e64f46ca626fca618b94d0d731c259a89e88ea9f810d129493",
+      "source_workspace_path": "work/sat_renaming/bank_verification.json"
+    },
+    {
+      "bytes": 2173207,
+      "package_path": "work/sat_renaming/candidate_bank.npz",
+      "role": "Original failed launch",
+      "sha256": "aebc1c934a491de70f7cb1d9b1029fb0c987930cc4e1de11afc814e0b7e8e6d0",
+      "source_workspace_path": "work/sat_renaming/candidate_bank.npz"
+    },
+    {
+      "bytes": 188253,
+      "package_path": "work/sat_renaming/candidate_selection_data.npz",
+      "role": "Original failed launch",
+      "sha256": "f42734c3ad88651e6def933e993c0f3e7609fa6c034941b2e8b9920dc3f0f38a",
+      "source_workspace_path": "work/sat_renaming/candidate_selection_data.npz"
+    },
+    {
+      "bytes": 1673,
+      "package_path": "work/sat_renaming/construct.log",
+      "role": "Original failed launch",
+      "sha256": "4790ac1d5e7060d845671be8d9bddc58579ee2d30d951595abd3dc169887dd5f",
+      "source_workspace_path": "work/sat_renaming/construct.log"
+    },
+    {
+      "bytes": 13880,
+      "package_path": "work/sat_renaming/construct.py",
+      "role": "Original failed launch",
+      "sha256": "02863eb6614af6aa8d4a850e73969db526c8819ca64f05e22ee4607f1ffc0acd",
+      "source_workspace_path": "work/sat_renaming/construct.py"
+    },
+    {
+      "bytes": 2811,
+      "package_path": "work/sat_renaming/construction.json",
+      "role": "Original failed launch",
+      "sha256": "5667285bce0ce1f4a8d381524a22dcada7da124e6189dd956ea59b18bd9fd46c",
+      "source_workspace_path": "work/sat_renaming/construction.json"
+    },
+    {
+      "bytes": 165,
+      "package_path": "work/sat_renaming/construction_started.json",
+      "role": "Original failed launch",
+      "sha256": "c22b69a3d1afa7e95d5217aeafc57bbc66fab95c9df913f651cc4ba159daaa77",
+      "source_workspace_path": "work/sat_renaming/construction_started.json"
+    },
+    {
+      "bytes": 960,
+      "package_path": "work/sat_renaming/environment.json",
+      "role": "Original failed launch",
+      "sha256": "ab2ec386fbd40c9b480e927e1dacad612d5cab07a163999a4dd3e4b1f61eec4d",
+      "source_workspace_path": "work/sat_renaming/environment.json"
+    },
+    {
+      "bytes": 1326,
+      "package_path": "work/sat_renaming/execution.json",
+      "role": "Original failed launch",
+      "sha256": "baf96a2468a5e3e1fd934889897027c9b61f54c3eeffcc2da474df4dcb04550a",
+      "source_workspace_path": "work/sat_renaming/execution.json"
+    },
+    {
+      "bytes": 1519,
+      "package_path": "work/sat_renaming/execution_events.jsonl",
+      "role": "Original failed launch",
+      "sha256": "3e57825938dc42ed3470b8bc1b8384815399090ba177c0f094dc9b9de453c160",
+      "source_workspace_path": "work/sat_renaming/execution_events.jsonl"
+    },
+    {
+      "bytes": 188,
+      "package_path": "work/sat_renaming/execution_started.json",
+      "role": "Original failed launch",
+      "sha256": "1c43bd98b9699503044df7d09373f7eb12be231a692b9c188541001d15e225cb",
+      "source_workspace_path": "work/sat_renaming/execution_started.json"
+    },
+    {
+      "bytes": 6136,
+      "package_path": "work/sat_renaming/freeze.json",
+      "role": "Original failed launch",
+      "sha256": "3a771ecc50d9481c3fceaca79da5a0965e99b77e681ace6a5f628025b2433ced",
+      "source_workspace_path": "work/sat_renaming/freeze.json"
+    },
+    {
+      "bytes": 162,
+      "package_path": "work/sat_renaming/freeze_started.json",
+      "role": "Original failed launch",
+      "sha256": "149c694901e191c2169a1f6022936a3d7846334d613c1b89b0d72be37095fc29",
+      "source_workspace_path": "work/sat_renaming/freeze_started.json"
+    },
+    {
+      "bytes": 8939,
+      "package_path": "work/sat_renaming/independent_oracle.py",
+      "role": "Original failed launch",
+      "sha256": "c62c6b13e2b9d4cbd300007eec0de7ebda785442a9ea819d53a6c3d75660c6b2",
+      "source_workspace_path": "work/sat_renaming/independent_oracle.py"
+    },
+    {
+      "bytes": 6869,
+      "package_path": "work/sat_renaming/native.py",
+      "role": "Original failed launch",
+      "sha256": "a1d9ccd240d6bca8e9e98e2f73587b18ffbf82ddef51606f7cc5be2d4b0ffd95",
+      "source_workspace_path": "work/sat_renaming/native.py"
+    },
+    {
+      "bytes": 269,
+      "package_path": "work/sat_renaming/native_initial.log",
+      "role": "Original failed launch",
+      "sha256": "be42749e5b6cb21d23196e46a3ea8500d3bbd2584d511b667d99939bb2033bd5",
+      "source_workspace_path": "work/sat_renaming/native_initial.log"
+    },
+    {
+      "bytes": 4432,
+      "package_path": "work/sat_renaming/prepare_freeze.py",
+      "role": "Original failed launch",
+      "sha256": "357281a6a696c7da96813c00e5e107e07903e03ba686714264fb765069200042",
+      "source_workspace_path": "work/sat_renaming/prepare_freeze.py"
+    },
+    {
+      "bytes": 2203,
+      "package_path": "work/sat_renaming/prior_ledger.json",
+      "role": "Original failed launch",
+      "sha256": "751df96b1598199017be392265c3c06f66934415af51c5ea87f8c2c91b5001ed",
+      "source_workspace_path": "work/sat_renaming/prior_ledger.json"
+    },
+    {
+      "bytes": 107684,
+      "package_path": "work/sat_renaming/prior_ledger_tokens.npz",
+      "role": "Original failed launch",
+      "sha256": "8fb9d138443bb4d72a0265196343199ccb665c08b34a81737d75e0eb02ee29eb",
+      "source_workspace_path": "work/sat_renaming/prior_ledger_tokens.npz"
+    },
+    {
+      "bytes": 8256,
+      "package_path": "work/sat_renaming/protocol.py",
+      "role": "Original failed launch",
+      "sha256": "d33e9a59ca3c7f8df53a0a4c0ade1ff7e6949733aefc2eefd7003855e67b1464",
+      "source_workspace_path": "work/sat_renaming/protocol.py"
+    },
+    {
+      "bytes": 13,
+      "package_path": "work/sat_renaming/requirements-analysis.txt",
+      "role": "Original failed launch",
+      "sha256": "7242524339a9388141e1383e79b66ac2fd4b82276448eae06b8fa428192ccd1f",
+      "source_workspace_path": "work/sat_renaming/requirements-analysis.txt"
+    },
+    {
+      "bytes": 41,
+      "package_path": "work/sat_renaming/requirements-native.txt",
+      "role": "Original failed launch",
+      "sha256": "803cc40106c0fd65b811e738d997d4cd4b3a5267ce4bc0fc1931b56fdcea4f18",
+      "source_workspace_path": "work/sat_renaming/requirements-native.txt"
+    },
+    {
+      "bytes": 5576,
+      "package_path": "work/sat_renaming/run_study.py",
+      "role": "Original failed launch",
+      "sha256": "9861c7fc39bef7835ecdf3030b6fbada70c3cff6e84708d67ac59a1c6cf961e9",
+      "source_workspace_path": "work/sat_renaming/run_study.py"
+    },
+    {
+      "bytes": 80230,
+      "package_path": "work/sat_renaming/selected_bank.json",
+      "role": "Original failed launch",
+      "sha256": "2060686e788b1c27dc27631b0f38bf67c96e255b6d2fc7e5b4f0511fdd0c02e5",
+      "source_workspace_path": "work/sat_renaming/selected_bank.json"
+    },
+    {
+      "bytes": 17150,
+      "package_path": "work/sat_renaming/selected_bank.npz",
+      "role": "Original failed launch",
+      "sha256": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a",
+      "source_workspace_path": "work/sat_renaming/selected_bank.npz"
+    },
+    {
+      "bytes": 1261,
+      "package_path": "work/sat_renaming/selected_data_freeze.json",
+      "role": "Original failed launch",
+      "sha256": "041cfd909fd34b75562f794bd1b4bf6aadb1e5e9b67b274ff35d92e4fb2a2d0d",
+      "source_workspace_path": "work/sat_renaming/selected_data_freeze.json"
+    },
+    {
+      "bytes": 3,
+      "package_path": "work/sat_renaming/selection_exclusions.json",
+      "role": "Original failed launch",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_workspace_path": "work/sat_renaming/selection_exclusions.json"
+    },
+    {
+      "bytes": 571,
+      "package_path": "work/sat_renaming/selfcheck.json",
+      "role": "Original failed launch",
+      "sha256": "413c2f76aaa32fdfd07b1b97b1440868c15151d0b4cbd0feb32cd54b0500567b",
+      "source_workspace_path": "work/sat_renaming/selfcheck.json"
+    },
+    {
+      "bytes": 4680,
+      "package_path": "work/sat_renaming/selfcheck.py",
+      "role": "Original failed launch",
+      "sha256": "ed91768aa54a84aa828beb2a5d97d6088106100722c750c88f71a794ec4071c8",
+      "source_workspace_path": "work/sat_renaming/selfcheck.py"
+    },
+    {
+      "bytes": 21295,
+      "package_path": "work/sat_renaming/verify_bank.py",
+      "role": "Original failed launch",
+      "sha256": "1679d8e8675d17bb775abc6abaed658eb7a90bc510a1534076893ba992694f67",
+      "source_workspace_path": "work/sat_renaming/verify_bank.py"
+    },
+    {
+      "bytes": 20135,
+      "package_path": "work/sat_renaming_launch_recovery/MANIFEST.json",
+      "role": "Admitted completed recovery",
+      "sha256": "dd02ec8bb5ed5ee79c04cbdb3eed302315ad112452df1151444d15f328b760a3",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/MANIFEST.json"
+    },
+    {
+      "bytes": 6415,
+      "package_path": "work/sat_renaming_launch_recovery/README.md",
+      "role": "Admitted completed recovery",
+      "sha256": "cdd6cd5a26e437d5b8cab5748497dc1cc832d50ba01e8a8f6b3ee417e9044d0f",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/README.md"
+    },
+    {
+      "bytes": 1730,
+      "package_path": "work/sat_renaming_launch_recovery/REPORT.md",
+      "role": "Admitted completed recovery",
+      "sha256": "83e06f56fc53bdbcadeb7439a4cfb0f42a8c570cfbae5b2c17ea5783b8a82a76",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/REPORT.md"
+    },
+    {
+      "bytes": 1567,
+      "package_path": "work/sat_renaming_launch_recovery/affine_accounting.json",
+      "role": "Admitted completed recovery",
+      "sha256": "f160b2e4ae08f82a667088a849c8e79afe49d8a451b88bfee4c14578b06e38f2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/affine_accounting.json"
+    },
+    {
+      "bytes": 28215,
+      "package_path": "work/sat_renaming_launch_recovery/affine_clamps.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "9f566d14281e122460543dd11687660f8126e217873f860cd696c21ea0367ad3",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/affine_clamps.npz"
+    },
+    {
+      "bytes": 88886,
+      "package_path": "work/sat_renaming_launch_recovery/affine_reconstruction.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "e537a8792e9a01cb587ea1cd440d5737762ed35ee27ac997cde11c988b7c3250",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/affine_reconstruction.npz"
+    },
+    {
+      "bytes": 94498,
+      "package_path": "work/sat_renaming_launch_recovery/analysis.json",
+      "role": "Admitted completed recovery",
+      "sha256": "28fe7436ec4aea45e930281390d8a9fa542c04be13fbde8c597da2e9210b41bb",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/analysis.json"
+    },
+    {
+      "bytes": 169,
+      "package_path": "work/sat_renaming_launch_recovery/analysis_started.json",
+      "role": "Admitted completed recovery",
+      "sha256": "585d8168efb8dbb18f726f614a725525c934784899ae956c30759608df1b1eb0",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/analysis_started.json"
+    },
+    {
+      "bytes": 144,
+      "package_path": "work/sat_renaming_launch_recovery/analyze.log",
+      "role": "Admitted completed recovery",
+      "sha256": "ee21b55c528fa179cbeba31679bdd2de85ec18fea695cc2362431ee0cec65386",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/analyze.log"
+    },
+    {
+      "bytes": 26014,
+      "package_path": "work/sat_renaming_launch_recovery/analyze.py",
+      "role": "Admitted completed recovery",
+      "sha256": "32eb8d671b735ead29e9aa2f6bc95917617ab09d3e265cf03e1c06639b663df5",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/analyze.py"
+    },
+    {
+      "bytes": 7641,
+      "package_path": "work/sat_renaming_launch_recovery/bank_verification.json",
+      "role": "Admitted completed recovery",
+      "sha256": "beb3507ce95a37e64f46ca626fca618b94d0d731c259a89e88ea9f810d129493",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/bank_verification.json"
+    },
+    {
+      "bytes": 106491,
+      "package_path": "work/sat_renaming_launch_recovery/bootstrap_indices.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "8e72d2b3b4fea0436a8fed0ea390bfe08e9c15f948d8eb0e14510fb84da7139b",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/bootstrap_indices.npz"
+    },
+    {
+      "bytes": 208423,
+      "package_path": "work/sat_renaming_launch_recovery/bounded_metrics.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "10e60a56d151a7440668070297541c27ff927cc8c0d05580579ff8d6b4ef92ae",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/bounded_metrics.npz"
+    },
+    {
+      "bytes": 2173207,
+      "package_path": "work/sat_renaming_launch_recovery/candidate_bank.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "aebc1c934a491de70f7cb1d9b1029fb0c987930cc4e1de11afc814e0b7e8e6d0",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/candidate_bank.npz"
+    },
+    {
+      "bytes": 188253,
+      "package_path": "work/sat_renaming_launch_recovery/candidate_selection_data.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "f42734c3ad88651e6def933e993c0f3e7609fa6c034941b2e8b9920dc3f0f38a",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/candidate_selection_data.npz"
+    },
+    {
+      "bytes": 13880,
+      "package_path": "work/sat_renaming_launch_recovery/construct.py",
+      "role": "Admitted completed recovery",
+      "sha256": "02863eb6614af6aa8d4a850e73969db526c8819ca64f05e22ee4607f1ffc0acd",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/construct.py"
+    },
+    {
+      "bytes": 2811,
+      "package_path": "work/sat_renaming_launch_recovery/construction.json",
+      "role": "Admitted completed recovery",
+      "sha256": "5667285bce0ce1f4a8d381524a22dcada7da124e6189dd956ea59b18bd9fd46c",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/construction.json"
+    },
+    {
+      "bytes": 960,
+      "package_path": "work/sat_renaming_launch_recovery/environment.json",
+      "role": "Admitted completed recovery",
+      "sha256": "ab2ec386fbd40c9b480e927e1dacad612d5cab07a163999a4dd3e4b1f61eec4d",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/environment.json"
+    },
+    {
+      "bytes": 4249,
+      "package_path": "work/sat_renaming_launch_recovery/event_bounds.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "d63728add9f204ea8b3cfb7596fc1cb2499149f2fa51c46f74b207a26edcb286",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/event_bounds.npz"
+    },
+    {
+      "bytes": 2249,
+      "package_path": "work/sat_renaming_launch_recovery/execution.json",
+      "role": "Admitted completed recovery",
+      "sha256": "49472e7c4121e7632fd63e2c5d9e826de017f61aef22a57b7396512aab95c331",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/execution.json"
+    },
+    {
+      "bytes": 2774,
+      "package_path": "work/sat_renaming_launch_recovery/execution_events.jsonl",
+      "role": "Admitted completed recovery",
+      "sha256": "d54d7727429e44d99372362eab7247bb944bd7aca4994169217095cb40676efe",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/execution_events.jsonl"
+    },
+    {
+      "bytes": 288,
+      "package_path": "work/sat_renaming_launch_recovery/execution_started.json",
+      "role": "Admitted completed recovery",
+      "sha256": "46ff2332acb41257abf028c8deae10a34e9e34ddd127648979c646cd10b5037c",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/execution_started.json"
+    },
+    {
+      "bytes": 6136,
+      "package_path": "work/sat_renaming_launch_recovery/freeze.json",
+      "role": "Admitted completed recovery",
+      "sha256": "3a771ecc50d9481c3fceaca79da5a0965e99b77e681ace6a5f628025b2433ced",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/freeze.json"
+    },
+    {
+      "bytes": 8939,
+      "package_path": "work/sat_renaming_launch_recovery/independent_oracle.py",
+      "role": "Admitted completed recovery",
+      "sha256": "c62c6b13e2b9d4cbd300007eec0de7ebda785442a9ea819d53a6c3d75660c6b2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/independent_oracle.py"
+    },
+    {
+      "bytes": 168558,
+      "package_path": "work/sat_renaming_launch_recovery/input_unit_outcomes.csv",
+      "role": "Admitted completed recovery",
+      "sha256": "3f4b76c0487684562645a54d8fabb116756581494caaed4eed6186b979f20216",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/input_unit_outcomes.csv"
+    },
+    {
+      "bytes": 6869,
+      "package_path": "work/sat_renaming_launch_recovery/native.py",
+      "role": "Admitted completed recovery",
+      "sha256": "a1d9ccd240d6bca8e9e98e2f73587b18ffbf82ddef51606f7cc5be2d4b0ffd95",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native.py"
+    },
+    {
+      "bytes": 5328,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_000.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "c142c43e746b62ac0955803bdf24bcffaf9b5cea1467af77f8e5b3ecd359bd91",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_000.npz"
+    },
+    {
+      "bytes": 5345,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_001.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "43c7d5084aab7dbe9be9f53c195d9b680d7895bd04f35b7b355949d103cd678b",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_001.npz"
+    },
+    {
+      "bytes": 5331,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_002.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "48764858122d1067a36a28f2096cbe217c75e2efa373e45e71b6e7e4b7887991",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_002.npz"
+    },
+    {
+      "bytes": 5332,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_003.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "dcd7e2b4b3884b28e17ef7a91692b87a4f9b25b4d2b621ec89c7bbbcfdd06054",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_003.npz"
+    },
+    {
+      "bytes": 5330,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_004.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "7459a83d16f9ca6fa32464e28543e1d9cf5734085d0e1c9718cae83f3d99de4a",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_004.npz"
+    },
+    {
+      "bytes": 5362,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_005.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "533d3ceeaf42cf10178f291c9f3b86ea6fd8735a6ab912d24e0cf30e639d0f79",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_005.npz"
+    },
+    {
+      "bytes": 5311,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_006.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "d0bee27019253864ec7e97fb66eb79cde255f09959ad1857fbd39df6c809d0bb",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_006.npz"
+    },
+    {
+      "bytes": 5331,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_007.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "6135bc9f415b344bda7d56566009985333932969d4c923066c724e78cfe6d9c1",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_007.npz"
+    },
+    {
+      "bytes": 5362,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_008.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "80758e49d1c3a0182f7b63deaeaa4ed1e750681697d3e97af740f770252401ee",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_008.npz"
+    },
+    {
+      "bytes": 5324,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_009.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "f0a71bcea8bdf7f19878c52d003ff8558961e3982310c705abcfbe865d9f3588",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_009.npz"
+    },
+    {
+      "bytes": 5335,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_010.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "8bf8b0ab17dad71eee271434b2ea64c57934a4333726cbbaf2ee40e23f84fc88",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_010.npz"
+    },
+    {
+      "bytes": 5458,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_011.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "f01fa01b47c536ead91fe928868a5cbfa27a396487579efa885c07d25605aea4",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_011.npz"
+    },
+    {
+      "bytes": 5331,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_012.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "f850a4eecc8158ca5581790bc4bc5c00086b70228d270553bad3a45d605b8b08",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_012.npz"
+    },
+    {
+      "bytes": 5348,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_013.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "2d304e84cc04f11cf2ae5d6be4734aecc1e06d9ccdc55aaacc1138384c221d09",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_013.npz"
+    },
+    {
+      "bytes": 5352,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_014.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "3e59b7491465cdfc056ec0f9693d676ce22d91d3459157a3eea30d66a5a1cbda",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_014.npz"
+    },
+    {
+      "bytes": 5395,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_015.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "2eb31ff31f046ded8fbf7c0810a4a917e9e49beb9f54fbf95e0867c2de092ee5",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_015.npz"
+    },
+    {
+      "bytes": 5334,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_016.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "339095b3a30a8aad5ad6271a77890f7acf235c56af94fe69cca343d1832b9cb3",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_016.npz"
+    },
+    {
+      "bytes": 5343,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_017.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "75e5abb8003f3161e593303509531442e099ee76dbf6d42b7dc39becb201bce2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_017.npz"
+    },
+    {
+      "bytes": 5328,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_018.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "fdb951d35f424d418f450ae668d605fd05e7ee1cad39bdff5867c026bd9d1744",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_018.npz"
+    },
+    {
+      "bytes": 5349,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_019.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "1a76741c7dd484c2fe696ff312f409e714602781c2698be1844127906a25e46b",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_019.npz"
+    },
+    {
+      "bytes": 5360,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_020.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "1c85fe850164820cf244c1fd381905e25865fe746d5cae18f3493db0bde2065c",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_020.npz"
+    },
+    {
+      "bytes": 5404,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_021.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "67c635d11e1ee2765604eb20a8d6be3e22625e6e1ac26e5f13fca8b25dd83fef",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_021.npz"
+    },
+    {
+      "bytes": 5360,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_022.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "969d51c3c1c2e576a4193544286c72fdad1ea7fb677025f41fb69937ad0394e8",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_022.npz"
+    },
+    {
+      "bytes": 5356,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_023.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "17a1a56a28ed876510e97ec95867673e7b990c38a9fdb7596c3e5a06f0464c45",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_023.npz"
+    },
+    {
+      "bytes": 5327,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_024.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "32f124e3fb2b77c5670d9f311f1cff8b085e3e2fb47fa32784ab646ab498f2b0",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_024.npz"
+    },
+    {
+      "bytes": 5399,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_025.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "20957929d91ac956467bf72b38b14fb50e1eecae53780111469eaa2ba3433de7",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_025.npz"
+    },
+    {
+      "bytes": 5345,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_026.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "509f88ee3f15cfd703e81490cf570a84864f79892d45b84430795225a5420e5d",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_026.npz"
+    },
+    {
+      "bytes": 5321,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_027.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "d735174fab93c1608abd2121be67b991c16d01e2b12a9debd82e811a89275869",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_027.npz"
+    },
+    {
+      "bytes": 5348,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_028.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "0d7a4588cba4ab19990b73a27f3eff613e582d54b260f1e500a458d558d0807b",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_028.npz"
+    },
+    {
+      "bytes": 5339,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_029.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "7bdc661120635d947dde72f86a10bbe55f3127da82ef6511437af5294b3f5ce7",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_029.npz"
+    },
+    {
+      "bytes": 5332,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_030.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "d312c5118315a24569a73a366040dfe9b91cd95bfb4aa6fb5a0a72277ed82127",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_030.npz"
+    },
+    {
+      "bytes": 5291,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_031.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "108a12cd0887390372dc26658598cec3ad93818d10ff49fc79c7e5d7ee645ca2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_031.npz"
+    },
+    {
+      "bytes": 5405,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_032.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "9d172cdad2fe1214236876b2285b55a05bc4d12eb59c6a7f682223d875be8f8e",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_032.npz"
+    },
+    {
+      "bytes": 5325,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_033.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "66c7a705d4d496c873a098e288b9e643fdeca66eca818fa94e4b91f001781430",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_033.npz"
+    },
+    {
+      "bytes": 5334,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_034.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "b814b1ff311bd09ce7be226d8cc6f46151264f36fb7173b3648ecc06847249e2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_034.npz"
+    },
+    {
+      "bytes": 5357,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_035.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "9b07b7b75f2132ba89a2092324116014357cdf49f849e45cc22de539218dab51",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_035.npz"
+    },
+    {
+      "bytes": 5322,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_036.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "0417f59ea375a71ef45e6b2503b0bad1c7081710df6fe9c8ddd643511d0f024d",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_036.npz"
+    },
+    {
+      "bytes": 5435,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_037.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "bda4695176b08480fb4c93553e526768ccc097eefb0da4b5e7011d53dd71f499",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_037.npz"
+    },
+    {
+      "bytes": 5342,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_038.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "ac8e2dce8db02b18f1006805cdaec2068f3186ea9901f68308162d459c3f9879",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_038.npz"
+    },
+    {
+      "bytes": 5314,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_039.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "c139b664d5d3080901e23487388390a69214c41916ded05ada4ad93c62c6129f",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_039.npz"
+    },
+    {
+      "bytes": 5343,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_040.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "88bf07bd6e99bfc0a03b362c3188220bb5fcbd7c8929b387816df1841c4658f3",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_040.npz"
+    },
+    {
+      "bytes": 5351,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_041.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "ef9075c06bf103e5481a35fad2b7d4f650cf028de3cf0467853693ac0919ad47",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_041.npz"
+    },
+    {
+      "bytes": 5303,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_042.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "7f77b876078e9f9a2ef135ad3b574bc8a3ef947942812679e4a2d11410a2e33d",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_042.npz"
+    },
+    {
+      "bytes": 5360,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_043.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "39080d1b2bb28ac799694c0b2e9578a526a76efc71c1c8008ab08306730d8b90",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_043.npz"
+    },
+    {
+      "bytes": 5433,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_044.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "af1e840508d7eab60256d2abe80e22ee4384ce6b319e617d5bed7f6e54e72be2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_044.npz"
+    },
+    {
+      "bytes": 5340,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_045.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "a5aee6b1d98828fb9fa6ff5079ed8a9ffac949561013fbad831f31b671d38434",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_045.npz"
+    },
+    {
+      "bytes": 5340,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_046.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "23c5f710419fd5c72f6283a466a0d9972b73be55ef6fae66f6b7230c47c4a568",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_046.npz"
+    },
+    {
+      "bytes": 5338,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_047.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "47390d8fe15774735c75abb9204b5a2e9cd3ee0a7e0c9cc140766e668fc85ae7",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_047.npz"
+    },
+    {
+      "bytes": 5354,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_048.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "4ee450cdcfe61a74743915f5fbe7a1b353eac64705b9bc540fa3e8889c164450",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_048.npz"
+    },
+    {
+      "bytes": 5312,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_049.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "783ae42620e11de23e6ac8357eeb94cb7884168c4ca843c09dc53e24081d7921",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_049.npz"
+    },
+    {
+      "bytes": 5319,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_050.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "c4133ba4f5e6389058e1626dc56df9d7e0a47633bba42ad626a1af49db807422",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_050.npz"
+    },
+    {
+      "bytes": 5337,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_051.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "610af7625d6e9d4272c934185e412caf8f6cd94408c5a36bb72cf6e4420d8bec",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_051.npz"
+    },
+    {
+      "bytes": 5332,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_052.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "11014a1526f571e65b247d39fa9ff6d9b451146719e14332b9ade9deb903af16",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_052.npz"
+    },
+    {
+      "bytes": 5355,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_053.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "d6a7c9efc34e5d33f970056d39bb8504f357bd7d930c2c8405b48774c14c7a48",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_053.npz"
+    },
+    {
+      "bytes": 5334,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_054.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "f7a52fc9add55510c6251b7949cd2520794f0c58856d8b3c91c8e6ba7e6023fa",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_054.npz"
+    },
+    {
+      "bytes": 5356,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_055.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "268d62c0d2a33adf2bf8add21423544f143f14b9fc90a20ade20c095a1fde636",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_055.npz"
+    },
+    {
+      "bytes": 5333,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_056.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "750395162e6875341594f58c94ac62a1d51902d2e9f0e89dafa23ab664961d71",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_056.npz"
+    },
+    {
+      "bytes": 5379,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_057.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "30b1cd2f4ff0beeb3d059400e9b7c6e2a7c8601c5ee4abc5a96bdf3627ef2fda",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_057.npz"
+    },
+    {
+      "bytes": 5317,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_058.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "1348f4c2f35698ff9eea139f6517ac514519ee46ed708fd7592ccbf89efa72fa",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_058.npz"
+    },
+    {
+      "bytes": 5443,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_059.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "acd09576c1b48d1b8387c594877173fe06d146c064afe5888e3c7dec8aced0e2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_059.npz"
+    },
+    {
+      "bytes": 5311,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_060.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "674c241981526d1e3e1f059ec195933b1e625dea73ca3c3c2044901b11c7681f",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_060.npz"
+    },
+    {
+      "bytes": 5357,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_061.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "1461293241856cfcfa643118e9e647bef8f9636f5a71adecdde2d60e94f8366e",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_061.npz"
+    },
+    {
+      "bytes": 5436,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_062.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "bd6057a9fd5a63dd40d74e2d5d7730d52ad34366892c99f0a62c8494e9722452",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_062.npz"
+    },
+    {
+      "bytes": 5309,
+      "package_path": "work/sat_renaming_launch_recovery/native_batches/block_063.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "aed4e74c97c36b9aae99be5919b022f4e4df336191867306e1c52aae02e97a2a",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_batches/block_063.npz"
+    },
+    {
+      "bytes": 2690,
+      "package_path": "work/sat_renaming_launch_recovery/native_initial.json",
+      "role": "Admitted completed recovery",
+      "sha256": "581bf4cb2b2c6ccfc08005ee5fe45b9ea7a5b81feee7b546d1b5b79a122b3b6e",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_initial.json"
+    },
+    {
+      "bytes": 2745,
+      "package_path": "work/sat_renaming_launch_recovery/native_initial.log",
+      "role": "Admitted completed recovery",
+      "sha256": "79bb803a84fc4c30736be553f30c7db0cf2c9dc07a4e5f4d680bafa285e2fd58",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_initial.log"
+    },
+    {
+      "bytes": 22545,
+      "package_path": "work/sat_renaming_launch_recovery/native_initial_events.jsonl",
+      "role": "Admitted completed recovery",
+      "sha256": "9acf2e1cf5e8829930adde5a474afc0d6367b9f2b26de5d23bc7f26335e36e1c",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_initial_events.jsonl"
+    },
+    {
+      "bytes": 179,
+      "package_path": "work/sat_renaming_launch_recovery/native_initial_started.json",
+      "role": "Admitted completed recovery",
+      "sha256": "2beecbbe100a62a6eb4377e4f810468ba175d8e252effa79fe1ecaaf3dd6e3dc",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_initial_started.json"
+    },
+    {
+      "bytes": 275716,
+      "package_path": "work/sat_renaming_launch_recovery/native_outputs.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "cf0f69826a5fc788415809af3382eff01d40ce891c411d80e99ec886e05316b2",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_outputs.npz"
+    },
+    {
+      "bytes": 2754,
+      "package_path": "work/sat_renaming_launch_recovery/native_replay.json",
+      "role": "Admitted completed recovery",
+      "sha256": "46a54e4f25158d374ed8b5f267721715c41e46801d864ce0153b9220152b3801",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_replay.json"
+    },
+    {
+      "bytes": 2877,
+      "package_path": "work/sat_renaming_launch_recovery/native_replay.log",
+      "role": "Admitted completed recovery",
+      "sha256": "0e9a4bd83582ebe3eed8e2fce7889234b7ca5fe00b1eec7a1088c2283ee3e52a",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_replay.log"
+    },
+    {
+      "bytes": 1096,
+      "package_path": "work/sat_renaming_launch_recovery/native_replay_events.jsonl",
+      "role": "Admitted completed recovery",
+      "sha256": "913d9b1ac380451bb6416f58084e08a89e22faf89c543e23132063915b33438d",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_replay_events.jsonl"
+    },
+    {
+      "bytes": 179,
+      "package_path": "work/sat_renaming_launch_recovery/native_replay_started.json",
+      "role": "Admitted completed recovery",
+      "sha256": "1030f86b4bc1f7c9652c1118d220e8fa0839733b06931f4bb281eddcedf6c22d",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/native_replay_started.json"
+    },
+    {
+      "bytes": 5154,
+      "package_path": "work/sat_renaming_launch_recovery/original_failure_provenance/MANIFEST.json",
+      "role": "Admitted completed recovery",
+      "sha256": "38031366e7677c14c5885bef7ecc4bb0ffb59d7d8d3bdc9098f3d7cc8cccaca4",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/original_failure_provenance/MANIFEST.json"
+    },
+    {
+      "bytes": 304,
+      "package_path": "work/sat_renaming_launch_recovery/original_failure_provenance/REPORT.md",
+      "role": "Admitted completed recovery",
+      "sha256": "ef5a0a0e0cd212bcab10b395f58ebe4be2e246645d0d90fcfae76362b577a125",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/original_failure_provenance/REPORT.md"
+    },
+    {
+      "bytes": 1326,
+      "package_path": "work/sat_renaming_launch_recovery/original_failure_provenance/execution.json",
+      "role": "Admitted completed recovery",
+      "sha256": "baf96a2468a5e3e1fd934889897027c9b61f54c3eeffcc2da474df4dcb04550a",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/original_failure_provenance/execution.json"
+    },
+    {
+      "bytes": 1519,
+      "package_path": "work/sat_renaming_launch_recovery/original_failure_provenance/execution_events.jsonl",
+      "role": "Admitted completed recovery",
+      "sha256": "3e57825938dc42ed3470b8bc1b8384815399090ba177c0f094dc9b9de453c160",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/original_failure_provenance/execution_events.jsonl"
+    },
+    {
+      "bytes": 188,
+      "package_path": "work/sat_renaming_launch_recovery/original_failure_provenance/execution_started.json",
+      "role": "Admitted completed recovery",
+      "sha256": "1c43bd98b9699503044df7d09373f7eb12be231a692b9c188541001d15e225cb",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/original_failure_provenance/execution_started.json"
+    },
+    {
+      "bytes": 269,
+      "package_path": "work/sat_renaming_launch_recovery/original_failure_provenance/native_initial.log",
+      "role": "Admitted completed recovery",
+      "sha256": "be42749e5b6cb21d23196e46a3ea8500d3bbd2584d511b667d99939bb2033bd5",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/original_failure_provenance/native_initial.log"
+    },
+    {
+      "bytes": 3755,
+      "package_path": "work/sat_renaming_launch_recovery/original_failure_provenance/sat_launch_recovery_admission.md",
+      "role": "Admitted completed recovery",
+      "sha256": "ab954fdb0efae664fa07d139f165cace09d3b75b27a65b947e61d7dd0be164d9",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/original_failure_provenance/sat_launch_recovery_admission.md"
+    },
+    {
+      "bytes": 4432,
+      "package_path": "work/sat_renaming_launch_recovery/prepare_freeze.py",
+      "role": "Admitted completed recovery",
+      "sha256": "357281a6a696c7da96813c00e5e107e07903e03ba686714264fb765069200042",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/prepare_freeze.py"
+    },
+    {
+      "bytes": 2203,
+      "package_path": "work/sat_renaming_launch_recovery/prior_ledger.json",
+      "role": "Admitted completed recovery",
+      "sha256": "751df96b1598199017be392265c3c06f66934415af51c5ea87f8c2c91b5001ed",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/prior_ledger.json"
+    },
+    {
+      "bytes": 107684,
+      "package_path": "work/sat_renaming_launch_recovery/prior_ledger_tokens.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "8fb9d138443bb4d72a0265196343199ccb665c08b34a81737d75e0eb02ee29eb",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/prior_ledger_tokens.npz"
+    },
+    {
+      "bytes": 8256,
+      "package_path": "work/sat_renaming_launch_recovery/protocol.py",
+      "role": "Admitted completed recovery",
+      "sha256": "d33e9a59ca3c7f8df53a0a4c0ade1ff7e6949733aefc2eefd7003855e67b1464",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/protocol.py"
+    },
+    {
+      "bytes": 176775,
+      "package_path": "work/sat_renaming_launch_recovery/readout_weights.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "b749b6a7371a0fb8b9c7ee2093a051bc27b478ba712eeceab2723aa999e71204",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/readout_weights.npz"
+    },
+    {
+      "bytes": 8360,
+      "package_path": "work/sat_renaming_launch_recovery/recovery_driver.py",
+      "role": "Admitted completed recovery",
+      "sha256": "ab6bc94b085b0b838ff944dd9e9536d441c362aafbd90cf6f98f0dbd24e58b36",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/recovery_driver.py"
+    },
+    {
+      "bytes": 5050,
+      "package_path": "work/sat_renaming_launch_recovery/recovery_freeze.json",
+      "role": "Admitted completed recovery",
+      "sha256": "c93c38d9727e16ea4272a60c73692ee361057a0c2572427dedf1b0674f33a61a",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/recovery_freeze.json"
+    },
+    {
+      "bytes": 5328,
+      "package_path": "work/sat_renaming_launch_recovery/replay_batches/block_000.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "c142c43e746b62ac0955803bdf24bcffaf9b5cea1467af77f8e5b3ecd359bd91",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/replay_batches/block_000.npz"
+    },
+    {
+      "bytes": 5345,
+      "package_path": "work/sat_renaming_launch_recovery/replay_batches/block_001.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "43c7d5084aab7dbe9be9f53c195d9b680d7895bd04f35b7b355949d103cd678b",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/replay_batches/block_001.npz"
+    },
+    {
+      "bytes": 10547,
+      "package_path": "work/sat_renaming_launch_recovery/replay_outputs.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "67d3b8282e95c5ca4e3822cc7b4054419abc34cfd579c4834f9fc030a4daf232",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/replay_outputs.npz"
+    },
+    {
+      "bytes": 13,
+      "package_path": "work/sat_renaming_launch_recovery/requirements-analysis.txt",
+      "role": "Admitted completed recovery",
+      "sha256": "7242524339a9388141e1383e79b66ac2fd4b82276448eae06b8fa428192ccd1f",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/requirements-analysis.txt"
+    },
+    {
+      "bytes": 41,
+      "package_path": "work/sat_renaming_launch_recovery/requirements-native.txt",
+      "role": "Admitted completed recovery",
+      "sha256": "803cc40106c0fd65b811e738d997d4cd4b3a5267ce4bc0fc1931b56fdcea4f18",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/requirements-native.txt"
+    },
+    {
+      "bytes": 5576,
+      "package_path": "work/sat_renaming_launch_recovery/run_study.py",
+      "role": "Admitted completed recovery",
+      "sha256": "9861c7fc39bef7835ecdf3030b6fbada70c3cff6e84708d67ac59a1c6cf961e9",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/run_study.py"
+    },
+    {
+      "bytes": 80230,
+      "package_path": "work/sat_renaming_launch_recovery/selected_bank.json",
+      "role": "Admitted completed recovery",
+      "sha256": "2060686e788b1c27dc27631b0f38bf67c96e255b6d2fc7e5b4f0511fdd0c02e5",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/selected_bank.json"
+    },
+    {
+      "bytes": 17150,
+      "package_path": "work/sat_renaming_launch_recovery/selected_bank.npz",
+      "role": "Admitted completed recovery",
+      "sha256": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/selected_bank.npz"
+    },
+    {
+      "bytes": 1261,
+      "package_path": "work/sat_renaming_launch_recovery/selected_data_freeze.json",
+      "role": "Admitted completed recovery",
+      "sha256": "041cfd909fd34b75562f794bd1b4bf6aadb1e5e9b67b274ff35d92e4fb2a2d0d",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/selected_data_freeze.json"
+    },
+    {
+      "bytes": 3,
+      "package_path": "work/sat_renaming_launch_recovery/selection_exclusions.json",
+      "role": "Admitted completed recovery",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/selection_exclusions.json"
+    },
+    {
+      "bytes": 571,
+      "package_path": "work/sat_renaming_launch_recovery/selfcheck.json",
+      "role": "Admitted completed recovery",
+      "sha256": "413c2f76aaa32fdfd07b1b97b1440868c15151d0b4cbd0feb32cd54b0500567b",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/selfcheck.json"
+    },
+    {
+      "bytes": 4680,
+      "package_path": "work/sat_renaming_launch_recovery/selfcheck.py",
+      "role": "Admitted completed recovery",
+      "sha256": "ed91768aa54a84aa828beb2a5d97d6088106100722c750c88f71a794ec4071c8",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/selfcheck.py"
+    },
+    {
+      "bytes": 21295,
+      "package_path": "work/sat_renaming_launch_recovery/verify_bank.py",
+      "role": "Admitted completed recovery",
+      "sha256": "1679d8e8675d17bb775abc6abaed658eb7a90bc510a1534076893ba992694f67",
+      "source_workspace_path": "work/sat_renaming_launch_recovery/verify_bank.py"
+    },
+    {
+      "bytes": 5941,
+      "package_path": "work/next_phase/sat_analysis_code_review.md",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "6b6e96b19bc7046efd680c22caa04a670c111d2b4921e1c71302ee5fd04ea2b0",
+      "source_workspace_path": "work/next_phase/sat_analysis_code_review.md"
+    },
+    {
+      "bytes": 13494,
+      "package_path": "work/next_phase/sat_invariance_admission.md",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "4e5447713dffffb9c0379b632a406b183b403c25943667f4fdd35ec38fb896d2",
+      "source_workspace_path": "outputs/causal-resolution-v3/next_phase/sat_invariance_admission.md"
+    },
+    {
+      "bytes": 14294,
+      "package_path": "work/next_phase/sat_renaming_adversarial_admission.md",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "901742d899a60eb4ffb91af01627311e72fc021646a61ff81d27757b6ee204a3",
+      "source_workspace_path": "work/next_phase/sat_renaming_adversarial_admission.md"
+    },
+    {
+      "bytes": 21005,
+      "package_path": "work/next_phase/sat_renaming_design_draft.md",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "cbf4cbd011fb1664b11493c405087611c8dd683cf274f22ec81ec35a5fcbfac3",
+      "source_workspace_path": "work/next_phase/sat_renaming_design_draft.md"
+    },
+    {
+      "bytes": 28661,
+      "package_path": "work/next_phase/sat_renaming_execution_contract.md",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c",
+      "source_workspace_path": "work/next_phase/sat_renaming_execution_contract.md"
+    },
+    {
+      "bytes": 3261,
+      "package_path": "work/next_phase/sat_renaming_final_contract_check.md",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "8f339ac0254e968aa6673a0fd17fd8de8d8149744d785c238dd735a07f9b72f3",
+      "source_workspace_path": "work/next_phase/sat_renaming_final_contract_check.md"
+    },
+    {
+      "bytes": 16906,
+      "package_path": "work/next_phase/sat_semantic_theory.md",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "e9c4f571ada0a9568b5fd0e455f2f2696869ce97739e20d058420dd3b1400566",
+      "source_workspace_path": "outputs/causal-resolution-v3/next_phase/sat_semantic_theory.md"
+    },
+    {
+      "bytes": 6636,
+      "package_path": "work/sat_case/candidate_logits.npz",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "adad7106407676edc221165f1039c0477aca65ae1cd082c3bff08fb281da149d",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/candidate_logits.npz"
+    },
+    {
+      "bytes": 505675,
+      "package_path": "work/sat_case/pilot_bank.npz",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/pilot_bank.npz"
+    },
+    {
+      "bytes": 2915,
+      "package_path": "work/sat_case/pilot_common.py",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/pilot_common.py"
+    },
+    {
+      "bytes": 3776,
+      "package_path": "work/sat_case/primary_witness.npz",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "cdc4ed22391542e406edb7fbe99f58da207cba3b69701b32804658753d83a152",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/primary_witness.npz"
+    },
+    {
+      "bytes": 5455,
+      "package_path": "work/sat_case/runtime.py",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/runtime.py"
+    },
+    {
+      "bytes": 15640,
+      "package_path": "work/sat_case/selected_decision_check.npz",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "7b00b522827574de5e604e6e650ad0ef8edf81e42b32a5ca7115c297edd9b942",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/selected_decision_check.npz"
+    },
+    {
+      "bytes": 32356,
+      "package_path": "work/sat_case/upstream/model.py",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/upstream/model.py"
+    },
+    {
+      "bytes": 1635210,
+      "package_path": "work/sat_case/upstream/models/layers_2_heads_1_4_1M/900.pth",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/upstream/models/layers_2_heads_1_4_1M/900.pth"
+    },
+    {
+      "bytes": 116494,
+      "package_path": "work/sat_mechanism/query_tokens.npz",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "208fe4a7e5ead1c007fdff57424ac7c5838c2f0c5be4272f95c8b49ad2686b62",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_mechanism/query_tokens.npz"
+    },
+    {
+      "bytes": 34195,
+      "package_path": "work/sat_mechanism/source_mapping.json",
+      "role": "Exact pre-inference freeze dependency",
+      "sha256": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_mechanism/source_mapping.json"
+    },
+    {
+      "bytes": 1068,
+      "package_path": "work/sat_case/upstream/LICENSE",
+      "role": "Upstream license and source provenance",
+      "sha256": "a9d91e34488932dec0072068bb77a9ce459c205d43e235cb81f5d8b56faa57cf",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/upstream/LICENSE"
+    },
+    {
+      "bytes": 2451,
+      "package_path": "work/sat_case/upstream/README.md",
+      "role": "Upstream license and source provenance",
+      "sha256": "d79d9ae791ee18cb66abda3a7304513956ae7d39778e2a419c664589cf8c5af0",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/upstream/README.md"
+    },
+    {
+      "bytes": 13947,
+      "package_path": "work/sat_case/feasibility_and_pilot.md",
+      "role": "Upstream license and source provenance",
+      "sha256": "156867f491e79768d992f5adfff441a19f80d46a60ce4f38cd75b1c852867e8b",
+      "source_workspace_path": "outputs/causal-resolution-v3/sat_case/feasibility_and_pilot.md"
+    },
+    {
+      "bytes": 3755,
+      "package_path": "work/next_phase/sat_launch_recovery_admission.md",
+      "role": "Separate launch recovery admission",
+      "sha256": "ab954fdb0efae664fa07d139f165cace09d3b75b27a65b947e61d7dd0be164d9",
+      "source_workspace_path": "work/next_phase/sat_launch_recovery_admission.md"
+    },
+    {
+      "bytes": 7736,
+      "package_path": "archived_independent_audit/bank_replay.json",
+      "role": "Exact independent saved-data review; original workspace-bound checker is archival",
+      "sha256": "4a413939c642d5a8d4797446e13dafac8d03ba873968ff47745abe83f1528b38",
+      "source_workspace_path": "work/sat_renaming_independent_audit/bank_replay.json"
+    },
+    {
+      "bytes": 791528,
+      "package_path": "archived_independent_audit/receipt.json",
+      "role": "Exact independent saved-data review; original workspace-bound checker is archival",
+      "sha256": "fd281975839f8f059b5457faeec15c5bb10f8bbdcdeceae91a6334ed670d4ff0",
+      "source_workspace_path": "work/sat_renaming_independent_audit/receipt.json"
+    },
+    {
+      "bytes": 30986,
+      "package_path": "archived_independent_audit/recompute.py",
+      "role": "Exact independent saved-data review; original workspace-bound checker is archival",
+      "sha256": "1cc39749307d49d80a1ccc31c4a99c187c5551e1f043f8a87eb689881fb7c90e",
+      "source_workspace_path": "work/sat_renaming_independent_audit/recompute.py"
+    },
+    {
+      "bytes": 3073,
+      "package_path": "archived_independent_audit/recomputed_summaries.npz",
+      "role": "Exact independent saved-data review; original workspace-bound checker is archival",
+      "sha256": "38159cee33a5ee03ae85de817e3adccb3035c44f45b3a097b439e9b802cc43a7",
+      "source_workspace_path": "work/sat_renaming_independent_audit/recomputed_summaries.npz"
+    },
+    {
+      "bytes": 1729,
+      "package_path": "archived_independent_audit/unit_event_errors.json",
+      "role": "Exact independent saved-data review; original workspace-bound checker is archival",
+      "sha256": "0f43f52901aa17d2e94fc791c744447119af4a261aaa4fa480421571d6846ca0",
+      "source_workspace_path": "work/sat_renaming_independent_audit/unit_event_errors.json"
+    },
+    {
+      "bytes": 1220,
+      "package_path": "archived_independent_audit/MANIFEST.json",
+      "role": "Completed independent audit report/manifest",
+      "sha256": "dfe8f955699e3b7555fd921a9d066389e0509817c6d8e05b2d1c958501185d92",
+      "source_workspace_path": "work/sat_renaming_independent_audit/MANIFEST.json"
+    },
+    {
+      "bytes": 11894,
+      "package_path": "work/next_phase/sat_renaming_independent_audit.md",
+      "role": "Completed independent audit report/manifest",
+      "sha256": "6dcc541c4c80cf48e4d7018660e2e3e0bc9016b48c3be5bb89b7d2409bf30599",
+      "source_workspace_path": "work/next_phase/sat_renaming_independent_audit.md"
+    }
+  ]
+}

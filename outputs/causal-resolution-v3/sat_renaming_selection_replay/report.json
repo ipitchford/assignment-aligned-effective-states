@@ -1,0 +1,365 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "actual_dtype": "int16",
+        "actual_sha256": "75cffd80653436d5202c25cefefd95f8815d0b93fbb916f76908b198bde57a44",
+        "actual_shape": [
+          100000,
+          10
+        ],
+        "expected_dtype": "int16",
+        "expected_sha256": "75cffd80653436d5202c25cefefd95f8815d0b93fbb916f76908b198bde57a44",
+        "expected_shape": [
+          100000,
+          10
+        ]
+      },
+      "name": "candidate clauses",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int16",
+        "actual_sha256": "798f723400644ea65e07b98e3ede411da8175510aeecb4265ed36cc2ae8c65b3",
+        "actual_shape": [
+          100000,
+          32
+        ],
+        "expected_dtype": "int16",
+        "expected_sha256": "798f723400644ea65e07b98e3ede411da8175510aeecb4265ed36cc2ae8c65b3",
+        "expected_shape": [
+          100000,
+          32
+        ]
+      },
+      "name": "candidate semantic counts",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int8",
+        "actual_sha256": "9a77c024263af7bd926d55f88b4a5f4a2bbaf2633522c249571b03a559e3fccb",
+        "actual_shape": [
+          100000,
+          2
+        ],
+        "expected_dtype": "int8",
+        "expected_sha256": "9a77c024263af7bd926d55f88b4a5f4a2bbaf2633522c249571b03a559e3fccb",
+        "expected_shape": [
+          100000,
+          2
+        ]
+      },
+      "name": "eligibility codes",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int16",
+        "actual_sha256": "db7e99c311d755ac7408e240f007e9f6d6d6c39025a2baa9cdab48d4440dd3d8",
+        "actual_shape": [
+          100000,
+          2
+        ],
+        "expected_dtype": "int16",
+        "expected_sha256": "db7e99c311d755ac7408e240f007e9f6d6d6c39025a2baa9cdab48d4440dd3d8",
+        "expected_shape": [
+          100000,
+          2
+        ]
+      },
+      "name": "action multiplicities",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int64",
+        "actual_sha256": "048433001ca7ce6ad42b03d3df7118472516e287f9bedb2f7bf9df1aa6683fe5",
+        "actual_shape": [
+          36114
+        ],
+        "expected_dtype": "int64",
+        "expected_sha256": "048433001ca7ce6ad42b03d3df7118472516e287f9bedb2f7bf9df1aa6683fe5",
+        "expected_shape": [
+          36114
+        ]
+      },
+      "name": "eligible trial order",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int8",
+        "actual_sha256": "0dccf863b4ca1fb71606a728e16b35fad0a4e1df07dee135d6aaf8e3d8474482",
+        "actual_shape": [
+          36114
+        ],
+        "expected_dtype": "int8",
+        "expected_sha256": "0dccf863b4ca1fb71606a728e16b35fad0a4e1df07dee135d6aaf8e3d8474482",
+        "expected_shape": [
+          36114
+        ]
+      },
+      "name": "eligible pair order",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int8",
+        "actual_sha256": "b7b6d62617f0852d61bc0b55fe8211638c6a30df0aa5fbbe960a5a0218c28db3",
+        "actual_shape": [
+          36114
+        ],
+        "expected_dtype": "int8",
+        "expected_sha256": "b7b6d62617f0852d61bc0b55fe8211638c6a30df0aa5fbbe960a5a0218c28db3",
+        "expected_shape": [
+          36114
+        ]
+      },
+      "name": "eligible cohort order",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int16",
+        "actual_sha256": "4e8d7e87f457ee01e727c81cfdb39e97c891c340d98e2aaa8e28ec353f176cfe",
+        "actual_shape": [
+          36114,
+          5
+        ],
+        "expected_dtype": "int16",
+        "expected_sha256": "4e8d7e87f457ee01e727c81cfdb39e97c891c340d98e2aaa8e28ec353f176cfe",
+        "expected_shape": [
+          36114,
+          5
+        ]
+      },
+      "name": "eligible action order",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int16",
+        "actual_sha256": "f3a47a20cc3cc8911967f1b87b275710971d9c81ed648f7ea3629236703ced28",
+        "actual_shape": [
+          64,
+          2,
+          4,
+          10
+        ],
+        "expected_dtype": "int16",
+        "expected_sha256": "f3a47a20cc3cc8911967f1b87b275710971d9c81ed648f7ea3629236703ced28",
+        "expected_shape": [
+          64,
+          2,
+          4,
+          10
+        ]
+      },
+      "name": "selected clauses",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int64",
+        "actual_sha256": "c26c4ff5f995dd78a8543af9c03e030f799417884e53693e2dcae7d6f22d0b80",
+        "actual_shape": [
+          64,
+          2,
+          4,
+          41
+        ],
+        "expected_dtype": "int64",
+        "expected_sha256": "c26c4ff5f995dd78a8543af9c03e030f799417884e53693e2dcae7d6f22d0b80",
+        "expected_shape": [
+          64,
+          2,
+          4,
+          41
+        ]
+      },
+      "name": "selected tokens",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int16",
+        "actual_sha256": "42c9e3d8785ddc9c168c55cceaeb4795d6c2a84b194a0a54810f78d7aee901ec",
+        "actual_shape": [
+          64,
+          2,
+          4,
+          32
+        ],
+        "expected_dtype": "int16",
+        "expected_sha256": "42c9e3d8785ddc9c168c55cceaeb4795d6c2a84b194a0a54810f78d7aee901ec",
+        "expected_shape": [
+          64,
+          2,
+          4,
+          32
+        ]
+      },
+      "name": "selected counts",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int16",
+        "actual_sha256": "f8386d037a454a8d36cfd9770a4d659fbfe71d39ebe8ec1a8db92471d9b44c78",
+        "actual_shape": [
+          64,
+          2,
+          4
+        ],
+        "expected_dtype": "int16",
+        "expected_sha256": "f8386d037a454a8d36cfd9770a4d659fbfe71d39ebe8ec1a8db92471d9b44c78",
+        "expected_shape": [
+          64,
+          2,
+          4
+        ]
+      },
+      "name": "selected labels",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int8",
+        "actual_sha256": "cb82eccee10f5eb54a6420bf7c90b90aea311a0db949dba11cafe5af36850fa7",
+        "actual_shape": [
+          64,
+          2,
+          4,
+          4
+        ],
+        "expected_dtype": "int8",
+        "expected_sha256": "cb82eccee10f5eb54a6420bf7c90b90aea311a0db949dba11cafe5af36850fa7",
+        "expected_shape": [
+          64,
+          2,
+          4,
+          4
+        ]
+      },
+      "name": "selected expected_unit_bits",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int8",
+        "actual_sha256": "fc790a276088de2dd16642b954a12373002e7522741571d628a498630f9fb0d8",
+        "actual_shape": [
+          64
+        ],
+        "expected_dtype": "int8",
+        "expected_sha256": "fc790a276088de2dd16642b954a12373002e7522741571d628a498630f9fb0d8",
+        "expected_shape": [
+          64
+        ]
+      },
+      "name": "selected pair_index",
+      "pass": true
+    },
+    {
+      "detail": {
+        "actual_dtype": "int64",
+        "actual_sha256": "07b0706211aa6925d5b7ffd0db64092928178f562919fddc759f336b1fdad5b2",
+        "actual_shape": [
+          64,
+          2
+        ],
+        "expected_dtype": "int64",
+        "expected_sha256": "07b0706211aa6925d5b7ffd0db64092928178f562919fddc759f336b1fdad5b2",
+        "expected_shape": [
+          64,
+          2
+        ]
+      },
+      "name": "selected trial_ids",
+      "pass": true
+    },
+    {
+      "detail": {
+        "reconstructed": 64,
+        "saved": 64
+      },
+      "name": "selected metadata blocks",
+      "pass": true
+    }
+  ],
+  "diagnostics": {
+    "initially_sat": 72916,
+    "unique_initially_unsat": 27084
+  },
+  "elapsed_seconds": 1.5010018751490861,
+  "imports_original_study_modules": false,
+  "inputs": {
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/next_phase/sat_renaming_execution_contract.md": {
+      "bytes": 28661,
+      "sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/candidate_bank.npz": {
+      "bytes": 2173207,
+      "sha256": "aebc1c934a491de70f7cb1d9b1029fb0c987930cc4e1de11afc814e0b7e8e6d0"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/candidate_selection_data.npz": {
+      "bytes": 188253,
+      "sha256": "f42734c3ad88651e6def933e993c0f3e7609fa6c034941b2e8b9920dc3f0f38a"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/prior_ledger_tokens.npz": {
+      "bytes": 107684,
+      "sha256": "8fb9d138443bb4d72a0265196343199ccb665c08b34a81737d75e0eb02ee29eb"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/selected_bank.json": {
+      "bytes": 80230,
+      "sha256": "2060686e788b1c27dc27631b0f38bf67c96e255b6d2fc7e5b4f0511fdd0c02e5"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/selected_bank.npz": {
+      "bytes": 17150,
+      "sha256": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a"
+    }
+  },
+  "learner_fits": 0,
+  "limits": [
+    "Replays the declared NumPy PCG64 algorithm and therefore remains conditional on NumPy's implementation of that named generator",
+    "Does not rerun the neural checkpoint or establish external preregistration",
+    "Verifies deterministic construction identity, not representativeness of the selected finite cohort"
+  ],
+  "new_neural_forwards": 0,
+  "numpy": "2.4.2",
+  "output": {
+    "bytes": 199342,
+    "path": "replay_arrays.npz",
+    "sha256": "329026b0390d0a4da69dd97d747c2ba2b445d831e39d0acc916c6d00c3ce4d2f"
+  },
+  "pair_diagnostics": [
+    {
+      "descriptors_any": 120,
+      "descriptors_both_cohorts": 120,
+      "eligible_negative": 16203,
+      "eligible_positive": 1776,
+      "no_eligible_action_negative": 1328,
+      "no_eligible_action_positive": 2434,
+      "partner_count_below_two": 5343
+    },
+    {
+      "descriptors_any": 120,
+      "descriptors_both_cohorts": 120,
+      "eligible_negative": 16318,
+      "eligible_positive": 1817,
+      "no_eligible_action_negative": 1309,
+      "no_eligible_action_positive": 2411,
+      "partner_count_below_two": 5229
+    }
+  ],
+  "proposals_regenerated": 100000,
+  "python": "3.14.7",
+  "scope": "Independent regeneration of the frozen 100,000-proposal PCG64 stream, semantic eligibility, domain-separated hash ordering, prior-ledger exclusions, and final selected bank",
+  "selected_blocks": 64,
+  "selected_endpoints": 512,
+  "selected_origin_orbits": 128,
+  "status": "PASS",
+  "utc": "2026-10-18T04:45:48.010978+00:00"
+}

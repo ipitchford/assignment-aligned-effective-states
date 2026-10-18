@@ -1,0 +1,31 @@
+{
+  "bytecode_writes_disabled": true,
+  "features": 84,
+  "freeze_created": false,
+  "model_size": {
+    "iterations": 3,
+    "leaves": 15,
+    "trees": 3
+  },
+  "native_forwards": 0,
+  "research_caches_opened": 0,
+  "research_fits": 0,
+  "rows": 256,
+  "run_created": false,
+  "scope": "Synthetic compatibility fit only",
+  "status": "PASS",
+  "synthetic_fits": 1,
+  "thread_environment": {
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "VECLIB_MAXIMUM_THREADS": "2"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "python": "3.11.14",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  }
+}

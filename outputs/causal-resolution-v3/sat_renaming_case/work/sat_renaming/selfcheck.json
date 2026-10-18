@@ -1,0 +1,16 @@
+{
+  "checks": 37,
+  "fits": 0,
+  "native_forwards": 0,
+  "new_formulas": 0,
+  "numpy": "2.4.6",
+  "scientific_bootstrap_draws": 0,
+  "scope": "Deterministic non-formula bit/logit arithmetic and AST syntax checks only",
+  "status": "PASS",
+  "tested_hashes": {
+    "analyze.py": "32eb8d671b735ead29e9aa2f6bc95917617ab09d3e265cf03e1c06639b663df5",
+    "protocol.py": "d33e9a59ca3c7f8df53a0a4c0ade1ff7e6949733aefc2eefd7003855e67b1464",
+    "selfcheck.py": "ed91768aa54a84aa828beb2a5d97d6088106100722c750c88f71a794ec4071c8"
+  },
+  "utc": "2026-10-16T00:07:16.127427+00:00"
+}

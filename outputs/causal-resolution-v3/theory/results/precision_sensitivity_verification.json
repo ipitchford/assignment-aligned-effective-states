@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "optimisers_called": false,
+  "arithmetic": "Fraction and integers",
+  "verified": [
+    {
+      "seed": 17,
+      "epsilon": "1/4",
+      "interval": [
+        282,
+        282
+      ]
+    },
+    {
+      "seed": 29,
+      "epsilon": "1/4",
+      "interval": [
+        294,
+        294
+      ]
+    },
+    {
+      "seed": 43,
+      "epsilon": "1/4",
+      "interval": [
+        271,
+        271
+      ]
+    },
+    {
+      "seed": 17,
+      "epsilon": "1/2",
+      "interval": [
+        250,
+        250
+      ]
+    },
+    {
+      "seed": 29,
+      "epsilon": "1/2",
+      "interval": [
+        262,
+        262
+      ]
+    },
+    {
+      "seed": 43,
+      "epsilon": "1/2",
+      "interval": [
+        241,
+        241
+      ]
+    },
+    {
+      "seed": 17,
+      "epsilon": "1",
+      "interval": [
+        218,
+        218
+      ]
+    },
+    {
+      "seed": 29,
+      "epsilon": "1",
+      "interval": [
+        230,
+        230
+      ]
+    },
+    {
+      "seed": 43,
+      "epsilon": "1",
+      "interval": [
+        211,
+        211
+      ]
+    },
+    {
+      "seed": 17,
+      "epsilon": "2",
+      "interval": [
+        187,
+        187
+      ]
+    },
+    {
+      "seed": 29,
+      "epsilon": "2",
+      "interval": [
+        198,
+        198
+      ]
+    },
+    {
+      "seed": 43,
+      "epsilon": "2",
+      "interval": [
+        181,
+        181
+      ]
+    },
+    {
+      "seed": 17,
+      "epsilon": "4",
+      "interval": [
+        156,
+        156
+      ]
+    },
+    {
+      "seed": 29,
+      "epsilon": "4",
+      "interval": [
+        166,
+        166
+      ]
+    },
+    {
+      "seed": 43,
+      "epsilon": "4",
+      "interval": [
+        151,
+        151
+      ]
+    }
+  ]
+}

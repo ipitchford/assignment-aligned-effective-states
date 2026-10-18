@@ -1,0 +1,8 @@
+{
+  "purpose": "The original manifest is unchanged; these paths resolve it inside the delivered bundle.",
+  "mapping": {
+    "work/next_phase/sat_semantic_theory.md": "next_phase/sat_semantic_theory.md",
+    "work/sat_semantic_theory/check.py": "sat_semantic_theory/check.py",
+    "work/sat_semantic_theory/results.json": "sat_semantic_theory/results.json"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "bootstrap_synthetic_test": {
+    "draws": 2000,
+    "interval_2_5_97_5": null,
+    "na_draws": 244,
+    "valid_draws": 1756
+  },
+  "missing_class_and_duplicate_assignment_na_checks": true,
+  "no_neural_inference": true,
+  "no_pilot_bank_access": true,
+  "status": "PASS",
+  "synthetic_threshold_cases": 48
+}

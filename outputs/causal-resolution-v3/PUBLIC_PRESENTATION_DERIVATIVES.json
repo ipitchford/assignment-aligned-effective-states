@@ -1,0 +1,205 @@
+{
+  "scope": "Presentation-only identities. Historical frozen records are retained, but their entire original byte inventory is not asserted to be distributed.",
+  "files": [
+    {
+      "path": "outputs/causal-resolution-v3/goodfire_training_audit/archived_independent_review/REVIEW.md",
+      "original_sha256": "755ee136bfccc22944272a8471f68cc37e36e6106a286042ce98be0cc2681b5a",
+      "public_sha256": "e66bdc8982204e92b5d3d3cfae262676ecfa65477aaecdc73a8584878dea3089",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 12177,
+      "public_bytes": 12185
+    },
+    {
+      "path": "outputs/causal-resolution-v3/literature/source-ledger.json",
+      "original_sha256": "4bcd67c3dd8e1ab45727b61ed13a10f0cd2b97a8b1ca15429bb02c8adfce6263",
+      "public_sha256": "22b02404fc1a2af8df9bca3760e60c4cac8229ddc4386909ff22227813f3866d",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 30273,
+      "public_bytes": 29034
+    },
+    {
+      "path": "outputs/causal-resolution-v3/prospective_application/analysis_contract.json",
+      "original_sha256": "3c9f5c53e0fc8a6797847b9b118b4767dfbac6ee00c3624df1c498a223ae07d0",
+      "public_sha256": "e34a0761131ab217a52976fffffdb192795a3dddbaf9089bf570453057e8d4c1",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 2595,
+      "public_bytes": 2602
+    },
+    {
+      "path": "outputs/causal-resolution-v3/prospective_application/audit.py",
+      "original_sha256": "eab27e6960df8c38cab32c2124b1c4ddf6c975f429bcee2f77fa156ad3b27b4b",
+      "public_sha256": "663f8ab9ec2640ba6eb8951deab36812e8321c067d3625dd6f13da64fd4830c8",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 15769,
+      "public_bytes": 15776
+    },
+    {
+      "path": "outputs/causal-resolution-v3/prospective_application/report_and_figures.py",
+      "original_sha256": "c95215e75c59f16adb0a6d4936ba7af6ba226f4da1044752d7aa392ab5aaf03d",
+      "public_sha256": "6f734088bbff51b734309492c8f0c2ecc595760ea752ffcbffc5b0c2a644c5f7",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 17122,
+      "public_bytes": 17130
+    },
+    {
+      "path": "outputs/causal-resolution-v3/review/sat_margin_baseline/correctness.md",
+      "original_sha256": "9da96a18ec5a1b9901be9e0f402db07da4fe61870f7d0d71e08cd8bb82c44e3d",
+      "public_sha256": "974d03484d61751426d560869427f68aeef699458911f4f8022212d5866a58d6",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 8880,
+      "public_bytes": 8888
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_case/feasibility_and_pilot.md",
+      "original_sha256": "156867f491e79768d992f5adfff441a19f80d46a60ce4f38cd75b1c852867e8b",
+      "public_sha256": "cb27a706ede835e9f4ee4ab918f6cbaaeacc348e9cc8ddb582318e6cb2b2e691",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 13947,
+      "public_bytes": 13962
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_margin_baseline/contract.md",
+      "original_sha256": "bc330905a32edccb90d2ab511e5c2bc5714b7e6156d661085a7188ba131efdde",
+      "public_sha256": "d8ee629eeaf76668ab515972484403f3728cba635100d56bd9c7f8f335655136",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 18133,
+      "public_bytes": 18141
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_mechanism/README.md",
+      "original_sha256": "985e006a53ad1ae3313162ebfd425c38ea01190bcffb521b50e5e9b875854570",
+      "public_sha256": "f615ef93b911d937b66e14cdc9b77e777250e6c5878381ba7ab01f9593213572",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 4208,
+      "public_bytes": 4216
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_mechanism/contract.md",
+      "original_sha256": "9f25cb332a06c10dacb1315c8b5f7b7f7bbb9ef8a082c3cd2802f219902d3176",
+      "public_sha256": "d9254bbc771fe8c637da175e0c09396d374e04d5ef86a03a1ccc354e01a95bd3",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 15477,
+      "public_bytes": 15485
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/next_phase/sat_analysis_code_review.md",
+      "original_sha256": "6b6e96b19bc7046efd680c22caa04a670c111d2b4921e1c71302ee5fd04ea2b0",
+      "public_sha256": "ab46912b3a8b3329575a7d7fa54213592c47639c2d45450055a5a1f012faed7f",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 5941,
+      "public_bytes": 5956
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/next_phase/sat_invariance_admission.md",
+      "original_sha256": "4e5447713dffffb9c0379b632a406b183b403c25943667f4fdd35ec38fb896d2",
+      "public_sha256": "a7ecbe76a89537292ba5f6cabca9c3f8ebd3965afba9abaf050b37297109568d",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 13494,
+      "public_bytes": 13515
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/next_phase/sat_renaming_design_draft.md",
+      "original_sha256": "cbf4cbd011fb1664b11493c405087611c8dd683cf274f22ec81ec35a5fcbfac3",
+      "public_sha256": "f92a69e9d46d71a6ce042ec0e8f886c60f9d4ea2ca7f5f2dcc1df02b9b02dec5",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 21005,
+      "public_bytes": 21013
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/next_phase/sat_renaming_execution_contract.md",
+      "original_sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c",
+      "public_sha256": "2b277f053e1f35cd164a471082df65ed4f1604cba7f2c72e614e6b416ff90b52",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 28661,
+      "public_bytes": 28669
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/next_phase/sat_renaming_independent_audit.md",
+      "original_sha256": "6dcc541c4c80cf48e4d7018660e2e3e0bc9016b48c3be5bb89b7d2409bf30599",
+      "public_sha256": "635acfa4d83522a05c6703d6cb91b0771f0664a82b4ec5087ec5943175ce7ebf",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 11894,
+      "public_bytes": 11918
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/next_phase/sat_semantic_theory.md",
+      "original_sha256": "e9c4f571ada0a9568b5fd0e455f2f2696869ce97739e20d058420dd3b1400566",
+      "public_sha256": "764c445e2f4fc66be72860258186b3fefbcd2bc6bb14219c16a709fcc288c21e",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 16906,
+      "public_bytes": 16915
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/sat_case/feasibility_and_pilot.md",
+      "original_sha256": "156867f491e79768d992f5adfff441a19f80d46a60ce4f38cd75b1c852867e8b",
+      "public_sha256": "cb27a706ede835e9f4ee4ab918f6cbaaeacc348e9cc8ddb582318e6cb2b2e691",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 13947,
+      "public_bytes": 13962
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming/README.md",
+      "original_sha256": "cdd6cd5a26e437d5b8cab5748497dc1cc832d50ba01e8a8f6b3ee417e9044d0f",
+      "public_sha256": "2d180adecf0d5cd2a53c43f7289668412bfc016c044493d3f5ef1bd2b51d9293",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 6415,
+      "public_bytes": 6423
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming/analyze.py",
+      "original_sha256": "32eb8d671b735ead29e9aa2f6bc95917617ab09d3e265cf03e1c06639b663df5",
+      "public_sha256": "3d01e8218631f6757b0a25c1f558733e395a11ae996b419f7a3c58e6aa4a6fb8",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 26014,
+      "public_bytes": 26021
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming_launch_recovery/README.md",
+      "original_sha256": "cdd6cd5a26e437d5b8cab5748497dc1cc832d50ba01e8a8f6b3ee417e9044d0f",
+      "public_sha256": "2d180adecf0d5cd2a53c43f7289668412bfc016c044493d3f5ef1bd2b51d9293",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 6415,
+      "public_bytes": 6423
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming_launch_recovery/analysis.json",
+      "original_sha256": "28fe7436ec4aea45e930281390d8a9fa542c04be13fbde8c597da2e9210b41bb",
+      "public_sha256": "32e0acbd56e6628d7184e9a4945b8a85dd6a447cf3c62628480ecf937bc26442",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 94498,
+      "public_bytes": 94505
+    },
+    {
+      "path": "outputs/causal-resolution-v3/sat_renaming_case/work/sat_renaming_launch_recovery/analyze.py",
+      "original_sha256": "32eb8d671b735ead29e9aa2f6bc95917617ab09d3e265cf03e1c06639b663df5",
+      "public_sha256": "3d01e8218631f6757b0a25c1f558733e395a11ae996b419f7a3c58e6aa4a6fb8",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 26014,
+      "public_bytes": 26021
+    },
+    {
+      "path": "work/sat_case/feasibility_and_pilot.md",
+      "original_sha256": "156867f491e79768d992f5adfff441a19f80d46a60ce4f38cd75b1c852867e8b",
+      "public_sha256": "cb27a706ede835e9f4ee4ab918f6cbaaeacc348e9cc8ddb582318e6cb2b2e691",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 13947,
+      "public_bytes": 13962
+    },
+    {
+      "path": "work/sat_mechanism/README.md",
+      "original_sha256": "985e006a53ad1ae3313162ebfd425c38ea01190bcffb521b50e5e9b875854570",
+      "public_sha256": "f615ef93b911d937b66e14cdc9b77e777250e6c5878381ba7ab01f9593213572",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 4208,
+      "public_bytes": 4216
+    },
+    {
+      "path": "work/sat_mechanism/contract.md",
+      "original_sha256": "9f25cb332a06c10dacb1315c8b5f7b7f7bbb9ef8a082c3cd2802f219902d3176",
+      "public_sha256": "d9254bbc771fe8c637da175e0c09396d374e04d5ef86a03a1ccc354e01a95bd3",
+      "reason": "presentation-only derivative; scientific values unchanged",
+      "original_bytes": 15477,
+      "public_bytes": 15485
+    }
+  ]
+}

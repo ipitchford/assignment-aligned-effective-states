@@ -1,0 +1,189 @@
+{
+  "contract_sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c",
+  "elapsed_seconds": 0.802147833048366,
+  "fits": 0,
+  "inputs": {
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/next_phase/sat_renaming_execution_contract.md": {
+      "bytes": 28661,
+      "sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_case/candidate_logits.npz": {
+      "bytes": 6636,
+      "sha256": "adad7106407676edc221165f1039c0477aca65ae1cd082c3bff08fb281da149d"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_case/pilot_bank.npz": {
+      "bytes": 505675,
+      "sha256": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_case/pilot_common.py": {
+      "bytes": 2915,
+      "sha256": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_case/primary_witness.npz": {
+      "bytes": 3776,
+      "sha256": "cdc4ed22391542e406edb7fbe99f58da207cba3b69701b32804658753d83a152"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_case/selected_decision_check.npz": {
+      "bytes": 15640,
+      "sha256": "7b00b522827574de5e604e6e650ad0ef8edf81e42b32a5ca7115c297edd9b942"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_mechanism/query_tokens.npz": {
+      "bytes": 116494,
+      "sha256": "208fe4a7e5ead1c007fdff57424ac7c5838c2f0c5be4272f95c8b49ad2686b62"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_mechanism/source_mapping.json": {
+      "bytes": 34195,
+      "sha256": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/independent_oracle.py": {
+      "bytes": 8939,
+      "sha256": "c62c6b13e2b9d4cbd300007eec0de7ebda785442a9ea819d53a6c3d75660c6b2"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/prior_ledger.json": {
+      "bytes": 2203,
+      "sha256": "751df96b1598199017be392265c3c06f66934415af51c5ea87f8c2c91b5001ed"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/prior_ledger_tokens.npz": {
+      "bytes": 107684,
+      "sha256": "8fb9d138443bb4d72a0265196343199ccb665c08b34a81737d75e0eb02ee29eb"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/selected_bank.json": {
+      "bytes": 80230,
+      "sha256": "2060686e788b1c27dc27631b0f38bf67c96e255b6d2fc7e5b4f0511fdd0c02e5"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/selected_bank.npz": {
+      "bytes": 17150,
+      "sha256": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a"
+    },
+    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming_launch_recovery/verify_bank.py": {
+      "bytes": 21295,
+      "sha256": "1679d8e8675d17bb775abc6abaed658eb7a90bc510a1534076893ba992694f67"
+    }
+  },
+  "limits": [
+    "Does not independently regenerate the proposal stream or hash-selection ordering",
+    "Freshness is relative to the frozen known campaign ledger, not checkpoint training data",
+    "Semantic source-label tables are not claims about native activation correctness"
+  ],
+  "neural_forwards": 0,
+  "new_formulas_generated": 0,
+  "numpy": "2.4.6",
+  "passed_check_counts": {
+    "32_blocks_and_descriptors_per_pair": 1,
+    "64_matched_blocks": 1,
+    "action_rename_involution": 64,
+    "all_32_exact_count_updates": 4096,
+    "all_32_renamed_counts_edited": 4096,
+    "all_32_renamed_counts_original": 4096,
+    "all_32_semantic_counts": 512,
+    "all_endpoint_exact_solution_sets": 128,
+    "anchor_decrements_partner_unchanged": 128,
+    "array_key_present": 17,
+    "array_shape": 17,
+    "bank_contract_binding": 1,
+    "block_identity_vector_shapes": 64,
+    "block_metadata_identity": 64,
+    "cohort_count_eligibility": 128,
+    "complete_six_source_ledger_inventory": 1,
+    "declared_axis_orders": 1,
+    "descriptor_unique_within_pair": 64,
+    "distinct_in_budget_trial": 128,
+    "encoder_ledger_identity": 1,
+    "endpoint_and_rename_excluded_from_prior_ledger": 512,
+    "exact_frozen_four_unit_pattern": 512,
+    "explicit_renaming_and_action_commutation": 128,
+    "fixed_bit_denominators": 1,
+    "fixed_task_denominators": 1,
+    "four_source_assignment_bit_labels": 512,
+    "full_semantic_task_label": 512,
+    "global_128_orbits_512_endpoints": 1,
+    "globally_unique_endpoint": 512,
+    "integer_array_storage": 17,
+    "offpair_semantic_bits_false": 1024,
+    "pair_round_robin": 64,
+    "pinned_execution_contract": 1,
+    "pinned_source_mapping": 1,
+    "positive_unique_false_occurrence_is_action_slot": 64,
+    "prior_clause_conversion": 1024,
+    "prior_ledger_exact_sorted_unique_union": 1,
+    "prior_ledger_token_key": 1,
+    "prior_saved_clause_token_agreement": 4100,
+    "prior_source_pinned_identity": 6,
+    "prior_token_roundtrip": 8422,
+    "retained_literal_and_repair_orientation": 64,
+    "same_complete_action_both_cohorts": 128,
+    "selected_clause_encoding": 512,
+    "source_assignment_rename": 64,
+    "source_singleton_assignment": 4,
+    "stored_endpoint_identity": 512,
+    "stored_orbit_identity": 128,
+    "ten_slots_and_literal_positions_preserved": 512,
+    "token_renaming_involution": 512,
+    "truth_count_consistency": 512,
+    "unchanged_original_encoder": 1,
+    "unique_origin_renaming_orbit": 128
+  },
+  "python": "3.11.14",
+  "scientific_bootstrap_draws": 0,
+  "scope": "Independent Boolean-loop selected-bank semantics and complete known-prior-input exclusion",
+  "status": "PASS",
+  "verified": {
+    "descriptors_per_pair": [
+      32,
+      32
+    ],
+    "endpoint_rows": 512,
+    "matched_blocks": 64,
+    "offpair_negative_bits_per_pair": [
+      512,
+      512
+    ],
+    "origin_orbits": 128,
+    "primary_negative_bits_per_pair": [
+      448,
+      448
+    ],
+    "primary_positive_bits_per_pair": [
+      64,
+      64
+    ],
+    "prior_ledger": {
+      "source_entries": 6,
+      "source_files": 5,
+      "source_rows": 9446,
+      "unique_rows": 8957
+    },
+    "slot_histograms": [
+      {
+        "0": 5,
+        "1": 3,
+        "2": 3,
+        "3": 2,
+        "4": 4,
+        "5": 4,
+        "6": 5,
+        "7": 1,
+        "8": 2,
+        "9": 3
+      },
+      {
+        "0": 1,
+        "1": 3,
+        "2": 6,
+        "3": 5,
+        "4": 2,
+        "5": 4,
+        "6": 2,
+        "7": 1,
+        "8": 4,
+        "9": 4
+      }
+    ],
+    "task_label_counts": {
+      "13": 128,
+      "14": 384
+    },
+    "unit_assignment_bits": 2048,
+    "valuation_counts": 16384
+  }
+}

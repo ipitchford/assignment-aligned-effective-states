@@ -1,0 +1,15 @@
+{
+  "scope": "Third-party full-text not redistributed; identity only, not a rights grant.",
+  "sources": [
+    {
+      "name": "goodfire-page.html",
+      "sha256": "164758497e83e1a267d41f255f79c3d9099433e7b5ff6139cd2e18b207c9fdc9",
+      "bytes": 2173376
+    },
+    {
+      "name": "essay.md",
+      "sha256": "1e3878c7c93ba36c874eb76a49879be7a8dfb742d61c3c3ac813f04fa73f2a25",
+      "bytes": 166130
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "adapted_checker_sha256": "14f8f917949bff995aa94f0de107cfd5d2a63e091cb7f38f0f6e2fb04617c8ca",
+  "archived_receipts_not_overwritten": true,
+  "changes": [
+    "Explicit work and fresh output roots",
+    "Reuse saved bootstrap indices without RNG regeneration",
+    "Scope/receipt fields identify the omitted RNG replay"
+  ],
+  "original_checker_sha256": "1cc39749307d49d80a1ccc31c4a99c187c5551e1f043f8a87eb689881fb7c90e",
+  "unchanged": [
+    "All event, mapping, task, affine, saved-resampling and quantile comparisons",
+    "No neural execution"
+  ]
+}

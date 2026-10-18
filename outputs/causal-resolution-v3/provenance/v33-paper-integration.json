@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "pages": 37,
+  "files": [
+    {
+      "path": "paper/abstracts.md",
+      "previous_sha256": "5e558ea4315b97f93c6c808ac64ba7650a7d27994d2e7945f64a4b88f255a5b6",
+      "sha256": "f89e1c64d0b6fa8cabbafa1069ab9f289073be5b41edf6bc38e481b0eeef177e"
+    },
+    {
+      "path": "paper/build.py",
+      "previous_sha256": "ff321481fbcab4749605c6d47f846206f45f91b14a71bffb1c490a7adceda35c",
+      "sha256": "ff321481fbcab4749605c6d47f846206f45f91b14a71bffb1c490a7adceda35c"
+    },
+    {
+      "path": "paper/figures/budget_transfer.pdf",
+      "previous_sha256": "982f1e9aa12ab7744ac9eca985330f914679176b0b247af54c15f74ce8855ee9",
+      "sha256": "982f1e9aa12ab7744ac9eca985330f914679176b0b247af54c15f74ce8855ee9"
+    },
+    {
+      "path": "paper/figures/c5_corrected.pdf",
+      "previous_sha256": "9a7980c2c8598b3fa9af1cf2ebc8f032e2a4903603fe635d92a34add8c8f5ff6",
+      "sha256": "9a7980c2c8598b3fa9af1cf2ebc8f032e2a4903603fe635d92a34add8c8f5ff6"
+    },
+    {
+      "path": "paper/figures/c5_corrected.png",
+      "previous_sha256": "00285e146a461723642cf94ce648557d2ad1b70b732bb8fcf18ba8071981d95b",
+      "sha256": "00285e146a461723642cf94ce648557d2ad1b70b732bb8fcf18ba8071981d95b"
+    },
+    {
+      "path": "paper/figures/collision_witness.pdf",
+      "previous_sha256": "ea8e6acc9477654f39b3dba8f59fc97363be9783e4e78b95796de146c36059d1",
+      "sha256": "ea8e6acc9477654f39b3dba8f59fc97363be9783e4e78b95796de146c36059d1"
+    },
+    {
+      "path": "paper/figures/native-sat-comparison.json",
+      "previous_sha256": "1656320107db427d0ffd57cade5ac261101800f17ce31e398481a5ba8d9eaea8",
+      "sha256": "1656320107db427d0ffd57cade5ac261101800f17ce31e398481a5ba8d9eaea8"
+    },
+    {
+      "path": "paper/figures/native-sat-comparison.pdf",
+      "previous_sha256": "f7b39508a1340298b3ee8f8e306e9da22c00bb36c56fab5d12669283f02b9bbb",
+      "sha256": "f7b39508a1340298b3ee8f8e306e9da22c00bb36c56fab5d12669283f02b9bbb"
+    },
+    {
+      "path": "paper/figures/native-sat-comparison.png",
+      "previous_sha256": "f25b1e36973169754c299e9f7a43aa2d5d3f7ae8f20c41abdf6e6ce0be4bf4c7",
+      "sha256": "f25b1e36973169754c299e9f7a43aa2d5d3f7ae8f20c41abdf6e6ce0be4bf4c7"
+    },
+    {
+      "path": "paper/figures/precision_cost.pdf",
+      "previous_sha256": "21a5e5e8f2c7b382eefc14f73cdf2481ec0a0b030c0f164ca9b18611d8ec6977",
+      "sha256": "21a5e5e8f2c7b382eefc14f73cdf2481ec0a0b030c0f164ca9b18611d8ec6977"
+    },
+    {
+      "path": "paper/figures/prospective-decision-seed143.pdf",
+      "previous_sha256": "b6071d0b06abe71b42bc8c7cb92788828aae13b29f4e57ee71eb3ff26f30693a",
+      "sha256": "b6071d0b06abe71b42bc8c7cb92788828aae13b29f4e57ee71eb3ff26f30693a"
+    },
+    {
+      "path": "paper/figures/prospective-decision-seed43.pdf",
+      "previous_sha256": "e0ecde8e3f97fd9277f382c1ea4f27e79c62560694bbc340303752819b338223",
+      "sha256": "e0ecde8e3f97fd9277f382c1ea4f27e79c62560694bbc340303752819b338223"
+    },
+    {
+      "path": "paper/figures/sat-renaming.json",
+      "previous_sha256": null,
+      "sha256": "8f5d6db262d3afa69fd5d022477988b7469f6caac63bfb616321de67a1db04e2"
+    },
+    {
+      "path": "paper/figures/sat-renaming.pdf",
+      "previous_sha256": null,
+      "sha256": "4ad43f16c9f7e5190a36d49dca8d27d6fe0026c64c83fc8da6b3176a91c9cf13"
+    },
+    {
+      "path": "paper/figures/sat-renaming.png",
+      "previous_sha256": null,
+      "sha256": "ef3cfcd0d0ea87b19a4eb5f22167cc5296cdac2141daefc6504aec7aaa437bec"
+    },
+    {
+      "path": "paper/figures/sat-renaming.svg",
+      "previous_sha256": null,
+      "sha256": "901ada8862846963365082843ec69b6d535015d0ae13011fc10d3668209f8e28"
+    },
+    {
+      "path": "paper/manuscript.md",
+      "previous_sha256": "2c93845424e4ce454006a1028304ed9a9a08e7a68d23966fdfebe9b5b7f385f4",
+      "sha256": "5f04aca67c1d9c202ec2d6a1302a2d641fbda29e22f9b93b156f1fcbcd2bc281"
+    },
+    {
+      "path": "paper/manuscript.pdf",
+      "previous_sha256": "d944a629ffba69ee7562a2a0beb00293deae8bda29dd0fd7265c39300ab25092",
+      "sha256": "2b99d494b7877690ee24c3a27f00f1ae72f4897faade7036969d5947cff5c198"
+    },
+    {
+      "path": "paper/manuscript.tex",
+      "previous_sha256": "a72c70ef8997ea33179e3dced6d013e627e502886a97f6df55a729f4be9e73f2",
+      "sha256": "687d8c5555eef28c4d9fcc85384852d43d97d633612d3ab70f71937122bbbdb7"
+    }
+  ],
+  "reader_text_check": "PASS",
+  "build": {
+    "status": "PASS",
+    "source_sha256": "5f04aca67c1d9c202ec2d6a1302a2d641fbda29e22f9b93b156f1fcbcd2bc281",
+    "latex_sha256": "687d8c5555eef28c4d9fcc85384852d43d97d633612d3ab70f71937122bbbdb7",
+    "pdf_sha256": "2b99d494b7877690ee24c3a27f00f1ae72f4897faade7036969d5947cff5c198",
+    "commands": [
+      [
+        "pandoc",
+        "manuscript.md",
+        "--from",
+        "markdown",
+        "--to",
+        "latex",
+        "--standalone",
+        "--number-sections",
+        "--toc",
+        "--toc-depth=2",
+        "-V",
+        "documentclass=article",
+        "-V",
+        "fontsize=11pt",
+        "-V",
+        "geometry:margin=22mm",
+        "-V",
+        "colorlinks=true",
+        "-V",
+        "linkcolor=blue",
+        "-V",
+        "urlcolor=blue",
+        "-V",
+        "papersize=a4",
+        "-o",
+        "manuscript.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ]
+    ],
+    "warnings": [
+      "Overfull \\hbox (0.11604pt too wide) in alignment at lines 2011--2029",
+      "Overfull \\hbox (0.11604pt too wide) in alignment at lines 2029--2031",
+      "Overfull \\hbox (0.11604pt too wide) in alignment at lines 2031--2035"
+    ],
+    "scope": "compiler success; visual review is a separate check"
+  },
+  "scope": "Manuscript integration and reader-text restriction; scientific data unchanged",
+  "changes_from_editor_handoff": [
+    "Replace pending-construction sentence with the retained first-attempt failure",
+    "Remove internal whole-paper assessment chronology",
+    "State both directional benchmark thresholds",
+    "Clarify the clamp figure denominator without changing values"
+  ]
+}

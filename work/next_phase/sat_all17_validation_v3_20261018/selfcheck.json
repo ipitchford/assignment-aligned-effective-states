@@ -1,0 +1,5 @@
+{
+  "checks": 20833,
+  "scope": "pure semantics, transposition algebra and Python syntax; zero data/model access",
+  "status": "PASS"
+}

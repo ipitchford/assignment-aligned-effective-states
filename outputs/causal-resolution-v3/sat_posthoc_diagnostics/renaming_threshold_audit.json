@@ -1,0 +1,243 @@
+{
+  "directions": {
+    "pair_0_original_unit_261": {
+      "direction": "original",
+      "false_positives_at_32_of_32_sensitivity": 0,
+      "initially_correct_endpoints": 32,
+      "negative_preactivation": {
+        "count": 224,
+        "maximum": 0.10112959891557693,
+        "mean": -1.544673506266138,
+        "median": -1.4578253030776978,
+        "minimum": -3.9967238903045654,
+        "q05": -3.3276814937591555,
+        "q25": -2.119647979736328,
+        "q75": -0.920408234000206,
+        "q95": -0.22735752984881408
+      },
+      "origin_restoration_correct_to_wrong": 29,
+      "perfect_threshold_separation_exists": true,
+      "positive_preactivation": {
+        "count": 32,
+        "maximum": 1.1138077974319458,
+        "mean": 0.7435256401076913,
+        "median": 0.7557151913642883,
+        "minimum": 0.4351969063282013,
+        "q05": 0.531770846247673,
+        "q25": 0.6167382597923279,
+        "q75": 0.8431395888328552,
+        "q95": 0.9951473802328109
+      },
+      "positive_state": "edited",
+      "smallest_float64_threshold_above_maximum_negative": 0.10112959891557695,
+      "source_detection_by_origin_restoration_correct_to_wrong": {
+        "left_false_right_false": 0,
+        "left_false_right_true": 1,
+        "left_true_right_false": 3,
+        "left_true_right_true": 28
+      },
+      "source_pair": [
+        261,
+        291
+      ],
+      "source_threshold": 0.5,
+      "source_threshold_false_positives": 0,
+      "source_threshold_true_positives": 31,
+      "threshold_for_32_of_32_sensitivity": 0.4351969063282013,
+      "threshold_free_auc": 1.0,
+      "true_positives_at_zero_false_positives": 32,
+      "unit": 261
+    },
+    "pair_0_renamed_unit_291": {
+      "direction": "renamed",
+      "false_positives_at_32_of_32_sensitivity": 0,
+      "initially_correct_endpoints": 32,
+      "negative_preactivation": {
+        "count": 224,
+        "maximum": 0.20899127423763275,
+        "mean": -2.1498083163668134,
+        "median": -2.0879876613616943,
+        "minimum": -5.3616790771484375,
+        "q05": -4.356794857978821,
+        "q25": -2.96389901638031,
+        "q75": -1.4072442650794983,
+        "q95": -0.25612198710441597
+      },
+      "origin_restoration_correct_to_wrong": 32,
+      "perfect_threshold_separation_exists": true,
+      "positive_preactivation": {
+        "count": 32,
+        "maximum": 1.5454646348953247,
+        "mean": 1.1511196997016668,
+        "median": 1.1229323744773865,
+        "minimum": 0.6888172030448914,
+        "q05": 0.8392409056425094,
+        "q25": 1.0226369500160217,
+        "q75": 1.2806888818740845,
+        "q95": 1.454874688386917
+      },
+      "positive_state": "renamed_edited",
+      "smallest_float64_threshold_above_maximum_negative": 0.20899127423763278,
+      "source_detection_by_origin_restoration_correct_to_wrong": {
+        "left_false_right_false": 0,
+        "left_false_right_true": 0,
+        "left_true_right_false": 0,
+        "left_true_right_true": 32
+      },
+      "source_pair": [
+        261,
+        291
+      ],
+      "source_threshold": 0.5,
+      "source_threshold_false_positives": 0,
+      "source_threshold_true_positives": 32,
+      "threshold_for_32_of_32_sensitivity": 0.6888172030448914,
+      "threshold_free_auc": 1.0,
+      "true_positives_at_zero_false_positives": 32,
+      "unit": 291
+    },
+    "pair_1_original_unit_411": {
+      "direction": "original",
+      "false_positives_at_32_of_32_sensitivity": 5,
+      "initially_correct_endpoints": 30,
+      "negative_preactivation": {
+        "count": 224,
+        "maximum": 0.278990238904953,
+        "mean": -1.4921518478658982,
+        "median": -1.5374698042869568,
+        "minimum": -3.1687684059143066,
+        "q05": -2.741144359111786,
+        "q25": -1.9436918795108795,
+        "q75": -1.035451978445053,
+        "q95": -0.23747672289609914
+      },
+      "origin_restoration_correct_to_wrong": 22,
+      "perfect_threshold_separation_exists": false,
+      "positive_preactivation": {
+        "count": 32,
+        "maximum": 1.0474064350128174,
+        "mean": 0.6345133658323903,
+        "median": 0.6620998382568359,
+        "minimum": -0.004925674758851528,
+        "q05": 0.3122428610920906,
+        "q25": 0.5066982358694077,
+        "q75": 0.7578980028629303,
+        "q95": 0.9308373600244522
+      },
+      "positive_state": "edited",
+      "smallest_float64_threshold_above_maximum_negative": 0.27899023890495306,
+      "source_detection_by_origin_restoration_correct_to_wrong": {
+        "left_false_right_false": 4,
+        "left_false_right_true": 4,
+        "left_true_right_false": 6,
+        "left_true_right_true": 18
+      },
+      "source_pair": [
+        411,
+        492
+      ],
+      "source_threshold": 0.5,
+      "source_threshold_false_positives": 0,
+      "source_threshold_true_positives": 24,
+      "threshold_for_32_of_32_sensitivity": -0.004925674758851528,
+      "threshold_free_auc": 0.9993024553571429,
+      "true_positives_at_zero_false_positives": 31,
+      "unit": 411
+    },
+    "pair_1_renamed_unit_492": {
+      "direction": "renamed",
+      "false_positives_at_32_of_32_sensitivity": 0,
+      "initially_correct_endpoints": 32,
+      "negative_preactivation": {
+        "count": 224,
+        "maximum": 0.443528413772583,
+        "mean": -1.8401563028871482,
+        "median": -1.90931636095047,
+        "minimum": -4.053466796875,
+        "q05": -3.4602059960365295,
+        "q25": -2.4774745106697083,
+        "q75": -1.2325335144996643,
+        "q95": -0.14594711214303974
+      },
+      "origin_restoration_correct_to_wrong": 32,
+      "perfect_threshold_separation_exists": true,
+      "positive_preactivation": {
+        "count": 32,
+        "maximum": 1.6251635551452637,
+        "mean": 1.1650598347187042,
+        "median": 1.16812002658844,
+        "minimum": 0.7579089999198914,
+        "q05": 0.826640111207962,
+        "q25": 1.026682198047638,
+        "q75": 1.3213593363761902,
+        "q95": 1.4945805132389067
+      },
+      "positive_state": "renamed_edited",
+      "smallest_float64_threshold_above_maximum_negative": 0.44352841377258306,
+      "source_detection_by_origin_restoration_correct_to_wrong": {
+        "left_false_right_false": 0,
+        "left_false_right_true": 0,
+        "left_true_right_false": 0,
+        "left_true_right_true": 32
+      },
+      "source_pair": [
+        411,
+        492
+      ],
+      "source_threshold": 0.5,
+      "source_threshold_false_positives": 0,
+      "source_threshold_true_positives": 32,
+      "threshold_for_32_of_32_sensitivity": 0.7579089999198914,
+      "threshold_free_auc": 1.0,
+      "true_positives_at_zero_false_positives": 32,
+      "unit": 492
+    }
+  },
+  "inputs": {
+    "inputs/affine_clamps.npz": "9f566d14281e122460543dd11687660f8126e217873f860cd696c21ea0367ad3",
+    "inputs/renaming_native_outputs.npz": "cf0f69826a5fc788415809af3382eff01d40ce891c411d80e99ec886e05316b2",
+    "inputs/renaming_selected_bank.npz": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a"
+  },
+  "near_automatic_control_activity": {
+    "pair_0": {
+      "negative_endpoints": 64,
+      "negative_endpoints_with_any_nominated_pair_activation_change": 4,
+      "positive_endpoints": 64,
+      "positive_endpoints_with_any_off_pair_activation_change": 5
+    },
+    "pair_1": {
+      "negative_endpoints": 64,
+      "negative_endpoints_with_any_nominated_pair_activation_change": 3,
+      "positive_endpoints": 64,
+      "positive_endpoints_with_any_off_pair_activation_change": 6
+    }
+  },
+  "new_fits": 0,
+  "new_neural_forwards": 0,
+  "origin_values": {
+    "pair_0": {
+      "endpoints_with_any_nonzero_origin_pair_value": 4,
+      "positive_endpoints": 64,
+      "source_units": [
+        261,
+        291
+      ]
+    },
+    "pair_1": {
+      "endpoints_with_any_nonzero_origin_pair_value": 8,
+      "positive_endpoints": 64,
+      "source_units": [
+        411,
+        492
+      ]
+    }
+  },
+  "pair_411_492_combined_detection_by_origin_restoration_correct_to_wrong": {
+    "left_false_right_false": 4,
+    "left_false_right_true": 4,
+    "left_true_right_false": 6,
+    "left_true_right_true": 50
+  },
+  "scope": "post hoc zero-forward calibration audit of the protected renaming arrays",
+  "status": "PASS"
+}

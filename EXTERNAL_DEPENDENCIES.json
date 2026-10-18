@@ -1,0 +1,54 @@
+{
+  "scope": "Exact public upstream source required for native replay, not redistributed. Public accessibility is not proof of redistribution rights. Inherited licence chain for these adapted files was not established.",
+  "files": [
+    {
+      "target": "outputs/causal-resolution-v3/sat_case/upstream/model.py",
+      "filename": "model.py",
+      "sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+      "bytes": 32356,
+      "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/model.py"
+    },
+    {
+      "target": "outputs/causal-resolution-v3/sat_case/upstream/modular_addition_utils.py",
+      "filename": "modular_addition_utils.py",
+      "sha256": "5d7ed5229be881fd91014bd88704226605e9ba38379efb12d532577ebbeac7cb",
+      "bytes": 28188,
+      "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/modular_addition_utils.py"
+    },
+    {
+      "target": "outputs/causal-resolution-v3/sat_case/upstream/plot.py",
+      "filename": "plot.py",
+      "sha256": "75c12bfbef9f135ae58f0fc81e50c5ae9f65966f1a491879bd42ee06518da09b",
+      "bytes": 16927,
+      "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/plot.py"
+    },
+    {
+      "target": "outputs/causal-resolution-v3/sat_renaming_case/work/sat_case/upstream/model.py",
+      "filename": "model.py",
+      "sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+      "bytes": 32356,
+      "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/model.py"
+    },
+    {
+      "target": "work/sat_case/upstream/model.py",
+      "filename": "model.py",
+      "sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+      "bytes": 32356,
+      "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/model.py"
+    },
+    {
+      "target": "work/sat_case/upstream/modular_addition_utils.py",
+      "filename": "modular_addition_utils.py",
+      "sha256": "5d7ed5229be881fd91014bd88704226605e9ba38379efb12d532577ebbeac7cb",
+      "bytes": 28188,
+      "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/modular_addition_utils.py"
+    },
+    {
+      "target": "work/sat_case/upstream/plot.py",
+      "filename": "plot.py",
+      "sha256": "75c12bfbef9f135ae58f0fc81e50c5ae9f65966f1a491879bd42ee06518da09b",
+      "bytes": 16927,
+      "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/plot.py"
+    }
+  ]
+}

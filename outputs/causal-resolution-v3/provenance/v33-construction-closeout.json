@@ -1,0 +1,100 @@
+{
+  "build": {
+    "commands": [
+      [
+        "pandoc",
+        "manuscript.md",
+        "--from",
+        "markdown",
+        "--to",
+        "latex",
+        "--standalone",
+        "--number-sections",
+        "--toc",
+        "--toc-depth=2",
+        "-V",
+        "documentclass=article",
+        "-V",
+        "fontsize=11pt",
+        "-V",
+        "geometry:margin=22mm",
+        "-V",
+        "colorlinks=true",
+        "-V",
+        "linkcolor=blue",
+        "-V",
+        "urlcolor=blue",
+        "-V",
+        "papersize=a4",
+        "-o",
+        "manuscript.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ],
+      [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ]
+    ],
+    "latex_sha256": "c9f1813221a921ab179a6b18c4b596e999893dee18261aa35855293930b78864",
+    "pdf_sha256": "9d22ea1a5798e0d0e819dabe05fa52ea506c92a03dc30e536b1031a38a9e0df3",
+    "scope": "compiler success; visual review is a separate check",
+    "source_sha256": "13cd561ef4d30736cbed28bfa0c008c0ce0e06d3ae449a43f8e2c023bf86ee77",
+    "status": "PASS",
+    "warnings": [
+      "Overfull \\hbox (0.11604pt too wide) in alignment at lines 2025--2043",
+      "Overfull \\hbox (0.11604pt too wide) in alignment at lines 2043--2045",
+      "Overfull \\hbox (0.11604pt too wide) in alignment at lines 2045--2049"
+    ]
+  },
+  "changes": [
+    "Record both retained construction failures and zero neural tests",
+    "Clarify separately authored SAT semantic/arithmetic and execution checks",
+    "State candidate-field audit limits"
+  ],
+  "files": [
+    {
+      "file": "paper/manuscript.md",
+      "previous_sha256": "5f04aca67c1d9c202ec2d6a1302a2d641fbda29e22f9b93b156f1fcbcd2bc281",
+      "sha256": "13cd561ef4d30736cbed28bfa0c008c0ce0e06d3ae449a43f8e2c023bf86ee77"
+    },
+    {
+      "file": "paper/manuscript.tex",
+      "previous_sha256": "687d8c5555eef28c4d9fcc85384852d43d97d633612d3ab70f71937122bbbdb7",
+      "sha256": "c9f1813221a921ab179a6b18c4b596e999893dee18261aa35855293930b78864"
+    },
+    {
+      "file": "paper/manuscript.pdf",
+      "previous_sha256": "2b99d494b7877690ee24c3a27f00f1ae72f4897faade7036969d5947cff5c198",
+      "sha256": "9d22ea1a5798e0d0e819dabe05fa52ea506c92a03dc30e536b1031a38a9e0df3"
+    },
+    {
+      "file": "paper/abstracts.md",
+      "previous_sha256": "f89e1c64d0b6fa8cabbafa1069ab9f289073be5b41edf6bc38e481b0eeef177e",
+      "sha256": "f89e1c64d0b6fa8cabbafa1069ab9f289073be5b41edf6bc38e481b0eeef177e"
+    }
+  ],
+  "pages": 37,
+  "reader_language_scan": {
+    "PDF metadata": 0,
+    "PDF text": 0,
+    "abstracts.md": 0,
+    "manuscript.md": 0,
+    "manuscript.tex": 0
+  },
+  "render_receipt_sha256": "1c9b1055be3c8588565032290d6861c0c61e02d1a336f663436bb3e7aaddd179",
+  "scope": "Documentation and artifact integration only; no scientific arrays changed and no new editorial assessment",
+  "status": "PASS"
+}

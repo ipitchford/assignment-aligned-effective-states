@@ -1,0 +1,24 @@
+{
+  "xor": {
+    "rows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "weights": [
+      "-1/4",
+      "1/4",
+      "1/4",
+      "-1/4"
+    ],
+    "lower_bound": "1/2",
+    "lower_bound_float": 0.5,
+    "response_denominator": 1,
+    "support_size": 4
+  },
+  "affine_error": 0.5,
+  "repair_error": 0.0,
+  "mutation_controls_rejected": 3,
+  "scope": "known-answer control; not trained-network evidence"
+}

@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "bytes": 12642,
+      "path": "protocol.md",
+      "sha256": "caa3cf9a18a28254243b3942acb8a507b2fc9755facac01236c10e3fd244216c"
+    },
+    {
+      "bytes": 2363,
+      "path": "runtime_bindings.md",
+      "sha256": "27ee46b81c0705d2f9a0817b49c28fe70e1f93d73e9c919c016602ec337b6a92"
+    },
+    {
+      "bytes": 21797,
+      "path": "protocol.py",
+      "sha256": "1b15df4f1a2519f945cfc5047ce5ac741bba7ca50978c79eb4e0a5cbd71e3b71"
+    },
+    {
+      "bytes": 874,
+      "path": "preflight.py",
+      "sha256": "b50fb7ccb24677611e349c43c0a7f69c287e303e97d8fb74186ee881102de416"
+    },
+    {
+      "bytes": 6706,
+      "path": "preflight.json",
+      "sha256": "35505adc4ed75202757d98d64fae4fe7a7210dc3a1a5754b9a1d13aa5c9d6a65"
+    },
+    {
+      "bytes": 12345,
+      "path": "native.py",
+      "sha256": "f999b25198c4d60b5d698c4bef4ff68f048c166c55ef3e8003c4c5846abc5027"
+    },
+    {
+      "bytes": 31289,
+      "path": "analyze.py",
+      "sha256": "77cebcac2f9687287828937214411103873822b3afac9f40cb305a4900e5ec7e"
+    },
+    {
+      "bytes": 14283,
+      "path": "selfcheck.py",
+      "sha256": "5907babbb42330255736e4acc0928914525420355bd334290ab79da82087cdbf"
+    },
+    {
+      "bytes": 720,
+      "path": "selfcheck.json",
+      "sha256": "4000f0f1b411eece574ae8e127380bc2b72f105b7509bacc0ea8ce2605db0878"
+    }
+  ],
+  "schema": "sat-full-layer-basis-static-freeze-v7"
+}

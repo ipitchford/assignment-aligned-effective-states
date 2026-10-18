@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "optimisers_called": false,
+  "arithmetic": "Fraction and integers",
+  "verified": [
+    {
+      "seed": 17,
+      "epsilon": "1",
+      "interval": [
+        218,
+        218
+      ]
+    },
+    {
+      "seed": 29,
+      "epsilon": "1",
+      "interval": [
+        230,
+        230
+      ]
+    },
+    {
+      "seed": 43,
+      "epsilon": "1",
+      "interval": [
+        211,
+        211
+      ]
+    }
+  ]
+}

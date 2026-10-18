@@ -1,0 +1,242 @@
+{
+  "bytecode_writes_disabled": true,
+  "check_count": 52,
+  "checks": [
+    {
+      "name": "Python syntax: screen.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax: static_selfcheck.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax: runtime_smoke.py",
+      "pass": true
+    },
+    {
+      "name": "No freeze exists",
+      "pass": true
+    },
+    {
+      "name": "No run exists",
+      "pass": true
+    },
+    {
+      "name": "Exactly seven fixed arms",
+      "pass": true
+    },
+    {
+      "name": "Freeze binds all governance documents",
+      "pass": true
+    },
+    {
+      "name": "Freeze binds static evidence",
+      "pass": true
+    },
+    {
+      "name": "Fixed learner budget",
+      "pass": true
+    },
+    {
+      "name": "Hard computation caps",
+      "pass": true
+    },
+    {
+      "name": "Cache shape dtype and range contract accepts canonical fixture",
+      "pass": true
+    },
+    {
+      "name": "Cache contract rejects transposed outcome axes",
+      "pass": true
+    },
+    {
+      "name": "Admission validator binds decision and exact hashes",
+      "pass": true
+    },
+    {
+      "name": "Admission validator rejects quoted or revising decisions",
+      "pass": true
+    },
+    {
+      "name": "Slot hashing deterministic",
+      "pass": true
+    },
+    {
+      "name": "Slot hashing bounded",
+      "pass": true
+    },
+    {
+      "name": "Slot hash consumes canonical token bytes",
+      "pass": true
+    },
+    {
+      "name": "Lower median odd",
+      "pass": true
+    },
+    {
+      "name": "Lower median even",
+      "pass": true
+    },
+    {
+      "name": "Negative lower median exact",
+      "pass": true
+    },
+    {
+      "name": "No-negative flags and minus infinity",
+      "pass": true
+    },
+    {
+      "name": "No-upper fallback",
+      "pass": true
+    },
+    {
+      "name": "Upper lower median",
+      "pass": true
+    },
+    {
+      "name": "All reports are 68 float32 columns",
+      "pass": true
+    },
+    {
+      "name": "Candidate original bit threshold",
+      "pass": true
+    },
+    {
+      "name": "Candidate negative interval strict",
+      "pass": true
+    },
+    {
+      "name": "Pre bins natural binary",
+      "pass": true
+    },
+    {
+      "name": "Post bins natural binary",
+      "pass": true
+    },
+    {
+      "name": "Published bits zero padding",
+      "pass": true
+    },
+    {
+      "name": "Continuous arms zero padding",
+      "pass": true
+    },
+    {
+      "name": "Action descriptor has16 bits",
+      "pass": true
+    },
+    {
+      "name": "Action descriptor round trip",
+      "pass": true
+    },
+    {
+      "name": "Design has common84 columns",
+      "pass": true
+    },
+    {
+      "name": "Design selects origin report before action",
+      "pass": true
+    },
+    {
+      "name": "Exactly39 ordered alternatives per menu",
+      "pass": true
+    },
+    {
+      "name": "Probability ties choose lower clause ID",
+      "pass": true
+    },
+    {
+      "name": "Choice uses supplied outcomes",
+      "pass": true
+    },
+    {
+      "name": "Utility definition exact",
+      "pass": true
+    },
+    {
+      "name": "Regret algebra exact",
+      "pass": true
+    },
+    {
+      "name": "Set-valued ceiling groups identical reports",
+      "pass": true
+    },
+    {
+      "name": "Set-valued ceiling exact reachable regret",
+      "pass": true
+    },
+    {
+      "name": "Set-valued ceiling detects empty common intersection",
+      "pass": true
+    },
+    {
+      "name": "Ceiling records exact class occupancy",
+      "pass": true
+    },
+    {
+      "name": "Development gates require all learned criteria",
+      "pass": true
+    },
+    {
+      "name": "Development gate stops decoder-only gain",
+      "pass": true
+    },
+    {
+      "name": "Realized tree/leaf accounting",
+      "pass": true
+    },
+    {
+      "name": "Failure receipt retains stage and fit accounting",
+      "pass": true
+    },
+    {
+      "name": "Failure receipt retains partial metrics and resources",
+      "pass": true
+    },
+    {
+      "name": "NPZ output uses exclusive binary handle",
+      "pass": true
+    },
+    {
+      "name": "Terminal receipt is authoritative and exclusive",
+      "pass": true
+    },
+    {
+      "name": "Final cap check follows manifest hashing",
+      "pass": true
+    },
+    {
+      "name": "JSON writes flush and sync before close",
+      "pass": true
+    }
+  ],
+  "code_sha256": {
+    "protocol.md": "bf1b032641aa981ed137c5f5e3ea6b3660feb1aad25e4c498789c8d871ef088a",
+    "requirements-analysis.txt": "13a45e3554e8dcbf9c2166cb1796280c78ac972a4b085e7dcdf67da08b7dbc85",
+    "runtime_smoke.py": "fe806bc507b8ddbe130e41d82fb9d9eab89e02b8f82f85fe3d481a22d132cbe0",
+    "screen.py": "262db662f89aa833afc20c7857d89fbde311b667c191e3a447f3f39551b32f30",
+    "static_selfcheck.py": "5513622f82a8ce43b35e4d2f134289cb99d7cc28fbaa5832b72978768dcdc089"
+  },
+  "fits": 0,
+  "formulas_generated": 0,
+  "freeze_created": false,
+  "native_forwards": 0,
+  "research_caches_opened": 0,
+  "run_created": false,
+  "scope": "Synthetic and source checks only",
+  "status": "PASS",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "VECLIB_MAXIMUM_THREADS": "2"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "python": "3.11.14",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  }
+}

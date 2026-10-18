@@ -1,0 +1,206 @@
+{
+  "fits": 0,
+  "inputs": {
+    "inputs/original_native.npz": "54f86e7c03c2366345662ce65a90e62201d71869a60f88e5544a267b49e941c2",
+    "inputs/pilot_bank.npz": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b",
+    "inputs/predictive_metrics.json": "911477f9c15ffc0c7616c777677a4134bf1e27a7c645dbb3bdeed29af5c755e9"
+  },
+  "new_neural_forwards": 0,
+  "report_identity": {
+    "context_only": {
+      "distinct_origin_reports": 1,
+      "origin_reports_unique": false
+    },
+    "continuous_post34_exact_float32": {
+      "distinct_origin_reports": 4096,
+      "origin_reports_unique": true
+    },
+    "published_bits34": {
+      "distinct_origin_reports": 1428,
+      "origin_reports_unique": false
+    },
+    "truth_table32": {
+      "distinct_origin_reports": 1397,
+      "origin_reports_unique": false
+    }
+  },
+  "splits": {
+    "assessment_origins_only": {
+      "context_only": {
+        "conflicting_fraction_among_non_singleton_groups": 0.9214743589743589,
+        "conflicting_group_fraction": 0.9214743589743589,
+        "conflicting_report_action_groups": 14375,
+        "conflicting_row_fraction": 0.9284930889423076,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.9284930889423076,
+        "maximum_absolute_information_error": 0.5,
+        "minimum_empirical_zero_one_error": 0.10553385416666666,
+        "non_singleton_report_action_groups": 15600,
+        "origin_report_classes": 1,
+        "origins": 1024,
+        "rows": 399360,
+        "rows_in_conflicting_groups": 370803,
+        "rows_in_non_singleton_groups": 399360,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 15600,
+        "unavoidable_zero_one_errors": 42146
+      },
+      "continuous_post34_exact_float32": {
+        "conflicting_fraction_among_non_singleton_groups": 0.0,
+        "conflicting_group_fraction": 0.0,
+        "conflicting_report_action_groups": 0,
+        "conflicting_row_fraction": 0.0,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.0,
+        "maximum_absolute_information_error": 0.0,
+        "minimum_empirical_zero_one_error": 0.0,
+        "non_singleton_report_action_groups": 0,
+        "origin_report_classes": 4096,
+        "origins": 1024,
+        "rows": 399360,
+        "rows_in_conflicting_groups": 0,
+        "rows_in_non_singleton_groups": 0,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 399360,
+        "unavoidable_zero_one_errors": 0
+      },
+      "published_bits34": {
+        "conflicting_fraction_among_non_singleton_groups": 0.10643606952331784,
+        "conflicting_group_fraction": 0.006616866322717997,
+        "conflicting_report_action_groups": 2474,
+        "conflicting_row_fraction": 0.013459034455128206,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.11034468600521442,
+        "maximum_absolute_information_error": 0.5,
+        "minimum_empirical_zero_one_error": 0.006219951923076923,
+        "non_singleton_report_action_groups": 23244,
+        "origin_report_classes": 1428,
+        "origins": 1024,
+        "rows": 399360,
+        "rows_in_conflicting_groups": 5375,
+        "rows_in_non_singleton_groups": 48711,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 373893,
+        "unavoidable_zero_one_errors": 2484
+      },
+      "published_bits_truth_table_decomposition": {
+        "errors_remaining_after_truth_table_refinement": 1484,
+        "errors_removed_by_truth_table_refinement": 1000,
+        "published_conflicting_groups": 2474,
+        "published_conflicting_groups_only_across_truth_tables": 992,
+        "published_conflicting_groups_with_within_truth_table_conflict": 1482,
+        "published_minimum_errors": 2484,
+        "refined_conflicting_groups": 1482,
+        "report_specific_error_share": 0.4025764895330113,
+        "rows_in_groups_conflicting_only_across_truth_tables": 2193,
+        "rows_in_groups_with_within_truth_table_conflict": 3182,
+        "scope": "exact finite-bank decomposition obtained by refining each published-bit/action class with the complete current truth table",
+        "target_specification_error_share": 0.5974235104669887
+      },
+      "truth_table32": {
+        "conflicting_fraction_among_non_singleton_groups": 0.08269628921802835,
+        "conflicting_group_fraction": 0.005594160741219565,
+        "conflicting_report_action_groups": 2077,
+        "conflicting_row_fraction": 0.011375701121794871,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.08540115798180314,
+        "maximum_absolute_information_error": 0.5,
+        "minimum_empirical_zero_one_error": 0.005258413461538462,
+        "non_singleton_report_action_groups": 25116,
+        "origin_report_classes": 1397,
+        "origins": 1024,
+        "rows": 399360,
+        "rows_in_conflicting_groups": 4543,
+        "rows_in_non_singleton_groups": 53196,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 371280,
+        "unavoidable_zero_one_errors": 2100
+      }
+    },
+    "entire_development_bank": {
+      "context_only": {
+        "conflicting_fraction_among_non_singleton_groups": 0.9998717948717949,
+        "conflicting_group_fraction": 0.9998717948717949,
+        "conflicting_report_action_groups": 15598,
+        "conflicting_row_fraction": 0.9998704176682692,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.9998704176682692,
+        "maximum_absolute_information_error": 0.5,
+        "minimum_empirical_zero_one_error": 0.10446276542467949,
+        "non_singleton_report_action_groups": 15600,
+        "origin_report_classes": 1,
+        "origins": 4096,
+        "rows": 1597440,
+        "rows_in_conflicting_groups": 1597233,
+        "rows_in_non_singleton_groups": 1597440,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 15600,
+        "unavoidable_zero_one_errors": 166873
+      },
+      "continuous_post34_exact_float32": {
+        "conflicting_fraction_among_non_singleton_groups": 0.0,
+        "conflicting_group_fraction": 0.0,
+        "conflicting_report_action_groups": 0,
+        "conflicting_row_fraction": 0.0,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.0,
+        "maximum_absolute_information_error": 0.0,
+        "minimum_empirical_zero_one_error": 0.0,
+        "non_singleton_report_action_groups": 0,
+        "origin_report_classes": 4096,
+        "origins": 4096,
+        "rows": 1597440,
+        "rows_in_conflicting_groups": 0,
+        "rows_in_non_singleton_groups": 0,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 1597440,
+        "unavoidable_zero_one_errors": 0
+      },
+      "published_bits34": {
+        "conflicting_fraction_among_non_singleton_groups": 0.10872798613012136,
+        "conflicting_group_fraction": 0.018448501963990158,
+        "conflicting_report_action_groups": 23831,
+        "conflicting_row_fraction": 0.03950946514423077,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.12024875110028922,
+        "maximum_absolute_information_error": 0.5,
+        "minimum_empirical_zero_one_error": 0.015767728365384617,
+        "non_singleton_report_action_groups": 219180,
+        "origin_report_classes": 1428,
+        "origins": 4096,
+        "rows": 1597440,
+        "rows_in_conflicting_groups": 63114,
+        "rows_in_non_singleton_groups": 524862,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 1291758,
+        "unavoidable_zero_one_errors": 25188
+      },
+      "published_bits_truth_table_decomposition": {
+        "errors_remaining_after_truth_table_refinement": 16328,
+        "errors_removed_by_truth_table_refinement": 8860,
+        "published_conflicting_groups": 23831,
+        "published_conflicting_groups_only_across_truth_tables": 8228,
+        "published_conflicting_groups_with_within_truth_table_conflict": 15603,
+        "published_minimum_errors": 25188,
+        "refined_conflicting_groups": 15636,
+        "report_specific_error_share": 0.351754803874861,
+        "rows_in_groups_conflicting_only_across_truth_tables": 20868,
+        "rows_in_groups_with_within_truth_table_conflict": 42246,
+        "scope": "exact finite-bank decomposition obtained by refining each published-bit/action class with the complete current truth table",
+        "target_specification_error_share": 0.648245196125139
+      },
+      "truth_table32": {
+        "conflicting_fraction_among_non_singleton_groups": 0.08865270501723221,
+        "conflicting_group_fraction": 0.016830078219716393,
+        "conflicting_report_action_groups": 21170,
+        "conflicting_row_fraction": 0.03560634515224359,
+        "conflicting_row_fraction_within_non_singleton_rows": 0.0983436208655359,
+        "maximum_absolute_information_error": 0.5,
+        "minimum_empirical_zero_one_error": 0.014092548076923077,
+        "non_singleton_report_action_groups": 238797,
+        "origin_report_classes": 1397,
+        "origins": 4096,
+        "rows": 1597440,
+        "rows_in_conflicting_groups": 56879,
+        "rows_in_non_singleton_groups": 578370,
+        "scope": "exact unrestricted lookup on this finite bank; not held-out generalisation or a low-complexity decoder",
+        "total_report_action_groups": 1257867,
+        "unavoidable_zero_one_errors": 22512
+      }
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,3360 @@
+{
+  "ambiguous_bit_positions": 0,
+  "ambiguous_task_rows": 0,
+  "benchmark_conditions": {
+    "P1/edited_advantage_identity": {
+      "adverse_pass": true,
+      "comparison": ">",
+      "cutoff": 0,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.484375,
+        0.484375,
+        0.484375
+      ]
+    },
+    "P1/edited_advantage_wrong": {
+      "adverse_pass": true,
+      "comparison": ">",
+      "cutoff": 0,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.484375,
+        0.484375,
+        0.484375
+      ]
+    },
+    "P1/off_pair_false_positive_rate": {
+      "adverse_pass": true,
+      "comparison": "<=",
+      "cutoff": 51,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "P1/positive_exact_pattern": {
+      "adverse_pass": true,
+      "comparison": ">=",
+      "cutoff": 26,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        31.0,
+        31.0,
+        31.0
+      ]
+    },
+    "P1/primary_sensitivity": {
+      "adverse_pass": true,
+      "comparison": ">=",
+      "cutoff": 58,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        63.0,
+        63.0,
+        63.0
+      ]
+    },
+    "P1/primary_specificity": {
+      "adverse_pass": true,
+      "comparison": ">=",
+      "cutoff": 404,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        448.0,
+        448.0,
+        448.0
+      ]
+    },
+    "P2/edited_advantage_identity": {
+      "adverse_pass": true,
+      "comparison": ">",
+      "cutoff": 0,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "P2/edited_advantage_wrong": {
+      "adverse_pass": true,
+      "comparison": ">",
+      "cutoff": 0,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "P2/off_pair_false_positive_rate": {
+      "adverse_pass": true,
+      "comparison": "<=",
+      "cutoff": 51,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "P2/positive_exact_pattern": {
+      "adverse_pass": false,
+      "comparison": ">=",
+      "cutoff": 26,
+      "favourable_pass": false,
+      "nominal_pass": false,
+      "values_nominal_lower_upper": [
+        24.0,
+        24.0,
+        24.0
+      ]
+    },
+    "P2/primary_sensitivity": {
+      "adverse_pass": false,
+      "comparison": ">=",
+      "cutoff": 58,
+      "favourable_pass": false,
+      "nominal_pass": false,
+      "values_nominal_lower_upper": [
+        56.0,
+        56.0,
+        56.0
+      ]
+    },
+    "P2/primary_specificity": {
+      "adverse_pass": true,
+      "comparison": ">=",
+      "cutoff": 404,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        448.0,
+        448.0,
+        448.0
+      ]
+    },
+    "pooled/interval_lower_identity": {
+      "adverse_pass": true,
+      "comparison": ">",
+      "cutoff": 0,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.390625,
+        0.390625,
+        0.390625
+      ]
+    },
+    "pooled/interval_lower_wrong": {
+      "adverse_pass": true,
+      "comparison": ">",
+      "cutoff": 0,
+      "favourable_pass": true,
+      "nominal_pass": true,
+      "values_nominal_lower_upper": [
+        0.390625,
+        0.390625,
+        0.390625
+      ]
+    }
+  },
+  "bootstrap": {
+    "draws": 2000,
+    "indices_sha256": "8e72d2b3b4fea0436a8fed0ea390bfe08e9c15f948d8eb0e14510fb84da7139b",
+    "quantile_method": "linear",
+    "seed": 2026101605,
+    "unit": "matched resampling block, stratified by fixed pair",
+    "valid_draws": 2000
+  },
+  "contract_sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c",
+  "cost": {
+    "cpu_seconds": 0.15991500000000003,
+    "elapsed_seconds": 0.1730019999668002,
+    "numpy": "2.4.6",
+    "peak_rss_bytes": 142491648,
+    "python": "3.11.14 (main, Feb 12 2026, 00:41:29) [Clang 21.1.4 ]"
+  },
+  "directional_criteria": {
+    "P1": {
+      "localized_transport_limitation": false,
+      "original": {
+        "conditions": {
+          "true_negative": {
+            "adverse_pass": true,
+            "comparison": ">=",
+            "cutoff": 202,
+            "favourable_pass": true,
+            "nominal_pass": true,
+            "values_nominal_lower_upper": [
+              224.0,
+              224.0,
+              224.0
+            ]
+          },
+          "true_positive": {
+            "adverse_pass": true,
+            "comparison": ">=",
+            "cutoff": 29,
+            "favourable_pass": true,
+            "nominal_pass": true,
+            "values_nominal_lower_upper": [
+              31.0,
+              31.0,
+              31.0
+            ]
+          }
+        },
+        "negative_denominator": 224,
+        "positive_denominator": 32,
+        "status": "PASS"
+      },
+      "renamed": {
+        "conditions": {
+          "true_negative": {
+            "adverse_pass": true,
+            "comparison": ">=",
+            "cutoff": 202,
+            "favourable_pass": true,
+            "nominal_pass": true,
+            "values_nominal_lower_upper": [
+              224.0,
+              224.0,
+              224.0
+            ]
+          },
+          "true_positive": {
+            "adverse_pass": true,
+            "comparison": ">=",
+            "cutoff": 29,
+            "favourable_pass": true,
+            "nominal_pass": true,
+            "values_nominal_lower_upper": [
+              32.0,
+              32.0,
+              32.0
+            ]
+          }
+        },
+        "negative_denominator": 224,
+        "positive_denominator": 32,
+        "status": "PASS"
+      }
+    },
+    "P2": {
+      "localized_transport_limitation": false,
+      "original": {
+        "conditions": {
+          "true_negative": {
+            "adverse_pass": true,
+            "comparison": ">=",
+            "cutoff": 202,
+            "favourable_pass": true,
+            "nominal_pass": true,
+            "values_nominal_lower_upper": [
+              224.0,
+              224.0,
+              224.0
+            ]
+          },
+          "true_positive": {
+            "adverse_pass": false,
+            "comparison": ">=",
+            "cutoff": 29,
+            "favourable_pass": false,
+            "nominal_pass": false,
+            "values_nominal_lower_upper": [
+              24.0,
+              24.0,
+              24.0
+            ]
+          }
+        },
+        "negative_denominator": 224,
+        "positive_denominator": 32,
+        "status": "CRITERION_NOT_MET"
+      },
+      "renamed": {
+        "conditions": {
+          "true_negative": {
+            "adverse_pass": true,
+            "comparison": ">=",
+            "cutoff": 202,
+            "favourable_pass": true,
+            "nominal_pass": true,
+            "values_nominal_lower_upper": [
+              224.0,
+              224.0,
+              224.0
+            ]
+          },
+          "true_positive": {
+            "adverse_pass": true,
+            "comparison": ">=",
+            "cutoff": 29,
+            "favourable_pass": true,
+            "nominal_pass": true,
+            "values_nominal_lower_upper": [
+              32.0,
+              32.0,
+              32.0
+            ]
+          }
+        },
+        "negative_denominator": 224,
+        "positive_denominator": 32,
+        "status": "PASS"
+      }
+    }
+  },
+  "metrics": {
+    "P1": {
+      "correct_negative_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_negative_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_positive_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0234375,
+          0.0234375,
+          0.0234375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0078125,
+          0.0078125,
+          0.0078125
+        ]
+      },
+      "correct_positive_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.01171875,
+          0.01171875,
+          0.01171875
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.00390625,
+          0.00390625,
+          0.00390625
+        ]
+      },
+      "correct_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0234375,
+          0.0234375,
+          0.0234375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0078125,
+          0.0078125,
+          0.0078125
+        ]
+      },
+      "edited_advantage_identity": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.453125,
+          0.453125,
+          0.453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.484375,
+          0.484375,
+          0.484375
+        ]
+      },
+      "edited_advantage_wrong": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.453125,
+          0.453125,
+          0.453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.484375,
+          0.484375,
+          0.484375
+        ]
+      },
+      "full_positive_advantage_identity": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.2265625,
+          0.2265625,
+          0.2265625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.2421875,
+          0.2421875,
+          0.2421875
+        ]
+      },
+      "full_positive_advantage_wrong": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.2265625,
+          0.2265625,
+          0.2265625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.2421875,
+          0.2421875,
+          0.2421875
+        ]
+      },
+      "identity_negative_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_negative_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_positive_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4921875,
+          0.4921875,
+          0.4921875
+        ]
+      },
+      "identity_positive_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.23828125,
+          0.23828125,
+          0.23828125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.24609375,
+          0.24609375,
+          0.24609375
+        ]
+      },
+      "identity_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4921875,
+          0.4921875,
+          0.4921875
+        ]
+      },
+      "joint_negative_pattern_and_task": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "primary_bits_per_origin_pattern": 8,
+        "task_classes_per_complete_origin": 4
+      },
+      "joint_positive_pattern_and_task": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "primary_bits_per_origin_pattern": 8,
+        "task_classes_per_complete_origin": 4
+      },
+      "negative_exact_pattern": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "primary_bits_per_origin_pattern": 8
+      },
+      "off_pair_false_positive_rate": {
+        "aggregation_denominator": 512,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_sensitivity": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ]
+      },
+      "original_specificity": {
+        "aggregation_denominator": 224,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "positive_exact_pattern": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "primary_bits_per_origin_pattern": 8
+      },
+      "primary_balanced_accuracy": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9765625,
+          0.9765625,
+          0.9765625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "class_event_denominators_per_block": {
+          "negative": 14,
+          "positive": 2
+        },
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9921875,
+          0.9921875,
+          0.9921875
+        ]
+      },
+      "primary_response_change_mismatch_rate": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0234375,
+          0.0234375,
+          0.0234375
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0078125,
+          0.0078125,
+          0.0078125
+        ]
+      },
+      "primary_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.953125,
+          0.953125,
+          0.953125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ]
+      },
+      "primary_specificity": {
+        "aggregation_denominator": 448,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "primary_transport_mismatch_rate": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.01171875,
+          0.01171875,
+          0.01171875
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.00390625,
+          0.00390625,
+          0.00390625
+        ]
+      },
+      "renamed_sensitivity": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "renamed_specificity": {
+        "aggregation_denominator": 224,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_accuracy": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9765625,
+          0.9765625,
+          0.9765625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9921875,
+          0.9921875,
+          0.9921875
+        ]
+      },
+      "task_balanced_accuracy": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9843749999999999,
+          0.9843749999999999,
+          0.9843749999999999
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "class_event_denominators_per_block": {
+          "negative": 6,
+          "positive": 2
+        },
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9947916666666666,
+          0.9947916666666666,
+          0.9947916666666666
+        ]
+      },
+      "task_negative_accuracy": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.953125,
+          0.953125,
+          0.953125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ]
+      },
+      "task_negative_complete_quartet": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "task_classes_per_complete_origin": 4
+      },
+      "task_negative_specificity": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.953125,
+          0.953125,
+          0.953125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ]
+      },
+      "task_positive_accuracy": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_positive_complete_quartet": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "task_classes_per_complete_origin": 4
+      },
+      "task_positive_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_positive_specificity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_specificity": {
+        "aggregation_denominator": 192,
+        "bootstrap_025_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9895833333333334,
+          0.9895833333333334,
+          0.9895833333333334
+        ]
+      },
+      "wrong_negative_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_negative_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_positive_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4921875,
+          0.4921875,
+          0.4921875
+        ]
+      },
+      "wrong_positive_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.23828125,
+          0.23828125,
+          0.23828125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.24609375,
+          0.24609375,
+          0.24609375
+        ]
+      },
+      "wrong_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4921875,
+          0.4921875,
+          0.4921875
+        ]
+      }
+    },
+    "P2": {
+      "correct_negative_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_negative_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_positive_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0234375,
+          0.0234375,
+          0.0234375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.1015625,
+          0.1015625,
+          0.1015625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0625,
+          0.0625,
+          0.0625
+        ]
+      },
+      "correct_positive_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.01171875,
+          0.01171875,
+          0.01171875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.05078125,
+          0.05078125,
+          0.05078125
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.03125,
+          0.03125,
+          0.03125
+        ]
+      },
+      "correct_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0234375,
+          0.0234375,
+          0.0234375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.1015625,
+          0.1015625,
+          0.1015625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0625,
+          0.0625,
+          0.0625
+        ]
+      },
+      "edited_advantage_identity": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.296875,
+          0.296875,
+          0.296875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.453125,
+          0.453125,
+          0.453125
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "edited_advantage_wrong": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.296875,
+          0.296875,
+          0.296875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.453125,
+          0.453125,
+          0.453125
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "full_positive_advantage_identity": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.1484375,
+          0.1484375,
+          0.1484375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.2265625,
+          0.2265625,
+          0.2265625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.1875,
+          0.1875,
+          0.1875
+        ]
+      },
+      "full_positive_advantage_wrong": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.1484375,
+          0.1484375,
+          0.1484375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.2265625,
+          0.2265625,
+          0.2265625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.1875,
+          0.1875,
+          0.1875
+        ]
+      },
+      "identity_negative_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_negative_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_positive_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.3984375,
+          0.3984375,
+          0.3984375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4375,
+          0.4375,
+          0.4375
+        ]
+      },
+      "identity_positive_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.19921875,
+          0.19921875,
+          0.19921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.23828125,
+          0.23828125,
+          0.23828125
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.21875,
+          0.21875,
+          0.21875
+        ]
+      },
+      "identity_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.3984375,
+          0.3984375,
+          0.3984375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4375,
+          0.4375,
+          0.4375
+        ]
+      },
+      "joint_negative_pattern_and_task": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "primary_bits_per_origin_pattern": 8,
+        "task_classes_per_complete_origin": 4
+      },
+      "joint_positive_pattern_and_task": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.59375,
+          0.59375,
+          0.59375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "primary_bits_per_origin_pattern": 8,
+        "task_classes_per_complete_origin": 4
+      },
+      "negative_exact_pattern": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "primary_bits_per_origin_pattern": 8
+      },
+      "off_pair_false_positive_rate": {
+        "aggregation_denominator": 512,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_sensitivity": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.59375,
+          0.59375,
+          0.59375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.75,
+          0.75,
+          0.75
+        ]
+      },
+      "original_specificity": {
+        "aggregation_denominator": 224,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "positive_exact_pattern": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.59375,
+          0.59375,
+          0.59375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "primary_bits_per_origin_pattern": 8
+      },
+      "primary_balanced_accuracy": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.8984375,
+          0.8984375,
+          0.8984375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.9765625,
+          0.9765625,
+          0.9765625
+        ],
+        "class_event_denominators_per_block": {
+          "negative": 14,
+          "positive": 2
+        },
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9375,
+          0.9375,
+          0.9375
+        ]
+      },
+      "primary_response_change_mismatch_rate": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0234375,
+          0.0234375,
+          0.0234375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.1015625,
+          0.1015625,
+          0.1015625
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0625,
+          0.0625,
+          0.0625
+        ]
+      },
+      "primary_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.796875,
+          0.796875,
+          0.796875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.953125,
+          0.953125,
+          0.953125
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.875,
+          0.875,
+          0.875
+        ]
+      },
+      "primary_specificity": {
+        "aggregation_denominator": 448,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "primary_transport_mismatch_rate": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.01171875,
+          0.01171875,
+          0.01171875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.05078125,
+          0.05078125,
+          0.05078125
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.03125,
+          0.03125,
+          0.03125
+        ]
+      },
+      "renamed_sensitivity": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "renamed_specificity": {
+        "aggregation_denominator": 224,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_accuracy": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.953125,
+          0.953125,
+          0.953125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.98046875,
+          0.98046875,
+          0.98046875
+        ]
+      },
+      "task_balanced_accuracy": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9453125,
+          0.9453125,
+          0.9453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "class_event_denominators_per_block": {
+          "negative": 6,
+          "positive": 2
+        },
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9765625,
+          0.9765625,
+          0.9765625
+        ]
+      },
+      "task_negative_accuracy": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9296875,
+          0.9296875,
+          0.9296875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9765625,
+          0.9765625,
+          0.9765625
+        ]
+      },
+      "task_negative_complete_quartet": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.90625,
+          0.90625,
+          0.90625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "task_classes_per_complete_origin": 4
+      },
+      "task_negative_specificity": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9296875,
+          0.9296875,
+          0.9296875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9765625,
+          0.9765625,
+          0.9765625
+        ]
+      },
+      "task_positive_accuracy": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9609375,
+          0.9609375,
+          0.9609375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ]
+      },
+      "task_positive_complete_quartet": {
+        "aggregation_denominator": 32,
+        "bootstrap_025_nominal_lower_upper": [
+          0.84375,
+          0.84375,
+          0.84375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.9375,
+          0.9375,
+          0.9375
+        ],
+        "task_classes_per_complete_origin": 4
+      },
+      "task_positive_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.921875,
+          0.921875,
+          0.921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ]
+      },
+      "task_positive_specificity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.921875,
+          0.921875,
+          0.921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ]
+      },
+      "task_specificity": {
+        "aggregation_denominator": 192,
+        "bootstrap_025_nominal_lower_upper": [
+          0.953125,
+          0.953125,
+          0.953125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ]
+      },
+      "wrong_negative_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_negative_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_positive_edited_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.3984375,
+          0.3984375,
+          0.3984375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4375,
+          0.4375,
+          0.4375
+        ]
+      },
+      "wrong_positive_endpoint_error": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.19921875,
+          0.19921875,
+          0.19921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.23828125,
+          0.23828125,
+          0.23828125
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.21875,
+          0.21875,
+          0.21875
+        ]
+      },
+      "wrong_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 32,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.3984375,
+          0.3984375,
+          0.3984375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.4765625,
+          0.4765625,
+          0.4765625
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 32,
+        "point_nominal_lower_upper": [
+          0.4375,
+          0.4375,
+          0.4375
+        ]
+      }
+    },
+    "pooled": {
+      "correct_negative_edited_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_negative_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct_positive_edited_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.015625,
+          0.015625,
+          0.015625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0546875,
+          0.0546875,
+          0.0546875
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.03515625,
+          0.03515625,
+          0.03515625
+        ]
+      },
+      "correct_positive_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0078125,
+          0.0078125,
+          0.0078125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.02734375,
+          0.02734375,
+          0.02734375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.017578125,
+          0.017578125,
+          0.017578125
+        ]
+      },
+      "correct_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.015625,
+          0.015625,
+          0.015625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0546875,
+          0.0546875,
+          0.0546875
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.03515625,
+          0.03515625,
+          0.03515625
+        ]
+      },
+      "edited_advantage_identity": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.390625,
+          0.390625,
+          0.390625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.46875,
+          0.46875,
+          0.46875
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.4296875,
+          0.4296875,
+          0.4296875
+        ]
+      },
+      "edited_advantage_wrong": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.390625,
+          0.390625,
+          0.390625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.46875,
+          0.46875,
+          0.46875
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.4296875,
+          0.4296875,
+          0.4296875
+        ]
+      },
+      "full_positive_advantage_identity": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.1953125,
+          0.1953125,
+          0.1953125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.234375,
+          0.234375,
+          0.234375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.21484375,
+          0.21484375,
+          0.21484375
+        ]
+      },
+      "full_positive_advantage_wrong": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.1953125,
+          0.1953125,
+          0.1953125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.234375,
+          0.234375,
+          0.234375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.21484375,
+          0.21484375,
+          0.21484375
+        ]
+      },
+      "identity_negative_edited_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_negative_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "identity_positive_edited_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.4453125,
+          0.4453125,
+          0.4453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.484375,
+          0.484375,
+          0.484375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.46484375,
+          0.46484375,
+          0.46484375
+        ]
+      },
+      "identity_positive_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.22265625,
+          0.22265625,
+          0.22265625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.2421875,
+          0.2421875,
+          0.2421875
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.232421875,
+          0.232421875,
+          0.232421875
+        ]
+      },
+      "identity_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.4453125,
+          0.4453125,
+          0.4453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.484375,
+          0.484375,
+          0.484375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.46484375,
+          0.46484375,
+          0.46484375
+        ]
+      },
+      "joint_negative_pattern_and_task": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.921875,
+          0.921875,
+          0.921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "primary_bits_per_origin_pattern": 8,
+        "task_classes_per_complete_origin": 4
+      },
+      "joint_positive_pattern_and_task": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.78125,
+          0.78125,
+          0.78125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.9375,
+          0.9375,
+          0.9375
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.859375,
+          0.859375,
+          0.859375
+        ],
+        "primary_bits_per_origin_pattern": 8,
+        "task_classes_per_complete_origin": 4
+      },
+      "negative_exact_pattern": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "primary_bits_per_origin_pattern": 8
+      },
+      "off_pair_false_positive_rate": {
+        "aggregation_denominator": 1024,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "original_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.78125,
+          0.78125,
+          0.78125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.9375,
+          0.9375,
+          0.9375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.859375,
+          0.859375,
+          0.859375
+        ]
+      },
+      "original_specificity": {
+        "aggregation_denominator": 448,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "positive_exact_pattern": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.78125,
+          0.78125,
+          0.78125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.9375,
+          0.9375,
+          0.9375
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.859375,
+          0.859375,
+          0.859375
+        ],
+        "primary_bits_per_origin_pattern": 8
+      },
+      "primary_balanced_accuracy": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9453125,
+          0.9453125,
+          0.9453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ],
+        "class_event_denominators_per_block": {
+          "negative": 14,
+          "positive": 2
+        },
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.96484375,
+          0.96484375,
+          0.96484375
+        ]
+      },
+      "primary_response_change_mismatch_rate": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.015625,
+          0.015625,
+          0.015625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0546875,
+          0.0546875,
+          0.0546875
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.03515625,
+          0.03515625,
+          0.03515625
+        ]
+      },
+      "primary_sensitivity": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.890625,
+          0.890625,
+          0.890625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.9296875,
+          0.9296875,
+          0.9296875
+        ]
+      },
+      "primary_specificity": {
+        "aggregation_denominator": 896,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "primary_transport_mismatch_rate": {
+        "aggregation_denominator": 512,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0078125,
+          0.0078125,
+          0.0078125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.02734375,
+          0.02734375,
+          0.02734375
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.017578125,
+          0.017578125,
+          0.017578125
+        ]
+      },
+      "renamed_sensitivity": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "renamed_specificity": {
+        "aggregation_denominator": 448,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_accuracy": {
+        "aggregation_denominator": 512,
+        "bootstrap_025_nominal_lower_upper": [
+          0.970703125,
+          0.970703125,
+          0.970703125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.998046875,
+          0.998046875,
+          0.998046875
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.986328125,
+          0.986328125,
+          0.986328125
+        ]
+      },
+      "task_balanced_accuracy": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9700520833333334,
+          0.9700520833333334,
+          0.9700520833333334
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.9973958333333333,
+          0.9973958333333333,
+          0.9973958333333333
+        ],
+        "class_event_denominators_per_block": {
+          "negative": 6,
+          "positive": 2
+        },
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.9856770833333333,
+          0.9856770833333333,
+          0.9856770833333333
+        ]
+      },
+      "task_negative_accuracy": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.94921875,
+          0.94921875,
+          0.94921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.98046875,
+          0.98046875,
+          0.98046875
+        ]
+      },
+      "task_negative_complete_quartet": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.921875,
+          0.921875,
+          0.921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "task_classes_per_complete_origin": 4
+      },
+      "task_negative_specificity": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.94921875,
+          0.94921875,
+          0.94921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.98046875,
+          0.98046875,
+          0.98046875
+        ]
+      },
+      "task_positive_accuracy": {
+        "aggregation_denominator": 256,
+        "bootstrap_025_nominal_lower_upper": [
+          0.98046875,
+          0.98046875,
+          0.98046875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.9921875,
+          0.9921875,
+          0.9921875
+        ]
+      },
+      "task_positive_complete_quartet": {
+        "aggregation_denominator": 64,
+        "bootstrap_025_nominal_lower_upper": [
+          0.921875,
+          0.921875,
+          0.921875
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "complete_origin_indicators_per_block": 1,
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.96875,
+          0.96875,
+          0.96875
+        ],
+        "task_classes_per_complete_origin": 4
+      },
+      "task_positive_sensitivity": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9609375,
+          0.9609375,
+          0.9609375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ]
+      },
+      "task_positive_specificity": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "task_sensitivity": {
+        "aggregation_denominator": 128,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9609375,
+          0.9609375,
+          0.9609375
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.984375,
+          0.984375,
+          0.984375
+        ]
+      },
+      "task_specificity": {
+        "aggregation_denominator": 384,
+        "bootstrap_025_nominal_lower_upper": [
+          0.9661458333333333,
+          0.9661458333333333,
+          0.9661458333333333
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "denominator_unit": "atomic target events",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.9869791666666667,
+          0.9869791666666667,
+          0.9869791666666667
+        ]
+      },
+      "wrong_negative_edited_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_negative_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_negative_signed_change_discrepancy": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "wrong_positive_edited_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "bootstrap_025_nominal_lower_upper": [
+          0.4453125,
+          0.4453125,
+          0.4453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.484375,
+          0.484375,
+          0.484375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.46484375,
+          0.46484375,
+          0.46484375
+        ]
+      },
+      "wrong_positive_endpoint_error": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 8,
+        "bootstrap_025_nominal_lower_upper": [
+          0.22265625,
+          0.22265625,
+          0.22265625
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.2421875,
+          0.2421875,
+          0.2421875
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.232421875,
+          0.232421875,
+          0.232421875
+        ]
+      },
+      "wrong_positive_signed_change_discrepancy": {
+        "aggregation_denominator": 64,
+        "atomic_comparisons_per_mapping_per_block": 4,
+        "atomic_statistic": "absolute signed-change discrepancy, range 0 to 2",
+        "bootstrap_025_nominal_lower_upper": [
+          0.4453125,
+          0.4453125,
+          0.4453125
+        ],
+        "bootstrap_975_nominal_lower_upper": [
+          0.484375,
+          0.484375,
+          0.484375
+        ],
+        "denominator_unit": "matched-block averages of normalized metrics or complete-origin indicators",
+        "matched_resampling_blocks": 64,
+        "point_nominal_lower_upper": [
+          0.46484375,
+          0.46484375,
+          0.46484375
+        ]
+      }
+    }
+  },
+  "native_cost": {
+    "batch_calls": 66,
+    "fits": 0,
+    "initial_input_forwards": 512,
+    "replay_input_forwards": 16
+  },
+  "native_nonanswer_rows": 0,
+  "negative_control_task_sensitivity": null,
+  "nominal_benchmark_pass": false,
+  "scope": "Prospective new native responses in a follow-on chosen after earlier development. No unique-mechanism, readiness, generic-margin exclusion or generality claim.",
+  "secondary_affine": {
+    "atol": 0.0001,
+    "caveat": "Downstream clamp with edited residual and all other postactivations fixed; potentially off-manifold, not upstream or unique causal routing.",
+    "max_abs_residual": 1.3476117686650468e-05,
+    "parity_pass": true,
+    "rtol": 1e-05,
+    "scope": "Float64 affine reconstruction from saved float32 tensors; not patched native inference.",
+    "status": "PASS_SECONDARY_ACCOUNTING_ONLY",
+    "summaries": {
+      "negative/nominated_pair": {
+        "clamp_nonanswer": 0,
+        "correct_to_wrong": 0,
+        "edited_endpoints": 128,
+        "mean_signed_sat_minus_unsat_contribution": 0.07533281651927026,
+        "nominal_changes": 0,
+        "stable_changes": 0,
+        "wrong_to_correct": 0
+      },
+      "negative/other_fixed_pair": {
+        "clamp_nonanswer": 0,
+        "correct_to_wrong": 0,
+        "edited_endpoints": 128,
+        "mean_signed_sat_minus_unsat_contribution": 0.007433936661684636,
+        "nominal_changes": 0,
+        "stable_changes": 0,
+        "wrong_to_correct": 0
+      },
+      "positive/nominated_pair": {
+        "clamp_nonanswer": 0,
+        "correct_to_wrong": 115,
+        "edited_endpoints": 128,
+        "mean_signed_sat_minus_unsat_contribution": 8.74182504777413,
+        "nominal_changes": 115,
+        "stable_changes": 115,
+        "wrong_to_correct": 0
+      },
+      "positive/other_fixed_pair": {
+        "clamp_nonanswer": 0,
+        "correct_to_wrong": 0,
+        "edited_endpoints": 128,
+        "mean_signed_sat_minus_unsat_contribution": 0.02463178242430441,
+        "nominal_changes": 0,
+        "stable_changes": 0,
+        "wrong_to_correct": 0
+      }
+    }
+  },
+  "status": "CRITERION_NOT_MET",
+  "target_population": "Equal-weight mixture of the 32 selected descriptors per pair under the frozen selection algorithm; one fixed checkpoint.",
+  "utc": "2026-10-16T00:16:00.512796+00:00"
+}

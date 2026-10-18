@@ -1,0 +1,26 @@
+[
+  {
+    "path": "outputs/causal-resolution-v3/literature/audit.md",
+    "original_sha256": "2de529ce101ea78f91dc9af8d4f57cc78571274e999ba3d279dc38a79b5047c4",
+    "released_sha256": "47fed9eb0535ed7f5d2d0a591cc62cde31b41cb68b0802ce9f13388f67c8434b",
+    "change": "internal assessment commentary omitted; no scientific code or frozen record changed"
+  },
+  {
+    "path": "outputs/causal-resolution-v3/theory/report.md",
+    "original_sha256": "6f76b83fabc2a3b5d4d86915856102446b1c77a8d56a84d7164af487452e7b9e",
+    "released_sha256": "97c0e6dde809ef8cc063acd782d4bbba7b4a52e7aa8e7a5c544f18746cfc8733",
+    "change": "internal assessment commentary omitted; no scientific code or frozen record changed"
+  },
+  {
+    "path": "outputs/causal-resolution-v3/prospective_theory/report.md",
+    "original_sha256": "4c0ee87593b522248fa42cea641f0037eeb4eda01bc98d1ebc9f70bb6f916355",
+    "released_sha256": "4a9eb14cec3162b0baa3d00141b38d5e13434f58edc6896d9f175d89beb088dd",
+    "change": "internal assessment commentary omitted; no scientific code or frozen record changed"
+  },
+  {
+    "path": "outputs/causal-resolution-v3/prospective_application/report.md",
+    "original_sha256": "5ba6a7ab2761773ed90aa3647a29840353dddb66b6ddaeb360de7afd3c1b5f4e",
+    "released_sha256": "c392db1d7299cbf5073cc869f1d71ddedaa29c95ecfc35f55731e8c6be515ea5",
+    "change": "internal assessment commentary omitted; no scientific code or frozen record changed"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "coefficient_sha256": "6430a0c8fd3f408dbf0a1c82ad1bfec947f4729e7acae726aa280cae775b2687",
+  "freeze_sha256": "4662155b6d3e4d73a6a68a312bb1d1c402fec2a17aa691fee5882af642d9b8fb",
+  "host_fingerprint": {
+    "machine": "arm64",
+    "node": "Admins-Mac-mini.local",
+    "processor": "arm",
+    "torch_config_sha256": "34394c67c950ca9585d92f1aa7954ba28d61ed463002565e2d28363e24a949b4",
+    "torch_cpu_capability": "NO AVX"
+  },
+  "stage": "replay",
+  "started_utc": "2026-10-18T08:26:26.637196+00:00",
+  "weight_sha256": {
+    "W_U": "48ae451c67d40bf9cd4017480e54c6496d24f52cf1008a10eab6cb6cc04e3520",
+    "W_out": "c5c3bf40358d19ac65d4791b23a129a255812f47b51903aea8713a438ae9d4c8",
+    "b_out": "f300115e3eb20f545bbe22269d855e58d65ec1ba444fe21eda22f60c61fc7eb4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "component": "sat_renaming_selection_replay",
+  "scope": "Portable study-module-free regeneration of the frozen SAT-renaming proposal and selection stream",
+  "retained_execution_script_sha256": "dad279097d2bdc2f47c74bc65f453ad74d9535dce38a9efae2213a0e9815e758",
+  "portable_adaptation": "Only HERE-relative package input resolution differs from the retained execution script; the portable copy passed all 16 comparisons in a fresh temporary output directory.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1698,
+      "sha256": "d6031d6166f93d07e506a57128c93fe79b6f04c2835b36a2f7c7c73adfe9a605"
+    },
+    {
+      "path": "replay_arrays.npz",
+      "bytes": 199342,
+      "sha256": "329026b0390d0a4da69dd97d747c2ba2b445d831e39d0acc916c6d00c3ce4d2f"
+    },
+    {
+      "path": "replay_selection.py",
+      "bytes": 19693,
+      "sha256": "7201cba947b030f2ac85f594bd0b8240daeeb30281eae2073aee0394ad2ee304"
+    },
+    {
+      "path": "report.json",
+      "bytes": 11010,
+      "sha256": "3447587f377cd3b466894a2bf6d2763c140686696b14eed863757d4fb3b380be"
+    }
+  ]
+}

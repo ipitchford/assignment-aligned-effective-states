@@ -1,0 +1,36 @@
+{
+  "corrected_finalizer_ast_sha256": "f714a312e5696b5bec3b841adcfa314807c07cd3e62a8a4d996a78388441d2b5",
+  "correction": [
+    {
+      "after": ".stat().st_size",
+      "before": ".stat().st_size()",
+      "line": 186
+    }
+  ],
+  "correction_script_sha256": "4a3232b197a746d0746fd81e8521dd9077806ccbcb4c10a59148a1d0c0419b61",
+  "frozen_analyze_sha256": "da30e74f6da41bed82ab389df9030f42b434fcd979334b6a8880dcff5a384459",
+  "new_fits": 0,
+  "new_native_forwards": 0,
+  "new_statistical_analyses": 0,
+  "original_error": "TypeError: int object is not callable at .stat().st_size()",
+  "outputs": {
+    "REPORT.md": "57a119b1272de6854acd7cf2bd6f4edf66b4096e829df4a98e161542a660a59d",
+    "bootstrap_summary.csv": "f5f8df2961cc55ea8cb011254af1b4abcb7006f48bc60516326a926f5967baa1",
+    "cost_ledger.json": "13106c20d62faa58b71ca47b65d62029e5ddd31d503a76f19994e56efb21dc54",
+    "summary.json": "97c8ef7f3407fb253dd53dd950556eb2bc4c458b519569b6df3a3c05ee91466e",
+    "unit_summary.csv": "364ecb22d6f4e82c9e9edb3cc906192ece928b7071b754739e9624d3485fced0"
+  },
+  "preserved_original_driver_status": "ERROR_STOP",
+  "scientific_execution_status": "A,B,and16forwardreplaycompletedoncebeforeformattingerror",
+  "scientific_receipts_unchanged": {
+    "bootstrap_raw.npz": "9a209a05ffe419b2cde0edf982a94b54e825b69fab61db69050d80f82254a88c",
+    "edited_native.npz": "e8d6326d4190d71f3355018deb972b2524199e59ba673459a37f69a2a0cf22d1",
+    "execution.json": "2573688ffc3eac58b5cfb43c4cca9643f89abb10abc5d50f3ad195417b237495",
+    "original_native.npz": "54f86e7c03c2366345662ce65a90e62201d71869a60f88e5544a267b49e941c2",
+    "replay.json": "fdcc0065a1ce4352e0a18a7a6a529b6d54f026d17c28c1de22ed20790821a406",
+    "stage_a.json": "c0e01aabe7fd6548f039a1ab7a0621a1b420b41fc2e3b3dc539ce7faf401969a",
+    "stage_b.json": "6aceb517d8f87e90bbcd716595a07b1b2338596b819c05ff6ce535abdd6640f0",
+    "stage_b_raw.npz": "2167186a9824c51141ed63810a9753dcb563f968de6d0e433b36af876034c7c2"
+  },
+  "status": "CLERICAL_FINALIZATION_COMPLETE"
+}

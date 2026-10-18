@@ -1,0 +1,23 @@
+{
+  "certificate": "sum_j M_j*abs(10W2_int[j,k]\u2212sum_l W2_int[j,l])/(65536*10*4096*2^b_j)<=epsilon for every k",
+  "claim": "global box upper certificate for finite precision native-state report; not minimal-bit proof or semantic legibility",
+  "code": "floor(h_j*2^b_j/M_j), clipped to [0,2^b_j\u22121], interval midpoint reconstruction",
+  "cost": "sum_j b_j bits/state; twice that for pair; per-unit uniform arithmetic quantiser; fixed dense linear readout",
+  "designed_utc": "2026-10-15T21:17:10Z",
+  "domain": "all x_i in [0,16], 64 inputs, through exported ReLU model; any coordinate attenuation in [0,1]; all endpoint states inside certified hidden box",
+  "epsilons": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "gain_aware": "start b_j=0, increment j that minimizes max exact output bound; tie by sum bounds then lowest index; stop when max bound<=epsilon",
+  "hidden_box_bound_integer": "M_j=max(0,16*(sum_i max(W1_int[i,j],0)+b1_int[j]))",
+  "midpoint_factor": "single state bound uses half an interval; two endpoints consume a full interval, already included above",
+  "primary_epsilon": 1.0,
+  "response_decoder": "original fixed centered linear readout of reconstructed states; coefficient count10 times number of positive-range hidden units",
+  "test": "same frozen test banks and metrics as original experiment; no parameter refitting",
+  "timing": "supplementary design after original discovery results; before any locked test outcomes",
+  "uniform": "minimum common b satisfying exact paired bound for all10 output coordinates"
+}

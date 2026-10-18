@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "arithmetic": "Python arbitrary-precision endpoint logits and native predicate evaluation",
+  "test_outcomes_accessed": false,
+  "models_trained": false,
+  "features_selected": false,
+  "freeze_sha256": "60ee53497911c2b304dd93a3a6db64a35891f1ccf8af80d82a85d46435c03af0",
+  "input_sha256": {
+    "discovery_fit.npz": "5b264ba73ca53efdb372070b5bb12621596f0ab16fb79e5d0170a8c532edd388",
+    "contract.json": "a474e8b3e0f69b0ee85a6bc753562b5d2dc394878bb3269a8e733d791e0a160a",
+    "seed-117/model.npz": "be88d2d124382bbb7b1ab6975abe033f4157e52dc872fc6faf14944f3f492095",
+    "seed-117/report-native-8.npz": "7c3355687fe4605586eaece8a25d4663d1df72a5ce79ce34e3e606bc980377ca",
+    "seed-117/discovery_bank.npz": "4ba3cfe911335f1b3ab33a07b863d3dcdd7019b9c0a62f9321daf6308ed1556c",
+    "seed-129/model.npz": "3dee7b494a4db9d916025685a7cb8f29d620839ba943f8370d7a4758daf43799",
+    "seed-129/report-native-8.npz": "a1b3bfd11fdeea0acb4de9292dac8b79cacfc5b3780e665a53887dd08c3d9d5e",
+    "seed-129/discovery_bank.npz": "4e1e4c0c122f586c8f5e5917579d1f4675d448a04bae79c74d33bdcd353341ce",
+    "seed-143/model.npz": "d1dcfa11f4151c5a3aa20b850805035ebf4e40eb868c25d85df73f7a4e9de11d",
+    "seed-143/report-native-8.npz": "52555d5dfb6557aa53e4ac10fc2d1ed0087f9290419b290d664cf586c725d553",
+    "seed-143/discovery_bank.npz": "93f7a75e4dc8252472fa6dd35e63b0ee90f4446e9b31b5a9107d82f188e79273"
+  },
+  "verifier_sha256": "6b046c7d780914c5146ea250b57154d20dace7733afff2597488292e64e3fd67",
+  "results": [
+    {
+      "seed": 117,
+      "rows_replayed": 1904,
+      "subbank_rows": 15,
+      "targets_and_native_reports": "all exact matches"
+    },
+    {
+      "seed": 129,
+      "rows_replayed": 1904,
+      "subbank_rows": 15,
+      "targets_and_native_reports": "all exact matches"
+    },
+    {
+      "seed": 143,
+      "rows_replayed": 1904,
+      "subbank_rows": 15,
+      "targets_and_native_reports": "all exact matches"
+    }
+  ],
+  "scope": "exported model plus discovery-image linkage; not independent retraining or scientific replication"
+}

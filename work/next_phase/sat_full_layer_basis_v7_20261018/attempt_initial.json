@@ -1,0 +1,18 @@
+{
+  "environment": {
+    "einops": "0.8.1",
+    "numpy": "1.26.4",
+    "python": "3.11.14",
+    "torch": "2.1.2"
+  },
+  "freeze_sha256": "4662155b6d3e4d73a6a68a312bb1d1c402fec2a17aa691fee5882af642d9b8fb",
+  "host_fingerprint": {
+    "machine": "arm64",
+    "node": "Admins-Mac-mini.local",
+    "processor": "arm",
+    "torch_config_sha256": "34394c67c950ca9585d92f1aa7954ba28d61ed463002565e2d28363e24a949b4",
+    "torch_cpu_capability": "NO AVX"
+  },
+  "stage": "initial",
+  "started_utc": "2026-10-18T08:26:15.601705+00:00"
+}

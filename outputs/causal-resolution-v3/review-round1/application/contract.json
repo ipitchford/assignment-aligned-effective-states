@@ -1,0 +1,195 @@
+{
+  "controls": [
+    "training/export prediction agreement",
+    "full-state downstream identity gives exact response",
+    "same report-pair collision and signed-change decoder collision separated",
+    "holdout model/report hashes sealed before evaluating test",
+    "test cases and intervention magnitudes never used for feature or ridge selection",
+    "three predetermined model seeds; all seed results retained"
+  ],
+  "costs": {
+    "decoder": "10B binary64 coefficients; one fixed 10-vector baseline-only intercept",
+    "encoder": "number of nonzero fixed integer weights plus B thresholds, coefficient magnitude/precision retained",
+    "learned_feature_warning": "PCA is a learned linear direction baseline, not an SAE and not a semantic explanation",
+    "transmission": "B bits per state; 2B bits for the pair"
+  },
+  "created_utc": "2026-10-15T21:13:51Z",
+  "dataset": {
+    "citation_url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "n": 1797,
+    "name": "sklearn bundled UCI optical handwritten digits",
+    "normalisation": "integer pixel / 16",
+    "sha256": "09f66e6debdee2cd2b5ae59e0d6abbb73fc2b0e0185d2e1957e9ebb51e23aa22",
+    "source_file": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/datasets/data/digits.csv.gz",
+    "writer_identity": "not supplied; random stratified image split does not establish writer independence"
+  },
+  "decoder": {
+    "baseline_class_readout": "same B applied to T(h), with discovery-fit natural-state mean residual as intercept; diagnostic only",
+    "class": "linear in signed predicate differences; no intercept or interactions for response",
+    "final_fit": "discovery-fit only (validation never refitted)",
+    "formula": "B times (T(hprime)-T(h)); one shared B across groups, strengths and natural pairs",
+    "parameter_count": "10 times number of state predicates",
+    "ridge_grid": [
+      1e-06,
+      0.0001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "ridge_selection": "lowest discovery-validation response MSE; first grid value breaks ties"
+  },
+  "environment": {
+    "numpy": "2.4.2",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "interventions": {
+    "definition": "hprime_j=(1-strength)*h_j in one fixed 8-unit group; others unchanged",
+    "discovery_strengths": [
+      0.5,
+      1.0
+    ],
+    "groups": [
+      [
+        7,
+        31,
+        27,
+        4,
+        6,
+        20,
+        3,
+        12
+      ],
+      [
+        5,
+        22,
+        21,
+        25,
+        30,
+        19,
+        17,
+        16
+      ],
+      [
+        2,
+        11,
+        15,
+        9,
+        24,
+        28,
+        0,
+        8
+      ],
+      [
+        23,
+        13,
+        14,
+        29,
+        1,
+        26,
+        10,
+        18
+      ]
+    ],
+    "natural_bank": "cyclic pairs of distinct held-out inputs, replacing the whole nominated hidden state; separately reported",
+    "off_manifold": "group-damped hidden states are controlled mathematical interventions, not asserted to be natural images",
+    "test_seen_strengths": [
+      0.5,
+      1.0
+    ],
+    "test_unseen_strengths": [
+      0.25,
+      0.75
+    ]
+  },
+  "metrics": {
+    "collision_certificate": "within-report-pair coordinate range exceeds twice tolerance, exact integer comparisons; complete bank",
+    "coverage": "finite-bank statements, no population or semantic-completeness certification",
+    "decoder_summary_floor": "same variance after signed-difference aggregation, separately named",
+    "information_floor": "empirical within-identical-report-pair conditional variance; in-sample finite-bank oracle only",
+    "precision": "exact signed integer response numerator / 10737418240",
+    "primary_target": "10 centered logit changes (sum over outputs for squared error)",
+    "primary_tolerance": 1.0,
+    "sensitivity_tolerances": [
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "sensitivity_uniform_response_allowance": [
+      0,
+      0.125,
+      0.25,
+      0.5,
+      1
+    ]
+  },
+  "model": {
+    "activation": "ReLU",
+    "adam_lr_first_150": 0.003,
+    "adam_lr_last_50": 0.001,
+    "architecture": [
+      64,
+      32,
+      10
+    ],
+    "batch_size": 128,
+    "early_stopping": false,
+    "epochs": 200,
+    "export": "weights and biases rounded to integer / 4096; exact integer ReLU and centered-logit target",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "weight_decay": 0.0001
+  },
+  "repair": {
+    "additional_bits": 4,
+    "base": "native 8-bit report",
+    "candidate_pool": "native predicates at training quartiles 0.25,0.5,0.75, with duplicate integer predicates removed",
+    "claim": "measured discovery-selected refinement; success not assumed",
+    "naive_cost_matched": "12-bit native median report from original greedy ranking",
+    "selection": "four greedy additions minimizing discovery-fit response MSE, selection ridge=0.01; no validation or test targets in feature choice"
+  },
+  "report": {
+    "candidate_ranking": "greedy discovery-fit response mean-square error with selection ridge=0.01; same procedure for all families",
+    "context": "none; no input identity, label, intervention id or hidden state supplied to decoder",
+    "native_candidates": "32 individual units thresholded at train median",
+    "native_groups": "16 disjoint pairs, greedily strongest positive Pearson coactivation on training states; sum thresholded at train median",
+    "pca_candidates": "32 training covariance eigenvectors, integer coefficients rounded at scale4096, training-median predicates",
+    "primary_bits": 8,
+    "quantiles": "sorted integer linear-projection element at floor(q*(n-1)); predicate uses strict greater-than",
+    "state_bit_budgets": [
+      4,
+      8,
+      12,
+      16
+    ]
+  },
+  "split": {
+    "counts": {
+      "discovery_fit": 238,
+      "discovery_validation": 121,
+      "test": 364,
+      "train": 1074
+    },
+    "discovery_fit_fraction": 0.6666666666666666,
+    "files": {
+      "discovery_fit": "5b264ba73ca53efdb372070b5bb12621596f0ab16fb79e5d0170a8c532edd388",
+      "discovery_validation": "81a22d1823b18d657ae09676a39c4c4f154d7ab34fa2338837ca09de774c855b",
+      "test": "412c7adb8c4464a08c57f61be923e65ceba1db6d4851e9c084ecbacddbe012ea",
+      "train": "566fe156676903ff9935ebe06416f914f20e36fa24966073168956ea93680238"
+    },
+    "fractions": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "independent_units": "three model initialisations and held-out images; interventions of an image are dependent",
+    "seed": 20261015
+  },
+  "status": "frozen before training, report selection, or test evaluation; local prospective split, not external preregistration",
+  "version": 1
+}

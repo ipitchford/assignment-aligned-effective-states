@@ -1,0 +1,5 @@
+model,max_tested_percentile_abs_delta_le_1pp,max_tested_percentile_also_disagreement_le_5pct
+inception,75,50
+small,50,0
+medium,50,50
+large,75,50

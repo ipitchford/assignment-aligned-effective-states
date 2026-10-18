@@ -1,0 +1,47 @@
+{
+  "atol": 0.0001,
+  "caveat": "Downstream clamp with edited residual and all other postactivations fixed; potentially off-manifold, not upstream or unique causal routing.",
+  "max_abs_residual": 1.3476117686650468e-05,
+  "parity_pass": true,
+  "rtol": 1e-05,
+  "scope": "Float64 affine reconstruction from saved float32 tensors; not patched native inference.",
+  "status": "PASS_SECONDARY_ACCOUNTING_ONLY",
+  "summaries": {
+    "negative/nominated_pair": {
+      "clamp_nonanswer": 0,
+      "correct_to_wrong": 0,
+      "edited_endpoints": 128,
+      "mean_signed_sat_minus_unsat_contribution": 0.07533281651927026,
+      "nominal_changes": 0,
+      "stable_changes": 0,
+      "wrong_to_correct": 0
+    },
+    "negative/other_fixed_pair": {
+      "clamp_nonanswer": 0,
+      "correct_to_wrong": 0,
+      "edited_endpoints": 128,
+      "mean_signed_sat_minus_unsat_contribution": 0.007433936661684636,
+      "nominal_changes": 0,
+      "stable_changes": 0,
+      "wrong_to_correct": 0
+    },
+    "positive/nominated_pair": {
+      "clamp_nonanswer": 0,
+      "correct_to_wrong": 115,
+      "edited_endpoints": 128,
+      "mean_signed_sat_minus_unsat_contribution": 8.74182504777413,
+      "nominal_changes": 115,
+      "stable_changes": 115,
+      "wrong_to_correct": 0
+    },
+    "positive/other_fixed_pair": {
+      "clamp_nonanswer": 0,
+      "correct_to_wrong": 0,
+      "edited_endpoints": 128,
+      "mean_signed_sat_minus_unsat_contribution": 0.02463178242430441,
+      "nominal_changes": 0,
+      "stable_changes": 0,
+      "wrong_to_correct": 0
+    }
+  }
+}

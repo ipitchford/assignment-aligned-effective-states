@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "exact_threshold_cases": [
+    {
+      "delta": "0",
+      "lower": 3,
+      "upper": 3
+    },
+    {
+      "delta": "249999/1000000",
+      "lower": 3,
+      "upper": 3
+    },
+    {
+      "delta": "1/4",
+      "lower": 3,
+      "upper": 3
+    },
+    {
+      "delta": "250001/1000000",
+      "lower": 3,
+      "upper": 5
+    },
+    {
+      "delta": "499999/1000000",
+      "lower": 3,
+      "upper": 5
+    },
+    {
+      "delta": "1/2",
+      "lower": 1,
+      "upper": 5
+    },
+    {
+      "delta": "500001/1000000",
+      "lower": 1,
+      "upper": 5
+    },
+    {
+      "delta": "3/4",
+      "lower": 1,
+      "upper": 5
+    }
+  ],
+  "invalid_inputs_rejected": 5,
+  "interpretation": "outer bracket; no sharp identification claim"
+}

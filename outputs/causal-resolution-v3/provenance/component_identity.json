@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "manifests": [
+    {
+      "manifest": "application/MANIFEST.json",
+      "sha256": "28ad37684470f06ce292d7ae2f8690f88905d27137b48fbb2a8bdac5810c0db8",
+      "files_checked": 122,
+      "shared_dependencies_checked": 0
+    },
+    {
+      "manifest": "nonlinear_application/MANIFEST.json",
+      "sha256": "14ba41309fae148ba51fb0dca2c7dd9755b2d00b86ca646ea20269854f3b278b",
+      "files_checked": 43,
+      "shared_dependencies_checked": 1
+    },
+    {
+      "manifest": "nonlinear_certificates/MANIFEST.json",
+      "sha256": "d0b9612f390049ae46f72afcdce7095472281b5561fa2904113681a8c4d47a48",
+      "files_checked": 10,
+      "shared_dependencies_checked": 0
+    },
+    {
+      "manifest": "prospective_application/MANIFEST.json",
+      "sha256": "5fd5845de4ee8221e447a975d4913c375b48cc94664d9a65175704c6f0e1de65",
+      "files_checked": 152,
+      "shared_dependencies_checked": 39
+    },
+    {
+      "manifest": "prospective_theory/manifest.json",
+      "sha256": "01f70a3e35063a9ebd9f1c392ea668f49d914535c14bd48db1610eea5de5608a",
+      "files_checked": 5,
+      "shared_dependencies_checked": 0
+    }
+  ],
+  "failures": [],
+  "scope": "identity of sealed component files and shared dependencies; not a scientific correctness claim",
+  "post_round2_checker_hardening": true
+}

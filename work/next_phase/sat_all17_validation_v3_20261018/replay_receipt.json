@@ -1,0 +1,76 @@
+{
+  "batch_calls": 1,
+  "batch_size_ceiling": 256,
+  "code_sha256": {
+    "analyze.py": "f28a948bcfc99357274055b895722229c7fa46a929b3e6d8920fdc8c23811104",
+    "construct.py": "bf2386e7e2a9b4b163b572971675eb4286da51d4c30100dd26d36b1d80647786",
+    "native.py": "0b2358f9baf91f7e9e677d1509b5d7d26c24b9de7b45b643fc2b3601eaaebea9",
+    "pilot_common.py": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61",
+    "protocol.md": "0d1ca217703702983975fbaa7f0da4fbf7fc2c91202ef5c9a8e9e9ef9a11285e",
+    "protocol.py": "fc145e900e0f63da0c99727bc61f912513fd965dff03eeb642715d93b3f6d4a8",
+    "runtime_source_snapshot.py": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230",
+    "selfcheck.json": "fe19a06706f7d7065f4cde21372eb7171cc56867aa080601d289db03cd120e59",
+    "selfcheck.py": "71b6b4384c98b123adb335100bea7a59d724ea555328bbf0c512554acf4a6985",
+    "source_bindings.md": "eba838ebe1a79cdd41c756adae4e39271b6baa9d2f8cc202274cebef367f260b",
+    "verify_bank.py": "7b25a66e7bb71969d719141204a4ccecae30f03c71655a081746a71d4ac25b4e"
+  },
+  "environment": {
+    "einops": "0.8.1",
+    "numpy": "1.26.4",
+    "python": "3.11.14",
+    "torch": "2.1.2"
+  },
+  "freeze_sha256": "77ac6f5f3c41abce5c90e538ad9a6856e7869d872c590d713f3b684eae177b80",
+  "input_forwards": 8,
+  "max_absolute_pre_difference": 0.0,
+  "model": {
+    "checkpoint_epoch": 900,
+    "checkpoint_keys": [
+      "epoch",
+      "model",
+      "test_loss",
+      "train_loss"
+    ],
+    "checkpoint_sha256": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d",
+    "device": "cpu",
+    "dtype": "torch.float32",
+    "model_source_sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+    "original_class_ast_sha256": {
+      "Attention": "cfbc6f8fb839f1e58e4593a7430d81ac64cc1fe103dc915522327d2ec9dbbf85",
+      "Config": "b20e246383b5ea150bf4c859fed66fee6f4a825a7ccba86ec4b0f90dc57a0111",
+      "Embed": "1a3c2085ea62c8663b134808585fb6c22e69787653ccca1d2bc5860b96835767",
+      "HookPoint": "099d7168c7c37d65b6f2ad57abe74c5e777f5734a4e784cf53b18fa57bdf0e62",
+      "LayerNorm": "241aaecc0868e84d78b52e16919c3123c584642867b74479c2ffacc8e621d6bf",
+      "MLP": "3c09371bfc4a32eb9797a6eef3c0b058c39e742023892f9194c985daa23f101a",
+      "PosEmbed": "8311b851a54f81f9c342b91228ce97c5130327e1fb915759719dd36e1d5989c0",
+      "Transformer": "f6e76bc317c2df9da208335e8692df4a5ce999bbeb0f08b19e7b91b37719e4a8",
+      "TransformerBlock": "450cfea5b49ec212888403c6f462ec16a2817a1517808d9b9315fb6ff7af2947",
+      "TransformerBlockNoMLP": "f616edde654b37903bf55b1d2e87ca6fefd54115fb2f2621737ebebd25afe473",
+      "Unembed": "1d209cf547e5fc2a156b4e1d4d284f723265906cc512a1436d7250ef6c363ea8"
+    },
+    "parameter_count": 403840,
+    "state_entries": 21,
+    "strict_state_load": true,
+    "threads": 2
+  },
+  "native_outputs_sha256": "20c3a3dbb0c5a161d5a53e12542e3ae2da88f55ca5df78d15305fa2de3a39fc6",
+  "output_sha256": "5d9c9c0eab5b71055ec4b4b5f643c9726d447928f735785e98e5a8d01019ec21",
+  "preactivation_allclose": true,
+  "runtime_sha256": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230",
+  "same_task_argmax": true,
+  "same_threshold_bits": true,
+  "scope": "unchanged published CPU float32 checkpoint; seventeen source-nominated units and full task logits",
+  "selected_bank_sha256": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+  "selfcheck_sha256": "fe19a06706f7d7065f4cde21372eb7171cc56867aa080601d289db03cd120e59",
+  "source_bindings": {
+    "helpers_py_sha256": "ece43db7317fa8e3ad6cb6fb40bb1ba9f98ecd9191cbec6689b0bc67c0a268fe",
+    "interpretation_py_sha256": "b8f87ceaecb0c2449f3f626983ec028f2d3661c394d08f7d96641f4e06ba2177"
+  },
+  "source_sha256": {
+    "helpers.py": "ece43db7317fa8e3ad6cb6fb40bb1ba9f98ecd9191cbec6689b0bc67c0a268fe",
+    "interpretation.py": "b8f87ceaecb0c2449f3f626983ec028f2d3661c394d08f7d96641f4e06ba2177",
+    "source_mapping.json": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d"
+  },
+  "stage": "replay",
+  "status": "PASS"
+}

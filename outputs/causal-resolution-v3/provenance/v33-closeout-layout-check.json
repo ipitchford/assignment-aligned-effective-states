@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "PDF rendering and visual layout only",
+  "pdf_sha256": "9d22ea1a5798e0d0e819dabe05fa52ea506c92a03dc30e536b1031a38a9e0df3",
+  "manuscript_sha256": "13cd561ef4d30736cbed28bfa0c008c0ce0e06d3ae449a43f8e2c023bf86ee77",
+  "pages": 37,
+  "text_spans_outside_page": 0,
+  "render_receipt_sha256": "1c9b1055be3c8588565032290d6861c0c61e02d1a336f663436bb3e7aaddd179",
+  "changed_raster_pages": [2,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,37],
+  "visual_review": {
+    "contact_sheet_pages": "11 through 37",
+    "full_page_inspection": [2,15,16],
+    "result": "No clipped or overlapping content observed; the revised contents entries, construction paragraph and audit scope are readable. Unchanged pages retain their prior visual checks."
+  },
+  "compiler_warnings": "Only the three existing 0.11604-point table alignment warnings remain. The transient long-path overflow was corrected before installation.",
+  "reader_language_scan": "Zero assessment-rating matches in Markdown, LaTeX, abstracts, visible PDF text and PDF metadata; exact counts are retained in v33-construction-closeout.json.",
+  "editorial_scope": "The fresh private editorial assessment binds the preceding manuscript; this receipt is not a new contribution assessment."
+}

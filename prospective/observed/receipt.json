@@ -1,0 +1,592 @@
+{
+  "status": "PASS",
+  "scope": "balanced class-conditional distinct-clause source-grammar bank, same checkpoint; historical exclusions, not natural prevalence or independent checkpoint replication",
+  "bank_sha256": "f2d30d0f09dab11c6e06859f4e8b1630a652eb77a5e1d7bfc02e9e3706bd0e13",
+  "freeze_sha256": "9ee46c4c3392cc9d2eb4520b0c23bae43ffbe838c9ce0f858555a066225bf434",
+  "outputs_sha256": "ed534712e0451cc76b0e9f0bdf24ae4ec39949495fc1cbf00fdee7501f3645dd",
+  "rows": 4096,
+  "batches": 16,
+  "replayed_rows": 256,
+  "batch_replay_bitwise_equal": true,
+  "model": {
+    "checkpoint_sha256": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d",
+    "model_source_sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+    "original_class_ast_sha256": {
+      "Config": "b20e246383b5ea150bf4c859fed66fee6f4a825a7ccba86ec4b0f90dc57a0111",
+      "HookPoint": "099d7168c7c37d65b6f2ad57abe74c5e777f5734a4e784cf53b18fa57bdf0e62",
+      "Embed": "1a3c2085ea62c8663b134808585fb6c22e69787653ccca1d2bc5860b96835767",
+      "Unembed": "1d209cf547e5fc2a156b4e1d4d284f723265906cc512a1436d7250ef6c363ea8",
+      "PosEmbed": "8311b851a54f81f9c342b91228ce97c5130327e1fb915759719dd36e1d5989c0",
+      "LayerNorm": "241aaecc0868e84d78b52e16919c3123c584642867b74479c2ffacc8e621d6bf",
+      "Attention": "cfbc6f8fb839f1e58e4593a7430d81ac64cc1fe103dc915522327d2ec9dbbf85",
+      "MLP": "3c09371bfc4a32eb9797a6eef3c0b058c39e742023892f9194c985daa23f101a",
+      "TransformerBlock": "450cfea5b49ec212888403c6f462ec16a2817a1517808d9b9315fb6ff7af2947",
+      "TransformerBlockNoMLP": "f616edde654b37903bf55b1d2e87ca6fefd54115fb2f2621737ebebd25afe473",
+      "Transformer": "f6e76bc317c2df9da208335e8692df4a5ce999bbeb0f08b19e7b91b37719e4a8"
+    },
+    "checkpoint_keys": [
+      "epoch",
+      "model",
+      "test_loss",
+      "train_loss"
+    ],
+    "checkpoint_epoch": 900,
+    "parameter_count": 403840,
+    "state_entries": 21,
+    "strict_state_load": true,
+    "device": "cpu",
+    "threads": 2,
+    "dtype": "torch.float32"
+  },
+  "environment": {
+    "python": "3.11.14",
+    "numpy": "1.26.4",
+    "torch": "2.1.2"
+  },
+  "assignment_macro_auroc": 0.9974772794362474,
+  "unit_min_auroc": 0.9898869346733669,
+  "per_unit": [
+    {
+      "unit": 10,
+      "assignment_id_msb_x0": 16,
+      "auroc": 0.9974988305005458,
+      "positive_detected": 117,
+      "positive_total": 121,
+      "negative_detected": 53,
+      "negative_total": 3975,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 32,
+          "denominator": 33
+        },
+        "multi_positive": {
+          "detected": 85,
+          "denominator": 88
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 17,
+          "denominator": 862
+        },
+        "multi_negative": {
+          "detected": 36,
+          "denominator": 1065
+        }
+      }
+    },
+    {
+      "unit": 41,
+      "assignment_id_msb_x0": 0,
+      "auroc": 0.9990965793544414,
+      "positive_detected": 134,
+      "positive_total": 137,
+      "negative_detected": 21,
+      "negative_total": 3959,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 29,
+          "denominator": 30
+        },
+        "multi_positive": {
+          "detected": 105,
+          "denominator": 107
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 5,
+          "denominator": 865
+        },
+        "multi_negative": {
+          "detected": 16,
+          "denominator": 1046
+        }
+      }
+    },
+    {
+      "unit": 55,
+      "assignment_id_msb_x0": 28,
+      "auroc": 0.9932456302115851,
+      "positive_detected": 83,
+      "positive_total": 113,
+      "negative_detected": 34,
+      "negative_total": 3983,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 20,
+          "denominator": 32
+        },
+        "multi_positive": {
+          "detected": 63,
+          "denominator": 81
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 14,
+          "denominator": 863
+        },
+        "multi_negative": {
+          "detected": 20,
+          "denominator": 1072
+        }
+      }
+    },
+    {
+      "unit": 77,
+      "assignment_id_msb_x0": 7,
+      "auroc": 0.99798976206692,
+      "positive_detected": 135,
+      "positive_total": 138,
+      "negative_detected": 39,
+      "negative_total": 3958,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 29,
+          "denominator": 29
+        },
+        "multi_positive": {
+          "detected": 106,
+          "denominator": 109
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 17,
+          "denominator": 866
+        },
+        "multi_negative": {
+          "detected": 22,
+          "denominator": 1044
+        }
+      }
+    },
+    {
+      "unit": 81,
+      "assignment_id_msb_x0": 14,
+      "auroc": 0.9919738101233946,
+      "positive_detected": 88,
+      "positive_total": 125,
+      "negative_detected": 50,
+      "negative_total": 3971,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 18,
+          "denominator": 29
+        },
+        "multi_positive": {
+          "detected": 70,
+          "denominator": 96
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 18,
+          "denominator": 866
+        },
+        "multi_negative": {
+          "detected": 32,
+          "denominator": 1057
+        }
+      }
+    },
+    {
+      "unit": 185,
+      "assignment_id_msb_x0": 3,
+      "auroc": 1.0,
+      "positive_detected": 121,
+      "positive_total": 121,
+      "negative_detected": 0,
+      "negative_total": 3975,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 27,
+          "denominator": 27
+        },
+        "multi_positive": {
+          "detected": 94,
+          "denominator": 94
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 0,
+          "denominator": 868
+        },
+        "multi_negative": {
+          "detected": 0,
+          "denominator": 1059
+        }
+      }
+    },
+    {
+      "unit": 224,
+      "assignment_id_msb_x0": 1,
+      "auroc": 1.0,
+      "positive_detected": 132,
+      "positive_total": 132,
+      "negative_detected": 0,
+      "negative_total": 3964,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 27,
+          "denominator": 27
+        },
+        "multi_positive": {
+          "detected": 105,
+          "denominator": 105
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 0,
+          "denominator": 868
+        },
+        "multi_negative": {
+          "detected": 0,
+          "denominator": 1048
+        }
+      }
+    },
+    {
+      "unit": 245,
+      "assignment_id_msb_x0": 9,
+      "auroc": 0.9983540669856459,
+      "positive_detected": 123,
+      "positive_total": 125,
+      "negative_detected": 40,
+      "negative_total": 3971,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 24,
+          "denominator": 24
+        },
+        "multi_positive": {
+          "detected": 99,
+          "denominator": 101
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 9,
+          "denominator": 871
+        },
+        "multi_negative": {
+          "detected": 31,
+          "denominator": 1052
+        }
+      }
+    },
+    {
+      "unit": 261,
+      "assignment_id_msb_x0": 27,
+      "auroc": 0.9990899968070064,
+      "positive_detected": 102,
+      "positive_total": 110,
+      "negative_detected": 14,
+      "negative_total": 3986,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 18,
+          "denominator": 19
+        },
+        "multi_positive": {
+          "detected": 84,
+          "denominator": 91
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 4,
+          "denominator": 876
+        },
+        "multi_negative": {
+          "detected": 10,
+          "denominator": 1062
+        }
+      }
+    },
+    {
+      "unit": 291,
+      "assignment_id_msb_x0": 23,
+      "auroc": 0.9992079665365862,
+      "positive_detected": 120,
+      "positive_total": 122,
+      "negative_detected": 20,
+      "negative_total": 3974,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 31,
+          "denominator": 31
+        },
+        "multi_positive": {
+          "detected": 89,
+          "denominator": 91
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 3,
+          "denominator": 864
+        },
+        "multi_negative": {
+          "detected": 17,
+          "denominator": 1062
+        }
+      }
+    },
+    {
+      "unit": 317,
+      "assignment_id_msb_x0": 17,
+      "auroc": 1.0,
+      "positive_detected": 96,
+      "positive_total": 98,
+      "negative_detected": 0,
+      "negative_total": 3998,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 23,
+          "denominator": 23
+        },
+        "multi_positive": {
+          "detected": 73,
+          "denominator": 75
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 0,
+          "denominator": 872
+        },
+        "multi_negative": {
+          "detected": 0,
+          "denominator": 1078
+        }
+      }
+    },
+    {
+      "unit": 326,
+      "assignment_id_msb_x0": 30,
+      "auroc": 0.9984704986896871,
+      "positive_detected": 101,
+      "positive_total": 104,
+      "negative_detected": 23,
+      "negative_total": 3992,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 31,
+          "denominator": 31
+        },
+        "multi_positive": {
+          "detected": 70,
+          "denominator": 73
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 8,
+          "denominator": 864
+        },
+        "multi_negative": {
+          "detected": 15,
+          "denominator": 1080
+        }
+      }
+    },
+    {
+      "unit": 380,
+      "assignment_id_msb_x0": 19,
+      "auroc": 1.0,
+      "positive_detected": 115,
+      "positive_total": 116,
+      "negative_detected": 0,
+      "negative_total": 3980,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 21,
+          "denominator": 21
+        },
+        "multi_positive": {
+          "detected": 94,
+          "denominator": 95
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 0,
+          "denominator": 874
+        },
+        "multi_negative": {
+          "detected": 0,
+          "denominator": 1058
+        }
+      }
+    },
+    {
+      "unit": 411,
+      "assignment_id_msb_x0": 25,
+      "auroc": 0.9898869346733669,
+      "positive_detected": 93,
+      "positive_total": 116,
+      "negative_detected": 53,
+      "negative_total": 3980,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 16,
+          "denominator": 21
+        },
+        "multi_positive": {
+          "detected": 77,
+          "denominator": 95
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 23,
+          "denominator": 874
+        },
+        "multi_negative": {
+          "detected": 30,
+          "denominator": 1058
+        }
+      }
+    },
+    {
+      "unit": 416,
+      "assignment_id_msb_x0": 28,
+      "auroc": 0.9905194421423794,
+      "positive_detected": 90,
+      "positive_total": 113,
+      "negative_detected": 60,
+      "negative_total": 3983,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 20,
+          "denominator": 32
+        },
+        "multi_positive": {
+          "detected": 70,
+          "denominator": 81
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 20,
+          "denominator": 863
+        },
+        "multi_negative": {
+          "detected": 40,
+          "denominator": 1072
+        }
+      }
+    },
+    {
+      "unit": 492,
+      "assignment_id_msb_x0": 21,
+      "auroc": 0.9966786790017211,
+      "positive_detected": 111,
+      "positive_total": 112,
+      "negative_detected": 72,
+      "negative_total": 3984,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 27,
+          "denominator": 27
+        },
+        "multi_positive": {
+          "detected": 84,
+          "denominator": 85
+        },
+        "unsat_negative": {
+          "detected": 1,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 24,
+          "denominator": 868
+        },
+        "multi_negative": {
+          "detected": 47,
+          "denominator": 1068
+        }
+      }
+    },
+    {
+      "unit": 495,
+      "assignment_id_msb_x0": 2,
+      "auroc": 0.9995068100636619,
+      "positive_detected": 153,
+      "positive_total": 157,
+      "negative_detected": 19,
+      "negative_total": 3939,
+      "threshold_cells": {
+        "sole_positive": {
+          "detected": 38,
+          "denominator": 38
+        },
+        "multi_positive": {
+          "detected": 115,
+          "denominator": 119
+        },
+        "unsat_negative": {
+          "detected": 0,
+          "denominator": 2048
+        },
+        "sole_negative": {
+          "detected": 7,
+          "denominator": 857
+        },
+        "multi_negative": {
+          "detected": 12,
+          "denominator": 1034
+        }
+      }
+    }
+  ],
+  "task": {
+    "correct": 4087,
+    "total": 4096,
+    "non_answer_argmax": 0,
+    "sat": {
+      "correct": 2042,
+      "total": 2048
+    },
+    "unsat": {
+      "correct": 2045,
+      "total": 2048
+    }
+  },
+  "fitted_truth_classifier_endpoint": "not run: no persisted fitted models, and no new fit authorized by this evaluator",
+  "history_scope": "25 packaged token arrays and additional whole-formula clause scans; unavailable training/test corpus not checked; no signed-permutation exclusion"
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-15T21:16:24Z",
+  "files": {
+    "supplementary_contract.json": "361e10b24eb06cfe13b3d22d281d5e314f3d63ad724612e381fae539faa543e1",
+    "discovery_audit.py": "42b8bb5dd749063dba4a86e79df1f0d5ca7826fac41abf66dc280ea88ba33377",
+    "affine_audit.py": "17ebaa8531e867cd28d6eb4e26617ab7872151c8d7467e3e19e6e424cfd5ae13",
+    "seed-17/discovery_audit.json": "3af366697cffe17a12f328182be8c5323acff01325eed054a0ab9f7ea1514b4f",
+    "seed-17/selected_decoder.npz": "7d416180e2a8d43ab3dd43c8b0cc1b925f764c8c9b8e3d40558d1e0251b55db7",
+    "seed-29/discovery_audit.json": "223d2d27e125269250a4340e382c79a17995fb8f33d2b2b731650a6abc18316e",
+    "seed-29/selected_decoder.npz": "d4bcd0cbd7d824c3c3d64553c0fd1d3718749033aa115e93e49c8c195ad43118",
+    "seed-43/discovery_audit.json": "25b4f5d7b2d13e87ac3ee47dfd20a260b2ea4c0fd66b475cb4f37f3832911f11",
+    "seed-43/selected_decoder.npz": "8cf40bfa2d164f52433091a815d1359663cafd3b4222a95d83ed99f9b50ae444"
+  }
+}

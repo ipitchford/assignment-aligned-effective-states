@@ -1,0 +1,8 @@
+{
+  "analysis_sha256": "4927369087d06a7037f1cffed4445ca8b2ca17e7f39feaeacf61c1c4827dc9b1",
+  "figure_scope": "protected full-layer result plus explicitly post hoc selection and readout diagnostics",
+  "native_outputs_sha256": "94a27ab24bd57baabf2ae42c8b388842df94e97c41420d1a2822e2a1ba7958f6",
+  "posthoc_sha256": "2376633ac87df3821c403fac49b600d65ec80fb1c8c3a36aa6cfede8a7586322",
+  "selected_bank_sha256": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+  "status": "PASS"
+}

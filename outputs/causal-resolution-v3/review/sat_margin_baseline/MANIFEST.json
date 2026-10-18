@@ -1,0 +1,26 @@
+{
+  "reviewed_manifest_sha256": "3a2c115056d9512d72095f96e8a6766691663122a2c10997496e70e21a31edc5",
+  "status": "PASS_WITH_MINOR_WORDING_NOTE",
+  "files": {
+    "bootstrap_recomputed.npz": {
+      "sha256": "0f0d85f70ee294f629f92532358c5e2b40cd12b7b0bf869b9b3172cd6526dd03",
+      "bytes": 714812
+    },
+    "checks.json": {
+      "sha256": "440083bdcc9c47aaecb85cccc0a5fe142ba9f55cb097aec623779c83f1da203b",
+      "bytes": 160835
+    },
+    "correctness.md": {
+      "sha256": "9da96a18ec5a1b9901be9e0f402db07da4fe61870f7d0d71e08cd8bb82c44e3d",
+      "bytes": 8880
+    },
+    "recompute.py": {
+      "sha256": "a59fbc0367c6096d735a856044c52190826c13527c3b12ad31d3604c82b7b900",
+      "bytes": 20634
+    },
+    "unit_metrics_recomputed.csv": {
+      "sha256": "f0ebb733b0a9d0753b9845c8f0dbd8033d6dd307183f3065837b9530fcf17032",
+      "bytes": 6983
+    }
+  }
+}

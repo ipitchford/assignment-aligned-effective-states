@@ -1,0 +1,204 @@
+{
+  "component": "deterministic_geometry_failure",
+  "files": {
+    "PACKAGE_MANIFEST.json": {
+      "bytes": 8264,
+      "sha256": "d5b7550fe12d3cea7f9f9d15f62fe9c0a5573298593243c5e20bc5cb95f89a9d"
+    },
+    "README.md": {
+      "bytes": 4177,
+      "sha256": "caa159f8d57a4544ef49d2a16a76d741117a84e4e1daa647b8f73fe0cfc666d8"
+    },
+    "SOURCE_COPY_MAP.json": {
+      "bytes": 15012,
+      "sha256": "3eef6618d00a8ea791cf38f66861c9aee4ba5af48ee32e33fad867a2680b0855"
+    },
+    "assessor_rubric.md": {
+      "bytes": 2107,
+      "sha256": "201981dad8f48ccfd97882384515a59ce4cdeb6a817a64c33186e5cab0c1faff"
+    },
+    "blinding_map.json": {
+      "bytes": 267,
+      "sha256": "e017f868bc46f205fb503e0f691990a41831fd4a12b84e8117a67762056d7800"
+    },
+    "check_saved.py": {
+      "bytes": 9345,
+      "sha256": "22ae0cdd22056ad2f51ad90378afa660533e98bdfbbfaffacb8e3435fe8fb596"
+    },
+    "construct.py": {
+      "bytes": 21478,
+      "sha256": "aa7fded7ffb30b9d52da013e75e1ebceb969053469c1a35bca0ba5f37d794c1d"
+    },
+    "geometry.py": {
+      "bytes": 7256,
+      "sha256": "7670c2c0393eeb3186b11f5ae2ff9bab909f9b9ed606ccf1db8572609b339291"
+    },
+    "implementation_notes.md": {
+      "bytes": 6350,
+      "sha256": "bb169f3f707d811fdd56ac42465c25e2a0bd4ef0ff70b596d52933304fb82bd9"
+    },
+    "inspection_crop.png": {
+      "bytes": 59393,
+      "sha256": "692c895a0014b2364677fff74940971f88a8c435a410c985acc0a04955683eba"
+    },
+    "internal_review/deterministic_geometry_code_admission.md": {
+      "bytes": 7970,
+      "sha256": "b06ca7d2ee09d913bf18195cec6e1a539993ebafcaff0ec945aa9dc244321236"
+    },
+    "internal_review/deterministic_geometry_feasibility_admission.md": {
+      "bytes": 6726,
+      "sha256": "bbf16efcfd406d0f6f28136cb7948d858c4e00597050c71642e4d0ace1edc699"
+    },
+    "internal_review/deterministic_geometry_inverse_review_check.json": {
+      "bytes": 855,
+      "sha256": "f47f36ef3fd2e4d12d3bfd50a33a2898d117d745714d07515d495c215f8fd952"
+    },
+    "internal_review/deterministic_geometry_inverse_review_check.py": {
+      "bytes": 2357,
+      "sha256": "06dc4653e50ae2dcfcd307726b06422f2317a0c7c9b553f176ddc148a02e6b40"
+    },
+    "internal_review/deterministic_geometry_selection_review_check.json": {
+      "bytes": 480,
+      "sha256": "3ca0c920857862ffb76cc077614a29a9596f997e9359ba0f8d8cc79e4f038cb7"
+    },
+    "internal_review/deterministic_geometry_selection_review_check.py": {
+      "bytes": 3895,
+      "sha256": "81da9fb08edf41b4a12a90509da28659ef211b7183559a451e60e2819e81512e"
+    },
+    "numeric_checker.py": {
+      "bytes": 6414,
+      "sha256": "2b8b6d21931b216efb9cce52943ade63ec212abc3fddb4cc744cd539b2e7269e"
+    },
+    "pre_render_freeze/admission.md": {
+      "bytes": 7970,
+      "sha256": "b06ca7d2ee09d913bf18195cec6e1a539993ebafcaff0ec945aa9dc244321236"
+    },
+    "pre_render_freeze/assessor_rubric.md": {
+      "bytes": 2107,
+      "sha256": "201981dad8f48ccfd97882384515a59ce4cdeb6a817a64c33186e5cab0c1faff"
+    },
+    "pre_render_freeze/blinding_map.json": {
+      "bytes": 267,
+      "sha256": "e017f868bc46f205fb503e0f691990a41831fd4a12b84e8117a67762056d7800"
+    },
+    "pre_render_freeze/code/check_saved.py": {
+      "bytes": 9345,
+      "sha256": "22ae0cdd22056ad2f51ad90378afa660533e98bdfbbfaffacb8e3435fe8fb596"
+    },
+    "pre_render_freeze/code/construct.py": {
+      "bytes": 21478,
+      "sha256": "aa7fded7ffb30b9d52da013e75e1ebceb969053469c1a35bca0ba5f37d794c1d"
+    },
+    "pre_render_freeze/code/geometry.py": {
+      "bytes": 7256,
+      "sha256": "7670c2c0393eeb3186b11f5ae2ff9bab909f9b9ed606ccf1db8572609b339291"
+    },
+    "pre_render_freeze/code/numeric_checker.py": {
+      "bytes": 6414,
+      "sha256": "2b8b6d21931b216efb9cce52943ade63ec212abc3fddb4cc744cd539b2e7269e"
+    },
+    "pre_render_freeze/code/static_selfcheck.py": {
+      "bytes": 4919,
+      "sha256": "09cc7b5cccbc7748a31d503c88e3178deb0941ffe11719166c53d60a9a595dc5"
+    },
+    "pre_render_freeze/freeze.json": {
+      "bytes": 4810,
+      "sha256": "6083d0bfe7c1eb05c8fb2e28d84c8197cbec02380e192a7dcc75eb4d95a89d96"
+    },
+    "pre_render_freeze/implementation_notes.md": {
+      "bytes": 6350,
+      "sha256": "bb169f3f707d811fdd56ac42465c25e2a0bd4ef0ff70b596d52933304fb82bd9"
+    },
+    "pre_render_freeze/protocol.md": {
+      "bytes": 9188,
+      "sha256": "693ad82df8cd6eb5753de64511056c12d430b12b0fdfbfec9e43d321a43e3aa0"
+    },
+    "pre_render_freeze/runtime_and_parameters.json": {
+      "bytes": 5326,
+      "sha256": "1fdc6268fc4f623d3ba45313c229077213b68fb7af7b0a42a80cb939027cc8a6"
+    },
+    "pre_render_freeze/source.webp": {
+      "bytes": 65028,
+      "sha256": "5c0aafee83e3e04fba7fc989ec547f90f845a920ff010c6a3a86fbda0f99a4c2"
+    },
+    "pre_render_freeze/static_selfcheck_receipt.json": {
+      "bytes": 5479,
+      "sha256": "6185a08470bce7a084af5ba08f55003879055c01edb52321662e1b3c6f311598"
+    },
+    "protocol.md": {
+      "bytes": 9188,
+      "sha256": "693ad82df8cd6eb5753de64511056c12d430b12b0fdfbfec9e43d321a43e3aa0"
+    },
+    "replay_evidence/original_saved_check_receipt.json": {
+      "bytes": 5071,
+      "sha256": "ea59021fa56c612e5facf012afec9984befe6618d67eb0d0a5261502e247f19d"
+    },
+    "replay_saved.py": {
+      "bytes": 3120,
+      "sha256": "3739ef49cff81df833d35ebe758a4b215ecd4e7d7f9c1d1b478aa03c8497c7b9"
+    },
+    "run/candidate_attempts.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "run/candidate_measurements.csv": {
+      "bytes": 211,
+      "sha256": "a7abf0f013103001d3918885f2973208a90c966683da04f7141b776b358f8ebd"
+    },
+    "run/candidate_measurements.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "run/canonical224/original.png": {
+      "bytes": 81268,
+      "sha256": "01cfe9a926a80415c0de38da26d860aaeed869c0202c1315995c2a57192ba27c"
+    },
+    "run/canonical224/rounded.png": {
+      "bytes": 81248,
+      "sha256": "3262ded20ec08cfa91ddfd1a2a0d9c5b661b30a26fb5c5052f29a9becce89882"
+    },
+    "run/fields/rescue.npz": {
+      "bytes": 166712,
+      "sha256": "7adecf1ddeef8a5ecc894c361819917612a75eccfe5f34c6678aeddb9dd4fc95"
+    },
+    "run/fields/rounded.npz": {
+      "bytes": 166570,
+      "sha256": "cc9dde484a86db4e3dc12c0024acda0d97be16d0d2c893e3a1bbc426368f759c"
+    },
+    "run/manifest.json": {
+      "bytes": 2155,
+      "sha256": "2a8f2e8c4220aa3c6b54db12e6c7d30dd231ae6dfb8a9c2d3a882e6b1810351d"
+    },
+    "run/roles/original.png": {
+      "bytes": 392473,
+      "sha256": "e852de81d5a488a316d53ebfb2049008c757c881ae133444b87d711b4faa9a8c"
+    },
+    "run/roles/rounded.png": {
+      "bytes": 392443,
+      "sha256": "98ec4c1cc60720532e6031547d7afde2014ffac3f720993a5af5539fc096051b"
+    },
+    "run/run.json": {
+      "bytes": 6635,
+      "sha256": "38d2cd3acfb094a89d23f1f329cc4fc0375855f63a5decb8a312c0a979e0319a"
+    },
+    "run/source_frame_profiles.npz": {
+      "bytes": 3848,
+      "sha256": "6569ee41638ab2623f4a85c7d5210ab69642373217750b951721b582c53aee90"
+    },
+    "run/started.json": {
+      "bytes": 219,
+      "sha256": "7c3bf08d5129cefebfe5670a9b9c44f92e2667ac6bba52fa0daa0231df0ded56"
+    },
+    "static_selfcheck.py": {
+      "bytes": 4919,
+      "sha256": "09cc7b5cccbc7748a31d503c88e3178deb0941ffe11719166c53d60a9a595dc5"
+    },
+    "static_selfcheck_receipt.json": {
+      "bytes": 5479,
+      "sha256": "6185a08470bce7a084af5ba08f55003879055c01edb52321662e1b3c6f311598"
+    }
+  },
+  "package_manifest_sha256": "d5b7550fe12d3cea7f9f9d15f62fe9c0a5573298593243c5e20bc5cb95f89a9d",
+  "scope": "Exact copy only; preserved construction failure, no new rendering or neural inference.",
+  "status": "PASS"
+}

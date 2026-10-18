@@ -1,0 +1,17 @@
+scope,qclass,action,n,native_positive,native_negative,prediction_disagreement,continuous_errors,structured_errors,both_correct,continuous_only_correct,structured_only_correct,both_wrong
+primary_assessment,one,repair,416,353,63,43,76,69,322,18,25,51
+primary_assessment,one,neutral,416,14,402,7,19,14,396,1,6,13
+primary_assessment,many,repair,539,4,535,46,57,75,450,32,14,43
+primary_assessment,many,neutral,539,1,538,0,1,1,538,0,0,1
+all_selected_assessment,one,repair,544,481,63,46,79,69,447,18,28,51
+all_selected_assessment,one,neutral,544,34,510,11,41,34,501,2,9,32
+all_selected_assessment,many,repair,544,9,535,46,57,75,455,32,14,43
+all_selected_assessment,many,neutral,544,1,543,1,2,1,542,0,1,1
+primary_fit,one,repair,420,349,71,61,12,71,348,60,1,11
+primary_fit,one,neutral,420,10,410,10,0,10,410,10,0,0
+primary_fit,many,repair,541,11,530,51,17,64,475,49,2,15
+primary_fit,many,neutral,541,0,541,0,0,0,541,0,0,0
+all_selected_fit,one,repair,544,473,71,63,14,71,470,60,3,11
+all_selected_fit,one,neutral,544,30,514,12,22,30,512,10,2,20
+all_selected_fit,many,repair,544,14,530,51,17,64,478,49,2,15
+all_selected_fit,many,neutral,544,0,544,0,0,0,544,0,0,0

@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-15T21:41:09.079416+00:00",
+  "analysis": "exploratory discovery-only supplement",
+  "test_outcomes_accessed": false,
+  "models_trained": false,
+  "features_selected": false,
+  "generator_sha256": "5bcecc6cc6b2c0db432686eeffdda15a9613837baaf85debf91f8a35c485bf06",
+  "affine_audit_sha256": "17ebaa8531e867cd28d6eb4e26617ab7872151c8d7467e3e19e6e424cfd5ae13",
+  "results": [
+    {
+      "seed": 117,
+      "subbank_rows": 15,
+      "witness_cases": 4,
+      "output": 5,
+      "lower": "42493082332223/21990232555520",
+      "lower_float": 1.932361662157882,
+      "upper": "4249308233471/2199023255552",
+      "rejects_epsilon1": true
+    },
+    {
+      "seed": 129,
+      "subbank_rows": 15,
+      "witness_cases": 4,
+      "output": 2,
+      "lower": "25218001206429/8796093022208",
+      "lower_float": 2.866954810818811,
+      "upper": "7880625377431/2748779069440",
+      "rejects_epsilon1": true
+    },
+    {
+      "seed": 143,
+      "subbank_rows": 15,
+      "witness_cases": 4,
+      "output": 5,
+      "lower": "21485656030733/10995116277760",
+      "lower_float": 1.9541090324067227,
+      "upper": "10742828016253/5497558138880",
+      "rejects_epsilon1": true
+    }
+  ]
+}

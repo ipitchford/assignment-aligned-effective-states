@@ -1,0 +1,23 @@
+[
+  {
+    "seed": 17,
+    "columns": 90,
+    "error": 2.5704202926679205,
+    "output": 9,
+    "support": 25
+  },
+  {
+    "seed": 29,
+    "columns": 95,
+    "error": 2.713314827245281,
+    "output": 2,
+    "support": 19
+  },
+  {
+    "seed": 43,
+    "columns": 88,
+    "error": 3.2497191898752513,
+    "output": 2,
+    "support": 25
+  }
+]

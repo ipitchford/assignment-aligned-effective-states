@@ -1,0 +1,343 @@
+{
+  "arms": {
+    "context_only": {
+      "coverage_at_0.5": 0.0,
+      "coverage_at_0.8": 0.0,
+      "mean_regret": 0.7041015625,
+      "mean_utility_at_0.8": 0.0,
+      "menus": 1024,
+      "reachable_menus": 850,
+      "success_all_menus": 0.1259765625,
+      "success_among_accepted_at_0.5": null,
+      "success_among_accepted_at_0.8": null,
+      "success_when_reachable": 0.15176470588235294
+    },
+    "continuous_post34": {
+      "coverage_at_0.5": 0.0,
+      "coverage_at_0.8": 0.0,
+      "mean_regret": 0.3330078125,
+      "mean_utility_at_0.8": 0.0,
+      "menus": 1024,
+      "reachable_menus": 850,
+      "success_all_menus": 0.4970703125,
+      "success_among_accepted_at_0.5": null,
+      "success_among_accepted_at_0.8": null,
+      "success_when_reachable": 0.5988235294117648
+    },
+    "continuous_pre34": {
+      "coverage_at_0.5": 0.0,
+      "coverage_at_0.8": 0.0,
+      "mean_regret": 0.3740234375,
+      "mean_utility_at_0.8": 0.0,
+      "menus": 1024,
+      "reachable_menus": 850,
+      "success_all_menus": 0.4560546875,
+      "success_among_accepted_at_0.5": null,
+      "success_among_accepted_at_0.8": null,
+      "success_when_reachable": 0.5494117647058824
+    },
+    "negative_bin68": {
+      "coverage_at_0.5": 0.0,
+      "coverage_at_0.8": 0.0,
+      "mean_regret": 0.416015625,
+      "mean_utility_at_0.8": 0.0,
+      "menus": 1024,
+      "reachable_menus": 850,
+      "success_all_menus": 0.4140625,
+      "success_among_accepted_at_0.5": null,
+      "success_among_accepted_at_0.8": null,
+      "success_when_reachable": 0.4988235294117647
+    },
+    "post_fourbin68": {
+      "coverage_at_0.5": 0.0,
+      "coverage_at_0.8": 0.0,
+      "mean_regret": 0.419921875,
+      "mean_utility_at_0.8": 0.0,
+      "menus": 1024,
+      "reachable_menus": 850,
+      "success_all_menus": 0.41015625,
+      "success_among_accepted_at_0.5": null,
+      "success_among_accepted_at_0.8": null,
+      "success_when_reachable": 0.49411764705882355
+    },
+    "pre_fourbin68": {
+      "coverage_at_0.5": 0.0,
+      "coverage_at_0.8": 0.0,
+      "mean_regret": 0.3896484375,
+      "mean_utility_at_0.8": 0.0,
+      "menus": 1024,
+      "reachable_menus": 850,
+      "success_all_menus": 0.4404296875,
+      "success_among_accepted_at_0.5": null,
+      "success_among_accepted_at_0.8": null,
+      "success_when_reachable": 0.5305882352941177
+    },
+    "published_bits34": {
+      "coverage_at_0.5": 0.0,
+      "coverage_at_0.8": 0.0,
+      "mean_regret": 0.3984375,
+      "mean_utility_at_0.8": 0.0,
+      "menus": 1024,
+      "reachable_menus": 850,
+      "success_all_menus": 0.431640625,
+      "success_among_accepted_at_0.5": null,
+      "success_among_accepted_at_0.8": null,
+      "success_when_reachable": 0.52
+    }
+  },
+  "assessment_rows": 39936,
+  "attempted_fits": 7,
+  "calculation_resources": {
+    "elapsed_seconds": 27.17579641705379,
+    "leaves": 10500,
+    "peak_rss_bytes": 387907584,
+    "trees": 700
+  },
+  "completed_fits": 7,
+  "decision": "STOP_DEVELOPMENT_GATE_FAILED",
+  "elapsed_seconds": 27.178559166844934,
+  "exact_policy_ceilings": {
+    "context_only": {
+      "class_size_histogram": {
+        "1": 86,
+        "2": 79,
+        "3": 96,
+        "4": 64,
+        "5": 35,
+        "6": 9,
+        "7": 1
+      },
+      "maximum_success_all_menus": 0.5283203125,
+      "maximum_success_when_reachable": 0.6364705882352941,
+      "maximum_successes": 541,
+      "menus": 1024,
+      "minimum_mean_regret": 0.3017578125,
+      "minimum_total_regret": 309,
+      "reachable_classes": 353,
+      "reachable_classes_with_common_success": 146,
+      "reachable_member_class_size_histogram": {
+        "1": 103,
+        "2": 95,
+        "3": 89,
+        "4": 45,
+        "5": 16,
+        "6": 5
+      },
+      "reachable_menus": 850,
+      "report_context_classes": 370,
+      "scope": "Exact finite assessment bank only",
+      "singleton_class_fraction": 0.23243243243243245,
+      "tie_break": "lowest clause ID"
+    },
+    "continuous_post34": {
+      "class_size_histogram": {
+        "1": 1024
+      },
+      "maximum_success_all_menus": 0.830078125,
+      "maximum_success_when_reachable": 1.0,
+      "maximum_successes": 850,
+      "menus": 1024,
+      "minimum_mean_regret": 0.0,
+      "minimum_total_regret": 0,
+      "reachable_classes": 850,
+      "reachable_classes_with_common_success": 850,
+      "reachable_member_class_size_histogram": {
+        "1": 850
+      },
+      "reachable_menus": 850,
+      "report_context_classes": 1024,
+      "scope": "Exact finite assessment bank only",
+      "singleton_class_fraction": 1.0,
+      "tie_break": "lowest clause ID"
+    },
+    "continuous_pre34": {
+      "class_size_histogram": {
+        "1": 1024
+      },
+      "maximum_success_all_menus": 0.830078125,
+      "maximum_success_when_reachable": 1.0,
+      "maximum_successes": 850,
+      "menus": 1024,
+      "minimum_mean_regret": 0.0,
+      "minimum_total_regret": 0,
+      "reachable_classes": 850,
+      "reachable_classes_with_common_success": 850,
+      "reachable_member_class_size_histogram": {
+        "1": 850
+      },
+      "reachable_menus": 850,
+      "report_context_classes": 1024,
+      "scope": "Exact finite assessment bank only",
+      "singleton_class_fraction": 1.0,
+      "tie_break": "lowest clause ID"
+    },
+    "negative_bin68": {
+      "class_size_histogram": {
+        "1": 1024
+      },
+      "maximum_success_all_menus": 0.830078125,
+      "maximum_success_when_reachable": 1.0,
+      "maximum_successes": 850,
+      "menus": 1024,
+      "minimum_mean_regret": 0.0,
+      "minimum_total_regret": 0,
+      "reachable_classes": 850,
+      "reachable_classes_with_common_success": 850,
+      "reachable_member_class_size_histogram": {
+        "1": 850
+      },
+      "reachable_menus": 850,
+      "report_context_classes": 1024,
+      "scope": "Exact finite assessment bank only",
+      "singleton_class_fraction": 1.0,
+      "tie_break": "lowest clause ID"
+    },
+    "post_fourbin68": {
+      "class_size_histogram": {
+        "1": 1024
+      },
+      "maximum_success_all_menus": 0.830078125,
+      "maximum_success_when_reachable": 1.0,
+      "maximum_successes": 850,
+      "menus": 1024,
+      "minimum_mean_regret": 0.0,
+      "minimum_total_regret": 0,
+      "reachable_classes": 850,
+      "reachable_classes_with_common_success": 850,
+      "reachable_member_class_size_histogram": {
+        "1": 850
+      },
+      "reachable_menus": 850,
+      "report_context_classes": 1024,
+      "scope": "Exact finite assessment bank only",
+      "singleton_class_fraction": 1.0,
+      "tie_break": "lowest clause ID"
+    },
+    "pre_fourbin68": {
+      "class_size_histogram": {
+        "1": 1024
+      },
+      "maximum_success_all_menus": 0.830078125,
+      "maximum_success_when_reachable": 1.0,
+      "maximum_successes": 850,
+      "menus": 1024,
+      "minimum_mean_regret": 0.0,
+      "minimum_total_regret": 0,
+      "reachable_classes": 850,
+      "reachable_classes_with_common_success": 850,
+      "reachable_member_class_size_histogram": {
+        "1": 850
+      },
+      "reachable_menus": 850,
+      "report_context_classes": 1024,
+      "scope": "Exact finite assessment bank only",
+      "singleton_class_fraction": 1.0,
+      "tie_break": "lowest clause ID"
+    },
+    "published_bits34": {
+      "class_size_histogram": {
+        "1": 1016,
+        "2": 4
+      },
+      "maximum_success_all_menus": 0.830078125,
+      "maximum_success_when_reachable": 1.0,
+      "maximum_successes": 850,
+      "menus": 1024,
+      "minimum_mean_regret": 0.0,
+      "minimum_total_regret": 0,
+      "reachable_classes": 847,
+      "reachable_classes_with_common_success": 847,
+      "reachable_member_class_size_histogram": {
+        "1": 844,
+        "2": 3
+      },
+      "reachable_menus": 850,
+      "report_context_classes": 1020,
+      "scope": "Exact finite assessment bank only",
+      "singleton_class_fraction": 0.996078431372549,
+      "tie_break": "lowest clause ID"
+    }
+  },
+  "exact_semantic_control": {
+    "coverage_at_0.5": 0.830078125,
+    "coverage_at_0.8": 0.830078125,
+    "mean_regret": 0.0,
+    "mean_utility_at_0.8": 0.830078125,
+    "menus": 1024,
+    "reachable_menus": 850,
+    "success_all_menus": 0.830078125,
+    "success_among_accepted_at_0.5": 1.0,
+    "success_among_accepted_at_0.8": 1.0,
+    "success_when_reachable": 1.0
+  },
+  "fit_rows": 119808,
+  "freeze_sha256": "b37f68ef67c26837db4328758bd2a0b1355a0a42fb5fa1f53038585451f09a7f",
+  "gates": {
+    "ceiling_gain_over_post_fourbin_at_least_005": false,
+    "ceiling_gain_over_published_at_least_005": false,
+    "coverage_at_08_at_least_01": false,
+    "gain_over_post_fourbin_at_least_005": false,
+    "gain_over_published_at_least_005": false,
+    "utility_at_08_positive": false,
+    "within_002_of_pre_fourbin": false
+  },
+  "model_sizes": {
+    "context_only": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "continuous_post34": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "continuous_pre34": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "negative_bin68": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "post_fourbin68": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "pre_fourbin68": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    },
+    "published_bits34": {
+      "iterations": 100,
+      "leaves": 1500,
+      "trees": 100
+    }
+  },
+  "native_forwards": 0,
+  "resource_caps": {
+    "leaves": 10500,
+    "resident_memory_bytes": 4294967296,
+    "trees": 700,
+    "wall_time_seconds": 1800
+  },
+  "scope": "Opened cached development outcomes; zero new native forwards; not protected evaluation",
+  "status": "CALCULATION_COMPLETE_OUTPUTS_UNCOMMITTED",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "VECLIB_MAXIMUM_THREADS": "2"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "python": "3.11.14",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  }
+}

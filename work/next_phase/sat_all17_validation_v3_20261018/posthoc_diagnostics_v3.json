@@ -1,0 +1,934 @@
+{
+  "base_near_only_auroc_mean": 0.97314453125,
+  "categorical_unseen_level_policy": "global columns are retained; a level absent in a training fold has coefficient zero under least squares, so its held-out rows receive the remaining unit and covariate terms",
+  "decision_taxonomy": {
+    "shared_threshold_specificity_guard": "failed by units 10 and 81 at 4/32 multi-solution negatives",
+    "source_threshold_fidelity_other_failure": "positive cells fail for units 81, 261, 411 and 416",
+    "threshold_free_ranking_gates": {
+      "failed": 0,
+      "passed": 3
+    },
+    "warning": "the protected broad-discrimination and source-threshold fidelity decisions share the same threshold-specificity failure and are not independent"
+  },
+  "illustrative_conjunctive_gate_operating_characteristics": {
+    "assumptions": "independent homogeneous cells; illustrative only and false for the dependent engineered bank",
+    "near_multi_rate_used": 0.08455882352941177,
+    "probability_all_34_positive_cells_pass_if_each_true_sensitivity_0_8": 0.00146726288785962,
+    "probability_all_34_positive_cells_pass_if_each_true_sensitivity_0_9": 0.8938404678186129,
+    "probability_any_of_17_near_halves_has_at_least_4_fp": 0.5071272891548693,
+    "probability_one_16_case_near_half_has_at_least_4_fp": 0.04076376704324911
+  },
+  "inputs": {
+    "analysis.json": "d81470a4b98a0b04e5dddf0bff7d5b445955ff86346639b917ce9514d99ac2bd",
+    "native_outputs.npz": "20c3a3dbb0c5a161d5a53e12542e3ae2da88f55ca5df78d15305fa2de3a39fc6",
+    "posthoc_diagnostics_v2.json": "91536f14c7663f04ab07feb3f446bbcde0886a585ee24f89931e039e3c0de822",
+    "selected_bank.npz": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e"
+  },
+  "logical_necessity": "In this two-literal grammar, two distinct Hamming-one satisfying neighbours force every target-violated clause to be the unique clause type on the two flipped variables; one distinct violated type is therefore definitional, not an empirical finding.",
+  "near_false_positive_dispersion": {
+    "common_rate": 0.0661764705882353,
+    "counts_by_unit": [
+      7,
+      1,
+      2,
+      5,
+      4,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      5,
+      4,
+      4,
+      1
+    ],
+    "pearson_statistic": 40.335958005249346,
+    "reference_df": 16,
+    "warning": "descriptive only; unit is confounded with assignment-specific formula composition and rows share formula orbits"
+  },
+  "per_unit_boundary_diagnostics": [
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9963206975673046,
+        "runner_up_assignment": "TFTFF",
+        "runner_up_assignment_id": 20,
+        "runner_up_full_bank_auroc": 0.8903435248710044,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 25,
+        "threshold": 1.28329336643219
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 22,
+        "threshold": 1.341932773590088
+      },
+      "near_only_auroc": 0.94384765625,
+      "protected_base_auroc": 0.9812825520833334,
+      "published_assignment": "TFFFF",
+      "published_assignment_id": 16,
+      "source_threshold": {
+        "near_false_positives": 7,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 63
+      },
+      "task_stratification": {
+        "multi_solution_misses": 1,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 7,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 10,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9971532865240068,
+        "runner_up_assignment": "FTFFF",
+        "runner_up_assignment_id": 8,
+        "runner_up_full_bank_auroc": 0.8962161132021536,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 0.99951171875,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 62,
+        "threshold": 0.6616330742835999
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 61,
+        "threshold": 0.7496463656425476
+      },
+      "near_only_auroc": 0.9892578125,
+      "protected_base_auroc": 0.99609375,
+      "published_assignment": "FFFFF",
+      "published_assignment_id": 0,
+      "source_threshold": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 62
+      },
+      "task_stratification": {
+        "multi_solution_misses": 2,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 1,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 41,
+      "unsat_only_auroc": 0.99951171875
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9894414342289699,
+        "runner_up_assignment": "TTTFT",
+        "runner_up_assignment_id": 29,
+        "runner_up_full_bank_auroc": 0.9376565200598137,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 0.99951171875,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 14,
+        "threshold": 1.0179647207260132
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 14,
+        "threshold": 1.0179647207260132
+      },
+      "near_only_auroc": 0.9365234375,
+      "protected_base_auroc": 0.978515625,
+      "published_assignment": "TTTFF",
+      "published_assignment_id": 28,
+      "source_threshold": {
+        "near_false_positives": 2,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 49
+      },
+      "task_stratification": {
+        "multi_solution_misses": 7,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 2,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 8,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 55,
+      "unsat_only_auroc": 0.99951171875
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9972830556777538,
+        "runner_up_assignment": "FTTTT",
+        "runner_up_assignment_id": 15,
+        "runner_up_full_bank_auroc": 0.8742579677674965,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 54,
+        "threshold": 0.9787766933441162
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 35,
+        "threshold": 1.1754342317581177
+      },
+      "near_only_auroc": 0.97607421875,
+      "protected_base_auroc": 0.9920247395833334,
+      "published_assignment": "FFTTT",
+      "published_assignment_id": 7,
+      "source_threshold": {
+        "near_false_positives": 5,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64
+      },
+      "task_stratification": {
+        "multi_solution_misses": 0,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 5,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 77,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9834241395988715,
+        "runner_up_assignment": "FTTTT",
+        "runner_up_assignment_id": 15,
+        "runner_up_full_bank_auroc": 0.9560575107497696,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 0.9990234375,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 10,
+        "threshold": 0.9560643434524536
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 9,
+        "threshold": 0.9948616027832031
+      },
+      "near_only_auroc": 0.8896484375,
+      "protected_base_auroc": 0.9611002604166666,
+      "published_assignment": "FTTTF",
+      "published_assignment_id": 14,
+      "source_threshold": {
+        "near_false_positives": 4,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 39
+      },
+      "task_stratification": {
+        "multi_solution_misses": 12,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 4,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 13,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 81,
+      "unsat_only_auroc": 0.99462890625
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 1.0,
+        "runner_up_assignment": "FFTTT",
+        "runner_up_assignment_id": 7,
+        "runner_up_full_bank_auroc": 0.8047504287563197,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.5834027528762817
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.5834027528762817
+      },
+      "near_only_auroc": 1.0,
+      "protected_base_auroc": 1.0,
+      "published_assignment": "FFFTT",
+      "published_assignment_id": 3,
+      "source_threshold": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64
+      },
+      "task_stratification": {
+        "multi_solution_misses": 0,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 0,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 185,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9999886937812404,
+        "runner_up_assignment": "FTFFT",
+        "runner_up_assignment_id": 9,
+        "runner_up_full_bank_auroc": 0.7846338813023447,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.4783530533313751
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.4783530533313751
+      },
+      "near_only_auroc": 1.0,
+      "protected_base_auroc": 1.0,
+      "published_assignment": "FFFFT",
+      "published_assignment_id": 1,
+      "source_threshold": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 63
+      },
+      "task_stratification": {
+        "multi_solution_misses": 0,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 0,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 1,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 224,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9972520197032056,
+        "runner_up_assignment": "FTFFF",
+        "runner_up_assignment_id": 8,
+        "runner_up_full_bank_auroc": 0.8823212158749821,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.4780540466308594
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 62,
+        "threshold": 0.8553054928779602
+      },
+      "near_only_auroc": 0.9990234375,
+      "protected_base_auroc": 0.9996744791666666,
+      "published_assignment": "FTFFT",
+      "published_assignment_id": 9,
+      "source_threshold": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 63
+      },
+      "task_stratification": {
+        "multi_solution_misses": 0,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 1,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 1,
+        "sole_solution_misses_task_wrong": 1
+      },
+      "unit": 245,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9965264472933537,
+        "runner_up_assignment": "TTTTT",
+        "runner_up_assignment_id": 31,
+        "runner_up_full_bank_auroc": 0.8843771592717674,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 59,
+        "threshold": 0.2889135777950287
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 58,
+        "threshold": 0.36604395508766174
+      },
+      "near_only_auroc": 0.98193359375,
+      "protected_base_auroc": 0.9934895833333334,
+      "published_assignment": "TTFTT",
+      "published_assignment_id": 27,
+      "source_threshold": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 50
+      },
+      "task_stratification": {
+        "multi_solution_misses": 9,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 0,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 5,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 261,
+      "unsat_only_auroc": 0.99853515625
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9981624759660852,
+        "runner_up_assignment": "TFTTF",
+        "runner_up_assignment_id": 22,
+        "runner_up_full_bank_auroc": 0.8396664877651716,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 63,
+        "threshold": 0.7094001770019531
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 63,
+        "threshold": 0.7094001770019531
+      },
+      "near_only_auroc": 0.9990234375,
+      "protected_base_auroc": 0.9996744791666666,
+      "published_assignment": "TFTTT",
+      "published_assignment_id": 23,
+      "source_threshold": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 63
+      },
+      "task_stratification": {
+        "multi_solution_misses": 1,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 1,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 291,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9999988713557134,
+        "runner_up_assignment": "TFTFT",
+        "runner_up_assignment_id": 21,
+        "runner_up_full_bank_auroc": 0.8347298986040274,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.6325694918632507
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.6325694918632507
+      },
+      "near_only_auroc": 1.0,
+      "protected_base_auroc": 1.0,
+      "published_assignment": "TFFFT",
+      "published_assignment_id": 17,
+      "source_threshold": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64
+      },
+      "task_stratification": {
+        "multi_solution_misses": 0,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 0,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 317,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9981516282055809,
+        "runner_up_assignment": "TTTTT",
+        "runner_up_assignment_id": 31,
+        "runner_up_full_bank_auroc": 0.8688819015824955,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.5925814509391785
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.5925814509391785
+      },
+      "near_only_auroc": 1.0,
+      "protected_base_auroc": 1.0,
+      "published_assignment": "TTTTF",
+      "published_assignment_id": 30,
+      "source_threshold": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64
+      },
+      "task_stratification": {
+        "multi_solution_misses": 0,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 1,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 326,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9999641962047977,
+        "runner_up_assignment": "TFTTT",
+        "runner_up_assignment_id": 23,
+        "runner_up_full_bank_auroc": 0.8103266527365526,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.29453057050704956
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 64,
+        "threshold": 0.29453057050704956
+      },
+      "near_only_auroc": 1.0,
+      "protected_base_auroc": 1.0,
+      "published_assignment": "TFFTT",
+      "published_assignment_id": 19,
+      "source_threshold": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 63
+      },
+      "task_stratification": {
+        "multi_solution_misses": 1,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 0,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 380,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9885460051562552,
+        "runner_up_assignment": "TTTFT",
+        "runner_up_assignment_id": 29,
+        "runner_up_full_bank_auroc": 0.9570441848873315,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 0.99853515625,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 30,
+        "threshold": 0.7737818956375122
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 23,
+        "threshold": 1.0020606517791748
+      },
+      "near_only_auroc": 0.9248046875,
+      "protected_base_auroc": 0.9736328125,
+      "published_assignment": "TTFFT",
+      "published_assignment_id": 25,
+      "source_threshold": {
+        "near_false_positives": 5,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 51
+      },
+      "task_stratification": {
+        "multi_solution_misses": 4,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 5,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 9,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 411,
+      "unsat_only_auroc": 0.99755859375
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9901725520620549,
+        "runner_up_assignment": "TFTFF",
+        "runner_up_assignment_id": 20,
+        "runner_up_full_bank_auroc": 0.9550012578483241,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 38,
+        "threshold": 0.6354056596755981
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 28,
+        "threshold": 0.837691068649292
+      },
+      "near_only_auroc": 0.943359375,
+      "protected_base_auroc": 0.9811197916666666,
+      "published_assignment": "TTTFF",
+      "published_assignment_id": 28,
+      "source_threshold": {
+        "near_false_positives": 4,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 49
+      },
+      "task_stratification": {
+        "multi_solution_misses": 6,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 4,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 9,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 416,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9964887961514234,
+        "runner_up_assignment": "TFTFF",
+        "runner_up_assignment_id": 20,
+        "runner_up_full_bank_auroc": 0.9025396029817018,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 1.0,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 48,
+        "threshold": 0.9125454425811768
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 29,
+        "threshold": 1.2539273500442505
+      },
+      "near_only_auroc": 0.97021484375,
+      "protected_base_auroc": 0.9900716145833334,
+      "published_assignment": "TFTFT",
+      "published_assignment_id": 21,
+      "source_threshold": {
+        "near_false_positives": 4,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 61
+      },
+      "task_stratification": {
+        "multi_solution_misses": 2,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 4,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 1,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 492,
+      "unsat_only_auroc": 1.0
+    },
+    {
+      "candidate_competition": {
+        "bank_warning": "full 7,252-input bank was engineered around the 16 published labels; candidate populations are asymmetric",
+        "published_full_bank_auroc": 0.9977894855257237,
+        "runner_up_assignment": "FTFTF",
+        "runner_up_assignment_id": 10,
+        "runner_up_full_bank_auroc": 0.8362510403450341,
+        "runner_up_hamming_distance": 1
+      },
+      "far_only_auroc": 0.99853515625,
+      "max_sensitivity_at_one_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 61,
+        "threshold": 0.6542754769325256
+      },
+      "max_sensitivity_at_zero_observed_near_fp": {
+        "near_false_positives": 0,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 61,
+        "threshold": 0.6542754769325256
+      },
+      "near_only_auroc": 0.98974609375,
+      "protected_base_auroc": 0.9954427083333334,
+      "published_assignment": "FFFTF",
+      "published_assignment_id": 2,
+      "source_threshold": {
+        "near_false_positives": 1,
+        "near_negative_denominator": 32,
+        "positive_denominator": 64,
+        "positive_detected": 61
+      },
+      "task_stratification": {
+        "multi_solution_misses": 3,
+        "multi_solution_misses_task_wrong": 0,
+        "satisfiable_negative_false_positives": 1,
+        "satisfiable_negative_false_positives_task_wrong": 0,
+        "sole_solution_misses": 0,
+        "sole_solution_misses_task_wrong": 0
+      },
+      "unit": 495,
+      "unsat_only_auroc": 0.998046875
+    }
+  ],
+  "regression_fold_rank_disclosure": {
+    "unit_means_plus_q_and_distance_categorical": [
+      {
+        "fold": 0,
+        "rank": 27,
+        "test": 214,
+        "train": 874
+      },
+      {
+        "fold": 1,
+        "rank": 27,
+        "test": 220,
+        "train": 868
+      },
+      {
+        "fold": 2,
+        "rank": 27,
+        "test": 227,
+        "train": 861
+      },
+      {
+        "fold": 3,
+        "rank": 27,
+        "test": 216,
+        "train": 872
+      },
+      {
+        "fold": 4,
+        "rank": 26,
+        "test": 211,
+        "train": 877
+      }
+    ],
+    "unit_means_plus_q_categorical": [
+      {
+        "fold": 0,
+        "rank": 23,
+        "test": 214,
+        "train": 874
+      },
+      {
+        "fold": 1,
+        "rank": 23,
+        "test": 220,
+        "train": 868
+      },
+      {
+        "fold": 2,
+        "rank": 23,
+        "test": 227,
+        "train": 861
+      },
+      {
+        "fold": 3,
+        "rank": 23,
+        "test": 216,
+        "train": 872
+      },
+      {
+        "fold": 4,
+        "rank": 22,
+        "test": 211,
+        "train": 877
+      }
+    ]
+  },
+  "regression_partial_cv_r2_increments": {
+    "distance_added_after_q": 0.03343941775532833,
+    "q_added_after_distance": 0.3406375026744275
+  },
+  "scope": "post hoc zero-forward analysis of retained all-17 arrays; protected decisions unchanged",
+  "status": "PASS",
+  "task_error_geometry": {
+    "multi_solution_misses": 48,
+    "multi_solution_misses_task_wrong": 0,
+    "satisfiable_negative_false_positives": 36,
+    "satisfiable_negative_false_positives_task_wrong": 0,
+    "sole_solution_misses": 47,
+    "sole_solution_misses_task_wrong": 1
+  },
+  "transformed_mixture": {
+    "base_near_only_auroc_mean": 0.97314453125,
+    "base_negative_near_share": 0.5,
+    "fixed_transformed_near_auroc_mean": 0.9792094737200434,
+    "fixed_transformed_negative_near_share": 0.1812015503875969,
+    "switch_transformed_near_auroc_mean": 0.9732342928473262,
+    "switch_transformed_negative_near_share": 0.19658119658119658
+  },
+  "within_q1_negative_comparison": {
+    "far": {
+      "false_positives": 0,
+      "rows": 44,
+      "score_mean": -0.7681423347676173,
+      "strict_inversions": 5
+    },
+    "near_one_neighbour": {
+      "false_positives": 25,
+      "rows": 237,
+      "score_mean": -0.21263021136779447,
+      "strict_inversions": 657
+    },
+    "near_two_neighbours": {
+      "false_positives": 9,
+      "rows": 22,
+      "score_mean": 0.2212726024233482,
+      "strict_inversions": 184
+    },
+    "unsat": {
+      "false_positives": 0,
+      "rows": 122,
+      "score_mean": -0.3986337919582109,
+      "strict_inversions": 22
+    }
+  }
+}

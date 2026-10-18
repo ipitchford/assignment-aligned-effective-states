@@ -1,0 +1,393 @@
+{
+  "control_positive_counts": [
+    1652,
+    1730,
+    1559,
+    1603,
+    1589,
+    1723,
+    1558,
+    1606,
+    1639,
+    1602,
+    1555,
+    1556,
+    1639,
+    1600,
+    1581,
+    1515,
+    1507,
+    1701,
+    1747,
+    1674,
+    1584,
+    1548,
+    1695,
+    1768,
+    1725,
+    1516,
+    1755,
+    1743,
+    1502,
+    1679,
+    1734,
+    1575,
+    1636,
+    1519,
+    1708,
+    1632,
+    1683,
+    1581,
+    1637,
+    1547,
+    5799,
+    2900,
+    2899
+  ],
+  "environment": {
+    "numpy": "2.4.2",
+    "python": "3.14.7"
+  },
+  "positive_counts_full": [
+    521,
+    526,
+    472,
+    482,
+    261,
+    345,
+    315,
+    462,
+    302,
+    423,
+    293,
+    265,
+    272,
+    256,
+    387,
+    313,
+    491,
+    527,
+    369,
+    532,
+    299,
+    464,
+    349,
+    497,
+    330,
+    483,
+    342,
+    486,
+    426,
+    335,
+    463,
+    277
+  ],
+  "positive_counts_sat_only": [
+    521,
+    526,
+    472,
+    482,
+    261,
+    345,
+    315,
+    462,
+    302,
+    423,
+    293,
+    265,
+    272,
+    256,
+    387,
+    313,
+    491,
+    527,
+    369,
+    532,
+    299,
+    464,
+    349,
+    497,
+    330,
+    483,
+    342,
+    486,
+    426,
+    335,
+    463,
+    277
+  ],
+  "prior_batch_partition": "hash-pinned native.py uses contiguous unique-id-ordered blocks range(0,N,256)",
+  "prior_batch_size": 256,
+  "prior_cache": {
+    "baseline_correct": 7215,
+    "column_identity": "hash-pinned prior native.py extracts post/pre columns in UNITS order",
+    "keys_checked": [
+      "logits",
+      "post",
+      "pre",
+      "unique_ids"
+    ],
+    "max_abs_logits": 65.67488861083984,
+    "max_abs_post": 4.1516594886779785,
+    "max_abs_pre": 10.209452629089355,
+    "min_abs_post_minus_threshold": 0.00030177831649780273,
+    "min_top_two_logit_gap": 0.009268520399928093,
+    "replay_unique_ids": [
+      4864,
+      2295,
+      2332,
+      896,
+      2186,
+      2575,
+      2444,
+      6530
+    ]
+  },
+  "prior_threads": 2,
+  "protocol_sha256": "1b15df4f1a2519f945cfc5047ce5ac741bba7ca50978c79eb4e0a5cbd71e3b71",
+  "rows": 7252,
+  "sat_rows": 5799,
+  "scope": "bank semantics, assignment convention, resample feasibility and prior execution compatibility; zero new model access",
+  "source_sha256": {
+    "bank": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+    "prior_analysis": "d81470a4b98a0b04e5dddf0bff7d5b445955ff86346639b917ce9514d99ac2bd",
+    "prior_native_receipt": "97ef289558183bf50e3127d7a733d99ea4f9bbd8b186ebacbca73579cf085915"
+  },
+  "status": "PASS",
+  "stratum_sizes_by_unit": {
+    "10": [
+      134,
+      357,
+      1453,
+      2766,
+      2542
+    ],
+    "185": [
+      126,
+      356,
+      1453,
+      2774,
+      2543
+    ],
+    "224": [
+      141,
+      385,
+      1453,
+      2759,
+      2514
+    ],
+    "245": [
+      121,
+      302,
+      1453,
+      2779,
+      2597
+    ],
+    "261": [
+      137,
+      349,
+      1453,
+      2763,
+      2550
+    ],
+    "291": [
+      142,
+      355,
+      1453,
+      2758,
+      2544
+    ],
+    "317": [
+      143,
+      384,
+      1453,
+      2757,
+      2515
+    ],
+    "326": [
+      154,
+      309,
+      1453,
+      2746,
+      2590
+    ],
+    "380": [
+      130,
+      402,
+      1453,
+      2770,
+      2497
+    ],
+    "41": [
+      143,
+      378,
+      1453,
+      2757,
+      2521
+    ],
+    "411": [
+      135,
+      348,
+      1453,
+      2765,
+      2551
+    ],
+    "416": [
+      136,
+      290,
+      1453,
+      2764,
+      2609
+    ],
+    "492": [
+      129,
+      335,
+      1453,
+      2771,
+      2564
+    ],
+    "495": [
+      148,
+      324,
+      1453,
+      2752,
+      2575
+    ],
+    "55": [
+      136,
+      290,
+      1453,
+      2764,
+      2609
+    ],
+    "77": [
+      127,
+      335,
+      1453,
+      2773,
+      2564
+    ],
+    "81": [
+      127,
+      260,
+      1453,
+      2773,
+      2639
+    ]
+  },
+  "uncovered_overlap": {
+    "10": {
+      "also_covered_solution": 204,
+      "exclusive_positives": 89,
+      "exclusive_sat_negatives": 918,
+      "positives": 293,
+      "sole_positive": 40
+    },
+    "11": {
+      "also_covered_solution": 194,
+      "exclusive_positives": 71,
+      "exclusive_sat_negatives": 936,
+      "positives": 265,
+      "sole_positive": 43
+    },
+    "12": {
+      "also_covered_solution": 182,
+      "exclusive_positives": 90,
+      "exclusive_sat_negatives": 917,
+      "positives": 272,
+      "sole_positive": 45
+    },
+    "13": {
+      "also_covered_solution": 155,
+      "exclusive_positives": 101,
+      "exclusive_sat_negatives": 906,
+      "positives": 256,
+      "sole_positive": 35
+    },
+    "15": {
+      "also_covered_solution": 192,
+      "exclusive_positives": 121,
+      "exclusive_sat_negatives": 886,
+      "positives": 313,
+      "sole_positive": 69
+    },
+    "18": {
+      "also_covered_solution": 279,
+      "exclusive_positives": 90,
+      "exclusive_sat_negatives": 917,
+      "positives": 369,
+      "sole_positive": 51
+    },
+    "20": {
+      "also_covered_solution": 231,
+      "exclusive_positives": 68,
+      "exclusive_sat_negatives": 939,
+      "positives": 299,
+      "sole_positive": 35
+    },
+    "22": {
+      "also_covered_solution": 248,
+      "exclusive_positives": 101,
+      "exclusive_sat_negatives": 906,
+      "positives": 349,
+      "sole_positive": 53
+    },
+    "24": {
+      "also_covered_solution": 245,
+      "exclusive_positives": 85,
+      "exclusive_sat_negatives": 922,
+      "positives": 330,
+      "sole_positive": 48
+    },
+    "26": {
+      "also_covered_solution": 247,
+      "exclusive_positives": 95,
+      "exclusive_sat_negatives": 912,
+      "positives": 342,
+      "sole_positive": 44
+    },
+    "29": {
+      "also_covered_solution": 250,
+      "exclusive_positives": 85,
+      "exclusive_sat_negatives": 922,
+      "positives": 335,
+      "sole_positive": 55
+    },
+    "31": {
+      "also_covered_solution": 215,
+      "exclusive_positives": 62,
+      "exclusive_sat_negatives": 945,
+      "positives": 277,
+      "sole_positive": 29
+    },
+    "4": {
+      "also_covered_solution": 192,
+      "exclusive_positives": 69,
+      "exclusive_sat_negatives": 938,
+      "positives": 261,
+      "sole_positive": 28
+    },
+    "5": {
+      "also_covered_solution": 259,
+      "exclusive_positives": 86,
+      "exclusive_sat_negatives": 921,
+      "positives": 345,
+      "sole_positive": 52
+    },
+    "6": {
+      "also_covered_solution": 242,
+      "exclusive_positives": 73,
+      "exclusive_sat_negatives": 934,
+      "positives": 315,
+      "sole_positive": 43
+    },
+    "8": {
+      "also_covered_solution": 205,
+      "exclusive_positives": 97,
+      "exclusive_sat_negatives": 910,
+      "positives": 302,
+      "sole_positive": 57
+    }
+  },
+  "unsat_rows": 1453
+}

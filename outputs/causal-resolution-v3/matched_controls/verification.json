@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": 1257,
+  "solver_called": false,
+  "exact_discovery_output_brackets": 120,
+  "exact_test_maxima": 36,
+  "largest_discovery_bracket_gap": "3/10737418240",
+  "scope": "Frozen inputs/selection traces plus exact arithmetic replay; no assertion of exact optimality of numerical greedy choices, external validity or semantic meaning.",
+  "script_sha256": "dddea93a718be00e2c8532ce7a8dde258ac28f3d1da14cfba98b3331a00a2039",
+  "discovery_results_sha256": "1eadfcff2290e5405a70d37e0b59682f657aa480647327c7158af5c32154120f",
+  "test_results_sha256": "22f7249d48d1545e2b75ac5d4621eee055d4844f9803317936564ec220bb6da3"
+}

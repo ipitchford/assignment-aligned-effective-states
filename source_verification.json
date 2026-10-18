@@ -1,0 +1,22 @@
+{
+  "verified_date": "2026-10-18",
+  "checkpoint_repository_licence": {
+    "commit": "35d1e4105265ab0ca74bc7daf9371fc8f82bba81",
+    "licence": "MIT",
+    "url": "https://raw.githubusercontent.com/nilspalumbo/axiomatic-validation/35d1e4105265ab0ca74bc7daf9371fc8f82bba81/LICENSE",
+    "sha256": "a9d91e34488932dec0072068bb77a9ce459c205d43e235cb81f5d8b56faa57cf",
+    "live_text_matches_packaged": true
+  },
+  "arxiv_v1_submission_dates": {
+    "2610.20851": "2026-10-14",
+    "2610.21261": "2026-10-15",
+    "2610.21708": "2026-10-15",
+    "2610.22169": "2026-10-15"
+  },
+  "verification": "Primary arXiv abstract/history pages accessed 2026-10-18; repository licence fetched from exact commit and byte-compared.",
+  "codex_model_identifiers_from_session_metadata": [
+    "gpt-5.6-sol",
+    "gpt-6-astra"
+  ],
+  "public_archive_status": "Versioned SHA-256 release ZIP; no persistent DOI assigned or public deposit performed."
+}

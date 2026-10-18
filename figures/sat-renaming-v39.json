@@ -1,0 +1,32 @@
+{
+  "input_sha256": "28fe7436ec4aea45e930281390d8a9fa542c04be13fbde8c597da2e9210b41bb",
+  "clamp_null_sha256": "c70091abefc310a5b97843e8f8765e4f5e5f01f4aab96931894730dd4af2dd45",
+  "original_positive_counts": [
+    31.0,
+    24.0
+  ],
+  "renamed_positive_counts": [
+    32.0,
+    32.0
+  ],
+  "directional_positive_denominator": 32,
+  "directional_cutoff": 29,
+  "nominated_correct_to_wrong": [
+    115,
+    0
+  ],
+  "other_pair_correct_to_wrong": [
+    0,
+    0
+  ],
+  "clamp_denominators_initially_correct": [
+    126,
+    128
+  ],
+  "scope": "Visualization of precomputed frozen summaries, no new observations, fitting or resampling.",
+  "files": {
+    "sat-renaming.pdf": "215fe9fd7d2696ff06dba5c95e05e67590dcf8bd089803dcb04d0c158471dd76",
+    "sat-renaming.png": "309e1eb071a2695133028aee02ccfbfdf1782565500f7de0ad6447dc96784dd2",
+    "sat-renaming.svg": "6f67d8fa139afe01501118ae6e952671051f4a0a364d3cda6bce97ab60bd26e5"
+  }
+}

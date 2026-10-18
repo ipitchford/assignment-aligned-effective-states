@@ -1,0 +1,3306 @@
+{
+  "criterion": "regret in decrease of fixed baseline top-class-versus-runner-up margin; class labels supplied as context but actual margin values are not",
+  "formulas": {
+    "best_policy_worst_case": "max_f min_g max_(i in f) R_ig",
+    "empirical_best_policy_mean": "sum_f min_g sum_(i in f) R_ig / n",
+    "per_state_regret": "R_ig=max_a drop_ia\u2212drop_ig"
+  },
+  "input_sha256": "189c19407e722eef126b75d0a250641a40edda5d8e3b7686ac33bf830393640b",
+  "policy_class": "deterministic action choices; the mean-regret floor also applies to randomised choices by linearity, but the stated worst-case floor is not the randomised minimax value",
+  "records": [
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 59,
+      "empirical_minimum_mean_regret": 0.05617164299250222,
+      "empirical_minimum_mean_regret_exact": "3136319805/55834574848",
+      "finite_states": 364,
+      "method": "action-only",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 1.7225105334073305,
+      "minimum_worst_case_regret_exact": "924765801/536870912",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 17,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            24026190210,
+            49968048930,
+            0,
+            44002632330
+          ],
+          [
+            0,
+            48319999230,
+            18495316020,
+            50681799990
+          ]
+        ],
+        "any_common_action_worst_regret": 1.7225105334073305,
+        "any_common_action_worst_regret_exact": "924765801/536870912",
+        "best_groups": [
+          2,
+          0
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          1,
+          1
+        ],
+        "input_ids": [
+          647,
+          215
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          24026190210,
+          49968048930,
+          18495316020,
+          50681799990
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          27,
+          262
+        ],
+        "same_report_code": [],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            20129487840,
+            -5812370880,
+            44155678050,
+            153045720
+          ],
+          [
+            31884154800,
+            -16435844430,
+            13388838780,
+            -18797645190
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            1.8747046440839767,
+            -0.5413192212581635,
+            4.112317976541817,
+            0.014253493398427963
+          ],
+          [
+            2.9694433137774467,
+            -1.5307072950527072,
+            1.2469327803701162,
+            -1.7506671315059066
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        27,
+        45,
+        47,
+        53,
+        57,
+        61,
+        81,
+        83,
+        86,
+        97,
+        120,
+        126,
+        130,
+        151,
+        155,
+        173,
+        179,
+        187,
+        189,
+        192,
+        208,
+        241,
+        260,
+        262,
+        272,
+        320,
+        343
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 205,
+      "empirical_minimum_mean_regret": 0.018436135133155264,
+      "empirical_minimum_mean_regret_exact": "1029373767/55834574848",
+      "finite_states": 364,
+      "method": "native-8",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 1.7225105334073305,
+      "minimum_worst_case_regret_exact": "924765801/536870912",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 17,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            24026190210,
+            49968048930,
+            0,
+            44002632330
+          ],
+          [
+            0,
+            48319999230,
+            18495316020,
+            50681799990
+          ]
+        ],
+        "any_common_action_worst_regret": 1.7225105334073305,
+        "any_common_action_worst_regret_exact": "924765801/536870912",
+        "best_groups": [
+          2,
+          0
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          1,
+          1
+        ],
+        "input_ids": [
+          647,
+          215
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          24026190210,
+          49968048930,
+          18495316020,
+          50681799990
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          27,
+          262
+        ],
+        "same_report_code": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            20129487840,
+            -5812370880,
+            44155678050,
+            153045720
+          ],
+          [
+            31884154800,
+            -16435844430,
+            13388838780,
+            -18797645190
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            1.8747046440839767,
+            -0.5413192212581635,
+            4.112317976541817,
+            0.014253493398427963
+          ],
+          [
+            2.9694433137774467,
+            -1.5307072950527072,
+            1.2469327803701162,
+            -1.7506671315059066
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        27,
+        86,
+        189,
+        262
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 272,
+      "empirical_minimum_mean_regret": 0.006605219548813753,
+      "empirical_minimum_mean_regret_exact": "2581597377/390842023936",
+      "finite_states": 364,
+      "method": "native-12",
+      "minimax_action_for_worst_fibre": 0,
+      "minimum_worst_case_regret": 1.169713913463056,
+      "minimum_worst_case_regret_exact": "1255970751/1073741824",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 17,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            12559707510,
+            0,
+            12818272560,
+            14721236190
+          ],
+          [
+            0,
+            17341290480,
+            22813585620,
+            30859287510
+          ]
+        ],
+        "any_common_action_worst_regret": 1.169713913463056,
+        "any_common_action_worst_regret_exact": "1255970751/1073741824",
+        "best_groups": [
+          1,
+          0
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          5,
+          5
+        ],
+        "input_ids": [
+          910,
+          432
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          12559707510,
+          17341290480,
+          22813585620,
+          30859287510
+        ],
+        "minimax_common_action": 0,
+        "response_denominator": 10737418240,
+        "rows": [
+          324,
+          338
+        ],
+        "same_report_code": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "same_runner_class": 9,
+        "same_top_class": 5,
+        "true_margin_drop_numerators": [
+          [
+            20272402920,
+            32832110430,
+            20013837870,
+            18110874240
+          ],
+          [
+            30862670520,
+            13521380040,
+            8049084900,
+            3383010
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            1.8880146481096745,
+            3.0577285615727305,
+            1.8639339013025165,
+            1.6867066025733948
+          ],
+          [
+            2.874310176819563,
+            1.2592766471207142,
+            0.7496294472366571,
+            0.000315067358314991
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        324,
+        338
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 280,
+      "empirical_minimum_mean_regret": 0.008259129597918018,
+      "empirical_minimum_mean_regret_exact": "201750933/24427626496",
+      "finite_states": 364,
+      "method": "pca-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 1.6659607691690326,
+      "minimum_worst_case_regret_exact": "1788811755/1073741824",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 17,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            0,
+            17888117550,
+            26202149610,
+            7667650500
+          ],
+          [
+            25522751730,
+            0,
+            45670070730,
+            41423193900
+          ]
+        ],
+        "any_common_action_worst_regret": 1.6659607691690326,
+        "any_common_action_worst_regret_exact": "1788811755/1073741824",
+        "best_groups": [
+          0,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          5,
+          5
+        ],
+        "input_ids": [
+          261,
+          1044
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          25522751730,
+          17888117550,
+          45670070730,
+          41423193900
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 10737418240,
+        "rows": [
+          136,
+          357
+        ],
+        "same_report_code": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "same_runner_class": 9,
+        "same_top_class": 5,
+        "true_margin_drop_numerators": [
+          [
+            31046740710,
+            13158623160,
+            4844591100,
+            23379090210
+          ],
+          [
+            16027467990,
+            41550219720,
+            -4119851010,
+            127025820
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            2.891453049145639,
+            1.2254922799766064,
+            0.4511877056211233,
+            2.177347448654473
+          ],
+          [
+            1.4926742753013968,
+            3.8696657605469227,
+            -0.38369102496653795,
+            0.011830201372504234
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        136,
+        357
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 231,
+      "empirical_minimum_mean_regret": 0.008059108404667822,
+      "empirical_minimum_mean_regret_exact": "98432445/12213813248",
+      "finite_states": 364,
+      "method": "random-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 0.9059519777074456,
+      "minimum_worst_case_regret_exact": "972758529/1073741824",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 17,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            16909993620,
+            0,
+            29947327200,
+            51077918490
+          ],
+          [
+            0,
+            9727585290,
+            28763349870,
+            12449782980
+          ]
+        ],
+        "any_common_action_worst_regret": 0.9059519777074456,
+        "any_common_action_worst_regret_exact": "972758529/1073741824",
+        "best_groups": [
+          1,
+          0
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          5,
+          5
+        ],
+        "input_ids": [
+          1702,
+          976
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          16909993620,
+          9727585290,
+          29947327200,
+          51077918490
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 10737418240,
+        "rows": [
+          78,
+          341
+        ],
+        "same_report_code": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "same_runner_class": 9,
+        "same_top_class": 5,
+        "true_margin_drop_numerators": [
+          [
+            21556958550,
+            38466952170,
+            8519624970,
+            -12610966320
+          ],
+          [
+            28872551070,
+            19144965780,
+            109201200,
+            16422768090
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            2.0076482137665153,
+            3.582514093257487,
+            0.7934519061818719,
+            -1.1744877621531487
+          ],
+          [
+            2.688965859822929,
+            1.7830138821154833,
+            0.01017015427350998,
+            1.5294894659891725
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        78,
+        341,
+        357,
+        359
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 364,
+      "empirical_minimum_mean_regret": 0.0,
+      "empirical_minimum_mean_regret_exact": "0",
+      "finite_states": 364,
+      "method": "current-output",
+      "minimax_action_for_worst_fibre": null,
+      "minimum_worst_case_regret": 0.0,
+      "minimum_worst_case_regret_exact": "0",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 17,
+      "strength": 0.75,
+      "two_state_witness": null,
+      "worst_fibre_rows": []
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 63,
+      "empirical_minimum_mean_regret": 0.0705055481252762,
+      "empirical_minimum_mean_regret_exact": "492080913/6979321856",
+      "finite_states": 364,
+      "method": "action-only",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 2.507285370491445,
+      "minimum_worst_case_regret_exact": "2692177167/1073741824",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 29,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            0,
+            42702386670,
+            26921771670,
+            64813333470
+          ],
+          [
+            35772484200,
+            45687418350,
+            0,
+            79827212910
+          ]
+        ],
+        "any_common_action_worst_regret": 2.507285370491445,
+        "any_common_action_worst_regret_exact": "2692177167/1073741824",
+        "best_groups": [
+          0,
+          2
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          9,
+          9
+        ],
+        "input_ids": [
+          1006,
+          1554
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          35772484200,
+          45687418350,
+          26921771670,
+          79827212910
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          7,
+          114
+        ],
+        "same_report_code": [],
+        "same_runner_class": 5,
+        "same_top_class": 9,
+        "true_margin_drop_numerators": [
+          [
+            47524964760,
+            4822578090,
+            20603193090,
+            -17288368710
+          ],
+          [
+            18856652280,
+            8941718130,
+            54629136480,
+            -25198076430
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            4.426107253879309,
+            0.4491375843062997,
+            1.9188218833878636,
+            -1.610104805789888
+          ],
+          [
+            1.7561625950038433,
+            0.8327623950317502,
+            5.087734803557396,
+            -2.3467537416145205
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        2,
+        7,
+        91,
+        114,
+        118,
+        177,
+        221,
+        268,
+        269,
+        288,
+        312,
+        339
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 237,
+      "empirical_minimum_mean_regret": 0.025586504000494933,
+      "empirical_minimum_mean_regret_exact": "10000281009/390842023936",
+      "finite_states": 364,
+      "method": "native-8",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 2.4090548884123564,
+      "minimum_worst_case_regret_exact": "1293351495/536870912",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 29,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            0,
+            86491185120,
+            25867029900,
+            64094866410
+          ],
+          [
+            40030721220,
+            80116840050,
+            0,
+            104763357150
+          ]
+        ],
+        "any_common_action_worst_regret": 2.4090548884123564,
+        "any_common_action_worst_regret_exact": "1293351495/536870912",
+        "best_groups": [
+          0,
+          2
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          2,
+          2
+        ],
+        "input_ids": [
+          142,
+          184
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          40030721220,
+          86491185120,
+          25867029900,
+          104763357150
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          12,
+          280
+        ],
+        "same_report_code": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 2,
+        "true_margin_drop_numerators": [
+          [
+            57653337240,
+            -28837847880,
+            31786307340,
+            -6441529170
+          ],
+          [
+            19288126680,
+            -20797992150,
+            59318847900,
+            -45444509250
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            5.369385447353125,
+            -2.685733873397112,
+            2.9603305589407682,
+            -0.5999141531065106
+          ],
+          [
+            1.7963467799127102,
+            -1.9369639595970511,
+            5.524498214945197,
+            -4.232349735684693
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        12,
+        280
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 279,
+      "empirical_minimum_mean_regret": 0.007394510963522307,
+      "empirical_minimum_mean_regret_exact": "2890085631/390842023936",
+      "finite_states": 364,
+      "method": "native-12",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 1.3398732421919703,
+      "minimum_worst_case_regret_exact": "1438677939/1073741824",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 29,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            113915577840,
+            51280916460,
+            0,
+            19846297230
+          ],
+          [
+            118195859970,
+            53375142870,
+            14386779390,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 1.3398732421919703,
+        "any_common_action_worst_regret_exact": "1438677939/1073741824",
+        "best_groups": [
+          2,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          3,
+          3
+        ],
+        "input_ids": [
+          98,
+          1475
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          118195859970,
+          53375142870,
+          14386779390,
+          19846297230
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          244,
+          254
+        ],
+        "same_report_code": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "same_runner_class": 2,
+        "same_top_class": 3,
+        "true_margin_drop_numerators": [
+          [
+            -47011249290,
+            15623412090,
+            66904328550,
+            47058031320
+          ],
+          [
+            -53881867530,
+            10938849570,
+            49927213050,
+            64313992440
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -4.378263772465289,
+            1.4550436371937394,
+            6.2309511518105865,
+            4.3826206885278225
+          ],
+          [
+            -5.018139959312975,
+            1.018759754486382,
+            4.649834060110152,
+            5.989707302302122
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        85,
+        200,
+        244,
+        254,
+        295,
+        358
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 327,
+      "empirical_minimum_mean_regret": 0.0023566584670813855,
+      "empirical_minimum_mean_regret_exact": "921081165/390842023936",
+      "finite_states": 364,
+      "method": "pca-8",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 0.6737277517095208,
+      "minimum_worst_case_regret_exact": "723409665/1073741824",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 29,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            18511902690,
+            0,
+            7234096650,
+            17714459850
+          ],
+          [
+            39810512550,
+            11404883790,
+            0,
+            25635981810
+          ]
+        ],
+        "any_common_action_worst_regret": 0.6737277517095208,
+        "any_common_action_worst_regret_exact": "723409665/1073741824",
+        "best_groups": [
+          1,
+          2
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          4,
+          4
+        ],
+        "input_ids": [
+          496,
+          134
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          39810512550,
+          11404883790,
+          7234096650,
+          25635981810
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          0,
+          180
+        ],
+        "same_report_code": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "same_runner_class": 1,
+        "same_top_class": 4,
+        "true_margin_drop_numerators": [
+          [
+            -2317743750,
+            16194158940,
+            8960062290,
+            -1520300910
+          ],
+          [
+            -15123162390,
+            13282466370,
+            24687350160,
+            -948631650
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -0.2158567076548934,
+            1.5081985797733068,
+            0.834470828063786,
+            -0.1415890557691455
+          ],
+          [
+            -1.4084542533382773,
+            1.237026077695191,
+            2.2991886511445045,
+            -0.08834820706397295
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        0,
+        180
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 222,
+      "empirical_minimum_mean_regret": 0.014526123649205316,
+      "empirical_minimum_mean_regret_exact": "5677419567/390842023936",
+      "finite_states": 364,
+      "method": "random-8",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 1.1774938758462667,
+      "minimum_worst_case_regret_exact": "632162211/536870912",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 29,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            40187551200,
+            25870001730,
+            0,
+            32459408310
+          ],
+          [
+            20352887010,
+            0,
+            12643244220,
+            30573783180
+          ]
+        ],
+        "any_common_action_worst_regret": 1.1774938758462667,
+        "any_common_action_worst_regret_exact": "632162211/536870912",
+        "best_groups": [
+          2,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          7,
+          7
+        ],
+        "input_ids": [
+          543,
+          1269
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          40187551200,
+          25870001730,
+          12643244220,
+          32459408310
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          190,
+          361
+        ],
+        "same_report_code": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "same_runner_class": 9,
+        "same_top_class": 7,
+        "true_margin_drop_numerators": [
+          [
+            -216798570,
+            14100750900,
+            39970752630,
+            7511344320
+          ],
+          [
+            13413807330,
+            33766694340,
+            21123450120,
+            3192911160
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -0.020190940238535404,
+            1.3132347632199526,
+            3.722566424869001,
+            0.6995484530925751
+          ],
+          [
+            1.2492581577971578,
+            3.1447684708982706,
+            1.9672745950520039,
+            0.2973630242049694
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        190,
+        361
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 364,
+      "empirical_minimum_mean_regret": 0.0,
+      "empirical_minimum_mean_regret_exact": "0",
+      "finite_states": 364,
+      "method": "current-output",
+      "minimax_action_for_worst_fibre": null,
+      "minimum_worst_case_regret": 0.0,
+      "minimum_worst_case_regret_exact": "0",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 29,
+      "strength": 0.75,
+      "two_state_witness": null,
+      "worst_fibre_rows": []
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 55,
+      "empirical_minimum_mean_regret": 0.14342248300346291,
+      "empirical_minimum_mean_regret_exact": "56055533535/390842023936",
+      "finite_states": 364,
+      "method": "action-only",
+      "minimax_action_for_worst_fibre": 3,
+      "minimum_worst_case_regret": 3.375588946044445,
+      "minimum_worst_case_regret_exact": "453063879/134217728",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 43,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            77719952250,
+            106447183470,
+            0,
+            36245110320
+          ],
+          [
+            80727902670,
+            89032179990,
+            38364490620,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 3.375588946044445,
+        "any_common_action_worst_regret_exact": "453063879/134217728",
+        "best_groups": [
+          2,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          8,
+          8
+        ],
+        "input_ids": [
+          1305,
+          253
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          80727902670,
+          106447183470,
+          38364490620,
+          36245110320
+        ],
+        "minimax_common_action": 3,
+        "response_denominator": 10737418240,
+        "rows": [
+          90,
+          307
+        ],
+        "same_report_code": [],
+        "same_runner_class": 1,
+        "same_top_class": 8,
+        "true_margin_drop_numerators": [
+          [
+            -12853262610,
+            -41580493830,
+            64866689640,
+            28621579320
+          ],
+          [
+            -20232608460,
+            -28536885780,
+            22130803590,
+            60495294210
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -1.1970533626154065,
+            -3.872485256753862,
+            6.041181240230799,
+            2.6655922941863537
+          ],
+          [
+            -1.8843085002154112,
+            -2.657704593613744,
+            2.0610916977748275,
+            5.634063315577805
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        8,
+        29,
+        30,
+        90,
+        101,
+        162,
+        236,
+        261,
+        275,
+        307
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 209,
+      "empirical_minimum_mean_regret": 0.04521721929240112,
+      "empirical_minimum_mean_regret_exact": "2524684215/55834574848",
+      "finite_states": 364,
+      "method": "native-8",
+      "minimax_action_for_worst_fibre": 3,
+      "minimum_worst_case_regret": 3.375588946044445,
+      "minimum_worst_case_regret_exact": "453063879/134217728",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 43,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            77719952250,
+            106447183470,
+            0,
+            36245110320
+          ],
+          [
+            80727902670,
+            89032179990,
+            38364490620,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 3.375588946044445,
+        "any_common_action_worst_regret_exact": "453063879/134217728",
+        "best_groups": [
+          2,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          8,
+          8
+        ],
+        "input_ids": [
+          1305,
+          253
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          80727902670,
+          106447183470,
+          38364490620,
+          36245110320
+        ],
+        "minimax_common_action": 3,
+        "response_denominator": 10737418240,
+        "rows": [
+          90,
+          307
+        ],
+        "same_report_code": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "same_runner_class": 1,
+        "same_top_class": 8,
+        "true_margin_drop_numerators": [
+          [
+            -12853262610,
+            -41580493830,
+            64866689640,
+            28621579320
+          ],
+          [
+            -20232608460,
+            -28536885780,
+            22130803590,
+            60495294210
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -1.1970533626154065,
+            -3.872485256753862,
+            6.041181240230799,
+            2.6655922941863537
+          ],
+          [
+            -1.8843085002154112,
+            -2.657704593613744,
+            2.0610916977748275,
+            5.634063315577805
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        8,
+        29,
+        30,
+        90,
+        307
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 268,
+      "empirical_minimum_mean_regret": 0.017468432675801462,
+      "empirical_minimum_mean_regret_exact": "3413698791/195421011968",
+      "finite_states": 364,
+      "method": "native-12",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 1.2678798492997885,
+      "minimum_worst_case_regret_exact": "680687811/536870912",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 43,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            15377003670,
+            13613756220,
+            0,
+            6174996420
+          ],
+          [
+            27339142860,
+            0,
+            17655695730,
+            14766009810
+          ]
+        ],
+        "any_common_action_worst_regret": 1.2678798492997885,
+        "any_common_action_worst_regret_exact": "680687811/536870912",
+        "best_groups": [
+          2,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          9,
+          9
+        ],
+        "input_ids": [
+          1686,
+          1698
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          27339142860,
+          13613756220,
+          17655695730,
+          14766009810
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 10737418240,
+        "rows": [
+          221,
+          312
+        ],
+        "same_report_code": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "same_runner_class": 5,
+        "same_top_class": 9,
+        "true_margin_drop_numerators": [
+          [
+            9098101740,
+            10861349190,
+            24475105410,
+            18300108990
+          ],
+          [
+            2305624290,
+            29644767150,
+            11989071420,
+            14878757340
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            0.8473267536610365,
+            1.0115419691428542,
+            2.2794218184426427,
+            1.7043304620310664
+          ],
+          [
+            0.21472799498587847,
+            2.760884086601436,
+            1.116569286212325,
+            1.3856922592967749
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        7,
+        91,
+        221,
+        288,
+        312
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 322,
+      "empirical_minimum_mean_regret": 0.014887035105397904,
+      "empirical_minimum_mean_regret_exact": "5818478931/390842023936",
+      "finite_states": 364,
+      "method": "pca-8",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 1.2389869568869472,
+      "minimum_worst_case_regret_exact": "1330352115/1073741824",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 43,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            33200793780,
+            31937005470,
+            0,
+            12242140860
+          ],
+          [
+            0,
+            31731463200,
+            13303521150,
+            23263475910
+          ]
+        ],
+        "any_common_action_worst_regret": 1.2389869568869472,
+        "any_common_action_worst_regret_exact": "1330352115/1073741824",
+        "best_groups": [
+          2,
+          0
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          7,
+          7
+        ],
+        "input_ids": [
+          211,
+          1635
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          33200793780,
+          31937005470,
+          13303521150,
+          23263475910
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 10737418240,
+        "rows": [
+          167,
+          235
+        ],
+        "same_report_code": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "same_runner_class": 9,
+        "same_top_class": 7,
+        "true_margin_drop_numerators": [
+          [
+            -9188936460,
+            -7925148150,
+            24011857320,
+            11769716460
+          ],
+          [
+            16738354470,
+            -14993108730,
+            3434833320,
+            -6525121440
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -0.8557863961905241,
+            -0.7380869379267097,
+            2.2362784780561924,
+            1.0961402636021376
+          ],
+          [
+            1.5588807379826903,
+            -1.3963420623913407,
+            0.3198937810957432,
+            -0.6076992899179459
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        52,
+        167,
+        235
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 223,
+      "empirical_minimum_mean_regret": 0.026357236883736083,
+      "empirical_minimum_mean_regret_exact": "792424293/30064771072",
+      "finite_states": 364,
+      "method": "random-8",
+      "minimax_action_for_worst_fibre": 3,
+      "minimum_worst_case_regret": 1.0237597189843655,
+      "minimum_worst_case_regret_exact": "274813407/268435456",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 43,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            43709952960,
+            0,
+            50279990100,
+            10992536280
+          ],
+          [
+            36388566000,
+            11314185120,
+            25862192490,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 1.0237597189843655,
+        "any_common_action_worst_regret_exact": "274813407/268435456",
+        "best_groups": [
+          1,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          0,
+          0
+        ],
+        "input_ids": [
+          101,
+          571
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          43709952960,
+          11314185120,
+          50279990100,
+          10992536280
+        ],
+        "minimax_common_action": 3,
+        "response_denominator": 10737418240,
+        "rows": [
+          103,
+          112
+        ],
+        "same_report_code": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "same_runner_class": 6,
+        "same_top_class": 0,
+        "true_margin_drop_numerators": [
+          [
+            -7848780990,
+            35861171970,
+            -14418818130,
+            24868635690
+          ],
+          [
+            1947740400,
+            27022121280,
+            12474113910,
+            38336306400
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -0.7309746919199824,
+            3.339831900782883,
+            -1.342857082374394,
+            2.3160721817985177
+          ],
+          [
+            0.1813974604010582,
+            2.516631156206131,
+            1.1617423882707953,
+            3.5703467577695847
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        103,
+        112,
+        145,
+        231,
+        232,
+        328
+      ]
+    },
+    {
+      "architecture": "linear",
+      "context_bits": 7,
+      "distinct_report_contexts": 364,
+      "empirical_minimum_mean_regret": 0.0,
+      "empirical_minimum_mean_regret_exact": "0",
+      "finite_states": 364,
+      "method": "current-output",
+      "minimax_action_for_worst_fibre": null,
+      "minimum_worst_case_regret": 0.0,
+      "minimum_worst_case_regret_exact": "0",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 43,
+      "strength": 0.75,
+      "two_state_witness": null,
+      "worst_fibre_rows": []
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 55,
+      "empirical_minimum_mean_regret": 0.1715161394377079,
+      "empirical_minimum_mean_regret_exact": "19612734924953/114349209288704",
+      "finite_states": 364,
+      "method": "action-only",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 5.205425788531784,
+      "minimum_worst_case_regret_exact": "22893704728063/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 117,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            262982637152290,
+            183356680195600,
+            245950495116310,
+            0
+          ],
+          [
+            424899387422960,
+            200206547473030,
+            0,
+            298087753991490
+          ]
+        ],
+        "any_common_action_worst_regret": 4.5521698546742755,
+        "any_common_action_worst_regret_exact": "20020654747303/4398046511104",
+        "best_groups": [
+          3,
+          2
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          9,
+          9
+        ],
+        "input_ids": [
+          1543,
+          375
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          424899387422960,
+          200206547473030,
+          245950495116310,
+          298087753991490
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          107,
+          177
+        ],
+        "same_report_code": [],
+        "same_runner_class": 5,
+        "same_top_class": 9,
+        "true_margin_drop_numerators": [
+          [
+            -46232339086830,
+            33393617869860,
+            -29200197050850,
+            216750298065460
+          ],
+          [
+            -125418264408420,
+            99274575541510,
+            299481123014540,
+            1393369023050
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -1.0512016862510336,
+            0.7592829631416862,
+            -0.663935612711839,
+            4.928331192455971
+          ],
+          [
+            -2.851681174625355,
+            2.257242511893992,
+            6.809412366568267,
+            0.0316815436019624
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        2,
+        7,
+        91,
+        107,
+        114,
+        118,
+        152,
+        177,
+        221,
+        246,
+        268,
+        269,
+        288,
+        312,
+        321,
+        339
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 221,
+      "empirical_minimum_mean_regret": 0.019148412744538452,
+      "empirical_minimum_mean_regret_exact": "7663620497651/400222232510464",
+      "finite_states": 364,
+      "method": "native-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 1.8671552123976198,
+      "minimum_worst_case_regret_exact": "8211835467575/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 117,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            282101944194680,
+            82118354675750,
+            0,
+            172114678756580
+          ],
+          [
+            124345535086790,
+            0,
+            82343868381470,
+            162122821856880
+          ]
+        ],
+        "any_common_action_worst_regret": 1.8671552123976198,
+        "any_common_action_worst_regret_exact": "8211835467575/4398046511104",
+        "best_groups": [
+          2,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          6,
+          6
+        ],
+        "input_ids": [
+          1481,
+          1473
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          282101944194680,
+          82118354675750,
+          82343868381470,
+          172114678756580
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          13,
+          171
+        ],
+        "same_report_code": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "same_runner_class": 0,
+        "same_top_class": 6,
+        "true_margin_drop_numerators": [
+          [
+            -10362799039850,
+            189620790479080,
+            271739145154830,
+            99624466398250
+          ],
+          [
+            13504765683600,
+            137850300770390,
+            55506432388920,
+            -24272521086490
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -0.23562277055702907,
+            4.311477607167944,
+            6.178632819565564,
+            2.2651981089040873
+          ],
+          [
+            0.30706282094797643,
+            3.134352954711858,
+            1.262070154301,
+            -0.5518932331708584
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        13,
+        171
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 273,
+      "empirical_minimum_mean_regret": 0.010527472312249271,
+      "empirical_minimum_mean_regret_exact": "8426656943001/800444465020928",
+      "finite_states": 364,
+      "method": "native-12",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 1.8671552123976198,
+      "minimum_worst_case_regret_exact": "8211835467575/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 117,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            282101944194680,
+            82118354675750,
+            0,
+            172114678756580
+          ],
+          [
+            124345535086790,
+            0,
+            82343868381470,
+            162122821856880
+          ]
+        ],
+        "any_common_action_worst_regret": 1.8671552123976198,
+        "any_common_action_worst_regret_exact": "8211835467575/4398046511104",
+        "best_groups": [
+          2,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          6,
+          6
+        ],
+        "input_ids": [
+          1481,
+          1473
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          282101944194680,
+          82118354675750,
+          82343868381470,
+          172114678756580
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          13,
+          171
+        ],
+        "same_report_code": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "same_runner_class": 0,
+        "same_top_class": 6,
+        "true_margin_drop_numerators": [
+          [
+            -10362799039850,
+            189620790479080,
+            271739145154830,
+            99624466398250
+          ],
+          [
+            13504765683600,
+            137850300770390,
+            55506432388920,
+            -24272521086490
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -0.23562277055702907,
+            4.311477607167944,
+            6.178632819565564,
+            2.2651981089040873
+          ],
+          [
+            0.30706282094797643,
+            3.134352954711858,
+            1.262070154301,
+            -0.5518932331708584
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        13,
+        171
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 313,
+      "empirical_minimum_mean_regret": 0.01866100004632359,
+      "empirical_minimum_mean_regret_exact": "14937094198835/800444465020928",
+      "finite_states": 364,
+      "method": "pca-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 3.4528107730081956,
+      "minimum_worst_case_regret_exact": "15185622373731/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 117,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            191518641062550,
+            0,
+            201322837075290,
+            242583868209840
+          ],
+          [
+            0,
+            151856223737310,
+            255440602473570,
+            279159960244500
+          ]
+        ],
+        "any_common_action_worst_regret": 3.4528107730081956,
+        "any_common_action_worst_regret_exact": "15185622373731/4398046511104",
+        "best_groups": [
+          1,
+          0
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          1,
+          1
+        ],
+        "input_ids": [
+          1426,
+          341
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          191518641062550,
+          151856223737310,
+          255440602473570,
+          279159960244500
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          176,
+          189
+        ],
+        "same_report_code": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            100688017644780,
+            292206658707330,
+            90883821632040,
+            49622790497490
+          ],
+          [
+            245363678236830,
+            93507454499520,
+            -10076924236740,
+            -33796282007670
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            2.289380464498663,
+            6.644010197927173,
+            2.0664588562804056,
+            1.1282916261163791
+          ],
+          [
+            5.578924134097861,
+            2.126113361089665,
+            -0.22912273008705597,
+            -0.7684384856399902
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        176,
+        189
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 211,
+      "empirical_minimum_mean_regret": 0.024306362747940066,
+      "empirical_minimum_mean_regret_exact": "38911787052759/1600888930041856",
+      "finite_states": 364,
+      "method": "random-8",
+      "minimax_action_for_worst_fibre": 0,
+      "minimum_worst_case_regret": 1.7321342426153024,
+      "minimum_worst_case_regret_exact": "3809003481249/2199023255552",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 117,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            0,
+            111157023336300,
+            282043838175420,
+            369162662632350
+          ],
+          [
+            76180069624980,
+            0,
+            369158501930790,
+            438184608403230
+          ]
+        ],
+        "any_common_action_worst_regret": 1.7321342426153024,
+        "any_common_action_worst_regret_exact": "3809003481249/2199023255552",
+        "best_groups": [
+          0,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          1,
+          1
+        ],
+        "input_ids": [
+          1134,
+          1688
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          76180069624980,
+          111157023336300,
+          369158501930790,
+          438184608403230
+        ],
+        "minimax_common_action": 0,
+        "response_denominator": 43980465111040,
+        "rows": [
+          83,
+          179
+        ],
+        "same_report_code": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            334781420111100,
+            223624396774800,
+            52737581935680,
+            -34381242521250
+          ],
+          [
+            259423018784010,
+            335603088408990,
+            -33555413521800,
+            -102581519994240
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            7.612048196076557,
+            5.0846301013461925,
+            1.1991137838704162,
+            -0.7817389478361747
+          ],
+          [
+            5.898596527549898,
+            7.630730770165201,
+            -0.7629617703469194,
+            -2.3324337233643746
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        45,
+        81,
+        83,
+        86,
+        173,
+        179,
+        187,
+        192,
+        241
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 364,
+      "empirical_minimum_mean_regret": 0.0,
+      "empirical_minimum_mean_regret_exact": "0",
+      "finite_states": 364,
+      "method": "current-output",
+      "minimax_action_for_worst_fibre": null,
+      "minimum_worst_case_regret": 0.0,
+      "minimum_worst_case_regret_exact": "0",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 117,
+      "strength": 0.75,
+      "two_state_witness": null,
+      "worst_fibre_rows": []
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 53,
+      "empirical_minimum_mean_regret": 0.19822397794626773,
+      "empirical_minimum_mean_regret_exact": "317334571963041/1600888930041856",
+      "finite_states": 364,
+      "method": "action-only",
+      "minimax_action_for_worst_fibre": 3,
+      "minimum_worst_case_regret": 4.772855868362967,
+      "minimum_worst_case_regret_exact": "1311952631241/274877906944",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 129,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            0,
+            329898447882350,
+            181823688225060,
+            209912420998560
+          ],
+          [
+            219788907814090,
+            304199857112880,
+            472488502929580,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 4.772855868362967,
+        "any_common_action_worst_regret_exact": "1311952631241/274877906944",
+        "best_groups": [
+          0,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          8,
+          8
+        ],
+        "input_ids": [
+          643,
+          1284
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          219788907814090,
+          329898447882350,
+          472488502929580,
+          209912420998560
+        ],
+        "minimax_common_action": 3,
+        "response_denominator": 43980465111040,
+        "rows": [
+          29,
+          261
+        ],
+        "same_report_code": [],
+        "same_runner_class": 1,
+        "same_top_class": 8,
+        "true_margin_drop_numerators": [
+          [
+            234287366602590,
+            -95611081279760,
+            52463678377530,
+            24374945604030
+          ],
+          [
+            42287014019400,
+            -42123935279390,
+            -210412581096090,
+            262075921833490
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            5.3270779654346825,
+            -2.173944296368063,
+            1.1928859379970618,
+            0.5542220970717153
+          ],
+          [
+            0.961495380111046,
+            -0.9577873988607735,
+            -4.784228192331511,
+            5.958916559245381
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        29,
+        261
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 215,
+      "empirical_minimum_mean_regret": 0.07763316879177469,
+      "empirical_minimum_mean_regret_exact": "124282080522823/1600888930041856",
+      "finite_states": 364,
+      "method": "native-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 3.423567012595413,
+      "minimum_worst_case_regret_exact": "3764251738819/1099511627776",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 129,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            560465816596490,
+            0,
+            298159875781300,
+            222494219075980
+          ],
+          [
+            460958494188450,
+            150570069552760,
+            204925574739660,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 3.423567012595413,
+        "any_common_action_worst_regret_exact": "3764251738819/1099511627776",
+        "best_groups": [
+          1,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          1,
+          1
+        ],
+        "input_ids": [
+          1097,
+          982
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          560465816596490,
+          150570069552760,
+          298159875781300,
+          222494219075980
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          192,
+          208
+        ],
+        "same_report_code": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "same_runner_class": 2,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            -198359003732010,
+            362106812864480,
+            63946937083180,
+            139612593788500
+          ],
+          [
+            -155731537474860,
+            154656887160830,
+            100301381973930,
+            305226956713590
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -4.51016157358049,
+            8.233355694403144,
+            1.453985011793975,
+            3.1744228587854195
+          ],
+          [
+            -3.540925205808435,
+            3.5164904866367124,
+            2.2805893871448006,
+            6.940057499232125
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        192,
+        208,
+        306
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 273,
+      "empirical_minimum_mean_regret": 0.033939122582347075,
+      "empirical_minimum_mean_regret_exact": "54332765637413/1600888930041856",
+      "finite_states": 364,
+      "method": "native-12",
+      "minimax_action_for_worst_fibre": 0,
+      "minimum_worst_case_regret": 2.703703386347115,
+      "minimum_worst_case_regret_exact": "1486376655673/549755813888",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 129,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            0,
+            295552634556630,
+            157731222871800,
+            210016543955540
+          ],
+          [
+            118910132453840,
+            264450800740310,
+            0,
+            164122118794970
+          ]
+        ],
+        "any_common_action_worst_regret": 2.703703386347115,
+        "any_common_action_worst_regret_exact": "1486376655673/549755813888",
+        "best_groups": [
+          0,
+          2
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          2,
+          2
+        ],
+        "input_ids": [
+          440,
+          1081
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          118910132453840,
+          295552634556630,
+          157731222871800,
+          210016543955540
+        ],
+        "minimax_common_action": 0,
+        "response_denominator": 43980465111040,
+        "rows": [
+          174,
+          348
+        ],
+        "same_report_code": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "same_runner_class": 3,
+        "same_top_class": 2,
+        "true_margin_drop_numerators": [
+          [
+            256160915393280,
+            -39391719163350,
+            98429692521480,
+            46144371437740
+          ],
+          [
+            144216805595580,
+            -1323862690890,
+            263126938049420,
+            99004819254450
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            5.824424883787287,
+            -0.8956639968198488,
+            2.238032096135612,
+            1.0492015334816642
+          ],
+          [
+            3.27911051489491,
+            -0.03010115258098267,
+            5.982813901242025,
+            2.2511089640477167
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        174,
+        348
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 289,
+      "empirical_minimum_mean_regret": 0.017302075423040627,
+      "empirical_minimum_mean_regret_exact": "27698701011495/1600888930041856",
+      "finite_states": 364,
+      "method": "pca-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 2.2975912699926084,
+      "minimum_worst_case_regret_exact": "5052456634467/2199023255552",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 129,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            171244807853460,
+            101049132689340,
+            152302724038930,
+            0
+          ],
+          [
+            218116150721640,
+            0,
+            125579918582820,
+            103559586080180
+          ]
+        ],
+        "any_common_action_worst_regret": 2.2975912699926084,
+        "any_common_action_worst_regret_exact": "5052456634467/2199023255552",
+        "best_groups": [
+          3,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          6,
+          6
+        ],
+        "input_ids": [
+          734,
+          453
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          218116150721640,
+          101049132689340,
+          152302724038930,
+          103559586080180
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          37,
+          245
+        ],
+        "same_report_code": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 6,
+        "true_margin_drop_numerators": [
+          [
+            34700265847590,
+            104895941011710,
+            53642349662120,
+            205945073701050
+          ],
+          [
+            33860692148610,
+            251976842870250,
+            126396924287430,
+            148417256790070
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            0.7889926984623798,
+            2.3850575646908965,
+            1.2196858202087242,
+            4.682648834683505
+          ],
+          [
+            0.7699030026881246,
+            5.729290088999051,
+            2.8739333239952884,
+            3.3746177175560206
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        16,
+        37,
+        245,
+        271,
+        289
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 225,
+      "empirical_minimum_mean_regret": 0.06310836989996647,
+      "empirical_minimum_mean_regret_exact": "101029490765843/1600888930041856",
+      "finite_states": 364,
+      "method": "random-8",
+      "minimax_action_for_worst_fibre": 0,
+      "minimum_worst_case_regret": 3.0699290778741215,
+      "minimum_worst_case_regret_exact": "13501690870281/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 129,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            0,
+            295552634556630,
+            157731222871800,
+            210016543955540
+          ],
+          [
+            135016908702810,
+            310150681900230,
+            0,
+            193370090295810
+          ]
+        ],
+        "any_common_action_worst_regret": 3.0699290778741215,
+        "any_common_action_worst_regret_exact": "13501690870281/4398046511104",
+        "best_groups": [
+          0,
+          2
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          2,
+          2
+        ],
+        "input_ids": [
+          440,
+          1169
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          135016908702810,
+          310150681900230,
+          157731222871800,
+          210016543955540
+        ],
+        "minimax_common_action": 0,
+        "response_denominator": 43980465111040,
+        "rows": [
+          174,
+          253
+        ],
+        "same_report_code": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "same_runner_class": 3,
+        "same_top_class": 2,
+        "true_margin_drop_numerators": [
+          [
+            256160915393280,
+            -39391719163350,
+            98429692521480,
+            46144371437740
+          ],
+          [
+            193023780166740,
+            17890006969320,
+            328040688869550,
+            134670598573740
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            5.824424883787287,
+            -0.8956639968198488,
+            2.238032096135612,
+            1.0492015334816642
+          ],
+          [
+            4.388852634445811,
+            0.40677166383193253,
+            7.458781712319933,
+            3.062054897185135
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        23,
+        70,
+        93,
+        100,
+        137,
+        172,
+        174,
+        220,
+        253,
+        291,
+        296,
+        363
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 364,
+      "empirical_minimum_mean_regret": 0.0,
+      "empirical_minimum_mean_regret_exact": "0",
+      "finite_states": 364,
+      "method": "current-output",
+      "minimax_action_for_worst_fibre": null,
+      "minimum_worst_case_regret": 0.0,
+      "minimum_worst_case_regret_exact": "0",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 129,
+      "strength": 0.75,
+      "two_state_witness": null,
+      "worst_fibre_rows": []
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 58,
+      "empirical_minimum_mean_regret": 0.2212287073139142,
+      "empirical_minimum_mean_regret_exact": "354162588546315/1600888930041856",
+      "finite_states": 364,
+      "method": "action-only",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 8.251424277806109,
+      "minimum_worst_case_regret_exact": "9072536939161/1099511627776",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 143,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            626175282626900,
+            402138503515120,
+            311304296571400,
+            0
+          ],
+          [
+            742356526756790,
+            0,
+            362901477566440,
+            527881174479650
+          ]
+        ],
+        "any_common_action_worst_regret": 8.251424277806109,
+        "any_common_action_worst_regret_exact": "9072536939161/1099511627776",
+        "best_groups": [
+          3,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          8,
+          1
+        ],
+        "input_ids": [
+          890,
+          861
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          742356526756790,
+          402138503515120,
+          362901477566440,
+          527881174479650
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 43980465111040,
+        "rows": [
+          101,
+          126
+        ],
+        "same_report_code": [],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            -287896843674910,
+            -63860064563130,
+            26974142380590,
+            338278438951990
+          ],
+          [
+            -286412688844250,
+            455943837912540,
+            93042360346100,
+            -71937336567110
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -6.54601634948699,
+            -1.4520097593760966,
+            0.6133209895003802,
+            7.691561198771296
+          ],
+          [
+            -6.512270575609591,
+            10.366962622186747,
+            2.1155383443806386,
+            -1.6356656616860619
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        27,
+        45,
+        47,
+        53,
+        57,
+        81,
+        83,
+        86,
+        97,
+        101,
+        109,
+        120,
+        126,
+        130,
+        170,
+        173,
+        179,
+        187,
+        189,
+        192,
+        208,
+        241,
+        260,
+        262,
+        272,
+        320,
+        343
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 220,
+      "empirical_minimum_mean_regret": 0.07742114079392783,
+      "empirical_minimum_mean_regret_exact": "123942647248211/1600888930041856",
+      "finite_states": 364,
+      "method": "native-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 4.872248814338263,
+      "minimum_worst_case_regret_exact": "21428376899131/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 143,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            676711154556850,
+            0,
+            345610609359110,
+            456004920908700
+          ],
+          [
+            528217143168340,
+            214283768991310,
+            350285778307050,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 4.872248814338263,
+        "any_common_action_worst_regret_exact": "21428376899131/4398046511104",
+        "best_groups": [
+          1,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          1,
+          1
+        ],
+        "input_ids": [
+          1120,
+          11
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          676711154556850,
+          214283768991310,
+          350285778307050,
+          456004920908700
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          86,
+          260
+        ],
+        "same_report_code": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            -217045679134050,
+            459665475422800,
+            114054866063690,
+            3660554514100
+          ],
+          [
+            -132562617796540,
+            181370756380490,
+            45368747064750,
+            395654525371800
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -4.935047380378137,
+            10.451582862124269,
+            2.5933074099086753,
+            0.08323137340312314
+          ],
+          [
+            -3.0141249634775704,
+            4.123893549615104,
+            1.0315658770366554,
+            8.996142363953368
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        86,
+        260
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 288,
+      "empirical_minimum_mean_regret": 0.03665237603422174,
+      "empirical_minimum_mean_regret_exact": "8382340436131/228698418577408",
+      "finite_states": 364,
+      "method": "native-12",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 4.872248814338263,
+      "minimum_worst_case_regret_exact": "21428376899131/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 143,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            676711154556850,
+            0,
+            345610609359110,
+            456004920908700
+          ],
+          [
+            528217143168340,
+            214283768991310,
+            350285778307050,
+            0
+          ]
+        ],
+        "any_common_action_worst_regret": 4.872248814338263,
+        "any_common_action_worst_regret_exact": "21428376899131/4398046511104",
+        "best_groups": [
+          1,
+          3
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          1,
+          1
+        ],
+        "input_ids": [
+          1120,
+          11
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          676711154556850,
+          214283768991310,
+          350285778307050,
+          456004920908700
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          86,
+          260
+        ],
+        "same_report_code": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            -217045679134050,
+            459665475422800,
+            114054866063690,
+            3660554514100
+          ],
+          [
+            -132562617796540,
+            181370756380490,
+            45368747064750,
+            395654525371800
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -4.935047380378137,
+            10.451582862124269,
+            2.5933074099086753,
+            0.08323137340312314
+          ],
+          [
+            -3.0141249634775704,
+            4.123893549615104,
+            1.0315658770366554,
+            8.996142363953368
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        86,
+        260
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 304,
+      "empirical_minimum_mean_regret": 0.015043584199731667,
+      "empirical_minimum_mean_regret_exact": "24083107413503/1600888930041856",
+      "finite_states": 364,
+      "method": "pca-8",
+      "minimax_action_for_worst_fibre": 1,
+      "minimum_worst_case_regret": 1.3815840998004205,
+      "minimum_worst_case_regret_exact": "1519067782481/1099511627776",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 143,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            234353014499290,
+            0,
+            75875082695590,
+            299266340350780
+          ],
+          [
+            308526986003490,
+            60762711299240,
+            0,
+            330276989268010
+          ]
+        ],
+        "any_common_action_worst_regret": 1.3815840998004205,
+        "any_common_action_worst_regret_exact": "1519067782481/1099511627776",
+        "best_groups": [
+          1,
+          2
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          2,
+          2
+        ],
+        "input_ids": [
+          1169,
+          1031
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          308526986003490,
+          60762711299240,
+          75875082695590,
+          330276989268010
+        ],
+        "minimax_common_action": 1,
+        "response_denominator": 43980465111040,
+        "rows": [
+          253,
+          279
+        ],
+        "same_report_code": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "same_runner_class": 3,
+        "same_top_class": 2,
+        "true_margin_drop_numerators": [
+          [
+            20641904429700,
+            254994918928990,
+            179119836233400,
+            -44271421421790
+          ],
+          [
+            780729303930,
+            248545004008180,
+            309307715307420,
+            -20969273960590
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            0.4693425678328822,
+            5.797913193623344,
+            4.072713550917797,
+            -1.006615580576863
+          ],
+          [
+            0.01775172913608003,
+            5.651259107439273,
+            7.032843207239694,
+            -0.4767860891795408
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        253,
+        279
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 240,
+      "empirical_minimum_mean_regret": 0.10614490126476245,
+      "empirical_minimum_mean_regret_exact": "21240774676893/200111116255232",
+      "finite_states": 364,
+      "method": "random-8",
+      "minimax_action_for_worst_fibre": 2,
+      "minimum_worst_case_regret": 7.926261582643974,
+      "minimum_worst_case_regret_exact": "34860067099645/4398046511104",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 143,
+      "strength": 0.75,
+      "two_state_witness": {
+        "action_regret_numerators": [
+          [
+            626175282626900,
+            402138503515120,
+            311304296571400,
+            0
+          ],
+          [
+            700327438458150,
+            0,
+            348600670996450,
+            482837969369130
+          ]
+        ],
+        "any_common_action_worst_regret": 7.926261582643974,
+        "any_common_action_worst_regret_exact": "34860067099645/4398046511104",
+        "best_groups": [
+          3,
+          1
+        ],
+        "both_best_actions_unique": true,
+        "digit_labels": [
+          8,
+          1
+        ],
+        "input_ids": [
+          890,
+          326
+        ],
+        "max_regret_for_each_common_action_numerators": [
+          700327438458150,
+          402138503515120,
+          348600670996450,
+          482837969369130
+        ],
+        "minimax_common_action": 2,
+        "response_denominator": 43980465111040,
+        "rows": [
+          101,
+          320
+        ],
+        "same_report_code": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "same_runner_class": 8,
+        "same_top_class": 1,
+        "true_margin_drop_numerators": [
+          [
+            -287896843674910,
+            -63860064563130,
+            26974142380590,
+            338278438951990
+          ],
+          [
+            -236934122956090,
+            463393315502060,
+            114792644505610,
+            -19444653867070
+          ]
+        ],
+        "true_margin_drops": [
+          [
+            -6.54601634948699,
+            -1.4520097593760966,
+            0.6133209895003802,
+            7.691561198771296
+          ],
+          [
+            -5.387258237444485,
+            10.536344132152863,
+            2.6100825495088884,
+            -0.44212024174771614
+          ]
+        ],
+        "verified_equal_reports_and_context": true
+      },
+      "worst_fibre_rows": [
+        45,
+        86,
+        97,
+        101,
+        130,
+        173,
+        241,
+        320
+      ]
+    },
+    {
+      "architecture": "nonlinear",
+      "context_bits": 7,
+      "distinct_report_contexts": 364,
+      "empirical_minimum_mean_regret": 0.0,
+      "empirical_minimum_mean_regret_exact": "0",
+      "finite_states": 364,
+      "method": "current-output",
+      "minimax_action_for_worst_fibre": null,
+      "minimum_worst_case_regret": 0.0,
+      "minimum_worst_case_regret_exact": "0",
+      "policy_input": "state report plus ordered top/runner class labels; no exact logits or margins",
+      "seed": 143,
+      "strength": 0.75,
+      "two_state_witness": null,
+      "worst_fibre_rows": []
+    }
+  ],
+  "reports_and_class_context_are_frozen": "source encoders retained; this analysis fits no policy",
+  "scope": "post-test exploratory descriptive study; uniform empirical image weighting; deterministic policy action set has four groups at strength3/4; no population or semantic claim",
+  "script_sha256": "924ee8da3c043767bd7b1cba33ce4a95218ef08df90ddf8e0982f1f4a0c90864",
+  "status": "exact finite decision certificates"
+}

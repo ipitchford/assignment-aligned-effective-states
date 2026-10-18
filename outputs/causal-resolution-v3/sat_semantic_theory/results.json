@@ -1,0 +1,1667 @@
+{
+  "status": "PASS",
+  "neural_data_or_outcomes_read": false,
+  "protected_data_read": false,
+  "random_search": false,
+  "local_clause_notation": "(variable index, satisfying value, variable index, satisfying value)",
+  "exhaustive_one_step": {
+    "variables": 3,
+    "clauses": 4,
+    "ordered_formulas_checked": 20736,
+    "initially_sat_formulas": 20520,
+    "menus_checked": 82080,
+    "replacement_labels_checked": 902880,
+    "check": "Boolean/bitset oracle agreement; backbone menu theorem; exact menu equivalence; profile coding"
+  },
+  "exact_conditional_quotient": {
+    "variables": 5,
+    "formula_clauses": 10,
+    "old_clause_contexts_checked": 40,
+    "compatible_backbone_realisations": 8640,
+    "distinct_menu_classes_per_context": 206,
+    "minimum_fixed_length_bits_for_one_fixed_context": 8,
+    "contexts": [
+      {
+        "old_clause": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          0,
+          3,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          3,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          0,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          1,
+          2,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          0,
+          3,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          1,
+          3,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          0,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          1,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          1,
+          3,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          0,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          1,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          2,
+          1,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          3,
+          0,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          3,
+          1,
+          4,
+          0
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      },
+      {
+        "old_clause": [
+          3,
+          1,
+          4,
+          1
+        ],
+        "compatible_backbones": 216,
+        "distinct_menus": 206
+      }
+    ]
+  },
+  "multiset_control": {
+    "types": 40,
+    "slots": 10,
+    "multiset_count": 8217822536,
+    "fixed_length_bits": 33,
+    "small_domain_all_ranks_checked": 1365,
+    "full_domain_deterministic_rank_checks": 1001,
+    "scope": "exact SAT-semantic multiset; cannot recover token order or checkpoint computation"
+  },
+  "same_truth_table_conflicting_optimal_actions": {
+    "formula_f": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        1
+      ],
+      [
+        2,
+        1,
+        4,
+        0
+      ],
+      [
+        2,
+        1,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ]
+    ],
+    "formula_g": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        1
+      ],
+      [
+        3,
+        1,
+        4,
+        0
+      ],
+      [
+        3,
+        1,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        0
+      ]
+    ],
+    "context": {
+      "slot": 0,
+      "old": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "common_current_models": [
+      13,
+      29
+    ],
+    "deletion_backbone_f": [
+      -1,
+      0,
+      1,
+      -1,
+      -1
+    ],
+    "deletion_backbone_g": [
+      -1,
+      0,
+      -1,
+      1,
+      -1
+    ],
+    "only_unsat_replacement_f": [
+      1,
+      1,
+      2,
+      0
+    ],
+    "only_unsat_replacement_g": [
+      1,
+      1,
+      3,
+      0
+    ],
+    "uniform_pair_optimal_success_with_truth_table_report": "1/2",
+    "each_state_oracle_success": 1,
+    "scope": "symbolic semantic witness, no neural report or checkpoint claim"
+  },
+  "horizon_separation_witnesses": [
+    {
+      "horizon": 1,
+      "formula_f": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "formula_g": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "q_f": [
+        1,
+        8,
+        1,
+        0,
+        1,
+        8,
+        1,
+        0,
+        1,
+        8,
+        1,
+        0,
+        1,
+        8,
+        1,
+        0,
+        1,
+        8,
+        1,
+        0,
+        1,
+        8,
+        1,
+        0,
+        1,
+        8,
+        1,
+        0,
+        1,
+        8,
+        1,
+        0
+      ],
+      "q_g": [
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0,
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0,
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0,
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0
+      ],
+      "identical_cap": 1,
+      "common_current_models": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "actions": [
+        {
+          "slot": 0,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "sat_path_f_g": [
+        [
+          true,
+          false
+        ]
+      ],
+      "all_deletion_backbone_profiles_equal": false,
+      "deletion_backbone_f": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "deletion_backbone_g": [
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "horizon": 2,
+      "formula_f": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "formula_g": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "q_f": [
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0,
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0,
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0,
+        2,
+        7,
+        2,
+        0,
+        1,
+        7,
+        1,
+        0
+      ],
+      "q_g": [
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0,
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0,
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0,
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0
+      ],
+      "identical_cap": 2,
+      "common_current_models": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "actions": [
+        {
+          "slot": 0,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "slot": 1,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "sat_path_f_g": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "all_deletion_backbone_profiles_equal": true
+    },
+    {
+      "horizon": 3,
+      "formula_f": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "formula_g": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "q_f": [
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0,
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0,
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0,
+        3,
+        6,
+        3,
+        0,
+        1,
+        6,
+        1,
+        0
+      ],
+      "q_g": [
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0,
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0,
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0,
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0
+      ],
+      "identical_cap": 3,
+      "common_current_models": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "actions": [
+        {
+          "slot": 0,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "slot": 1,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "slot": 2,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "sat_path_f_g": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "all_deletion_backbone_profiles_equal": true
+    },
+    {
+      "horizon": 4,
+      "formula_f": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "formula_g": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "q_f": [
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0,
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0,
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0,
+        4,
+        5,
+        4,
+        0,
+        1,
+        5,
+        1,
+        0
+      ],
+      "q_g": [
+        5,
+        4,
+        5,
+        0,
+        1,
+        4,
+        1,
+        0,
+        5,
+        4,
+        5,
+        0,
+        1,
+        4,
+        1,
+        0,
+        5,
+        4,
+        5,
+        0,
+        1,
+        4,
+        1,
+        0,
+        5,
+        4,
+        5,
+        0,
+        1,
+        4,
+        1,
+        0
+      ],
+      "identical_cap": 4,
+      "common_current_models": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "actions": [
+        {
+          "slot": 0,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "slot": 1,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "slot": 2,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "slot": 3,
+          "old": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "sat_path_f_g": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "all_deletion_backbone_profiles_equal": true
+    }
+  ],
+  "exhaustive_bounded_horizon": {
+    "variables": 2,
+    "slots": 3,
+    "initial_formulas": 64,
+    "all_valid_action_paths_checked_by_horizon": {
+      "1": 576,
+      "2": 5184,
+      "3": 46656
+    },
+    "check": "cap at remaining-horizon plus one; independently evaluated final Boolean SAT"
+  },
+  "script_sha256": "5a6a003fa403dd299b5162b34966f47c5ffda00ec7a8a794c385a4b40cc2f5a7",
+  "prior_art_boundary_sha256": "541c5806095e1147be99320394bfa94f2c2ef4bd60430a33048385ef19618a45",
+  "frozen_contract_sha256": "36a8f2763d4e299d19620db4e58a30e19788ae404f56939225f73cf95c489104"
+}

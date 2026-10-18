@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "optimize": 0,
+  "rows": 4096,
+  "unit_auroc_checks": 17,
+  "threshold_cell_checks": 85,
+  "scope": "independent Boolean evaluation, rank-sum AUROC, threshold counts and native accuracy; no new model forward",
+  "native_receipt_sha256": "0c88de6d9b74d95375d5fdefef208829ca9001238914f129756e77ac28d0882c"
+}

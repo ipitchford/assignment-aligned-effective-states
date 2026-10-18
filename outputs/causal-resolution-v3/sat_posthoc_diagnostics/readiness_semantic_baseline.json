@@ -1,0 +1,3160 @@
+{
+  "baseline_definition": "predict native activation iff the declared action effect m_v(a) equals one",
+  "bootstrap": {
+    "models": {
+      "semantic_only": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          0.7747556992636382,
+          0.8000283341474266
+        ],
+        "valid_draws": 2000
+      },
+      "structured": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          0.8902645540784255,
+          0.9278309571149643
+        ],
+        "valid_draws": 2000
+      }
+    },
+    "origin_count": 685,
+    "scope": "saved original-origin multiplicities; all 2000 draws reused; no resampling",
+    "structured_minus_semantic_only": {
+      "draws": 2000,
+      "interval_2_5_97_5": [
+        0.10410793506792461,
+        0.13769633598350792
+      ],
+      "valid_draws": 2000
+    }
+  },
+  "inputs": {
+    "inputs/bootstrap_raw.npz": "9a209a05ffe419b2cde0edf982a94b54e825b69fab61db69050d80f82254a88c",
+    "inputs/source_mapping.json": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d",
+    "inputs/stage_b_raw.npz": "2167186a9824c51141ed63810a9753dcb563f968de6d0e433b36af876034c7c2"
+  },
+  "interpretation": "The structured-minus-semantic-only comparison isolates the incremental contribution of the fitted readiness bit within this saved cohort. It is not a protected test, a causal mediation estimate, or evidence for a global SAT policy.",
+  "new_fits": 0,
+  "new_neural_forwards": 0,
+  "new_resampling": 0,
+  "results": {
+    "all_selected_assessment": {
+      "action_rows": 2176,
+      "macro": {
+        "semantic_only": 0.789391929309956,
+        "structured": 0.9108561166267333,
+        "structured_minus_semantic_only": 0.12146418731677722
+      },
+      "paired_unit_origins": 1088,
+      "per_assignment": {
+        "FFFFF": {
+          "semantic_only": 0.7873295643498504,
+          "structured": 0.9000665114732291
+        },
+        "FFFFT": {
+          "semantic_only": 0.8265306122448979,
+          "structured": 0.932312925170068
+        },
+        "FFFTF": {
+          "semantic_only": 0.796012759170654,
+          "structured": 0.8880382775119617
+        },
+        "FFFTT": {
+          "semantic_only": 0.8298969072164948,
+          "structured": 0.9258397073495177
+        },
+        "FFTTT": {
+          "semantic_only": 0.8003754693366708,
+          "structured": 0.9399249061326658
+        },
+        "FTFFT": {
+          "semantic_only": 0.7654377880184331,
+          "structured": 0.9213517665130568
+        },
+        "FTTTF": {
+          "semantic_only": 0.7285714285714285,
+          "structured": 0.8607142857142858
+        },
+        "TFFFF": {
+          "semantic_only": 0.7619883040935673,
+          "structured": 0.8856725146198831
+        },
+        "TFFFT": {
+          "semantic_only": 0.8298969072164948,
+          "structured": 0.9735616893914201
+        },
+        "TFFTT": {
+          "semantic_only": 0.8333333333333333,
+          "structured": 0.9166666666666667
+        },
+        "TFTFT": {
+          "semantic_only": 0.7708333333333333,
+          "structured": 0.9114583333333333
+        },
+        "TFTTT": {
+          "semantic_only": 0.7755980861244018,
+          "structured": 0.877511961722488
+        },
+        "TTFFT": {
+          "semantic_only": 0.7609708737864078,
+          "structured": 0.9011650485436893
+        },
+        "TTFTT": {
+          "semantic_only": 0.8137254901960784,
+          "structured": 0.9268476621417798
+        },
+        "TTTFF": {
+          "semantic_only": 0.7333425797503468,
+          "structured": 0.8586581137309293
+        },
+        "TTTTF": {
+          "semantic_only": 0.8164274322169058,
+          "structured": 0.9539074960127591
+        }
+      },
+      "per_unit": {
+        "0": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7619883040935673,
+            "fn": 5,
+            "fp": 31,
+            "n": 128,
+            "negative": 90,
+            "positive": 38,
+            "sensitivity": 0.868421052631579,
+            "specificity": 0.6555555555555556,
+            "tn": 59,
+            "tp": 33
+          },
+          "structured": {
+            "balanced_accuracy": 0.8856725146198831,
+            "fn": 7,
+            "fp": 4,
+            "n": 128,
+            "negative": 90,
+            "positive": 38,
+            "sensitivity": 0.8157894736842105,
+            "specificity": 0.9555555555555556,
+            "tn": 86,
+            "tp": 31
+          }
+        },
+        "1": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7873295643498504,
+            "fn": 2,
+            "fp": 35,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.9354838709677419,
+            "specificity": 0.6391752577319587,
+            "tn": 62,
+            "tp": 29
+          },
+          "structured": {
+            "balanced_accuracy": 0.9000665114732291,
+            "fn": 3,
+            "fp": 10,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.9032258064516129,
+            "specificity": 0.8969072164948454,
+            "tn": 87,
+            "tp": 28
+          }
+        },
+        "10": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8298969072164948,
+            "fn": 0,
+            "fp": 33,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.6597938144329897,
+            "tn": 64,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.9735616893914201,
+            "fn": 1,
+            "fp": 2,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.967741935483871,
+            "specificity": 0.979381443298969,
+            "tn": 95,
+            "tp": 30
+          }
+        },
+        "11": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8164274322169058,
+            "fn": 1,
+            "fp": 32,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.9696969696969697,
+            "specificity": 0.6631578947368421,
+            "tn": 63,
+            "tp": 32
+          },
+          "structured": {
+            "balanced_accuracy": 0.9539074960127591,
+            "fn": 2,
+            "fp": 3,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.9393939393939394,
+            "specificity": 0.968421052631579,
+            "tn": 92,
+            "tp": 31
+          }
+        },
+        "12": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8333333333333333,
+            "fn": 0,
+            "fp": 32,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 1.0,
+            "specificity": 0.6666666666666666,
+            "tn": 64,
+            "tp": 32
+          },
+          "structured": {
+            "balanced_accuracy": 0.9166666666666667,
+            "fn": 4,
+            "fp": 4,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.875,
+            "specificity": 0.9583333333333334,
+            "tn": 92,
+            "tp": 28
+          }
+        },
+        "13": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7609708737864078,
+            "fn": 2,
+            "fp": 41,
+            "n": 128,
+            "negative": 103,
+            "positive": 25,
+            "sensitivity": 0.92,
+            "specificity": 0.6019417475728155,
+            "tn": 62,
+            "tp": 23
+          },
+          "structured": {
+            "balanced_accuracy": 0.9011650485436893,
+            "fn": 3,
+            "fp": 8,
+            "n": 128,
+            "negative": 103,
+            "positive": 25,
+            "sensitivity": 0.88,
+            "specificity": 0.9223300970873787,
+            "tn": 95,
+            "tp": 22
+          }
+        },
+        "14": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7057142857142857,
+            "fn": 5,
+            "fp": 41,
+            "n": 128,
+            "negative": 100,
+            "positive": 28,
+            "sensitivity": 0.8214285714285714,
+            "specificity": 0.59,
+            "tn": 59,
+            "tp": 23
+          },
+          "structured": {
+            "balanced_accuracy": 0.8307142857142857,
+            "fn": 5,
+            "fp": 16,
+            "n": 128,
+            "negative": 100,
+            "positive": 28,
+            "sensitivity": 0.8214285714285714,
+            "specificity": 0.84,
+            "tn": 84,
+            "tp": 23
+          }
+        },
+        "15": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7708333333333333,
+            "fn": 3,
+            "fp": 35,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.90625,
+            "specificity": 0.6354166666666666,
+            "tn": 61,
+            "tp": 29
+          },
+          "structured": {
+            "balanced_accuracy": 0.9114583333333333,
+            "fn": 3,
+            "fp": 8,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.90625,
+            "specificity": 0.9166666666666666,
+            "tn": 88,
+            "tp": 29
+          }
+        },
+        "16": {
+          "semantic_only": {
+            "balanced_accuracy": 0.796012759170654,
+            "fn": 2,
+            "fp": 33,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.9393939393939394,
+            "specificity": 0.6526315789473685,
+            "tn": 62,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.8880382775119617,
+            "fn": 6,
+            "fp": 4,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.8181818181818182,
+            "specificity": 0.9578947368421052,
+            "tn": 91,
+            "tp": 27
+          }
+        },
+        "2": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7609708737864078,
+            "fn": 2,
+            "fp": 41,
+            "n": 128,
+            "negative": 103,
+            "positive": 25,
+            "sensitivity": 0.92,
+            "specificity": 0.6019417475728155,
+            "tn": 62,
+            "tp": 23
+          },
+          "structured": {
+            "balanced_accuracy": 0.8866019417475728,
+            "fn": 3,
+            "fp": 11,
+            "n": 128,
+            "negative": 103,
+            "positive": 25,
+            "sensitivity": 0.88,
+            "specificity": 0.8932038834951457,
+            "tn": 92,
+            "tp": 22
+          }
+        },
+        "3": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8003754693366708,
+            "fn": 2,
+            "fp": 32,
+            "n": 128,
+            "negative": 94,
+            "positive": 34,
+            "sensitivity": 0.9411764705882353,
+            "specificity": 0.6595744680851063,
+            "tn": 62,
+            "tp": 32
+          },
+          "structured": {
+            "balanced_accuracy": 0.9399249061326658,
+            "fn": 3,
+            "fp": 3,
+            "n": 128,
+            "negative": 94,
+            "positive": 34,
+            "sensitivity": 0.9117647058823529,
+            "specificity": 0.9680851063829787,
+            "tn": 91,
+            "tp": 31
+          }
+        },
+        "4": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7285714285714285,
+            "fn": 4,
+            "fp": 40,
+            "n": 128,
+            "negative": 100,
+            "positive": 28,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 0.6,
+            "tn": 60,
+            "tp": 24
+          },
+          "structured": {
+            "balanced_accuracy": 0.8607142857142858,
+            "fn": 5,
+            "fp": 10,
+            "n": 128,
+            "negative": 100,
+            "positive": 28,
+            "sensitivity": 0.8214285714285714,
+            "specificity": 0.9,
+            "tn": 90,
+            "tp": 23
+          }
+        },
+        "5": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8298969072164948,
+            "fn": 0,
+            "fp": 33,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.6597938144329897,
+            "tn": 64,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.9258397073495177,
+            "fn": 3,
+            "fp": 5,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.9032258064516129,
+            "specificity": 0.9484536082474226,
+            "tn": 92,
+            "tp": 28
+          }
+        },
+        "6": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8265306122448979,
+            "fn": 0,
+            "fp": 34,
+            "n": 128,
+            "negative": 98,
+            "positive": 30,
+            "sensitivity": 1.0,
+            "specificity": 0.6530612244897959,
+            "tn": 64,
+            "tp": 30
+          },
+          "structured": {
+            "balanced_accuracy": 0.932312925170068,
+            "fn": 1,
+            "fp": 10,
+            "n": 128,
+            "negative": 98,
+            "positive": 30,
+            "sensitivity": 0.9666666666666667,
+            "specificity": 0.8979591836734694,
+            "tn": 88,
+            "tp": 29
+          }
+        },
+        "7": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7654377880184331,
+            "fn": 4,
+            "fp": 33,
+            "n": 128,
+            "negative": 93,
+            "positive": 35,
+            "sensitivity": 0.8857142857142857,
+            "specificity": 0.6451612903225806,
+            "tn": 60,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.9213517665130568,
+            "fn": 4,
+            "fp": 4,
+            "n": 128,
+            "negative": 93,
+            "positive": 35,
+            "sensitivity": 0.8857142857142857,
+            "specificity": 0.956989247311828,
+            "tn": 89,
+            "tp": 31
+          }
+        },
+        "8": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8137254901960784,
+            "fn": 0,
+            "fp": 38,
+            "n": 128,
+            "negative": 102,
+            "positive": 26,
+            "sensitivity": 1.0,
+            "specificity": 0.6274509803921569,
+            "tn": 64,
+            "tp": 26
+          },
+          "structured": {
+            "balanced_accuracy": 0.9268476621417798,
+            "fn": 1,
+            "fp": 11,
+            "n": 128,
+            "negative": 102,
+            "positive": 26,
+            "sensitivity": 0.9615384615384616,
+            "specificity": 0.8921568627450981,
+            "tn": 91,
+            "tp": 25
+          }
+        },
+        "9": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7755980861244018,
+            "fn": 3,
+            "fp": 34,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 0.6421052631578947,
+            "tn": 61,
+            "tp": 30
+          },
+          "structured": {
+            "balanced_accuracy": 0.877511961722488,
+            "fn": 6,
+            "fp": 6,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.8181818181818182,
+            "specificity": 0.9368421052631579,
+            "tn": 89,
+            "tp": 27
+          }
+        }
+      }
+    },
+    "all_selected_fit": {
+      "action_rows": 2176,
+      "macro": {
+        "semantic_only": 0.7919146016778951,
+        "structured": 0.9118665023535455,
+        "structured_minus_semantic_only": 0.11995190067565042
+      },
+      "paired_unit_origins": 1088,
+      "per_assignment": {
+        "FFFFF": {
+          "semantic_only": 0.75,
+          "structured": 0.9166666666666667
+        },
+        "FFFFT": {
+          "semantic_only": 0.8298969072164948,
+          "structured": 0.9419687396075822
+        },
+        "FFFTF": {
+          "semantic_only": 0.8164274322169058,
+          "structured": 0.9084529505582137
+        },
+        "FFFTT": {
+          "semantic_only": 0.8333333333333333,
+          "structured": 0.9270833333333333
+        },
+        "FFTTT": {
+          "semantic_only": 0.8164274322169058,
+          "structured": 0.9492822966507177
+        },
+        "FTFFT": {
+          "semantic_only": 0.8125,
+          "structured": 0.9479166666666667
+        },
+        "FTTTF": {
+          "semantic_only": 0.774442538593482,
+          "structured": 0.8799313893653516
+        },
+        "TFFFF": {
+          "semantic_only": 0.7850998463901689,
+          "structured": 0.9016897081413211
+        },
+        "TFFFT": {
+          "semantic_only": 0.8298969072164948,
+          "structured": 0.9845360824742269
+        },
+        "TFFTT": {
+          "semantic_only": 0.8298969072164948,
+          "structured": 0.8935816428333887
+        },
+        "TFTFT": {
+          "semantic_only": 0.7318840579710145,
+          "structured": 0.8671497584541064
+        },
+        "TFTTT": {
+          "semantic_only": 0.8047619047619048,
+          "structured": 0.9513605442176871
+        },
+        "TTFFT": {
+          "semantic_only": 0.7307692307692308,
+          "structured": 0.8493589743589745
+        },
+        "TTFTT": {
+          "semantic_only": 0.7612244897959184,
+          "structured": 0.8554421768707483
+        },
+        "TTTFF": {
+          "semantic_only": 0.759310734386068,
+          "structured": 0.8725859646006009
+        },
+        "TTTTF": {
+          "semantic_only": 0.8047619047619048,
+          "structured": 0.9428571428571428
+        }
+      },
+      "per_unit": {
+        "0": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7850998463901689,
+            "fn": 3,
+            "fp": 32,
+            "n": 128,
+            "negative": 93,
+            "positive": 35,
+            "sensitivity": 0.9142857142857143,
+            "specificity": 0.6559139784946236,
+            "tn": 61,
+            "tp": 32
+          },
+          "structured": {
+            "balanced_accuracy": 0.9016897081413211,
+            "fn": 5,
+            "fp": 5,
+            "n": 128,
+            "negative": 93,
+            "positive": 35,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 0.946236559139785,
+            "tn": 88,
+            "tp": 30
+          }
+        },
+        "1": {
+          "semantic_only": {
+            "balanced_accuracy": 0.75,
+            "fn": 4,
+            "fp": 36,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.875,
+            "specificity": 0.625,
+            "tn": 60,
+            "tp": 28
+          },
+          "structured": {
+            "balanced_accuracy": 0.9166666666666667,
+            "fn": 4,
+            "fp": 4,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.875,
+            "specificity": 0.9583333333333334,
+            "tn": 92,
+            "tp": 28
+          }
+        },
+        "10": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8298969072164948,
+            "fn": 0,
+            "fp": 33,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.6597938144329897,
+            "tn": 64,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.9845360824742269,
+            "fn": 0,
+            "fp": 3,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.9690721649484536,
+            "tn": 94,
+            "tp": 31
+          }
+        },
+        "11": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8047619047619048,
+            "fn": 2,
+            "fp": 31,
+            "n": 128,
+            "negative": 93,
+            "positive": 35,
+            "sensitivity": 0.9428571428571428,
+            "specificity": 0.6666666666666666,
+            "tn": 62,
+            "tp": 33
+          },
+          "structured": {
+            "balanced_accuracy": 0.9428571428571428,
+            "fn": 4,
+            "fp": 0,
+            "n": 128,
+            "negative": 93,
+            "positive": 35,
+            "sensitivity": 0.8857142857142857,
+            "specificity": 1.0,
+            "tn": 93,
+            "tp": 31
+          }
+        },
+        "12": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8298969072164948,
+            "fn": 0,
+            "fp": 33,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.6597938144329897,
+            "tn": 64,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.8935816428333887,
+            "fn": 5,
+            "fp": 5,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.8387096774193549,
+            "specificity": 0.9484536082474226,
+            "tn": 92,
+            "tp": 26
+          }
+        },
+        "13": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7307692307692308,
+            "fn": 3,
+            "fp": 43,
+            "n": 128,
+            "negative": 104,
+            "positive": 24,
+            "sensitivity": 0.875,
+            "specificity": 0.5865384615384616,
+            "tn": 61,
+            "tp": 21
+          },
+          "structured": {
+            "balanced_accuracy": 0.8493589743589745,
+            "fn": 4,
+            "fp": 14,
+            "n": 128,
+            "negative": 104,
+            "positive": 24,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 0.8653846153846154,
+            "tn": 90,
+            "tp": 20
+          }
+        },
+        "14": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7933626696002933,
+            "fn": 1,
+            "fp": 38,
+            "n": 128,
+            "negative": 101,
+            "positive": 27,
+            "sensitivity": 0.9629629629629629,
+            "specificity": 0.6237623762376238,
+            "tn": 63,
+            "tp": 26
+          },
+          "structured": {
+            "balanced_accuracy": 0.9035570223689036,
+            "fn": 2,
+            "fp": 12,
+            "n": 128,
+            "negative": 101,
+            "positive": 27,
+            "sensitivity": 0.9259259259259259,
+            "specificity": 0.8811881188118812,
+            "tn": 89,
+            "tp": 25
+          }
+        },
+        "15": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7318840579710145,
+            "fn": 6,
+            "fp": 34,
+            "n": 128,
+            "negative": 92,
+            "positive": 36,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 0.6304347826086957,
+            "tn": 58,
+            "tp": 30
+          },
+          "structured": {
+            "balanced_accuracy": 0.8671497584541064,
+            "fn": 8,
+            "fp": 4,
+            "n": 128,
+            "negative": 92,
+            "positive": 36,
+            "sensitivity": 0.7777777777777778,
+            "specificity": 0.9565217391304348,
+            "tn": 88,
+            "tp": 28
+          }
+        },
+        "16": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8164274322169058,
+            "fn": 1,
+            "fp": 32,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.9696969696969697,
+            "specificity": 0.6631578947368421,
+            "tn": 63,
+            "tp": 32
+          },
+          "structured": {
+            "balanced_accuracy": 0.9084529505582137,
+            "fn": 5,
+            "fp": 3,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.8484848484848485,
+            "specificity": 0.968421052631579,
+            "tn": 92,
+            "tp": 28
+          }
+        },
+        "2": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7252587991718427,
+            "fn": 3,
+            "fp": 44,
+            "n": 128,
+            "negative": 105,
+            "positive": 23,
+            "sensitivity": 0.8695652173913043,
+            "specificity": 0.580952380952381,
+            "tn": 61,
+            "tp": 20
+          },
+          "structured": {
+            "balanced_accuracy": 0.8416149068322981,
+            "fn": 4,
+            "fp": 15,
+            "n": 128,
+            "negative": 105,
+            "positive": 23,
+            "sensitivity": 0.8260869565217391,
+            "specificity": 0.8571428571428571,
+            "tn": 90,
+            "tp": 19
+          }
+        },
+        "3": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8164274322169058,
+            "fn": 1,
+            "fp": 32,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.9696969696969697,
+            "specificity": 0.6631578947368421,
+            "tn": 63,
+            "tp": 32
+          },
+          "structured": {
+            "balanced_accuracy": 0.9492822966507177,
+            "fn": 3,
+            "fp": 1,
+            "n": 128,
+            "negative": 95,
+            "positive": 33,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 0.9894736842105263,
+            "tn": 94,
+            "tp": 30
+          }
+        },
+        "4": {
+          "semantic_only": {
+            "balanced_accuracy": 0.774442538593482,
+            "fn": 1,
+            "fp": 43,
+            "n": 128,
+            "negative": 106,
+            "positive": 22,
+            "sensitivity": 0.9545454545454546,
+            "specificity": 0.5943396226415094,
+            "tn": 63,
+            "tp": 21
+          },
+          "structured": {
+            "balanced_accuracy": 0.8799313893653516,
+            "fn": 3,
+            "fp": 11,
+            "n": 128,
+            "negative": 106,
+            "positive": 22,
+            "sensitivity": 0.8636363636363636,
+            "specificity": 0.8962264150943396,
+            "tn": 95,
+            "tp": 19
+          }
+        },
+        "5": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8333333333333333,
+            "fn": 0,
+            "fp": 32,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 1.0,
+            "specificity": 0.6666666666666666,
+            "tn": 64,
+            "tp": 32
+          },
+          "structured": {
+            "balanced_accuracy": 0.9270833333333333,
+            "fn": 3,
+            "fp": 5,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.90625,
+            "specificity": 0.9479166666666666,
+            "tn": 91,
+            "tp": 29
+          }
+        },
+        "6": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8298969072164948,
+            "fn": 0,
+            "fp": 33,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.6597938144329897,
+            "tn": 64,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.9419687396075822,
+            "fn": 2,
+            "fp": 5,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.9354838709677419,
+            "specificity": 0.9484536082474226,
+            "tn": 92,
+            "tp": 29
+          }
+        },
+        "7": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8125,
+            "fn": 1,
+            "fp": 33,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.96875,
+            "specificity": 0.65625,
+            "tn": 63,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.9479166666666667,
+            "fn": 3,
+            "fp": 1,
+            "n": 128,
+            "negative": 96,
+            "positive": 32,
+            "sensitivity": 0.90625,
+            "specificity": 0.9895833333333334,
+            "tn": 95,
+            "tp": 29
+          }
+        },
+        "8": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7612244897959184,
+            "fn": 3,
+            "fp": 37,
+            "n": 128,
+            "negative": 98,
+            "positive": 30,
+            "sensitivity": 0.9,
+            "specificity": 0.6224489795918368,
+            "tn": 61,
+            "tp": 27
+          },
+          "structured": {
+            "balanced_accuracy": 0.8554421768707483,
+            "fn": 5,
+            "fp": 12,
+            "n": 128,
+            "negative": 98,
+            "positive": 30,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 0.8775510204081632,
+            "tn": 86,
+            "tp": 25
+          }
+        },
+        "9": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8047619047619048,
+            "fn": 1,
+            "fp": 35,
+            "n": 128,
+            "negative": 98,
+            "positive": 30,
+            "sensitivity": 0.9666666666666667,
+            "specificity": 0.6428571428571429,
+            "tn": 63,
+            "tp": 29
+          },
+          "structured": {
+            "balanced_accuracy": 0.9513605442176871,
+            "fn": 2,
+            "fp": 3,
+            "n": 128,
+            "negative": 98,
+            "positive": 30,
+            "sensitivity": 0.9333333333333333,
+            "specificity": 0.9693877551020408,
+            "tn": 95,
+            "tp": 28
+          }
+        }
+      }
+    },
+    "excluded_unclipped_assessment": {
+      "action_rows": 266,
+      "macro": {
+        "semantic_only": 0.953432367265088,
+        "structured": 0.953432367265088,
+        "structured_minus_semantic_only": 0.0
+      },
+      "paired_unit_origins": 133,
+      "per_assignment": {
+        "FFFFF": {
+          "semantic_only": 0.9166666666666667,
+          "structured": 0.9166666666666667
+        },
+        "FFFFT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "FFFTF": {
+          "semantic_only": 0.8571428571428572,
+          "structured": 0.8571428571428572
+        },
+        "FFFTT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "FFTTT": {
+          "semantic_only": 0.9545454545454546,
+          "structured": 0.9545454545454546
+        },
+        "FTFFT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "FTTTF": {
+          "semantic_only": 0.875,
+          "structured": 0.875
+        },
+        "TFFFF": {
+          "semantic_only": 0.8823529411764706,
+          "structured": 0.8823529411764706
+        },
+        "TFFFT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "TFFTT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "TFTFT": {
+          "semantic_only": 0.9166666666666667,
+          "structured": 0.9166666666666667
+        },
+        "TFTTT": {
+          "semantic_only": 0.9545454545454546,
+          "structured": 0.9545454545454546
+        },
+        "TTFFT": {
+          "semantic_only": 0.9642857142857143,
+          "structured": 0.9642857142857143
+        },
+        "TTFTT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "TTTFF": {
+          "semantic_only": 0.9337121212121212,
+          "structured": 0.9337121212121212
+        },
+        "TTTTF": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        }
+      },
+      "per_unit": {
+        "0": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8823529411764706,
+            "fn": 4,
+            "fp": 0,
+            "n": 26,
+            "negative": 9,
+            "positive": 17,
+            "sensitivity": 0.7647058823529411,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 13
+          },
+          "structured": {
+            "balanced_accuracy": 0.8823529411764706,
+            "fn": 4,
+            "fp": 0,
+            "n": 26,
+            "negative": 9,
+            "positive": 17,
+            "sensitivity": 0.7647058823529411,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 13
+          }
+        },
+        "1": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9166666666666667,
+            "fn": 2,
+            "fp": 0,
+            "n": 20,
+            "negative": 8,
+            "positive": 12,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 10
+          },
+          "structured": {
+            "balanced_accuracy": 0.9166666666666667,
+            "fn": 2,
+            "fp": 0,
+            "n": 20,
+            "negative": 8,
+            "positive": 12,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 10
+          }
+        },
+        "10": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "negative": 2,
+            "positive": 2,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 2,
+            "tp": 2
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "negative": 2,
+            "positive": 2,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 2,
+            "tp": 2
+          }
+        },
+        "11": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 12,
+            "negative": 6,
+            "positive": 6,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 6,
+            "tp": 6
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 12,
+            "negative": 6,
+            "positive": 6,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 6,
+            "tp": 6
+          }
+        },
+        "12": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 6,
+            "negative": 3,
+            "positive": 3,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 3,
+            "tp": 3
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 6,
+            "negative": 3,
+            "positive": 3,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 3,
+            "tp": 3
+          }
+        },
+        "13": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9642857142857143,
+            "fn": 1,
+            "fp": 0,
+            "n": 26,
+            "negative": 12,
+            "positive": 14,
+            "sensitivity": 0.9285714285714286,
+            "specificity": 1.0,
+            "tn": 12,
+            "tp": 13
+          },
+          "structured": {
+            "balanced_accuracy": 0.9642857142857143,
+            "fn": 1,
+            "fp": 0,
+            "n": 26,
+            "negative": 12,
+            "positive": 14,
+            "sensitivity": 0.9285714285714286,
+            "specificity": 1.0,
+            "tn": 12,
+            "tp": 13
+          }
+        },
+        "14": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9090909090909092,
+            "fn": 2,
+            "fp": 0,
+            "n": 18,
+            "negative": 7,
+            "positive": 11,
+            "sensitivity": 0.8181818181818182,
+            "specificity": 1.0,
+            "tn": 7,
+            "tp": 9
+          },
+          "structured": {
+            "balanced_accuracy": 0.9090909090909092,
+            "fn": 2,
+            "fp": 0,
+            "n": 18,
+            "negative": 7,
+            "positive": 11,
+            "sensitivity": 0.8181818181818182,
+            "specificity": 1.0,
+            "tn": 7,
+            "tp": 9
+          }
+        },
+        "15": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9166666666666667,
+            "fn": 2,
+            "fp": 0,
+            "n": 20,
+            "negative": 8,
+            "positive": 12,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 10
+          },
+          "structured": {
+            "balanced_accuracy": 0.9166666666666667,
+            "fn": 2,
+            "fp": 0,
+            "n": 20,
+            "negative": 8,
+            "positive": 12,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 10
+          }
+        },
+        "16": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8571428571428572,
+            "fn": 2,
+            "fp": 0,
+            "n": 10,
+            "negative": 3,
+            "positive": 7,
+            "sensitivity": 0.7142857142857143,
+            "specificity": 1.0,
+            "tn": 3,
+            "tp": 5
+          },
+          "structured": {
+            "balanced_accuracy": 0.8571428571428572,
+            "fn": 2,
+            "fp": 0,
+            "n": 10,
+            "negative": 3,
+            "positive": 7,
+            "sensitivity": 0.7142857142857143,
+            "specificity": 1.0,
+            "tn": 3,
+            "tp": 5
+          }
+        },
+        "2": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9583333333333333,
+            "fn": 1,
+            "fp": 0,
+            "n": 22,
+            "negative": 10,
+            "positive": 12,
+            "sensitivity": 0.9166666666666666,
+            "specificity": 1.0,
+            "tn": 10,
+            "tp": 11
+          },
+          "structured": {
+            "balanced_accuracy": 0.9583333333333333,
+            "fn": 1,
+            "fp": 0,
+            "n": 22,
+            "negative": 10,
+            "positive": 12,
+            "sensitivity": 0.9166666666666666,
+            "specificity": 1.0,
+            "tn": 10,
+            "tp": 11
+          }
+        },
+        "3": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          },
+          "structured": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          }
+        },
+        "4": {
+          "semantic_only": {
+            "balanced_accuracy": 0.875,
+            "fn": 4,
+            "fp": 0,
+            "n": 24,
+            "negative": 8,
+            "positive": 16,
+            "sensitivity": 0.75,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 12
+          },
+          "structured": {
+            "balanced_accuracy": 0.875,
+            "fn": 4,
+            "fp": 0,
+            "n": 24,
+            "negative": 8,
+            "positive": 16,
+            "sensitivity": 0.75,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 12
+          }
+        },
+        "5": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "negative": 2,
+            "positive": 2,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 2,
+            "tp": 2
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "negative": 2,
+            "positive": 2,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 2,
+            "tp": 2
+          }
+        },
+        "6": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 2,
+            "negative": 1,
+            "positive": 1,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 1,
+            "tp": 1
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 2,
+            "negative": 1,
+            "positive": 1,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 1,
+            "tp": 1
+          }
+        },
+        "7": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 18,
+            "negative": 9,
+            "positive": 9,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 9
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 18,
+            "negative": 9,
+            "positive": 9,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 9
+          }
+        },
+        "8": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 14,
+            "negative": 7,
+            "positive": 7,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 7,
+            "tp": 7
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 14,
+            "negative": 7,
+            "positive": 7,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 7,
+            "tp": 7
+          }
+        },
+        "9": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          },
+          "structured": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          }
+        }
+      }
+    },
+    "excluded_unclipped_fit": {
+      "action_rows": 254,
+      "macro": {
+        "semantic_only": null,
+        "structured": null,
+        "structured_minus_semantic_only": null
+      },
+      "paired_unit_origins": 127,
+      "per_assignment": {
+        "FFFFF": {
+          "semantic_only": 0.9545454545454546,
+          "structured": 0.9545454545454546
+        },
+        "FFFFT": {
+          "semantic_only": null,
+          "structured": null
+        },
+        "FFFTF": {
+          "semantic_only": 0.9285714285714286,
+          "structured": 0.9285714285714286
+        },
+        "FFFTT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "FFTTT": {
+          "semantic_only": 0.9545454545454546,
+          "structured": 0.9545454545454546
+        },
+        "FTFFT": {
+          "semantic_only": 0.96875,
+          "structured": 0.96875
+        },
+        "FTTTF": {
+          "semantic_only": 0.95,
+          "structured": 0.95
+        },
+        "TFFFF": {
+          "semantic_only": 0.9285714285714286,
+          "structured": 0.9285714285714286
+        },
+        "TFFFT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "TFFTT": {
+          "semantic_only": null,
+          "structured": null
+        },
+        "TFTFT": {
+          "semantic_only": 0.868421052631579,
+          "structured": 0.868421052631579
+        },
+        "TFTTT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "TTFFT": {
+          "semantic_only": 0.8636363636363636,
+          "structured": 0.8636363636363636
+        },
+        "TTFTT": {
+          "semantic_only": 1.0,
+          "structured": 1.0
+        },
+        "TTTFF": {
+          "semantic_only": 0.9318181818181819,
+          "structured": 0.9318181818181819
+        },
+        "TTTTF": {
+          "semantic_only": 0.9230769230769231,
+          "structured": 0.9230769230769231
+        }
+      },
+      "per_unit": {
+        "0": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9285714285714286,
+            "fn": 2,
+            "fp": 0,
+            "n": 24,
+            "negative": 10,
+            "positive": 14,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 1.0,
+            "tn": 10,
+            "tp": 12
+          },
+          "structured": {
+            "balanced_accuracy": 0.9285714285714286,
+            "fn": 2,
+            "fp": 0,
+            "n": 24,
+            "negative": 10,
+            "positive": 14,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 1.0,
+            "tn": 10,
+            "tp": 12
+          }
+        },
+        "1": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          },
+          "structured": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          }
+        },
+        "10": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 6,
+            "negative": 3,
+            "positive": 3,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 3,
+            "tp": 3
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 6,
+            "negative": 3,
+            "positive": 3,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 3,
+            "tp": 3
+          }
+        },
+        "11": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9230769230769231,
+            "fn": 2,
+            "fp": 0,
+            "n": 22,
+            "negative": 9,
+            "positive": 13,
+            "sensitivity": 0.8461538461538461,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 11
+          },
+          "structured": {
+            "balanced_accuracy": 0.9230769230769231,
+            "fn": 2,
+            "fp": 0,
+            "n": 22,
+            "negative": 9,
+            "positive": 13,
+            "sensitivity": 0.8461538461538461,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 11
+          }
+        },
+        "12": {
+          "semantic_only": {
+            "balanced_accuracy": null,
+            "fn": 0,
+            "fp": 0,
+            "n": 0,
+            "negative": 0,
+            "positive": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "tn": 0,
+            "tp": 0
+          },
+          "structured": {
+            "balanced_accuracy": null,
+            "fn": 0,
+            "fp": 0,
+            "n": 0,
+            "negative": 0,
+            "positive": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "tn": 0,
+            "tp": 0
+          }
+        },
+        "13": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8636363636363636,
+            "fn": 3,
+            "fp": 0,
+            "n": 16,
+            "negative": 5,
+            "positive": 11,
+            "sensitivity": 0.7272727272727273,
+            "specificity": 1.0,
+            "tn": 5,
+            "tp": 8
+          },
+          "structured": {
+            "balanced_accuracy": 0.8636363636363636,
+            "fn": 3,
+            "fp": 0,
+            "n": 16,
+            "negative": 5,
+            "positive": 11,
+            "sensitivity": 0.7272727272727273,
+            "specificity": 1.0,
+            "tn": 5,
+            "tp": 8
+          }
+        },
+        "14": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 18,
+            "negative": 9,
+            "positive": 9,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 9
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 18,
+            "negative": 9,
+            "positive": 9,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 9
+          }
+        },
+        "15": {
+          "semantic_only": {
+            "balanced_accuracy": 0.868421052631579,
+            "fn": 5,
+            "fp": 0,
+            "n": 28,
+            "negative": 9,
+            "positive": 19,
+            "sensitivity": 0.7368421052631579,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 14
+          },
+          "structured": {
+            "balanced_accuracy": 0.868421052631579,
+            "fn": 5,
+            "fp": 0,
+            "n": 28,
+            "negative": 9,
+            "positive": 19,
+            "sensitivity": 0.7368421052631579,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 14
+          }
+        },
+        "16": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9285714285714286,
+            "fn": 1,
+            "fp": 0,
+            "n": 12,
+            "negative": 5,
+            "positive": 7,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 1.0,
+            "tn": 5,
+            "tp": 6
+          },
+          "structured": {
+            "balanced_accuracy": 0.9285714285714286,
+            "fn": 1,
+            "fp": 0,
+            "n": 12,
+            "negative": 5,
+            "positive": 7,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 1.0,
+            "tn": 5,
+            "tp": 6
+          }
+        },
+        "2": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8636363636363636,
+            "fn": 3,
+            "fp": 0,
+            "n": 16,
+            "negative": 5,
+            "positive": 11,
+            "sensitivity": 0.7272727272727273,
+            "specificity": 1.0,
+            "tn": 5,
+            "tp": 8
+          },
+          "structured": {
+            "balanced_accuracy": 0.8636363636363636,
+            "fn": 3,
+            "fp": 0,
+            "n": 16,
+            "negative": 5,
+            "positive": 11,
+            "sensitivity": 0.7272727272727273,
+            "specificity": 1.0,
+            "tn": 5,
+            "tp": 8
+          }
+        },
+        "3": {
+          "semantic_only": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          },
+          "structured": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 1,
+            "fp": 0,
+            "n": 20,
+            "negative": 9,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 9,
+            "tp": 10
+          }
+        },
+        "4": {
+          "semantic_only": {
+            "balanced_accuracy": 0.95,
+            "fn": 1,
+            "fp": 0,
+            "n": 18,
+            "negative": 8,
+            "positive": 10,
+            "sensitivity": 0.9,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 9
+          },
+          "structured": {
+            "balanced_accuracy": 0.95,
+            "fn": 1,
+            "fp": 0,
+            "n": 18,
+            "negative": 8,
+            "positive": 10,
+            "sensitivity": 0.9,
+            "specificity": 1.0,
+            "tn": 8,
+            "tp": 9
+          }
+        },
+        "5": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "negative": 2,
+            "positive": 2,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 2,
+            "tp": 2
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "negative": 2,
+            "positive": 2,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 2,
+            "tp": 2
+          }
+        },
+        "6": {
+          "semantic_only": {
+            "balanced_accuracy": null,
+            "fn": 0,
+            "fp": 0,
+            "n": 0,
+            "negative": 0,
+            "positive": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "tn": 0,
+            "tp": 0
+          },
+          "structured": {
+            "balanced_accuracy": null,
+            "fn": 0,
+            "fp": 0,
+            "n": 0,
+            "negative": 0,
+            "positive": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "tn": 0,
+            "tp": 0
+          }
+        },
+        "7": {
+          "semantic_only": {
+            "balanced_accuracy": 0.96875,
+            "fn": 1,
+            "fp": 0,
+            "n": 30,
+            "negative": 14,
+            "positive": 16,
+            "sensitivity": 0.9375,
+            "specificity": 1.0,
+            "tn": 14,
+            "tp": 15
+          },
+          "structured": {
+            "balanced_accuracy": 0.96875,
+            "fn": 1,
+            "fp": 0,
+            "n": 30,
+            "negative": 14,
+            "positive": 16,
+            "sensitivity": 0.9375,
+            "specificity": 1.0,
+            "tn": 14,
+            "tp": 15
+          }
+        },
+        "8": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 12,
+            "negative": 6,
+            "positive": 6,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 6,
+            "tp": 6
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 12,
+            "negative": 6,
+            "positive": 6,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 6,
+            "tp": 6
+          }
+        },
+        "9": {
+          "semantic_only": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 8,
+            "negative": 4,
+            "positive": 4,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 4,
+            "tp": 4
+          },
+          "structured": {
+            "balanced_accuracy": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "n": 8,
+            "negative": 4,
+            "positive": 4,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "tn": 4,
+            "tp": 4
+          }
+        }
+      }
+    },
+    "primary_assessment": {
+      "action_rows": 1910,
+      "macro": {
+        "semantic_only": 0.7871046672829409,
+        "structured": 0.9095426566623142,
+        "structured_minus_semantic_only": 0.12243798937937322
+      },
+      "paired_unit_origins": 955,
+      "per_assignment": {
+        "FFFFF": {
+          "semantic_only": 0.803370786516854,
+          "structured": 0.9175044352454169
+        },
+        "FFFFT": {
+          "semantic_only": 0.8247422680412371,
+          "structured": 0.9312122289370779
+        },
+        "FFFTF": {
+          "semantic_only": 0.8206521739130435,
+          "structured": 0.9013377926421404
+        },
+        "FFFTT": {
+          "semantic_only": 0.8263157894736842,
+          "structured": 0.9219600725952812
+        },
+        "FFTTT": {
+          "semantic_only": 0.7900255754475703,
+          "structured": 0.9388746803069054
+        },
+        "FTFFT": {
+          "semantic_only": 0.7266483516483516,
+          "structured": 0.8992673992673992
+        },
+        "FTTTF": {
+          "semantic_only": 0.7826086956521738,
+          "structured": 0.9039855072463767
+        },
+        "TFFFF": {
+          "semantic_only": 0.7848324514991181,
+          "structured": 0.9038800705467371
+        },
+        "TFFFT": {
+          "semantic_only": 0.8263157894736842,
+          "structured": 0.9722323049001815
+        },
+        "TFFTT": {
+          "semantic_only": 0.8279569892473118,
+          "structured": 0.9095291064145347
+        },
+        "TFTFT": {
+          "semantic_only": 0.7761363636363636,
+          "structured": 0.9295454545454545
+        },
+        "TFTTT": {
+          "semantic_only": 0.7568710359408033,
+          "structured": 0.8514799154334038
+        },
+        "TTFFT": {
+          "semantic_only": 0.7292707292707292,
+          "structured": 0.8651348651348651
+        },
+        "TTFTT": {
+          "semantic_only": 0.8,
+          "structured": 0.9157894736842105
+        },
+        "TTTFF": {
+          "semantic_only": 0.7162214761835255,
+          "structured": 0.8448401693183476
+        },
+        "TTTTF": {
+          "semantic_only": 0.801706200582605,
+          "structured": 0.9461090303786933
+        }
+      },
+      "per_unit": {
+        "0": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7848324514991181,
+            "fn": 1,
+            "fp": 31,
+            "n": 102,
+            "negative": 81,
+            "positive": 21,
+            "sensitivity": 0.9523809523809523,
+            "specificity": 0.6172839506172839,
+            "tn": 50,
+            "tp": 20
+          },
+          "structured": {
+            "balanced_accuracy": 0.9038800705467371,
+            "fn": 3,
+            "fp": 4,
+            "n": 102,
+            "negative": 81,
+            "positive": 21,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 0.9506172839506173,
+            "tn": 77,
+            "tp": 18
+          }
+        },
+        "1": {
+          "semantic_only": {
+            "balanced_accuracy": 0.803370786516854,
+            "fn": 0,
+            "fp": 35,
+            "n": 108,
+            "negative": 89,
+            "positive": 19,
+            "sensitivity": 1.0,
+            "specificity": 0.6067415730337079,
+            "tn": 54,
+            "tp": 19
+          },
+          "structured": {
+            "balanced_accuracy": 0.9175044352454169,
+            "fn": 1,
+            "fp": 10,
+            "n": 108,
+            "negative": 89,
+            "positive": 19,
+            "sensitivity": 0.9473684210526315,
+            "specificity": 0.8876404494382022,
+            "tn": 79,
+            "tp": 18
+          }
+        },
+        "10": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8263157894736842,
+            "fn": 0,
+            "fp": 33,
+            "n": 124,
+            "negative": 95,
+            "positive": 29,
+            "sensitivity": 1.0,
+            "specificity": 0.6526315789473685,
+            "tn": 62,
+            "tp": 29
+          },
+          "structured": {
+            "balanced_accuracy": 0.9722323049001815,
+            "fn": 1,
+            "fp": 2,
+            "n": 124,
+            "negative": 95,
+            "positive": 29,
+            "sensitivity": 0.9655172413793104,
+            "specificity": 0.9789473684210527,
+            "tn": 93,
+            "tp": 28
+          }
+        },
+        "11": {
+          "semantic_only": {
+            "balanced_accuracy": 0.801706200582605,
+            "fn": 1,
+            "fp": 32,
+            "n": 116,
+            "negative": 89,
+            "positive": 27,
+            "sensitivity": 0.9629629629629629,
+            "specificity": 0.6404494382022472,
+            "tn": 57,
+            "tp": 26
+          },
+          "structured": {
+            "balanced_accuracy": 0.9461090303786933,
+            "fn": 2,
+            "fp": 3,
+            "n": 116,
+            "negative": 89,
+            "positive": 27,
+            "sensitivity": 0.9259259259259259,
+            "specificity": 0.9662921348314607,
+            "tn": 86,
+            "tp": 25
+          }
+        },
+        "12": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8279569892473118,
+            "fn": 0,
+            "fp": 32,
+            "n": 122,
+            "negative": 93,
+            "positive": 29,
+            "sensitivity": 1.0,
+            "specificity": 0.6559139784946236,
+            "tn": 61,
+            "tp": 29
+          },
+          "structured": {
+            "balanced_accuracy": 0.9095291064145347,
+            "fn": 4,
+            "fp": 4,
+            "n": 122,
+            "negative": 93,
+            "positive": 29,
+            "sensitivity": 0.8620689655172413,
+            "specificity": 0.956989247311828,
+            "tn": 89,
+            "tp": 25
+          }
+        },
+        "13": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7292707292707292,
+            "fn": 1,
+            "fp": 41,
+            "n": 102,
+            "negative": 91,
+            "positive": 11,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 0.5494505494505495,
+            "tn": 50,
+            "tp": 10
+          },
+          "structured": {
+            "balanced_accuracy": 0.8651348651348651,
+            "fn": 2,
+            "fp": 8,
+            "n": 102,
+            "negative": 91,
+            "positive": 11,
+            "sensitivity": 0.8181818181818182,
+            "specificity": 0.9120879120879121,
+            "tn": 83,
+            "tp": 9
+          }
+        },
+        "14": {
+          "semantic_only": {
+            "balanced_accuracy": 0.6913345983554712,
+            "fn": 3,
+            "fp": 41,
+            "n": 110,
+            "negative": 93,
+            "positive": 17,
+            "sensitivity": 0.8235294117647058,
+            "specificity": 0.5591397849462365,
+            "tn": 52,
+            "tp": 14
+          },
+          "structured": {
+            "balanced_accuracy": 0.8257432005060088,
+            "fn": 3,
+            "fp": 16,
+            "n": 110,
+            "negative": 93,
+            "positive": 17,
+            "sensitivity": 0.8235294117647058,
+            "specificity": 0.8279569892473119,
+            "tn": 77,
+            "tp": 14
+          }
+        },
+        "15": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7761363636363636,
+            "fn": 1,
+            "fp": 35,
+            "n": 108,
+            "negative": 88,
+            "positive": 20,
+            "sensitivity": 0.95,
+            "specificity": 0.6022727272727273,
+            "tn": 53,
+            "tp": 19
+          },
+          "structured": {
+            "balanced_accuracy": 0.9295454545454545,
+            "fn": 1,
+            "fp": 8,
+            "n": 108,
+            "negative": 88,
+            "positive": 20,
+            "sensitivity": 0.95,
+            "specificity": 0.9090909090909091,
+            "tn": 80,
+            "tp": 19
+          }
+        },
+        "16": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8206521739130435,
+            "fn": 0,
+            "fp": 33,
+            "n": 118,
+            "negative": 92,
+            "positive": 26,
+            "sensitivity": 1.0,
+            "specificity": 0.6413043478260869,
+            "tn": 59,
+            "tp": 26
+          },
+          "structured": {
+            "balanced_accuracy": 0.9013377926421404,
+            "fn": 4,
+            "fp": 4,
+            "n": 118,
+            "negative": 92,
+            "positive": 26,
+            "sensitivity": 0.8461538461538461,
+            "specificity": 0.9565217391304348,
+            "tn": 88,
+            "tp": 22
+          }
+        },
+        "2": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7411083540115798,
+            "fn": 1,
+            "fp": 41,
+            "n": 106,
+            "negative": 93,
+            "positive": 13,
+            "sensitivity": 0.9230769230769231,
+            "specificity": 0.5591397849462365,
+            "tn": 52,
+            "tp": 12
+          },
+          "structured": {
+            "balanced_accuracy": 0.8639371381306865,
+            "fn": 2,
+            "fp": 11,
+            "n": 106,
+            "negative": 93,
+            "positive": 13,
+            "sensitivity": 0.8461538461538461,
+            "specificity": 0.8817204301075269,
+            "tn": 82,
+            "tp": 11
+          }
+        },
+        "3": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7900255754475703,
+            "fn": 1,
+            "fp": 32,
+            "n": 108,
+            "negative": 85,
+            "positive": 23,
+            "sensitivity": 0.9565217391304348,
+            "specificity": 0.6235294117647059,
+            "tn": 53,
+            "tp": 22
+          },
+          "structured": {
+            "balanced_accuracy": 0.9388746803069054,
+            "fn": 2,
+            "fp": 3,
+            "n": 108,
+            "negative": 85,
+            "positive": 23,
+            "sensitivity": 0.9130434782608695,
+            "specificity": 0.9647058823529412,
+            "tn": 82,
+            "tp": 21
+          }
+        },
+        "4": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7826086956521738,
+            "fn": 0,
+            "fp": 40,
+            "n": 104,
+            "negative": 92,
+            "positive": 12,
+            "sensitivity": 1.0,
+            "specificity": 0.5652173913043478,
+            "tn": 52,
+            "tp": 12
+          },
+          "structured": {
+            "balanced_accuracy": 0.9039855072463767,
+            "fn": 1,
+            "fp": 10,
+            "n": 104,
+            "negative": 92,
+            "positive": 12,
+            "sensitivity": 0.9166666666666666,
+            "specificity": 0.8913043478260869,
+            "tn": 82,
+            "tp": 11
+          }
+        },
+        "5": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8263157894736842,
+            "fn": 0,
+            "fp": 33,
+            "n": 124,
+            "negative": 95,
+            "positive": 29,
+            "sensitivity": 1.0,
+            "specificity": 0.6526315789473685,
+            "tn": 62,
+            "tp": 29
+          },
+          "structured": {
+            "balanced_accuracy": 0.9219600725952812,
+            "fn": 3,
+            "fp": 5,
+            "n": 124,
+            "negative": 95,
+            "positive": 29,
+            "sensitivity": 0.896551724137931,
+            "specificity": 0.9473684210526315,
+            "tn": 90,
+            "tp": 26
+          }
+        },
+        "6": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8247422680412371,
+            "fn": 0,
+            "fp": 34,
+            "n": 126,
+            "negative": 97,
+            "positive": 29,
+            "sensitivity": 1.0,
+            "specificity": 0.6494845360824743,
+            "tn": 63,
+            "tp": 29
+          },
+          "structured": {
+            "balanced_accuracy": 0.9312122289370779,
+            "fn": 1,
+            "fp": 10,
+            "n": 126,
+            "negative": 97,
+            "positive": 29,
+            "sensitivity": 0.9655172413793104,
+            "specificity": 0.8969072164948454,
+            "tn": 87,
+            "tp": 28
+          }
+        },
+        "7": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7266483516483516,
+            "fn": 4,
+            "fp": 33,
+            "n": 110,
+            "negative": 84,
+            "positive": 26,
+            "sensitivity": 0.8461538461538461,
+            "specificity": 0.6071428571428571,
+            "tn": 51,
+            "tp": 22
+          },
+          "structured": {
+            "balanced_accuracy": 0.8992673992673992,
+            "fn": 4,
+            "fp": 4,
+            "n": 110,
+            "negative": 84,
+            "positive": 26,
+            "sensitivity": 0.8461538461538461,
+            "specificity": 0.9523809523809523,
+            "tn": 80,
+            "tp": 22
+          }
+        },
+        "8": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8,
+            "fn": 0,
+            "fp": 38,
+            "n": 114,
+            "negative": 95,
+            "positive": 19,
+            "sensitivity": 1.0,
+            "specificity": 0.6,
+            "tn": 57,
+            "tp": 19
+          },
+          "structured": {
+            "balanced_accuracy": 0.9157894736842105,
+            "fn": 1,
+            "fp": 11,
+            "n": 114,
+            "negative": 95,
+            "positive": 19,
+            "sensitivity": 0.9473684210526315,
+            "specificity": 0.8842105263157894,
+            "tn": 84,
+            "tp": 18
+          }
+        },
+        "9": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7568710359408033,
+            "fn": 2,
+            "fp": 34,
+            "n": 108,
+            "negative": 86,
+            "positive": 22,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 0.6046511627906976,
+            "tn": 52,
+            "tp": 20
+          },
+          "structured": {
+            "balanced_accuracy": 0.8514799154334038,
+            "fn": 5,
+            "fp": 6,
+            "n": 108,
+            "negative": 86,
+            "positive": 22,
+            "sensitivity": 0.7727272727272727,
+            "specificity": 0.9302325581395349,
+            "tn": 80,
+            "tp": 17
+          }
+        }
+      }
+    },
+    "primary_fit": {
+      "action_rows": 1922,
+      "macro": {
+        "semantic_only": 0.7939154737560675,
+        "structured": 0.9115401118944446,
+        "structured_minus_semantic_only": 0.11762463813837709
+      },
+      "paired_unit_origins": 961,
+      "per_assignment": {
+        "FFFFF": {
+          "semantic_only": 0.7216748768472906,
+          "structured": 0.9055829228243021
+        },
+        "FFFFT": {
+          "semantic_only": 0.8298969072164948,
+          "structured": 0.9419687396075822
+        },
+        "FFFTF": {
+          "semantic_only": 0.8222222222222222,
+          "structured": 0.9064102564102564
+        },
+        "FFFTT": {
+          "semantic_only": 0.8297872340425532,
+          "structured": 0.9234042553191489
+        },
+        "FFTTT": {
+          "semantic_only": 0.813953488372093,
+          "structured": 0.9487315010570825
+        },
+        "FTFFT": {
+          "semantic_only": 0.7987804878048781,
+          "structured": 0.9314024390243902
+        },
+        "FTTTF": {
+          "semantic_only": 0.7806122448979591,
+          "structured": 0.8605442176870748
+        },
+        "TFFFF": {
+          "semantic_only": 0.7834193918531267,
+          "structured": 0.8984509466437177
+        },
+        "TFFFT": {
+          "semantic_only": 0.824468085106383,
+          "structured": 0.9840425531914894
+        },
+        "TFFTT": {
+          "semantic_only": 0.8298969072164948,
+          "structured": 0.8935816428333887
+        },
+        "TFTFT": {
+          "semantic_only": 0.7657689581856839,
+          "structured": 0.8876683203401843
+        },
+        "TFTTT": {
+          "semantic_only": 0.7945990180032734,
+          "structured": 0.9455810147299509
+        },
+        "TTFFT": {
+          "semantic_only": 0.7828282828282829,
+          "structured": 0.8908313908313908
+        },
+        "TTFTT": {
+          "semantic_only": 0.7364130434782609,
+          "structured": 0.8306159420289855
+        },
+        "TTTFF": {
+          "semantic_only": 0.7728502415458938,
+          "structured": 0.8812801932367149
+        },
+        "TTTTF": {
+          "semantic_only": 0.8154761904761905,
+          "structured": 0.9545454545454546
+        }
+      },
+      "per_unit": {
+        "0": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7834193918531267,
+            "fn": 1,
+            "fp": 32,
+            "n": 104,
+            "negative": 83,
+            "positive": 21,
+            "sensitivity": 0.9523809523809523,
+            "specificity": 0.6144578313253012,
+            "tn": 51,
+            "tp": 20
+          },
+          "structured": {
+            "balanced_accuracy": 0.8984509466437177,
+            "fn": 3,
+            "fp": 5,
+            "n": 104,
+            "negative": 83,
+            "positive": 21,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 0.9397590361445783,
+            "tn": 78,
+            "tp": 18
+          }
+        },
+        "1": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7216748768472906,
+            "fn": 3,
+            "fp": 36,
+            "n": 108,
+            "negative": 87,
+            "positive": 21,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 0.5862068965517241,
+            "tn": 51,
+            "tp": 18
+          },
+          "structured": {
+            "balanced_accuracy": 0.9055829228243021,
+            "fn": 3,
+            "fp": 4,
+            "n": 108,
+            "negative": 87,
+            "positive": 21,
+            "sensitivity": 0.8571428571428571,
+            "specificity": 0.9540229885057471,
+            "tn": 83,
+            "tp": 18
+          }
+        },
+        "10": {
+          "semantic_only": {
+            "balanced_accuracy": 0.824468085106383,
+            "fn": 0,
+            "fp": 33,
+            "n": 122,
+            "negative": 94,
+            "positive": 28,
+            "sensitivity": 1.0,
+            "specificity": 0.648936170212766,
+            "tn": 61,
+            "tp": 28
+          },
+          "structured": {
+            "balanced_accuracy": 0.9840425531914894,
+            "fn": 0,
+            "fp": 3,
+            "n": 122,
+            "negative": 94,
+            "positive": 28,
+            "sensitivity": 1.0,
+            "specificity": 0.9680851063829787,
+            "tn": 91,
+            "tp": 28
+          }
+        },
+        "11": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8154761904761905,
+            "fn": 0,
+            "fp": 31,
+            "n": 106,
+            "negative": 84,
+            "positive": 22,
+            "sensitivity": 1.0,
+            "specificity": 0.6309523809523809,
+            "tn": 53,
+            "tp": 22
+          },
+          "structured": {
+            "balanced_accuracy": 0.9545454545454546,
+            "fn": 2,
+            "fp": 0,
+            "n": 106,
+            "negative": 84,
+            "positive": 22,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 1.0,
+            "tn": 84,
+            "tp": 20
+          }
+        },
+        "12": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8298969072164948,
+            "fn": 0,
+            "fp": 33,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.6597938144329897,
+            "tn": 64,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.8935816428333887,
+            "fn": 5,
+            "fp": 5,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.8387096774193549,
+            "specificity": 0.9484536082474226,
+            "tn": 92,
+            "tp": 26
+          }
+        },
+        "13": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7828282828282829,
+            "fn": 0,
+            "fp": 43,
+            "n": 112,
+            "negative": 99,
+            "positive": 13,
+            "sensitivity": 1.0,
+            "specificity": 0.5656565656565656,
+            "tn": 56,
+            "tp": 13
+          },
+          "structured": {
+            "balanced_accuracy": 0.8908313908313908,
+            "fn": 1,
+            "fp": 14,
+            "n": 112,
+            "negative": 99,
+            "positive": 13,
+            "sensitivity": 0.9230769230769231,
+            "specificity": 0.8585858585858586,
+            "tn": 85,
+            "tp": 12
+          }
+        },
+        "14": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7657004830917875,
+            "fn": 1,
+            "fp": 38,
+            "n": 110,
+            "negative": 92,
+            "positive": 18,
+            "sensitivity": 0.9444444444444444,
+            "specificity": 0.5869565217391305,
+            "tn": 54,
+            "tp": 17
+          },
+          "structured": {
+            "balanced_accuracy": 0.8792270531400965,
+            "fn": 2,
+            "fp": 12,
+            "n": 110,
+            "negative": 92,
+            "positive": 18,
+            "sensitivity": 0.8888888888888888,
+            "specificity": 0.8695652173913043,
+            "tn": 80,
+            "tp": 16
+          }
+        },
+        "15": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7657689581856839,
+            "fn": 1,
+            "fp": 34,
+            "n": 100,
+            "negative": 83,
+            "positive": 17,
+            "sensitivity": 0.9411764705882353,
+            "specificity": 0.5903614457831325,
+            "tn": 49,
+            "tp": 16
+          },
+          "structured": {
+            "balanced_accuracy": 0.8876683203401843,
+            "fn": 3,
+            "fp": 4,
+            "n": 100,
+            "negative": 83,
+            "positive": 17,
+            "sensitivity": 0.8235294117647058,
+            "specificity": 0.9518072289156626,
+            "tn": 79,
+            "tp": 14
+          }
+        },
+        "16": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8222222222222222,
+            "fn": 0,
+            "fp": 32,
+            "n": 116,
+            "negative": 90,
+            "positive": 26,
+            "sensitivity": 1.0,
+            "specificity": 0.6444444444444445,
+            "tn": 58,
+            "tp": 26
+          },
+          "structured": {
+            "balanced_accuracy": 0.9064102564102564,
+            "fn": 4,
+            "fp": 3,
+            "n": 116,
+            "negative": 90,
+            "positive": 26,
+            "sensitivity": 0.8461538461538461,
+            "specificity": 0.9666666666666667,
+            "tn": 87,
+            "tp": 22
+          }
+        },
+        "2": {
+          "semantic_only": {
+            "balanced_accuracy": 0.78,
+            "fn": 0,
+            "fp": 44,
+            "n": 112,
+            "negative": 100,
+            "positive": 12,
+            "sensitivity": 1.0,
+            "specificity": 0.56,
+            "tn": 56,
+            "tp": 12
+          },
+          "structured": {
+            "balanced_accuracy": 0.8833333333333333,
+            "fn": 1,
+            "fp": 15,
+            "n": 112,
+            "negative": 100,
+            "positive": 12,
+            "sensitivity": 0.9166666666666666,
+            "specificity": 0.85,
+            "tn": 85,
+            "tp": 11
+          }
+        },
+        "3": {
+          "semantic_only": {
+            "balanced_accuracy": 0.813953488372093,
+            "fn": 0,
+            "fp": 32,
+            "n": 108,
+            "negative": 86,
+            "positive": 22,
+            "sensitivity": 1.0,
+            "specificity": 0.627906976744186,
+            "tn": 54,
+            "tp": 22
+          },
+          "structured": {
+            "balanced_accuracy": 0.9487315010570825,
+            "fn": 2,
+            "fp": 1,
+            "n": 108,
+            "negative": 86,
+            "positive": 22,
+            "sensitivity": 0.9090909090909091,
+            "specificity": 0.9883720930232558,
+            "tn": 85,
+            "tp": 20
+          }
+        },
+        "4": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7806122448979591,
+            "fn": 0,
+            "fp": 43,
+            "n": 110,
+            "negative": 98,
+            "positive": 12,
+            "sensitivity": 1.0,
+            "specificity": 0.5612244897959183,
+            "tn": 55,
+            "tp": 12
+          },
+          "structured": {
+            "balanced_accuracy": 0.8605442176870748,
+            "fn": 2,
+            "fp": 11,
+            "n": 110,
+            "negative": 98,
+            "positive": 12,
+            "sensitivity": 0.8333333333333334,
+            "specificity": 0.8877551020408163,
+            "tn": 87,
+            "tp": 10
+          }
+        },
+        "5": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8297872340425532,
+            "fn": 0,
+            "fp": 32,
+            "n": 124,
+            "negative": 94,
+            "positive": 30,
+            "sensitivity": 1.0,
+            "specificity": 0.6595744680851063,
+            "tn": 62,
+            "tp": 30
+          },
+          "structured": {
+            "balanced_accuracy": 0.9234042553191489,
+            "fn": 3,
+            "fp": 5,
+            "n": 124,
+            "negative": 94,
+            "positive": 30,
+            "sensitivity": 0.9,
+            "specificity": 0.9468085106382979,
+            "tn": 89,
+            "tp": 27
+          }
+        },
+        "6": {
+          "semantic_only": {
+            "balanced_accuracy": 0.8298969072164948,
+            "fn": 0,
+            "fp": 33,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 1.0,
+            "specificity": 0.6597938144329897,
+            "tn": 64,
+            "tp": 31
+          },
+          "structured": {
+            "balanced_accuracy": 0.9419687396075822,
+            "fn": 2,
+            "fp": 5,
+            "n": 128,
+            "negative": 97,
+            "positive": 31,
+            "sensitivity": 0.9354838709677419,
+            "specificity": 0.9484536082474226,
+            "tn": 92,
+            "tp": 29
+          }
+        },
+        "7": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7987804878048781,
+            "fn": 0,
+            "fp": 33,
+            "n": 98,
+            "negative": 82,
+            "positive": 16,
+            "sensitivity": 1.0,
+            "specificity": 0.5975609756097561,
+            "tn": 49,
+            "tp": 16
+          },
+          "structured": {
+            "balanced_accuracy": 0.9314024390243902,
+            "fn": 2,
+            "fp": 1,
+            "n": 98,
+            "negative": 82,
+            "positive": 16,
+            "sensitivity": 0.875,
+            "specificity": 0.9878048780487805,
+            "tn": 81,
+            "tp": 14
+          }
+        },
+        "8": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7364130434782609,
+            "fn": 3,
+            "fp": 37,
+            "n": 116,
+            "negative": 92,
+            "positive": 24,
+            "sensitivity": 0.875,
+            "specificity": 0.5978260869565217,
+            "tn": 55,
+            "tp": 21
+          },
+          "structured": {
+            "balanced_accuracy": 0.8306159420289855,
+            "fn": 5,
+            "fp": 12,
+            "n": 116,
+            "negative": 92,
+            "positive": 24,
+            "sensitivity": 0.7916666666666666,
+            "specificity": 0.8695652173913043,
+            "tn": 80,
+            "tp": 19
+          }
+        },
+        "9": {
+          "semantic_only": {
+            "balanced_accuracy": 0.7945990180032734,
+            "fn": 1,
+            "fp": 35,
+            "n": 120,
+            "negative": 94,
+            "positive": 26,
+            "sensitivity": 0.9615384615384616,
+            "specificity": 0.6276595744680851,
+            "tn": 59,
+            "tp": 25
+          },
+          "structured": {
+            "balanced_accuracy": 0.9455810147299509,
+            "fn": 2,
+            "fp": 3,
+            "n": 120,
+            "negative": 94,
+            "positive": 26,
+            "sensitivity": 0.9230769230769231,
+            "specificity": 0.9680851063829787,
+            "tn": 91,
+            "tp": 24
+          }
+        }
+      }
+    }
+  },
+  "scope": "post-review exploratory read-only analysis of saved development data",
+  "status": "PASS"
+}

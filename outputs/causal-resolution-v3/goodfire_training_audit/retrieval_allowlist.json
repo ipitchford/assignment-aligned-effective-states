@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-10-16T00:06:24.323109+00:00",
+  "scope_sha256": "d8905ad823bb1eb0fce74ce9bd6fec9c16c19ef71aac36185bd63164634c9ce9",
+  "additional_retrieval_cap": 6,
+  "requests": [
+    {
+      "run": "fresh-tiny-seed1",
+      "kind": "metrics",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/metrics.json",
+      "local_path": "inputs/fresh-tiny-seed1/metrics.json",
+      "basis": "Literal manifest run ID plus the public fresh-*/{metrics,lineage,causal}.json artifact template in RESULTS.md"
+    },
+    {
+      "run": "fresh-tiny-seed1",
+      "kind": "lineage",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/lineage.json",
+      "local_path": "inputs/fresh-tiny-seed1/lineage.json",
+      "basis": "Literal manifest run ID plus the public fresh-*/{metrics,lineage,causal}.json artifact template in RESULTS.md"
+    },
+    {
+      "run": "fresh-tiny-seed1",
+      "kind": "causal",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/causal.json",
+      "local_path": "inputs/fresh-tiny-seed1/causal.json",
+      "basis": "Literal manifest run ID plus the public fresh-*/{metrics,lineage,causal}.json artifact template in RESULTS.md"
+    },
+    {
+      "run": "fresh-small-seed0",
+      "kind": "metrics",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/metrics.json",
+      "local_path": "inputs/fresh-small-seed0/metrics.json",
+      "basis": "Literal manifest run ID plus the public fresh-*/{metrics,lineage,causal}.json artifact template in RESULTS.md"
+    },
+    {
+      "run": "fresh-small-seed0",
+      "kind": "lineage",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/lineage.json",
+      "local_path": "inputs/fresh-small-seed0/lineage.json",
+      "basis": "Literal manifest run ID plus the public fresh-*/{metrics,lineage,causal}.json artifact template in RESULTS.md"
+    },
+    {
+      "run": "fresh-small-seed0",
+      "kind": "causal",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/causal.json",
+      "local_path": "inputs/fresh-small-seed0/causal.json",
+      "basis": "Literal manifest run ID plus the public fresh-*/{metrics,lineage,causal}.json artifact template in RESULTS.md"
+    }
+  ]
+}

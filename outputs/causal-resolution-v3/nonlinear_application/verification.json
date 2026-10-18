@@ -1,0 +1,58 @@
+{
+  "arithmetic": "Python arbitrary-precision integer endpoint forward passes; exact rational global bounds",
+  "checks": 104,
+  "details": [
+    {
+      "bank": "seen_strength",
+      "fraction_rows_crossing_downstream_relu_boundary": 0.7551510989010989,
+      "max_changed_downstream_gate_count": 9,
+      "mean_changed_downstream_gate_count": 1.5247252747252746,
+      "rows": 2912,
+      "seed": 117
+    },
+    {
+      "bank": "unseen_strength",
+      "fraction_rows_crossing_downstream_relu_boundary": 0.5628434065934066,
+      "max_changed_downstream_gate_count": 8,
+      "mean_changed_downstream_gate_count": 0.9845467032967034,
+      "rows": 2912,
+      "seed": 117
+    },
+    {
+      "bank": "seen_strength",
+      "fraction_rows_crossing_downstream_relu_boundary": 0.6449175824175825,
+      "max_changed_downstream_gate_count": 7,
+      "mean_changed_downstream_gate_count": 1.279532967032967,
+      "rows": 2912,
+      "seed": 129
+    },
+    {
+      "bank": "unseen_strength",
+      "fraction_rows_crossing_downstream_relu_boundary": 0.4958791208791209,
+      "max_changed_downstream_gate_count": 6,
+      "mean_changed_downstream_gate_count": 0.8162774725274725,
+      "rows": 2912,
+      "seed": 129
+    },
+    {
+      "bank": "seen_strength",
+      "fraction_rows_crossing_downstream_relu_boundary": 0.729739010989011,
+      "max_changed_downstream_gate_count": 6,
+      "mean_changed_downstream_gate_count": 1.3207417582417582,
+      "rows": 2912,
+      "seed": 143
+    },
+    {
+      "bank": "unseen_strength",
+      "fraction_rows_crossing_downstream_relu_boundary": 0.5374313186813187,
+      "max_changed_downstream_gate_count": 5,
+      "mean_changed_downstream_gate_count": 0.8231456043956044,
+      "rows": 2912,
+      "seed": 143
+    }
+  ],
+  "rows_replayed": 17472,
+  "scope": "verification by same research team, not independent scientific replication",
+  "script_sha256": "eee0f143c7020a0ae09dfc057b1849146d7da79682c58f7287c9ae7ccd398e2b",
+  "status": "passed"
+}

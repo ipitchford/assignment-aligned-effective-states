@@ -1,0 +1,1906 @@
+{
+  "protocol": "../PROTOCOL.md",
+  "road_classes": {
+    "555": "fire engine",
+    "569": "garbage truck",
+    "573": "go-kart",
+    "654": "minibus",
+    "675": "moving van",
+    "717": "pickup",
+    "734": "police van",
+    "779": "school bus",
+    "864": "tow truck",
+    "867": "trailer truck",
+    "874": "trolleybus"
+  },
+  "rows": [
+    {
+      "epoch": 0.0,
+      "step": 0,
+      "broad": {
+        "index": 1666,
+        "coordinate": "mean-:stage2.block2.2",
+        "discovery_auc": 0.7565919191919191,
+        "test_auc": 0.7564474747474748,
+        "ci95": [
+          0.7238860858585859,
+          0.7835222222222221
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.8410606060606061,
+          "beach wagon": 0.7298686868686868,
+          "cab": 0.6877777777777778,
+          "convertible": 0.8550909090909091,
+          "jeep": 0.7823333333333333,
+          "limousine": 0.7386363636363636,
+          "minivan": 0.8585757575757575,
+          "Model T": 0.6086969696969696,
+          "racer": 0.7287575757575757,
+          "sports car": 0.7336767676767677
+        },
+        "road_vehicle_auc": 0.5781818181818181
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 1335,
+          "coordinate": "mean-:stage0.block2.55",
+          "discovery_auc": 0.8012444444444444,
+          "test_auc": 0.6396444444444445,
+          "ci95": [
+            0.5436711111111111,
+            0.7358844444444445
+          ]
+        },
+        "beach wagon": {
+          "index": 156,
+          "coordinate": "mean+:stage0.block2.28",
+          "discovery_auc": 0.7013333333333334,
+          "test_auc": 0.6840888888888889
+        },
+        "cab": {
+          "index": 2515,
+          "coordinate": "max+:stage1.block0.19",
+          "discovery_auc": 0.7594666666666666,
+          "test_auc": 0.5595555555555555,
+          "ci95": [
+            0.45485555555555557,
+            0.66194
+          ]
+        },
+        "convertible": {
+          "index": 3960,
+          "coordinate": "min-:stage2.block1.56",
+          "discovery_auc": 0.7138666666666666,
+          "test_auc": 0.5939555555555555
+        },
+        "jeep": {
+          "index": 936,
+          "coordinate": "mean+:stage2.block8.40",
+          "discovery_auc": 0.7313777777777778,
+          "test_auc": 0.6128
+        },
+        "limousine": {
+          "index": 1474,
+          "coordinate": "mean-:stage1.block2.2",
+          "discovery_auc": 0.7448888888888889,
+          "test_auc": 0.6206222222222222
+        },
+        "minivan": {
+          "index": 3475,
+          "coordinate": "min-:stage0.block0.19",
+          "discovery_auc": 0.7356444444444444,
+          "test_auc": 0.6019555555555556
+        },
+        "Model T": {
+          "index": 1451,
+          "coordinate": "mean-:stage1.block1.43",
+          "discovery_auc": 0.7975111111111111,
+          "test_auc": 0.7548444444444445
+        },
+        "racer": {
+          "index": 1312,
+          "coordinate": "mean-:stage0.block2.32",
+          "discovery_auc": 0.8161777777777778,
+          "test_auc": 0.6650666666666667
+        },
+        "sports car": {
+          "index": 30,
+          "coordinate": "mean+:stage0.block0.30",
+          "discovery_auc": 0.7420444444444444,
+          "test_auc": 0.5768888888888889
+        }
+      },
+      "readout_auc": 0.8573272727272727,
+      "readout_ci95": [
+        0.8332447222222223,
+        0.8772254040404042
+      ],
+      "readout_weight_effective_count": 635.7304566097604,
+      "model_car_auc": 0.4105287878787879,
+      "car_top1": 0.0,
+      "probe_macro_top1": 0.0,
+      "native_mean": {
+        "index": 1666,
+        "coordinate": "mean-:stage2.block2.2",
+        "discovery_auc": 0.7565919191919191,
+        "test_auc": 0.7564474747474748
+      },
+      "rotation_mean": {
+        "index": 515,
+        "coordinate": "rotated:515",
+        "discovery_auc": 0.7482818181818182,
+        "test_auc": 0.7388464646464646
+      }
+    },
+    {
+      "epoch": 0.019984012789768184,
+      "step": 50,
+      "broad": {
+        "index": 1666,
+        "coordinate": "mean-:stage2.block2.2",
+        "discovery_auc": 0.7566080808080808,
+        "test_auc": 0.7561545454545454,
+        "ci95": [
+          0.7240202272727272,
+          0.7833109848484848
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.8412929292929293,
+          "beach wagon": 0.7292727272727272,
+          "cab": 0.6852424242424242,
+          "convertible": 0.8552626262626263,
+          "jeep": 0.782959595959596,
+          "limousine": 0.742030303030303,
+          "minivan": 0.8587272727272728,
+          "Model T": 0.606919191919192,
+          "racer": 0.7279696969696969,
+          "sports car": 0.7318686868686869
+        },
+        "road_vehicle_auc": 0.582090909090909
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 1335,
+          "coordinate": "mean-:stage0.block2.55",
+          "discovery_auc": 0.8026666666666666,
+          "test_auc": 0.6417777777777778,
+          "ci95": [
+            0.5418622222222221,
+            0.7369244444444445
+          ]
+        },
+        "beach wagon": {
+          "index": 3493,
+          "coordinate": "min-:stage0.block0.37",
+          "discovery_auc": 0.7128,
+          "test_auc": 0.546488888888889
+        },
+        "cab": {
+          "index": 2515,
+          "coordinate": "max+:stage1.block0.19",
+          "discovery_auc": 0.7621333333333333,
+          "test_auc": 0.5705777777777777,
+          "ci95": [
+            0.46566222222222226,
+            0.6745355555555554
+          ]
+        },
+        "convertible": {
+          "index": 3960,
+          "coordinate": "min-:stage2.block1.56",
+          "discovery_auc": 0.7182222222222222,
+          "test_auc": 0.5944888888888888
+        },
+        "jeep": {
+          "index": 936,
+          "coordinate": "mean+:stage2.block8.40",
+          "discovery_auc": 0.7306666666666667,
+          "test_auc": 0.6104888888888889
+        },
+        "limousine": {
+          "index": 1474,
+          "coordinate": "mean-:stage1.block2.2",
+          "discovery_auc": 0.7443555555555555,
+          "test_auc": 0.6170666666666667
+        },
+        "minivan": {
+          "index": 2649,
+          "coordinate": "max+:stage1.block2.25",
+          "discovery_auc": 0.6875555555555556,
+          "test_auc": 0.4833777777777778
+        },
+        "Model T": {
+          "index": 1451,
+          "coordinate": "mean-:stage1.block1.43",
+          "discovery_auc": 0.7966222222222222,
+          "test_auc": 0.7555555555555555
+        },
+        "racer": {
+          "index": 1312,
+          "coordinate": "mean-:stage0.block2.32",
+          "discovery_auc": 0.8163555555555555,
+          "test_auc": 0.664
+        },
+        "sports car": {
+          "index": 30,
+          "coordinate": "mean+:stage0.block0.30",
+          "discovery_auc": 0.7415111111111111,
+          "test_auc": 0.5756444444444444
+        }
+      },
+      "readout_auc": 0.8576121212121213,
+      "readout_ci95": [
+        0.8334828030303032,
+        0.8777899494949495
+      ],
+      "readout_weight_effective_count": 637.3219657933058,
+      "model_car_auc": 0.4114570707070707,
+      "car_top1": 0.0,
+      "probe_macro_top1": 0.0,
+      "native_mean": {
+        "index": 1666,
+        "coordinate": "mean-:stage2.block2.2",
+        "discovery_auc": 0.7566080808080808,
+        "test_auc": 0.7561545454545454
+      },
+      "rotation_mean": {
+        "index": 515,
+        "coordinate": "rotated:515",
+        "discovery_auc": 0.748440404040404,
+        "test_auc": 0.7391414141414142
+      }
+    },
+    {
+      "epoch": 0.03996802557953637,
+      "step": 100,
+      "broad": {
+        "index": 1666,
+        "coordinate": "mean-:stage2.block2.2",
+        "discovery_auc": 0.7538292929292929,
+        "test_auc": 0.7544535353535353,
+        "ci95": [
+          0.7219636616161617,
+          0.7833530303030304
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.8357070707070707,
+          "beach wagon": 0.7298787878787879,
+          "cab": 0.6811212121212121,
+          "convertible": 0.8583131313131314,
+          "jeep": 0.786949494949495,
+          "limousine": 0.7351616161616161,
+          "minivan": 0.8588080808080808,
+          "Model T": 0.5993535353535354,
+          "racer": 0.7293333333333333,
+          "sports car": 0.7299090909090908
+        },
+        "road_vehicle_auc": 0.5857272727272728
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 1335,
+          "coordinate": "mean-:stage0.block2.55",
+          "discovery_auc": 0.8016,
+          "test_auc": 0.6492444444444445,
+          "ci95": [
+            0.5492400000000001,
+            0.7458044444444445
+          ]
+        },
+        "beach wagon": {
+          "index": 156,
+          "coordinate": "mean+:stage0.block2.28",
+          "discovery_auc": 0.7018666666666666,
+          "test_auc": 0.6853333333333333
+        },
+        "cab": {
+          "index": 2515,
+          "coordinate": "max+:stage1.block0.19",
+          "discovery_auc": 0.7545777777777778,
+          "test_auc": 0.5622222222222223,
+          "ci95": [
+            0.45060222222222224,
+            0.6648377777777776
+          ]
+        },
+        "convertible": {
+          "index": 3960,
+          "coordinate": "min-:stage2.block1.56",
+          "discovery_auc": 0.7252444444444445,
+          "test_auc": 0.5940444444444445
+        },
+        "jeep": {
+          "index": 936,
+          "coordinate": "mean+:stage2.block8.40",
+          "discovery_auc": 0.7306666666666667,
+          "test_auc": 0.6110222222222222
+        },
+        "limousine": {
+          "index": 1474,
+          "coordinate": "mean-:stage1.block2.2",
+          "discovery_auc": 0.7461333333333333,
+          "test_auc": 0.6352
+        },
+        "minivan": {
+          "index": 985,
+          "coordinate": "mean+:stage3.block0.25",
+          "discovery_auc": 0.6844444444444444,
+          "test_auc": 0.5569777777777778
+        },
+        "Model T": {
+          "index": 1451,
+          "coordinate": "mean-:stage1.block1.43",
+          "discovery_auc": 0.7872,
+          "test_auc": 0.7553777777777778
+        },
+        "racer": {
+          "index": 1312,
+          "coordinate": "mean-:stage0.block2.32",
+          "discovery_auc": 0.8172444444444444,
+          "test_auc": 0.6643555555555556
+        },
+        "sports car": {
+          "index": 30,
+          "coordinate": "mean+:stage0.block0.30",
+          "discovery_auc": 0.7404444444444445,
+          "test_auc": 0.576
+        }
+      },
+      "readout_auc": 0.8583303030303029,
+      "readout_ci95": [
+        0.8341520454545455,
+        0.8781096212121211
+      ],
+      "readout_weight_effective_count": 643.8305149593334,
+      "model_car_auc": 0.4232853535353535,
+      "car_top1": 0.0,
+      "probe_macro_top1": 0.0,
+      "native_mean": {
+        "index": 1666,
+        "coordinate": "mean-:stage2.block2.2",
+        "discovery_auc": 0.7538292929292929,
+        "test_auc": 0.7544535353535353
+      },
+      "rotation_mean": {
+        "index": 515,
+        "coordinate": "rotated:515",
+        "discovery_auc": 0.7484181818181819,
+        "test_auc": 0.7392060606060606
+      }
+    },
+    {
+      "epoch": 0.07993605115907274,
+      "step": 200,
+      "broad": {
+        "index": 1448,
+        "coordinate": "mean-:stage1.block1.40",
+        "discovery_auc": 0.7366474747474747,
+        "test_auc": 0.7212292929292929,
+        "ci95": [
+          0.6921377777777779,
+          0.749375303030303
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.8053333333333332,
+          "beach wagon": 0.6858686868686868,
+          "cab": 0.6814141414141414,
+          "convertible": 0.7331818181818182,
+          "jeep": 0.6965353535353536,
+          "limousine": 0.7463434343434343,
+          "minivan": 0.8137171717171716,
+          "Model T": 0.5977878787878788,
+          "racer": 0.7632121212121212,
+          "sports car": 0.6888989898989899
+        },
+        "road_vehicle_auc": 0.5665454545454546
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 401,
+          "coordinate": "mean+:stage2.block0.17",
+          "discovery_auc": 0.8145777777777777,
+          "test_auc": 0.7619555555555555,
+          "ci95": [
+            0.6774622222222222,
+            0.8391777777777778
+          ]
+        },
+        "beach wagon": {
+          "index": 1649,
+          "coordinate": "mean-:stage2.block1.49",
+          "discovery_auc": 0.6951111111111111,
+          "test_auc": 0.6252444444444445
+        },
+        "cab": {
+          "index": 3128,
+          "coordinate": "max+:stage2.block6.56",
+          "discovery_auc": 0.7321777777777778,
+          "test_auc": 0.4884444444444445,
+          "ci95": [
+            0.37962666666666667,
+            0.607331111111111
+          ]
+        },
+        "convertible": {
+          "index": 3960,
+          "coordinate": "min-:stage2.block1.56",
+          "discovery_auc": 0.7088,
+          "test_auc": 0.5983999999999999
+        },
+        "jeep": {
+          "index": 936,
+          "coordinate": "mean+:stage2.block8.40",
+          "discovery_auc": 0.7121777777777778,
+          "test_auc": 0.5818666666666666
+        },
+        "limousine": {
+          "index": 1474,
+          "coordinate": "mean-:stage1.block2.2",
+          "discovery_auc": 0.7367111111111111,
+          "test_auc": 0.6561777777777777
+        },
+        "minivan": {
+          "index": 3559,
+          "coordinate": "min-:stage0.block1.39",
+          "discovery_auc": 0.6896,
+          "test_auc": 0.4838222222222222
+        },
+        "Model T": {
+          "index": 241,
+          "coordinate": "mean+:stage1.block0.49",
+          "discovery_auc": 0.7960888888888888,
+          "test_auc": 0.6933333333333334
+        },
+        "racer": {
+          "index": 1312,
+          "coordinate": "mean-:stage0.block2.32",
+          "discovery_auc": 0.8035555555555556,
+          "test_auc": 0.6604444444444445
+        },
+        "sports car": {
+          "index": 30,
+          "coordinate": "mean+:stage0.block0.30",
+          "discovery_auc": 0.7331555555555556,
+          "test_auc": 0.5760000000000001
+        }
+      },
+      "readout_auc": 0.8664848484848484,
+      "readout_ci95": [
+        0.8428653282828282,
+        0.8859200757575758
+      ],
+      "readout_weight_effective_count": 645.2815876515577,
+      "model_car_auc": 0.5142555555555556,
+      "car_top1": 0.0,
+      "probe_macro_top1": 0.00025,
+      "native_mean": {
+        "index": 1448,
+        "coordinate": "mean-:stage1.block1.40",
+        "discovery_auc": 0.7366474747474747,
+        "test_auc": 0.7212292929292929
+      },
+      "rotation_mean": {
+        "index": 515,
+        "coordinate": "rotated:515",
+        "discovery_auc": 0.7469151515151515,
+        "test_auc": 0.7346292929292929
+      }
+    },
+    {
+      "epoch": 0.1398880895283773,
+      "step": 350,
+      "broad": {
+        "index": 1404,
+        "coordinate": "mean-:stage1.block0.60",
+        "discovery_auc": 0.7722979797979798,
+        "test_auc": 0.7471171717171717,
+        "ci95": [
+          0.7160596717171718,
+          0.7780389393939393
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.7591111111111112,
+          "beach wagon": 0.7516161616161616,
+          "cab": 0.6982424242424242,
+          "convertible": 0.7673434343434343,
+          "jeep": 0.7980808080808081,
+          "limousine": 0.7378282828282828,
+          "minivan": 0.906929292929293,
+          "Model T": 0.7243939393939395,
+          "racer": 0.6195353535353536,
+          "sports car": 0.708090909090909
+        },
+        "road_vehicle_auc": 0.5225454545454545
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 267,
+          "coordinate": "mean+:stage1.block1.11",
+          "discovery_auc": 0.8247111111111111,
+          "test_auc": 0.6168888888888889,
+          "ci95": [
+            0.4991733333333333,
+            0.7353422222222221
+          ]
+        },
+        "beach wagon": {
+          "index": 1640,
+          "coordinate": "mean-:stage2.block1.40",
+          "discovery_auc": 0.7185777777777778,
+          "test_auc": 0.6917333333333333
+        },
+        "cab": {
+          "index": 3845,
+          "coordinate": "min-:stage2.block0.5",
+          "discovery_auc": 0.732,
+          "test_auc": 0.5307555555555555,
+          "ci95": [
+            0.3996044444444445,
+            0.6546822222222223
+          ]
+        },
+        "convertible": {
+          "index": 1666,
+          "coordinate": "mean-:stage2.block2.2",
+          "discovery_auc": 0.7216,
+          "test_auc": 0.6668444444444445
+        },
+        "jeep": {
+          "index": 3944,
+          "coordinate": "min-:stage2.block1.40",
+          "discovery_auc": 0.7202666666666667,
+          "test_auc": 0.5875555555555555
+        },
+        "limousine": {
+          "index": 1782,
+          "coordinate": "mean-:stage2.block3.54",
+          "discovery_auc": 0.7504,
+          "test_auc": 0.5630222222222222
+        },
+        "minivan": {
+          "index": 3729,
+          "coordinate": "min-:stage1.block1.17",
+          "discovery_auc": 0.7295111111111111,
+          "test_auc": 0.6099555555555555
+        },
+        "Model T": {
+          "index": 272,
+          "coordinate": "mean+:stage1.block1.16",
+          "discovery_auc": 0.8311111111111111,
+          "test_auc": 0.7822222222222223
+        },
+        "racer": {
+          "index": 1408,
+          "coordinate": "mean-:stage1.block1.0",
+          "discovery_auc": 0.7674666666666666,
+          "test_auc": 0.5854222222222222
+        },
+        "sports car": {
+          "index": 1519,
+          "coordinate": "mean-:stage1.block2.47",
+          "discovery_auc": 0.7818666666666667,
+          "test_auc": 0.5489777777777778
+        }
+      },
+      "readout_auc": 0.8797828282828283,
+      "readout_ci95": [
+        0.861660202020202,
+        0.8977077777777778
+      ],
+      "readout_weight_effective_count": 687.7343132623064,
+      "model_car_auc": 0.6425702020202021,
+      "car_top1": 0.0,
+      "probe_macro_top1": 0.0015,
+      "native_mean": {
+        "index": 1404,
+        "coordinate": "mean-:stage1.block0.60",
+        "discovery_auc": 0.7722979797979798,
+        "test_auc": 0.7471171717171717
+      },
+      "rotation_mean": {
+        "index": 240,
+        "coordinate": "rotated:240",
+        "discovery_auc": 0.728340404040404,
+        "test_auc": 0.6860242424242423
+      }
+    },
+    {
+      "epoch": 0.19984012789768185,
+      "step": 500,
+      "broad": {
+        "index": 1362,
+        "coordinate": "mean-:stage1.block0.18",
+        "discovery_auc": 0.7593070707070707,
+        "test_auc": 0.7482959595959597,
+        "ci95": [
+          0.7148962373737374,
+          0.7777932323232324
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.7423333333333333,
+          "beach wagon": 0.7445555555555556,
+          "cab": 0.7913535353535354,
+          "convertible": 0.7667676767676768,
+          "jeep": 0.8087070707070707,
+          "limousine": 0.7258787878787879,
+          "minivan": 0.8603131313131314,
+          "Model T": 0.7023030303030303,
+          "racer": 0.6192727272727273,
+          "sports car": 0.7214747474747475
+        },
+        "road_vehicle_auc": 0.5163636363636364
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 132,
+          "coordinate": "mean+:stage0.block2.4",
+          "discovery_auc": 0.7537777777777778,
+          "test_auc": 0.5713777777777778,
+          "ci95": [
+            0.4780400000000001,
+            0.67348
+          ]
+        },
+        "beach wagon": {
+          "index": 1640,
+          "coordinate": "mean-:stage2.block1.40",
+          "discovery_auc": 0.7267555555555556,
+          "test_auc": 0.6899555555555554
+        },
+        "cab": {
+          "index": 3845,
+          "coordinate": "min-:stage2.block0.5",
+          "discovery_auc": 0.7504888888888889,
+          "test_auc": 0.5263111111111112,
+          "ci95": [
+            0.41300666666666663,
+            0.6170088888888887
+          ]
+        },
+        "convertible": {
+          "index": 2016,
+          "coordinate": "mean-:stage2.block7.32",
+          "discovery_auc": 0.7226666666666667,
+          "test_auc": 0.5377777777777778
+        },
+        "jeep": {
+          "index": 1060,
+          "coordinate": "mean+:stage3.block1.36",
+          "discovery_auc": 0.7034666666666667,
+          "test_auc": 0.5336888888888889
+        },
+        "limousine": {
+          "index": 1525,
+          "coordinate": "mean-:stage1.block2.53",
+          "discovery_auc": 0.7612444444444444,
+          "test_auc": 0.6479999999999999
+        },
+        "minivan": {
+          "index": 1133,
+          "coordinate": "mean+:stage3.block2.45",
+          "discovery_auc": 0.7182222222222222,
+          "test_auc": 0.4984888888888889
+        },
+        "Model T": {
+          "index": 3698,
+          "coordinate": "min-:stage1.block0.50",
+          "discovery_auc": 0.8072,
+          "test_auc": 0.6761777777777778
+        },
+        "racer": {
+          "index": 130,
+          "coordinate": "mean+:stage0.block2.2",
+          "discovery_auc": 0.7889777777777778,
+          "test_auc": 0.620088888888889
+        },
+        "sports car": {
+          "index": 1519,
+          "coordinate": "mean-:stage1.block2.47",
+          "discovery_auc": 0.7523555555555556,
+          "test_auc": 0.5367111111111111
+        }
+      },
+      "readout_auc": 0.8880272727272728,
+      "readout_ci95": [
+        0.8699534848484849,
+        0.9054446464646465
+      ],
+      "readout_weight_effective_count": 640.4810649044762,
+      "model_car_auc": 0.6489191919191919,
+      "car_top1": 0.0,
+      "probe_macro_top1": 0.00375,
+      "native_mean": {
+        "index": 1362,
+        "coordinate": "mean-:stage1.block0.18",
+        "discovery_auc": 0.7593070707070707,
+        "test_auc": 0.7482959595959597
+      },
+      "rotation_mean": {
+        "index": 2042,
+        "coordinate": "rotated:2042",
+        "discovery_auc": 0.7340888888888889,
+        "test_auc": 0.6996333333333333
+      }
+    },
+    {
+      "epoch": 0.3996802557953637,
+      "step": 1000,
+      "broad": {
+        "index": 973,
+        "coordinate": "mean+:stage3.block0.13",
+        "discovery_auc": 0.7172843434343434,
+        "test_auc": 0.6896818181818182,
+        "ci95": [
+          0.6615525883838383,
+          0.7244606818181818
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.7432020202020202,
+          "beach wagon": 0.6822121212121213,
+          "cab": 0.6655252525252525,
+          "convertible": 0.5731868686868686,
+          "jeep": 0.8331212121212122,
+          "limousine": 0.6684646464646465,
+          "minivan": 0.7685656565656565,
+          "Model T": 0.7579646464646465,
+          "racer": 0.5678383838383838,
+          "sports car": 0.6367373737373737
+        },
+        "road_vehicle_auc": 0.4658181818181818
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 2587,
+          "coordinate": "max+:stage1.block1.27",
+          "discovery_auc": 0.7586666666666667,
+          "test_auc": 0.6636444444444445,
+          "ci95": [
+            0.5528622222222223,
+            0.7757555555555555
+          ]
+        },
+        "beach wagon": {
+          "index": 3016,
+          "coordinate": "max+:stage2.block5.8",
+          "discovery_auc": 0.7124444444444444,
+          "test_auc": 0.43724444444444444
+        },
+        "cab": {
+          "index": 3718,
+          "coordinate": "min-:stage1.block1.6",
+          "discovery_auc": 0.7494222222222222,
+          "test_auc": 0.7160000000000001,
+          "ci95": [
+            0.6123066666666667,
+            0.8196488888888889
+          ]
+        },
+        "convertible": {
+          "index": 2722,
+          "coordinate": "max+:stage2.block0.34",
+          "discovery_auc": 0.7304,
+          "test_auc": 0.5931555555555555
+        },
+        "jeep": {
+          "index": 554,
+          "coordinate": "mean+:stage2.block2.42",
+          "discovery_auc": 0.6908444444444445,
+          "test_auc": 0.5525333333333333
+        },
+        "limousine": {
+          "index": 3796,
+          "coordinate": "min-:stage1.block2.20",
+          "discovery_auc": 0.7413333333333333,
+          "test_auc": 0.4702222222222222
+        },
+        "minivan": {
+          "index": 3210,
+          "coordinate": "max+:stage2.block8.10",
+          "discovery_auc": 0.7046222222222223,
+          "test_auc": 0.5489777777777778
+        },
+        "Model T": {
+          "index": 1178,
+          "coordinate": "mean-:stage0.block0.26",
+          "discovery_auc": 0.8238222222222222,
+          "test_auc": 0.6652444444444445
+        },
+        "racer": {
+          "index": 426,
+          "coordinate": "mean+:stage2.block0.42",
+          "discovery_auc": 0.7568,
+          "test_auc": 0.5959111111111112
+        },
+        "sports car": {
+          "index": 360,
+          "coordinate": "mean+:stage1.block2.40",
+          "discovery_auc": 0.7683555555555556,
+          "test_auc": 0.6192
+        }
+      },
+      "readout_auc": 0.8355525252525252,
+      "readout_ci95": [
+        0.8129061868686868,
+        0.8561714141414141
+      ],
+      "readout_weight_effective_count": 654.8327290519996,
+      "model_car_auc": 0.6765237373737374,
+      "car_top1": 0.0,
+      "probe_macro_top1": 0.00525,
+      "native_mean": {
+        "index": 973,
+        "coordinate": "mean+:stage3.block0.13",
+        "discovery_auc": 0.7172843434343434,
+        "test_auc": 0.6896818181818182
+      },
+      "rotation_mean": {
+        "index": 992,
+        "coordinate": "rotated:992",
+        "discovery_auc": 0.7030575757575758,
+        "test_auc": 0.6803666666666667
+      }
+    },
+    {
+      "epoch": 0.7993605115907274,
+      "step": 2000,
+      "broad": {
+        "index": 4593,
+        "coordinate": "min-:stage3.block2.49",
+        "discovery_auc": 0.8531964646464646,
+        "test_auc": 0.8476686868686869,
+        "ci95": [
+          0.8227426010101009,
+          0.8750018434343435
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.9281010101010101,
+          "beach wagon": 0.9038484848484849,
+          "cab": 0.8113080808080808,
+          "convertible": 0.8545050505050505,
+          "jeep": 0.8599949494949495,
+          "limousine": 0.9086666666666666,
+          "minivan": 0.9128080808080807,
+          "Model T": 0.8248484848484849,
+          "racer": 0.7128686868686869,
+          "sports car": 0.7597373737373736
+        },
+        "road_vehicle_auc": 0.4684090909090909
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 3033,
+          "coordinate": "max+:stage2.block5.25",
+          "discovery_auc": 0.7776,
+          "test_auc": 0.5841777777777778,
+          "ci95": [
+            0.4715533333333333,
+            0.6990377777777775
+          ]
+        },
+        "beach wagon": {
+          "index": 991,
+          "coordinate": "mean+:stage3.block0.31",
+          "discovery_auc": 0.7203555555555555,
+          "test_auc": 0.5027555555555556
+        },
+        "cab": {
+          "index": 1025,
+          "coordinate": "mean+:stage3.block1.1",
+          "discovery_auc": 0.7349333333333333,
+          "test_auc": 0.6496,
+          "ci95": [
+            0.5283066666666667,
+            0.7606533333333333
+          ]
+        },
+        "convertible": {
+          "index": 2670,
+          "coordinate": "max+:stage1.block2.46",
+          "discovery_auc": 0.7320888888888889,
+          "test_auc": 0.5451555555555555
+        },
+        "jeep": {
+          "index": 4550,
+          "coordinate": "min-:stage3.block2.6",
+          "discovery_auc": 0.7122666666666667,
+          "test_auc": 0.6756444444444445
+        },
+        "limousine": {
+          "index": 1019,
+          "coordinate": "mean+:stage3.block0.59",
+          "discovery_auc": 0.7731555555555556,
+          "test_auc": 0.5333333333333333
+        },
+        "minivan": {
+          "index": 2265,
+          "coordinate": "mean-:stage3.block2.25",
+          "discovery_auc": 0.7034666666666667,
+          "test_auc": 0.6021333333333334
+        },
+        "Model T": {
+          "index": 1745,
+          "coordinate": "mean-:stage2.block3.17",
+          "discovery_auc": 0.8458666666666667,
+          "test_auc": 0.7075555555555555
+        },
+        "racer": {
+          "index": 252,
+          "coordinate": "mean+:stage1.block0.60",
+          "discovery_auc": 0.7571555555555556,
+          "test_auc": 0.7080888888888888
+        },
+        "sports car": {
+          "index": 4491,
+          "coordinate": "min-:stage3.block1.11",
+          "discovery_auc": 0.7440888888888889,
+          "test_auc": 0.6231999999999999
+        }
+      },
+      "readout_auc": 0.9192585858585858,
+      "readout_ci95": [
+        0.9008075252525253,
+        0.9331935858585858
+      ],
+      "readout_weight_effective_count": 690.4576085413521,
+      "model_car_auc": 0.8603636363636364,
+      "car_top1": 0.012,
+      "probe_macro_top1": 0.01262,
+      "native_mean": {
+        "index": 971,
+        "coordinate": "mean+:stage3.block0.11",
+        "discovery_auc": 0.8480888888888889,
+        "test_auc": 0.8515343434343435
+      },
+      "rotation_mean": {
+        "index": 2121,
+        "coordinate": "rotated:2121",
+        "discovery_auc": 0.8348777777777778,
+        "test_auc": 0.8434979797979798
+      }
+    },
+    {
+      "epoch": 0.9992006394884093,
+      "step": 2500,
+      "broad": {
+        "index": 3380,
+        "coordinate": "max+:stage3.block1.52",
+        "discovery_auc": 0.8364065656565657,
+        "test_auc": 0.8234833333333333,
+        "ci95": [
+          0.7975148863636364,
+          0.8476511616161616
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.9231212121212121,
+          "beach wagon": 0.8562929292929293,
+          "cab": 0.7886717171717172,
+          "convertible": 0.8799141414141414,
+          "jeep": 0.788510101010101,
+          "limousine": 0.8219343434343435,
+          "minivan": 0.8377727272727272,
+          "Model T": 0.7773131313131313,
+          "racer": 0.6650151515151514,
+          "sports car": 0.8962878787878789
+        },
+        "road_vehicle_auc": 0.5217727272727273
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 3440,
+          "coordinate": "max+:stage3.block2.48",
+          "discovery_auc": 0.8001777777777778,
+          "test_auc": 0.7076444444444445,
+          "ci95": [
+            0.6034577777777779,
+            0.795911111111111
+          ]
+        },
+        "beach wagon": {
+          "index": 1048,
+          "coordinate": "mean+:stage3.block1.24",
+          "discovery_auc": 0.6928,
+          "test_auc": 0.48088888888888887
+        },
+        "cab": {
+          "index": 1025,
+          "coordinate": "mean+:stage3.block1.1",
+          "discovery_auc": 0.7464888888888889,
+          "test_auc": 0.7196444444444444,
+          "ci95": [
+            0.5988355555555556,
+            0.82652
+          ]
+        },
+        "convertible": {
+          "index": 3087,
+          "coordinate": "max+:stage2.block6.15",
+          "discovery_auc": 0.7091555555555555,
+          "test_auc": 0.5204444444444445
+        },
+        "jeep": {
+          "index": 2016,
+          "coordinate": "mean-:stage2.block7.32",
+          "discovery_auc": 0.7196444444444444,
+          "test_auc": 0.6168888888888889
+        },
+        "limousine": {
+          "index": 34,
+          "coordinate": "mean+:stage0.block0.34",
+          "discovery_auc": 0.7472,
+          "test_auc": 0.5978666666666667
+        },
+        "minivan": {
+          "index": 294,
+          "coordinate": "mean+:stage1.block1.38",
+          "discovery_auc": 0.7143111111111111,
+          "test_auc": 0.5553777777777777
+        },
+        "Model T": {
+          "index": 1150,
+          "coordinate": "mean+:stage3.block2.62",
+          "discovery_auc": 0.8970666666666667,
+          "test_auc": 0.7969777777777779
+        },
+        "racer": {
+          "index": 215,
+          "coordinate": "mean+:stage1.block0.23",
+          "discovery_auc": 0.7911111111111111,
+          "test_auc": 0.6864
+        },
+        "sports car": {
+          "index": 340,
+          "coordinate": "mean+:stage1.block2.20",
+          "discovery_auc": 0.7783111111111111,
+          "test_auc": 0.5870222222222222
+        }
+      },
+      "readout_auc": 0.92709898989899,
+      "readout_ci95": [
+        0.9127351767676768,
+        0.940864015151515
+      ],
+      "readout_weight_effective_count": 584.9386554539452,
+      "model_car_auc": 0.8762494949494948,
+      "car_top1": 0.04,
+      "probe_macro_top1": 0.020900000000000002,
+      "native_mean": {
+        "index": 1631,
+        "coordinate": "mean-:stage2.block1.31",
+        "discovery_auc": 0.8232444444444444,
+        "test_auc": 0.8118989898989898
+      },
+      "rotation_mean": {
+        "index": 1611,
+        "coordinate": "rotated:1611",
+        "discovery_auc": 0.8285323232323233,
+        "test_auc": 0.8300303030303031
+      }
+    },
+    {
+      "epoch": 1.9984012789768186,
+      "step": 5000,
+      "broad": {
+        "index": 662,
+        "coordinate": "mean+:stage2.block4.22",
+        "discovery_auc": 0.8544484848484849,
+        "test_auc": 0.8632535353535353,
+        "ci95": [
+          0.8428551515151514,
+          0.8804566161616162
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.925868686868687,
+          "beach wagon": 0.9046161616161617,
+          "cab": 0.8068888888888889,
+          "convertible": 0.9061010101010101,
+          "jeep": 0.8395555555555556,
+          "limousine": 0.8793030303030303,
+          "minivan": 0.8920303030303031,
+          "Model T": 0.8095959595959595,
+          "racer": 0.847050505050505,
+          "sports car": 0.8215252525252524
+        },
+        "road_vehicle_auc": 0.5704545454545454
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 1962,
+          "coordinate": "mean-:stage2.block6.42",
+          "discovery_auc": 0.8579555555555556,
+          "test_auc": 0.7276444444444445,
+          "ci95": [
+            0.60428,
+            0.8430311111111111
+          ]
+        },
+        "beach wagon": {
+          "index": 3322,
+          "coordinate": "max+:stage3.block0.58",
+          "discovery_auc": 0.7010666666666666,
+          "test_auc": 0.5058666666666667
+        },
+        "cab": {
+          "index": 763,
+          "coordinate": "mean+:stage2.block5.59",
+          "discovery_auc": 0.7623111111111112,
+          "test_auc": 0.6556444444444445,
+          "ci95": [
+            0.5510577777777778,
+            0.7592888888888889
+          ]
+        },
+        "convertible": {
+          "index": 2614,
+          "coordinate": "max+:stage1.block1.54",
+          "discovery_auc": 0.7561777777777777,
+          "test_auc": 0.6238222222222223
+        },
+        "jeep": {
+          "index": 4481,
+          "coordinate": "min-:stage3.block1.1",
+          "discovery_auc": 0.7475555555555555,
+          "test_auc": 0.7512888888888889
+        },
+        "limousine": {
+          "index": 3405,
+          "coordinate": "max+:stage3.block2.13",
+          "discovery_auc": 0.7451555555555556,
+          "test_auc": 0.5827555555555556
+        },
+        "minivan": {
+          "index": 2562,
+          "coordinate": "max+:stage1.block1.2",
+          "discovery_auc": 0.7191111111111111,
+          "test_auc": 0.5629333333333334
+        },
+        "Model T": {
+          "index": 2117,
+          "coordinate": "mean-:stage3.block0.5",
+          "discovery_auc": 0.9134222222222222,
+          "test_auc": 0.8133333333333334
+        },
+        "racer": {
+          "index": 1899,
+          "coordinate": "mean-:stage2.block5.43",
+          "discovery_auc": 0.7946666666666666,
+          "test_auc": 0.6110222222222222
+        },
+        "sports car": {
+          "index": 866,
+          "coordinate": "mean+:stage2.block7.34",
+          "discovery_auc": 0.7681777777777777,
+          "test_auc": 0.5795555555555556
+        }
+      },
+      "readout_auc": 0.9458404040404039,
+      "readout_ci95": [
+        0.930889898989899,
+        0.9565692676767676
+      ],
+      "readout_weight_effective_count": 632.8067448705566,
+      "model_car_auc": 0.9407222222222221,
+      "car_top1": 0.136,
+      "probe_macro_top1": 0.04586,
+      "native_mean": {
+        "index": 662,
+        "coordinate": "mean+:stage2.block4.22",
+        "discovery_auc": 0.8544484848484849,
+        "test_auc": 0.8632535353535353
+      },
+      "rotation_mean": {
+        "index": 1615,
+        "coordinate": "rotated:1615",
+        "discovery_auc": 0.8610444444444444,
+        "test_auc": 0.8691838383838384
+      }
+    },
+    {
+      "epoch": 2.997601918465228,
+      "step": 7500,
+      "broad": {
+        "index": 2289,
+        "coordinate": "mean-:stage3.block2.49",
+        "discovery_auc": 0.8810767676767677,
+        "test_auc": 0.8743929292929293,
+        "ci95": [
+          0.8480182575757577,
+          0.8988506565656565
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.978,
+          "beach wagon": 0.9053232323232323,
+          "cab": 0.7994040404040405,
+          "convertible": 0.8871010101010102,
+          "jeep": 0.8399595959595959,
+          "limousine": 0.9077070707070708,
+          "minivan": 0.9058888888888889,
+          "Model T": 0.8453434343434344,
+          "racer": 0.7832222222222223,
+          "sports car": 0.891979797979798
+        },
+        "road_vehicle_auc": 0.5579090909090909
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 2082,
+          "coordinate": "mean-:stage2.block8.34",
+          "discovery_auc": 0.8931555555555556,
+          "test_auc": 0.8222222222222222,
+          "ci95": [
+            0.7357466666666667,
+            0.9072177777777777
+          ]
+        },
+        "beach wagon": {
+          "index": 1959,
+          "coordinate": "mean-:stage2.block6.39",
+          "discovery_auc": 0.7032888888888889,
+          "test_auc": 0.5246222222222222
+        },
+        "cab": {
+          "index": 3154,
+          "coordinate": "max+:stage2.block7.18",
+          "discovery_auc": 0.7809777777777778,
+          "test_auc": 0.6344888888888889,
+          "ci95": [
+            0.51484,
+            0.7481977777777779
+          ]
+        },
+        "convertible": {
+          "index": 2245,
+          "coordinate": "mean-:stage3.block2.5",
+          "discovery_auc": 0.7667555555555555,
+          "test_auc": 0.7399111111111111
+        },
+        "jeep": {
+          "index": 1023,
+          "coordinate": "mean+:stage3.block0.63",
+          "discovery_auc": 0.76,
+          "test_auc": 0.6968888888888889
+        },
+        "limousine": {
+          "index": 3405,
+          "coordinate": "max+:stage3.block2.13",
+          "discovery_auc": 0.7792888888888889,
+          "test_auc": 0.5684444444444444
+        },
+        "minivan": {
+          "index": 3764,
+          "coordinate": "min-:stage1.block1.52",
+          "discovery_auc": 0.7622222222222222,
+          "test_auc": 0.5474666666666667
+        },
+        "Model T": {
+          "index": 2241,
+          "coordinate": "mean-:stage3.block2.1",
+          "discovery_auc": 0.9367111111111112,
+          "test_auc": 0.8638222222222223
+        },
+        "racer": {
+          "index": 235,
+          "coordinate": "mean+:stage1.block0.43",
+          "discovery_auc": 0.7998222222222222,
+          "test_auc": 0.5564444444444444
+        },
+        "sports car": {
+          "index": 240,
+          "coordinate": "mean+:stage1.block0.48",
+          "discovery_auc": 0.7354666666666667,
+          "test_auc": 0.6607999999999999
+        }
+      },
+      "readout_auc": 0.9443484848484848,
+      "readout_ci95": [
+        0.9306410101010101,
+        0.9562753535353536
+      ],
+      "readout_weight_effective_count": 612.6960890095581,
+      "model_car_auc": 0.9506101010101011,
+      "car_top1": 0.124,
+      "probe_macro_top1": 0.07698999999999999,
+      "native_mean": {
+        "index": 2289,
+        "coordinate": "mean-:stage3.block2.49",
+        "discovery_auc": 0.8810767676767677,
+        "test_auc": 0.8743929292929293
+      },
+      "rotation_mean": {
+        "index": 822,
+        "coordinate": "rotated:822",
+        "discovery_auc": 0.8497444444444444,
+        "test_auc": 0.8484080808080807
+      }
+    },
+    {
+      "epoch": 3.9968025579536373,
+      "step": 10000,
+      "broad": {
+        "index": 4593,
+        "coordinate": "min-:stage3.block2.49",
+        "discovery_auc": 0.9169808080808081,
+        "test_auc": 0.9121752525252524,
+        "ci95": [
+          0.8927753787878787,
+          0.9291620580808082
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.9773888888888889,
+          "beach wagon": 0.9688484848484848,
+          "cab": 0.8746060606060606,
+          "convertible": 0.9518636363636364,
+          "jeep": 0.8851414141414141,
+          "limousine": 0.9248181818181818,
+          "minivan": 0.9307272727272728,
+          "Model T": 0.8327070707070707,
+          "racer": 0.8617979797979798,
+          "sports car": 0.9138535353535354
+        },
+        "road_vehicle_auc": 0.5358181818181819
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 931,
+          "coordinate": "mean+:stage2.block8.35",
+          "discovery_auc": 0.8794666666666666,
+          "test_auc": 0.7964444444444444,
+          "ci95": [
+            0.7222222222222221,
+            0.8748488888888889
+          ]
+        },
+        "beach wagon": {
+          "index": 673,
+          "coordinate": "mean+:stage2.block4.33",
+          "discovery_auc": 0.7262222222222222,
+          "test_auc": 0.5715555555555555
+        },
+        "cab": {
+          "index": 4562,
+          "coordinate": "min-:stage3.block2.18",
+          "discovery_auc": 0.7739555555555555,
+          "test_auc": 0.6013333333333333,
+          "ci95": [
+            0.4774688888888889,
+            0.7425933333333333
+          ]
+        },
+        "convertible": {
+          "index": 1096,
+          "coordinate": "mean+:stage3.block2.8",
+          "discovery_auc": 0.7717333333333334,
+          "test_auc": 0.6519111111111111
+        },
+        "jeep": {
+          "index": 1005,
+          "coordinate": "mean+:stage3.block0.45",
+          "discovery_auc": 0.7479111111111111,
+          "test_auc": 0.6704
+        },
+        "limousine": {
+          "index": 1758,
+          "coordinate": "mean-:stage2.block3.30",
+          "discovery_auc": 0.7617777777777778,
+          "test_auc": 0.6174222222222222
+        },
+        "minivan": {
+          "index": 4125,
+          "coordinate": "min-:stage2.block4.29",
+          "discovery_auc": 0.7570666666666667,
+          "test_auc": 0.6513777777777777
+        },
+        "Model T": {
+          "index": 2241,
+          "coordinate": "mean-:stage3.block2.1",
+          "discovery_auc": 0.9221333333333334,
+          "test_auc": 0.8131555555555556
+        },
+        "racer": {
+          "index": 1862,
+          "coordinate": "mean-:stage2.block5.6",
+          "discovery_auc": 0.7623111111111112,
+          "test_auc": 0.5911111111111111
+        },
+        "sports car": {
+          "index": 1683,
+          "coordinate": "mean-:stage2.block2.19",
+          "discovery_auc": 0.7427555555555555,
+          "test_auc": 0.5050666666666668
+        }
+      },
+      "readout_auc": 0.9503262626262627,
+      "readout_ci95": [
+        0.9367856565656565,
+        0.9635286363636363
+      ],
+      "readout_weight_effective_count": 586.3833791235998,
+      "model_car_auc": 0.9530060606060606,
+      "car_top1": 0.136,
+      "probe_macro_top1": 0.09336,
+      "native_mean": {
+        "index": 2289,
+        "coordinate": "mean-:stage3.block2.49",
+        "discovery_auc": 0.9044878787878788,
+        "test_auc": 0.9023151515151514
+      },
+      "rotation_mean": {
+        "index": 1611,
+        "coordinate": "rotated:1611",
+        "discovery_auc": 0.8502070707070707,
+        "test_auc": 0.8546070707070708
+      }
+    },
+    {
+      "epoch": 4.996003197442047,
+      "step": 12500,
+      "broad": {
+        "index": 4593,
+        "coordinate": "min-:stage3.block2.49",
+        "discovery_auc": 0.9257277777777778,
+        "test_auc": 0.9350207070707072,
+        "ci95": [
+          0.9206192045454545,
+          0.9477104040404041
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.9825353535353536,
+          "beach wagon": 0.9811919191919192,
+          "cab": 0.9162626262626262,
+          "convertible": 0.9624545454545455,
+          "jeep": 0.8861969696969698,
+          "limousine": 0.9502171717171717,
+          "minivan": 0.9636414141414141,
+          "Model T": 0.8671212121212122,
+          "racer": 0.9018737373737372,
+          "sports car": 0.9387121212121212
+        },
+        "road_vehicle_auc": 0.579590909090909
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 484,
+          "coordinate": "mean+:stage2.block1.36",
+          "discovery_auc": 0.8922666666666667,
+          "test_auc": 0.8385777777777779,
+          "ci95": [
+            0.755168888888889,
+            0.9203777777777779
+          ]
+        },
+        "beach wagon": {
+          "index": 2796,
+          "coordinate": "max+:stage2.block1.44",
+          "discovery_auc": 0.7255111111111111,
+          "test_auc": 0.5193777777777777
+        },
+        "cab": {
+          "index": 570,
+          "coordinate": "mean+:stage2.block2.58",
+          "discovery_auc": 0.8003555555555556,
+          "test_auc": 0.5740444444444445,
+          "ci95": [
+            0.4399022222222223,
+            0.6992044444444445
+          ]
+        },
+        "convertible": {
+          "index": 1847,
+          "coordinate": "mean-:stage2.block4.55",
+          "discovery_auc": 0.7703111111111111,
+          "test_auc": 0.6257777777777779
+        },
+        "jeep": {
+          "index": 1005,
+          "coordinate": "mean+:stage3.block0.45",
+          "discovery_auc": 0.7573333333333333,
+          "test_auc": 0.7034666666666668
+        },
+        "limousine": {
+          "index": 1181,
+          "coordinate": "mean-:stage0.block0.29",
+          "discovery_auc": 0.7408,
+          "test_auc": 0.6462222222222223
+        },
+        "minivan": {
+          "index": 3054,
+          "coordinate": "max+:stage2.block5.46",
+          "discovery_auc": 0.7312888888888889,
+          "test_auc": 0.5473777777777777
+        },
+        "Model T": {
+          "index": 2241,
+          "coordinate": "mean-:stage3.block2.1",
+          "discovery_auc": 0.8766222222222222,
+          "test_auc": 0.7715555555555556
+        },
+        "racer": {
+          "index": 469,
+          "coordinate": "mean+:stage2.block1.21",
+          "discovery_auc": 0.7728,
+          "test_auc": 0.6277333333333334
+        },
+        "sports car": {
+          "index": 815,
+          "coordinate": "mean+:stage2.block6.47",
+          "discovery_auc": 0.7521777777777777,
+          "test_auc": 0.5674666666666668
+        }
+      },
+      "readout_auc": 0.9529313131313131,
+      "readout_ci95": [
+        0.9376059090909091,
+        0.965551893939394
+      ],
+      "readout_weight_effective_count": 559.8205190890418,
+      "model_car_auc": 0.95680101010101,
+      "car_top1": 0.176,
+      "probe_macro_top1": 0.10225999999999999,
+      "native_mean": {
+        "index": 2289,
+        "coordinate": "mean-:stage3.block2.49",
+        "discovery_auc": 0.8911318181818182,
+        "test_auc": 0.8886196969696968
+      },
+      "rotation_mean": {
+        "index": 1611,
+        "coordinate": "rotated:1611",
+        "discovery_auc": 0.8703222222222222,
+        "test_auc": 0.8580212121212121
+      }
+    },
+    {
+      "epoch": 6.994404476418865,
+      "step": 17500,
+      "broad": {
+        "index": 4593,
+        "coordinate": "min-:stage3.block2.49",
+        "discovery_auc": 0.9199813131313131,
+        "test_auc": 0.9254373737373738,
+        "ci95": [
+          0.9078888888888889,
+          0.9422272222222222
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.9838181818181818,
+          "beach wagon": 0.9697020202020201,
+          "cab": 0.8954393939393939,
+          "convertible": 0.9612373737373738,
+          "jeep": 0.8541969696969697,
+          "limousine": 0.9397979797979799,
+          "minivan": 0.9706363636363636,
+          "Model T": 0.8582727272727273,
+          "racer": 0.8882575757575759,
+          "sports car": 0.9330151515151516
+        },
+        "road_vehicle_auc": 0.5544090909090909
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 484,
+          "coordinate": "mean+:stage2.block1.36",
+          "discovery_auc": 0.8666666666666667,
+          "test_auc": 0.7932444444444444,
+          "ci95": [
+            0.71836,
+            0.8670577777777778
+          ]
+        },
+        "beach wagon": {
+          "index": 3013,
+          "coordinate": "max+:stage2.block5.5",
+          "discovery_auc": 0.7281777777777778,
+          "test_auc": 0.4613333333333334
+        },
+        "cab": {
+          "index": 1034,
+          "coordinate": "mean+:stage3.block1.10",
+          "discovery_auc": 0.7665777777777778,
+          "test_auc": 0.6721777777777778,
+          "ci95": [
+            0.5562444444444445,
+            0.777671111111111
+          ]
+        },
+        "convertible": {
+          "index": 784,
+          "coordinate": "mean+:stage2.block6.16",
+          "discovery_auc": 0.7857777777777778,
+          "test_auc": 0.6704000000000001
+        },
+        "jeep": {
+          "index": 1005,
+          "coordinate": "mean+:stage3.block0.45",
+          "discovery_auc": 0.7793777777777777,
+          "test_auc": 0.7025777777777777
+        },
+        "limousine": {
+          "index": 1758,
+          "coordinate": "mean-:stage2.block3.30",
+          "discovery_auc": 0.7550222222222223,
+          "test_auc": 0.6607999999999999
+        },
+        "minivan": {
+          "index": 4276,
+          "coordinate": "min-:stage2.block6.52",
+          "discovery_auc": 0.7206222222222223,
+          "test_auc": 0.4299555555555556
+        },
+        "Model T": {
+          "index": 935,
+          "coordinate": "mean+:stage2.block8.39",
+          "discovery_auc": 0.8837333333333334,
+          "test_auc": 0.7596444444444443
+        },
+        "racer": {
+          "index": 469,
+          "coordinate": "mean+:stage2.block1.21",
+          "discovery_auc": 0.8151111111111111,
+          "test_auc": 0.6284444444444445
+        },
+        "sports car": {
+          "index": 1174,
+          "coordinate": "mean-:stage0.block0.22",
+          "discovery_auc": 0.7626666666666667,
+          "test_auc": 0.5034666666666667
+        }
+      },
+      "readout_auc": 0.9553828282828284,
+      "readout_ci95": [
+        0.9432753787878788,
+        0.9670113636363636
+      ],
+      "readout_weight_effective_count": 583.6741016928044,
+      "model_car_auc": 0.9617020202020202,
+      "car_top1": 0.228,
+      "probe_macro_top1": 0.10928,
+      "native_mean": {
+        "index": 2289,
+        "coordinate": "mean-:stage3.block2.49",
+        "discovery_auc": 0.8972767676767677,
+        "test_auc": 0.8923838383838384
+      },
+      "rotation_mean": {
+        "index": 1611,
+        "coordinate": "rotated:1611",
+        "discovery_auc": 0.8627828282828283,
+        "test_auc": 0.8574686868686868
+      }
+    },
+    {
+      "epoch": 7.9936051159072745,
+      "step": 20000,
+      "broad": {
+        "index": 4593,
+        "coordinate": "min-:stage3.block2.49",
+        "discovery_auc": 0.9229838383838384,
+        "test_auc": 0.9285969696969697,
+        "ci95": [
+          0.9140100252525253,
+          0.9425956565656566
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.9777020202020202,
+          "beach wagon": 0.9664191919191919,
+          "cab": 0.8930656565656565,
+          "convertible": 0.958959595959596,
+          "jeep": 0.857510101010101,
+          "limousine": 0.9240555555555556,
+          "minivan": 0.9712323232323232,
+          "Model T": 0.8901717171717172,
+          "racer": 0.911959595959596,
+          "sports car": 0.9348939393939394
+        },
+        "road_vehicle_auc": 0.5395454545454546
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 1919,
+          "coordinate": "mean-:stage2.block5.63",
+          "discovery_auc": 0.8602666666666666,
+          "test_auc": 0.8695111111111111,
+          "ci95": [
+            0.7940844444444445,
+            0.9353777777777778
+          ]
+        },
+        "beach wagon": {
+          "index": 2781,
+          "coordinate": "max+:stage2.block1.29",
+          "discovery_auc": 0.7482666666666666,
+          "test_auc": 0.5829333333333333
+        },
+        "cab": {
+          "index": 1034,
+          "coordinate": "mean+:stage3.block1.10",
+          "discovery_auc": 0.7863111111111111,
+          "test_auc": 0.6949333333333333,
+          "ci95": [
+            0.5708666666666666,
+            0.8046533333333333
+          ]
+        },
+        "convertible": {
+          "index": 2287,
+          "coordinate": "mean-:stage3.block2.47",
+          "discovery_auc": 0.7888,
+          "test_auc": 0.6705777777777777
+        },
+        "jeep": {
+          "index": 1005,
+          "coordinate": "mean+:stage3.block0.45",
+          "discovery_auc": 0.7873777777777777,
+          "test_auc": 0.7048888888888889
+        },
+        "limousine": {
+          "index": 1794,
+          "coordinate": "mean-:stage2.block4.2",
+          "discovery_auc": 0.7475555555555555,
+          "test_auc": 0.504
+        },
+        "minivan": {
+          "index": 3114,
+          "coordinate": "max+:stage2.block6.42",
+          "discovery_auc": 0.7383111111111111,
+          "test_auc": 0.5439111111111111
+        },
+        "Model T": {
+          "index": 353,
+          "coordinate": "mean+:stage1.block2.33",
+          "discovery_auc": 0.8618666666666667,
+          "test_auc": 0.8078222222222222
+        },
+        "racer": {
+          "index": 1749,
+          "coordinate": "mean-:stage2.block3.21",
+          "discovery_auc": 0.7868444444444445,
+          "test_auc": 0.6584888888888888
+        },
+        "sports car": {
+          "index": 587,
+          "coordinate": "mean+:stage2.block3.11",
+          "discovery_auc": 0.7575111111111111,
+          "test_auc": 0.5317333333333333
+        }
+      },
+      "readout_auc": 0.956420202020202,
+      "readout_ci95": [
+        0.9437019191919191,
+        0.9680684595959596
+      ],
+      "readout_weight_effective_count": 561.3428847771474,
+      "model_car_auc": 0.960911111111111,
+      "car_top1": 0.188,
+      "probe_macro_top1": 0.11087999999999999,
+      "native_mean": {
+        "index": 2289,
+        "coordinate": "mean-:stage3.block2.49",
+        "discovery_auc": 0.8972757575757576,
+        "test_auc": 0.8986575757575757
+      },
+      "rotation_mean": {
+        "index": 1611,
+        "coordinate": "rotated:1611",
+        "discovery_auc": 0.874220202020202,
+        "test_auc": 0.8721636363636364
+      }
+    },
+    {
+      "epoch": 10.0,
+      "step": 25020,
+      "broad": {
+        "index": 4593,
+        "coordinate": "min-:stage3.block2.49",
+        "discovery_auc": 0.9293065656565657,
+        "test_auc": 0.9264484848484849,
+        "ci95": [
+          0.9069100378787878,
+          0.9434925631313129
+        ],
+        "per_subtype_auc": {
+          "ambulance": 0.9782676767676768,
+          "beach wagon": 0.9482373737373737,
+          "cab": 0.9292626262626262,
+          "convertible": 0.9712323232323232,
+          "jeep": 0.85660101010101,
+          "limousine": 0.9307575757575757,
+          "minivan": 0.9812575757575758,
+          "Model T": 0.8619242424242424,
+          "racer": 0.8951717171717171,
+          "sports car": 0.9117727272727273
+        },
+        "road_vehicle_auc": 0.5366363636363636
+      },
+      "specialists": {
+        "ambulance": {
+          "index": 729,
+          "coordinate": "mean+:stage2.block5.25",
+          "discovery_auc": 0.8917333333333334,
+          "test_auc": 0.8492444444444445,
+          "ci95": [
+            0.7692355555555556,
+            0.9296266666666665
+          ]
+        },
+        "beach wagon": {
+          "index": 4004,
+          "coordinate": "min-:stage2.block2.36",
+          "discovery_auc": 0.7112,
+          "test_auc": 0.5328
+        },
+        "cab": {
+          "index": 1034,
+          "coordinate": "mean+:stage3.block1.10",
+          "discovery_auc": 0.7688888888888888,
+          "test_auc": 0.6766222222222222,
+          "ci95": [
+            0.5595333333333334,
+            0.7921866666666666
+          ]
+        },
+        "convertible": {
+          "index": 736,
+          "coordinate": "mean+:stage2.block5.32",
+          "discovery_auc": 0.7902222222222223,
+          "test_auc": 0.688711111111111
+        },
+        "jeep": {
+          "index": 1005,
+          "coordinate": "mean+:stage3.block0.45",
+          "discovery_auc": 0.7559111111111111,
+          "test_auc": 0.7192888888888889
+        },
+        "limousine": {
+          "index": 1654,
+          "coordinate": "mean-:stage2.block1.54",
+          "discovery_auc": 0.7575111111111111,
+          "test_auc": 0.707911111111111
+        },
+        "minivan": {
+          "index": 1821,
+          "coordinate": "mean-:stage2.block4.29",
+          "discovery_auc": 0.7491555555555556,
+          "test_auc": 0.6227555555555555
+        },
+        "Model T": {
+          "index": 1351,
+          "coordinate": "mean-:stage1.block0.7",
+          "discovery_auc": 0.8576,
+          "test_auc": 0.7930666666666666
+        },
+        "racer": {
+          "index": 3306,
+          "coordinate": "max+:stage3.block0.42",
+          "discovery_auc": 0.8236444444444444,
+          "test_auc": 0.6920888888888889
+        },
+        "sports car": {
+          "index": 4180,
+          "coordinate": "min-:stage2.block5.20",
+          "discovery_auc": 0.7496888888888888,
+          "test_auc": 0.5776888888888889
+        }
+      },
+      "readout_auc": 0.9618020202020202,
+      "readout_ci95": [
+        0.95105601010101,
+        0.9721497979797978
+      ],
+      "readout_weight_effective_count": 568.1763850073216,
+      "model_car_auc": 0.9582232323232323,
+      "car_top1": 0.204,
+      "probe_macro_top1": 0.11804,
+      "native_mean": {
+        "index": 2289,
+        "coordinate": "mean-:stage3.block2.49",
+        "discovery_auc": 0.8818671717171718,
+        "test_auc": 0.8964090909090909
+      },
+      "rotation_mean": {
+        "index": 1611,
+        "coordinate": "rotated:1611",
+        "discovery_auc": 0.8752060606060607,
+        "test_auc": 0.8751797979797978
+      }
+    }
+  ]
+}

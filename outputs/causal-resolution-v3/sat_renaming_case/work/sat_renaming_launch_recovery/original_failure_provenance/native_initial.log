@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/sat_renaming/native.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

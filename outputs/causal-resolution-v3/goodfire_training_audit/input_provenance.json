@@ -1,0 +1,155 @@
+{
+  "completed_utc": "2026-10-16T00:07:13.841961+00:00",
+  "records": [
+    {
+      "mode": "unchanged_copy_of_prior_public_retrieval",
+      "original_path": "work/next_phase/goodfire_release_availability_20261016_sources/r3_results.md",
+      "url": "https://already-clean.goodfire.com/assets/early-training/RESULTS.md",
+      "path": "inputs/RESULTS.md",
+      "bytes": 5541,
+      "sha256": "c0f8db30e54a9fab997fda7cc2dbd9833a569b3bfb579d55ff78a15c40acea72"
+    },
+    {
+      "mode": "unchanged_copy_of_prior_public_retrieval",
+      "original_path": "work/next_phase/goodfire_release_availability_20261016_sources/r3_protocol.md",
+      "url": "https://already-clean.goodfire.com/assets/early-training/PROTOCOL.md",
+      "path": "inputs/PROTOCOL.md",
+      "bytes": 5606,
+      "sha256": "b1b9bc2c4583111d54430dc284537b2328baf715605fbcf2585fd7d60d0bc037"
+    },
+    {
+      "mode": "unchanged_copy_of_prior_public_retrieval",
+      "original_path": "work/next_phase/goodfire_release_availability_20261016_sources/r3_manifest.json",
+      "url": "https://already-clean.goodfire.com/assets/training-map/manifest.json",
+      "path": "inputs/manifest.json",
+      "bytes": 144451,
+      "sha256": "66000b8d960b8bfe6067359b7d3be985f45d74d5d347dd197dbdbf4ea61b7bf6"
+    },
+    {
+      "mode": "unchanged_copy_of_prior_public_retrieval",
+      "original_path": "work/next_phase/goodfire_release_availability_20261016_sources/r3_tiny_seed0_metrics.json",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed0/metrics.json",
+      "path": "inputs/fresh-tiny-seed0/metrics.json",
+      "bytes": 58533,
+      "sha256": "79319fa556b57ee5bacb6f4ee84cfdfba0f686721e631271baf27a5e96a2f5b5"
+    },
+    {
+      "mode": "unchanged_copy_of_prior_public_retrieval",
+      "original_path": "work/next_phase/goodfire_release_availability_20261016_sources/r3_tiny_seed0_lineage.json",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed0/lineage.json",
+      "path": "inputs/fresh-tiny-seed0/lineage.json",
+      "bytes": 4034,
+      "sha256": "3e3ee4c44cf667c7a91d58d9591c2575c482ec03c697212b1efe15f48a10867b"
+    },
+    {
+      "mode": "unchanged_copy_of_prior_public_retrieval",
+      "original_path": "work/next_phase/goodfire_release_availability_20261016_sources/r3_tiny_seed0_causal.json",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed0/causal.json",
+      "path": "inputs/fresh-tiny-seed0/causal.json",
+      "bytes": 54299,
+      "sha256": "705611cc628c466278e95d4f0691efcc8ac4eb06227a90bd788acc208f1daf5a"
+    },
+    {
+      "mode": "additional_public_GET",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/metrics.json",
+      "path": "inputs/fresh-tiny-seed1/metrics.json",
+      "requested_utc": "2026-10-16T00:07:05.111498+00:00",
+      "status": 200,
+      "final_url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/metrics.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "58500",
+        "ETag": "\"4b934e60d437adf2e4b6590cfde6dccf\"",
+        "Last-Modified": "Thu, 15 Oct 2026 23:45:25 GMT",
+        "Date": "Fri, 16 Oct 2026 00:07:05 GMT"
+      },
+      "bytes": 58500,
+      "sha256": "cdf84df1e01c81cc6b653018a5e267acdafa0bf3d643827a7019185a802c868a"
+    },
+    {
+      "mode": "additional_public_GET",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/lineage.json",
+      "path": "inputs/fresh-tiny-seed1/lineage.json",
+      "requested_utc": "2026-10-16T00:07:06.745194+00:00",
+      "status": 200,
+      "final_url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/lineage.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "4038",
+        "ETag": "\"1ddfaa3c44e1000883c9fb692d0e7b1d\"",
+        "Last-Modified": "Thu, 15 Oct 2026 23:45:25 GMT",
+        "Date": "Fri, 16 Oct 2026 00:07:07 GMT"
+      },
+      "bytes": 4038,
+      "sha256": "bae604fd06e96780fb9f164bdb4c0900260e3e90dd559c3cdc780454bf70ee9a"
+    },
+    {
+      "mode": "additional_public_GET",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/causal.json",
+      "path": "inputs/fresh-tiny-seed1/causal.json",
+      "requested_utc": "2026-10-16T00:07:08.081177+00:00",
+      "status": 200,
+      "final_url": "https://already-clean.goodfire.com/assets/early-training/fresh-tiny-seed1/causal.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "54504",
+        "ETag": "\"7eaaa74b249040623f9d248c7fbcb0f2\"",
+        "Last-Modified": "Thu, 15 Oct 2026 23:45:25 GMT",
+        "Date": "Fri, 16 Oct 2026 00:07:09 GMT"
+      },
+      "bytes": 54504,
+      "sha256": "432335167cf2fd99035e4ee007893abeb0fde94deccdc554b1a226cbc27251ff"
+    },
+    {
+      "mode": "additional_public_GET",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/metrics.json",
+      "path": "inputs/fresh-small-seed0/metrics.json",
+      "requested_utc": "2026-10-16T00:07:09.590897+00:00",
+      "status": 200,
+      "final_url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/metrics.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "58627",
+        "ETag": "\"ed4b93cd5c91a5cdad5ba3faed271249\"",
+        "Last-Modified": "Thu, 15 Oct 2026 23:45:25 GMT",
+        "Date": "Fri, 16 Oct 2026 00:07:10 GMT"
+      },
+      "bytes": 58627,
+      "sha256": "5e6af12e9b8b35b72cc8e4bca68c6b31bcd2f69301daee20326c3ced67e9473a"
+    },
+    {
+      "mode": "additional_public_GET",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/lineage.json",
+      "path": "inputs/fresh-small-seed0/lineage.json",
+      "requested_utc": "2026-10-16T00:07:11.017777+00:00",
+      "status": 200,
+      "final_url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/lineage.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "4016",
+        "ETag": "\"047a7b54ac10bae60faf3de6b87e1f83\"",
+        "Last-Modified": "Thu, 15 Oct 2026 23:45:25 GMT",
+        "Date": "Fri, 16 Oct 2026 00:07:12 GMT"
+      },
+      "bytes": 4016,
+      "sha256": "a3f289945769cc0a10dab914e6d9ee152f2f8e68cb96a2853c8afca1a0330086"
+    },
+    {
+      "mode": "additional_public_GET",
+      "url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/causal.json",
+      "path": "inputs/fresh-small-seed0/causal.json",
+      "requested_utc": "2026-10-16T00:07:12.399647+00:00",
+      "status": 200,
+      "final_url": "https://already-clean.goodfire.com/assets/early-training/fresh-small-seed0/causal.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "54442",
+        "ETag": "\"7aca50253be488af8d9b0d268bc9d557\"",
+        "Last-Modified": "Thu, 15 Oct 2026 23:45:25 GMT",
+        "Date": "Fri, 16 Oct 2026 00:07:13 GMT"
+      },
+      "bytes": 54442,
+      "sha256": "d10641ca557f72c30b3d71e792a7c93cb0d3a34d2563bd11cd96df8db35b4877"
+    }
+  ]
+}

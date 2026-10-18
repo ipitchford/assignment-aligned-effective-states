@@ -1,0 +1,6730 @@
+{
+  "array_schema": {
+    "baseline_prediction": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1,
+        1
+      ]
+    },
+    "bin_thresholds_000": {
+      "bytes": 392,
+      "dtype": "float64",
+      "shape": [
+        49
+      ]
+    },
+    "bin_thresholds_001": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_002": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_003": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_004": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_005": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_006": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_007": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_008": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_009": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_010": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_011": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_012": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_013": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_014": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_015": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_016": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_017": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_018": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_019": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_020": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_021": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_022": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_023": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_024": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_025": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_026": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_027": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_028": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_029": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_030": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_031": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_032": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_033": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_034": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_035": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_036": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_037": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_038": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_039": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_040": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_041": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_042": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_043": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_044": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_045": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_046": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_047": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_048": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_049": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_050": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_051": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_052": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_053": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_054": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_055": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_056": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_057": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_058": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_059": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_060": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_061": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_062": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_063": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_064": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_065": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_066": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_067": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_068": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_069": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_070": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_071": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_072": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_073": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_074": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_075": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_076": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_077": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_078": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_079": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_080": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_081": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_082": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_083": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_084": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_085": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_086": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_087": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_088": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_089": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "bin_thresholds_090": {
+      "bytes": 0,
+      "dtype": "float64",
+      "shape": [
+        0
+      ]
+    },
+    "bin_thresholds_091": {
+      "bytes": 8,
+      "dtype": "float64",
+      "shape": [
+        1
+      ]
+    },
+    "classes": {
+      "bytes": 2,
+      "dtype": "bool",
+      "shape": [
+        2
+      ]
+    },
+    "is_categorical": {
+      "bytes": 92,
+      "dtype": "uint8",
+      "shape": [
+        92
+      ]
+    },
+    "n_bins_non_missing": {
+      "bytes": 368,
+      "dtype": "uint32",
+      "shape": [
+        92
+      ]
+    },
+    "tree_000_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_000_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_000_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_001_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_001_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_001_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_002_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_002_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_002_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_003_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_003_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_003_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_004_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_004_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_004_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_005_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_005_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_005_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_006_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_006_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_006_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_007_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_007_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_007_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_008_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_008_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_008_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_009_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_009_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_009_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_010_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_010_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_010_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_011_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_011_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_011_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_012_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_012_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_012_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_013_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_013_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_013_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_014_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_014_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_014_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_015_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_015_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_015_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_016_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_016_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_016_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_017_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_017_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_017_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_018_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_018_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_018_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_019_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_019_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_019_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_020_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_020_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_020_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_021_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_021_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_021_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_022_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_022_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_022_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_023_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_023_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_023_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_024_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_024_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_024_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_025_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_025_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_025_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_026_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_026_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_026_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_027_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_027_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_027_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_028_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_028_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_028_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_029_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_029_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_029_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_030_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_030_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_030_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_031_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_031_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_031_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_032_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_032_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_032_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_033_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_033_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_033_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_034_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_034_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_034_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_035_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_035_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_035_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_036_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_036_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_036_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_037_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_037_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_037_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_038_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_038_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_038_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_039_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_039_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_039_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_040_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_040_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_040_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_041_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_041_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_041_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_042_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_042_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_042_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_043_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_043_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_043_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_044_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_044_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_044_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_045_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_045_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_045_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_046_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_046_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_046_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_047_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_047_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_047_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_048_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_048_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_048_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_049_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_049_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_049_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_050_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_050_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_050_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_051_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_051_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_051_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_052_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_052_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_052_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_053_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_053_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_053_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_054_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_054_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_054_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_055_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_055_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_055_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_056_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_056_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_056_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_057_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_057_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_057_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_058_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_058_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_058_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_059_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_059_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_059_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_060_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_060_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_060_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_061_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_061_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_061_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_062_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_062_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_062_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_063_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_063_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_063_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_064_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_064_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_064_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_065_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_065_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_065_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_066_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_066_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_066_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_067_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_067_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_067_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_068_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_068_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_068_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_069_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_069_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_069_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_070_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_070_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_070_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_071_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_071_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_071_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_072_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_072_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_072_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_073_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_073_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_073_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_074_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_074_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_074_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_075_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_075_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_075_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_076_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_076_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_076_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_077_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_077_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_077_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_078_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_078_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_078_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_079_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_079_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_079_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_080_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_080_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_080_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_081_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_081_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_081_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_082_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_082_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_082_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_083_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_083_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_083_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_084_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_084_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_084_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_085_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_085_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_085_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_086_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_086_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_086_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_087_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_087_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_087_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_088_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_088_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_088_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_089_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_089_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_089_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_090_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_090_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_090_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_091_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_091_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_091_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_092_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_092_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_092_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_093_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_093_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_093_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_094_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_094_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_094_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_095_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_095_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_095_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_096_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_096_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_096_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_097_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_097_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_097_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_098_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_098_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_098_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_099_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_099_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_099_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_100_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_100_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_100_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_101_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_101_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_101_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_102_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_102_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_102_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_103_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_103_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_103_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_104_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_104_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_104_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_105_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_105_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_105_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_106_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_106_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_106_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_107_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_107_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_107_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_108_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_108_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_108_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_109_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_109_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_109_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_110_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_110_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_110_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_111_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_111_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_111_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_112_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_112_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_112_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_113_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_113_00_nodes": {
+      "bytes": 728,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        13
+      ]
+    },
+    "tree_113_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_114_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_114_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_114_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_115_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_115_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_115_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_116_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_116_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_116_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_117_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_117_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_117_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_118_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_118_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_118_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_119_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_119_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_119_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_120_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_120_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_120_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_121_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_121_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_121_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_122_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_122_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_122_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_123_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_123_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_123_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_124_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_124_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_124_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_125_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_125_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_125_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_126_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_126_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_126_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_127_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_127_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_127_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_128_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_128_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_128_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_129_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_129_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_129_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_130_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_130_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_130_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_131_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_131_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_131_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_132_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_132_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_132_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_133_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_133_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_133_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_134_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_134_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_134_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_135_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_135_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_135_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_136_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_136_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_136_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_137_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_137_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_137_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_138_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_138_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_138_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_139_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_139_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_139_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_140_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_140_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_140_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_141_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_141_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_141_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_142_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_142_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_142_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_143_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_143_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_143_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_144_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_144_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_144_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_145_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_145_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_145_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_146_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_146_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_146_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_147_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_147_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_147_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_148_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_148_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_148_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_149_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_149_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_149_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_150_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_150_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_150_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_151_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_151_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_151_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_152_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_152_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_152_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_153_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_153_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_153_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_154_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_154_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_154_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_155_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_155_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_155_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_156_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_156_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_156_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_157_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_157_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_157_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_158_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_158_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_158_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_159_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_159_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_159_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_160_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_160_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_160_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_161_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_161_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_161_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_162_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_162_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_162_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_163_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_163_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_163_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_164_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_164_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_164_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_165_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_165_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_165_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_166_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_166_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_166_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_167_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_167_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_167_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_168_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_168_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_168_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_169_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_169_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_169_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_170_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_170_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_170_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_171_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_171_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_171_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_172_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_172_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_172_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_173_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_173_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_173_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_174_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_174_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_174_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_175_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_175_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_175_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_176_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_176_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_176_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_177_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_177_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_177_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_178_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_178_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_178_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_179_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_179_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_179_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_180_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_180_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_180_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_181_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_181_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_181_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_182_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_182_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_182_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_183_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_183_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_183_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_184_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_184_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_184_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_185_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_185_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_185_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_186_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_186_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_186_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_187_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_187_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_187_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_188_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_188_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_188_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_189_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_189_00_nodes": {
+      "bytes": 728,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        13
+      ]
+    },
+    "tree_189_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_190_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_190_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_190_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_191_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_191_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_191_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_192_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_192_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_192_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_193_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_193_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_193_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_194_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_194_00_nodes": {
+      "bytes": 504,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        9
+      ]
+    },
+    "tree_194_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_195_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_195_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_195_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_196_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_196_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_196_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_197_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_197_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_197_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_198_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_198_00_nodes": {
+      "bytes": 616,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        11
+      ]
+    },
+    "tree_198_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_199_00_binned_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    },
+    "tree_199_00_nodes": {
+      "bytes": 392,
+      "dtype": "[('value', '<f8'), ('count', '<u4'), ('feature_idx', '<i8'), ('num_threshold', '<f8'), ('missing_go_to_left', 'u1'), ('left', '<u4'), ('right', '<u4'), ('gain', '<f8'), ('depth', '<u4'), ('is_leaf', 'u1'), ('bin_threshold', 'u1'), ('is_categorical', 'u1'), ('bitset_idx', '<u4')]",
+      "shape": [
+        7
+      ]
+    },
+    "tree_199_00_raw_cat_bitsets": {
+      "bytes": 0,
+      "dtype": "uint32",
+      "shape": [
+        0,
+        8
+      ]
+    }
+  },
+  "baseline_prediction": [
+    [
+      -8.881784197001252e-16
+    ]
+  ],
+  "bin_mapper_parameters": {
+    "n_bins": 256,
+    "n_threads": 1,
+    "random_state": 313554465,
+    "subsample": 200000
+  },
+  "categorical_features": null,
+  "classes": [
+    0,
+    1
+  ],
+  "full_estimator_pickle_bytes": 132371,
+  "internal_split_count": 823,
+  "leaf_count": 1023,
+  "maximum_depth": 3,
+  "missing_values_bin_idx": 255,
+  "n_features_in": 92,
+  "n_iter": 200,
+  "n_trees_per_iteration": 1,
+  "parameters": {
+    "categorical_features": null,
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": 3,
+    "max_features": 1.0,
+    "max_iter": 200,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 5,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2026101522,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "prediction_arrays_npz_bytes": 223452,
+  "preprocessing": "identity numeric columns; no categorical features",
+  "raw_prediction_arrays_bytes": 104622,
+  "tree_count": 200,
+  "trees": [
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_000_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_001_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_002_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_003_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_004_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_005_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_006_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_007_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_008_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_009_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_010_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_011_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_012_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_013_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_014_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_015_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_016_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_017_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_018_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_019_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_020_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_021_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_022_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_023_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_024_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_025_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_026_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_027_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_028_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_029_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_030_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_031_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_032_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_033_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_034_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_035_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_036_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_037_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_038_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_039_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_040_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_041_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_042_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_043_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_044_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_045_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_046_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_047_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_048_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_049_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_050_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_051_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_052_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_053_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_054_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_055_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_056_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_057_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_058_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_059_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_060_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_061_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_062_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_063_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_064_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_065_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_066_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_067_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_068_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_069_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_070_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_071_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_072_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_073_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_074_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_075_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_076_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_077_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_078_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_079_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_080_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_081_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_082_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_083_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_084_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_085_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_086_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_087_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_088_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_089_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_090_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_091_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_092_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_093_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_094_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_095_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_096_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_097_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_098_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_099_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_100_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_101_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_102_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_103_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_104_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_105_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_106_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_107_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_108_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_109_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_110_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_111_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_112_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 6,
+      "key": "tree_113_00",
+      "leaves": 7,
+      "nodes": 13
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_114_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_115_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_116_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_117_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_118_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_119_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_120_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_121_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_122_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_123_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_124_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_125_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_126_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_127_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_128_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_129_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_130_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_131_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_132_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_133_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_134_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_135_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_136_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_137_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_138_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_139_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_140_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_141_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_142_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_143_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_144_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_145_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_146_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_147_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_148_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_149_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_150_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_151_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_152_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_153_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_154_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_155_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_156_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_157_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_158_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_159_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_160_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_161_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_162_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_163_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_164_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_165_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_166_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_167_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_168_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_169_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_170_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_171_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_172_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_173_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_174_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_175_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_176_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_177_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_178_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_179_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_180_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_181_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_182_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_183_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_184_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_185_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_186_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_187_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_188_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 6,
+      "key": "tree_189_00",
+      "leaves": 7,
+      "nodes": 13
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_190_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_191_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_192_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_193_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 4,
+      "key": "tree_194_00",
+      "leaves": 5,
+      "nodes": 9
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_195_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_196_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_197_00",
+      "leaves": 4,
+      "nodes": 7
+    },
+    {
+      "depth": 3,
+      "internal_splits": 5,
+      "key": "tree_198_00",
+      "leaves": 6,
+      "nodes": 11
+    },
+    {
+      "depth": 3,
+      "internal_splits": 3,
+      "key": "tree_199_00",
+      "leaves": 4,
+      "nodes": 7
+    }
+  ]
+}

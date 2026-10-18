@@ -1,0 +1,10 @@
+{
+  "analysis_sha256": "4927369087d06a7037f1cffed4445ca8b2ca17e7f39feaeacf61c1c4827dc9b1",
+  "figure_scope": "protected v7 analysis; one checkpoint and engineered bank",
+  "primary_conclusion_key": "both_primaries_and_exclusive",
+  "primary_p_values": {
+    "matching_32": 0.015625,
+    "matching_uncovered16": 0.015625
+  },
+  "status": "PASS"
+}

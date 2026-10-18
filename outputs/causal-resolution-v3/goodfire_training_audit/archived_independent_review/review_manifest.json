@@ -1,0 +1,46 @@
+{
+  "scope": "Independent exported-value audit review artifacts, not native model replication",
+  "reviewed_manifest_sha256": "2bde68b01eff9c0b4b9eb799b82a59cad352d11a6ab9e414cabb05479f8a6cd4",
+  "files": [
+    {
+      "path": "work/goodfire_training_independent_review/README.md",
+      "bytes": 2179,
+      "sha256": "7509f287578a22a425ead3c95ab0bf6f1eeb27a30fdf0241d0624ba597abb4cf"
+    },
+    {
+      "path": "work/goodfire_training_independent_review/environment.json",
+      "bytes": 781,
+      "sha256": "6d353bdba9d47e4bc0243a46dc11000e78525a89c79b5dc2eadf6f88f27d96c9"
+    },
+    {
+      "path": "work/goodfire_training_independent_review/full_replay/receipt.json",
+      "bytes": 7637,
+      "sha256": "b6c52b231a9c7bacbf3f41ac2621b8b684cca4137c1c1e7f87ea722dbacfd9d6"
+    },
+    {
+      "path": "work/goodfire_training_independent_review/full_replay/recomputed.json",
+      "bytes": 145817,
+      "sha256": "1b97792278bdd6f94c5c2169dd2f48c7664c1516287e95477cdcbb98ef6c70ad"
+    },
+    {
+      "path": "work/goodfire_training_independent_review/portable_replay/receipt.json",
+      "bytes": 7095,
+      "sha256": "bbf790f6497abe5a80d3d58ce361337c85d033713a32a5ae85ff706db78ff962"
+    },
+    {
+      "path": "work/goodfire_training_independent_review/portable_replay/recomputed.json",
+      "bytes": 145817,
+      "sha256": "1b97792278bdd6f94c5c2169dd2f48c7664c1516287e95477cdcbb98ef6c70ad"
+    },
+    {
+      "path": "work/goodfire_training_independent_review/recompute.py",
+      "bytes": 26700,
+      "sha256": "d1c43647c814a627b4e97e77519825e037f18a947ccffad5ae9347d06f589fa8"
+    },
+    {
+      "path": "work/next_phase/goodfire_training_independent_review.md",
+      "bytes": 12177,
+      "sha256": "755ee136bfccc22944272a8471f68cc37e36e6106a286042ce98be0cc2681b5a"
+    }
+  ]
+}

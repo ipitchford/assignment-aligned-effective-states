@@ -1,0 +1,1656 @@
+{
+  "candidate_orders": {
+    "group": [
+      8,
+      13,
+      9,
+      7,
+      5,
+      4,
+      15,
+      6,
+      14,
+      12,
+      11,
+      10,
+      2,
+      3,
+      0,
+      1
+    ],
+    "native": [
+      26,
+      5,
+      27,
+      8,
+      29,
+      9,
+      21,
+      7,
+      1,
+      28,
+      23,
+      12,
+      2,
+      30,
+      0,
+      10
+    ],
+    "pca": [
+      30,
+      18,
+      24,
+      4,
+      6,
+      23,
+      27,
+      13,
+      26,
+      29,
+      3,
+      7,
+      11,
+      1,
+      2,
+      25
+    ]
+  },
+  "discovery_validation_export_accuracy": 0.9834710743801653,
+  "groups": [
+    [
+      6,
+      18
+    ],
+    [
+      3,
+      21
+    ],
+    [
+      20,
+      25
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      7,
+      31
+    ],
+    [
+      14,
+      28
+    ],
+    [
+      12,
+      29
+    ],
+    [
+      9,
+      24
+    ],
+    [
+      5,
+      17
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      0,
+      23
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      4,
+      27
+    ],
+    [
+      8,
+      22
+    ],
+    [
+      10,
+      15
+    ]
+  ],
+  "repair_trace": [
+    {
+      "column": 45,
+      "fit_mse": 25.248000709694665
+    },
+    {
+      "column": 16,
+      "fit_mse": 23.866884459277795
+    },
+    {
+      "column": 71,
+      "fit_mse": 22.81570901187533
+    },
+    {
+      "column": 8,
+      "fit_mse": 21.87043168185126
+    }
+  ],
+  "results": {
+    "group-12": {
+      "decoder_coefficients": 120,
+      "encoder_nonzeros": 24,
+      "fit": {
+        "max_abs": 8.883668122771631,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.6329230696685197,
+        "mse_sum_outputs": 26.173764946095723,
+        "n": 1904,
+        "p95_max_abs": 5.10402609019752,
+        "rmse_per_output": 1.6178307991287508,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.01838235294117647,
+          "2.0": 0.2615546218487395,
+          "4.0": 0.8429621848739496
+        }
+      },
+      "lambda": 0.0001,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 24,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 25.436114546760702
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 25.435543121019535
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 25.51443470036387
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 29.505854728504417
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 44.968671695954626
+        }
+      ],
+      "selection_columns": [
+        8,
+        13,
+        9,
+        7,
+        5,
+        4,
+        15,
+        6,
+        14,
+        12,
+        11,
+        10
+      ],
+      "source_columns": [
+        8,
+        13,
+        9,
+        7,
+        5,
+        4,
+        15,
+        6,
+        14,
+        12,
+        11,
+        10
+      ],
+      "state_bits": 12,
+      "threshold_in_hidden_integer_units": [
+        165216,
+        234880,
+        485124,
+        135244,
+        273419,
+        133301,
+        89776,
+        218016,
+        139109,
+        118536,
+        172076,
+        179204
+      ],
+      "thresholds": 12,
+      "validation": {
+        "max_abs": 8.281364587694407,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.602902862221309,
+        "mse_sum_outputs": 25.435543121019535,
+        "n": 968,
+        "p95_max_abs": 4.829937757033175,
+        "rmse_per_output": 1.594852442109286,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.02066115702479339,
+          "2.0": 0.2799586776859504,
+          "4.0": 0.8419421487603306
+        }
+      }
+    },
+    "group-16": {
+      "decoder_coefficients": 160,
+      "encoder_nonzeros": 32,
+      "fit": {
+        "max_abs": 9.07972662989469,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.553656325290584,
+        "mse_sum_outputs": 24.89074182741528,
+        "n": 1904,
+        "p95_max_abs": 5.160038809267046,
+        "rmse_per_output": 1.5776800001082374,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.027836134453781514,
+          "2.0": 0.29936974789915966,
+          "4.0": 0.8560924369747899
+        }
+      },
+      "lambda": 0.01,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 32,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 24.08820977925632
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 24.08630635840117
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 24.081648356452842
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 27.980607884796
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 44.260155514754864
+        }
+      ],
+      "selection_columns": [
+        8,
+        13,
+        9,
+        7,
+        5,
+        4,
+        15,
+        6,
+        14,
+        12,
+        11,
+        10,
+        2,
+        3,
+        0,
+        1
+      ],
+      "source_columns": [
+        8,
+        13,
+        9,
+        7,
+        5,
+        4,
+        15,
+        6,
+        14,
+        12,
+        11,
+        10,
+        2,
+        3,
+        0,
+        1
+      ],
+      "state_bits": 16,
+      "threshold_in_hidden_integer_units": [
+        165216,
+        234880,
+        485124,
+        135244,
+        273419,
+        133301,
+        89776,
+        218016,
+        139109,
+        118536,
+        172076,
+        179204,
+        171950,
+        187671,
+        15108,
+        23747
+      ],
+      "thresholds": 16,
+      "validation": {
+        "max_abs": 8.281364587694407,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.539771501334018,
+        "mse_sum_outputs": 24.081648356452842,
+        "n": 968,
+        "p95_max_abs": 4.828959255977516,
+        "rmse_per_output": 1.551826290422122,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.02066115702479339,
+          "2.0": 0.29338842975206614,
+          "4.0": 0.868801652892562
+        }
+      }
+    },
+    "group-4": {
+      "decoder_coefficients": 40,
+      "encoder_nonzeros": 8,
+      "fit": {
+        "max_abs": 12.32780052907765,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.93512700330466,
+        "mse_sum_outputs": 36.43601796239851,
+        "n": 1904,
+        "p95_max_abs": 6.470301594877204,
+        "rmse_per_output": 1.9088220965401284,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.005777310924369748,
+          "2.0": 0.18539915966386555,
+          "4.0": 0.7363445378151261
+        }
+      },
+      "lambda": 1e-06,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 8,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 35.21761662191344
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 35.21783053465297
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 35.33456503698904
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 38.681847041642385
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 48.80602078925691
+        }
+      ],
+      "selection_columns": [
+        8,
+        13,
+        9,
+        7
+      ],
+      "source_columns": [
+        8,
+        13,
+        9,
+        7
+      ],
+      "state_bits": 4,
+      "threshold_in_hidden_integer_units": [
+        165216,
+        234880,
+        485124,
+        135244
+      ],
+      "thresholds": 4,
+      "validation": {
+        "max_abs": 9.758862118590004,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.9028426840387054,
+        "mse_sum_outputs": 35.21761662191344,
+        "n": 968,
+        "p95_max_abs": 6.469065737202144,
+        "rmse_per_output": 1.8766357297545373,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.005165289256198347,
+          "2.0": 0.20351239669421486,
+          "4.0": 0.7407024793388429
+        }
+      }
+    },
+    "group-8": {
+      "decoder_coefficients": 80,
+      "encoder_nonzeros": 16,
+      "fit": {
+        "max_abs": 9.018415013850113,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.7727314868449326,
+        "mse_sum_outputs": 29.03789152490494,
+        "n": 1904,
+        "p95_max_abs": 5.470572241620884,
+        "rmse_per_output": 1.7040508068982256,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.013130252100840336,
+          "2.0": 0.23319327731092437,
+          "4.0": 0.8019957983193278
+        }
+      },
+      "lambda": 0.0001,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 16,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 28.28206146151486
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 28.281610052779186
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 28.37550264481039
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 32.46784979504884
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 46.5410959289285
+        }
+      ],
+      "selection_columns": [
+        8,
+        13,
+        9,
+        7,
+        5,
+        4,
+        15,
+        6
+      ],
+      "source_columns": [
+        8,
+        13,
+        9,
+        7,
+        5,
+        4,
+        15,
+        6
+      ],
+      "state_bits": 8,
+      "threshold_in_hidden_integer_units": [
+        165216,
+        234880,
+        485124,
+        135244,
+        273419,
+        133301,
+        89776,
+        218016
+      ],
+      "thresholds": 8,
+      "validation": {
+        "max_abs": 8.281364587694407,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.7671006699922565,
+        "mse_sum_outputs": 28.281610052779186,
+        "n": 968,
+        "p95_max_abs": 5.139507590873594,
+        "rmse_per_output": 1.6817137108550666,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.010330578512396695,
+          "2.0": 0.24483471074380164,
+          "4.0": 0.8068181818181818
+        }
+      }
+    },
+    "native-12": {
+      "decoder_coefficients": 120,
+      "encoder_nonzeros": 12,
+      "fit": {
+        "max_abs": 8.853342797983217,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.3999209081626116,
+        "mse_sum_outputs": 22.23165502158058,
+        "n": 1904,
+        "p95_max_abs": 4.614877286634151,
+        "rmse_per_output": 1.4910283371412019,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0015756302521008404,
+          "1.0": 0.038340336134453784,
+          "2.0": 0.35714285714285715,
+          "4.0": 0.8834033613445378
+        }
+      },
+      "lambda": 0.0001,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 24,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 22.521635853814196
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 22.519340927170084
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 22.5325672159788
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 27.376010240799534
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 44.652824692736424
+        }
+      ],
+      "selection_columns": [
+        26,
+        5,
+        27,
+        8,
+        29,
+        9,
+        21,
+        7,
+        1,
+        28,
+        23,
+        12
+      ],
+      "source_columns": [
+        26,
+        5,
+        27,
+        8,
+        29,
+        9,
+        21,
+        7,
+        1,
+        28,
+        23,
+        12
+      ],
+      "state_bits": 12,
+      "threshold_in_hidden_integer_units": [
+        255115,
+        99811,
+        99126,
+        85190,
+        107386,
+        55560,
+        0,
+        82390,
+        101972,
+        155277,
+        119434,
+        108734
+      ],
+      "thresholds": 12,
+      "validation": {
+        "max_abs": 7.649021023832033,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.4221286759039673,
+        "mse_sum_outputs": 22.519340927170084,
+        "n": 968,
+        "p95_max_abs": 4.677057241911713,
+        "rmse_per_output": 1.500644559086864,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0010330578512396695,
+          "1.0": 0.03512396694214876,
+          "2.0": 0.3378099173553719,
+          "4.0": 0.8925619834710744
+        }
+      }
+    },
+    "native-16": {
+      "decoder_coefficients": 160,
+      "encoder_nonzeros": 16,
+      "fit": {
+        "max_abs": 7.492958893947074,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.282372496657379,
+        "mse_sum_outputs": 19.061090945062926,
+        "n": 1904,
+        "p95_max_abs": 4.239800103243636,
+        "rmse_per_output": 1.3806190982694295,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0021008403361344537,
+          "1.0": 0.044642857142857144,
+          "2.0": 0.4065126050420168,
+          "4.0": 0.9332983193277311
+        }
+      },
+      "lambda": 0.0001,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 32,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 19.543388420470738
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 19.541255988168295
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 19.577567877778687
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 24.500565518754478
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 43.0130440409913
+        }
+      ],
+      "selection_columns": [
+        26,
+        5,
+        27,
+        8,
+        29,
+        9,
+        21,
+        7,
+        1,
+        28,
+        23,
+        12,
+        2,
+        30,
+        0,
+        10
+      ],
+      "source_columns": [
+        26,
+        5,
+        27,
+        8,
+        29,
+        9,
+        21,
+        7,
+        1,
+        28,
+        23,
+        12,
+        2,
+        30,
+        0,
+        10
+      ],
+      "state_bits": 16,
+      "threshold_in_hidden_integer_units": [
+        255115,
+        99811,
+        99126,
+        85190,
+        107386,
+        55560,
+        0,
+        82390,
+        101972,
+        155277,
+        119434,
+        108734,
+        23982,
+        107596,
+        51178,
+        36170
+      ],
+      "thresholds": 16,
+      "validation": {
+        "max_abs": 7.649021023832033,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.266503805806962,
+        "mse_sum_outputs": 19.541255988168295,
+        "n": 968,
+        "p95_max_abs": 4.346033747250227,
+        "rmse_per_output": 1.3979004252151974,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0010330578512396695,
+          "1.0": 0.03925619834710744,
+          "2.0": 0.38326446280991733,
+          "4.0": 0.9204545454545454
+        }
+      }
+    },
+    "native-4": {
+      "decoder_coefficients": 40,
+      "encoder_nonzeros": 4,
+      "fit": {
+        "max_abs": 9.749746124446393,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.8150743717327713,
+        "mse_sum_outputs": 34.61493432742931,
+        "n": 1904,
+        "p95_max_abs": 6.3786333809053515,
+        "rmse_per_output": 1.860508917673584,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.009978991596638655,
+          "2.0": 0.23266806722689076,
+          "4.0": 0.7536764705882353
+        }
+      },
+      "lambda": 1e-06,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 8,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 34.290548078398615
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 34.29081821356981
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 34.4198725533453
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 38.13084458111712
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 48.94322454490477
+        }
+      ],
+      "selection_columns": [
+        26,
+        5,
+        27,
+        8
+      ],
+      "source_columns": [
+        26,
+        5,
+        27,
+        8
+      ],
+      "state_bits": 4,
+      "threshold_in_hidden_integer_units": [
+        255115,
+        99811,
+        99126,
+        85190
+      ],
+      "thresholds": 4,
+      "validation": {
+        "max_abs": 9.781286102330434,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.78207556648646,
+        "mse_sum_outputs": 34.290548078398615,
+        "n": 968,
+        "p95_max_abs": 6.363596543483434,
+        "rmse_per_output": 1.851770722265546,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.007231404958677686,
+          "2.0": 0.24586776859504134,
+          "4.0": 0.7458677685950413
+        }
+      }
+    },
+    "native-8": {
+      "decoder_coefficients": 80,
+      "encoder_nonzeros": 8,
+      "fit": {
+        "max_abs": 8.49364176534572,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.5930605051712146,
+        "mse_sum_outputs": 26.721580617708256,
+        "n": 1904,
+        "p95_max_abs": 5.2844212036461,
+        "rmse_per_output": 1.6346736866331537,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0010504201680672268,
+          "1.0": 0.028361344537815126,
+          "2.0": 0.3072478991596639,
+          "4.0": 0.8293067226890757
+        }
+      },
+      "lambda": 0.0001,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 16,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 26.553270003893832
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 26.55297053319621
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 26.690741651169898
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 31.586992533018325
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 46.88716499752829
+        }
+      ],
+      "selection_columns": [
+        26,
+        5,
+        27,
+        8,
+        29,
+        9,
+        21,
+        7
+      ],
+      "source_columns": [
+        26,
+        5,
+        27,
+        8,
+        29,
+        9,
+        21,
+        7
+      ],
+      "state_bits": 8,
+      "threshold_in_hidden_integer_units": [
+        255115,
+        99811,
+        99126,
+        85190,
+        107386,
+        55560,
+        0,
+        82390
+      ],
+      "thresholds": 8,
+      "validation": {
+        "max_abs": 7.961753582277561,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.644972141099651,
+        "mse_sum_outputs": 26.55297053319621,
+        "n": 968,
+        "p95_max_abs": 5.186545926766997,
+        "rmse_per_output": 1.6295082243792514,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0010330578512396695,
+          "1.0": 0.025826446280991736,
+          "2.0": 0.30165289256198347,
+          "4.0": 0.8336776859504132
+        }
+      }
+    },
+    "pca-12": {
+      "decoder_coefficients": 120,
+      "encoder_nonzeros": 384,
+      "fit": {
+        "max_abs": 12.228424527084758,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.8176689578672574,
+        "mse_sum_outputs": 33.94186090128435,
+        "n": 1904,
+        "p95_max_abs": 6.001918439788205,
+        "rmse_per_output": 1.8423316992681948,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0005252100840336134,
+          "1.0": 0.01523109243697479,
+          "2.0": 0.24002100840336135,
+          "4.0": 0.7584033613445378
+        }
+      },
+      "lambda": 1e-06,
+      "max_abs_encoder_integer": 2009,
+      "pair_bits": 24,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 34.05559023302937
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 34.05563536049365
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 34.07079267447662
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 34.65964733342644
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 41.425761172140795
+        }
+      ],
+      "selection_columns": [
+        30,
+        18,
+        24,
+        4,
+        6,
+        23,
+        27,
+        13,
+        26,
+        29,
+        3,
+        7
+      ],
+      "source_columns": [
+        30,
+        18,
+        24,
+        4,
+        6,
+        23,
+        27,
+        13,
+        26,
+        29,
+        3,
+        7
+      ],
+      "state_bits": 12,
+      "threshold_in_hidden_integer_units": [
+        -22898883,
+        -72615673,
+        -22679141,
+        172255966,
+        -664624410,
+        -88783096,
+        31984686,
+        79234316,
+        41917492,
+        44714173,
+        267808309,
+        -677523940
+      ],
+      "thresholds": 12,
+      "validation": {
+        "max_abs": 11.165450407456733,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.74193384584426,
+        "mse_sum_outputs": 34.05559023302937,
+        "n": 968,
+        "p95_max_abs": 5.964904546172824,
+        "rmse_per_output": 1.8454156776463497,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.008264462809917356,
+          "2.0": 0.2427685950413223,
+          "4.0": 0.7603305785123967
+        }
+      }
+    },
+    "pca-16": {
+      "decoder_coefficients": 160,
+      "encoder_nonzeros": 512,
+      "fit": {
+        "max_abs": 12.734983402169425,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.7425131795804383,
+        "mse_sum_outputs": 32.06287936799898,
+        "n": 1904,
+        "p95_max_abs": 5.903981419732845,
+        "rmse_per_output": 1.7906110512336,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0005252100840336134,
+          "1.0": 0.012605042016806723,
+          "2.0": 0.24737394957983194,
+          "4.0": 0.7809873949579832
+        }
+      },
+      "lambda": 0.01,
+      "max_abs_encoder_integer": 2068,
+      "pair_bits": 32,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 32.02176329066725
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 32.02139145403313
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 32.00823800711488
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 32.670474925275045
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 40.04217000598844
+        }
+      ],
+      "selection_columns": [
+        30,
+        18,
+        24,
+        4,
+        6,
+        23,
+        27,
+        13,
+        26,
+        29,
+        3,
+        7,
+        11,
+        1,
+        2,
+        25
+      ],
+      "source_columns": [
+        30,
+        18,
+        24,
+        4,
+        6,
+        23,
+        27,
+        13,
+        26,
+        29,
+        3,
+        7,
+        11,
+        1,
+        2,
+        25
+      ],
+      "state_bits": 16,
+      "threshold_in_hidden_integer_units": [
+        -22898883,
+        -72615673,
+        -22679141,
+        172255966,
+        -664624410,
+        -88783096,
+        31984686,
+        79234316,
+        41917492,
+        44714173,
+        267808309,
+        -677523940,
+        214397393,
+        -112009273,
+        216463327,
+        -35281025
+      ],
+      "thresholds": 16,
+      "validation": {
+        "max_abs": 11.581080529499138,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.691421186667265,
+        "mse_sum_outputs": 32.00823800711488,
+        "n": 968,
+        "p95_max_abs": 5.799854250377328,
+        "rmse_per_output": 1.7890846264812317,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.013429752066115703,
+          "2.0": 0.2665289256198347,
+          "4.0": 0.7789256198347108
+        }
+      }
+    },
+    "pca-4": {
+      "decoder_coefficients": 40,
+      "encoder_nonzeros": 128,
+      "fit": {
+        "max_abs": 13.43102329224348,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 3.1255297674681772,
+        "mse_sum_outputs": 41.25400819948225,
+        "n": 1904,
+        "p95_max_abs": 6.645993369698117,
+        "rmse_per_output": 2.0311082738121633,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.008403361344537815,
+          "2.0": 0.18224789915966386,
+          "4.0": 0.6911764705882353
+        }
+      },
+      "lambda": 0.0001,
+      "max_abs_encoder_integer": 1786,
+      "pair_bits": 8,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 41.0881739751877
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 41.0881231159571
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 41.09125415572605
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 41.521854581807666
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 46.446464458546366
+        }
+      ],
+      "selection_columns": [
+        30,
+        18,
+        24,
+        4
+      ],
+      "source_columns": [
+        30,
+        18,
+        24,
+        4
+      ],
+      "state_bits": 4,
+      "threshold_in_hidden_integer_units": [
+        -22898883,
+        -72615673,
+        -22679141,
+        172255966
+      ],
+      "thresholds": 4,
+      "validation": {
+        "max_abs": 12.822918638805874,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 3.095104915689204,
+        "mse_sum_outputs": 41.0881231159571,
+        "n": 968,
+        "p95_max_abs": 6.576077626142319,
+        "rmse_per_output": 2.0270205503634418,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.009297520661157025,
+          "2.0": 0.1797520661157025,
+          "4.0": 0.6983471074380165
+        }
+      }
+    },
+    "pca-8": {
+      "decoder_coefficients": 80,
+      "encoder_nonzeros": 256,
+      "fit": {
+        "max_abs": 11.970545188432947,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.906345736554872,
+        "mse_sum_outputs": 36.57750194135194,
+        "n": 1904,
+        "p95_max_abs": 6.331001153464105,
+        "rmse_per_output": 1.9125245604005179,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.01207983193277311,
+          "2.0": 0.22426470588235295,
+          "4.0": 0.7373949579831933
+        }
+      },
+      "lambda": 1e-06,
+      "max_abs_encoder_integer": 2009,
+      "pair_bits": 16,
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 36.89126310560665
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 36.89128523651758
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 36.90177836186407
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 37.4081159378168
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 43.50094011834282
+        }
+      ],
+      "selection_columns": [
+        30,
+        18,
+        24,
+        4,
+        6,
+        23,
+        27,
+        13
+      ],
+      "source_columns": [
+        30,
+        18,
+        24,
+        4,
+        6,
+        23,
+        27,
+        13
+      ],
+      "state_bits": 8,
+      "threshold_in_hidden_integer_units": [
+        -22898883,
+        -72615673,
+        -22679141,
+        172255966,
+        -664624410,
+        -88783096,
+        31984686,
+        79234316
+      ],
+      "thresholds": 8,
+      "validation": {
+        "max_abs": 11.48376290455409,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.9238626573397144,
+        "mse_sum_outputs": 36.89126310560665,
+        "n": 968,
+        "p95_max_abs": 6.3046749666379505,
+        "rmse_per_output": 1.9207098454895952,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.008264462809917356,
+          "2.0": 0.21797520661157024,
+          "4.0": 0.737603305785124
+        }
+      }
+    },
+    "repair-12": {
+      "decoder_coefficients": 120,
+      "encoder_nonzeros": 12,
+      "fit": {
+        "max_abs": 7.805691452392603,
+        "mean_target_squared_norm": 52.945163530359686,
+        "median_max_abs": 2.3698536215625357,
+        "mse_sum_outputs": 21.663802988761734,
+        "n": 1904,
+        "p95_max_abs": 4.5787220783117055,
+        "rmse_per_output": 1.4718628668718337,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.04201680672268908,
+          "2.0": 0.3592436974789916,
+          "4.0": 0.8928571428571429
+        }
+      },
+      "lambda": 0.0001,
+      "max_abs_encoder_integer": 1,
+      "pair_bits": 24,
+      "quantiles": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.25,
+        0.75,
+        0.5,
+        0.25
+      ],
+      "ridge_validation": [
+        {
+          "lambda": 1e-06,
+          "validation_mse": 22.102795485372667
+        },
+        {
+          "lambda": 0.0001,
+          "validation_mse": 22.10140465237517
+        },
+        {
+          "lambda": 0.01,
+          "validation_mse": 22.181235103719164
+        },
+        {
+          "lambda": 0.1,
+          "validation_mse": 27.138753372850715
+        },
+        {
+          "lambda": 1.0,
+          "validation_mse": 44.66038445711088
+        }
+      ],
+      "selection_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        45,
+        16,
+        71,
+        8
+      ],
+      "source_columns": [
+        26,
+        5,
+        27,
+        8,
+        29,
+        9,
+        21,
+        7,
+        14,
+        2,
+        23,
+        0
+      ],
+      "state_bits": 12,
+      "threshold_in_hidden_integer_units": [
+        255115,
+        99811,
+        99126,
+        85190,
+        107386,
+        55560,
+        0,
+        82390,
+        43459,
+        88916,
+        119434,
+        0
+      ],
+      "thresholds": 12,
+      "validation": {
+        "max_abs": 7.961753582277561,
+        "mean_target_squared_norm": 52.66619659284313,
+        "median_max_abs": 2.413379454165237,
+        "mse_sum_outputs": 22.10140465237517,
+        "n": 968,
+        "p95_max_abs": 4.677235987770937,
+        "rmse_per_output": 1.4866541175530765,
+        "within_epsilon": {
+          "0.25": 0.0,
+          "0.5": 0.0010330578512396695,
+          "1.0": 0.03925619834710744,
+          "2.0": 0.3481404958677686,
+          "4.0": 0.890495867768595
+        }
+      }
+    }
+  },
+  "seed": 29,
+  "selection_traces": {
+    "group": [
+      {
+        "column": 8,
+        "fit_mse": 48.2076904659983
+      },
+      {
+        "column": 13,
+        "fit_mse": 43.87824433019167
+      },
+      {
+        "column": 9,
+        "fit_mse": 40.14175414387642
+      },
+      {
+        "column": 7,
+        "fit_mse": 36.5328358885903
+      },
+      {
+        "column": 5,
+        "fit_mse": 33.94057750680765
+      },
+      {
+        "column": 4,
+        "fit_mse": 32.16558934043425
+      },
+      {
+        "column": 15,
+        "fit_mse": 30.44257566569918
+      },
+      {
+        "column": 6,
+        "fit_mse": 29.17306098519734
+      },
+      {
+        "column": 14,
+        "fit_mse": 28.340046792958027
+      },
+      {
+        "column": 12,
+        "fit_mse": 27.55251174495907
+      },
+      {
+        "column": 11,
+        "fit_mse": 26.859312898822736
+      },
+      {
+        "column": 10,
+        "fit_mse": 26.304684243851884
+      },
+      {
+        "column": 2,
+        "fit_mse": 25.776802433332954
+      },
+      {
+        "column": 3,
+        "fit_mse": 25.3237811739452
+      },
+      {
+        "column": 0,
+        "fit_mse": 25.01024366165479
+      },
+      {
+        "column": 1,
+        "fit_mse": 24.890741827415276
+      }
+    ],
+    "native": [
+      {
+        "column": 26,
+        "fit_mse": 47.3199760818315
+      },
+      {
+        "column": 5,
+        "fit_mse": 42.85658941100973
+      },
+      {
+        "column": 27,
+        "fit_mse": 38.717426909047454
+      },
+      {
+        "column": 8,
+        "fit_mse": 34.72166829336415
+      },
+      {
+        "column": 29,
+        "fit_mse": 32.15573644144085
+      },
+      {
+        "column": 9,
+        "fit_mse": 30.272222949840742
+      },
+      {
+        "column": 21,
+        "fit_mse": 28.48733712031656
+      },
+      {
+        "column": 7,
+        "fit_mse": 26.88566452698778
+      },
+      {
+        "column": 1,
+        "fit_mse": 25.464352043307507
+      },
+      {
+        "column": 28,
+        "fit_mse": 24.33317248620478
+      },
+      {
+        "column": 23,
+        "fit_mse": 23.258974042093516
+      },
+      {
+        "column": 12,
+        "fit_mse": 22.43399486344613
+      },
+      {
+        "column": 2,
+        "fit_mse": 21.62508694265719
+      },
+      {
+        "column": 30,
+        "fit_mse": 20.824478918751552
+      },
+      {
+        "column": 0,
+        "fit_mse": 20.024174531515776
+      },
+      {
+        "column": 10,
+        "fit_mse": 19.279047473786214
+      }
+    ],
+    "pca": [
+      {
+        "column": 30,
+        "fit_mse": 48.120568488553346
+      },
+      {
+        "column": 18,
+        "fit_mse": 45.50401594594076
+      },
+      {
+        "column": 24,
+        "fit_mse": 43.29689233351488
+      },
+      {
+        "column": 4,
+        "fit_mse": 41.26182518014624
+      },
+      {
+        "column": 6,
+        "fit_mse": 39.90459783953142
+      },
+      {
+        "column": 23,
+        "fit_mse": 38.663047615753
+      },
+      {
+        "column": 27,
+        "fit_mse": 37.48350135091016
+      },
+      {
+        "column": 13,
+        "fit_mse": 36.58610061979903
+      },
+      {
+        "column": 26,
+        "fit_mse": 35.74861510895187
+      },
+      {
+        "column": 29,
+        "fit_mse": 35.11257979333861
+      },
+      {
+        "column": 3,
+        "fit_mse": 34.506349626677164
+      },
+      {
+        "column": 7,
+        "fit_mse": 33.95267689503997
+      },
+      {
+        "column": 11,
+        "fit_mse": 33.3945481092779
+      },
+      {
+        "column": 1,
+        "fit_mse": 32.926619070768524
+      },
+      {
+        "column": 2,
+        "fit_mse": 32.460953285463724
+      },
+      {
+        "column": 25,
+        "fit_mse": 32.062879367998974
+      }
+    ]
+  },
+  "train_export_accuracy": 1.0,
+  "train_export_float_agreement": 1.0,
+  "train_float_accuracy": 1.0
+}

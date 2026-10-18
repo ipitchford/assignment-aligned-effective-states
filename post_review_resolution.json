@@ -1,0 +1,14 @@
+{
+  "status": "MINOR_CORRECTIONS_ADDRESSED",
+  "review_manifest_sha256": "4c8e7323b0eba93b9548db12eff4c51b38db2c6dbca8b56370a2f5bd507dfb1d",
+  "reviewed_manuscript_sha256": "59849db57dd6b05ec22c322ea7cf5c9878a60ef93713dcb19c2c218a17813cb0",
+  "reviewed_supplement_sha256": "8dd0d0f4645d559c4055a75a9270f314562f6011360db2495b65fbca6fa5a095",
+  "released_manuscript_sha256": "1cca778ba84bdcc88903221df295dd15518b954fef8b7e846ccf95785045142a",
+  "released_supplement_sha256": "645fc319131659502568153ee1a090cc376e31ba121f9b6831d5a5149e85cf0e",
+  "response_sha256": "02d76e88f0f829294ef2efd675cc9198abf60d2cbdee4874badb1431cbdb559c",
+  "scope": "Completed full review of corrected manuscript found minor corrections and no fatal scientific defect. This release addresses those corrections; it has not received another full model review or human peer review.",
+  "user_steering": "Do not reopen a full Anthropic review for minor corrections.",
+  "protected_results_changed": false,
+  "new_analysis": "Retained-array NMF attribution and anchor counts; zero new neural inputs; collision sensitivity added to replay.",
+  "resolution_details": "revision_response.md"
+}

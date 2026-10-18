@@ -1,0 +1,11 @@
+{
+  "analysis_sha256": "d81470a4b98a0b04e5dddf0bff7d5b445955ff86346639b917ce9514d99ac2bd",
+  "panels": {
+    "A": "per-unit base AUROC; red marks units failing the protected multi-negative specificity guard",
+    "B": "source-threshold positive detection by stratum",
+    "C": "pooled false-positive counts by negative regime"
+  },
+  "posthoc_diagnostics_sha256": "d233dadbe4ee35d93c1042ee962b1a6c1453c6d6123f8a1ba1445be0628c2239",
+  "scope": "one checkpoint and selected engineered bank; descriptive denominators",
+  "status": "PASS"
+}

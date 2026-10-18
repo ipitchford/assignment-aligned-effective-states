@@ -1,0 +1,96 @@
+{
+  "original_files": [
+    {
+      "path": "outputs/causal-resolution-v3/data/source/crushed-3b.json",
+      "bytes": 88090,
+      "sha256": "674006a7e8de028aa502a88d70689644f31343a2c5cbd8c0ca97a47804b869a6"
+    },
+    {
+      "path": "outputs/causal-resolution-v3/data/source/crushed-last-layer-c13.json",
+      "bytes": 22231,
+      "sha256": "64f2adc19faf6608df8fa7d21113fbb60992ca8e7a1e2e2fb836bb551f2c147d"
+    },
+    {
+      "path": "outputs/causal-resolution-v3/data/source/essay.md",
+      "bytes": 166130,
+      "sha256": "1e3878c7c93ba36c874eb76a49879be7a8dfb742d61c3c3ac813f04fa73f2a25"
+    },
+    {
+      "path": "outputs/causal-resolution-v3/data/source/figure-data.json",
+      "bytes": 284048,
+      "sha256": "a1c329f381a10ae0768949ae4d6ed9816ef557b61ae48530f8fa8faaa28055ef"
+    },
+    {
+      "path": "outputs/causal-resolution-v3/data/source/page.html",
+      "bytes": 2173376,
+      "sha256": "164758497e83e1a267d41f255f79c3d9099433e7b5ff6139cd2e18b207c9fdc9"
+    },
+    {
+      "path": "outputs/causal-resolution-v3/data/source/toy-pca-density.json",
+      "bytes": 46388,
+      "sha256": "baf7a142777f97c541c02670eab3809209a81df5481b8542ac1ab2527e3511b9"
+    },
+    {
+      "path": "outputs/causal-resolution-v3/data/source/weak-ablation.json",
+      "bytes": 309052,
+      "sha256": "4c34e9ae22d7ce8fa11e7fc3020d87aac842fd8f7ece66615762835578119343"
+    }
+  ],
+  "exported_measurement_files": [
+    {
+      "path": "inputs/fresh-small-seed0/causal.json",
+      "bytes": 54442,
+      "sha256": "d10641ca557f72c30b3d71e792a7c93cb0d3a34d2563bd11cd96df8db35b4877",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-small-seed0/lineage.json",
+      "bytes": 4016,
+      "sha256": "a3f289945769cc0a10dab914e6d9ee152f2f8e68cb96a2853c8afca1a0330086",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-small-seed0/metrics.json",
+      "bytes": 58627,
+      "sha256": "5e6af12e9b8b35b72cc8e4bca68c6b31bcd2f69301daee20326c3ced67e9473a",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-tiny-seed0/causal.json",
+      "bytes": 54299,
+      "sha256": "705611cc628c466278e95d4f0691efcc8ac4eb06227a90bd788acc208f1daf5a",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-tiny-seed0/lineage.json",
+      "bytes": 4034,
+      "sha256": "3e3ee4c44cf667c7a91d58d9591c2575c482ec03c697212b1efe15f48a10867b",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-tiny-seed0/metrics.json",
+      "bytes": 58533,
+      "sha256": "79319fa556b57ee5bacb6f4ee84cfdfba0f686721e631271baf27a5e96a2f5b5",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-tiny-seed1/causal.json",
+      "bytes": 54504,
+      "sha256": "432335167cf2fd99035e4ee007893abeb0fde94deccdc554b1a226cbc27251ff",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-tiny-seed1/lineage.json",
+      "bytes": 4038,
+      "sha256": "bae604fd06e96780fb9f164bdb4c0900260e3e90dd559c3cdc780454bf70ee9a",
+      "matches_original_source_file": false
+    },
+    {
+      "path": "inputs/fresh-tiny-seed1/metrics.json",
+      "bytes": 58500,
+      "sha256": "cdf84df1e01c81cc6b653018a5e267acdafa0bf3d643827a7019185a802c868a",
+      "matches_original_source_file": false
+    }
+  ],
+  "qualification": "Byte identity only; new-to-this-audit evidence is not a claim of new publication date."
+}

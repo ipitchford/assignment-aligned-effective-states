@@ -1,0 +1,532 @@
+{
+  "seed": 17,
+  "method": "native8_affine_minimax",
+  "state_bits": 8,
+  "pair_bits": 16,
+  "encoder_nonzero_weights": 8,
+  "thresholds": 8,
+  "decoder_coefficients": 90,
+  "coefficient_denominator": 4294967296,
+  "selected": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "outputs": [
+    {
+      "output": 0,
+      "numerical_minimax": 6.043437134847045,
+      "certificate": {
+        "rows": [
+          70,
+          1222
+        ],
+        "weights": [
+          "-1/2",
+          "1/2"
+        ],
+        "lower_bound": "16222728031/2684354560",
+        "lower_bound_float": 6.043437134847045,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -63063159604,
+          66718664644
+        ]
+      },
+      "exact_upper": "129781824251/21474836480",
+      "upper_minus_lower": "3/21474836480"
+    },
+    {
+      "output": 1,
+      "numerical_minimax": 5.022088568098843,
+      "certificate": {
+        "rows": [
+          1204,
+          1217,
+          1255,
+          1846
+        ],
+        "weights": [
+          "-1/4",
+          "-1/4",
+          "1/4",
+          "1/4"
+        ],
+        "lower_bound": "26962132697/5368709120",
+        "lower_bound_float": 5.022088568098843,
+        "response_denominator": 10737418240,
+        "support_size": 4,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -84415158784,
+          -61097101424,
+          28443019444,
+          41741781924
+        ]
+      },
+      "exact_upper": "10784853079/2147483648",
+      "upper_minus_lower": "1/10737418240"
+    },
+    {
+      "output": 2,
+      "numerical_minimax": 8.213476188480854,
+      "certificate": {
+        "rows": [
+          1469,
+          1755
+        ],
+        "weights": [
+          "1/2",
+          "-1/2"
+        ],
+        "lower_bound": "1102394113/134217728",
+        "lower_bound_float": 8.213476188480854,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          77199883420,
+          -99183174660
+        ]
+      },
+      "exact_upper": "88191529041/10737418240",
+      "upper_minus_lower": "1/10737418240"
+    },
+    {
+      "output": 3,
+      "numerical_minimax": 6.342398892715574,
+      "certificate": {
+        "rows": [
+          1374,
+          1464
+        ],
+        "weights": [
+          "-1/2",
+          "1/2"
+        ],
+        "lower_bound": "17025247389/2684354560",
+        "lower_bound_float": 6.342398892715574,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -54187405636,
+          82014573476
+        ]
+      },
+      "exact_upper": "17025247389/2684354560",
+      "upper_minus_lower": "0"
+    },
+    {
+      "output": 4,
+      "numerical_minimax": 5.7892519751563665,
+      "certificate": {
+        "rows": [
+          1694,
+          1880
+        ],
+        "weights": [
+          "-1/2",
+          "1/2"
+        ],
+        "lower_bound": "31080809877/5368709120",
+        "lower_bound_float": 5.7892519751563665,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -61161237180,
+          63162002328
+        ]
+      },
+      "exact_upper": "124323239511/21474836480",
+      "upper_minus_lower": "3/21474836480"
+    },
+    {
+      "output": 5,
+      "numerical_minimax": 5.493598079681396,
+      "certificate": {
+        "rows": [
+          1374,
+          1789
+        ],
+        "weights": [
+          "-1/2",
+          "1/2"
+        ],
+        "lower_bound": "57604551/10485760",
+        "lower_bound_float": 5.493598079681396,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -59489643516,
+          58484476932
+        ]
+      },
+      "exact_upper": "117974120449/21474836480",
+      "upper_minus_lower": "1/21474836480"
+    },
+    {
+      "output": 6,
+      "numerical_minimax": 4.589833617210388,
+      "certificate": {
+        "rows": [
+          1133,
+          1152
+        ],
+        "weights": [
+          "-1/2",
+          "1/2"
+        ],
+        "lower_bound": "38502315/8388608",
+        "lower_bound_float": 4.589833617210388,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -61638420320,
+          36927506080
+        ]
+      },
+      "exact_upper": "19713185281/4294967296",
+      "upper_minus_lower": "1/4294967296"
+    },
+    {
+      "output": 7,
+      "numerical_minimax": 4.680824157036842,
+      "certificate": {
+        "rows": [
+          1356,
+          1739
+        ],
+        "weights": [
+          "-1/2",
+          "1/2"
+        ],
+        "lower_bound": "25129983341/5368709120",
+        "lower_bound_float": 4.680824157036841,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -51072113708,
+          49447819656
+        ]
+      },
+      "exact_upper": "12564991671/2684354560",
+      "upper_minus_lower": "1/5368709120"
+    },
+    {
+      "output": 8,
+      "numerical_minimax": 5.444618109613657,
+      "certificate": {
+        "rows": [
+          1381,
+          1479
+        ],
+        "weights": [
+          "-1/2",
+          "1/2"
+        ],
+        "lower_bound": "1461528545/268435456",
+        "lower_bound_float": 5.444618109613657,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          -62507800632,
+          54414482968
+        ]
+      },
+      "exact_upper": "116922283601/21474836480",
+      "upper_minus_lower": "1/21474836480"
+    },
+    {
+      "output": 9,
+      "numerical_minimax": 8.0103300800547,
+      "certificate": {
+        "rows": [
+          200,
+          1469
+        ],
+        "weights": [
+          "1/2",
+          "-1/2"
+        ],
+        "lower_bound": "8601026431/1073741824",
+        "lower_bound_float": 8.0103300800547,
+        "response_denominator": 10737418240,
+        "support_size": 2,
+        "exact_design_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "exact_response_numerators": [
+          72666377320,
+          -99354151300
+        ]
+      },
+      "exact_upper": "172020528621/21474836480",
+      "upper_minus_lower": "1/21474836480"
+    }
+  ],
+  "joint_lower": "1102394113/134217728",
+  "joint_upper": "88191529041/10737418240"
+}

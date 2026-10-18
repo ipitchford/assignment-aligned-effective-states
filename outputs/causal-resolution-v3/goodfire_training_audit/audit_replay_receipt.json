@@ -1,0 +1,1 @@
+{"matches_saved_audit": true, "internal_checks_pass": true, "counts": {"runs": 3, "fixed_curve_rows": 144, "ablation_rows": 255, "candidate_control_field_comparisons": 120, "checks": 206}, "audit_sha256": "760dffcde994aa2d199acc4e55eaffc980b5d3d2ecbc7f4eea569619e132e124"}

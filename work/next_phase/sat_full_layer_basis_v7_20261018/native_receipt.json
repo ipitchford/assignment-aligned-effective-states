@@ -1,0 +1,488 @@
+{
+  "bank_sha256": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+  "batch_calls": 29,
+  "batch_size": 256,
+  "code_sha256": {
+    "analyze.py": "77cebcac2f9687287828937214411103873822b3afac9f40cb305a4900e5ec7e",
+    "native.py": "f999b25198c4d60b5d698c4bef4ff68f048c166c55ef3e8003c4c5846abc5027",
+    "preflight.json": "35505adc4ed75202757d98d64fae4fe7a7210dc3a1a5754b9a1d13aa5c9d6a65",
+    "preflight.py": "b50fb7ccb24677611e349c43c0a7f69c287e303e97d8fb74186ee881102de416",
+    "protocol.md": "caa3cf9a18a28254243b3942acb8a507b2fc9755facac01236c10e3fd244216c",
+    "protocol.py": "1b15df4f1a2519f945cfc5047ce5ac741bba7ca50978c79eb4e0a5cbd71e3b71",
+    "runtime_bindings.md": "27ee46b81c0705d2f9a0817b49c28fe70e1f93d73e9c919c016602ec337b6a92",
+    "selfcheck.json": "4000f0f1b411eece574ae8e127380bc2b72f105b7509bacc0ea8ce2605db0878",
+    "selfcheck.py": "5907babbb42330255736e4acc0928914525420355bd334290ab79da82087cdbf"
+  },
+  "environment": {
+    "einops": "0.8.1",
+    "numpy": "1.26.4",
+    "python": "3.11.14",
+    "torch": "2.1.2"
+  },
+  "freeze_sha256": "4662155b6d3e4d73a6a68a312bb1d1c402fec2a17aa691fee5882af642d9b8fb",
+  "host_fingerprint": {
+    "machine": "arm64",
+    "node": "Admins-Mac-mini.local",
+    "processor": "arm",
+    "torch_config_sha256": "34394c67c950ca9585d92f1aa7954ba28d61ed463002565e2d28363e24a949b4",
+    "torch_cpu_capability": "NO AVX"
+  },
+  "input_forwards": 7252,
+  "max_logit_reconstruction_error": 2.4710234598046554e-05,
+  "max_residual_reconstruction_error": 9.092747372818621e-07,
+  "model": {
+    "checkpoint_epoch": 900,
+    "checkpoint_keys": [
+      "epoch",
+      "model",
+      "test_loss",
+      "train_loss"
+    ],
+    "checkpoint_sha256": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d",
+    "device": "cpu",
+    "dtype": "torch.float32",
+    "model_source_sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+    "original_class_ast_sha256": {
+      "Attention": "cfbc6f8fb839f1e58e4593a7430d81ac64cc1fe103dc915522327d2ec9dbbf85",
+      "Config": "b20e246383b5ea150bf4c859fed66fee6f4a825a7ccba86ec4b0f90dc57a0111",
+      "Embed": "1a3c2085ea62c8663b134808585fb6c22e69787653ccca1d2bc5860b96835767",
+      "HookPoint": "099d7168c7c37d65b6f2ad57abe74c5e777f5734a4e784cf53b18fa57bdf0e62",
+      "LayerNorm": "241aaecc0868e84d78b52e16919c3123c584642867b74479c2ffacc8e621d6bf",
+      "MLP": "3c09371bfc4a32eb9797a6eef3c0b058c39e742023892f9194c985daa23f101a",
+      "PosEmbed": "8311b851a54f81f9c342b91228ce97c5130327e1fb915759719dd36e1d5989c0",
+      "Transformer": "f6e76bc317c2df9da208335e8692df4a5ce999bbeb0f08b19e7b91b37719e4a8",
+      "TransformerBlock": "450cfea5b49ec212888403c6f462ec16a2817a1517808d9b9315fb6ff7af2947",
+      "TransformerBlockNoMLP": "f616edde654b37903bf55b1d2e87ca6fefd54115fb2f2621737ebebd25afe473",
+      "Unembed": "1d209cf547e5fc2a156b4e1d4d284f723265906cc512a1436d7250ef6c363ea8"
+    },
+    "parameter_count": 403840,
+    "state_entries": 21,
+    "strict_state_load": true,
+    "threads": 2
+  },
+  "output_sha256": "94a27ab24bd57baabf2ae42c8b388842df94e97c41420d1a2822e2a1ba7958f6",
+  "preflight": {
+    "control_positive_counts": [
+      1652,
+      1730,
+      1559,
+      1603,
+      1589,
+      1723,
+      1558,
+      1606,
+      1639,
+      1602,
+      1555,
+      1556,
+      1639,
+      1600,
+      1581,
+      1515,
+      1507,
+      1701,
+      1747,
+      1674,
+      1584,
+      1548,
+      1695,
+      1768,
+      1725,
+      1516,
+      1755,
+      1743,
+      1502,
+      1679,
+      1734,
+      1575,
+      1636,
+      1519,
+      1708,
+      1632,
+      1683,
+      1581,
+      1637,
+      1547,
+      5799,
+      2900,
+      2899
+    ],
+    "positive_counts_full": [
+      521,
+      526,
+      472,
+      482,
+      261,
+      345,
+      315,
+      462,
+      302,
+      423,
+      293,
+      265,
+      272,
+      256,
+      387,
+      313,
+      491,
+      527,
+      369,
+      532,
+      299,
+      464,
+      349,
+      497,
+      330,
+      483,
+      342,
+      486,
+      426,
+      335,
+      463,
+      277
+    ],
+    "positive_counts_sat_only": [
+      521,
+      526,
+      472,
+      482,
+      261,
+      345,
+      315,
+      462,
+      302,
+      423,
+      293,
+      265,
+      272,
+      256,
+      387,
+      313,
+      491,
+      527,
+      369,
+      532,
+      299,
+      464,
+      349,
+      497,
+      330,
+      483,
+      342,
+      486,
+      426,
+      335,
+      463,
+      277
+    ],
+    "prior_batch_partition": "hash-pinned native.py uses contiguous unique-id-ordered blocks range(0,N,256)",
+    "prior_batch_size": 256,
+    "prior_cache": {
+      "baseline_correct": 7215,
+      "column_identity": "hash-pinned prior native.py extracts post/pre columns in UNITS order",
+      "keys_checked": [
+        "logits",
+        "post",
+        "pre",
+        "unique_ids"
+      ],
+      "max_abs_logits": 65.67488861083984,
+      "max_abs_post": 4.1516594886779785,
+      "max_abs_pre": 10.209452629089355,
+      "min_abs_post_minus_threshold": 0.00030177831649780273,
+      "min_top_two_logit_gap": 0.009268520399928093,
+      "replay_unique_ids": [
+        4864,
+        2295,
+        2332,
+        896,
+        2186,
+        2575,
+        2444,
+        6530
+      ]
+    },
+    "prior_threads": 2,
+    "rows": 7252,
+    "sat_rows": 5799,
+    "scope": "bank semantics, assignment convention, resample feasibility and prior execution compatibility; zero new model access",
+    "status": "PASS",
+    "stratum_sizes_by_unit": {
+      "10": [
+        134,
+        357,
+        1453,
+        2766,
+        2542
+      ],
+      "185": [
+        126,
+        356,
+        1453,
+        2774,
+        2543
+      ],
+      "224": [
+        141,
+        385,
+        1453,
+        2759,
+        2514
+      ],
+      "245": [
+        121,
+        302,
+        1453,
+        2779,
+        2597
+      ],
+      "261": [
+        137,
+        349,
+        1453,
+        2763,
+        2550
+      ],
+      "291": [
+        142,
+        355,
+        1453,
+        2758,
+        2544
+      ],
+      "317": [
+        143,
+        384,
+        1453,
+        2757,
+        2515
+      ],
+      "326": [
+        154,
+        309,
+        1453,
+        2746,
+        2590
+      ],
+      "380": [
+        130,
+        402,
+        1453,
+        2770,
+        2497
+      ],
+      "41": [
+        143,
+        378,
+        1453,
+        2757,
+        2521
+      ],
+      "411": [
+        135,
+        348,
+        1453,
+        2765,
+        2551
+      ],
+      "416": [
+        136,
+        290,
+        1453,
+        2764,
+        2609
+      ],
+      "492": [
+        129,
+        335,
+        1453,
+        2771,
+        2564
+      ],
+      "495": [
+        148,
+        324,
+        1453,
+        2752,
+        2575
+      ],
+      "55": [
+        136,
+        290,
+        1453,
+        2764,
+        2609
+      ],
+      "77": [
+        127,
+        335,
+        1453,
+        2773,
+        2564
+      ],
+      "81": [
+        127,
+        260,
+        1453,
+        2773,
+        2639
+      ]
+    },
+    "uncovered_overlap": {
+      "10": {
+        "also_covered_solution": 204,
+        "exclusive_positives": 89,
+        "exclusive_sat_negatives": 918,
+        "positives": 293,
+        "sole_positive": 40
+      },
+      "11": {
+        "also_covered_solution": 194,
+        "exclusive_positives": 71,
+        "exclusive_sat_negatives": 936,
+        "positives": 265,
+        "sole_positive": 43
+      },
+      "12": {
+        "also_covered_solution": 182,
+        "exclusive_positives": 90,
+        "exclusive_sat_negatives": 917,
+        "positives": 272,
+        "sole_positive": 45
+      },
+      "13": {
+        "also_covered_solution": 155,
+        "exclusive_positives": 101,
+        "exclusive_sat_negatives": 906,
+        "positives": 256,
+        "sole_positive": 35
+      },
+      "15": {
+        "also_covered_solution": 192,
+        "exclusive_positives": 121,
+        "exclusive_sat_negatives": 886,
+        "positives": 313,
+        "sole_positive": 69
+      },
+      "18": {
+        "also_covered_solution": 279,
+        "exclusive_positives": 90,
+        "exclusive_sat_negatives": 917,
+        "positives": 369,
+        "sole_positive": 51
+      },
+      "20": {
+        "also_covered_solution": 231,
+        "exclusive_positives": 68,
+        "exclusive_sat_negatives": 939,
+        "positives": 299,
+        "sole_positive": 35
+      },
+      "22": {
+        "also_covered_solution": 248,
+        "exclusive_positives": 101,
+        "exclusive_sat_negatives": 906,
+        "positives": 349,
+        "sole_positive": 53
+      },
+      "24": {
+        "also_covered_solution": 245,
+        "exclusive_positives": 85,
+        "exclusive_sat_negatives": 922,
+        "positives": 330,
+        "sole_positive": 48
+      },
+      "26": {
+        "also_covered_solution": 247,
+        "exclusive_positives": 95,
+        "exclusive_sat_negatives": 912,
+        "positives": 342,
+        "sole_positive": 44
+      },
+      "29": {
+        "also_covered_solution": 250,
+        "exclusive_positives": 85,
+        "exclusive_sat_negatives": 922,
+        "positives": 335,
+        "sole_positive": 55
+      },
+      "31": {
+        "also_covered_solution": 215,
+        "exclusive_positives": 62,
+        "exclusive_sat_negatives": 945,
+        "positives": 277,
+        "sole_positive": 29
+      },
+      "4": {
+        "also_covered_solution": 192,
+        "exclusive_positives": 69,
+        "exclusive_sat_negatives": 938,
+        "positives": 261,
+        "sole_positive": 28
+      },
+      "5": {
+        "also_covered_solution": 259,
+        "exclusive_positives": 86,
+        "exclusive_sat_negatives": 921,
+        "positives": 345,
+        "sole_positive": 52
+      },
+      "6": {
+        "also_covered_solution": 242,
+        "exclusive_positives": 73,
+        "exclusive_sat_negatives": 934,
+        "positives": 315,
+        "sole_positive": 43
+      },
+      "8": {
+        "also_covered_solution": 205,
+        "exclusive_positives": 97,
+        "exclusive_sat_negatives": 910,
+        "positives": 302,
+        "sole_positive": 57
+      }
+    },
+    "unsat_rows": 1453
+  },
+  "prior_native_sha256": "20c3a3dbb0c5a161d5a53e12542e3ae2da88f55ca5df78d15305fa2de3a39fc6",
+  "prior_or_replay_comparison": {
+    "allclose_atol": 1e-06,
+    "allclose_by_array": {
+      "logits": true,
+      "post": true,
+      "pre": true
+    },
+    "allclose_rtol": 1e-06,
+    "bitwise_equal": true,
+    "max_logit_difference": 0.0,
+    "max_post_difference": 0.0,
+    "max_pre_difference": 0.0,
+    "same_task_argmax": true,
+    "same_threshold_events": true
+  },
+  "scope": "unchanged checkpoint; complete final MLP state and exact linear readout",
+  "selected_output_rows": 7252,
+  "selfcheck_sha256": "4000f0f1b411eece574ae8e127380bc2b72f105b7509bacc0ea8ce2605db0878",
+  "source_sha256": {
+    "work/next_phase/sat_all17_validation_v3_20261018/analysis.json": "d81470a4b98a0b04e5dddf0bff7d5b445955ff86346639b917ce9514d99ac2bd",
+    "work/next_phase/sat_all17_validation_v3_20261018/bank_verification.json": "32a680c6ab37d30fb191a13874c97b34758f29171de21fe1b45727134d0f7940",
+    "work/next_phase/sat_all17_validation_v3_20261018/construction.json": "2257309670bd6523f1d5abcaef0a270b9f6b104fbc11d7250a4db48bc4190c0e",
+    "work/next_phase/sat_all17_validation_v3_20261018/native.py": "0b2358f9baf91f7e9e677d1509b5d7d26c24b9de7b45b643fc2b3601eaaebea9",
+    "work/next_phase/sat_all17_validation_v3_20261018/native_outputs.npz": "20c3a3dbb0c5a161d5a53e12542e3ae2da88f55ca5df78d15305fa2de3a39fc6",
+    "work/next_phase/sat_all17_validation_v3_20261018/native_receipt.json": "97ef289558183bf50e3127d7a733d99ea4f9bbd8b186ebacbca73579cf085915",
+    "work/next_phase/sat_all17_validation_v3_20261018/replay_receipt.json": "3ed7caf368e6ade1d6fe9c0e59ef827e4372874e81a92ff1e8432939ced3c6ab",
+    "work/next_phase/sat_all17_validation_v3_20261018/selected_bank.npz": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+    "work/sat_case/runtime.py": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230",
+    "work/sat_case/upstream/helpers.py": "ece43db7317fa8e3ad6cb6fb40bb1ba9f98ecd9191cbec6689b0bc67c0a268fe",
+    "work/sat_case/upstream/interpretation.py": "b8f87ceaecb0c2449f3f626983ec028f2d3661c394d08f7d96641f4e06ba2177",
+    "work/sat_case/upstream/model.py": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+    "work/sat_case/upstream/models/layers_2_heads_1_4_1M/900.pth": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d"
+  },
+  "stage": "initial",
+  "status": "PASS",
+  "weight_sha256": {
+    "W_U": "48ae451c67d40bf9cd4017480e54c6496d24f52cf1008a10eab6cb6cc04e3520",
+    "W_out": "c5c3bf40358d19ac65d4791b23a129a255812f47b51903aea8713a438ae9d4c8",
+    "b_out": "f300115e3eb20f545bbe22269d855e58d65ec1ba444fe21eda22f60c61fc7eb4"
+  }
+}

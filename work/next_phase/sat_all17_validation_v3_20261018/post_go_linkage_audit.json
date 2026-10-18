@@ -1,0 +1,23 @@
+{
+  "analysis_sha256": "d81470a4b98a0b04e5dddf0bff7d5b445955ff86346639b917ce9514d99ac2bd",
+  "base_rows": 2560,
+  "check_count": 9,
+  "checks": [
+    "base proposal ids link exactly to analysed unique-token rows",
+    "all transform rows link exactly to independently re-encoded unique-token rows",
+    "unique-token bank is exactly the selected base/transformed union",
+    "stored unit and assignment inventories equal frozen constants",
+    "every historical-ledger row decodes under the frozen grammar",
+    "candidate artifact is hash-linked through construction and verification",
+    "native and replay output row identities are exact",
+    "token and assignment conventions are directly asserted in bound sources",
+    "all stage receipts match the externally anchored reviewed packet"
+  ],
+  "freeze_sha256": "77ac6f5f3c41abce5c90e538ad9a6856e7869d872c590d713f3b684eae177b80",
+  "historical_rows_decoded": 9469,
+  "scope": "post-GO linkage and source-convention audit; protected outcomes and gates unchanged",
+  "selected_bank_sha256": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+  "status": "PASS",
+  "transform_rows": 4720,
+  "unique_tokens": 7252
+}

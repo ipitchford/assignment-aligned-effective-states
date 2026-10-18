@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "manifest_files_checked": 0,
+  "source": "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/outputs/causal-resolution-v3",
+  "copy": "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Codex/2026-10-15/https-already-clean-goodfire-com-https/work/checkpoint-replay-02",
+  "checks": [
+    {
+      "command": [
+        "certificates/verify_exact.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-0.log"
+    },
+    {
+      "command": [
+        "nonlinear_certificates/verify_exact.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-1.log"
+    },
+    {
+      "command": [
+        "src/replay_discovery.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-2.log"
+    },
+    {
+      "command": [
+        "application/verify.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-3.log"
+    },
+    {
+      "command": [
+        "nonlinear_certificates/replay_model.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-4.log"
+    },
+    {
+      "command": [
+        "matched_controls/verify.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-5.log"
+    },
+    {
+      "command": [
+        "theory/precision_optimality.py",
+        "--verify",
+        "theory/results/precision_optimality_sensitivity.json"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-6.log"
+    },
+    {
+      "command": [
+        "prospective_theory/verify.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-7.log"
+    },
+    {
+      "command": [
+        "prospective_application/verify.py"
+      ],
+      "returncode": 0,
+      "log": "provenance/fresh-replay/check-8.log"
+    }
+  ],
+  "scope": "fresh-location computational replay; no retraining or external scientific replication"
+}

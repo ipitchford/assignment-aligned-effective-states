@@ -1,0 +1,64 @@
+{
+  "adapter_sha256": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230",
+  "all_output_entries_finite": true,
+  "checkpoint_epoch": 900,
+  "checkpoint_keys": [
+    "epoch",
+    "model",
+    "test_loss",
+    "train_loss"
+  ],
+  "checkpoint_sha256": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d",
+  "dependencies": {
+    "einops": "0.8.1",
+    "numpy": "1.26.4",
+    "torch": "2.1.2"
+  },
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "dummy_input": "one 41-token all-zero row, outside formula grammar",
+  "inspected_hook_shapes": {
+    "blocks.0.hook_resid_post": [
+      1,
+      41,
+      128
+    ],
+    "blocks.1.hook_resid_mid": [
+      1,
+      41,
+      128
+    ],
+    "blocks.1.mlp.hook_post": [
+      1,
+      41,
+      512
+    ]
+  },
+  "machine": "arm64",
+  "model_source_sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+  "original_class_ast_sha256": {
+    "Attention": "cfbc6f8fb839f1e58e4593a7430d81ac64cc1fe103dc915522327d2ec9dbbf85",
+    "Config": "b20e246383b5ea150bf4c859fed66fee6f4a825a7ccba86ec4b0f90dc57a0111",
+    "Embed": "1a3c2085ea62c8663b134808585fb6c22e69787653ccca1d2bc5860b96835767",
+    "HookPoint": "099d7168c7c37d65b6f2ad57abe74c5e777f5734a4e784cf53b18fa57bdf0e62",
+    "LayerNorm": "241aaecc0868e84d78b52e16919c3123c584642867b74479c2ffacc8e621d6bf",
+    "MLP": "3c09371bfc4a32eb9797a6eef3c0b058c39e742023892f9194c985daa23f101a",
+    "PosEmbed": "8311b851a54f81f9c342b91228ce97c5130327e1fb915759719dd36e1d5989c0",
+    "Transformer": "f6e76bc317c2df9da208335e8692df4a5ce999bbeb0f08b19e7b91b37719e4a8",
+    "TransformerBlock": "450cfea5b49ec212888403c6f462ec16a2817a1517808d9b9315fb6ff7af2947",
+    "TransformerBlockNoMLP": "f616edde654b37903bf55b1d2e87ca6fefd54115fb2f2621737ebebd25afe473",
+    "Unembed": "1d209cf547e5fc2a156b4e1d4d284f723265906cc512a1436d7250ef6c363ea8"
+  },
+  "output_shape": [
+    1,
+    41,
+    16
+  ],
+  "parameter_count": 403840,
+  "python": "3.11.14",
+  "scope": "strict load and tensor-shape-only smoke; no valid formula or causal experiment",
+  "state_entries": 21,
+  "status": "PASS",
+  "strict_state_load": true,
+  "threads": 2
+}

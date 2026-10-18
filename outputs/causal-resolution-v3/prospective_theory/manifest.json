@@ -1,0 +1,11 @@
+{
+  "status": "corrected-after-round2-review",
+  "files": {
+    "audit.py": "4f7ed5f2dd4ac1e585ec1b2495c190ca622b6962df7beae9f96cc9dfbe3e6e38",
+    "verify.py": "d5bd9008ea63d8e1a82e8991509bfc3228f9b5b6b67936eadd0a264e62dec53d",
+    "results.json": "7cc67e584c2e33614a3b2dcf76e639bde286db2f4fc21494f0e3742086d6f9cf",
+    "verification.json": "61c42077c47710ce706c3e5ce290e259e63f04b4db62288c0815341fa40bc9eb",
+    "report.md": "4c0ee87593b522248fa42cea641f0037eeb4eda01bc98d1ebc9f70bb6f916355"
+  },
+  "previous_manifest_sha256": "d9c0b770732fe85018ed6de8b37bfb5a4ea5cb434332a2626489ef7312df3b7d"
+}

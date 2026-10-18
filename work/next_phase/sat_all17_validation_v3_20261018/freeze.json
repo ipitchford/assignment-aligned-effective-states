@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-18T05:26:26.679173+00:00",
+  "files": [
+    {
+      "bytes": 7822,
+      "path": "protocol.md",
+      "sha256": "0d1ca217703702983975fbaa7f0da4fbf7fc2c91202ef5c9a8e9e9ef9a11285e"
+    },
+    {
+      "bytes": 7264,
+      "path": "protocol.py",
+      "sha256": "fc145e900e0f63da0c99727bc61f912513fd965dff03eeb642715d93b3f6d4a8"
+    },
+    {
+      "bytes": 10985,
+      "path": "construct.py",
+      "sha256": "bf2386e7e2a9b4b163b572971675eb4286da51d4c30100dd26d36b1d80647786"
+    },
+    {
+      "bytes": 13530,
+      "path": "verify_bank.py",
+      "sha256": "7b25a66e7bb71969d719141204a4ccecae30f03c71655a081746a71d4ac25b4e"
+    },
+    {
+      "bytes": 8301,
+      "path": "native.py",
+      "sha256": "0b2358f9baf91f7e9e677d1509b5d7d26c24b9de7b45b643fc2b3601eaaebea9"
+    },
+    {
+      "bytes": 17719,
+      "path": "analyze.py",
+      "sha256": "f28a948bcfc99357274055b895722229c7fa46a929b3e6d8920fdc8c23811104"
+    },
+    {
+      "bytes": 2500,
+      "path": "selfcheck.py",
+      "sha256": "71b6b4384c98b123adb335100bea7a59d724ea555328bbf0c512554acf4a6985"
+    },
+    {
+      "bytes": 136,
+      "path": "selfcheck.json",
+      "sha256": "fe19a06706f7d7065f4cde21372eb7171cc56867aa080601d289db03cd120e59"
+    },
+    {
+      "bytes": 2915,
+      "path": "pilot_common.py",
+      "sha256": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61"
+    },
+    {
+      "bytes": 5455,
+      "path": "runtime_source_snapshot.py",
+      "sha256": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230"
+    },
+    {
+      "bytes": 1434,
+      "path": "source_bindings.md",
+      "sha256": "eba838ebe1a79cdd41c756adae4e39271b6baa9d2f8cc202274cebef367f260b"
+    }
+  ],
+  "schema": "sat-all17-static-freeze-v3",
+  "scope": "pre-construction static packet; zero candidate sampling and zero model access"
+}

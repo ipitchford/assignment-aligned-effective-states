@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-15T21:39:54Z",
+  "status": "POST-TEST EXPLORATORY control; prior test outcomes already known to the research team and reviewer. This new procedural freeze is not pristine validation or preregistration.",
+  "purpose": "Separate added-bit effects and the selection heuristic from matched affine minimax response decoding.",
+  "inputs": {
+    "certificates/affine_audit.py": "17ebaa8531e867cd28d6eb4e26617ab7872151c8d7467e3e19e6e424cfd5ae13",
+    "application/seed-17/discovery_bank.npz": "4a3bf2dbf5ab2e979f6b5453816bc50de5073dd1e65e305fc91ac0dfe230a53b",
+    "application/seed-17/report-native-12.npz": "868503d8a8145d007e9792244c1b69c15e65b549e71208a0cda165b13a1519fe",
+    "certificates/seed-17/selected_decoder.npz": "7d416180e2a8d43ab3dd43c8b0cc1b925f764c8c9b8e3d40558d1e0251b55db7",
+    "application/seed-29/discovery_bank.npz": "104276d716079ac01353e821bae839a0db6169f490537c18a372ed09c4e9ae42",
+    "application/seed-29/report-native-12.npz": "01b72fdfa49ef846dc0ec9818e4ea2b5cf0de2712922a20e8b396bf7cbfc06ac",
+    "certificates/seed-29/selected_decoder.npz": "d4bcd0cbd7d824c3c3d64553c0fd1d3718749033aa115e93e49c8c195ad43118",
+    "application/seed-43/discovery_bank.npz": "27d8ab6180fcb68e46855b396697a4cdaec810c5f94fb66e5cf71bd40c050b16",
+    "application/seed-43/report-native-12.npz": "35977254a95295738f598f41ee4a7c62ae684c512a97bb1cf6471faa947de974",
+    "certificates/seed-43/selected_decoder.npz": "8cf40bfa2d164f52433091a815d1359663cafd3b4222a95d83ed99f9b50ae444"
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "methods": [
+    "native8_affine_minimax",
+    "native12_affine_minimax",
+    "contrast12_affine_minimax",
+    "greedy_minimax12"
+  ],
+  "feature_sets": "Native12 uses the original median-predicate selection; contrast12 uses the originally selected contrast-guided quartile set; greedy starts at original native8 and adds four columns from the same native quartile candidate library.",
+  "greedy": "Every remaining candidate is evaluated at each of four rounds by all ten independent coordinate minimax LPs; select lowest maximum objective rounded to 9 decimal places, then lowest original candidate index. No test data used. This is numerical greedy selection, not exact minimum-cost repair or an exact proof of greedy-step optimality.",
+  "search_speed": "Duplicate design rows replaced by scalar response extrema; mathematically equivalent to the full LP. Pilot and final checks compare compressed/full objectives.",
+  "final_decoder": "Original affine_audit.minimax_fit with intercept, one independent coefficient vector per output; all final sets refitted by the same uncompressed solver implementation; nearest integer coefficient numerator over 2^32.",
+  "certificates": "For every final method/output, rational lower witness and exact residual upper for dyadic coefficient vector; shared retained design and integer response arrays.",
+  "test": "Existing seen-strength, unseen-strength and natural-pair banks; no selection from these outcomes. All final decoder arrays frozen before this script evaluates them.",
+  "resources": {
+    "processes": 1,
+    "blas_threads": 1,
+    "highs_threads": "single global solver thread requested via OMP_NUM_THREADS=1 and HiGHS threads=1 in compressed search"
+  },
+  "environment": {
+    "python": "3.11.14 (main, Feb 12 2026, 00:41:29) [Clang 21.1.4 ]",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "platform": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "script_sha256": "97b6688d78106a355bf4811623a926a8b8cd2724da6bdca36f34eb30ad50b37d"
+}

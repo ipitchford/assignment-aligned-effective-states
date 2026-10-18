@@ -1,0 +1,215 @@
+{
+  "allowed_clause_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "bootstrap_seed": 2026101605,
+  "contract_sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c",
+  "files": [
+    {
+      "bytes": 5941,
+      "path": "../next_phase/sat_analysis_code_review.md",
+      "sha256": "6b6e96b19bc7046efd680c22caa04a670c111d2b4921e1c71302ee5fd04ea2b0"
+    },
+    {
+      "bytes": 13494,
+      "path": "../next_phase/sat_invariance_admission.md",
+      "sha256": "4e5447713dffffb9c0379b632a406b183b403c25943667f4fdd35ec38fb896d2"
+    },
+    {
+      "bytes": 14294,
+      "path": "../next_phase/sat_renaming_adversarial_admission.md",
+      "sha256": "901742d899a60eb4ffb91af01627311e72fc021646a61ff81d27757b6ee204a3"
+    },
+    {
+      "bytes": 21005,
+      "path": "../next_phase/sat_renaming_design_draft.md",
+      "sha256": "cbf4cbd011fb1664b11493c405087611c8dd683cf274f22ec81ec35a5fcbfac3"
+    },
+    {
+      "bytes": 28661,
+      "path": "../next_phase/sat_renaming_execution_contract.md",
+      "sha256": "4b9dc2df3002dbbe56cbcc5d38c119ace801f16e2f3bd018d345deb4eda7af8c"
+    },
+    {
+      "bytes": 3261,
+      "path": "../next_phase/sat_renaming_final_contract_check.md",
+      "sha256": "8f339ac0254e968aa6673a0fd17fd8de8d8149744d785c238dd735a07f9b72f3"
+    },
+    {
+      "bytes": 16906,
+      "path": "../next_phase/sat_semantic_theory.md",
+      "sha256": "e9c4f571ada0a9568b5fd0e455f2f2696869ce97739e20d058420dd3b1400566"
+    },
+    {
+      "bytes": 6636,
+      "path": "../sat_case/candidate_logits.npz",
+      "sha256": "adad7106407676edc221165f1039c0477aca65ae1cd082c3bff08fb281da149d"
+    },
+    {
+      "bytes": 505675,
+      "path": "../sat_case/pilot_bank.npz",
+      "sha256": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b"
+    },
+    {
+      "bytes": 2915,
+      "path": "../sat_case/pilot_common.py",
+      "sha256": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61"
+    },
+    {
+      "bytes": 3776,
+      "path": "../sat_case/primary_witness.npz",
+      "sha256": "cdc4ed22391542e406edb7fbe99f58da207cba3b69701b32804658753d83a152"
+    },
+    {
+      "bytes": 5455,
+      "path": "../sat_case/runtime.py",
+      "sha256": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230"
+    },
+    {
+      "bytes": 15640,
+      "path": "../sat_case/selected_decision_check.npz",
+      "sha256": "7b00b522827574de5e604e6e650ad0ef8edf81e42b32a5ca7115c297edd9b942"
+    },
+    {
+      "bytes": 32356,
+      "path": "../sat_case/upstream/model.py",
+      "sha256": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea"
+    },
+    {
+      "bytes": 1635210,
+      "path": "../sat_case/upstream/models/layers_2_heads_1_4_1M/900.pth",
+      "sha256": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d"
+    },
+    {
+      "bytes": 116494,
+      "path": "../sat_mechanism/query_tokens.npz",
+      "sha256": "208fe4a7e5ead1c007fdff57424ac7c5838c2f0c5be4272f95c8b49ad2686b62"
+    },
+    {
+      "bytes": 34195,
+      "path": "../sat_mechanism/source_mapping.json",
+      "sha256": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d"
+    },
+    {
+      "bytes": 6415,
+      "path": "README.md",
+      "sha256": "cdd6cd5a26e437d5b8cab5748497dc1cc832d50ba01e8a8f6b3ee417e9044d0f"
+    },
+    {
+      "bytes": 26014,
+      "path": "analyze.py",
+      "sha256": "32eb8d671b735ead29e9aa2f6bc95917617ab09d3e265cf03e1c06639b663df5"
+    },
+    {
+      "bytes": 13880,
+      "path": "construct.py",
+      "sha256": "02863eb6614af6aa8d4a850e73969db526c8819ca64f05e22ee4607f1ffc0acd"
+    },
+    {
+      "bytes": 960,
+      "path": "environment.json",
+      "sha256": "ab2ec386fbd40c9b480e927e1dacad612d5cab07a163999a4dd3e4b1f61eec4d"
+    },
+    {
+      "bytes": 8939,
+      "path": "independent_oracle.py",
+      "sha256": "c62c6b13e2b9d4cbd300007eec0de7ebda785442a9ea819d53a6c3d75660c6b2"
+    },
+    {
+      "bytes": 6869,
+      "path": "native.py",
+      "sha256": "a1d9ccd240d6bca8e9e98e2f73587b18ffbf82ddef51606f7cc5be2d4b0ffd95"
+    },
+    {
+      "bytes": 4432,
+      "path": "prepare_freeze.py",
+      "sha256": "357281a6a696c7da96813c00e5e107e07903e03ba686714264fb765069200042"
+    },
+    {
+      "bytes": 2203,
+      "path": "prior_ledger.json",
+      "sha256": "751df96b1598199017be392265c3c06f66934415af51c5ea87f8c2c91b5001ed"
+    },
+    {
+      "bytes": 107684,
+      "path": "prior_ledger_tokens.npz",
+      "sha256": "8fb9d138443bb4d72a0265196343199ccb665c08b34a81737d75e0eb02ee29eb"
+    },
+    {
+      "bytes": 8256,
+      "path": "protocol.py",
+      "sha256": "d33e9a59ca3c7f8df53a0a4c0ade1ff7e6949733aefc2eefd7003855e67b1464"
+    },
+    {
+      "bytes": 13,
+      "path": "requirements-analysis.txt",
+      "sha256": "7242524339a9388141e1383e79b66ac2fd4b82276448eae06b8fa428192ccd1f"
+    },
+    {
+      "bytes": 41,
+      "path": "requirements-native.txt",
+      "sha256": "803cc40106c0fd65b811e738d997d4cd4b3a5267ce4bc0fc1931b56fdcea4f18"
+    },
+    {
+      "bytes": 5576,
+      "path": "run_study.py",
+      "sha256": "9861c7fc39bef7835ecdf3030b6fbada70c3cff6e84708d67ac59a1c6cf961e9"
+    },
+    {
+      "bytes": 571,
+      "path": "selfcheck.json",
+      "sha256": "413c2f76aaa32fdfd07b1b97b1440868c15151d0b4cbd0feb32cd54b0500567b"
+    },
+    {
+      "bytes": 4680,
+      "path": "selfcheck.py",
+      "sha256": "ed91768aa54a84aa828beb2a5d97d6088106100722c750c88f71a794ec4071c8"
+    },
+    {
+      "bytes": 21295,
+      "path": "verify_bank.py",
+      "sha256": "1679d8e8675d17bb775abc6abaed658eb7a90bc510a1534076893ba992694f67"
+    }
+  ],
+  "numpy": "2.4.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.11.14 (main, Feb 12 2026, 00:41:29) [Clang 21.1.4 ]",
+  "sample_seed": 2026101604,
+  "scope": "Complete preconstruction implementation and historical-input ledger. No neural or candidate outputs existed.",
+  "utc": "2026-10-16T00:09:13.091201+00:00"
+}

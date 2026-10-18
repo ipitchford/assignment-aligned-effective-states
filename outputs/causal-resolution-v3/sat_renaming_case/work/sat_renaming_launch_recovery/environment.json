@@ -1,0 +1,23 @@
+{
+  "analysis": {
+    "executable": "/Users/admin/.venvs/gaia-tess-microlensing/bin/python",
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "threads": 1
+  },
+  "native": {
+    "executable_relative": "../sat_case/.venv/bin/python",
+    "python": "3.11.14",
+    "numpy": "1.26.4",
+    "torch": "2.1.2",
+    "einops": "0.8.1",
+    "threads": 2,
+    "device": "cpu",
+    "dtype": "float32"
+  },
+  "platform_observed": "macOS-27.0.1-arm64-arm-64bit",
+  "package_metadata_check": "Distribution metadata and Python versions inspected before freeze; no checkpoint loaded or model inference run.",
+  "bytecode": "PYTHONDONTWRITEBYTECODE=1 and python -B",
+  "numerical_intervals": {"absolute_radius": 0.0001, "relative_radius": 0.00001, "proof_status": "Heuristic sensitivity ranges, not validated rounding-error bounds"},
+  "randomness": {"construction": "NumPy PCG64 seed2026101604", "bootstrap": "NumPy PCG64 seed2026101605", "no_other_scientific_draws": true}
+}

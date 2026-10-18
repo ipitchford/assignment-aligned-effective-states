@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "seed": 20261015,
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "sympy": "1.14.0"
+  },
+  "checks": {
+    "xor_exact_coefficient_budgets": 6,
+    "primal_independent_dual_comparisons": 64,
+    "rationally_reconstructed_exact_witnesses": 51,
+    "largest_retained_witness_support": 7,
+    "bounded_coefficient_primal_dual_comparisons": 32,
+    "greedy_synergy_subsets": 4,
+    "vertex_cover_reduction_subsets": 56,
+    "contrast_cover_vs_exhaustive_instances": 12,
+    "exact_violated_contrast_cuts": 126
+  },
+  "scope": "Constructed implementation controls; not novelty, prevalence, or theorem proof."
+}

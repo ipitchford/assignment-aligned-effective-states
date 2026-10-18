@@ -1,0 +1,222 @@
+[
+  {
+    "path": "README.md",
+    "matches": true
+  },
+  {
+    "path": "data/derived/ablation_all_345.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/ablation_p75.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/ablation_selected_20.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/collision_floor.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/illustrative_tolerance_frontier.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/pca_resolution_controls.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/rank_controls_1000.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/resolution_graph_C5.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/resolution_graph_brackets.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/source_toy_96.csv",
+    "matches": true
+  },
+  {
+    "path": "data/derived/trained_decoder_runs.csv",
+    "matches": true
+  },
+  {
+    "path": "data/source/crushed-3b.json",
+    "matches": true
+  },
+  {
+    "path": "data/source/crushed-last-layer-c13.json",
+    "matches": true
+  },
+  {
+    "path": "data/source/figure-data.json",
+    "matches": true
+  },
+  {
+    "path": "data/source/toy-pca-density.json",
+    "matches": true
+  },
+  {
+    "path": "data/source/weak-ablation.json",
+    "matches": true
+  },
+  {
+    "path": "paper/build.sh",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/ablation_sensitivity.pdf",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/ablation_sensitivity.png",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/ablation_turnover.pdf",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/ablation_turnover.png",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/pca_resolution.pdf",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/pca_resolution.png",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/resolution_brackets.pdf",
+    "matches": true
+  },
+  {
+    "path": "paper/figures/resolution_brackets.png",
+    "matches": true
+  },
+  {
+    "path": "paper/header.tex",
+    "matches": true
+  },
+  {
+    "path": "paper/manuscript.md",
+    "matches": true
+  },
+  {
+    "path": "paper/manuscript.pdf",
+    "matches": true
+  },
+  {
+    "path": "paper/manuscript.tex",
+    "matches": true
+  },
+  {
+    "path": "paper/template.tex",
+    "matches": true
+  },
+  {
+    "path": "protocol/claim_evidence_ledger.csv",
+    "matches": true
+  },
+  {
+    "path": "protocol/study_contract.yaml",
+    "matches": true
+  },
+  {
+    "path": "provenance/input_manifest.json",
+    "matches": true
+  },
+  {
+    "path": "provenance/literature_corpus.json",
+    "matches": true
+  },
+  {
+    "path": "provenance/missingness.csv",
+    "matches": true
+  },
+  {
+    "path": "requirements.txt",
+    "matches": true
+  },
+  {
+    "path": "results/controls.json",
+    "matches": true
+  },
+  {
+    "path": "results/controls.log",
+    "matches": true
+  },
+  {
+    "path": "results/pdf_build_pass1.log",
+    "matches": true
+  },
+  {
+    "path": "results/pdf_build_pass2.log",
+    "matches": true
+  },
+  {
+    "path": "results/pdf_build_pass3.log",
+    "matches": true
+  },
+  {
+    "path": "results/pdf_visual_review.json",
+    "matches": true
+  },
+  {
+    "path": "results/release_validation.json",
+    "matches": true
+  },
+  {
+    "path": "results/release_validation.log",
+    "matches": true
+  },
+  {
+    "path": "results/source_audit.json",
+    "matches": true
+  },
+  {
+    "path": "results/source_audit.log",
+    "matches": true
+  },
+  {
+    "path": "results/trained_decoders.json",
+    "matches": true
+  },
+  {
+    "path": "results/trained_decoders.log",
+    "matches": true
+  },
+  {
+    "path": "review/adversarial_self_review.md",
+    "matches": true
+  },
+  {
+    "path": "src/audit_source.py",
+    "matches": true
+  },
+  {
+    "path": "src/resolution.py",
+    "matches": true
+  },
+  {
+    "path": "src/run_controls.py",
+    "matches": true
+  },
+  {
+    "path": "src/train_decoders.py",
+    "matches": true
+  },
+  {
+    "path": "src/verify_release.py",
+    "matches": true
+  }
+]

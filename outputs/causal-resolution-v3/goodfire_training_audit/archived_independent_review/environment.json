@@ -1,0 +1,10 @@
+{
+  "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "dependencies": "Python standard library only",
+  "full_command": "python3 -B work/goodfire_training_independent_review/recompute.py --audit-dir work/goodfire_training_audit --output work/goodfire_training_independent_review/full_replay",
+  "portable_command": "python3 -B work/goodfire_training_independent_review/recompute.py --audit-dir work/new_supplements_packaging/goodfire_training_audit --output work/goodfire_training_independent_review/portable_replay --numerical-only",
+  "recomputed_outputs_byte_identical": true,
+  "memo_hash_references_checked": 9
+}

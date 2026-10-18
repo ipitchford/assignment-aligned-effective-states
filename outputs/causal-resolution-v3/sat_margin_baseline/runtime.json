@@ -1,0 +1,31 @@
+{
+  "prior_manifests_before": {
+    "sat_case": {
+      "files_verified": 39,
+      "manifest_sha256": "b81f234d4c20185955760ae01ffdfea3239b4c6c1d204666792819b315524e82"
+    },
+    "sat_mechanism": {
+      "files_verified": 42,
+      "manifest_sha256": "6e5a46e1466339ccc08f5ce8b91a5cf5381bf3c99f789e3aa40d145b7f42b181"
+    }
+  },
+  "threadpools": [
+    {
+      "filepath": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "user_api": "openmp",
+      "version": null
+    }
+  ],
+  "versions": {
+    "executable": "/Users/admin/.venvs/gaia-tess-microlensing/bin/python",
+    "numpy": "2.4.6",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python": "3.11.14",
+    "python_full": "3.11.14 (main, Feb 12 2026, 00:41:29) [Clang 21.1.4 ]",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  }
+}

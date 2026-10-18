@@ -1,0 +1,87 @@
+{
+  "frozen_utc": "2026-10-16T00:07:13.844027+00:00",
+  "retrospective_audit": true,
+  "scope": "Freeze of source bytes before the complete arithmetic audit; not an experimental preregistration",
+  "files": [
+    {
+      "path": "audit_scope.md",
+      "bytes": 5730,
+      "sha256": "d8905ad823bb1eb0fce74ce9bd6fec9c16c19ef71aac36185bd63164634c9ce9"
+    },
+    {
+      "path": "retrieval_allowlist.json",
+      "bytes": 2364,
+      "sha256": "23987310826bb86de576ee53f039d9ede10d7f7d3011b35a84c5bb123b7a2233"
+    },
+    {
+      "path": "acquire_inputs.py",
+      "bytes": 4135,
+      "sha256": "31b702380824b9821c8174b15197bca6121903c44a580b2619f7e4f33ed1aece"
+    },
+    {
+      "path": "input_provenance.json",
+      "bytes": 7254,
+      "sha256": "735753af6bfaf5c988ed168c3d10b2b44271705f8d68f270dc9ff72e632bf060"
+    },
+    {
+      "path": "inputs/PROTOCOL.md",
+      "bytes": 5606,
+      "sha256": "b1b9bc2c4583111d54430dc284537b2328baf715605fbcf2585fd7d60d0bc037"
+    },
+    {
+      "path": "inputs/RESULTS.md",
+      "bytes": 5541,
+      "sha256": "c0f8db30e54a9fab997fda7cc2dbd9833a569b3bfb579d55ff78a15c40acea72"
+    },
+    {
+      "path": "inputs/fresh-small-seed0/causal.json",
+      "bytes": 54442,
+      "sha256": "d10641ca557f72c30b3d71e792a7c93cb0d3a34d2563bd11cd96df8db35b4877"
+    },
+    {
+      "path": "inputs/fresh-small-seed0/lineage.json",
+      "bytes": 4016,
+      "sha256": "a3f289945769cc0a10dab914e6d9ee152f2f8e68cb96a2853c8afca1a0330086"
+    },
+    {
+      "path": "inputs/fresh-small-seed0/metrics.json",
+      "bytes": 58627,
+      "sha256": "5e6af12e9b8b35b72cc8e4bca68c6b31bcd2f69301daee20326c3ced67e9473a"
+    },
+    {
+      "path": "inputs/fresh-tiny-seed0/causal.json",
+      "bytes": 54299,
+      "sha256": "705611cc628c466278e95d4f0691efcc8ac4eb06227a90bd788acc208f1daf5a"
+    },
+    {
+      "path": "inputs/fresh-tiny-seed0/lineage.json",
+      "bytes": 4034,
+      "sha256": "3e3ee4c44cf667c7a91d58d9591c2575c482ec03c697212b1efe15f48a10867b"
+    },
+    {
+      "path": "inputs/fresh-tiny-seed0/metrics.json",
+      "bytes": 58533,
+      "sha256": "79319fa556b57ee5bacb6f4ee84cfdfba0f686721e631271baf27a5e96a2f5b5"
+    },
+    {
+      "path": "inputs/fresh-tiny-seed1/causal.json",
+      "bytes": 54504,
+      "sha256": "432335167cf2fd99035e4ee007893abeb0fde94deccdc554b1a226cbc27251ff"
+    },
+    {
+      "path": "inputs/fresh-tiny-seed1/lineage.json",
+      "bytes": 4038,
+      "sha256": "bae604fd06e96780fb9f164bdb4c0900260e3e90dd559c3cdc780454bf70ee9a"
+    },
+    {
+      "path": "inputs/fresh-tiny-seed1/metrics.json",
+      "bytes": 58500,
+      "sha256": "cdf84df1e01c81cc6b653018a5e267acdafa0bf3d643827a7019185a802c868a"
+    },
+    {
+      "path": "inputs/manifest.json",
+      "bytes": 144451,
+      "sha256": "66000b8d960b8bfe6067359b7d3be985f45d74d5d347dd197dbdbf4ea61b7bf6"
+    }
+  ]
+}

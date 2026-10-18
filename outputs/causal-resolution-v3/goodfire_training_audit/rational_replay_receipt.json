@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "mechanical_checks": 1368,
+  "audit_sha256": "760dffcde994aa2d199acc4e55eaffc980b5d3d2ecbc7f4eea569619e132e124",
+  "verifier_sha256": "70e2a8eca4eea4295eb188f80d9f9e54dbf25ce16cafd4a7da58ce3fb8859867",
+  "arithmetic": "Fraction from the exported decimal strings; separate implementation from the Decimal audit",
+  "independence_boundary": "Separate arithmetic code by the same audit agent, not independent investigators or experimental replication",
+  "scope": "Nine onset sequences and all 120 signed field comparisons, including all16 controls; no raw-response AUROC estimation or neural inference"
+}

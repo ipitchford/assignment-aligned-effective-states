@@ -1,0 +1,16 @@
+{
+  "environment": {
+    "blas_thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "machine": "arm64",
+    "numpy": "2.4.2",
+    "python": "3.14.7",
+    "system": "Darwin"
+  },
+  "freeze_sha256": "4662155b6d3e4d73a6a68a312bb1d1c402fec2a17aa691fee5882af642d9b8fb",
+  "started_utc": "2026-10-18T08:26:33.473015+00:00"
+}

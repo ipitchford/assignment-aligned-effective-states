@@ -1,0 +1,12 @@
+{
+  "pdf_sha256": "d944a629ffba69ee7562a2a0beb00293deae8bda29dd0fd7265c39300ab25092",
+  "pages": 32,
+  "scope": "Visual inspection of changed native-study sections, abstract, limitations, declarations, appendix and references; earlier figures and derivations retain prior inspection.",
+  "render_locations": [
+    "work/v32-visual",
+    "work/v32-visual-corrected"
+  ],
+  "findings": "No clipped figures or text observed; long unit list wraps; three minor consistency corrections applied.",
+  "compiler_receipt": "pdf-build/receipt.json",
+  "scientific_validation": false
+}

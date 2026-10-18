@@ -1,0 +1,24 @@
+{
+  "additional_interpretive_repairs": [
+    "No training cause inferred from effective width",
+    "Width comparison requires pre-specified incompatible predictions"
+  ],
+  "author_supplied": {
+    "competing_interests": "none declared",
+    "external_research_funding": "none declared",
+    "name": "Anonymous"
+  },
+  "changes": [
+    "ICA inverse transform and synthesis-axis correction",
+    "matched-scaling nested readout comparison",
+    "explicit preactivation competition basis",
+    "anonymised author declarations",
+    "focused central paper with complete supplement",
+    "portable release layout and fresh replay entry point"
+  ],
+  "first_corrected_manuscript_sha256": "8e1e1adc74e23230ee5c2ce54705f17defebb92a7e46f67acd2508900627674d",
+  "first_supplement_sha256": "7a32bd96b14e9678a45e90cafaf56dd3d7c4313f8da5fb80bfcdac95198729af",
+  "review_candidate_manuscript_sha256": "59849db57dd6b05ec22c322ea7cf5c9878a60ef93713dcb19c2c218a17813cb0",
+  "review_candidate_supplement_sha256": "8dd0d0f4645d559c4055a75a9270f314562f6011360db2495b65fbca6fa5a095",
+  "source_v46_sha256": "950fb70d2eecc67d8ac81f3b44bf0fca2e953c01f7c12cc53c22ea5ce0f10632"
+}

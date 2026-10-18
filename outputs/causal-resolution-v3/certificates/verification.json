@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "method": "independent Fraction dot products; standard library only",
+  "certificates": 21,
+  "injective_report_certificates": 3,
+  "rejected_mutations": 15,
+  "full_library_certificates": 3,
+  "full_library_primal_output_bounds": 30,
+  "injective_bounds": [
+    {
+      "seed": 17,
+      "bound": "13183958133/10737418240",
+      "support": 4
+    },
+    {
+      "seed": 29,
+      "bound": "8324109771/4294967296",
+      "support": 4
+    },
+    {
+      "seed": 43,
+      "bound": "26016914143/16106127360",
+      "support": 6
+    }
+  ],
+  "input_sha256": {
+    "seed-17/discovery_audit.json": "3af366697cffe17a12f328182be8c5323acff01325eed054a0ab9f7ea1514b4f",
+    "seed-29/discovery_audit.json": "223d2d27e125269250a4340e382c79a17995fb8f33d2b2b731650a6abc18316e",
+    "seed-43/discovery_audit.json": "25b4f5d7b2d13e87ac3ee47dfd20a260b2ea4c0fd66b475cb4f37f3832911f11",
+    "full_library_certificates.json": "907e98851481811c6d86a28dd5d4168ed6f56e05ad148d8a48279c1a244e2938",
+    "full_library_primal.json.gz": "535ed07ce9a527ae990e5f977a17c0b5a923fe1e2986c59ee3eb93f8b0795728"
+  },
+  "verifier_sha256": "2be837ec93b8e7c40b561a639dbe64e4e17e79e21d219aee929c6a1dce88d8eb",
+  "scope": "validates saved exact witnesses and complete full-library primal banks; does not independently reconstruct model training or responses from model weights, or establish semantics or priority"
+}

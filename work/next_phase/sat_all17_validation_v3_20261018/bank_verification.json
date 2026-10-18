@@ -1,0 +1,39 @@
+{
+  "base_semantic_checks": 2560,
+  "candidate_bank_sha256": "d4dba8c41f97fa91ccbbf73bb3a0364203e093b8bfe64bc76cb4a8e55e7696f9",
+  "candidate_stream_checks": 2500000,
+  "candidate_truth_count_checks": 8000000,
+  "code_sha256": {
+    "analyze.py": "f28a948bcfc99357274055b895722229c7fa46a929b3e6d8920fdc8c23811104",
+    "construct.py": "bf2386e7e2a9b4b163b572971675eb4286da51d4c30100dd26d36b1d80647786",
+    "native.py": "0b2358f9baf91f7e9e677d1509b5d7d26c24b9de7b45b643fc2b3601eaaebea9",
+    "pilot_common.py": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61",
+    "protocol.md": "0d1ca217703702983975fbaa7f0da4fbf7fc2c91202ef5c9a8e9e9ef9a11285e",
+    "protocol.py": "fc145e900e0f63da0c99727bc61f912513fd965dff03eeb642715d93b3f6d4a8",
+    "runtime_source_snapshot.py": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230",
+    "selfcheck.json": "fe19a06706f7d7065f4cde21372eb7171cc56867aa080601d289db03cd120e59",
+    "selfcheck.py": "71b6b4384c98b123adb335100bea7a59d724ea555328bbf0c512554acf4a6985",
+    "source_bindings.md": "eba838ebe1a79cdd41c756adae4e39271b6baa9d2f8cc202274cebef367f260b",
+    "verify_bank.py": "7b25a66e7bb71969d719141204a4ccecae30f03c71655a081746a71d4ac25b4e"
+  },
+  "environment": {
+    "numpy": "2.4.2",
+    "python": "3.14.7"
+  },
+  "freeze_sha256": "77ac6f5f3c41abce5c90e538ad9a6856e7869d872c590d713f3b684eae177b80",
+  "historical_overlap": 0,
+  "near_far_cells_checked": 32,
+  "orbit_id_checks": 7252,
+  "scope": "independent token/Boolean implementation and complete selection-order replay; no model import",
+  "selected_bank_sha256": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e",
+  "selection_order_checks": 2560,
+  "selfcheck_sha256": "fe19a06706f7d7065f4cde21372eb7171cc56867aa080601d289db03cd120e59",
+  "source_sha256": {
+    "helpers.py": "ece43db7317fa8e3ad6cb6fb40bb1ba9f98ecd9191cbec6689b0bc67c0a268fe",
+    "interpretation.py": "b8f87ceaecb0c2449f3f626983ec028f2d3661c394d08f7d96641f4e06ba2177",
+    "source_mapping.json": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d"
+  },
+  "status": "PASS",
+  "transform_semantic_checks": 4720,
+  "unique_formula_checks": 7252
+}

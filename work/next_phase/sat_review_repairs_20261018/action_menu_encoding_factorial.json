@@ -1,0 +1,256 @@
+{
+  "archived_screen_reference": {
+    "continuous_post34": {
+      "absolute_difference": 0.0,
+      "archived_different_seed_and_padded_geometry": 0.4970703125,
+      "factorial_common_seed_and_34_report_columns": 0.4970703125
+    },
+    "published_bits34": {
+      "absolute_difference": 0.0,
+      "archived_different_seed_and_padded_geometry": 0.431640625,
+      "factorial_common_seed_and_34_report_columns": 0.431640625
+    }
+  },
+  "bootstrap": {
+    "cluster": "assessment origin",
+    "draws": 2000,
+    "same_multiplicities_used_for_all_four cells": true,
+    "seed": 2026101804
+  },
+  "cells": {
+    "all_slot_sparse_fit__natural_binary": {
+      "assessment_menus": 10240,
+      "assessment_rows": 399360,
+      "chosen_clause_agreement": 0.46455078125,
+      "continuous_minus_bits": 0.03515625,
+      "fit_rows": 61440,
+      "models": {
+        "continuous_post34": {
+          "coverage_at_0_5": 0.005859375,
+          "mean_regret": 0.33818359375,
+          "menus": 10240,
+          "reachable_menus": 8433,
+          "success_all_menus": 0.4853515625,
+          "success_when_reachable": 0.5893513577611763
+        },
+        "published_bits34": {
+          "coverage_at_0_5": 0.0,
+          "mean_regret": 0.37333984375,
+          "menus": 10240,
+          "reachable_menus": 8433,
+          "success_all_menus": 0.4501953125,
+          "success_when_reachable": 0.5466619233961817
+        }
+      }
+    },
+    "all_slot_sparse_fit__one_hot": {
+      "assessment_menus": 10240,
+      "assessment_rows": 399360,
+      "chosen_clause_agreement": 0.5595703125,
+      "continuous_minus_bits": -0.0018554687499999778,
+      "fit_rows": 61440,
+      "models": {
+        "continuous_post34": {
+          "coverage_at_0_5": 0.005859375,
+          "mean_regret": 0.20087890625,
+          "menus": 10240,
+          "reachable_menus": 8433,
+          "success_all_menus": 0.62265625,
+          "success_when_reachable": 0.7560773153089055
+        },
+        "published_bits34": {
+          "coverage_at_0_5": 0.0009765625,
+          "mean_regret": 0.1990234375,
+          "menus": 10240,
+          "reachable_menus": 8433,
+          "success_all_menus": 0.62451171875,
+          "success_when_reachable": 0.7583303687892802
+        }
+      }
+    },
+    "selected_slot_dense_fit__natural_binary": {
+      "assessment_menus": 1024,
+      "assessment_rows": 39936,
+      "chosen_clause_agreement": 0.5078125,
+      "continuous_minus_bits": 0.0654296875,
+      "fit_rows": 119808,
+      "models": {
+        "continuous_post34": {
+          "coverage_at_0_5": 0.0,
+          "mean_regret": 0.3330078125,
+          "menus": 1024,
+          "reachable_menus": 850,
+          "success_all_menus": 0.4970703125,
+          "success_when_reachable": 0.5988235294117648
+        },
+        "published_bits34": {
+          "coverage_at_0_5": 0.0,
+          "mean_regret": 0.3984375,
+          "menus": 1024,
+          "reachable_menus": 850,
+          "success_all_menus": 0.431640625,
+          "success_when_reachable": 0.52
+        }
+      }
+    },
+    "selected_slot_dense_fit__one_hot": {
+      "assessment_menus": 1024,
+      "assessment_rows": 39936,
+      "chosen_clause_agreement": 0.5048828125,
+      "continuous_minus_bits": -0.0009765625,
+      "fit_rows": 119808,
+      "models": {
+        "continuous_post34": {
+          "coverage_at_0_5": 0.001953125,
+          "mean_regret": 0.1796875,
+          "menus": 1024,
+          "reachable_menus": 850,
+          "success_all_menus": 0.650390625,
+          "success_when_reachable": 0.7835294117647059
+        },
+        "published_bits34": {
+          "coverage_at_0_5": 0.0,
+          "mean_regret": 0.1787109375,
+          "menus": 1024,
+          "reachable_menus": 850,
+          "success_all_menus": 0.6513671875,
+          "success_when_reachable": 0.7847058823529411
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 28.39262037514709,
+  "exact_original_pilot_reproduction": {
+    "continuous_post34": {
+      "absolute_difference": 0.0,
+      "archived": 0.62265625,
+      "factorial": 0.62265625
+    },
+    "published_bits34": {
+      "absolute_difference": 0.0,
+      "archived": 0.62451171875,
+      "factorial": 0.62451171875
+    }
+  },
+  "factorial_contrasts": {
+    "encoding_effect_on_continuous_minus_bits__all_slot_sparse_fit": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          0.012888183593750003,
+          0.06240478515624998
+        ]
+      },
+      "point": 0.03701171874999998
+    },
+    "encoding_effect_on_continuous_minus_bits__selected_slot_dense_fit": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          0.0341552734375,
+          0.0986328125
+        ]
+      },
+      "point": 0.06640625
+    },
+    "menu_by_encoding_interaction": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          -0.01104003906249999,
+          0.06943847656249998
+        ]
+      },
+      "point": 0.029394531250000022
+    },
+    "menu_effect_on_continuous_minus_bits__natural_binary": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          -0.004497070312500001,
+          0.06475341796874996
+        ]
+      },
+      "point": 0.0302734375
+    },
+    "menu_effect_on_continuous_minus_bits__one_hot": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          -0.02060546875,
+          0.02246826171874996
+        ]
+      },
+      "point": 0.0008789062499999778
+    }
+  },
+  "fits": 8,
+  "inputs": {
+    "outputs/causal-resolution-v3/sat_case/predictive_metrics.json": "911477f9c15ffc0c7616c777677a4134bf1e27a7c645dbb3bdeed29af5c755e9",
+    "work/sat_case/pilot_bank.npz": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b",
+    "work/sat_mechanism/original_native.npz": "54f86e7c03c2366345662ce65a90e62201d71869a60f88e5544a267b49e941c2",
+    "work/task_policy_augmentation/run/result.json": "be61251e20c66f975bc1f9f3466823fae203f54f2ac8f476f768d7d0714bdec4"
+  },
+  "interpretation_boundary": "The factorial diagnoses the earlier reversal under a common learner seed. It is post-review, opened-data analysis and does not turn either development cohort into protected confirmation.",
+  "new_formulas": 0,
+  "new_neural_forwards": 0,
+  "paired_uncertainty": {
+    "all_slot_sparse_fit__natural_binary": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          0.01318359375,
+          0.058693847656249985
+        ]
+      },
+      "point_continuous_minus_bits": 0.03515625
+    },
+    "all_slot_sparse_fit__one_hot": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          -0.01748046875,
+          0.013872070312499972
+        ]
+      },
+      "point_continuous_minus_bits": -0.0018554687499999984
+    },
+    "selected_slot_dense_fit__natural_binary": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          0.037109375,
+          0.091796875
+        ]
+      },
+      "point_continuous_minus_bits": 0.0654296875
+    },
+    "selected_slot_dense_fit__one_hot": {
+      "paired_origin_interval": {
+        "draws": 2000,
+        "interval_2_5_97_5": [
+          -0.0205078125,
+          0.01953125
+        ]
+      },
+      "point_continuous_minus_bits": -0.0009765625
+    }
+  },
+  "scope": "post-review exploratory factorial on opened cached development data",
+  "settings": {
+    "early_stopping": false,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.08,
+    "max_bins": 63,
+    "max_iter": 100,
+    "max_leaf_nodes": 15,
+    "random_state": 2026101514
+  },
+  "status": "PASS",
+  "versions": {
+    "numpy": "2.4.6",
+    "python": "3.11.14",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  }
+}

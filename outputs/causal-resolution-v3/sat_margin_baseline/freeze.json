@@ -1,0 +1,112 @@
+{
+  "assessment_passes": 1,
+  "contract_sha256": "bc330905a32edccb90d2ab511e5c2bc5714b7e6156d661085a7188ba131efdde",
+  "created_utc": "2026-10-15T23:01:26.459891+00:00",
+  "estimator_parameters": {
+    "categorical_features": null,
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": 3,
+    "max_features": 1.0,
+    "max_iter": 200,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 5,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2026101522,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "input_sha256": {
+    "../next_phase/sat_margin_baseline_contract.md": "bc330905a32edccb90d2ab511e5c2bc5714b7e6156d661085a7188ba131efdde",
+    "../sat_case/MANIFEST.json": "b81f234d4c20185955760ae01ffdfea3239b4c6c1d204666792819b315524e82",
+    "../sat_case/pilot_common.py": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61",
+    "../sat_mechanism/MANIFEST.json": "6e5a46e1466339ccc08f5ce8b91a5cf5381bf3c99f789e3aa40d145b7f42b181",
+    "../sat_mechanism/bootstrap_raw.npz": "9a209a05ffe419b2cde0edf982a94b54e825b69fab61db69050d80f82254a88c",
+    "../sat_mechanism/cost_ledger.json": "13106c20d62faa58b71ca47b65d62029e5ddd31d503a76f19994e56efb21dc54",
+    "../sat_mechanism/protocol.py": "4d6975916d733180b7f28e22ca677ae28d86717a032a97547749c889a2f57577",
+    "../sat_mechanism/selected_queries.json": "afd5e553254698bfb89d79f97bc40c21b56692c92b5f683252cb6a1974bea255",
+    "../sat_mechanism/source_mapping.json": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d",
+    "../sat_mechanism/stage_a.json": "c0e01aabe7fd6548f039a1ab7a0621a1b420b41fc2e3b3dc539ce7faf401969a",
+    "../sat_mechanism/stage_b.json": "6aceb517d8f87e90bbcd716595a07b1b2338596b819c05ff6ce535abdd6640f0",
+    "../sat_mechanism/stage_b_raw.npz": "2167186a9824c51141ed63810a9753dcb563f968de6d0e433b36af876034c7c2"
+  },
+  "local_sha256": {
+    "common.py": "3b2362ff3227ef4993f0082546e555bc9511e1340efe9e0ce1e7351e5d9ad903",
+    "contract.md": "bc330905a32edccb90d2ab511e5c2bc5714b7e6156d661085a7188ba131efdde",
+    "implementation_notes.md": "380efc50e47fa73b3bd7504ef9774ae1d5369f949a3991af1e098ad2ff9a01d9",
+    "library_identity.json": "e81c469aa2107bfa06b5711d297b60b0c33c077e4d106710a67b440b013da3a9",
+    "library_source/__init__.py": "0a37e830728977987104b5806ed5be94de16028023856a70f11c2d7169ae5feb",
+    "library_source/_binning.pyx": "6adcb511310ea4e36b3a6f21ce492da7d44b59a0ecd81054c66827bc4ef245de",
+    "library_source/_gradient_boosting.pyx": "ee0cce472df356f461514756808a2189aeeba23a6e4af3065652382ee45777b0",
+    "library_source/_predictor.pyx": "8c8e3e6408e42d47a908eeff413b1a2d1d827c8ac4e0676e9dd95f861d08274b",
+    "library_source/binning.py": "7a7d2557967e885bb9c9e4ecaf3ded585f9c874f51ebf18e8a659e303d757342",
+    "library_source/common.pxd": "29852a5e08fced413c552e289d6c8c910cf17bfd4a015f60932c6b8d8d6ca5ec",
+    "library_source/common.pyx": "284162efba562cd2fc9e161012759b8f41e75f48430baf1a6b0b1af62504c95a",
+    "library_source/gradient_boosting.py": "82619e3ae89af1625dea1d4245d0d4a9e2eb85e0d034790fbd89a1bb51d7e996",
+    "library_source/grower.py": "18d8e0ec14d9f93329652b59ade6795e34ea14f93be7a98573eea5f55efcf263",
+    "library_source/histogram.pyx": "f3b68c5c966e96f1da841dd4d976b45d7c6a2af0efa75dc2c3c702824431033b",
+    "library_source/predictor.py": "cb94508d0e7da6ef07a481cce99e5b35f720ef58a0b0d604be4cca5bdc587da9",
+    "library_source/splitting.pyx": "dc237c4c7ce36e5c6663d3d587e2d199c49781f5cefcc494644171ec0e71da48",
+    "library_source/utils.py": "b51fc5fdb44c450a554a1ec43108c3ca750928f2a428e14c7a1d66e744e976fe",
+    "prepare_freeze.py": "8c77a9c30a9a3e8424d45c278832ad7c4795d419ee4a3cff70149ec4c06dd87f",
+    "run_comparison.py": "699ff1a27f8bb24646c2a95edc22003d2dd46689f63e84bf32fb8ddef9382e83",
+    "selfcheck.json": "2fa968d22acb2cfb48017a2cf17d753be297a220156ba2cdcd834571ad0cf0c7",
+    "selfcheck.py": "60ee19c06fe1ed970fbb8e553ad269b5e642b46af768fe8b412f2a7984e02e40"
+  },
+  "maximum_fits": 17,
+  "neural_forwards": 0,
+  "new_formulas": 0,
+  "prior_manifests_verified": {
+    "sat_case": {
+      "files_verified": 39,
+      "manifest_sha256": "b81f234d4c20185955760ae01ffdfea3239b4c6c1d204666792819b315524e82"
+    },
+    "sat_mechanism": {
+      "files_verified": 42,
+      "manifest_sha256": "6e5a46e1466339ccc08f5ce8b91a5cf5381bf3c99f789e3aa40d145b7f42b181"
+    }
+  },
+  "protected_cases_accessed": 0,
+  "runtime": {
+    "executable": "/Users/admin/.venvs/gaia-tess-microlensing/bin/python",
+    "numpy": "2.4.6",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python": "3.11.14",
+    "python_full": "3.11.14 (main, Feb 12 2026, 00:41:29) [Clang 21.1.4 ]",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  },
+  "status": "FROZEN_BEFORE_ANY_COMPARISON_FIT",
+  "thread_settings": {
+    "environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "limit": 1,
+    "mechanism": "threadpoolctl.threadpool_limits(1)",
+    "observed_pools": [
+      {
+        "filepath": "/Users/admin/.venvs/gaia-tess-microlensing/lib/python3.11/site-packages/sklearn/.dylibs/libomp.dylib",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ],
+    "threadpoolctl_version": "3.6.0"
+  }
+}

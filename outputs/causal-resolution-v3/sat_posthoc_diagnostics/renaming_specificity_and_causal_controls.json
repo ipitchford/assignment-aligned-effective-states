@@ -1,0 +1,1377 @@
+{
+  "causal_controls": {
+    "pair_0_original": {
+      "direction": "original",
+      "endpoints": 32,
+      "match_distance": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.07799052155367704
+      },
+      "matched_control_units": [
+        374,
+        482,
+        380,
+        435,
+        231,
+        185,
+        492,
+        36,
+        81,
+        304,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "native_after_correct": 32,
+      "native_before_unsat": 32,
+      "patchin_matches_edited_label": {
+        "nearest_32_control_max": 4,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 1,
+        "qualified_control_max": 4,
+        "qualified_control_values": [
+          4
+        ],
+        "source": 29,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "patchin_unsat_to_sat": {
+        "nearest_32_control_max": 4,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 1,
+        "qualified_control_max": 4,
+        "qualified_control_values": [
+          4
+        ],
+        "source": 29,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "qualified_control_units": [
+        374
+      ],
+      "qualified_match_threshold": 0.25,
+      "restoration_correct_to_wrong": {
+        "nearest_32_control_max": 1,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 1,
+        "qualified_control_max": 1,
+        "qualified_control_values": [
+          1
+        ],
+        "source": 29,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "source_activation_change": {
+        "mean_absolute": 0.7405901116435416,
+        "nonzero": 32,
+        "rms": 0.7570458450140037
+      },
+      "source_pair": [
+        261,
+        291
+      ],
+      "source_unit": 261
+    },
+    "pair_0_renamed": {
+      "direction": "renamed",
+      "endpoints": 32,
+      "match_distance": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.9919124743904263
+      },
+      "matched_control_units": [
+        380,
+        482,
+        48,
+        492,
+        77,
+        245,
+        411,
+        96,
+        416,
+        450,
+        150,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "native_after_correct": 32,
+      "native_before_unsat": 32,
+      "patchin_matches_edited_label": {
+        "nearest_32_control_max": 0,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 0,
+        "qualified_control_max": null,
+        "qualified_control_values": [],
+        "source": 32,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "patchin_unsat_to_sat": {
+        "nearest_32_control_max": 0,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 0,
+        "qualified_control_max": null,
+        "qualified_control_values": [],
+        "source": 32,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "qualified_control_units": [],
+      "qualified_match_threshold": 0.25,
+      "restoration_correct_to_wrong": {
+        "nearest_32_control_max": 0,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 0,
+        "qualified_control_max": null,
+        "qualified_control_values": [],
+        "source": 32,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "source_activation_change": {
+        "mean_absolute": 1.1468990853754804,
+        "nonzero": 32,
+        "rms": 1.1633677787612662
+      },
+      "source_pair": [
+        261,
+        291
+      ],
+      "source_unit": 291
+    },
+    "pair_1_original": {
+      "direction": "original",
+      "endpoints": 32,
+      "match_distance": {
+        "maximum": 1.0,
+        "median": 0.9998110558161388,
+        "minimum": 0.0914713463280644
+      },
+      "matched_control_units": [
+        201,
+        36,
+        374,
+        261,
+        55,
+        495,
+        304,
+        334,
+        77,
+        490,
+        326,
+        81,
+        435,
+        416,
+        10,
+        245,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "native_after_correct": 30,
+      "native_before_unsat": 32,
+      "patchin_matches_edited_label": {
+        "nearest_32_control_max": 6,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 1,
+        "qualified_control_max": 6,
+        "qualified_control_values": [
+          6
+        ],
+        "source": 18,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "patchin_unsat_to_sat": {
+        "nearest_32_control_max": 6,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 1,
+        "qualified_control_max": 6,
+        "qualified_control_values": [
+          6
+        ],
+        "source": 18,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "qualified_control_units": [
+        201
+      ],
+      "qualified_match_threshold": 0.25,
+      "restoration_correct_to_wrong": {
+        "nearest_32_control_max": 10,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 1,
+        "qualified_control_max": 10,
+        "qualified_control_values": [
+          10
+        ],
+        "source": 22,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "source_activation_change": {
+        "mean_absolute": 0.6174810601514764,
+        "nonzero": 31,
+        "rms": 0.650830496815679
+      },
+      "source_pair": [
+        411,
+        492
+      ],
+      "source_unit": 411
+    },
+    "pair_1_renamed": {
+      "direction": "renamed",
+      "endpoints": 32,
+      "match_distance": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.9851937229731033
+      },
+      "matched_control_units": [
+        291,
+        450,
+        334,
+        495,
+        150,
+        231,
+        317,
+        10,
+        416,
+        490,
+        326,
+        48,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "native_after_correct": 32,
+      "native_before_unsat": 32,
+      "patchin_matches_edited_label": {
+        "nearest_32_control_max": 0,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 0,
+        "qualified_control_max": null,
+        "qualified_control_values": [],
+        "source": 32,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "patchin_unsat_to_sat": {
+        "nearest_32_control_max": 0,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 0,
+        "qualified_control_max": null,
+        "qualified_control_values": [],
+        "source": 32,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "qualified_control_units": [],
+      "qualified_match_threshold": 0.25,
+      "restoration_correct_to_wrong": {
+        "nearest_32_control_max": 0,
+        "nearest_32_control_median": 0.0,
+        "nearest_32_control_min": 0,
+        "nearest_32_controls_tied_with_source": 0,
+        "qualified_control_count": 0,
+        "qualified_control_max": null,
+        "qualified_control_values": [],
+        "source": 32,
+        "source_rank_among_source_plus_32_nearest_best_is_one": 1
+      },
+      "source_activation_change": {
+        "mean_absolute": 1.1357230229768902,
+        "nonzero": 32,
+        "rms": 1.1536430724967621
+      },
+      "source_pair": [
+        411,
+        492
+      ],
+      "source_unit": 492
+    }
+  },
+  "fits": 0,
+  "inputs": {
+    "inputs/readout_weights.npz": "b749b6a7371a0fb8b9c7ee2093a051bc27b478ba712eeceab2723aa999e71204",
+    "inputs/renaming_native_outputs.npz": "cf0f69826a5fc788415809af3382eff01d40ce891c411d80e99ec886e05316b2",
+    "inputs/renaming_selected_bank.npz": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a",
+    "inputs/source_mapping.json": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d"
+  },
+  "limits": [
+    "No multi-solution negative inputs exist in the protected bank",
+    "The 32-nearest reference sets are not called matched; a qualified control requires relative sorted-profile distance at most 0.25",
+    "Only one qualified control exists in each original direction and none in either renamed direction, so a full activity-matched null is unavailable",
+    "Restoration and patch-in operate at the exact final linear readout cut and may be off-manifold",
+    "All analyses were chosen after inspecting the protected result"
+  ],
+  "new_neural_forwards": 0,
+  "scope": "post hoc saved-tensor specificity strata, activation-change-matched direct-logit nulls, patch-in sufficiency diagnostic, and unit-411 compensation audit",
+  "specificity": {
+    "pair_0_off_pair": {
+      "negative_target_bits": {
+        "sat_different_sole_solution": {
+          "denominator": 128,
+          "false_positive": 0,
+          "true_negative": 128
+        },
+        "sat_multi_solution_excluding_label": {
+          "denominator": 0,
+          "false_positive": 0,
+          "true_negative": 0
+        },
+        "unsat": {
+          "denominator": 384,
+          "false_positive": 0,
+          "true_negative": 384
+        }
+      },
+      "source_pair": [
+        261,
+        291
+      ]
+    },
+    "pair_0_original": {
+      "direction": "original",
+      "negative_target_bits": {
+        "sat_different_sole_solution": {
+          "denominator": 32,
+          "false_positive": 0,
+          "true_negative": 32
+        },
+        "sat_multi_solution_excluding_label": {
+          "denominator": 0,
+          "false_positive": 0,
+          "true_negative": 0
+        },
+        "unsat": {
+          "denominator": 192,
+          "false_positive": 0,
+          "true_negative": 192
+        }
+      },
+      "source_pair": [
+        261,
+        291
+      ]
+    },
+    "pair_0_renamed": {
+      "direction": "renamed",
+      "negative_target_bits": {
+        "sat_different_sole_solution": {
+          "denominator": 32,
+          "false_positive": 0,
+          "true_negative": 32
+        },
+        "sat_multi_solution_excluding_label": {
+          "denominator": 0,
+          "false_positive": 0,
+          "true_negative": 0
+        },
+        "unsat": {
+          "denominator": 192,
+          "false_positive": 0,
+          "true_negative": 192
+        }
+      },
+      "source_pair": [
+        261,
+        291
+      ]
+    },
+    "pair_1_off_pair": {
+      "negative_target_bits": {
+        "sat_different_sole_solution": {
+          "denominator": 128,
+          "false_positive": 0,
+          "true_negative": 128
+        },
+        "sat_multi_solution_excluding_label": {
+          "denominator": 0,
+          "false_positive": 0,
+          "true_negative": 0
+        },
+        "unsat": {
+          "denominator": 384,
+          "false_positive": 0,
+          "true_negative": 384
+        }
+      },
+      "source_pair": [
+        411,
+        492
+      ]
+    },
+    "pair_1_original": {
+      "direction": "original",
+      "negative_target_bits": {
+        "sat_different_sole_solution": {
+          "denominator": 32,
+          "false_positive": 0,
+          "true_negative": 32
+        },
+        "sat_multi_solution_excluding_label": {
+          "denominator": 0,
+          "false_positive": 0,
+          "true_negative": 0
+        },
+        "unsat": {
+          "denominator": 192,
+          "false_positive": 0,
+          "true_negative": 192
+        }
+      },
+      "source_pair": [
+        411,
+        492
+      ]
+    },
+    "pair_1_renamed": {
+      "direction": "renamed",
+      "negative_target_bits": {
+        "sat_different_sole_solution": {
+          "denominator": 32,
+          "false_positive": 0,
+          "true_negative": 32
+        },
+        "sat_multi_solution_excluding_label": {
+          "denominator": 0,
+          "false_positive": 0,
+          "true_negative": 0
+        },
+        "unsat": {
+          "denominator": 192,
+          "false_positive": 0,
+          "true_negative": 192
+        }
+      },
+      "source_pair": [
+        411,
+        492
+      ]
+    }
+  },
+  "status": "PASS",
+  "unit_411_compensation": {
+    "all_published_units_sorted_by_restoration_on_411_misses": [
+      {
+        "active_on_411_hits": 17,
+        "active_on_411_misses": 4,
+        "patchin_sat_on_411_hits": 5,
+        "patchin_sat_on_411_misses": 1,
+        "restoration_wrong_on_411_hits": 4,
+        "restoration_wrong_on_411_misses": 6,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "TTFFT",
+              "op": "phi",
+              "truth_table_index": 25
+            },
+            {
+              "arg": {
+                "assignment": "TFTFF",
+                "op": "phi",
+                "truth_table_index": 20
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 201
+      },
+      {
+        "active_on_411_hits": 24,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 18,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 18,
+        "restoration_wrong_on_411_misses": 4,
+        "source_rule": {
+          "assignment": "TTFFT",
+          "op": "phi",
+          "truth_table_index": 25
+        },
+        "unit": 411
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TFFFF",
+          "op": "phi",
+          "truth_table_index": 16
+        },
+        "unit": 10
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "FTTFF",
+              "op": "phi",
+              "truth_table_index": 12
+            },
+            {
+              "arg": {
+                "assignment": "FFFFT",
+                "op": "phi",
+                "truth_table_index": 1
+              },
+              "op": "not"
+            },
+            {
+              "arg": {
+                "assignment": "TTTTT",
+                "op": "phi",
+                "truth_table_index": 31
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 29
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "TTFFF",
+              "op": "phi",
+              "truth_table_index": 24
+            },
+            {
+              "arg": {
+                "assignment": "FTFTF",
+                "op": "phi",
+                "truth_table_index": 10
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 36
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "FFFFF",
+          "op": "phi",
+          "truth_table_index": 0
+        },
+        "unit": 41
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "args": [
+                {
+                  "arg": {
+                    "assignment": "FTTFF",
+                    "op": "phi",
+                    "truth_table_index": 12
+                  },
+                  "op": "not"
+                },
+                {
+                  "assignment": "FTFFF",
+                  "op": "phi",
+                  "truth_table_index": 8
+                }
+              ],
+              "op": "and"
+            },
+            {
+              "assignment": "FTTFF",
+              "op": "phi",
+              "truth_table_index": 12
+            }
+          ],
+          "op": "or"
+        },
+        "unit": 48
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TTTFF",
+          "op": "phi",
+          "truth_table_index": 28
+        },
+        "unit": 55
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "FFTTT",
+          "op": "phi",
+          "truth_table_index": 7
+        },
+        "unit": 77
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "FTTTF",
+          "op": "phi",
+          "truth_table_index": 14
+        },
+        "unit": 81
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "TFTTF",
+              "op": "phi",
+              "truth_table_index": 22
+            },
+            {
+              "arg": {
+                "assignment": "FFTFF",
+                "op": "phi",
+                "truth_table_index": 4
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 96
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "FTFTF",
+              "op": "phi",
+              "truth_table_index": 10
+            },
+            {
+              "arg": {
+                "assignment": "TTFFF",
+                "op": "phi",
+                "truth_table_index": 24
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 150
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "FFFTT",
+          "op": "phi",
+          "truth_table_index": 3
+        },
+        "unit": 185
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "FTTTT",
+              "op": "phi",
+              "truth_table_index": 15
+            },
+            {
+              "arg": {
+                "assignment": "TTTFT",
+                "op": "phi",
+                "truth_table_index": 29
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 189
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "TFFTF",
+              "op": "phi",
+              "truth_table_index": 18
+            },
+            {
+              "arg": {
+                "assignment": "TTTTT",
+                "op": "phi",
+                "truth_table_index": 31
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 195
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "FFFFT",
+          "op": "phi",
+          "truth_table_index": 1
+        },
+        "unit": 224
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "FTFTT",
+              "op": "phi",
+              "truth_table_index": 11
+            },
+            {
+              "arg": {
+                "assignment": "FFTTF",
+                "op": "phi",
+                "truth_table_index": 6
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 231
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "FTFFT",
+          "op": "phi",
+          "truth_table_index": 9
+        },
+        "unit": 245
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TTFTT",
+          "op": "phi",
+          "truth_table_index": 27
+        },
+        "unit": 261
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TFTTT",
+          "op": "phi",
+          "truth_table_index": 23
+        },
+        "unit": 291
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "FFTTF",
+              "op": "phi",
+              "truth_table_index": 6
+            },
+            {
+              "arg": {
+                "assignment": "TFTFF",
+                "op": "phi",
+                "truth_table_index": 20
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 304
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TFFFT",
+          "op": "phi",
+          "truth_table_index": 17
+        },
+        "unit": 317
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TTTTF",
+          "op": "phi",
+          "truth_table_index": 30
+        },
+        "unit": 326
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "FTTTF",
+              "op": "phi",
+              "truth_table_index": 14
+            },
+            {
+              "arg": {
+                "assignment": "FFFTT",
+                "op": "phi",
+                "truth_table_index": 3
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 334
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "TTFTT",
+              "op": "phi",
+              "truth_table_index": 27
+            },
+            {
+              "arg": {
+                "assignment": "TFTTF",
+                "op": "phi",
+                "truth_table_index": 22
+              },
+              "op": "not"
+            },
+            {
+              "arg": {
+                "assignment": "FFFFF",
+                "op": "phi",
+                "truth_table_index": 0
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 374
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TFFTT",
+          "op": "phi",
+          "truth_table_index": 19
+        },
+        "unit": 380
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TTTFF",
+          "op": "phi",
+          "truth_table_index": 28
+        },
+        "unit": 416
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "args": [
+                {
+                  "assignment": "TTFTF",
+                  "op": "phi",
+                  "truth_table_index": 26
+                },
+                {
+                  "arg": {
+                    "assignment": "FTFFF",
+                    "op": "phi",
+                    "truth_table_index": 8
+                  },
+                  "op": "not"
+                }
+              ],
+              "op": "and"
+            },
+            {
+              "args": [
+                {
+                  "assignment": "TTFTF",
+                  "op": "phi",
+                  "truth_table_index": 26
+                },
+                {
+                  "assignment": "FTFFF",
+                  "op": "phi",
+                  "truth_table_index": 8
+                },
+                {
+                  "assignment": "TFFTF",
+                  "op": "phi",
+                  "truth_table_index": 18
+                }
+              ],
+              "op": "and"
+            }
+          ],
+          "op": "or"
+        },
+        "unit": 435
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "FFTFT",
+              "op": "phi",
+              "truth_table_index": 5
+            },
+            {
+              "arg": {
+                "assignment": "FTFFF",
+                "op": "phi",
+                "truth_table_index": 8
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 450
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "assignment": "TTTTT",
+              "op": "phi",
+              "truth_table_index": 31
+            },
+            {
+              "arg": {
+                "assignment": "FTTFT",
+                "op": "phi",
+                "truth_table_index": 13
+              },
+              "op": "not"
+            }
+          ],
+          "op": "and"
+        },
+        "unit": 482
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 1,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "args": [
+                {
+                  "assignment": "FTTFT",
+                  "op": "phi",
+                  "truth_table_index": 13
+                },
+                {
+                  "arg": {
+                    "assignment": "TTTTT",
+                    "op": "phi",
+                    "truth_table_index": 31
+                  },
+                  "op": "not"
+                }
+              ],
+              "op": "and"
+            },
+            {
+              "args": [
+                {
+                  "assignment": "FTTFT",
+                  "op": "phi",
+                  "truth_table_index": 13
+                },
+                {
+                  "assignment": "TTTTT",
+                  "op": "phi",
+                  "truth_table_index": 31
+                },
+                {
+                  "arg": {
+                    "assignment": "TTTFT",
+                    "op": "phi",
+                    "truth_table_index": 29
+                  },
+                  "op": "not"
+                }
+              ],
+              "op": "and"
+            }
+          ],
+          "op": "or"
+        },
+        "unit": 490
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "TFTFT",
+          "op": "phi",
+          "truth_table_index": 21
+        },
+        "unit": 492
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "assignment": "FFFTF",
+          "op": "phi",
+          "truth_table_index": 2
+        },
+        "unit": 495
+      },
+      {
+        "active_on_411_hits": 0,
+        "active_on_411_misses": 0,
+        "patchin_sat_on_411_hits": 0,
+        "patchin_sat_on_411_misses": 0,
+        "restoration_wrong_on_411_hits": 0,
+        "restoration_wrong_on_411_misses": 0,
+        "source_rule": {
+          "args": [
+            {
+              "args": [
+                {
+                  "assignment": "FFTFF",
+                  "op": "phi",
+                  "truth_table_index": 4
+                },
+                {
+                  "arg": {
+                    "assignment": "TFTTF",
+                    "op": "phi",
+                    "truth_table_index": 22
+                  },
+                  "op": "not"
+                }
+              ],
+              "op": "and"
+            },
+            {
+              "args": [
+                {
+                  "assignment": "FFTFF",
+                  "op": "phi",
+                  "truth_table_index": 4
+                },
+                {
+                  "assignment": "TFTTF",
+                  "op": "phi",
+                  "truth_table_index": 22
+                },
+                {
+                  "assignment": "FFTTF",
+                  "op": "phi",
+                  "truth_table_index": 6
+                }
+              ],
+              "op": "and"
+            }
+          ],
+          "op": "or"
+        },
+        "unit": 499
+      }
+    ],
+    "direction": "pair 411/492 original, positive edited endpoints",
+    "interpretation": "Unit 201's published rule includes TTFFT and excludes TFTFF. Coactivation or a saved-tensor effect is descriptive evidence of distributed compensation, not proof that unit 201 implements the same feature or causally mediates unit 411's threshold misses.",
+    "unit_201": {
+      "active_on_411_hits": 17,
+      "active_on_411_misses": 4,
+      "patchin_sat_on_411_hits": 5,
+      "patchin_sat_on_411_misses": 1,
+      "restoration_wrong_on_411_hits": 4,
+      "restoration_wrong_on_411_misses": 6,
+      "source_rule": {
+        "args": [
+          {
+            "assignment": "TTFFT",
+            "op": "phi",
+            "truth_table_index": 25
+          },
+          {
+            "arg": {
+              "assignment": "TFTFF",
+              "op": "phi",
+              "truth_table_index": 20
+            },
+            "op": "not"
+          }
+        ],
+        "op": "and"
+      },
+      "unit": 201
+    },
+    "unit_411_hits": 24,
+    "unit_411_misses": 8
+  }
+}

@@ -1,0 +1,3371 @@
+{
+  "aggregate": {
+    "all_selected_assessment": {
+      "continuous": {
+        "assignments": {
+          "FFFFF": 0.8678084469571001,
+          "FFFFT": 0.9476190476190476,
+          "FFFTF": 0.8716108452950558,
+          "FFFTT": 0.9045560359161955,
+          "FFTTT": 0.9239674593241551,
+          "FTFFT": 0.9105990783410138,
+          "FTTTF": 0.8607142857142858,
+          "TFFFF": 0.9008771929824562,
+          "TFFFT": 0.9787163285666778,
+          "TFFTT": 0.921875,
+          "TFTFT": 0.9166666666666667,
+          "TFTTT": 0.8781499202551835,
+          "TTFFT": 0.8654368932038835,
+          "TTFTT": 0.8404977375565611,
+          "TTTFF": 0.8190083217753121,
+          "TTTTF": 0.9539074960127591
+        },
+        "macro": 0.8976256722616471
+      },
+      "continuous_probability_auroc": {
+        "assignments": {
+          "FFFFF": 0.9416361822414365,
+          "FFFFT": 0.9510204081632653,
+          "FFFTF": 0.9553429027113237,
+          "FFFTT": 0.9680744928500166,
+          "FFTTT": 0.9604192740926158,
+          "FTFFT": 0.9228878648233486,
+          "FTTTF": 0.8869642857142856,
+          "TFFFF": 0.9596491228070175,
+          "TFFFT": 0.9770535417359494,
+          "TFFTT": 0.9770507812500001,
+          "TFTFT": 0.9669596354166666,
+          "TFTTT": 0.9272727272727272,
+          "TTFFT": 0.9574757281553398,
+          "TTFTT": 0.942684766214178,
+          "TTTFF": 0.905495839112344,
+          "TTTTF": 0.9784688995215312
+        },
+        "macro": 0.9486535282551278
+      },
+      "delta": {
+        "assignments": {
+          "FFFFF": -0.032258064516129004,
+          "FFFFT": 0.015306122448979553,
+          "FFFTF": -0.0164274322169059,
+          "FFFTT": -0.021283671433322215,
+          "FFTTT": -0.015957446808510634,
+          "FTFFT": -0.010752688172043001,
+          "FTTTF": 0.0,
+          "TFFFF": 0.01520467836257311,
+          "TFFFT": 0.005154639175257714,
+          "TFFTT": 0.005208333333333259,
+          "TFTFT": 0.005208333333333481,
+          "TFTTT": 0.0006379585326954373,
+          "TTFFT": -0.03572815533980578,
+          "TTFTT": -0.08634992458521873,
+          "TTTFF": -0.03964979195561713,
+          "TTTTF": 0.0
+        },
+        "macro": -0.01323044436508624
+      },
+      "structured": {
+        "assignments": {
+          "FFFFF": 0.9000665114732291,
+          "FFFFT": 0.932312925170068,
+          "FFFTF": 0.8880382775119617,
+          "FFFTT": 0.9258397073495177,
+          "FFTTT": 0.9399249061326658,
+          "FTFFT": 0.9213517665130568,
+          "FTTTF": 0.8607142857142858,
+          "TFFFF": 0.8856725146198831,
+          "TFFFT": 0.9735616893914201,
+          "TFFTT": 0.9166666666666667,
+          "TFTFT": 0.9114583333333333,
+          "TFTTT": 0.877511961722488,
+          "TTFFT": 0.9011650485436893,
+          "TTFTT": 0.9268476621417798,
+          "TTTFF": 0.8586581137309293,
+          "TTTTF": 0.9539074960127591
+        },
+        "macro": 0.9108561166267333
+      }
+    },
+    "all_selected_fit": {
+      "continuous": {
+        "assignments": {
+          "FFFFF": 0.9739583333333333,
+          "FFFFT": 0.9896907216494846,
+          "FFFTF": 0.9743221690590111,
+          "FFFTT": 1.0,
+          "FFTTT": 0.979585326953748,
+          "FTFFT": 0.9791666666666667,
+          "FTTTF": 0.9584048027444254,
+          "TFFFF": 0.9606758832565284,
+          "TFFFT": 1.0,
+          "TFFTT": 1.0,
+          "TFTFT": 0.9251207729468599,
+          "TFTTT": 0.9897959183673469,
+          "TTFFT": 0.8766025641025641,
+          "TTFTT": 0.9642857142857143,
+          "TTTFF": 0.9601541520611688,
+          "TTTTF": 0.9714285714285714
+        },
+        "macro": 0.9689494748034639
+      },
+      "continuous_probability_auroc": {
+        "assignments": {
+          "FFFFF": 0.9993489583333334,
+          "FFFFT": 0.9996674426338543,
+          "FFFTF": 0.9902711323763955,
+          "FFFTT": 1.0,
+          "FFTTT": 0.9929824561403509,
+          "FTFFT": 0.99072265625,
+          "FTTTF": 0.9774871355060034,
+          "TFFFF": 0.9874039938556067,
+          "TFFFT": 1.0,
+          "TFFTT": 1.0,
+          "TFTFT": 0.9486714975845411,
+          "TFTTT": 1.0,
+          "TTFFT": 0.9322916666666667,
+          "TTFTT": 0.9904761904761904,
+          "TTTFF": 0.9803312629399585,
+          "TTTTF": 0.9821812596006144
+        },
+        "macro": 0.9857397282727198
+      },
+      "delta": {
+        "assignments": {
+          "FFFFF": 0.05729166666666652,
+          "FFFFT": 0.04772198204190237,
+          "FFFTF": 0.06586921850079741,
+          "FFFTT": 0.07291666666666674,
+          "FFTTT": 0.030303030303030276,
+          "FTFFT": 0.03125,
+          "FTTTF": 0.07847341337907376,
+          "TFFFF": 0.05898617511520732,
+          "TFFFT": 0.015463917525773141,
+          "TFFTT": 0.1064183571666113,
+          "TFTFT": 0.05797101449275355,
+          "TFTTT": 0.03843537414965981,
+          "TTFFT": 0.027243589743589647,
+          "TTFTT": 0.108843537414966,
+          "TTTFF": 0.08756818746056799,
+          "TTTTF": 0.02857142857142858
+        },
+        "macro": 0.057082972449918404
+      },
+      "structured": {
+        "assignments": {
+          "FFFFF": 0.9166666666666667,
+          "FFFFT": 0.9419687396075822,
+          "FFFTF": 0.9084529505582137,
+          "FFFTT": 0.9270833333333333,
+          "FFTTT": 0.9492822966507177,
+          "FTFFT": 0.9479166666666667,
+          "FTTTF": 0.8799313893653516,
+          "TFFFF": 0.9016897081413211,
+          "TFFFT": 0.9845360824742269,
+          "TFFTT": 0.8935816428333887,
+          "TFTFT": 0.8671497584541064,
+          "TFTTT": 0.9513605442176871,
+          "TTFFT": 0.8493589743589745,
+          "TTFTT": 0.8554421768707483,
+          "TTTFF": 0.8725859646006009,
+          "TTTTF": 0.9428571428571428
+        },
+        "macro": 0.9118665023535455
+      }
+    },
+    "primary_assessment": {
+      "continuous": {
+        "assignments": {
+          "FFFFF": 0.8817267888823181,
+          "FFFFT": 0.946676146462851,
+          "FFFTF": 0.8879598662207357,
+          "FFFTT": 0.8994555353901996,
+          "FFTTT": 0.9212276214833759,
+          "FTFFT": 0.8873626373626373,
+          "FTTTF": 0.9039855072463767,
+          "TFFFF": 0.9215167548500882,
+          "TFFFT": 0.9774954627949184,
+          "TFFTT": 0.9149054505005562,
+          "TFTFT": 0.9352272727272727,
+          "TFTTT": 0.8461945031712474,
+          "TTFFT": 0.8471528471528471,
+          "TTFTT": 0.8210526315789474,
+          "TTTFF": 0.7448912567508392,
+          "TTTTF": 0.9461090303786933
+        },
+        "macro": 0.892683707059619
+      },
+      "continuous_probability_auroc": {
+        "assignments": {
+          "FFFFF": 0.9352454169130692,
+          "FFFFT": 0.9495200853181657,
+          "FFFTF": 0.9698996655518396,
+          "FFFTT": 0.9676950998185119,
+          "FFTTT": 0.9554987212276215,
+          "FTFFT": 0.9043040293040293,
+          "FTTTF": 0.9465579710144927,
+          "TFFFF": 0.9729570840681951,
+          "TFFFT": 0.9756805807622505,
+          "TFFTT": 0.9753429736744531,
+          "TFTFT": 0.9857954545454546,
+          "TFTTT": 0.9133192389006343,
+          "TTFFT": 0.9515484515484516,
+          "TTFTT": 0.92797783933518,
+          "TTTFF": 0.8856492969396195,
+          "TTTTF": 0.9752392842280483
+        },
+        "macro": 0.9495144495718761
+      },
+      "delta": {
+        "assignments": {
+          "FFFFF": -0.03577764636309877,
+          "FFFFT": 0.015463917525773141,
+          "FFFTF": -0.013377926421404673,
+          "FFFTT": -0.02250453720508161,
+          "FFTTT": -0.01764705882352946,
+          "FTFFT": -0.011904761904761862,
+          "FTTTF": 0.0,
+          "TFFFF": 0.01763668430335108,
+          "TFFFT": 0.0052631578947368585,
+          "TFFTT": 0.005376344086021501,
+          "TFTFT": 0.005681818181818232,
+          "TFTTT": -0.005285412262156397,
+          "TTFFT": -0.01798201798201804,
+          "TTFTT": -0.09473684210526312,
+          "TTTFF": -0.09994891256750837,
+          "TTTTF": 0.0
+        },
+        "macro": -0.016858949602695093
+      },
+      "structured": {
+        "assignments": {
+          "FFFFF": 0.9175044352454169,
+          "FFFFT": 0.9312122289370779,
+          "FFFTF": 0.9013377926421404,
+          "FFFTT": 0.9219600725952812,
+          "FFTTT": 0.9388746803069054,
+          "FTFFT": 0.8992673992673992,
+          "FTTTF": 0.9039855072463767,
+          "TFFFF": 0.9038800705467371,
+          "TFFFT": 0.9722323049001815,
+          "TFFTT": 0.9095291064145347,
+          "TFTFT": 0.9295454545454545,
+          "TFTTT": 0.8514799154334038,
+          "TTFFT": 0.8651348651348651,
+          "TTFTT": 0.9157894736842105,
+          "TTTFF": 0.8448401693183476,
+          "TTTTF": 0.9461090303786933
+        },
+        "macro": 0.9095426566623142
+      }
+    },
+    "primary_fit": {
+      "continuous": {
+        "assignments": {
+          "FFFFF": 0.9942528735632183,
+          "FFFFT": 0.9896907216494846,
+          "FFFTF": 0.9888888888888889,
+          "FFFTT": 1.0,
+          "FFTTT": 0.9941860465116279,
+          "FTFFT": 0.9939024390243902,
+          "FTTTF": 0.9795918367346939,
+          "TFFFF": 0.9939759036144578,
+          "TFFFT": 1.0,
+          "TFFTT": 1.0,
+          "TFTFT": 0.9939759036144578,
+          "TFTTT": 0.9893617021276595,
+          "TTFFT": 0.9797979797979798,
+          "TTFTT": 0.9619565217391304,
+          "TTTFF": 0.9922826086956522,
+          "TTTTF": 1.0
+        },
+        "macro": 0.9907414641226026
+      },
+      "continuous_probability_auroc": {
+        "assignments": {
+          "FFFFF": 1.0,
+          "FFFFT": 0.9996674426338543,
+          "FFFTF": 0.9991452991452991,
+          "FFFTT": 1.0,
+          "FFTTT": 1.0,
+          "FTFFT": 1.0,
+          "FTTTF": 1.0,
+          "TFFFF": 1.0,
+          "TFFFT": 1.0,
+          "TFFTT": 1.0,
+          "TFTFT": 1.0,
+          "TFTTT": 1.0,
+          "TTFFT": 1.0,
+          "TTFTT": 0.9900362318840581,
+          "TTTFF": 1.0,
+          "TTTTF": 1.0
+        },
+        "macro": 0.9993030608539508
+      },
+      "delta": {
+        "assignments": {
+          "FFFFF": 0.08866995073891626,
+          "FFFFT": 0.04772198204190237,
+          "FFFTF": 0.08247863247863252,
+          "FFFTT": 0.07659574468085106,
+          "FFTTT": 0.045454545454545414,
+          "FTFFT": 0.0625,
+          "FTTTF": 0.11904761904761907,
+          "TFFFF": 0.09552495697074004,
+          "TFFFT": 0.015957446808510634,
+          "TFFTT": 0.1064183571666113,
+          "TFTFT": 0.10630758327427348,
+          "TFTTT": 0.04378068739770857,
+          "TTFFT": 0.08896658896658893,
+          "TTFTT": 0.1313405797101449,
+          "TTTFF": 0.11100241545893724,
+          "TTTTF": 0.045454545454545414
+        },
+        "macro": 0.07920135222815795
+      },
+      "structured": {
+        "assignments": {
+          "FFFFF": 0.9055829228243021,
+          "FFFFT": 0.9419687396075822,
+          "FFFTF": 0.9064102564102564,
+          "FFFTT": 0.9234042553191489,
+          "FFTTT": 0.9487315010570825,
+          "FTFFT": 0.9314024390243902,
+          "FTTTF": 0.8605442176870748,
+          "TFFFF": 0.8984509466437177,
+          "TFFFT": 0.9840425531914894,
+          "TFFTT": 0.8935816428333887,
+          "TFTFT": 0.8876683203401843,
+          "TFTTT": 0.9455810147299509,
+          "TTFFT": 0.8908313908313908,
+          "TTFTT": 0.8306159420289855,
+          "TTTFF": 0.8812801932367149,
+          "TTTTF": 0.9545454545454546
+        },
+        "macro": 0.9115401118944446
+      }
+    }
+  },
+  "bootstrap": {
+    "continuous": {
+      "draws": 2000,
+      "interval_2_5_97_5": [
+        0.8711308840370624,
+        0.9121888089243755
+      ],
+      "na_draws": 0,
+      "valid_draws": 2000
+    },
+    "delta": {
+      "draws": 2000,
+      "interval_2_5_97_5": [
+        -0.03160217617687335,
+        -0.0035432272098065393
+      ],
+      "na_draws": 0,
+      "valid_draws": 2000
+    },
+    "distinct_origin_clusters": 685,
+    "origin_multiplicities_reused_exactly": true,
+    "original_bootstrap_sha256": "9a209a05ffe419b2cde0edf982a94b54e825b69fab61db69050d80f82254a88c",
+    "per_unit": {
+      "10": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8435574494949495,
+            0.9821468078381795
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.06197916666666667,
+            0.09523809523809523
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8278377343186734,
+            0.9715969110115238
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "185": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8273831775700934,
+            0.9638503054027959
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.06526493125402916,
+            0.0
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8563953648589065,
+            0.9775301861479121
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "224": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8968018076717454,
+            0.9838709677419355
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.006174768518518545,
+            0.039215686274509665
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8815194452818812,
+            0.9695926100716229
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "245": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.82375,
+            0.9545454545454546
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.03061224489795911,
+            0.0
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8360953924747028,
+            0.9645693955637374
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "261": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.7012054044066239,
+            0.9159134615384615
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.2035414266513058,
+            -0.005942960786353208
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8488851540616247,
+            0.9642857142857143
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "291": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.756946780147662,
+            0.9336787405871986
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.0661217291653088,
+            0.04091376089663757
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.7639944582250571,
+            0.9348849679732032
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "317": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.931815794499618,
+            1.0
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.0,
+            0.017241379310344862
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.9270495129870129,
+            1.0
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "326": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8882249245852186,
+            0.9933355263157895
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.0,
+            0.0
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8882249245852186,
+            0.9933355263157895
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "380": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8438486620605813,
+            0.9745192307692307
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.06896665403561958,
+            0.07999999999999996
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8382519187736579,
+            0.9721654797601198
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "41": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.7870534494439642,
+            0.9567307692307692
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.11968088214815044,
+            0.03289784011916587
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8514421132457027,
+            0.9679521276595745
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "411": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.6872355618330195,
+            0.98863955566905
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.12707725195341293,
+            0.04687959558823527
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.721160016958986,
+            0.9733421052631579
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "416": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.6844327394419306,
+            0.9049966850265196
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.14872127872127863,
+            0.05844328543796635
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.7383260869565217,
+            0.9186125078566939
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "492": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.877521150055509,
+            0.9803921568627452
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.0,
+            0.018987341772151892
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8699232520564043,
+            0.9775301861479121
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "495": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8109581761747604,
+            0.9485294117647058
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.05294117647058827,
+            0.03485389610389613
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8234198564593301,
+            0.9650525651808242
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "55": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.5481802376122862,
+            0.8423254451733833
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.31549793956043953,
+            -0.03293196386946389
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.7511224827768946,
+            0.9526315789473685
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "77": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8558339183339183,
+            0.9772791113381001
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.03810439560439547,
+            0.0
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.875248121673296,
+            0.9932454954954955
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      },
+      "81": {
+        "continuous": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8022293861798578,
+            0.9666666666666667
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "delta": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            -0.0267954192546584,
+            0.026881720430107503
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        },
+        "structured": {
+          "draws": 2000,
+          "interval_2_5_97_5": [
+            0.8021700310559007,
+            0.9666758241758241
+          ],
+          "na_draws": 0,
+          "valid_draws": 2000
+        }
+      }
+    },
+    "structured": {
+      "draws": 2000,
+      "interval_2_5_97_5": [
+        0.8902645540784255,
+        0.9278309571149643
+      ],
+      "na_draws": 0,
+      "valid_draws": 2000
+    },
+    "structured_bootstrap_matches_exactly": true
+  },
+  "interpretation": {
+    "category": "UNRESOLVED_OR_UNSUPPORTED",
+    "descriptive_parity": false,
+    "readiness_meets_development_noninferiority": true,
+    "resolution": 0.02
+  },
+  "pooled_disagreement": [
+    {
+      "action": "repair",
+      "both_correct": 322,
+      "both_wrong": 51,
+      "continuous_errors": 76,
+      "continuous_only_correct": 18,
+      "n": 416,
+      "native_negative": 63,
+      "native_positive": 353,
+      "prediction_disagreement": 43,
+      "qclass": "one",
+      "scope": "primary_assessment",
+      "structured_errors": 69,
+      "structured_only_correct": 25
+    },
+    {
+      "action": "neutral",
+      "both_correct": 396,
+      "both_wrong": 13,
+      "continuous_errors": 19,
+      "continuous_only_correct": 1,
+      "n": 416,
+      "native_negative": 402,
+      "native_positive": 14,
+      "prediction_disagreement": 7,
+      "qclass": "one",
+      "scope": "primary_assessment",
+      "structured_errors": 14,
+      "structured_only_correct": 6
+    },
+    {
+      "action": "repair",
+      "both_correct": 450,
+      "both_wrong": 43,
+      "continuous_errors": 57,
+      "continuous_only_correct": 32,
+      "n": 539,
+      "native_negative": 535,
+      "native_positive": 4,
+      "prediction_disagreement": 46,
+      "qclass": "many",
+      "scope": "primary_assessment",
+      "structured_errors": 75,
+      "structured_only_correct": 14
+    },
+    {
+      "action": "neutral",
+      "both_correct": 538,
+      "both_wrong": 1,
+      "continuous_errors": 1,
+      "continuous_only_correct": 0,
+      "n": 539,
+      "native_negative": 538,
+      "native_positive": 1,
+      "prediction_disagreement": 0,
+      "qclass": "many",
+      "scope": "primary_assessment",
+      "structured_errors": 1,
+      "structured_only_correct": 0
+    },
+    {
+      "action": "repair",
+      "both_correct": 447,
+      "both_wrong": 51,
+      "continuous_errors": 79,
+      "continuous_only_correct": 18,
+      "n": 544,
+      "native_negative": 63,
+      "native_positive": 481,
+      "prediction_disagreement": 46,
+      "qclass": "one",
+      "scope": "all_selected_assessment",
+      "structured_errors": 69,
+      "structured_only_correct": 28
+    },
+    {
+      "action": "neutral",
+      "both_correct": 501,
+      "both_wrong": 32,
+      "continuous_errors": 41,
+      "continuous_only_correct": 2,
+      "n": 544,
+      "native_negative": 510,
+      "native_positive": 34,
+      "prediction_disagreement": 11,
+      "qclass": "one",
+      "scope": "all_selected_assessment",
+      "structured_errors": 34,
+      "structured_only_correct": 9
+    },
+    {
+      "action": "repair",
+      "both_correct": 455,
+      "both_wrong": 43,
+      "continuous_errors": 57,
+      "continuous_only_correct": 32,
+      "n": 544,
+      "native_negative": 535,
+      "native_positive": 9,
+      "prediction_disagreement": 46,
+      "qclass": "many",
+      "scope": "all_selected_assessment",
+      "structured_errors": 75,
+      "structured_only_correct": 14
+    },
+    {
+      "action": "neutral",
+      "both_correct": 542,
+      "both_wrong": 1,
+      "continuous_errors": 2,
+      "continuous_only_correct": 0,
+      "n": 544,
+      "native_negative": 543,
+      "native_positive": 1,
+      "prediction_disagreement": 1,
+      "qclass": "many",
+      "scope": "all_selected_assessment",
+      "structured_errors": 1,
+      "structured_only_correct": 1
+    },
+    {
+      "action": "repair",
+      "both_correct": 348,
+      "both_wrong": 11,
+      "continuous_errors": 12,
+      "continuous_only_correct": 60,
+      "n": 420,
+      "native_negative": 71,
+      "native_positive": 349,
+      "prediction_disagreement": 61,
+      "qclass": "one",
+      "scope": "primary_fit",
+      "structured_errors": 71,
+      "structured_only_correct": 1
+    },
+    {
+      "action": "neutral",
+      "both_correct": 410,
+      "both_wrong": 0,
+      "continuous_errors": 0,
+      "continuous_only_correct": 10,
+      "n": 420,
+      "native_negative": 410,
+      "native_positive": 10,
+      "prediction_disagreement": 10,
+      "qclass": "one",
+      "scope": "primary_fit",
+      "structured_errors": 10,
+      "structured_only_correct": 0
+    },
+    {
+      "action": "repair",
+      "both_correct": 475,
+      "both_wrong": 15,
+      "continuous_errors": 17,
+      "continuous_only_correct": 49,
+      "n": 541,
+      "native_negative": 530,
+      "native_positive": 11,
+      "prediction_disagreement": 51,
+      "qclass": "many",
+      "scope": "primary_fit",
+      "structured_errors": 64,
+      "structured_only_correct": 2
+    },
+    {
+      "action": "neutral",
+      "both_correct": 541,
+      "both_wrong": 0,
+      "continuous_errors": 0,
+      "continuous_only_correct": 0,
+      "n": 541,
+      "native_negative": 541,
+      "native_positive": 0,
+      "prediction_disagreement": 0,
+      "qclass": "many",
+      "scope": "primary_fit",
+      "structured_errors": 0,
+      "structured_only_correct": 0
+    },
+    {
+      "action": "repair",
+      "both_correct": 470,
+      "both_wrong": 11,
+      "continuous_errors": 14,
+      "continuous_only_correct": 60,
+      "n": 544,
+      "native_negative": 71,
+      "native_positive": 473,
+      "prediction_disagreement": 63,
+      "qclass": "one",
+      "scope": "all_selected_fit",
+      "structured_errors": 71,
+      "structured_only_correct": 3
+    },
+    {
+      "action": "neutral",
+      "both_correct": 512,
+      "both_wrong": 20,
+      "continuous_errors": 22,
+      "continuous_only_correct": 10,
+      "n": 544,
+      "native_negative": 514,
+      "native_positive": 30,
+      "prediction_disagreement": 12,
+      "qclass": "one",
+      "scope": "all_selected_fit",
+      "structured_errors": 30,
+      "structured_only_correct": 2
+    },
+    {
+      "action": "repair",
+      "both_correct": 478,
+      "both_wrong": 15,
+      "continuous_errors": 17,
+      "continuous_only_correct": 49,
+      "n": 544,
+      "native_negative": 530,
+      "native_positive": 14,
+      "prediction_disagreement": 51,
+      "qclass": "many",
+      "scope": "all_selected_fit",
+      "structured_errors": 64,
+      "structured_only_correct": 2
+    },
+    {
+      "action": "neutral",
+      "both_correct": 544,
+      "both_wrong": 0,
+      "continuous_errors": 0,
+      "continuous_only_correct": 0,
+      "n": 544,
+      "native_negative": 544,
+      "native_positive": 0,
+      "prediction_disagreement": 0,
+      "qclass": "many",
+      "scope": "all_selected_fit",
+      "structured_errors": 0,
+      "structured_only_correct": 0
+    }
+  ],
+  "pooled_disagreement_warning": "Pooled raw counts, not assignment-weighted accuracy",
+  "units": [
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 51,
+        "continuous": {
+          "balanced_accuracy": 0.9008771929824562,
+          "fn": 5,
+          "fp": 6,
+          "n": 128,
+          "negative": 90,
+          "positive": 38,
+          "reason": null,
+          "sensitivity": 0.868421052631579,
+          "specificity": 0.9333333333333333,
+          "tn": 84,
+          "tp": 33
+        },
+        "continuous_probability_auroc": 0.9596491228070175,
+        "delta": 0.01520467836257311,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8856725146198831,
+          "fn": 7,
+          "fp": 4,
+          "n": 128,
+          "negative": 90,
+          "positive": 38,
+          "reason": null,
+          "sensitivity": 0.8157894736842105,
+          "specificity": 0.9555555555555556,
+          "tn": 86,
+          "tp": 31
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 52,
+        "continuous": {
+          "balanced_accuracy": 0.9606758832565284,
+          "fn": 2,
+          "fp": 2,
+          "n": 128,
+          "negative": 93,
+          "positive": 35,
+          "reason": null,
+          "sensitivity": 0.9428571428571428,
+          "specificity": 0.978494623655914,
+          "tn": 91,
+          "tp": 33
+        },
+        "continuous_probability_auroc": 0.9874039938556067,
+        "delta": 0.05898617511520732,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9016897081413211,
+          "fn": 5,
+          "fp": 5,
+          "n": 128,
+          "negative": 93,
+          "positive": 35,
+          "reason": null,
+          "sensitivity": 0.8571428571428571,
+          "specificity": 0.946236559139785,
+          "tn": 88,
+          "tp": 30
+        }
+      },
+      "assignment": "TFFFF",
+      "primary_assessment": {
+        "clipped_paired_origins": 51,
+        "continuous": {
+          "balanced_accuracy": 0.9215167548500882,
+          "fn": 2,
+          "fp": 5,
+          "n": 102,
+          "negative": 81,
+          "positive": 21,
+          "reason": null,
+          "sensitivity": 0.9047619047619048,
+          "specificity": 0.9382716049382716,
+          "tn": 76,
+          "tp": 19
+        },
+        "continuous_probability_auroc": 0.9729570840681951,
+        "delta": 0.01763668430335108,
+        "paired_origins": 51,
+        "structured": {
+          "balanced_accuracy": 0.9038800705467371,
+          "fn": 3,
+          "fp": 4,
+          "n": 102,
+          "negative": 81,
+          "positive": 21,
+          "reason": null,
+          "sensitivity": 0.8571428571428571,
+          "specificity": 0.9506172839506173,
+          "tn": 77,
+          "tp": 18
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 52,
+        "continuous": {
+          "balanced_accuracy": 0.9939759036144578,
+          "fn": 0,
+          "fp": 1,
+          "n": 104,
+          "negative": 83,
+          "positive": 21,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9879518072289156,
+          "tn": 82,
+          "tp": 21
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.09552495697074004,
+        "paired_origins": 52,
+        "structured": {
+          "balanced_accuracy": 0.8984509466437177,
+          "fn": 3,
+          "fp": 5,
+          "n": 104,
+          "negative": 83,
+          "positive": 21,
+          "reason": null,
+          "sensitivity": 0.8571428571428571,
+          "specificity": 0.9397590361445783,
+          "tn": 78,
+          "tp": 18
+        }
+      },
+      "unit": 10
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.8678084469571001,
+          "fn": 5,
+          "fp": 10,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.8387096774193549,
+          "specificity": 0.8969072164948454,
+          "tn": 87,
+          "tp": 26
+        },
+        "continuous_probability_auroc": 0.9416361822414365,
+        "delta": -0.032258064516129004,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9000665114732291,
+          "fn": 3,
+          "fp": 10,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.9032258064516129,
+          "specificity": 0.8969072164948454,
+          "tn": 87,
+          "tp": 28
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.9739583333333333,
+          "fn": 1,
+          "fp": 2,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.96875,
+          "specificity": 0.9791666666666666,
+          "tn": 94,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.9993489583333334,
+        "delta": 0.05729166666666652,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9166666666666667,
+          "fn": 4,
+          "fp": 4,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.875,
+          "specificity": 0.9583333333333334,
+          "tn": 92,
+          "tp": 28
+        }
+      },
+      "assignment": "FFFFF",
+      "primary_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.8817267888823181,
+          "fn": 3,
+          "fp": 7,
+          "n": 108,
+          "negative": 89,
+          "positive": 19,
+          "reason": null,
+          "sensitivity": 0.8421052631578947,
+          "specificity": 0.9213483146067416,
+          "tn": 82,
+          "tp": 16
+        },
+        "continuous_probability_auroc": 0.9352454169130692,
+        "delta": -0.03577764636309877,
+        "paired_origins": 54,
+        "structured": {
+          "balanced_accuracy": 0.9175044352454169,
+          "fn": 1,
+          "fp": 10,
+          "n": 108,
+          "negative": 89,
+          "positive": 19,
+          "reason": null,
+          "sensitivity": 0.9473684210526315,
+          "specificity": 0.8876404494382022,
+          "tn": 79,
+          "tp": 18
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.9942528735632183,
+          "fn": 0,
+          "fp": 1,
+          "n": 108,
+          "negative": 87,
+          "positive": 21,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9885057471264368,
+          "tn": 86,
+          "tp": 21
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.08866995073891626,
+        "paired_origins": 54,
+        "structured": {
+          "balanced_accuracy": 0.9055829228243021,
+          "fn": 3,
+          "fp": 4,
+          "n": 108,
+          "negative": 87,
+          "positive": 21,
+          "reason": null,
+          "sensitivity": 0.8571428571428571,
+          "specificity": 0.9540229885057471,
+          "tn": 83,
+          "tp": 18
+        }
+      },
+      "unit": 41
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 53,
+        "continuous": {
+          "balanced_accuracy": 0.8108737864077671,
+          "fn": 8,
+          "fp": 6,
+          "n": 128,
+          "negative": 103,
+          "positive": 25,
+          "reason": null,
+          "sensitivity": 0.68,
+          "specificity": 0.941747572815534,
+          "tn": 97,
+          "tp": 17
+        },
+        "continuous_probability_auroc": 0.9145631067961165,
+        "delta": -0.0757281553398057,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8866019417475728,
+          "fn": 3,
+          "fp": 11,
+          "n": 128,
+          "negative": 103,
+          "positive": 25,
+          "reason": null,
+          "sensitivity": 0.88,
+          "specificity": 0.8932038834951457,
+          "tn": 92,
+          "tp": 22
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 56,
+        "continuous": {
+          "balanced_accuracy": 0.9252587991718426,
+          "fn": 3,
+          "fp": 2,
+          "n": 128,
+          "negative": 105,
+          "positive": 23,
+          "reason": null,
+          "sensitivity": 0.8695652173913043,
+          "specificity": 0.9809523809523809,
+          "tn": 103,
+          "tp": 20
+        },
+        "continuous_probability_auroc": 0.9606625258799172,
+        "delta": 0.0836438923395445,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8416149068322981,
+          "fn": 4,
+          "fp": 15,
+          "n": 128,
+          "negative": 105,
+          "positive": 23,
+          "reason": null,
+          "sensitivity": 0.8260869565217391,
+          "specificity": 0.8571428571428571,
+          "tn": 90,
+          "tp": 19
+        }
+      },
+      "assignment": "TTTFF",
+      "primary_assessment": {
+        "clipped_paired_origins": 53,
+        "continuous": {
+          "balanced_accuracy": 0.6985111662531017,
+          "fn": 7,
+          "fp": 6,
+          "n": 106,
+          "negative": 93,
+          "positive": 13,
+          "reason": null,
+          "sensitivity": 0.46153846153846156,
+          "specificity": 0.9354838709677419,
+          "tn": 87,
+          "tp": 6
+        },
+        "continuous_probability_auroc": 0.8734491315136477,
+        "delta": -0.1654259718775848,
+        "paired_origins": 53,
+        "structured": {
+          "balanced_accuracy": 0.8639371381306865,
+          "fn": 2,
+          "fp": 11,
+          "n": 106,
+          "negative": 93,
+          "positive": 13,
+          "reason": null,
+          "sensitivity": 0.8461538461538461,
+          "specificity": 0.8817204301075269,
+          "tn": 82,
+          "tp": 11
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 56,
+        "continuous": {
+          "balanced_accuracy": 0.99,
+          "fn": 0,
+          "fp": 2,
+          "n": 112,
+          "negative": 100,
+          "positive": 12,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.98,
+          "tn": 98,
+          "tp": 12
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.10666666666666669,
+        "paired_origins": 56,
+        "structured": {
+          "balanced_accuracy": 0.8833333333333333,
+          "fn": 1,
+          "fp": 15,
+          "n": 112,
+          "negative": 100,
+          "positive": 12,
+          "reason": null,
+          "sensitivity": 0.9166666666666666,
+          "specificity": 0.85,
+          "tn": 85,
+          "tp": 11
+        }
+      },
+      "unit": 55
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.9239674593241551,
+          "fn": 3,
+          "fp": 6,
+          "n": 128,
+          "negative": 94,
+          "positive": 34,
+          "reason": null,
+          "sensitivity": 0.9117647058823529,
+          "specificity": 0.9361702127659575,
+          "tn": 88,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.9604192740926158,
+        "delta": -0.015957446808510634,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9399249061326658,
+          "fn": 3,
+          "fp": 3,
+          "n": 128,
+          "negative": 94,
+          "positive": 34,
+          "reason": null,
+          "sensitivity": 0.9117647058823529,
+          "specificity": 0.9680851063829787,
+          "tn": 91,
+          "tp": 31
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.979585326953748,
+          "fn": 1,
+          "fp": 1,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.9696969696969697,
+          "specificity": 0.9894736842105263,
+          "tn": 94,
+          "tp": 32
+        },
+        "continuous_probability_auroc": 0.9929824561403509,
+        "delta": 0.030303030303030276,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9492822966507177,
+          "fn": 3,
+          "fp": 1,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.9090909090909091,
+          "specificity": 0.9894736842105263,
+          "tn": 94,
+          "tp": 30
+        }
+      },
+      "assignment": "FFTTT",
+      "primary_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.9212276214833759,
+          "fn": 2,
+          "fp": 6,
+          "n": 108,
+          "negative": 85,
+          "positive": 23,
+          "reason": null,
+          "sensitivity": 0.9130434782608695,
+          "specificity": 0.9294117647058824,
+          "tn": 79,
+          "tp": 21
+        },
+        "continuous_probability_auroc": 0.9554987212276215,
+        "delta": -0.01764705882352946,
+        "paired_origins": 54,
+        "structured": {
+          "balanced_accuracy": 0.9388746803069054,
+          "fn": 2,
+          "fp": 3,
+          "n": 108,
+          "negative": 85,
+          "positive": 23,
+          "reason": null,
+          "sensitivity": 0.9130434782608695,
+          "specificity": 0.9647058823529412,
+          "tn": 82,
+          "tp": 21
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.9941860465116279,
+          "fn": 0,
+          "fp": 1,
+          "n": 108,
+          "negative": 86,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9883720930232558,
+          "tn": 85,
+          "tp": 22
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.045454545454545414,
+        "paired_origins": 54,
+        "structured": {
+          "balanced_accuracy": 0.9487315010570825,
+          "fn": 2,
+          "fp": 1,
+          "n": 108,
+          "negative": 86,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 0.9090909090909091,
+          "specificity": 0.9883720930232558,
+          "tn": 85,
+          "tp": 20
+        }
+      },
+      "unit": 77
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 52,
+        "continuous": {
+          "balanced_accuracy": 0.8607142857142858,
+          "fn": 5,
+          "fp": 10,
+          "n": 128,
+          "negative": 100,
+          "positive": 28,
+          "reason": null,
+          "sensitivity": 0.8214285714285714,
+          "specificity": 0.9,
+          "tn": 90,
+          "tp": 23
+        },
+        "continuous_probability_auroc": 0.8869642857142856,
+        "delta": 0.0,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8607142857142858,
+          "fn": 5,
+          "fp": 10,
+          "n": 128,
+          "negative": 100,
+          "positive": 28,
+          "reason": null,
+          "sensitivity": 0.8214285714285714,
+          "specificity": 0.9,
+          "tn": 90,
+          "tp": 23
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.9584048027444254,
+          "fn": 1,
+          "fp": 4,
+          "n": 128,
+          "negative": 106,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 0.9545454545454546,
+          "specificity": 0.9622641509433962,
+          "tn": 102,
+          "tp": 21
+        },
+        "continuous_probability_auroc": 0.9774871355060034,
+        "delta": 0.07847341337907376,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8799313893653516,
+          "fn": 3,
+          "fp": 11,
+          "n": 128,
+          "negative": 106,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 0.8636363636363636,
+          "specificity": 0.8962264150943396,
+          "tn": 95,
+          "tp": 19
+        }
+      },
+      "assignment": "FTTTF",
+      "primary_assessment": {
+        "clipped_paired_origins": 52,
+        "continuous": {
+          "balanced_accuracy": 0.9039855072463767,
+          "fn": 1,
+          "fp": 10,
+          "n": 104,
+          "negative": 92,
+          "positive": 12,
+          "reason": null,
+          "sensitivity": 0.9166666666666666,
+          "specificity": 0.8913043478260869,
+          "tn": 82,
+          "tp": 11
+        },
+        "continuous_probability_auroc": 0.9465579710144927,
+        "delta": 0.0,
+        "paired_origins": 52,
+        "structured": {
+          "balanced_accuracy": 0.9039855072463767,
+          "fn": 1,
+          "fp": 10,
+          "n": 104,
+          "negative": 92,
+          "positive": 12,
+          "reason": null,
+          "sensitivity": 0.9166666666666666,
+          "specificity": 0.8913043478260869,
+          "tn": 82,
+          "tp": 11
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.9795918367346939,
+          "fn": 0,
+          "fp": 4,
+          "n": 110,
+          "negative": 98,
+          "positive": 12,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9591836734693877,
+          "tn": 94,
+          "tp": 12
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.11904761904761907,
+        "paired_origins": 55,
+        "structured": {
+          "balanced_accuracy": 0.8605442176870748,
+          "fn": 2,
+          "fp": 11,
+          "n": 110,
+          "negative": 98,
+          "positive": 12,
+          "reason": null,
+          "sensitivity": 0.8333333333333334,
+          "specificity": 0.8877551020408163,
+          "tn": 87,
+          "tp": 10
+        }
+      },
+      "unit": 81
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 62,
+        "continuous": {
+          "balanced_accuracy": 0.9045560359161955,
+          "fn": 4,
+          "fp": 6,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.8709677419354839,
+          "specificity": 0.9381443298969072,
+          "tn": 91,
+          "tp": 27
+        },
+        "continuous_probability_auroc": 0.9680744928500166,
+        "delta": -0.021283671433322215,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9258397073495177,
+          "fn": 3,
+          "fp": 5,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.9032258064516129,
+          "specificity": 0.9484536082474226,
+          "tn": 92,
+          "tp": 28
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 62,
+        "continuous": {
+          "balanced_accuracy": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "tn": 96,
+          "tp": 32
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.07291666666666674,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9270833333333333,
+          "fn": 3,
+          "fp": 5,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.90625,
+          "specificity": 0.9479166666666666,
+          "tn": 91,
+          "tp": 29
+        }
+      },
+      "assignment": "FFFTT",
+      "primary_assessment": {
+        "clipped_paired_origins": 62,
+        "continuous": {
+          "balanced_accuracy": 0.8994555353901996,
+          "fn": 4,
+          "fp": 6,
+          "n": 124,
+          "negative": 95,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.8620689655172413,
+          "specificity": 0.9368421052631579,
+          "tn": 89,
+          "tp": 25
+        },
+        "continuous_probability_auroc": 0.9676950998185119,
+        "delta": -0.02250453720508161,
+        "paired_origins": 62,
+        "structured": {
+          "balanced_accuracy": 0.9219600725952812,
+          "fn": 3,
+          "fp": 5,
+          "n": 124,
+          "negative": 95,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.896551724137931,
+          "specificity": 0.9473684210526315,
+          "tn": 90,
+          "tp": 26
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 62,
+        "continuous": {
+          "balanced_accuracy": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "n": 124,
+          "negative": 94,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "tn": 94,
+          "tp": 30
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.07659574468085106,
+        "paired_origins": 62,
+        "structured": {
+          "balanced_accuracy": 0.9234042553191489,
+          "fn": 3,
+          "fp": 5,
+          "n": 124,
+          "negative": 94,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 0.9,
+          "specificity": 0.9468085106382979,
+          "tn": 89,
+          "tp": 27
+        }
+      },
+      "unit": 185
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 63,
+        "continuous": {
+          "balanced_accuracy": 0.9476190476190476,
+          "fn": 1,
+          "fp": 7,
+          "n": 128,
+          "negative": 98,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 0.9666666666666667,
+          "specificity": 0.9285714285714286,
+          "tn": 91,
+          "tp": 29
+        },
+        "continuous_probability_auroc": 0.9510204081632653,
+        "delta": 0.015306122448979553,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.932312925170068,
+          "fn": 1,
+          "fp": 10,
+          "n": 128,
+          "negative": 98,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 0.9666666666666667,
+          "specificity": 0.8979591836734694,
+          "tn": 88,
+          "tp": 29
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 64,
+        "continuous": {
+          "balanced_accuracy": 0.9896907216494846,
+          "fn": 0,
+          "fp": 2,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.979381443298969,
+          "tn": 95,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.9996674426338543,
+        "delta": 0.04772198204190237,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9419687396075822,
+          "fn": 2,
+          "fp": 5,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.9354838709677419,
+          "specificity": 0.9484536082474226,
+          "tn": 92,
+          "tp": 29
+        }
+      },
+      "assignment": "FFFFT",
+      "primary_assessment": {
+        "clipped_paired_origins": 63,
+        "continuous": {
+          "balanced_accuracy": 0.946676146462851,
+          "fn": 1,
+          "fp": 7,
+          "n": 126,
+          "negative": 97,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.9655172413793104,
+          "specificity": 0.9278350515463918,
+          "tn": 90,
+          "tp": 28
+        },
+        "continuous_probability_auroc": 0.9495200853181657,
+        "delta": 0.015463917525773141,
+        "paired_origins": 63,
+        "structured": {
+          "balanced_accuracy": 0.9312122289370779,
+          "fn": 1,
+          "fp": 10,
+          "n": 126,
+          "negative": 97,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.9655172413793104,
+          "specificity": 0.8969072164948454,
+          "tn": 87,
+          "tp": 28
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 64,
+        "continuous": {
+          "balanced_accuracy": 0.9896907216494846,
+          "fn": 0,
+          "fp": 2,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.979381443298969,
+          "tn": 95,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.9996674426338543,
+        "delta": 0.04772198204190237,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9419687396075822,
+          "fn": 2,
+          "fp": 5,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.9354838709677419,
+          "specificity": 0.9484536082474226,
+          "tn": 92,
+          "tp": 29
+        }
+      },
+      "unit": 224
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.9105990783410138,
+          "fn": 4,
+          "fp": 6,
+          "n": 128,
+          "negative": 93,
+          "positive": 35,
+          "reason": null,
+          "sensitivity": 0.8857142857142857,
+          "specificity": 0.9354838709677419,
+          "tn": 87,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.9228878648233486,
+        "delta": -0.010752688172043001,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9213517665130568,
+          "fn": 4,
+          "fp": 4,
+          "n": 128,
+          "negative": 93,
+          "positive": 35,
+          "reason": null,
+          "sensitivity": 0.8857142857142857,
+          "specificity": 0.956989247311828,
+          "tn": 89,
+          "tp": 31
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 49,
+        "continuous": {
+          "balanced_accuracy": 0.9791666666666667,
+          "fn": 1,
+          "fp": 1,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.96875,
+          "specificity": 0.9895833333333334,
+          "tn": 95,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.99072265625,
+        "delta": 0.03125,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9479166666666667,
+          "fn": 3,
+          "fp": 1,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.90625,
+          "specificity": 0.9895833333333334,
+          "tn": 95,
+          "tp": 29
+        }
+      },
+      "assignment": "FTFFT",
+      "primary_assessment": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.8873626373626373,
+          "fn": 4,
+          "fp": 6,
+          "n": 110,
+          "negative": 84,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.8461538461538461,
+          "specificity": 0.9285714285714286,
+          "tn": 78,
+          "tp": 22
+        },
+        "continuous_probability_auroc": 0.9043040293040293,
+        "delta": -0.011904761904761862,
+        "paired_origins": 55,
+        "structured": {
+          "balanced_accuracy": 0.8992673992673992,
+          "fn": 4,
+          "fp": 4,
+          "n": 110,
+          "negative": 84,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.8461538461538461,
+          "specificity": 0.9523809523809523,
+          "tn": 80,
+          "tp": 22
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 49,
+        "continuous": {
+          "balanced_accuracy": 0.9939024390243902,
+          "fn": 0,
+          "fp": 1,
+          "n": 98,
+          "negative": 82,
+          "positive": 16,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9878048780487805,
+          "tn": 81,
+          "tp": 16
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.0625,
+        "paired_origins": 49,
+        "structured": {
+          "balanced_accuracy": 0.9314024390243902,
+          "fn": 2,
+          "fp": 1,
+          "n": 98,
+          "negative": 82,
+          "positive": 16,
+          "reason": null,
+          "sensitivity": 0.875,
+          "specificity": 0.9878048780487805,
+          "tn": 81,
+          "tp": 14
+        }
+      },
+      "unit": 245
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 57,
+        "continuous": {
+          "balanced_accuracy": 0.8404977375565611,
+          "fn": 6,
+          "fp": 9,
+          "n": 128,
+          "negative": 102,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.7692307692307693,
+          "specificity": 0.9117647058823529,
+          "tn": 93,
+          "tp": 20
+        },
+        "continuous_probability_auroc": 0.942684766214178,
+        "delta": -0.08634992458521873,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9268476621417798,
+          "fn": 1,
+          "fp": 11,
+          "n": 128,
+          "negative": 102,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.9615384615384616,
+          "specificity": 0.8921568627450981,
+          "tn": 91,
+          "tp": 25
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 58,
+        "continuous": {
+          "balanced_accuracy": 0.9642857142857143,
+          "fn": 0,
+          "fp": 7,
+          "n": 128,
+          "negative": 98,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9285714285714286,
+          "tn": 91,
+          "tp": 30
+        },
+        "continuous_probability_auroc": 0.9904761904761904,
+        "delta": 0.108843537414966,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8554421768707483,
+          "fn": 5,
+          "fp": 12,
+          "n": 128,
+          "negative": 98,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 0.8333333333333334,
+          "specificity": 0.8775510204081632,
+          "tn": 86,
+          "tp": 25
+        }
+      },
+      "assignment": "TTFTT",
+      "primary_assessment": {
+        "clipped_paired_origins": 57,
+        "continuous": {
+          "balanced_accuracy": 0.8210526315789474,
+          "fn": 5,
+          "fp": 9,
+          "n": 114,
+          "negative": 95,
+          "positive": 19,
+          "reason": null,
+          "sensitivity": 0.7368421052631579,
+          "specificity": 0.9052631578947369,
+          "tn": 86,
+          "tp": 14
+        },
+        "continuous_probability_auroc": 0.92797783933518,
+        "delta": -0.09473684210526312,
+        "paired_origins": 57,
+        "structured": {
+          "balanced_accuracy": 0.9157894736842105,
+          "fn": 1,
+          "fp": 11,
+          "n": 114,
+          "negative": 95,
+          "positive": 19,
+          "reason": null,
+          "sensitivity": 0.9473684210526315,
+          "specificity": 0.8842105263157894,
+          "tn": 84,
+          "tp": 18
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 58,
+        "continuous": {
+          "balanced_accuracy": 0.9619565217391304,
+          "fn": 0,
+          "fp": 7,
+          "n": 116,
+          "negative": 92,
+          "positive": 24,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9239130434782609,
+          "tn": 85,
+          "tp": 24
+        },
+        "continuous_probability_auroc": 0.9900362318840581,
+        "delta": 0.1313405797101449,
+        "paired_origins": 58,
+        "structured": {
+          "balanced_accuracy": 0.8306159420289855,
+          "fn": 5,
+          "fp": 12,
+          "n": 116,
+          "negative": 92,
+          "positive": 24,
+          "reason": null,
+          "sensitivity": 0.7916666666666666,
+          "specificity": 0.8695652173913043,
+          "tn": 80,
+          "tp": 19
+        }
+      },
+      "unit": 261
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.8781499202551835,
+          "fn": 7,
+          "fp": 3,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.7878787878787878,
+          "specificity": 0.968421052631579,
+          "tn": 92,
+          "tp": 26
+        },
+        "continuous_probability_auroc": 0.9272727272727272,
+        "delta": 0.0006379585326954373,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.877511961722488,
+          "fn": 6,
+          "fp": 6,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.8181818181818182,
+          "specificity": 0.9368421052631579,
+          "tn": 89,
+          "tp": 27
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 60,
+        "continuous": {
+          "balanced_accuracy": 0.9897959183673469,
+          "fn": 0,
+          "fp": 2,
+          "n": 128,
+          "negative": 98,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9795918367346939,
+          "tn": 96,
+          "tp": 30
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.03843537414965981,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9513605442176871,
+          "fn": 2,
+          "fp": 3,
+          "n": 128,
+          "negative": 98,
+          "positive": 30,
+          "reason": null,
+          "sensitivity": 0.9333333333333333,
+          "specificity": 0.9693877551020408,
+          "tn": 95,
+          "tp": 28
+        }
+      },
+      "assignment": "TFTTT",
+      "primary_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.8461945031712474,
+          "fn": 6,
+          "fp": 3,
+          "n": 108,
+          "negative": 86,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 0.7272727272727273,
+          "specificity": 0.9651162790697675,
+          "tn": 83,
+          "tp": 16
+        },
+        "continuous_probability_auroc": 0.9133192389006343,
+        "delta": -0.005285412262156397,
+        "paired_origins": 54,
+        "structured": {
+          "balanced_accuracy": 0.8514799154334038,
+          "fn": 5,
+          "fp": 6,
+          "n": 108,
+          "negative": 86,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 0.7727272727272727,
+          "specificity": 0.9302325581395349,
+          "tn": 80,
+          "tp": 17
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 60,
+        "continuous": {
+          "balanced_accuracy": 0.9893617021276595,
+          "fn": 0,
+          "fp": 2,
+          "n": 120,
+          "negative": 94,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9787234042553191,
+          "tn": 92,
+          "tp": 26
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.04378068739770857,
+        "paired_origins": 60,
+        "structured": {
+          "balanced_accuracy": 0.9455810147299509,
+          "fn": 2,
+          "fp": 3,
+          "n": 120,
+          "negative": 94,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.9230769230769231,
+          "specificity": 0.9680851063829787,
+          "tn": 91,
+          "tp": 24
+        }
+      },
+      "unit": 291
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 62,
+        "continuous": {
+          "balanced_accuracy": 0.9787163285666778,
+          "fn": 1,
+          "fp": 1,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.967741935483871,
+          "specificity": 0.9896907216494846,
+          "tn": 96,
+          "tp": 30
+        },
+        "continuous_probability_auroc": 0.9770535417359494,
+        "delta": 0.005154639175257714,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9735616893914201,
+          "fn": 1,
+          "fp": 2,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.967741935483871,
+          "specificity": 0.979381443298969,
+          "tn": 95,
+          "tp": 30
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 61,
+        "continuous": {
+          "balanced_accuracy": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "tn": 97,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.015463917525773141,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9845360824742269,
+          "fn": 0,
+          "fp": 3,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9690721649484536,
+          "tn": 94,
+          "tp": 31
+        }
+      },
+      "assignment": "TFFFT",
+      "primary_assessment": {
+        "clipped_paired_origins": 62,
+        "continuous": {
+          "balanced_accuracy": 0.9774954627949184,
+          "fn": 1,
+          "fp": 1,
+          "n": 124,
+          "negative": 95,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.9655172413793104,
+          "specificity": 0.9894736842105263,
+          "tn": 94,
+          "tp": 28
+        },
+        "continuous_probability_auroc": 0.9756805807622505,
+        "delta": 0.0052631578947368585,
+        "paired_origins": 62,
+        "structured": {
+          "balanced_accuracy": 0.9722323049001815,
+          "fn": 1,
+          "fp": 2,
+          "n": 124,
+          "negative": 95,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.9655172413793104,
+          "specificity": 0.9789473684210527,
+          "tn": 93,
+          "tp": 28
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 61,
+        "continuous": {
+          "balanced_accuracy": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "n": 122,
+          "negative": 94,
+          "positive": 28,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "tn": 94,
+          "tp": 28
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.015957446808510634,
+        "paired_origins": 61,
+        "structured": {
+          "balanced_accuracy": 0.9840425531914894,
+          "fn": 0,
+          "fp": 3,
+          "n": 122,
+          "negative": 94,
+          "positive": 28,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9680851063829787,
+          "tn": 91,
+          "tp": 28
+        }
+      },
+      "unit": 317
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 58,
+        "continuous": {
+          "balanced_accuracy": 0.9539074960127591,
+          "fn": 2,
+          "fp": 3,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.9393939393939394,
+          "specificity": 0.968421052631579,
+          "tn": 92,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.9784688995215312,
+        "delta": 0.0,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9539074960127591,
+          "fn": 2,
+          "fp": 3,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.9393939393939394,
+          "specificity": 0.968421052631579,
+          "tn": 92,
+          "tp": 31
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 53,
+        "continuous": {
+          "balanced_accuracy": 0.9714285714285714,
+          "fn": 2,
+          "fp": 0,
+          "n": 128,
+          "negative": 93,
+          "positive": 35,
+          "reason": null,
+          "sensitivity": 0.9428571428571428,
+          "specificity": 1.0,
+          "tn": 93,
+          "tp": 33
+        },
+        "continuous_probability_auroc": 0.9821812596006144,
+        "delta": 0.02857142857142858,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9428571428571428,
+          "fn": 4,
+          "fp": 0,
+          "n": 128,
+          "negative": 93,
+          "positive": 35,
+          "reason": null,
+          "sensitivity": 0.8857142857142857,
+          "specificity": 1.0,
+          "tn": 93,
+          "tp": 31
+        }
+      },
+      "assignment": "TTTTF",
+      "primary_assessment": {
+        "clipped_paired_origins": 58,
+        "continuous": {
+          "balanced_accuracy": 0.9461090303786933,
+          "fn": 2,
+          "fp": 3,
+          "n": 116,
+          "negative": 89,
+          "positive": 27,
+          "reason": null,
+          "sensitivity": 0.9259259259259259,
+          "specificity": 0.9662921348314607,
+          "tn": 86,
+          "tp": 25
+        },
+        "continuous_probability_auroc": 0.9752392842280483,
+        "delta": 0.0,
+        "paired_origins": 58,
+        "structured": {
+          "balanced_accuracy": 0.9461090303786933,
+          "fn": 2,
+          "fp": 3,
+          "n": 116,
+          "negative": 89,
+          "positive": 27,
+          "reason": null,
+          "sensitivity": 0.9259259259259259,
+          "specificity": 0.9662921348314607,
+          "tn": 86,
+          "tp": 25
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 53,
+        "continuous": {
+          "balanced_accuracy": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "n": 106,
+          "negative": 84,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "tn": 84,
+          "tp": 22
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.045454545454545414,
+        "paired_origins": 53,
+        "structured": {
+          "balanced_accuracy": 0.9545454545454546,
+          "fn": 2,
+          "fp": 0,
+          "n": 106,
+          "negative": 84,
+          "positive": 22,
+          "reason": null,
+          "sensitivity": 0.9090909090909091,
+          "specificity": 1.0,
+          "tn": 84,
+          "tp": 20
+        }
+      },
+      "unit": 326
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 61,
+        "continuous": {
+          "balanced_accuracy": 0.921875,
+          "fn": 4,
+          "fp": 3,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.875,
+          "specificity": 0.96875,
+          "tn": 93,
+          "tp": 28
+        },
+        "continuous_probability_auroc": 0.9770507812500001,
+        "delta": 0.005208333333333259,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9166666666666667,
+          "fn": 4,
+          "fp": 4,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.875,
+          "specificity": 0.9583333333333334,
+          "tn": 92,
+          "tp": 28
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 64,
+        "continuous": {
+          "balanced_accuracy": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "tn": 97,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.1064183571666113,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8935816428333887,
+          "fn": 5,
+          "fp": 5,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.8387096774193549,
+          "specificity": 0.9484536082474226,
+          "tn": 92,
+          "tp": 26
+        }
+      },
+      "assignment": "TFFTT",
+      "primary_assessment": {
+        "clipped_paired_origins": 61,
+        "continuous": {
+          "balanced_accuracy": 0.9149054505005562,
+          "fn": 4,
+          "fp": 3,
+          "n": 122,
+          "negative": 93,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.8620689655172413,
+          "specificity": 0.967741935483871,
+          "tn": 90,
+          "tp": 25
+        },
+        "continuous_probability_auroc": 0.9753429736744531,
+        "delta": 0.005376344086021501,
+        "paired_origins": 61,
+        "structured": {
+          "balanced_accuracy": 0.9095291064145347,
+          "fn": 4,
+          "fp": 4,
+          "n": 122,
+          "negative": 93,
+          "positive": 29,
+          "reason": null,
+          "sensitivity": 0.8620689655172413,
+          "specificity": 0.956989247311828,
+          "tn": 89,
+          "tp": 25
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 64,
+        "continuous": {
+          "balanced_accuracy": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "tn": 97,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.1064183571666113,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8935816428333887,
+          "fn": 5,
+          "fp": 5,
+          "n": 128,
+          "negative": 97,
+          "positive": 31,
+          "reason": null,
+          "sensitivity": 0.8387096774193549,
+          "specificity": 0.9484536082474226,
+          "tn": 92,
+          "tp": 26
+        }
+      },
+      "unit": 380
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 51,
+        "continuous": {
+          "balanced_accuracy": 0.8654368932038835,
+          "fn": 6,
+          "fp": 3,
+          "n": 128,
+          "negative": 103,
+          "positive": 25,
+          "reason": null,
+          "sensitivity": 0.76,
+          "specificity": 0.970873786407767,
+          "tn": 100,
+          "tp": 19
+        },
+        "continuous_probability_auroc": 0.9574757281553398,
+        "delta": -0.03572815533980578,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9011650485436893,
+          "fn": 3,
+          "fp": 8,
+          "n": 128,
+          "negative": 103,
+          "positive": 25,
+          "reason": null,
+          "sensitivity": 0.88,
+          "specificity": 0.9223300970873787,
+          "tn": 95,
+          "tp": 22
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 56,
+        "continuous": {
+          "balanced_accuracy": 0.8766025641025641,
+          "fn": 5,
+          "fp": 4,
+          "n": 128,
+          "negative": 104,
+          "positive": 24,
+          "reason": null,
+          "sensitivity": 0.7916666666666666,
+          "specificity": 0.9615384615384616,
+          "tn": 100,
+          "tp": 19
+        },
+        "continuous_probability_auroc": 0.9322916666666667,
+        "delta": 0.027243589743589647,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8493589743589745,
+          "fn": 4,
+          "fp": 14,
+          "n": 128,
+          "negative": 104,
+          "positive": 24,
+          "reason": null,
+          "sensitivity": 0.8333333333333334,
+          "specificity": 0.8653846153846154,
+          "tn": 90,
+          "tp": 20
+        }
+      },
+      "assignment": "TTFFT",
+      "primary_assessment": {
+        "clipped_paired_origins": 51,
+        "continuous": {
+          "balanced_accuracy": 0.8471528471528471,
+          "fn": 3,
+          "fp": 3,
+          "n": 102,
+          "negative": 91,
+          "positive": 11,
+          "reason": null,
+          "sensitivity": 0.7272727272727273,
+          "specificity": 0.967032967032967,
+          "tn": 88,
+          "tp": 8
+        },
+        "continuous_probability_auroc": 0.9515484515484516,
+        "delta": -0.01798201798201804,
+        "paired_origins": 51,
+        "structured": {
+          "balanced_accuracy": 0.8651348651348651,
+          "fn": 2,
+          "fp": 8,
+          "n": 102,
+          "negative": 91,
+          "positive": 11,
+          "reason": null,
+          "sensitivity": 0.8181818181818182,
+          "specificity": 0.9120879120879121,
+          "tn": 83,
+          "tp": 9
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 56,
+        "continuous": {
+          "balanced_accuracy": 0.9797979797979798,
+          "fn": 0,
+          "fp": 4,
+          "n": 112,
+          "negative": 99,
+          "positive": 13,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9595959595959596,
+          "tn": 95,
+          "tp": 13
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.08896658896658893,
+        "paired_origins": 56,
+        "structured": {
+          "balanced_accuracy": 0.8908313908313908,
+          "fn": 1,
+          "fp": 14,
+          "n": 112,
+          "negative": 99,
+          "positive": 13,
+          "reason": null,
+          "sensitivity": 0.9230769230769231,
+          "specificity": 0.8585858585858586,
+          "tn": 85,
+          "tp": 12
+        }
+      },
+      "unit": 411
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.8271428571428572,
+          "fn": 8,
+          "fp": 6,
+          "n": 128,
+          "negative": 100,
+          "positive": 28,
+          "reason": null,
+          "sensitivity": 0.7142857142857143,
+          "specificity": 0.94,
+          "tn": 94,
+          "tp": 20
+        },
+        "continuous_probability_auroc": 0.8964285714285715,
+        "delta": -0.0035714285714285587,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8307142857142857,
+          "fn": 5,
+          "fp": 16,
+          "n": 128,
+          "negative": 100,
+          "positive": 28,
+          "reason": null,
+          "sensitivity": 0.8214285714285714,
+          "specificity": 0.84,
+          "tn": 84,
+          "tp": 23
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.995049504950495,
+          "fn": 0,
+          "fp": 1,
+          "n": 128,
+          "negative": 101,
+          "positive": 27,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9900990099009901,
+          "tn": 100,
+          "tp": 27
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.09149248258159148,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9035570223689036,
+          "fn": 2,
+          "fp": 12,
+          "n": 128,
+          "negative": 101,
+          "positive": 27,
+          "reason": null,
+          "sensitivity": 0.9259259259259259,
+          "specificity": 0.8811881188118812,
+          "tn": 89,
+          "tp": 25
+        }
+      },
+      "assignment": "TTTFF",
+      "primary_assessment": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.7912713472485768,
+          "fn": 6,
+          "fp": 6,
+          "n": 110,
+          "negative": 93,
+          "positive": 17,
+          "reason": null,
+          "sensitivity": 0.6470588235294118,
+          "specificity": 0.9354838709677419,
+          "tn": 87,
+          "tp": 11
+        },
+        "continuous_probability_auroc": 0.8978494623655914,
+        "delta": -0.03447185325743196,
+        "paired_origins": 55,
+        "structured": {
+          "balanced_accuracy": 0.8257432005060088,
+          "fn": 3,
+          "fp": 16,
+          "n": 110,
+          "negative": 93,
+          "positive": 17,
+          "reason": null,
+          "sensitivity": 0.8235294117647058,
+          "specificity": 0.8279569892473119,
+          "tn": 77,
+          "tp": 14
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 55,
+        "continuous": {
+          "balanced_accuracy": 0.9945652173913043,
+          "fn": 0,
+          "fp": 1,
+          "n": 110,
+          "negative": 92,
+          "positive": 18,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9891304347826086,
+          "tn": 91,
+          "tp": 18
+        },
+        "continuous_probability_auroc": 0.9999999999999999,
+        "delta": 0.1153381642512078,
+        "paired_origins": 55,
+        "structured": {
+          "balanced_accuracy": 0.8792270531400965,
+          "fn": 2,
+          "fp": 12,
+          "n": 110,
+          "negative": 92,
+          "positive": 18,
+          "reason": null,
+          "sensitivity": 0.8888888888888888,
+          "specificity": 0.8695652173913043,
+          "tn": 80,
+          "tp": 16
+        }
+      },
+      "unit": 416
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.9166666666666667,
+          "fn": 3,
+          "fp": 7,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.90625,
+          "specificity": 0.9270833333333334,
+          "tn": 89,
+          "tp": 29
+        },
+        "continuous_probability_auroc": 0.9669596354166666,
+        "delta": 0.005208333333333481,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9114583333333333,
+          "fn": 3,
+          "fp": 8,
+          "n": 128,
+          "negative": 96,
+          "positive": 32,
+          "reason": null,
+          "sensitivity": 0.90625,
+          "specificity": 0.9166666666666666,
+          "tn": 88,
+          "tp": 29
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 50,
+        "continuous": {
+          "balanced_accuracy": 0.9251207729468599,
+          "fn": 5,
+          "fp": 1,
+          "n": 128,
+          "negative": 92,
+          "positive": 36,
+          "reason": null,
+          "sensitivity": 0.8611111111111112,
+          "specificity": 0.9891304347826086,
+          "tn": 91,
+          "tp": 31
+        },
+        "continuous_probability_auroc": 0.9486714975845411,
+        "delta": 0.05797101449275355,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8671497584541064,
+          "fn": 8,
+          "fp": 4,
+          "n": 128,
+          "negative": 92,
+          "positive": 36,
+          "reason": null,
+          "sensitivity": 0.7777777777777778,
+          "specificity": 0.9565217391304348,
+          "tn": 88,
+          "tp": 28
+        }
+      },
+      "assignment": "TFTFT",
+      "primary_assessment": {
+        "clipped_paired_origins": 54,
+        "continuous": {
+          "balanced_accuracy": 0.9352272727272727,
+          "fn": 1,
+          "fp": 7,
+          "n": 108,
+          "negative": 88,
+          "positive": 20,
+          "reason": null,
+          "sensitivity": 0.95,
+          "specificity": 0.9204545454545454,
+          "tn": 81,
+          "tp": 19
+        },
+        "continuous_probability_auroc": 0.9857954545454546,
+        "delta": 0.005681818181818232,
+        "paired_origins": 54,
+        "structured": {
+          "balanced_accuracy": 0.9295454545454545,
+          "fn": 1,
+          "fp": 8,
+          "n": 108,
+          "negative": 88,
+          "positive": 20,
+          "reason": null,
+          "sensitivity": 0.95,
+          "specificity": 0.9090909090909091,
+          "tn": 80,
+          "tp": 19
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 50,
+        "continuous": {
+          "balanced_accuracy": 0.9939759036144578,
+          "fn": 0,
+          "fp": 1,
+          "n": 100,
+          "negative": 83,
+          "positive": 17,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9879518072289156,
+          "tn": 82,
+          "tp": 17
+        },
+        "continuous_probability_auroc": 1.0,
+        "delta": 0.10630758327427348,
+        "paired_origins": 50,
+        "structured": {
+          "balanced_accuracy": 0.8876683203401843,
+          "fn": 3,
+          "fp": 4,
+          "n": 100,
+          "negative": 83,
+          "positive": 17,
+          "reason": null,
+          "sensitivity": 0.8235294117647058,
+          "specificity": 0.9518072289156626,
+          "tn": 79,
+          "tp": 14
+        }
+      },
+      "unit": 492
+    },
+    {
+      "all_selected_assessment": {
+        "clipped_paired_origins": 59,
+        "continuous": {
+          "balanced_accuracy": 0.8716108452950558,
+          "fn": 5,
+          "fp": 10,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.8484848484848485,
+          "specificity": 0.8947368421052632,
+          "tn": 85,
+          "tp": 28
+        },
+        "continuous_probability_auroc": 0.9553429027113237,
+        "delta": -0.0164274322169059,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.8880382775119617,
+          "fn": 6,
+          "fp": 4,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.8181818181818182,
+          "specificity": 0.9578947368421052,
+          "tn": 91,
+          "tp": 27
+        }
+      },
+      "all_selected_fit": {
+        "clipped_paired_origins": 58,
+        "continuous": {
+          "balanced_accuracy": 0.9743221690590111,
+          "fn": 1,
+          "fp": 2,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.9696969696969697,
+          "specificity": 0.9789473684210527,
+          "tn": 93,
+          "tp": 32
+        },
+        "continuous_probability_auroc": 0.9902711323763955,
+        "delta": 0.06586921850079741,
+        "paired_origins": 64,
+        "structured": {
+          "balanced_accuracy": 0.9084529505582137,
+          "fn": 5,
+          "fp": 3,
+          "n": 128,
+          "negative": 95,
+          "positive": 33,
+          "reason": null,
+          "sensitivity": 0.8484848484848485,
+          "specificity": 0.968421052631579,
+          "tn": 92,
+          "tp": 28
+        }
+      },
+      "assignment": "FFFTF",
+      "primary_assessment": {
+        "clipped_paired_origins": 59,
+        "continuous": {
+          "balanced_accuracy": 0.8879598662207357,
+          "fn": 3,
+          "fp": 10,
+          "n": 118,
+          "negative": 92,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.8846153846153846,
+          "specificity": 0.8913043478260869,
+          "tn": 82,
+          "tp": 23
+        },
+        "continuous_probability_auroc": 0.9698996655518396,
+        "delta": -0.013377926421404673,
+        "paired_origins": 59,
+        "structured": {
+          "balanced_accuracy": 0.9013377926421404,
+          "fn": 4,
+          "fp": 4,
+          "n": 118,
+          "negative": 92,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.8461538461538461,
+          "specificity": 0.9565217391304348,
+          "tn": 88,
+          "tp": 22
+        }
+      },
+      "primary_fit": {
+        "clipped_paired_origins": 58,
+        "continuous": {
+          "balanced_accuracy": 0.9888888888888889,
+          "fn": 0,
+          "fp": 2,
+          "n": 116,
+          "negative": 90,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 1.0,
+          "specificity": 0.9777777777777777,
+          "tn": 88,
+          "tp": 26
+        },
+        "continuous_probability_auroc": 0.9991452991452991,
+        "delta": 0.08247863247863252,
+        "paired_origins": 58,
+        "structured": {
+          "balanced_accuracy": 0.9064102564102564,
+          "fn": 4,
+          "fp": 3,
+          "n": 116,
+          "negative": 90,
+          "positive": 26,
+          "reason": null,
+          "sensitivity": 0.8461538461538461,
+          "specificity": 0.9666666666666667,
+          "tn": 87,
+          "tp": 22
+        }
+      },
+      "unit": 495
+    }
+  ]
+}

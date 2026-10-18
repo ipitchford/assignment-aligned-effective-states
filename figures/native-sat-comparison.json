@@ -1,0 +1,13 @@
+{
+  "source_sha256": "b6397f3f2d9d917af02568f535ce99eb9250314cfe8dcb8fb1ec9a3af18c7254",
+  "means_percent": {
+    "structured": 90.95426566623142,
+    "continuous": 89.2683707059619
+  },
+  "delta_percentage_points": -1.6858949602695092,
+  "delta_interval_percentage_points": [
+    -3.1602176176873353,
+    -0.3543227209806539
+  ],
+  "scope": "Figure from frozen development results; no new fitting, inference or statistical analysis."
+}

@@ -1,0 +1,806 @@
+{
+  "audit_date": "2026-10-15",
+  "timezone": "Europe/London",
+  "cutoff_date": "2026-10-15",
+  "purpose": "Adversarial primary-source novelty audit of causal-resolution research and its proposed restricted-affine-decoder extension",
+  "exhaustive": false,
+  "manuscript_edited": false,
+  "inputs": [
+    "work/inputs/causal-resolution-research-bundle/causal-resolution-paper/paper/manuscript.md",
+    "/Users/admin/.codex/attachments/256fa6af-5262-4ca4-a806-91af03118558/Pasted text.txt"
+  ],
+  "sources": [
+    {
+      "id": "basu2022",
+      "title": "Hypergraph-based Source Codes for Function Computation Under Maximal Distortion",
+      "authors": [
+        "Sourya Basu",
+        "Daewon Seo",
+        "Lav R. Varshney"
+      ],
+      "year": 2022,
+      "status": "IEEE Journal on Selected Areas in Information Theory 3(4), 824-838; v2 author text dated 2022-12-28",
+      "urls": [
+        "https://arxiv.org/html/2204.02586v2",
+        "https://scholar.dgist.ac.kr/handle/20.500.11750/58151"
+      ],
+      "doi": "10.1109/JSAIT.2022.3232222",
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "II-A",
+        "II-B Definition 3",
+        "III-B",
+        "III-D Corollaries 1-2"
+      ],
+      "relevance": "Closest predecessor for compatibility, context and uniform approximation transfer.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "yang2023",
+      "title": "The Lq-weighted dual programming of the linear Chebyshev approximation and an interior-point method",
+      "authors": [
+        "Linyi Yang",
+        "Lei-Hong Zhang",
+        "Ya-Nan Zhang"
+      ],
+      "year": 2023,
+      "status": "arXiv v1, submitted 2023-08-15; later publication status not established",
+      "urls": [
+        "https://arxiv.org/html/2308.07636",
+        "https://arxiv.org/abs/2308.07636"
+      ],
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "Section 3",
+        "Lemma 3.1",
+        "Theorem 3.1 proof and split signed dual LP"
+      ],
+      "relevance": "Direct mathematical precedent for sparse dual contrasts; Haar-specific alternation must not be transferred blindly.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "geiger2025",
+      "title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability",
+      "authors": [
+        "Atticus Geiger",
+        "Duligur Ibeling",
+        "Amir Zur",
+        "Maheep Chaudhary",
+        "Sonakshi Chauhan",
+        "Jing Huang",
+        "Aryaman Arora",
+        "Zhengxuan Wu",
+        "Noah Goodman",
+        "Christopher Potts",
+        "Thomas Icard"
+      ],
+      "year": 2025,
+      "status": "JMLR 26(83), 1-64",
+      "urls": [
+        "https://jmlr.org/papers/v26/23-0058.html",
+        "https://jmlr.org/papers/volume26/23-0058/23-0058.pdf"
+      ],
+      "inspection": "publisher_record_and_full_text_sections_via_search",
+      "sections_inspected": [
+        "Introduction",
+        "Section 2 overview",
+        "Definitions 41, 44-46 discussed in retrieved primary text"
+      ],
+      "relevance": "Causal validity foundation; response adequacy alone is narrower than mechanistic abstraction.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "sutter2025",
+      "title": "The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability?",
+      "authors": [
+        "Denis Sutter",
+        "Julian Minder",
+        "Thomas Hofmann",
+        "Tiago Pimentel"
+      ],
+      "year": 2025,
+      "status": "NeurIPS 2025; v2 primary manuscript inspected",
+      "urls": [
+        "https://arxiv.org/html/2507.08802v2",
+        "https://arxiv.org/abs/2507.08802"
+      ],
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "3.1",
+        "3.2",
+        "Theorem 1",
+        "discussion and limitations",
+        "Appendix F assumptions",
+        "I.2.3 discussion"
+      ],
+      "relevance": "Direct motivation for controlling alignment complexity and distinguishing existence from generalisation.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "meloux2026cae",
+      "title": "Validating Causal Abstraction Metrics on Simulated Complex Systems",
+      "authors": [
+        "Maxime M\u00e9loux",
+        "Tiago Pimentel",
+        "Fran\u00e7ois Portet",
+        "Maxime Peyrard"
+      ],
+      "year": 2026,
+      "status": "arXiv:2607.00267v1; full text dated 2026-06-30",
+      "urls": [
+        "https://arxiv.org/html/2607.00267v1"
+      ],
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "2.1",
+        "3",
+        "3.1",
+        "5",
+        "6.1"
+      ],
+      "relevance": "Current causal-metric comparator; omitted-variable faithfulness and complexity limitations are already explicit.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "meloux2025identifiability",
+      "title": "Everything, Everywhere, All at Once: Is Mechanistic Interpretability Identifiable?",
+      "authors": [
+        "Maxime M\u00e9loux",
+        "Silviu Maniu",
+        "Fran\u00e7ois Portet",
+        "Maxime Peyrard"
+      ],
+      "year": 2025,
+      "status": "arXiv:2502.20914; venue status not independently checked in this audit",
+      "urls": [
+        "https://arxiv.org/html/2502.20914"
+      ],
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "4.3",
+        "5.1-5.4"
+      ],
+      "relevance": "Adequacy and sparse optimality do not uniquely identify the semantic ontology.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "douekpinkovich2021",
+      "title": "The generalized test collection problem",
+      "authors": [
+        "Yifat Douek-Pinkovich",
+        "Irad Ben-Gal",
+        "Tal Raviv"
+      ],
+      "year": 2021,
+      "status": "TOP 29(2), 372-386; first online 2020; author draft dated September 2019",
+      "urls": [
+        "https://www.eng.tau.ac.il/~talraviv/Publications/GTCP_Sep2019.pdf",
+        "https://doi.org/10.1007/s11750-020-00554-1"
+      ],
+      "doi": "10.1007/s11750-020-00554-1",
+      "inspection": "author_text_introduction_and_institutional_record",
+      "sections_inspected": [
+        "Introduction and problem formulation"
+      ],
+      "relevance": "Costed categorical distinguishing features and robustness multiplicity predate this project.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "vinterbo2005",
+      "title": "Small, fuzzy and interpretable gene expression based classifiers",
+      "authors": [
+        "Staal A. Vinterbo",
+        "Eun-Young Kim",
+        "Lucila Ohno-Machado"
+      ],
+      "year": 2005,
+      "status": "Bioinformatics 21(9), 1964-1970",
+      "urls": [
+        "https://academic.oup.com/bioinformatics/article/21/9/1964/409100"
+      ],
+      "doi": "10.1093/bioinformatics/bti287",
+      "inspection": "publisher_full_text",
+      "sections_inspected": [
+        "2.4 Learning rule descriptors",
+        "2.5 Rule filtering",
+        "2.6 Implementation issues",
+        "5 Discussion"
+      ],
+      "relevance": "Direct discernibility-to-hitting-set and rule-filtering precedent.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "selaperelman2016",
+      "title": "Sensor placement for fault location identification in water networks: A minimum test cover approach",
+      "authors": [
+        "Lina Sela Perelman",
+        "Waseem Abbas",
+        "Xenofon Koutsoukos",
+        "Saurabh Amin"
+      ],
+      "year": 2016,
+      "status": "Automatica 72, 166-176; arXiv first posted 2015",
+      "urls": [
+        "https://arxiv.org/abs/1507.07134",
+        "https://cs.vuse.vanderbilt.edu/koutsoxd/www/Publications/1-s2.0-S000510981630231X-main.pdf"
+      ],
+      "inspection": "author_paper_sections_via_search",
+      "sections_inspected": [
+        "3.2",
+        "Algorithm 1"
+      ],
+      "relevance": "Test-cover-to-set-cover reduction and practical sensor selection baseline.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "huang2026conflicts",
+      "title": "Conflict hypergraphs for distinguishing feature selection: Structural limits and exact optimization",
+      "authors": [
+        "Zhigao Huang",
+        "Shiyan Zheng",
+        "Musheng Chen"
+      ],
+      "year": 2026,
+      "status": "Information Sciences, journal pre-proof, article 124270; online 2026-10-07",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0020025526012016"
+      ],
+      "doi": "10.1016/j.ins.2026.124270",
+      "inspection": "publisher_preview_via_search",
+      "sections_inspected": [
+        "Abstract",
+        "Introduction",
+        "Section snippets"
+      ],
+      "relevance": "Timely exact distinguishing-feature optimisation predecessor; no full-proof audit performed.",
+      "priority_impact": "high",
+      "access_limit": "Direct open returned 403; indexed publisher preview was inspected.",
+      "independently_reproduced": false
+    },
+    {
+      "id": "benders1962",
+      "title": "Partitioning procedures for solving mixed-variables programming problems",
+      "authors": [
+        "J. F. Benders"
+      ],
+      "year": 1962,
+      "status": "Numerische Mathematik 4, 238-252",
+      "urls": [
+        "https://research.tue.nl/en/publications/partitioning-procedures-for-solving-mixed-variables-programming-p-2/",
+        "https://www.im-uff.mat.br/puc-rio/disciplinas/2006.1/soe/arquivos/benders-numerische-mathematik-1962.pdf"
+      ],
+      "doi": "10.1007/BF01386316",
+      "inspection": "author_institution_record_and_primary_introduction",
+      "sections_inspected": [
+        "Introduction and problem (1.1)"
+      ],
+      "relevance": "Classical master/subproblem decomposition and cuts.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "geoffrion1972",
+      "title": "Generalized Benders Decomposition",
+      "authors": [
+        "Arthur M. Geoffrion"
+      ],
+      "year": 1972,
+      "status": "Journal of Optimization Theory and Applications 10(4), 237-260",
+      "urls": [
+        "https://www-apache.anderson.ucla.edu/faculty_pages/art.geoffrion/home/docs/GBD.pdf",
+        "https://www-apache.anderson.ucla.edu/faculty_pages/art.geoffrion/home/pubs.htm"
+      ],
+      "inspection": "author_copy_abstract_and_opening",
+      "sections_inspected": [
+        "Abstract and opening formulation"
+      ],
+      "relevance": "Generalized dual-cut algorithmic foundation.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "bertsimas2020",
+      "title": "Sparse High-Dimensional Regression: Exact Scalable Algorithms and Phase Transitions",
+      "authors": [
+        "Dimitris Bertsimas",
+        "Bart Van Parys"
+      ],
+      "year": 2020,
+      "status": "Annals of Statistics 48(1), 300-323; arXiv first posted 2017",
+      "urls": [
+        "https://arxiv.org/abs/1709.10029",
+        "https://doi.org/10.1214/18-AOS1804",
+        "https://arxiv.org/pdf/1709.10029"
+      ],
+      "doi": "10.1214/18-AOS1804",
+      "inspection": "primary_full_text_sections",
+      "sections_inspected": [
+        "Introduction",
+        "Section 2 dual binary reformulation",
+        "Sections 3.1-3.2 outer approximation and finite convergence"
+      ],
+      "relevance": "Close sparse-regression dual-cut architecture; different ridge/squared-error objective.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "aytug2015",
+      "title": "Feature selection for support vector machines using Generalized Benders Decomposition",
+      "authors": [
+        "Haldun Aytug"
+      ],
+      "year": 2015,
+      "status": "European Journal of Operational Research 244(1), 210-218",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0377221715000077"
+      ],
+      "doi": "10.1016/j.ejor.2015.01.006",
+      "inspection": "publisher_preview",
+      "sections_inspected": [
+        "Abstract and highlights"
+      ],
+      "relevance": "Exact predictor-dependent feature selection through Benders is established.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "gleeson1990",
+      "title": "Identifying Minimally Infeasible Subsystems of Inequalities",
+      "authors": [
+        "John Gleeson",
+        "Jennifer Ryan"
+      ],
+      "year": 1990,
+      "status": "ORSA Journal on Computing 2(1), 61-63",
+      "urls": [
+        "https://pubsonline.informs.org/doi/10.1287/ijoc.2.1.61"
+      ],
+      "doi": "10.1287/ijoc.2.1.61",
+      "inspection": "publisher_abstract_and_record",
+      "sections_inspected": [
+        "Abstract"
+      ],
+      "relevance": "Minimal infeasible subsystems through alternative-polyhedron vertices; not a proof audit.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "szeider2026",
+      "title": "VIPR Certificate Construction from Black-Box ILP Solvers",
+      "authors": [
+        "Stefan Szeider"
+      ],
+      "year": 2026,
+      "status": "CP 2026, LIPIcs 379, 52:1-52:14",
+      "urls": [
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2026.52"
+      ],
+      "doi": "10.4230/LIPIcs.CP.2026.52",
+      "inspection": "publisher_abstract_and_record",
+      "sections_inspected": [
+        "Abstract"
+      ],
+      "relevance": "Exact rational independent certificates from floating-point solver answers already exist.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "clarke2000",
+      "title": "Counterexample-guided Abstraction Refinement",
+      "authors": [
+        "Edmund Clarke",
+        "Orna Grumberg",
+        "Somesh Jha",
+        "Yuan Lu",
+        "Helmut Veith"
+      ],
+      "year": 2000,
+      "status": "CAV 2000, LNCS 1855, 154-169",
+      "urls": [
+        "https://www.cs.cmu.edu/~emc/papers/Conference%20Papers/Counterexample-guided%20Abstraction%20Refinement.pdf"
+      ],
+      "doi": "10.1007/10722167_15",
+      "inspection": "author_pdf_abstract_and_introduction",
+      "sections_inspected": [
+        "Abstract",
+        "Introduction"
+      ],
+      "relevance": "Counterexample-driven abstraction refinement is foundational prior art.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "elboher2020",
+      "title": "An Abstraction-Based Framework for Neural Network Verification",
+      "authors": [
+        "Yizhak Yisrael Elboher",
+        "Justin Gottschlich",
+        "Guy Katz"
+      ],
+      "year": 2020,
+      "status": "CAV 2020; arXiv:1910.14574 first posted 2019",
+      "urls": [
+        "https://arxiv.org/abs/1910.14574",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7363186/"
+      ],
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "Introduction",
+        "Neural network verification",
+        "A CEGAR-Based Approach",
+        "Conclusion"
+      ],
+      "relevance": "Existing neural merge/split CEGAR; distinguish explanation repair from network overapproximation.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "ignatiev2019",
+      "title": "Abduction-Based Explanations for Machine Learning Models",
+      "authors": [
+        "Alexey Ignatiev",
+        "Nina Narodytska",
+        "Joao Marques-Silva"
+      ],
+      "year": 2019,
+      "status": "AAAI 2019; arXiv:1811.10656 first posted 2018",
+      "urls": [
+        "https://arxiv.org/abs/1811.10656"
+      ],
+      "doi": "10.1609/aaai.v33i01.33011511",
+      "inspection": "primary_abstract_and_record",
+      "sections_inspected": [
+        "Abstract"
+      ],
+      "relevance": "Formally minimal local explanations predate the proposed finite global response audit.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "zecevic2023",
+      "title": "Continual Causal Abstractions",
+      "authors": [
+        "Matej Ze\u010devi\u0107",
+        "Moritz Willig",
+        "Florian P. Busch",
+        "Jonas Seng"
+      ],
+      "year": 2023,
+      "status": "PMLR 208, 45-51; short research-direction contribution",
+      "urls": [
+        "https://proceedings.mlr.press/v208/zecevic23a.html",
+        "https://proceedings.mlr.press/v208/zecevic23a/zecevic23a.pdf"
+      ],
+      "inspection": "publisher_record_and_full_text_sections",
+      "sections_inspected": [
+        "Why Do We Need Continual Abstractions?",
+        "Future Work: Updating Existing Abstractions"
+      ],
+      "relevance": "Explicit counterexample-motivated causal abstraction revision proposal.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "voita2020",
+      "title": "Information-Theoretic Probing with Minimum Description Length",
+      "authors": [
+        "Elena Voita",
+        "Ivan Titov"
+      ],
+      "year": 2020,
+      "status": "EMNLP 2020, 183-196",
+      "urls": [
+        "https://aclanthology.org/2020.emnlp-main.14/"
+      ],
+      "doi": "10.18653/v1/2020.emnlp-main.14",
+      "inspection": "publisher_abstract_and_record",
+      "sections_inspected": [
+        "Abstract"
+      ],
+      "relevance": "Decoder quality versus complexity/data effort is established in probing.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "huang2024ravel",
+      "title": "RAVEL: Evaluating Interpretability Methods on Disentangling Language Model Representations",
+      "authors": [
+        "Jing Huang",
+        "Zhengxuan Wu",
+        "Christopher Potts",
+        "Mor Geva",
+        "Atticus Geiger"
+      ],
+      "year": 2024,
+      "status": "ACL 2024 Long Papers, 8669-8687",
+      "urls": [
+        "https://aclanthology.org/2024.acl-long.470/"
+      ],
+      "doi": "10.18653/v1/2024.acl-long.470",
+      "inspection": "publisher_abstract_and_record",
+      "sections_inspected": [
+        "Abstract"
+      ],
+      "relevance": "Controlled disentanglement and competing intervention methods.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "karvonen2025",
+      "title": "SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability",
+      "authors": [
+        "Adam Karvonen",
+        "Can Rager",
+        "Johnny Lin",
+        "Curt Tigges",
+        "Joseph Isaac Bloom",
+        "David Chanin",
+        "Yeu-Tong Lau",
+        "Eoin Farrell",
+        "Callum Stuart Mcdougall",
+        "Kola Ayonrinde",
+        "Demian Till",
+        "Matthew Wearden",
+        "Arthur Conmy",
+        "Samuel Marks",
+        "Neel Nanda"
+      ],
+      "year": 2025,
+      "status": "ICML 2025; PMLR 267, 29223-29264",
+      "urls": [
+        "https://proceedings.mlr.press/v267/karvonen25a.html"
+      ],
+      "inspection": "publisher_abstract_and_record",
+      "sections_inspected": [
+        "Abstract"
+      ],
+      "relevance": "Multi-criterion SAE evaluation; proxies differ from practical utility.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "shafran2026",
+      "title": "Constructing Interpretable Features from Compositional Neuron Groups",
+      "authors": [
+        "Or Shafran",
+        "Atticus Geiger",
+        "Mor Geva"
+      ],
+      "year": 2026,
+      "status": "arXiv:2506.10920v2; ACL 2026 status reported in source record",
+      "urls": [
+        "https://arxiv.org/html/2506.10920v2"
+      ],
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "arXiv abstract and accepted-at-ACL-2026 metadata",
+        "5 Concept Steering Evaluations",
+        "D.2-D.5",
+        "E.1 Comparison to Released Causal Benchmarks"
+      ],
+      "relevance": "Native-group baseline and precise comparison conditions.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "chanin2026",
+      "title": "Are Sparse Autoencoder Benchmarks Reliable?",
+      "authors": [
+        "David Chanin"
+      ],
+      "year": 2026,
+      "status": "arXiv:2605.18229",
+      "urls": [
+        "https://arxiv.org/html/2605.18229"
+      ],
+      "inspection": "full_text_sections",
+      "sections_inspected": [
+        "Synthetic benchmark results",
+        "6 Related work",
+        "benchmark reliability discussion"
+      ],
+      "relevance": "Reseed/oracle/training controls constrain claims from proxy benchmark gains.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "korznikov2026",
+      "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+      "authors": [
+        "Anton Korznikov",
+        "Andrey Galichin",
+        "Alexey Dontsov",
+        "Oleg Rogov",
+        "Ivan Oseledets",
+        "Elena Tutubalina"
+      ],
+      "year": 2026,
+      "status": "arXiv:2602.14111",
+      "urls": [
+        "https://arxiv.org/abs/2602.14111"
+      ],
+      "inspection": "primary_abstract",
+      "sections_inspected": [
+        "arXiv abstract and submission record"
+      ],
+      "relevance": "Random-feature baseline lead; exact detailed findings require further inspection.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "paulo2025",
+      "title": "Sparse Autoencoders Trained on the Same Data Learn Different Features",
+      "authors": [
+        "Gon\u00e7alo Paulo",
+        "Nora Belrose"
+      ],
+      "year": 2025,
+      "status": "arXiv:2501.16615",
+      "urls": [
+        "https://arxiv.org/abs/2501.16615"
+      ],
+      "inspection": "primary_abstract",
+      "sections_inspected": [
+        "arXiv abstract and submission record"
+      ],
+      "relevance": "Feature stability lead; no independent replication or detailed proof audit.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "meloux2026variance",
+      "title": "Mechanistic Interpretability as Statistical Estimation: A Variance Analysis",
+      "authors": [
+        "Maxime M\u00e9loux",
+        "Fran\u00e7ois Portet",
+        "Maxime Peyrard"
+      ],
+      "year": 2026,
+      "status": "ICML 2026; PMLR 306, 87639-87657",
+      "urls": [
+        "https://proceedings.mlr.press/v306/meloux26a.html",
+        "https://arxiv.org/abs/2510.00845"
+      ],
+      "inspection": "publisher_record_and_primary_abstract",
+      "sections_inspected": [
+        "Abstract"
+      ],
+      "relevance": "Circuit discovery as statistical estimator; perturbation and stability reporting.",
+      "priority_impact": "medium",
+      "independently_reproduced": false
+    },
+    {
+      "id": "alreadyclean",
+      "title": "Neural Networks Are Already Clean",
+      "authors": [
+        "Nick Cammarata"
+      ],
+      "year": null,
+      "status": "Live web essay; current page not authenticated by this sub-audit",
+      "urls": [
+        "https://already-clean.goodfire.com"
+      ],
+      "inspection": "fetch_failed",
+      "sections_inspected": [],
+      "relevance": "Originating hypothesis; preserve an inspectable frozen source.",
+      "priority_impact": "high",
+      "independently_reproduced": false
+    },
+    {
+      "id": "ref2029uoa",
+      "title": "Units of Assessment",
+      "authors": [
+        "Research Excellence Framework"
+      ],
+      "year": null,
+      "status": "Official current unit list; checked 2026-10-15",
+      "urls": [
+        "https://2029.ref.ac.uk/panels/units-of-assessment/"
+      ],
+      "inspection": "official_page",
+      "sections_inspected": [
+        "UOA list"
+      ],
+      "relevance": "Computer Science and Informatics is UOA 11.",
+      "priority_impact": "context"
+    }
+  ],
+  "leads_not_used_for_strong_claims": [
+    {
+      "title": "PLOT: Progressive Localization via Optimal Transport in Neural Causal Abstraction",
+      "url": "https://arxiv.org/abs/2605.06979",
+      "status": "Primary abstract inspected; localisation comparison could be expanded."
+    },
+    {
+      "title": "Causal Effect Identifiability in Causal Abstractions: A Strict Hierarchy of Criteria",
+      "url": "https://arxiv.org/html/2610.13520",
+      "status": "Primary excerpts located via Exa; graph-collection identifiability differs from report/decoder adequacy."
+    },
+    {
+      "title": "Property-driven Causal Abstractions for Markov Decision Processes",
+      "url": "https://arxiv.org/abs/2607.26787",
+      "status": "Discovery lead; primary text not inspected in this audit."
+    },
+    {
+      "title": "Intrinsic Structure: Spectral Identifiability for Mechanistic Interpretability",
+      "url": "https://arxiv.org/abs/2608.10172",
+      "status": "Primary search abstract surfaced; theorem assumptions not inspected."
+    },
+    {
+      "title": "Sparse convex quantile regression: A generalized benders decomposition approach",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377221726002092",
+      "status": "Publisher preview inspected; exact new affine workflow should be checked against its distinct piecewise-linear loss formulation."
+    },
+    {
+      "title": "Optimal Cross-Validation for Sparse Linear Regression",
+      "url": "https://optimization-online.org/wp-content/uploads/2023/06/Global_Sparse_Regression_for_IJOC_submitted_version.pdf",
+      "status": "Primary supplementary Benders implementation excerpt inspected."
+    },
+    {
+      "title": "Space Explanations of Neural Network Classification",
+      "url": "https://doi.org/10.1007/978-3-031-98682-6_15",
+      "status": "Search lead concerning Farkas interpolation; not inspected from primary publisher access."
+    }
+  ],
+  "tool_limits": [
+    "Semantic Scholar paper relevance search returned HTTP 429; no results or citation-graph traversal claimed.",
+    "Already-Clean homepage fetch failed.",
+    "Boyd-Vandenberghe PDF fetch failed; not treated as an inspected source.",
+    "Some publisher papers available only as abstract/preview; inspection levels are recorded per source.",
+    "No new code or empirical results were independently reproduced by this literature subtask."
+  ],
+  "queries": [
+    "\"functional compression\" \"maximal distortion\" hypergraph",
+    "\"causal abstraction\" \"counterexample\" refinement interpretability",
+    "\"causal abstraction\" \"minimal\" \"cost\" explanation",
+    "\"feature selection\" \"discernibility matrix\" \"set cover\"",
+    "\"test cover problem\" \"weighted\" feature selection",
+    "\"counterexample-guided abstraction refinement\" Clarke Grumberg Jha Lu Veith 2000 pdf",
+    "\"mechanistic interpretability\" \"counterexample-guided\"",
+    "\"discernibility\" \"hitting set\" feature selection Skowron Rauszer pdf",
+    "\"minimum test cover\" \"set cover\" paper",
+    "\"rational\" \"certificate\" \"set cover\" \"dual\"",
+    "\"Conflict hypergraphs for distinguishing feature selection\"",
+    "\"Validating Causal Abstraction Metrics on Simulated Complex Systems\"",
+    "\"The Generalized Test Collection Problem\"",
+    "M\u00e9loux 2025 mechanistic interpretability identifiability boolean circuits",
+    "\"rational certificates\" \"integer programming\" verified optimization",
+    "\"Information-Theoretic Probing with Minimum Description Length\" ACL",
+    "\"sparse\" \"Chebyshev approximation\" feature selection",
+    "\"feature selection\" \"Farkas\" regression",
+    "\"Chebyshev regression\" \"subset\"",
+    "\"Benders\" \"sparse regression\"",
+    "\"linear Chebyshev approximation\" \"dual\" \"n+1\"",
+    "\"mechanistic interpretability\" \"Chebyshev\"",
+    "\"causal abstraction\" \"linear programming\" \"dual\"",
+    "\"neural\" \"explanation\" \"Farkas\" certificate",
+    "\"An Abstraction-Based Framework for Neural Network Verification\"",
+    "\"Abduction-Based Explanations for Machine Learning Models\"",
+    "\"smallest explanations\" \"hitting set\" Ignatiev",
+    "Gleeson Ryan 1990 identifying minimally infeasible subsystems inequalities",
+    "\"Aytug\" \"2015\" \"Benders\" feature selection"
+  ],
+  "conclusion": {
+    "strongest_candidate": "Finite exact restricted-decoder diagnosis and minimum-cost repair, validated on trained-system interventions.",
+    "foundations_not_new": [
+      "functional compression compatibility",
+      "uniform approximation transfer",
+      "Chebyshev signed duality",
+      "sparse LP witnesses",
+      "Benders feature selection",
+      "CEGAR",
+      "rational optimality certificates"
+    ],
+    "priority_established": false,
+    "ref_rating_established": false
+  }
+}

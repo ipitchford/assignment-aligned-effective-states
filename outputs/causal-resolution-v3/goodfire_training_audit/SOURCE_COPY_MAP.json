@@ -1,0 +1,257 @@
+{
+  "copy_method": "Byte copies checked against source before and after copying",
+  "files": [
+    {
+      "bytes": 54017,
+      "package_path": "ablations.csv",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "a97df82ff29124caebbcbb57e94fab4695137abfdab6723121acde47d4150596",
+      "source_workspace_path": "work/goodfire_training_audit/ablations.csv"
+    },
+    {
+      "bytes": 4135,
+      "package_path": "acquire_inputs.py",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "31b702380824b9821c8174b15197bca6121903c44a580b2619f7e4f33ed1aece",
+      "source_workspace_path": "work/goodfire_training_audit/acquire_inputs.py"
+    },
+    {
+      "bytes": 337570,
+      "package_path": "audit.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "760dffcde994aa2d199acc4e55eaffc980b5d3d2ecbc7f4eea569619e132e124",
+      "source_workspace_path": "work/goodfire_training_audit/audit.json"
+    },
+    {
+      "bytes": 21034,
+      "package_path": "audit_exports.py",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "8c676f2e64b28b1416bd7e5d0d53fe1820a75c5abb242463dd384c55408f52db",
+      "source_workspace_path": "work/goodfire_training_audit/audit_exports.py"
+    },
+    {
+      "bytes": 273,
+      "package_path": "audit_replay_receipt.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "89a0eb505063075ed116671953d299565a512b9c4fd5cce3fbcd003baaff736a",
+      "source_workspace_path": "work/goodfire_training_audit/audit_replay_receipt.json"
+    },
+    {
+      "bytes": 5730,
+      "package_path": "audit_scope.md",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "d8905ad823bb1eb0fce74ce9bd6fec9c16c19ef71aac36185bd63164634c9ce9",
+      "source_workspace_path": "work/goodfire_training_audit/audit_scope.md"
+    },
+    {
+      "bytes": 23283,
+      "package_path": "candidate_control_comparisons.csv",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "68b491c7d5aea6b5b158ffefd7d060adb582f343fb5328f84c525a691f5ab4e3",
+      "source_workspace_path": "work/goodfire_training_audit/candidate_control_comparisons.csv"
+    },
+    {
+      "bytes": 9577,
+      "package_path": "findings.md",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "fd057efebeb301d2eae14df03d7c2eb8dd96a266ebe240e35ac54f87b2ae8693",
+      "source_workspace_path": "work/goodfire_training_audit/findings.md"
+    },
+    {
+      "bytes": 13795,
+      "package_path": "fixed_coordinate_curves.csv",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "fbd270421c6fb85b5050395fb3de2cf0bae5c072935923a82d700890544a95fb",
+      "source_workspace_path": "work/goodfire_training_audit/fixed_coordinate_curves.csv"
+    },
+    {
+      "bytes": 2837,
+      "package_path": "input_freeze.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "46e304ddd240d67501a981218fa325936ef753b3b081e296acbde53f8a4f2e74",
+      "source_workspace_path": "work/goodfire_training_audit/input_freeze.json"
+    },
+    {
+      "bytes": 7254,
+      "package_path": "input_provenance.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "735753af6bfaf5c988ed168c3d10b2b44271705f8d68f270dc9ff72e632bf060",
+      "source_workspace_path": "work/goodfire_training_audit/input_provenance.json"
+    },
+    {
+      "bytes": 54442,
+      "package_path": "inputs/fresh-small-seed0/causal.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "d10641ca557f72c30b3d71e792a7c93cb0d3a34d2563bd11cd96df8db35b4877",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-small-seed0/causal.json"
+    },
+    {
+      "bytes": 4016,
+      "package_path": "inputs/fresh-small-seed0/lineage.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "a3f289945769cc0a10dab914e6d9ee152f2f8e68cb96a2853c8afca1a0330086",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-small-seed0/lineage.json"
+    },
+    {
+      "bytes": 58627,
+      "package_path": "inputs/fresh-small-seed0/metrics.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "5e6af12e9b8b35b72cc8e4bca68c6b31bcd2f69301daee20326c3ced67e9473a",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-small-seed0/metrics.json"
+    },
+    {
+      "bytes": 54299,
+      "package_path": "inputs/fresh-tiny-seed0/causal.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "705611cc628c466278e95d4f0691efcc8ac4eb06227a90bd788acc208f1daf5a",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-tiny-seed0/causal.json"
+    },
+    {
+      "bytes": 4034,
+      "package_path": "inputs/fresh-tiny-seed0/lineage.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "3e3ee4c44cf667c7a91d58d9591c2575c482ec03c697212b1efe15f48a10867b",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-tiny-seed0/lineage.json"
+    },
+    {
+      "bytes": 58533,
+      "package_path": "inputs/fresh-tiny-seed0/metrics.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "79319fa556b57ee5bacb6f4ee84cfdfba0f686721e631271baf27a5e96a2f5b5",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-tiny-seed0/metrics.json"
+    },
+    {
+      "bytes": 54504,
+      "package_path": "inputs/fresh-tiny-seed1/causal.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "432335167cf2fd99035e4ee007893abeb0fde94deccdc554b1a226cbc27251ff",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-tiny-seed1/causal.json"
+    },
+    {
+      "bytes": 4038,
+      "package_path": "inputs/fresh-tiny-seed1/lineage.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "bae604fd06e96780fb9f164bdb4c0900260e3e90dd559c3cdc780454bf70ee9a",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-tiny-seed1/lineage.json"
+    },
+    {
+      "bytes": 58500,
+      "package_path": "inputs/fresh-tiny-seed1/metrics.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "cdf84df1e01c81cc6b653018a5e267acdafa0bf3d643827a7019185a802c868a",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/fresh-tiny-seed1/metrics.json"
+    },
+    {
+      "bytes": 144451,
+      "package_path": "inputs/manifest.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "66000b8d960b8bfe6067359b7d3be985f45d74d5d347dd197dbdbf4ea61b7bf6",
+      "source_workspace_path": "work/goodfire_training_audit/inputs/manifest.json"
+    },
+    {
+      "bytes": 4441,
+      "package_path": "manifest.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "2bde68b01eff9c0b4b9eb799b82a59cad352d11a6ab9e414cabb05479f8a6cd4",
+      "source_workspace_path": "work/goodfire_training_audit/manifest.json"
+    },
+    {
+      "bytes": 130,
+      "package_path": "manifest_receipt.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "1ccdd9500a5f7c53c6d2b5bb386574c4d767113d0f634c8e111a7330eae616a8",
+      "source_workspace_path": "work/goodfire_training_audit/manifest_receipt.json"
+    },
+    {
+      "bytes": 625,
+      "package_path": "rational_replay_receipt.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "59b9e4c74ab1adfa5658682426e25b55db388f5e890f0a308e15974d79e8b9f8",
+      "source_workspace_path": "work/goodfire_training_audit/rational_replay_receipt.json"
+    },
+    {
+      "bytes": 2364,
+      "package_path": "retrieval_allowlist.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "23987310826bb86de576ee53f039d9ede10d7f7d3011b35a84c5bb123b7a2233",
+      "source_workspace_path": "work/goodfire_training_audit/retrieval_allowlist.json"
+    },
+    {
+      "bytes": 3483,
+      "package_path": "source_corpus_comparison.json",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "4940f6db0734f0a735568f1ecfd6d2642c91249eadb56e56fb977ee4ae5fbbc2",
+      "source_workspace_path": "work/goodfire_training_audit/source_corpus_comparison.json"
+    },
+    {
+      "bytes": 3472,
+      "package_path": "verify_arithmetic.py",
+      "role": "Exact original numerical audit/code/analysis/provenance",
+      "sha256": "70e2a8eca4eea4295eb188f80d9f9e54dbf25ce16cafd4a7da58ce3fb8859867",
+      "source_workspace_path": "work/goodfire_training_audit/verify_arithmetic.py"
+    },
+    {
+      "bytes": 26700,
+      "package_path": "checks/recompute.py",
+      "role": "Unchanged independent numerical checker or historical review receipt",
+      "sha256": "d1c43647c814a627b4e97e77519825e037f18a947ccffad5ae9347d06f589fa8",
+      "source_workspace_path": "work/goodfire_training_independent_review/recompute.py"
+    },
+    {
+      "bytes": 7637,
+      "package_path": "archived_independent_review/full_replay/receipt.json",
+      "role": "Unchanged independent numerical checker or historical review receipt",
+      "sha256": "b6c52b231a9c7bacbf3f41ac2621b8b684cca4137c1c1e7f87ea722dbacfd9d6",
+      "source_workspace_path": "work/goodfire_training_independent_review/full_replay/receipt.json"
+    },
+    {
+      "bytes": 145817,
+      "package_path": "archived_independent_review/full_replay/recomputed.json",
+      "role": "Unchanged independent numerical checker or historical review receipt",
+      "sha256": "1b97792278bdd6f94c5c2169dd2f48c7664c1516287e95477cdcbb98ef6c70ad",
+      "source_workspace_path": "work/goodfire_training_independent_review/full_replay/recomputed.json"
+    },
+    {
+      "bytes": 7095,
+      "package_path": "archived_independent_review/portable_replay/receipt.json",
+      "role": "Unchanged independent numerical checker or historical review receipt",
+      "sha256": "bbf790f6497abe5a80d3d58ce361337c85d033713a32a5ae85ff706db78ff962",
+      "source_workspace_path": "work/goodfire_training_independent_review/portable_replay/receipt.json"
+    },
+    {
+      "bytes": 145817,
+      "package_path": "archived_independent_review/portable_replay/recomputed.json",
+      "role": "Unchanged independent numerical checker or historical review receipt",
+      "sha256": "1b97792278bdd6f94c5c2169dd2f48c7664c1516287e95477cdcbb98ef6c70ad",
+      "source_workspace_path": "work/goodfire_training_independent_review/portable_replay/recomputed.json"
+    },
+    {
+      "bytes": 12177,
+      "package_path": "archived_independent_review/REVIEW.md",
+      "role": "Final independent review metadata/memo",
+      "sha256": "755ee136bfccc22944272a8471f68cc37e36e6106a286042ce98be0cc2681b5a",
+      "source_workspace_path": "work/next_phase/goodfire_training_independent_review.md"
+    },
+    {
+      "bytes": 2179,
+      "package_path": "archived_independent_review/README.md",
+      "role": "Final independent review metadata/memo",
+      "sha256": "7509f287578a22a425ead3c95ab0bf6f1eeb27a30fdf0241d0624ba597abb4cf",
+      "source_workspace_path": "work/goodfire_training_independent_review/README.md"
+    },
+    {
+      "bytes": 781,
+      "package_path": "archived_independent_review/environment.json",
+      "role": "Final independent review metadata/memo",
+      "sha256": "6d353bdba9d47e4bc0243a46dc11000e78525a89c79b5dc2eadf6f88f27d96c9",
+      "source_workspace_path": "work/goodfire_training_independent_review/environment.json"
+    },
+    {
+      "bytes": 1793,
+      "package_path": "archived_independent_review/review_manifest.json",
+      "role": "Final independent review metadata/memo",
+      "sha256": "35ca6f3a18ba9694b3b20f857a7d6a6f9a625b6d4aa9881f94a6242129b5ddb6",
+      "source_workspace_path": "work/goodfire_training_independent_review/review_manifest.json"
+    }
+  ]
+}

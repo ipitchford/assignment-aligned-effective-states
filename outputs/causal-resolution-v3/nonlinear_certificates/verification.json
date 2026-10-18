@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "method": "independent standard-library exact fraction and integer arithmetic",
+  "certificates": 3,
+  "primal_output_bounds": 30,
+  "rejected_mutations": 15,
+  "verified": [
+    {
+      "seed": 117,
+      "subbank_rows": 15,
+      "support": 4,
+      "lower": "42493082332223/21990232555520",
+      "upper": "4249308233471/2199023255552",
+      "rejects_epsilon1": true
+    },
+    {
+      "seed": 129,
+      "subbank_rows": 15,
+      "support": 4,
+      "lower": "25218001206429/8796093022208",
+      "upper": "7880625377431/2748779069440",
+      "rejects_epsilon1": true
+    },
+    {
+      "seed": 143,
+      "subbank_rows": 15,
+      "support": 4,
+      "lower": "21485656030733/10995116277760",
+      "upper": "10742828016253/5497558138880",
+      "rejects_epsilon1": true
+    }
+  ],
+  "test_outcomes_accessed": false,
+  "input_sha256": {
+    "seed-117.json": "a92c7b82d9c35b3ae4366f00567c3ba687822c8c9ecc04b89aa6e6a19de74852",
+    "seed-129.json": "da916c682aa19ad23acc3e86f3a696ea5096cf397e980f6dd8f6bb9554c6ddec",
+    "seed-143.json": "e8f9b3c2ed658ef891bfa5a037cf254116714a7411dc7ac9d8a023f0661d15c8"
+  },
+  "verifier_sha256": "0f6a2e259f8ef181b84568f38c249b9c14a713a7b6990246b68b080343e1f16b",
+  "scope": "verifies retained finite tables and exact bounds; replay_model.py separately binds tables to exported model and discovery images"
+}

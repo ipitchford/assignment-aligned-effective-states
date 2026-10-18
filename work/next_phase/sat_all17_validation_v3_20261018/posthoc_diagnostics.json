@@ -1,0 +1,346 @@
+{
+  "input_sha256": {
+    "analysis.json": "d81470a4b98a0b04e5dddf0bff7d5b445955ff86346639b917ce9514d99ac2bd",
+    "native_outputs.npz": "20c3a3dbb0c5a161d5a53e12542e3ae2da88f55ca5df78d15305fa2de3a39fc6",
+    "selected_bank.npz": "38a8980436b67d7af8b897b813f68ca23f5d72b088fbfde7c6d64d4e4529d35e"
+  },
+  "near_false_positives_by_flipped_variable": {
+    "all_nearest_membership": {
+      "x_0": {
+        "denominator": 112,
+        "false_positive": 2,
+        "rate": 0.017857142857142856
+      },
+      "x_1": {
+        "denominator": 113,
+        "false_positive": 16,
+        "rate": 0.1415929203539823
+      },
+      "x_2": {
+        "denominator": 104,
+        "false_positive": 10,
+        "rate": 0.09615384615384616
+      },
+      "x_3": {
+        "denominator": 116,
+        "false_positive": 2,
+        "rate": 0.017241379310344827
+      },
+      "x_4": {
+        "denominator": 123,
+        "false_positive": 15,
+        "rate": 0.12195121951219512
+      }
+    },
+    "exclusive_nearest": {
+      "x_0": {
+        "denominator": 100,
+        "false_positive": 0,
+        "rate": 0.0
+      },
+      "x_1": {
+        "denominator": 101,
+        "false_positive": 11,
+        "rate": 0.10891089108910891
+      },
+      "x_2": {
+        "denominator": 99,
+        "false_positive": 8,
+        "rate": 0.08080808080808081
+      },
+      "x_3": {
+        "denominator": 108,
+        "false_positive": 0,
+        "rate": 0.0
+      },
+      "x_4": {
+        "denominator": 112,
+        "false_positive": 8,
+        "rate": 0.07142857142857142
+      }
+    }
+  },
+  "ranking_loss_decomposition": {
+    "far_negative": {
+      "pairs": 34816,
+      "strict_inversions": 10,
+      "ties": 0
+    },
+    "near_negative": {
+      "pairs": 34816,
+      "strict_inversions": 935,
+      "ties": 0
+    },
+    "near_share_of_strict_inversions": 0.9639175257731959,
+    "strict_inversions_total": 970,
+    "unsat_negative": {
+      "pairs": 34816,
+      "strict_inversions": 25,
+      "ties": 0
+    }
+  },
+  "regressions": {
+    "all_rows_unit_fixed_effects_plus_violated_clauses": {
+      "coefficients": [
+        0.8280117217517929,
+        -0.19275947173716906,
+        0.3175343888414265,
+        0.10185793259954401,
+        0.2388969644395821,
+        0.0607047108946969,
+        0.17870307987732062,
+        -0.12523430729807444,
+        0.08021310429135697,
+        -0.060489779506298906,
+        0.18131516137874987,
+        -0.10491329663051742,
+        0.20041278633735016,
+        0.20823094078916876,
+        0.23352988355135523,
+        0.1424848819206011,
+        -0.029082597619817612,
+        -1.028501239525966
+      ],
+      "r2": 0.8315290594974967,
+      "rank": 18,
+      "rows": 2720
+    },
+    "sat_rows_unit_fixed_effects_plus_both": {
+      "coefficients": [
+        0.9347252033788295,
+        -0.1302038221156011,
+        0.17453674352538262,
+        0.15578792846112752,
+        0.11447841420446025,
+        -0.03504890905536172,
+        0.07849652506847866,
+        -0.051295350430822464,
+        0.003730056757323624,
+        -0.041744087316171505,
+        0.09980573835841022,
+        -0.040831918631376474,
+        0.08677546595977638,
+        0.13186051857919467,
+        0.13521400902419928,
+        0.13199197299023,
+        -0.02595899857775427,
+        -0.9643199763777713,
+        -0.13254062786583812
+      ],
+      "r2": 0.827809806751528,
+      "rank": 19,
+      "rows": 2176
+    },
+    "sat_rows_unit_fixed_effects_plus_nearest_solution_hamming": {
+      "coefficients": [
+        0.8313970235734409,
+        -0.27348689577245844,
+        -0.05152302665924842,
+        0.019754950293170256,
+        -0.11911510579562397,
+        -0.09522435613678881,
+        -0.027117799511119395,
+        -0.17216627752568814,
+        -0.1921947141655051,
+        -0.13968283491703928,
+        0.046502180997142165,
+        -0.3119523605454423,
+        -0.03419001257727689,
+        -0.041557554339464335,
+        -0.09084576116043314,
+        -0.018919401924258537,
+        -0.15412729688261223,
+        -1.0908093119437945
+      ],
+      "r2": 0.5846914681891598,
+      "rank": 18,
+      "rows": 2176
+    },
+    "sat_rows_unit_fixed_effects_plus_violated_clauses": {
+      "coefficients": [
+        0.9025441777656665,
+        -0.11843634257918519,
+        0.19445994785030157,
+        0.16472299799860943,
+        0.135077704915835,
+        -0.02892144342622532,
+        0.0868835726726182,
+        -0.04299367912875894,
+        0.020948915536419848,
+        -0.03295496429224977,
+        0.10022569583864169,
+        -0.015774034181485007,
+        0.09435836272434714,
+        0.14633234366143227,
+        0.1551372133491186,
+        0.14371676437560857,
+        -0.01518430454550329,
+        -1.0508590338440755
+      ],
+      "r2": 0.824792145791962,
+      "rank": 18,
+      "rows": 2176
+    }
+  },
+  "scope": "post hoc descriptive analysis of stored all-17 bank and native outputs; no protected gate changed",
+  "status": "PASS",
+  "task_errors_by_solution_class": {
+    "multi_solution": {
+      "denominator": 2899,
+      "errors": 0
+    },
+    "sole_solution": {
+      "denominator": 2900,
+      "errors": 35
+    },
+    "unsat": {
+      "denominator": 1453,
+      "errors": 2
+    }
+  },
+  "transformed_near_far_composition": {
+    "distinct_unit_input_events": {
+      "fixed": {
+        "far_negative": 1002,
+        "near_negative": 374,
+        "positive": 1376,
+        "unsat_negative": 688
+      },
+      "switch": {
+        "far_negative": 440,
+        "near_negative": 184,
+        "positive": 624,
+        "unsat_negative": 312
+      }
+    },
+    "edge_weighted": {
+      "fixed": {
+        "far_negative": 1002,
+        "near_negative": 374,
+        "positive": 1376,
+        "unsat_negative": 688
+      },
+      "switch": {
+        "far_negative": 440,
+        "near_negative": 184,
+        "positive": 624,
+        "unsat_negative": 312
+      }
+    },
+    "note": "Transformed rows are orbit-linked dependent consistency checks, not independent samples."
+  },
+  "unit_label_error_by_task_error": {
+    "per_unit": {
+      "10": {
+        "both_correct": 152,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 8
+      },
+      "185": {
+        "both_correct": 159,
+        "both_error": 0,
+        "label_correct_task_error": 1,
+        "label_error_task_correct": 0
+      },
+      "224": {
+        "both_correct": 159,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 1
+      },
+      "245": {
+        "both_correct": 158,
+        "both_error": 1,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 1
+      },
+      "261": {
+        "both_correct": 145,
+        "both_error": 0,
+        "label_correct_task_error": 1,
+        "label_error_task_correct": 14
+      },
+      "291": {
+        "both_correct": 158,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 2
+      },
+      "317": {
+        "both_correct": 160,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 0
+      },
+      "326": {
+        "both_correct": 159,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 1
+      },
+      "380": {
+        "both_correct": 158,
+        "both_error": 0,
+        "label_correct_task_error": 1,
+        "label_error_task_correct": 1
+      },
+      "41": {
+        "both_correct": 157,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 3
+      },
+      "411": {
+        "both_correct": 142,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 18
+      },
+      "416": {
+        "both_correct": 140,
+        "both_error": 0,
+        "label_correct_task_error": 1,
+        "label_error_task_correct": 19
+      },
+      "492": {
+        "both_correct": 152,
+        "both_error": 0,
+        "label_correct_task_error": 1,
+        "label_error_task_correct": 7
+      },
+      "495": {
+        "both_correct": 155,
+        "both_error": 0,
+        "label_correct_task_error": 1,
+        "label_error_task_correct": 4
+      },
+      "55": {
+        "both_correct": 142,
+        "both_error": 0,
+        "label_correct_task_error": 1,
+        "label_error_task_correct": 17
+      },
+      "77": {
+        "both_correct": 153,
+        "both_error": 0,
+        "label_correct_task_error": 2,
+        "label_error_task_correct": 5
+      },
+      "81": {
+        "both_correct": 131,
+        "both_error": 0,
+        "label_correct_task_error": 0,
+        "label_error_task_correct": 29
+      }
+    },
+    "pooled_unit_formula_events": {
+      "both_correct": 2580,
+      "both_error": 1,
+      "denominator": 2720,
+      "dependence_note": "Rows share formulas and units; units 55 and 416 share the TTTFF base formulas.",
+      "label_correct_task_error": 9,
+      "label_error_task_correct": 130
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "created_utc": "2026-10-15T21:16:23Z",
+  "scope": "Supplementary after discovery; before root accessed any test outcomes",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "base": "native8; allow affine intercept",
+  "selection": "4 greedy additions. Each round choose worst minimax output, then maximum absolute exact dual contrast per new predicate. Lowest-index exact tie.",
+  "output_decoder": "coordinatewise affine minimax; dyadic coefficient export denominator 2^32",
+  "pure_expressivity_audit": "one first row per distinct base design; intercept included; worst-output sparse exact contrast",
+  "optimality": "No global optimality claim for greedy feature selection. LP lower/upper bounds separately certified.",
+  "test_rule": "Read frozen test bank only after selection files and hashes have been written."
+}

@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "bytes": 2173207,
+      "path": "candidate_bank.npz",
+      "sha256": "aebc1c934a491de70f7cb1d9b1029fb0c987930cc4e1de11afc814e0b7e8e6d0"
+    },
+    {
+      "bytes": 188253,
+      "path": "candidate_selection_data.npz",
+      "sha256": "f42734c3ad88651e6def933e993c0f3e7609fa6c034941b2e8b9920dc3f0f38a"
+    },
+    {
+      "bytes": 17150,
+      "path": "selected_bank.npz",
+      "sha256": "4c4e668f80328ed34349448c1506c0702bce0a35464c0896a9b9181d9d2adf8a"
+    },
+    {
+      "bytes": 80230,
+      "path": "selected_bank.json",
+      "sha256": "2060686e788b1c27dc27631b0f38bf67c96e255b6d2fc7e5b4f0511fdd0c02e5"
+    },
+    {
+      "bytes": 7641,
+      "path": "bank_verification.json",
+      "sha256": "beb3507ce95a37e64f46ca626fca618b94d0d731c259a89e88ea9f810d129493"
+    },
+    {
+      "bytes": 3,
+      "path": "selection_exclusions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "bytes": 2811,
+      "path": "construction.json",
+      "sha256": "5667285bce0ce1f4a8d381524a22dcada7da124e6189dd956ea59b18bd9fd46c"
+    }
+  ],
+  "implementation_freeze_sha256": "3a771ecc50d9481c3fceaca79da5a0965e99b77e681ace6a5f628025b2433ced",
+  "utc": "2026-10-16T00:09:26.342026+00:00"
+}

@@ -1,0 +1,1185 @@
+{
+  "schema": "palumbo-2sat-published-neuron-rules-v1",
+  "recovered_at": "2026-10-15",
+  "source": {
+    "title": "Validating Mechanistic Interpretations: An Axiomatic Approach",
+    "authors": [
+      "Nils Palumbo",
+      "Ravi Mangal",
+      "Zifan Wang",
+      "Saranya Vijayakumar",
+      "Corina Pasareanu",
+      "Somesh Jha"
+    ],
+    "arxiv": "2407.13594v2",
+    "date": "2025-06-20",
+    "html": "https://arxiv.org/html/2407.13594v2",
+    "pdf": "https://arxiv.org/pdf/2407.13594v2",
+    "license": "CC BY4.0 (arXivHTML license link)",
+    "repository": "https://github.com/nilspalumbo/axiomatic-validation",
+    "commit": "35d1e4105265ab0ca74bc7daf9371fc8f82bba81",
+    "notebook": "interpretation.ipynb",
+    "notebook_sha256": "5410cc7cc28e28d303906cd8879bf95c161cda669c01d608014d7644bc742582"
+  },
+  "recovery_method": "Tables2\u20133 parsed from primary arXivHTML and compared with independently returned PDF text. Disjunction table cross-checked against stored notebookcell149; no training, refitting, native-model inference or pilot-outcome files accessed. The parent supplied the proposed follow-on hypothesis and pilot direction in messages; this is not a blinded outcome assessment.",
+  "semantics": {
+    "variable_order": [
+      "x0",
+      "x1",
+      "x2",
+      "x3",
+      "x4"
+    ],
+    "phi": "phi[a] is True iff the input formula is satisfied by assignment a.",
+    "assignment_alphabet": {
+      "T": true,
+      "F": false
+    },
+    "truth_table_index": "x0 is the most significant bit, x4 least significant, matching interpretation.py np.unpackbits.",
+    "rule_target": "Approximate learned predicate for whether the unit's post-ReLU activation reaches the published0.5 threshold; not an exact native rule.",
+    "threshold_source_code": ">=0.5",
+    "threshold_paper_prose": ">0.5; boundary distinction must be preserved.",
+    "neuron_location": "blocks.1.mlp.hook_post, final readout position",
+    "preactivation_location": "blocks.1.mlp.hook_pre, final readout position",
+    "preactivation_claim": "No exact violation-count or distance-to-satisfaction interpretation is asserted by this mapping."
+  },
+  "single_assignment_general_units": [
+    {
+      "unit": 10,
+      "assignment": "TFFFF",
+      "truth_table_index": 16
+    },
+    {
+      "unit": 41,
+      "assignment": "FFFFF",
+      "truth_table_index": 0
+    },
+    {
+      "unit": 55,
+      "assignment": "TTTFF",
+      "truth_table_index": 28
+    },
+    {
+      "unit": 77,
+      "assignment": "FFTTT",
+      "truth_table_index": 7
+    },
+    {
+      "unit": 81,
+      "assignment": "FTTTF",
+      "truth_table_index": 14
+    },
+    {
+      "unit": 185,
+      "assignment": "FFFTT",
+      "truth_table_index": 3
+    },
+    {
+      "unit": 224,
+      "assignment": "FFFFT",
+      "truth_table_index": 1
+    },
+    {
+      "unit": 245,
+      "assignment": "FTFFT",
+      "truth_table_index": 9
+    },
+    {
+      "unit": 261,
+      "assignment": "TTFTT",
+      "truth_table_index": 27
+    },
+    {
+      "unit": 291,
+      "assignment": "TFTTT",
+      "truth_table_index": 23
+    },
+    {
+      "unit": 317,
+      "assignment": "TFFFT",
+      "truth_table_index": 17
+    },
+    {
+      "unit": 326,
+      "assignment": "TTTTF",
+      "truth_table_index": 30
+    },
+    {
+      "unit": 380,
+      "assignment": "TFFTT",
+      "truth_table_index": 19
+    },
+    {
+      "unit": 411,
+      "assignment": "TTFFT",
+      "truth_table_index": 25
+    },
+    {
+      "unit": 416,
+      "assignment": "TTTFF",
+      "truth_table_index": 28
+    },
+    {
+      "unit": 492,
+      "assignment": "TFTFT",
+      "truth_table_index": 21
+    },
+    {
+      "unit": 495,
+      "assignment": "FFFTF",
+      "truth_table_index": 2
+    }
+  ],
+  "rules": [
+    {
+      "unit": 10,
+      "general_rule_latex": "\\phi[TFFFF]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TFFFF",
+        "truth_table_index": 16
+      },
+      "general_rule_assignments": [
+        "TFFFF"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TFFFF",
+        "TFTFF",
+        "TTFFF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFFFF]\\lor\\phi[TFTFF]\\lor\\phi[TTFFF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row10",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 29,
+      "general_rule_latex": "\\phi[FTTFF]\\land\\neg\\phi[FFFFT]\\land\\neg\\phi[TTTTT]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "FTTFF",
+            "truth_table_index": 12
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FFFFT",
+              "truth_table_index": 1
+            }
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "TTTTT",
+              "truth_table_index": 31
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FTTFF",
+        "FFFFT",
+        "TTTTT"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FTTFF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTTFF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row29",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 36,
+      "general_rule_latex": "\\phi[TTFFF]\\land\\neg\\phi[FTFTF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "TTFFF",
+            "truth_table_index": 24
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FTFTF",
+              "truth_table_index": 10
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "TTFFF",
+        "FTFTF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "TTFFF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTFFF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row36",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 41,
+      "general_rule_latex": "\\phi[FFFFF]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "FFFFF",
+        "truth_table_index": 0
+      },
+      "general_rule_assignments": [
+        "FFFFF"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "FFFFF",
+        "FTFFF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFFFF]\\lor\\phi[FTFFF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row41",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 48,
+      "general_rule_latex": "(\\neg\\phi[FTTFF]\\land\\phi[FTFFF])\\lor\\phi[FTTFF]",
+      "general_rule_ast": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "not",
+                "arg": {
+                  "op": "phi",
+                  "assignment": "FTTFF",
+                  "truth_table_index": 12
+                }
+              },
+              {
+                "op": "phi",
+                "assignment": "FTFFF",
+                "truth_table_index": 8
+              }
+            ]
+          },
+          {
+            "op": "phi",
+            "assignment": "FTTFF",
+            "truth_table_index": 12
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FTTFF",
+        "FTFFF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FTFFF",
+        "FTTFF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTFFF]\\lor\\phi[FTTFF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row48",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 55,
+      "general_rule_latex": "\\phi[TTTFF]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TTTFF",
+        "truth_table_index": 28
+      },
+      "general_rule_assignments": [
+        "TTTFF"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TTTFF",
+        "TTTFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTTFF]\\lor\\phi[TTTFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row55",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 77,
+      "general_rule_latex": "\\phi[FFTTT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "FFTTT",
+        "truth_table_index": 7
+      },
+      "general_rule_assignments": [
+        "FFTTT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "FFTTF",
+        "FFTTT",
+        "FTTTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFTTF]\\lor\\phi[FFTTT]\\lor\\phi[FTTTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row77",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 81,
+      "general_rule_latex": "\\phi[FTTTF]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "FTTTF",
+        "truth_table_index": 14
+      },
+      "general_rule_assignments": [
+        "FTTTF"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "FTTTF",
+        "FTTTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTTTF]\\lor\\phi[FTTTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row81",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 96,
+      "general_rule_latex": "\\phi[TFTTF]\\land\\neg\\phi[FFTFF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "TFTTF",
+            "truth_table_index": 22
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FFTFF",
+              "truth_table_index": 4
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "TFTTF",
+        "FFTFF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "TFTTF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFTTF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row96",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 150,
+      "general_rule_latex": "\\phi[FTFTF]\\land\\neg\\phi[TTFFF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "FTFTF",
+            "truth_table_index": 10
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "TTFFF",
+              "truth_table_index": 24
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FTFTF",
+        "TTFFF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FTFTF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTFTF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row150",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 185,
+      "general_rule_latex": "\\phi[FFFTT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "FFFTT",
+        "truth_table_index": 3
+      },
+      "general_rule_assignments": [
+        "FFFTT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "FFFTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFFTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row185",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 189,
+      "general_rule_latex": "\\phi[FTTTT]\\land\\neg\\phi[TTTFT]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "FTTTT",
+            "truth_table_index": 15
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "TTTFT",
+              "truth_table_index": 29
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FTTTT",
+        "TTTFT"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FTTTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTTTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row189",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 195,
+      "general_rule_latex": "\\phi[TFFTF]\\land\\neg\\phi[TTTTT]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "TFFTF",
+            "truth_table_index": 18
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "TTTTT",
+              "truth_table_index": 31
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "TFFTF",
+        "TTTTT"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "TFFTF",
+        "TFTTF",
+        "TTFTF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFFTF]\\lor\\phi[TFTTF]\\lor\\phi[TTFTF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row195",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 201,
+      "general_rule_latex": "\\phi[TTFFT]\\land\\neg\\phi[TFTFF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "TTFFT",
+            "truth_table_index": 25
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "TFTFF",
+              "truth_table_index": 20
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "TTFFT",
+        "TFTFF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "TTFFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTFFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row201",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 224,
+      "general_rule_latex": "\\phi[FFFFT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "FFFFT",
+        "truth_table_index": 1
+      },
+      "general_rule_assignments": [
+        "FFFFT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "FFFFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFFFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row224",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 231,
+      "general_rule_latex": "\\phi[FTFTT]\\land\\neg\\phi[FFTTF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "FTFTT",
+            "truth_table_index": 11
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FFTTF",
+              "truth_table_index": 6
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FTFTT",
+        "FFTTF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FTFTT",
+        "FTTTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTFTT]\\lor\\phi[FTTTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row231",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 245,
+      "general_rule_latex": "\\phi[FTFFT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "FTFFT",
+        "truth_table_index": 9
+      },
+      "general_rule_assignments": [
+        "FTFFT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "FTFFF",
+        "FTFFT",
+        "FTTFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTFFF]\\lor\\phi[FTFFT]\\lor\\phi[FTTFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row245",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 261,
+      "general_rule_latex": "\\phi[TTFTT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TTFTT",
+        "truth_table_index": 27
+      },
+      "general_rule_assignments": [
+        "TTFTT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TTFTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTFTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row261",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 291,
+      "general_rule_latex": "\\phi[TFTTT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TFTTT",
+        "truth_table_index": 23
+      },
+      "general_rule_assignments": [
+        "TFTTT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TFTTF",
+        "TFTTT",
+        "TTTTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFTTF]\\lor\\phi[TFTTT]\\lor\\phi[TTTTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row291",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 304,
+      "general_rule_latex": "\\phi[FFTTF]\\land\\neg\\phi[TFTFF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "FFTTF",
+            "truth_table_index": 6
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "TFTFF",
+              "truth_table_index": 20
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FFTTF",
+        "TFTFF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FFTTF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFTTF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row304",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 317,
+      "general_rule_latex": "\\phi[TFFFT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TFFFT",
+        "truth_table_index": 17
+      },
+      "general_rule_assignments": [
+        "TFFFT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TFFFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFFFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row317",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 326,
+      "general_rule_latex": "\\phi[TTTTF]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TTTTF",
+        "truth_table_index": 30
+      },
+      "general_rule_assignments": [
+        "TTTTF"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TTFTF",
+        "TTTTF",
+        "TTTTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTFTF]\\lor\\phi[TTTTF]\\lor\\phi[TTTTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row326",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 334,
+      "general_rule_latex": "\\phi[FTTTF]\\land\\neg\\phi[FFFTT]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "FTTTF",
+            "truth_table_index": 14
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FFFTT",
+              "truth_table_index": 3
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FTTTF",
+        "FFFTT"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FTTTF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTTTF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row334",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 374,
+      "general_rule_latex": "\\phi[TTFTT]\\land\\neg\\phi[TFTTF]\\land\\neg\\phi[FFFFF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "TTFTT",
+            "truth_table_index": 27
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "TFTTF",
+              "truth_table_index": 22
+            }
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FFFFF",
+              "truth_table_index": 0
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "TTFTT",
+        "TFTTF",
+        "FFFFF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "TTFTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTFTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row374",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 380,
+      "general_rule_latex": "\\phi[TFFTT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TFFTT",
+        "truth_table_index": 19
+      },
+      "general_rule_assignments": [
+        "TFFTT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TFFTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFFTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row380",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 411,
+      "general_rule_latex": "\\phi[TTFFT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TTFFT",
+        "truth_table_index": 25
+      },
+      "general_rule_assignments": [
+        "TTFFT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TTFFT",
+        "TTTFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTFFT]\\lor\\phi[TTTFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row411",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 416,
+      "general_rule_latex": "\\phi[TTTFF]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TTTFF",
+        "truth_table_index": 28
+      },
+      "general_rule_assignments": [
+        "TTTFF"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TFTFF",
+        "TTTFF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFTFF]\\lor\\phi[TTTFF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row416",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 435,
+      "general_rule_latex": "(\\phi[TTFTF]\\land\\neg\\phi[FTFFF])\\lor(\\phi[TTFTF]\\land\\phi[FTFFF]\\land\\phi[TFFTF])",
+      "general_rule_ast": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "phi",
+                "assignment": "TTFTF",
+                "truth_table_index": 26
+              },
+              {
+                "op": "not",
+                "arg": {
+                  "op": "phi",
+                  "assignment": "FTFFF",
+                  "truth_table_index": 8
+                }
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "phi",
+                "assignment": "TTFTF",
+                "truth_table_index": 26
+              },
+              {
+                "op": "phi",
+                "assignment": "FTFFF",
+                "truth_table_index": 8
+              },
+              {
+                "op": "phi",
+                "assignment": "TFFTF",
+                "truth_table_index": 18
+              }
+            ]
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "TTFTF",
+        "FTFFF",
+        "TFFTF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "TTFTF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTFTF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row435",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 450,
+      "general_rule_latex": "\\phi[FFTFT]\\land\\neg\\phi[FTFFF]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "FFTFT",
+            "truth_table_index": 5
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FTFFF",
+              "truth_table_index": 8
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FFTFT",
+        "FTFFF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FFTFF",
+        "FFTFT",
+        "FTTFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFTFF]\\lor\\phi[FFTFT]\\lor\\phi[FTTFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row450",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 482,
+      "general_rule_latex": "\\phi[TTTTT]\\land\\neg\\phi[FTTFT]",
+      "general_rule_ast": {
+        "op": "and",
+        "args": [
+          {
+            "op": "phi",
+            "assignment": "TTTTT",
+            "truth_table_index": 31
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "phi",
+              "assignment": "FTTFT",
+              "truth_table_index": 13
+            }
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "TTTTT",
+        "FTTFT"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "TTTTT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TTTTT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row482",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 490,
+      "general_rule_latex": "(\\phi[FTTFT]\\land\\neg\\phi[TTTTT])\\lor(\\phi[FTTFT]\\land\\phi[TTTTT]\\land\\neg\\phi[TTTFT])",
+      "general_rule_ast": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "phi",
+                "assignment": "FTTFT",
+                "truth_table_index": 13
+              },
+              {
+                "op": "not",
+                "arg": {
+                  "op": "phi",
+                  "assignment": "TTTTT",
+                  "truth_table_index": 31
+                }
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "phi",
+                "assignment": "FTTFT",
+                "truth_table_index": 13
+              },
+              {
+                "op": "phi",
+                "assignment": "TTTTT",
+                "truth_table_index": 31
+              },
+              {
+                "op": "not",
+                "arg": {
+                  "op": "phi",
+                  "assignment": "TTTFT",
+                  "truth_table_index": 29
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FTTFT",
+        "TTTTT",
+        "TTTFT"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FTTFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FTTFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row490",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 492,
+      "general_rule_latex": "\\phi[TFTFT]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "TFTFT",
+        "truth_table_index": 21
+      },
+      "general_rule_assignments": [
+        "TFTFT"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "TFTFF",
+        "TFTFT",
+        "TTTFT"
+      ],
+      "disjunction_only_rule_latex": "\\phi[TFTFF]\\lor\\phi[TFTFT]\\lor\\phi[TTTFT]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row492",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 495,
+      "general_rule_latex": "\\phi[FFFTF]",
+      "general_rule_ast": {
+        "op": "phi",
+        "assignment": "FFFTF",
+        "truth_table_index": 2
+      },
+      "general_rule_assignments": [
+        "FFFTF"
+      ],
+      "general_rule_is_single_assignment": true,
+      "disjunction_only_assignments": [
+        "FFFTF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFFTF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row495",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    },
+    {
+      "unit": 499,
+      "general_rule_latex": "(\\phi[FFTFF]\\land\\neg\\phi[TFTTF])\\lor(\\phi[FFTFF]\\land\\phi[TFTTF]\\land\\phi[FFTTF])",
+      "general_rule_ast": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "phi",
+                "assignment": "FFTFF",
+                "truth_table_index": 4
+              },
+              {
+                "op": "not",
+                "arg": {
+                  "op": "phi",
+                  "assignment": "TFTTF",
+                  "truth_table_index": 22
+                }
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "phi",
+                "assignment": "FFTFF",
+                "truth_table_index": 4
+              },
+              {
+                "op": "phi",
+                "assignment": "TFTTF",
+                "truth_table_index": 22
+              },
+              {
+                "op": "phi",
+                "assignment": "FFTTF",
+                "truth_table_index": 6
+              }
+            ]
+          }
+        ]
+      },
+      "general_rule_assignments": [
+        "FFTFF",
+        "TFTTF",
+        "FFTTF"
+      ],
+      "general_rule_is_single_assignment": false,
+      "disjunction_only_assignments": [
+        "FFTFF"
+      ],
+      "disjunction_only_rule_latex": "\\phi[FFTFF]",
+      "source_general": "AppendixG Table2, PDFp34; arXivHTML row499",
+      "source_disjunction": "AppendixG Table3, PDFp35; notebookcell149 also prints assignments",
+      "native_exact_semantics": false
+    }
+  ]
+}

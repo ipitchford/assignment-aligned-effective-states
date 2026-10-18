@@ -1,0 +1,29 @@
+{
+  "bank_sha256": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b",
+  "contract_sha256": "9f25cb332a06c10dacb1315c8b5f7b7f7bbb9ef8a082c3cd2802f219902d3176",
+  "created_utc": "2026-10-15T22:34:47.498609+00:00",
+  "distinct_edited_tokens": 4322,
+  "mapping_sha256": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d",
+  "native_outcomes_inspected": false,
+  "selected_paired_queries": 2176,
+  "sha256": {
+    "../sat_case/MANIFEST.json": "b81f234d4c20185955760ae01ffdfea3239b4c6c1d204666792819b315524e82",
+    "../sat_case/pilot_bank.npz": "610d02cc85ba825b7ac3100efd30ad1ec8f90f02e11a9fe8444f0c62a9e2971b",
+    "../sat_case/pilot_common.py": "5f0f54e797ffadeb7b802fec07eae425a877ce7cfed4a5c9e9353ca91a939c61",
+    "../sat_case/runtime.py": "bbc76d5f2d4a856944f54269a6da2d388f0ea6aee81ab03d9486e2e5c8bca230",
+    "../sat_case/upstream/model.py": "7555e1f2f27546225397aa12de4fde1f6c903e9804766de477fe4c02770691ea",
+    "../sat_case/upstream/models/layers_2_heads_1_4_1M/900.pth": "d587446c64b7a8d68de93808ccf84a84364b85dcaf2149b8983b77895e24046d",
+    "analyze.py": "da30e74f6da41bed82ab389df9030f42b434fcd979334b6a8880dcff5a384459",
+    "contract.md": "9f25cb332a06c10dacb1315c8b5f7b7f7bbb9ef8a082c3cd2802f219902d3176",
+    "implementation_notes.md": "8dd377ae41bfc519cf5e63b9473eeaccf41e3b1063f9098a5ed3f18f0844849c",
+    "native.py": "b1c17cbe97b6ba7a707d4e8968a48a8df7369240662ee5b6ad2e3ae3acc36080",
+    "prepare_freeze.py": "8b5cc4aa14d46fb2ff7be50076441468b9a025096996ac038175f355ed0bcfcc",
+    "protocol.py": "4d6975916d733180b7f28e22ca677ae28d86717a032a97547749c889a2f57577",
+    "query_tokens.npz": "208fe4a7e5ead1c007fdff57424ac7c5838c2f0c5be4272f95c8b49ad2686b62",
+    "run_study.py": "960bef0dbf62b38ec26065b982725a09c84cd992f54babd138d60e89d61e8228",
+    "selected_queries.json": "afd5e553254698bfb89d79f97bc40c21b56692c92b5f683252cb6a1974bea255",
+    "selfcheck.py": "8ea71d63fd31169692e2f89cfc0f22d74ce31dd5f63b8d79eb8b5d569bdf4061",
+    "source_mapping.json": "5768a10f40de3c3a5a8b981a571992bd4d7f201b5034c87817f3c99221e9510d"
+  },
+  "status": "frozen before preactivation extraction"
+}
