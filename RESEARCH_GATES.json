@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "recordScope": "Retrospective publication intake on 2026-10-18, not a reconstructed prospective novelty protocol. Source checks are bounded and no first-priority claim is made.",
+  "contributionMap": [
+    {
+      "claim": "Fixed-checkpoint assignment-aligned empirical audit separating semantic labels, native-coordinate events, learned-basis prediction and readout sufficiency.",
+      "unit": "identification",
+      "paperLocation": "paper.md: abstract, contribution comparison and audit contract",
+      "searches": [{"date":"2026-10-18","query":"Palumbo axiomatic interpretability 34 units threshold SAT mechanism; direct primary-source comparison","corpus":"ICML primary landing page and arXiv version-2 full text"}],
+      "closestPriorWork": "Palumbo et al. sections4.1–4.2 and AppendixD already identify34 relevant units and approximate threshold contributions.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Endpoint-dependent intervention and readout diagnostics are an audit method, not a new general causal-abstraction theory.",
+      "unit": "method",
+      "paperLocation": "paper.md: audit contract, intervention analysis and discussion",
+      "searches": [{"date":"2026-10-18","query":"Causal abstraction intervention-dependent faithfulness; Already Clean feature count versus learning mechanism; direct source comparison","corpus":"JMLR source identity and Goodfire primary mechanism discussion"}],
+      "closestPriorWork": "Geiger et al. causal abstraction and Cammarata's distinction between representational descriptions and learning mechanisms.",
+      "verdict": "known-cited"
+    },
+    {
+      "claim": "Finite edit obstruction and transparent numerical rank/readout accounting for the tested checkpoint.",
+      "unit": "statement",
+      "paperLocation": "paper.md: finite edit obstruction and rank/readout results; supplement.md derivations",
+      "searches": [{"date":"2026-10-18","query":"Palumbo semantic assignment labels, native threshold and weighted-count interpretation: comparison to finite audit claims","corpus":"Primary source full-text sections4.1–4.2 and AppendixD; bounded publication comparison"}],
+      "closestPriorWork": "Source mechanism and weighted-count interpretation are prior work; the finite obstruction and explicit audit accounting are candidate-specific tests, not universal claims.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Fresh history-excluded source-style input-bank evaluation on the same checkpoint.",
+      "unit": "object",
+      "paperLocation": "paper.md: prospective input-bank results; prospective/README.md",
+      "searches": [{"date":"2026-10-18","query":"Source RandomCNFs distinct-clause sampling versus historical replacement grammar; exact source-code and mechanism comparison","corpus":"Pinned Palumbo source and publication source check"}],
+      "closestPriorWork": "Palumbo training grammar is the antecedent. The new balanced bank tests a bounded input-distribution change, not new independently trained models.",
+      "verdict": "partially-known-cited"
+    }
+  ],
+  "sourcesReadInFull": [
+    {"citation":"Palumbo et al., ICML2025, arXiv2407.13594v2","usedFor":"Attribution of34units, positive SAT contributions and threshold interpretation; comparison with this audit.","readWhat":"Relevant full-text sections4.1–4.2 and AppendixD, not a claim to have freshly rechecked every appendix or experiment.","date":"2026-10-18","evidenceLocator":"https://arxiv.org/html/2407.13594v2 sections4.1–4.2 and AppendixD; CITATION_AUDIT.md"},
+    {"citation":"Cammarata, Neural Networks Are Already Clean","usedFor":"Distinguish feature-count descriptions from proposed learning mechanisms.","readWhat":"Relevant full-text mechanism and superposition-distinction paragraphs; not every public response or linked experiment.","date":"2026-10-18","evidenceLocator":"https://already-clean.goodfire.com/ mechanism discussion; CITATION_AUDIT.md"}
+  ],
+  "limitationTriage": [
+    {"limitation":"Single trained checkpoint does not establish cross-checkpoint or cross-architecture mechanism.","closingQuestion":"Can inexpensive independent training yield valid replication?","triedOrSearched":"Short training feasibility pilots were attempted and did not yield adequate independent mechanism evidence.","estimatedCost":"Further controlled training and analysis exceeds a short publication repair; unknown compute cost.","cheap":false,"decision":"OPEN","reasonOpen":"Failed feasibility pilots do not constitute replication."},
+    {"limitation":"Fresh bank is balanced and history-excluded, not the unrestricted training distribution.","closingQuestion":"Can source-style unseen inputs test robustness without changing the checkpoint?","triedOrSearched":"New4096-row bank and portable native evaluation/recount completed; exact scope retained in prospective/README.md.","estimatedCost":"Completed bounded evaluation.","cheap":true,"decision":"CLOSED"},
+    {"limitation":"The bounded input-bank test still does not imply arbitrary-distribution generalization.","closingQuestion":"Does the finite bank imply a universal generalization theorem?","triedOrSearched":"Compared sampling grammar and conditioning with source; no such inference follows.","estimatedCost":"New theoretical or multi-distribution research, not a cheap checker.","cheap":false,"decision":"OPEN","reasonOpen":"Finite balanced evidence cannot close the universal claim."},
+    {"limitation":"Native and semantic endpoints, numerical rank, prediction and causal recovery are distinct.","closingQuestion":"Can precise definitions and counterexamples close interpretive conflation?","triedOrSearched":"Review repairs define endpoint conventions, matching statistic, numerical-rank qualification and finite edit obstruction; claims remain endpoint-specific.","estimatedCost":"Completed revision and targeted checks.","cheap":true,"decision":"CLOSED"},
+    {"limitation":"A general causal semantic recovery or learning-mechanism identification is not established.","closingQuestion":"Do readout or intervention scores discriminate all competing accounts?","triedOrSearched":"Checked mechanism distinction against Palumbo and Goodfire; finite scores alone are insufficient.","estimatedCost":"New discriminating interventions and model families; unknown cost.","cheap":false,"decision":"OPEN","reasonOpen":"No general causal-identification theorem or multi-model evidence supplied."},
+    {"limitation":"Five image-dependent stages and18opaque pickle identities are not publicly replayable; one diagnostic log unavailable.","closingQuestion":"Can all historical bytes legally and safely be redistributed?","triedOrSearched":"Rights and dependency audit; retained numerical inputs and explicit omission catalogues,18-stage public runner and scoped identity exceptions.","estimatedCost":"Rights clearance unavailable; no bounded estimate.","cheap":false,"decision":"OPEN","reasonOpen":"Public accessibility is not redistribution permission; unavailable bytes are not validated."},
+    {"limitation":"Three inherited architecture files require external exact-source setup.","closingQuestion":"Can public native replay proceed without redistributing uncleared code?","triedOrSearched":"Explicit hash-pinned external setup and disposable injection tested; source/copy integrity checked; corrupt source rejected.","estimatedCost":"Completed adapter and negative control.","cheap":true,"decision":"CLOSED"},
+    {"limitation":"Independent reproduction, formal verification and exhaustive priority audit are not claimed.","closingQuestion":"Do hosted CI or local replay establish those stronger assurance dimensions?","triedOrSearched":"Separated manifest CI, local full available replay, bounded citation audit and AI-assisted review.","estimatedCost":"Independent external work and broader literature investigation required.","cheap":false,"decision":"OPEN","reasonOpen":"Publisher-host replay and limited source checks cannot supply these assurance claims."}
+  ],
+  "extensionScout": {
+    "by":"AI-assisted publication research team",
+    "date":"2026-10-18",
+    "proposals":["Test a new source-style bank rather than only historical examples.","Assess independent-training feasibility.","Clarify semantic/native targets and rank/readout limits."],
+    "actions":["Completed4096-row history-excluded balanced-bank evaluation with portable native adapter and recount.","Reported short training pilots as insufficient, not replication.","Revised manuscript and supplement with explicit definitions, limitations and source attribution."]
+  }
+}

@@ -20,3 +20,8 @@ Historical frozen files remain historical. The pinned presentation-derivative
 map binds edited prose separately. The margin replay excludes 17 unavailable
 pickle-byte checks; its remaining arithmetic and shipped-input checks are
 separately reported. Do not load opaque model pickles; none are distributed.
+
+Direct entry points: [Paper](paper.pdf), [Supplement](supplement.pdf),
+[Claim map](claim_evidence_map.json), [Evidence guide](EVIDENCE_GUIDE.md),
+[Replay](reproduce.py), [Research scope records](RESEARCH_GATES.json),
+[Assurance boundaries](ASSURANCE.md), and [Public input scope](PUBLIC_PACKAGE_SCOPE.md).

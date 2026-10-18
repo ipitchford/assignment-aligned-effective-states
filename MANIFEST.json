@@ -13,8 +13,8 @@
     },
     {
       "path": "AI_INDEX.md",
-      "size": 1349,
-      "sha256": "212f3636708b882ee7b0d720d2c7e214a26ce92d1d6cfc8e05968bde6a2f3b75"
+      "size": 1656,
+      "sha256": "45a3e37f288255f2ce1f597b0161eb0b35c0297c5d6a15dfa4201c176b88fa66"
     },
     {
       "path": "ASSURANCE.md",
@@ -90,6 +90,11 @@
       "path": "README.md",
       "size": 3318,
       "sha256": "639166a17b01c1e4f0aa0e8824b3ea6085600d575952d634c0e393e9928880db"
+    },
+    {
+      "path": "RESEARCH_GATES.json",
+      "size": 8660,
+      "sha256": "90f3a8c4dd04ca5a150541a99015467c338f06790eb2925d9397f13f6220b2be"
     },
     {
       "path": "STATUS.md",
